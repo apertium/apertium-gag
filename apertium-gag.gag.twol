@@ -1,7 +1,15 @@
 Alphabet
  A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
  a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
- %{A%}:a %>:0  ;
+ %{A%}:a %{A%}:e
+ %{I%}:u %{i%}:i %{I%}:ı %{I%}:ü
+ %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü
+ %{s%}:s %{s%}:0
+ %{n%}:n %{n%}:0
+ %{D%}:d %{D%}:t
+ %{L%}:l %{L%}:n
+
+ %>:0  ;
 
 Sets
 
