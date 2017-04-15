@@ -1,0 +1,19 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/Makefile.in -text
+/NEWS -text
+/README -text
+/apertium-gag.gag.lexc -text
+/apertium-gag.gag.rlx -text
+/apertium-gag.gag.twol -text
+/apertium-gag.pc.in -text
+/apertium-gag.post-gag.dix -text
+/autogen.sh -text
+/configure.ac -text
+dev/countstems.sh -text
+/gag.prob -text svneol=unset#unset
+/modes.xml -text
