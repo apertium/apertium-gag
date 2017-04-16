@@ -90,9 +90,13 @@ LEXICON Numerals
 
 bir:bir NUM ; 
 iki:iki NUM ; 
-
+üç:üç NUM ;
+üz:üz NUM ;
 dört:dört NUM ; 
+beş: beş NUM;
+altı: altı NUM ;
 
+otuz:otuz ;
 LEXICON Nouns
 
 ara:ara N1 ; ! ""
