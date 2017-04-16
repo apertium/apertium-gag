@@ -4,7 +4,6 @@
 /ChangeLog -text
 /INSTALL -text
 /Makefile.am -text
-/Makefile.in -text
 /NEWS -text
 /README -text
 /apertium-gag.gag.lexc -text
