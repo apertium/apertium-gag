@@ -62,6 +62,7 @@ LEXICON N1
 %<n%>: SUBST ; 
 
 LEXICON NP-TOP
+%<np%>%<top%>:# ;
 
 %<np%>%<top%>: CASE ; 
 
@@ -97,6 +98,7 @@ beş: beş NUM;
 altı: altı NUM ;
 
 otuz:otuz NUM ;
+
 LEXICON Nouns
 
 ara:ara N1 ; ! ""
@@ -169,6 +171,7 @@ merkez:merkez N1 ; ! ""
 millet:millet N1 ; ! ""
 
 muzika:muzika N1 ; ! ""
+Nikolay:Nikolay N1 ; ! ""
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
 politika:politika N1 ; ! ""
@@ -225,7 +228,7 @@ Litvaniya:Litvaniya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
 Moldovaya:Moldovaya NP-TOP ; ! ""
 Moskva:Moskva NP-TOP ; ! ""
-Moldova:Moldova  NP-Top ; ! ""
+Moldova:Moldova  NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
 Serbiya:Serbiya NP-TOP ; ! ""
@@ -262,4 +265,5 @@ Milli:Milli A1 ; ! ""
 temel:temel A1 ; ! ""
 İngiliz:İngiliz A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
+
 
