@@ -3,12 +3,14 @@ Multichar_Symbols
 
 %<n%>             ! Noun
 %<adj%>
+%<prn%>   !Pronun
 %<np%>
+%<adv%>   !Adverb
+%<cnjcoo%>
 
 %<top%>
+%<ant%>
 
-%<subst%>
-%<attr%>
 
 %<ord%>
 
@@ -27,6 +29,28 @@ Multichar_Symbols
 %{y%}
 %{A%}
 
+!! gender of anthroponyms 
+%<m%>              ! Masculine    
+%<f%>              ! Feminine     
+%<mf%>             ! Either
+
+! "Syntactic" tags. Attributive use of non-adjectives etc. !!!!! NOT SURE I WANT THIS !!!!
+%<attr%>           ! Attributive
+%<subst%>          ! Substantive
+%<advl%>           ! Adverbial
+
+! Pronoun types ! Алмашлык төрләре ! Виды местоимений
+
+%<pers%>           ! Personal
+! Pronoun and determiner types
+%<dem%>            ! Demonstrative
+%<ind%>            ! Indefinite
+%<itg%>            ! Interrogative
+%<qnt%>            ! Quantifier
+%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs ! what do you mean firespeaker??
+%<ref%>            ! Reflexive
+%<recip%>          ! Reciprocal
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -36,15 +60,41 @@ LEXICON Root
 Numerals ;
 Nouns ;
 ProperNouns ; 
+Pronouns ; 
 Adjectives ;
+Adverbs ; 
+Conjunctions ;
+Postpositions ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON ADV3
+
+%<adv%>: # ;
+
+LEXICON ADV4
+
+%<adv%>: # ; ! this is for when the adverb is used as an adverb
+%<adv%>%<subst%>: SUBST ;
+%<adv%>%<attr%>:ki # ;
+
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ;
+
+LEXICON CC 
+
+%<cnjcoo%>: # ;
 
 LEXICON CASE 
 
 %<nom%>: # ;
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<gen%>:%>%{D%}%{A%} # ;
+
+LEXICON POST
+
+%<post%>: # ;
 
 LEXICON POSS 
 
@@ -73,6 +123,11 @@ LEXICON NUM
 %<num%>%<ord%>:%>%{i%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;
 
+LEXICON PRON-REF
+%<prn%>%<ref%>: # ;
+%<prn%>%<ref%>%<pl%>:# ;
+
+
 LEXICON A1 
 
 %<adj%>: # ;
@@ -81,6 +136,31 @@ LEXICON A2
 
 %<adj%>: # ;
 %<adj%>%<subst%>: SUBST ; 
+
+
+
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: #;
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: #;
+
+
+
+LEXICON PRON-DEM-O
+
+%<prn%>%<dem%>%<nom%>: # ;
+
+LEXICON PRON-DEM-BU
+
+%<prn%>%<dem%>%<nom%>: # ;
+
+LEXICON PRON-PERS-O 
+
+%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -99,26 +179,31 @@ altı: altı NUM ;
 
 otuz:otuz NUM ;
 
+
+
 LEXICON Nouns
 
 ara:ara N1 ; ! ""
 alt:alt N1 ; ! ""
 üst:üst N1 ; ! ""
+içinde:içinde N1 ; ! ""
+
 
 asker:asker N1 ; ! ""
 arest:arest N1 ; ! ""
 ev:ev N1 ; ! "дом"
 adam:adam N1 ; ! "человек"
 bey:bey N1 ; ! ""
-Bakannık:Bakannık N1 ; ! ""
+bakannık:Bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
+boy:boy N1 ; ! "length"
 Ceviz:Ceviz N1 ; ! ""
 Canavar:Canavar N1 ; ! ""
 çocuk:çocuk N1 ; ! ""
 dil:dil N1 ; ! "язык"
 dünnää:dünnää N1 ; ! ""
-Dmitriy:Dmitriy N1 ; ! ""
-Dionis:Dionis N1 ; ! ""
+
+
 resim:res%{y%}m N1 ; ! "образ"
 devlet:devlet N1 ; ! "государство"
 yıl:yıl N1 ; ! "год"
@@ -130,10 +215,11 @@ aktrisa:aktrisa N1 ; ! ""
 aktyör:aktyör N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
 avtor:avtor N1 ; ! ""
-Baba:Baba N1 ; ! ""
+baba:Baba N1 ; ! ""
 ay:ay N1 ; ! ""
 balık:balık N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
+ceviz:ceviz N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
 deputat:deputat N1 ; ! ""
 direktor:direktor N1 ; ! ""
@@ -141,15 +227,15 @@ diil:diil N1 ; ! ""
 Din:Din N1 ; ! ""
 ekonomika:ekonomika N1 ; ! ""
 Eduard:Eduard N1 ; ! ""
-Fatma:Fatma N1 ; ! ""
-Fırat:Fırat N1 ; ! ""
+
+
 festival:festival N1 ; ! ""
 fevral:fevral N1 ; ! ""
 fizikacı:fizikacı N1 ; ! ""
-Gaguaz:Gaguaz N1 ; ! ""
+
 gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
-Jüri:Jüri N1 ; ! ""
+jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
@@ -158,25 +244,25 @@ insan:insan N1 ; ! ""
 iș:iș N1 ; ! ""
 istoriya:istoriya N1 ; ! ""
 Kasım:Kasım N1 ; ! ""
-Kardaş:Kardaş N1 ; ! ""
+kardaş:Kardaş N1 ; ! ""
 Kırım:Kırım N1 ; ! ""
-Kirez:Kirez N1 ; ! ""
+kirez:kirez N1 ; ! ""
 kultura:kultura N1 ; ! ""
-Kız:Kız N1 ; ! ""
+kız:kız N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
-Mariya:Mariya N1 ; ! ""
+
 merkez:merkez N1 ; ! ""
 millet:millet N1 ; ! ""
 
 muzika:muzika N1 ; ! ""
-Nikolay:Nikolay N1 ; ! ""
+
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
-Padişah:Padişah N1 ; ! ""
+padişah:padişah N1 ; ! ""
 pay:pay N1 ; !""
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
@@ -194,7 +280,7 @@ teklif:teklif N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
 türk:türk N1 ; ! ""
-Türk:Türk N1 ; ! ""
+
 
 universitet:universitet N1 ; ! ""
 ușak:ușak N1 ; ! ""
@@ -204,7 +290,7 @@ yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
 yazmaa:yazmaa N1 ; ! ""
-Yunus:Yunus N1 ; ! ""
+
 zaman:zaman N1 ; ! ""
 
 
@@ -241,6 +327,19 @@ Vengriya:Vengriya NP-TOP ; ! ""
 İspaniya:İspaniya NP-TOP ; ! ""
 Șvețiya:Șvețiya NP-TOP ; ! ""
 
+
+
+
+Nikolay:Nikolay NP-ANT-M ; ! ""
+Mariya:Mariya NP-ANT-F ; ! ""
+Fatma:Fatma NP-ANT-F ; ! ""
+Dmitriy:Dmitriy NP-ANT-M ; ! ""
+Fırat:Fırat NP-ANT-F ; ! ""
+Yunus:Yunus NP-ANT-M  ; ! ""
+Dionis:Dionis NP-ANT-M ; ! ""
+
+
+
 LEXICON Adjectives 
 
 küçük:küçük A2 ; ! ""
@@ -253,17 +352,45 @@ bütün:bütün A2 ; ! ""
 eski:eski A1 ; ! ""
 sade:sade A1 ; ! ""
 peri:peri A1 ; ! ""
-Paalı:palı A1 ; ! ""
+paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
 çok:çok A1 ; ! ""
-
+ani:ani A1 ; ! ""
 eni:eni A1 ; ! ""
 Birleşik:Birleşik A1 ; ! ""
 gözäl:gözäl A1 ; ! ""
 yakın:yakın A1 ; ! ""
-Milli:Milli A1 ; ! ""
+milli:milli A1 ; ! ""
 temel:temel A1 ; ! ""
-İngiliz:İngiliz A1 ; ! ""
+türk:türk A1 ; ! ""
+gaguaz:gaguaz A1 ; ! ""
+ingiliz:ingiliz A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
+pek:pek A1 ; ! ""
+
+
+LEXICON Adverbs 
+taa:taa ADV3;
+nicä:nicä ADV-ITG ;
+daha:daha ADV3 ;
+sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
+
+LEXICON  Conjunctions
+hem:hem CC;
+ama:ama CC ; 
+ne:ne CC ;
+ve:ve CC ; ! "and"
+da:da CC; !
+
+LEXICON Pronouns 
+o:o PRON-PERS-O ; ! ""
+bu:bu PRON-DEM-BU ; ! ""
+kendi:kendi PRON-REF ; ! "self"
+
+o:o PRON-DEM-O ; ! ""
+
+LEXICON Postpositions
+başka:başka POST ; ! ""
+görä:görä POST ; ! ""
 
 
