@@ -9,6 +9,8 @@ Multichar_Symbols
 %<cnjcoo%>
 %<cnjsub%>
 %<cnjadv%>
+%<det%>
+
 
 %<top%>
 %<ant%>
@@ -58,15 +60,17 @@ Multichar_Symbols
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
-
+Miscellaneous ;
 Numerals ;
 Nouns ;
 ProperNouns ; 
 Pronouns ; 
 Adjectives ;
-Adverbs ; 
+Adverbs ;
+Determiners ; 
 Conjunctions ;
 Postpositions ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -107,7 +111,6 @@ LEXICON POST
 %<post%>: # ;
 
 LEXICON POSS 
-%<px3sp%>:%>%{s%}%{I%} ;
 %<px3sp%>:%>%{s%}%{I%} CASE ;
 
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASE ; 
@@ -139,6 +142,8 @@ LEXICON NUM
 LEXICON PRON-REF
 %<prn%>%<ref%>: # ;
 %<prn%>%<ref%>%<pl%>:# ;
+
+
 
 
 LEXICON A1 
@@ -199,20 +204,25 @@ LEXICON Nouns
 ara:ara N1 ; ! ""
 alt:alt N1 ; ! ""
 üst:üst N1 ; ! ""
-içinde:içinde N1 ; ! ""
+iç:iç N1 ; ! ""
+karşı:karşı N1 ; ! ""
 
-
+arhitektura:arhitektura N1 ; ! ""
 asker:asker N1 ; ! ""
 arest:arest N1 ; ! ""
 ev:ev N1 ; ! "дом"
 adam:adam N1 ; ! "человек"
+açan:açan N1 ; ! 
 bey:bey N1 ; ! ""
 bakannık:Bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
+baal:baal N1 ; ! ""
 boy:boy N1 ; ! "length"
+bilim:bilim N1 ; ! ""
 
 canavar:canavar N1 ; ! ""
 çocuk:çocuk N1 ; ! ""
+Çadır:Çadır N1 ; ! ""
 dil:dil N1 ; ! "язык"
 dünnää:dünnää N1 ; ! ""
 
@@ -231,6 +241,7 @@ avtor:avtor N1 ; ! ""
 baba:baba N1 ; ! ""
 ay:ay N1 ; ! ""
 balık:balık N1 ; ! ""
+Başkan:Başkan N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
 ceviz:ceviz N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
@@ -255,9 +266,11 @@ harman:harman N1 ; ! ""
 hepsi:hepsi N1 ; ! ""
 insan:insan N1 ; ! ""
 iș:iș N1 ; ! ""
+ilgi:ilgi N1 ; ! ""
 istoriya:istoriya N1 ; ! ""
-Kasım:Kasım N1 ; ! ""
+kasım:kasım N1 ; ! ""
 kardaş:Kardaş N1 ; ! ""
+kerä:kerä N1 ; ! ""
 Kırım:Kırım N1 ; ! ""
 kirez:kirez N1 ; ! ""
 kultura:kultura N1 ; ! ""
@@ -266,6 +279,7 @@ kız:kız N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
+lista:lista N1 ;! ""
 
 merkez:merkez N1 ; ! ""
 millet:millet N1 ; ! ""
@@ -274,6 +288,7 @@ muzika:muzika N1 ; ! ""
 
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
+ölä:ölä N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişah N1 ; ! ""
@@ -294,6 +309,7 @@ teklif:teklif N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
 türk:türk N1 ; ! ""
+Territorial:Territorial N1 ; ! ""
 
 
 universitet:universitet N1 ; ! ""
@@ -309,11 +325,13 @@ zaman:zaman N1 ; ! ""
 
 
 LEXICON ProperNouns 
+Afrika:Afrika NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
+Azerbaycan:Azerbaycan NP-TOP ; ! ""
 Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
 Estoniya:Estoniya NP-TOP ; ! ""
@@ -353,6 +371,7 @@ Fırat:Fırat NP-ANT-F ; ! ""
 Fırat:Fırat NP-ANT-M ; ! ""
 Yunus:Yunus NP-ANT-M  ; ! ""
 Dionis:Dionis NP-ANT-M ; ! ""
+Mihail:Mihail NP-ANT-M ; ! ""
 
 
 
@@ -360,6 +379,7 @@ LEXICON Adjectives
 
 küçük:küçük A2 ; ! ""
 genç:genç A2 ; ! ""
+türlü:türlü A2 ; ! ""
 zor:zor  A1 ; ! ""
 özel:özel A1 ; ! ""
 büük:büük A2 ; ! ""
@@ -367,6 +387,7 @@ ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
 eski:eski A1 ; ! ""
 sade:sade A1 ; ! ""
+şindi:şindi A1 ; ! ""
 peri:peri A1 ; ! ""
 paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
@@ -390,16 +411,23 @@ taa:taa ADV3;
 en:en ADV3;
 nicä:nicä ADV-ITG ;
 daha:daha ADV3 ;
+genä:genä ADV3 ;
+hiç:hiç ADV3 ; ! "none"
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 
+
+LEXICON Miscellaneous 
+da%<postadv%>:da # ;
+dä%<postadv%>:dä # ;
+
 LEXICON  Conjunctions
-hem:hem CC;
+hem:hem CC ;
 ama:ama CC ; 
 ne:ne CC ;
 ve:ve CC ; ! "and"
-da:da CC; ! ""
 a:a CC ; ! ""
 
+olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
 çünki:çünki CS ; ! ""
 bile:bile CS ; ! ""
@@ -418,4 +446,9 @@ başka:başka POST ; ! ""
 görä:görä POST ; ! ""
 için:için POST ; ! ""
 
+LEXICON DET-QNT
 
+%<det%>%<qnt%>: # ;
+
+LEXICON Determiners
+hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
