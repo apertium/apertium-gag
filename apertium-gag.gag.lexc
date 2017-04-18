@@ -7,6 +7,8 @@ Multichar_Symbols
 %<np%>
 %<adv%>   !Adverb
 %<cnjcoo%>
+%<cnjsub%>
+%<cnjadv%>
 
 %<top%>
 %<ant%>
@@ -82,9 +84,17 @@ LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ;
 
+LEXICON CS
+
+%<cnjsub%>: # ;
+
 LEXICON CC 
 
 %<cnjcoo%>: # ;
+
+LEXICON CA
+
+%<cnjadv%>: # ;
 
 LEXICON CASE 
 
@@ -97,9 +107,12 @@ LEXICON POST
 %<post%>: # ;
 
 LEXICON POSS 
+%<px3sp%>:%>%{s%}%{I%} ;
+%<px3sp%>:%>%{s%}%{I%} CASE ;
 
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASE ; 
-                            CASE ; 
+                            CASE ;
+ 
 
 LEXICON SUBST 
 
@@ -112,7 +125,7 @@ LEXICON N1
 %<n%>: SUBST ; 
 
 LEXICON NP-TOP
-%<np%>%<top%>:# ;
+%<np%>%<top%>: # ;
 
 %<np%>%<top%>: CASE ; 
 
@@ -197,8 +210,8 @@ bey:bey N1 ; ! ""
 bakannık:Bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
 boy:boy N1 ; ! "length"
-Ceviz:Ceviz N1 ; ! ""
-Canavar:Canavar N1 ; ! ""
+
+canavar:canavar N1 ; ! ""
 çocuk:çocuk N1 ; ! ""
 dil:dil N1 ; ! "язык"
 dünnää:dünnää N1 ; ! ""
@@ -215,7 +228,7 @@ aktrisa:aktrisa N1 ; ! ""
 aktyör:aktyör N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
 avtor:avtor N1 ; ! ""
-baba:Baba N1 ; ! ""
+baba:baba N1 ; ! ""
 ay:ay N1 ; ! ""
 balık:balık N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
@@ -248,6 +261,7 @@ kardaş:Kardaş N1 ; ! ""
 Kırım:Kırım N1 ; ! ""
 kirez:kirez N1 ; ! ""
 kultura:kultura N1 ; ! ""
+kasaba:kasaba N1 ; ! ""
 kız:kız N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
 laf:laf N1 ; ! ""
@@ -309,6 +323,7 @@ Horvatiya:Horvatiya NP-TOP ; ! ""
 Kazahstan:Kazahstan NP-TOP ; ! ""
 Koreya:Koreya NP-TOP ; ! ""
 Krım:Krım NP-TOP ; ! ""
+Komrat:Komrat NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
@@ -335,6 +350,7 @@ Mariya:Mariya NP-ANT-F ; ! ""
 Fatma:Fatma NP-ANT-F ; ! ""
 Dmitriy:Dmitriy NP-ANT-M ; ! ""
 Fırat:Fırat NP-ANT-F ; ! ""
+Fırat:Fırat NP-ANT-M ; ! ""
 Yunus:Yunus NP-ANT-M  ; ! ""
 Dionis:Dionis NP-ANT-M ; ! ""
 
@@ -357,7 +373,7 @@ resmi:resmi A1 ; ! ""
 çok:çok A1 ; ! ""
 ani:ani A1 ; ! ""
 eni:eni A1 ; ! ""
-Birleşik:Birleşik A1 ; ! ""
+birleşik:birleşik A1 ; ! ""
 gözäl:gözäl A1 ; ! ""
 yakın:yakın A1 ; ! ""
 milli:milli A1 ; ! ""
@@ -371,6 +387,7 @@ pek:pek A1 ; ! ""
 
 LEXICON Adverbs 
 taa:taa ADV3;
+en:en ADV3;
 nicä:nicä ADV-ITG ;
 daha:daha ADV3 ;
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
@@ -380,7 +397,14 @@ hem:hem CC;
 ama:ama CC ; 
 ne:ne CC ;
 ve:ve CC ; ! "and"
-da:da CC; !
+da:da CC; ! ""
+a:a CC ; ! ""
+
+ki:ki CS ; ! ""
+çünki:çünki CS ; ! ""
+bile:bile CS ; ! ""
+
+yoksa:yoksa CA ; ! ""
 
 LEXICON Pronouns 
 o:o PRON-PERS-O ; ! ""
@@ -392,5 +416,6 @@ o:o PRON-DEM-O ; ! ""
 LEXICON Postpositions
 başka:başka POST ; ! ""
 görä:görä POST ; ! ""
+için:için POST ; ! ""
 
 
