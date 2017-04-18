@@ -111,7 +111,6 @@ LEXICON POST
 %<post%>: # ;
 
 LEXICON POSS 
-%<px3sp%>:%>%{s%}%{I%} CASE ;
 
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASE ; 
                             CASE ;
@@ -128,7 +127,6 @@ LEXICON N1
 %<n%>: SUBST ; 
 
 LEXICON NP-TOP
-%<np%>%<top%>: # ;
 
 %<np%>%<top%>: CASE ; 
 
