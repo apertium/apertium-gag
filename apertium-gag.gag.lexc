@@ -211,7 +211,7 @@ iç:iç N1 ; ! ""
 karşı:karşı N1 ; ! ""
 
 at:at N1 ; ! ""
-Anna:Anna N1 ; !"" 
+anna:anna N1 ; !"" 
 arhitektura:arhitektura N1 ; ! ""
 asker:asker N1 ; ! ""
 arest:arest N1 ; ! ""
@@ -359,7 +359,7 @@ yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
 yazmaa:yazmaa N1 ; ! ""
-yuva:Yuva N1 ; ! ""
+yuva:yuva N1 ; ! ""
 
 zaman:zaman N1 ; ! ""
 
