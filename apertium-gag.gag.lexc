@@ -10,7 +10,13 @@ Multichar_Symbols
 %<cnjsub%>
 %<cnjadv%>
 %<det%>
-
+%<sent%>
+%<guio%>
+%<apos%>
+%<rquot%>
+%<rpar%>
+%<lpar%>
+%<cm%>
 
 %<top%>
 %<ant%>
@@ -74,6 +80,7 @@ Adverbs ;
 Determiners ; 
 Conjunctions ;
 Postpositions ;
+Punctuation;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -517,3 +524,32 @@ LEXICON DET-QNT
 
 LEXICON Determiners
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+%:%<sent%>:%: # ;
+%;%<sent%>:%; # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ; ! hyphen/minus
+%–%<guio%>:%– # ; ! en dash
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%”%<rquot%>:%” # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+%/%<sent%>:%/ # ;
+
+! Temporary numeral lexicon
+<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+LEXICON DIGITLEX
+
+%<num%>: # ;
