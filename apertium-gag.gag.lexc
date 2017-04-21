@@ -74,6 +74,7 @@ LEXICON Root
 Miscellaneous ;
 Numerals ;
 Nouns ;
+Verbs;
 ProperNouns ; 
 Pronouns ; 
 Adjectives ;
@@ -85,6 +86,38 @@ Punctuation;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-PERS-S2
+
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>%{i%}n # ; 
+%<p3%>%<sg%>: #; 
+%<p1%>%<pl%>:%>%k # ; 
+%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ; 
+
+
+LEXICON V-FINITE-REGULAR_NEGATIVE
+
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+
+LEXICON V-COMMON 
+
+V-FINITE-REGULAR_NEGATIVE ;
+
+LEXICON V-IV 
+
+%<v%>%<iv%>: V-COMMON ; 
+
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: V-COMMON ; 
+
+
+
+
+
 
 LEXICON ADV3
 
@@ -526,6 +559,39 @@ LEXICON DET-QNT
 LEXICON Determiners
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 
+LEXICON Verbs
+al:al V-TV ; ! "take"
+işle:işle V-IV; ! "work/работать"
+dur:dur V-IV;
+çek:çek V-IV  ;
+yaşa:yaşa V-IV ;
+de:de V-TV ; 
+git:git V-IV ;
+ver:ver V-TV ;
+çık:çık V-IV ;
+gir:gir V-IV ;
+gel:gel V-IV ;
+geç:geç V-IV ;
+başla:başla V-IV ;
+yap:yap V-TV ;
+et:et V-TV ;
+ol:ol V-IV ;
+var:var V-IV ;
+katıl:katıl V-TV ;
+kablet:kablet V-TV ;
+seç:seç V-TV ;
+kur:kur V-TV ;
+koy:koy V-TV ;
+kal:kal V-IV ;
+yaz:yaz V-TV ;
+düş:düş V-TV ;
+aç:aç V-TV ;
+başar:başar V-TV ;
+çıkar:çıkar V-TV ;
+toplan:toplan V-TV ;
+
+
+
 LEXICON Punctuation
 
 .%<sent%>:. # ;
@@ -540,6 +606,7 @@ LEXICON Punctuation
 %”%<rquot%>:%” # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
+
 %»%<rquot%>:%» # ;
 %“%<lquot%>:%“ # ;
 %(%<lpar%>:%( # ;
@@ -554,3 +621,4 @@ LEXICON Punctuation
 LEXICON DIGITLEX
 
 %<num%>: # ;
+
