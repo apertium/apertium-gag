@@ -1,6 +1,8 @@
 Alphabet
- A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
- a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
+
+    A Ä B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
+    a ä b c ç d e ê f g h ı i̇ j k l m n o ö p r s ş ș t ţ ț u ü v y z
+
  %{A%}:a %{A%}:e
  %{I%}:u %{I%}:i %{I%}:ı %{I%}:ü
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
@@ -18,8 +20,8 @@ Vowel = A E Ä I O Ö U Ü Y Ý
 
 Rules 
 
-"Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+"Delete morpheme boundary"
+%>:0 <=> _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
