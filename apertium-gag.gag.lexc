@@ -71,6 +71,7 @@ Multichar_Symbols
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
+
 Miscellaneous ;
 Numerals ;
 Nouns ;
@@ -145,11 +146,79 @@ LEXICON CA
 
 %<cnjadv%>: # ;
 
-LEXICON CASE 
+LEXICON CASES
 
 %<nom%>: # ;
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<loc%>:%>%{D%}%{A%} # ;
+%<abl%>:%>%{D%}%{A%}n # ;
+%<acc%>:%>%{y%}%{I%} # ;
+%<dat%>:%>%{y%}%{A%} # ;
+
+
+
+LEXICON PRON-PERS-BÄN
+
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:än # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:änin # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:änink%{i%}%{n%} CASES ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:äna # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:äni # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ända # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:ändan # ;
+
+
+LEXICON PRON-PERS-SÄN
+
+%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:än # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:änin # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>%<subst%>:änink%{i%}%{n%} CASES ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:äna # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:äni # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ända # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:ändan # ; 
+
+LEXICON PRON-PERS-O 
+
+%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nun # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:na # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nu # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
+
+LEXICON PRON-PERS-BIZ
+
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:e # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
+
+LEXICON PRON-PERS-SIZ
+
+%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:in # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:ink%{i%}%{n%} CASES ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:e # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:i # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
+
+
+LEXICON PRON-PERS-ONNAR
+
+%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:nın # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:a # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:ı # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
+
 
 LEXICON POST
 
@@ -157,8 +226,8 @@ LEXICON POST
 
 LEXICON POSS 
 
-%<px3sp%>:%>%{s%}%{I%}%{n%} CASE ; 
-                            CASE ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES ; 
+                            CASES ;
  
 
 LEXICON SUBST 
@@ -173,7 +242,7 @@ LEXICON N1
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: CASE ; 
+%<np%>%<top%>: CASES ;
 
 LEXICON NUM 
 
@@ -218,9 +287,9 @@ LEXICON PRON-DEM-BU
 
 %<prn%>%<dem%>%<nom%>: # ;
 
-LEXICON PRON-PERS-O 
+!LEXICON PRON-PERS-O 
 
-%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
+!%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -406,6 +475,7 @@ zaman:zaman N1 ; ! ""
 
 
 LEXICON ProperNouns 
+
 Afrika:Afrika NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
@@ -487,7 +557,7 @@ ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
 eski:eski A1 ; ! ""
 sade:sade A1 ; ! ""
-şindi:şindi A1 ; ! ""
+
 peri:peri A1 ; ! ""
 paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
@@ -512,8 +582,10 @@ pek:pek A1 ; ! ""
 
 
 LEXICON Adverbs 
-taa:taa ADV3;
-en:en ADV3;
+
+taa:taa ADV3 ;
+şindi:şindi ADV3 ; ! ""
+en:en ADV3 ;
 nicä:nicä ADV-ITG ;
 daha:daha ADV3 ;
 genä:genä ADV3 ;
@@ -523,10 +595,12 @@ sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 
 
 LEXICON Miscellaneous 
+
 da%<postadv%>:da # ;
 dä%<postadv%>:dä # ;
 
 LEXICON  Conjunctions
+
 hem:hem CC ;
 ama:ama CC ; 
 ne:ne CC ;
@@ -540,14 +614,11 @@ bile:bile CS ; ! ""
 
 yoksa:yoksa CA ; ! ""
 
-LEXICON Pronouns 
-o:o PRON-PERS-O ; ! ""
-bu:bu PRON-DEM-BU ; ! ""
-kendi:kendi PRON-REF ; ! "self"
 
-o:o PRON-DEM-O ; ! ""
+
 
 LEXICON Postpositions
+
 başka:başka POST ; ! ""
 görä:görä POST ; ! ""
 için:için POST ; ! ""
@@ -594,6 +665,21 @@ gör: gör V-TV ;
 bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
+
+
+LEXICON Pronouns 
+
+bän:b PRON-PERS-BÄN ; ! "я"
+sän:s PRON-PERS-SÄN ; ! "ты"
+o:o PRON-PERS-O ; ! "он, она, оно"
+biz:biz PRON-PERS-BIZ ; ! "мы"
+siz:siz PRON-PERS-SIZ ; ! "вы"
+onnar:onnar PRON-PERS-ONNAR ; ! "они"
+
+bu:bu PRON-DEM-BU ; ! ""
+kendi:kendi PRON-REF ; ! "self"
+
+o:o PRON-DEM-O ; ! ""
 
 
 
