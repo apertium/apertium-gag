@@ -167,7 +167,7 @@ POSSESSIVES ;
 LEXICON PRON-PERS-BÄN
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:än # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:änin # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:änim # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:änink%{i%}%{n%} CASES ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:äna # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:äni # ; 
@@ -255,6 +255,9 @@ LEXICON PRON-REF
 LEXICON DET-QNT
 %<det%>%<qnt%>: # ;
 
+LEXICON DET-IND
+%<det%>%<ind%>: # ;
+
 LEXICON A1 
 %<adj%>: # ;
 
@@ -291,9 +294,12 @@ iki:iki NUM ;
 dört:dört NUM ; 
 beş: beş NUM;
 altı: altı NUM ;
+yedi:yedi NUM ;
+sekiz:sekiz NUM ;
+dokuz:dokuz NUM ;
 
 otuz:otuz NUM ;
-
+bin:bin NUM ;
 
 
 LEXICON Nouns
@@ -303,9 +309,11 @@ alt:alt N1 ; ! ""
 üst:üst N1 ; ! ""
 orta:orta N1 ; ! ""
 iç:iç N1 ; ! ""
+ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
 
 at:at N1 ; ! ""
+açan:açan  N1 ; ! ""
 anna:anna N1 ; !"" 
 arhitektura:arhitektura N1 ; ! ""
 asker:asker N1 ; ! ""
@@ -313,7 +321,6 @@ arest:arest N1 ; ! ""
 ev:ev N1 ; ! "дом"
 adam:adam N1 ; ! "человек"
 ada:ada N1 ; ! ""
-açan:açan N1 ; ! 
 bey:bey N1 ; ! ""
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
@@ -337,15 +344,19 @@ polițiya:polițiya N1 ; ! "полиция"
 
 aktrisa:aktrisa N1 ; ! ""
 aktyör:aktyör N1 ; ! ""
+arhitekturacılar:arhitekturacılar N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
 arab:arab N1 ; ! ""
 açık:açık N1 ; ! ""
+ana:ana N1 ; ! ""
 avtor:avtor N1 ; ! ""
+avtonom:avtonom N1 ; ! ""
 ad:ad N1 ; !
 ay:ay N1 ; ! ""
 baba:baba N1 ; ! ""
 balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
+beeri:beeri N1 ; ! ""
 bölüm:bölüm N1 ; ! ""
 büükelçi:büükelçi N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
@@ -368,10 +379,12 @@ fizikacı:fizikacı N1 ; ! ""
 gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
+geeri:geeri N1 ; ! ""
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
+hederlez:hederlez N1; ! ""
 hepsi:hepsi N1 ; ! ""
 hristian:hristian N1 ; ! ""
 insan:insan N1 ; ! ""
@@ -390,7 +403,9 @@ kurban:kurban N1 ; ! ""
 konstantin:konstantin N1 ; ! ""
 kasaba:kasaba N1 ; ! ""
 kız:kız N1 ; ! ""
+kişi:kişi N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
+kök:kök N1 ; ! ""
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
@@ -405,6 +420,7 @@ neçin:neçin N1 ; ! ""
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
 ofițial:ofițial N1 ; !""
+orak:orak N1 ; ! ;
 okeaniyas:okeaniyas N1 ; ! ""
 ölä:ölä N1 ; ! ""
 önemli:önemli N1 ; ! ""
@@ -428,6 +444,7 @@ seçim:seçim N1 ; ! ""
 sovet:sovet N1 ; ! ""
 șkola:șkola N1 ; ! ""
 şehr:şehr N1 ; ! ""
+şahr:şahr N1 ; ! ""
 şiir:şiir N1 ; ! ""
 status:status N1 ; ! ""
 su:su N1 ; ! ""
@@ -438,6 +455,7 @@ takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
 takvim:takvim N1 ; ! ""
 kabul:kabul N1 ; ! ""
+rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
 türk:türk N1 ; ! ""
@@ -464,11 +482,14 @@ LEXICON ProperNouns
 Afrika:Afrika NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
-Avtonom:Avtonom NP-TOP ; ! ""
+Üülen:Üülen NP-TOP ; ! ""
+Valkaneş:Valkaneş NP-TOP ; ! ""
+
 Argentina:Argentina NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
 Azerbaycan:Azerbaycan NP-TOP ; ! ""
+Aziya:Aziya NP-TOP ; ! ""
 Bulgariya:Bulgariya NP-TOP ; ! ""
 Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
@@ -480,6 +501,7 @@ Kazahstan:Kazahstan NP-TOP ; ! ""
 Koreya:Koreya NP-TOP ; ! ""
 Krım:Krım NP-TOP ; ! ""
 Komrat:Komrat NP-TOP ; ! ""
+Kişinöv:Kişinöv NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
@@ -520,14 +542,25 @@ Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
 Tanasoglu:Tanasoglu NP-ANT-M ; ! ""
+Todur:Todur NP-ANT-M ; ! ""
 Tanasoglu:Tanasoglu NP-ANT-F ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
+Georgiy:Georgiy NP-ANT-M ; ! ""
+Açan:Açan NP-ANT-F ; ! ""
+Vladimir:Vladimir  NP-ANT-M ; ! ""
+Stepan:Stepan NP-ANT-M ; ! ""
+Zanet:Zanet NP-ANT-M ; ! ""
+Dimitri:Dimitri NP-ANT-M ; ! ""
+Oblastı:Oblastı NP-ANT-M  ; ! ""
+
+
 
 
 
 LEXICON Adjectives 
 
 küçük:küçük A2 ; ! ""
+var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 türlü:türlü A2 ; ! ""
 çeşitli:çeşitli A2 ; ! ""
@@ -540,7 +573,7 @@ ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
 eski:eski A1 ; ! ""
 sade:sade A1 ; ! ""
-
+lääzım:lääzım A1 ; ! ""
 peri:peri A1 ; ! ""
 paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
@@ -562,12 +595,14 @@ hızlı:hızlı A1 ; ! ""
 pek:pek A1 ; ! ""
 
 
-
-
 LEXICON Adverbs 
-
+artık:artık ADV3 ; ! "anymore"
+neredä:neredä ADV3 ; ! " "
+ta:ta ADV3 ;
+her:her ADV3 ;
 taa:taa ADV3 ;
 şindi:şindi ADV3 ; ! ""
+sa:sa ADV3 ; ! ""
 en:en ADV3 ;
 nicä:nicä ADV-ITG ;
 daha:daha ADV3 ;
@@ -586,32 +621,40 @@ dä%<postadv%>:dä # ;
 
 
 LEXICON  Conjunctions
-
+yada:yada CC ;
 hem:hem CC ;
 ama:ama CC ; 
 ne:ne CC ;
 ve:ve CC ; ! "and"
 a:a CC ; ! ""
+ya:ya CC ; ! ""
 
 olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
 çünki:çünki CS ; ! ""
 bile:bile CS ; ! ""
 yoksa:yoksa CA ; ! ""
+hani:hani CA ; ! ""
 
 
 
 LEXICON Determiners
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
+bu% kadar:bu% kadar DET-QNT ; ! "this much"
+şu% kadar:şu% kadar DET-QNT ; ! "that much"
+o% kadar:o% kadar DET-QNT ; ! "this much"
+ne% kadar:ne% kadar DET-QNT ; ! "how much"
+başka:başka DET-IND ; !
+
 
 
 
 LEXICON Postpositions
 
-başka:başka POST ; ! ""
 görä:görä POST ; ! ""
 için:için POST ; ! ""
+kadar:kadar POST ; ! ""
 
 
 
