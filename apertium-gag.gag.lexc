@@ -28,8 +28,11 @@ Multichar_Symbols
 
 %<nom%>
 %<gen%>
-
+%<px1sg%>
+%<px2sg%>
 %<px3sp%>
+%<px1pl%>
+%<px2pl%>
 
 %<p1%>
 %<p2%>
@@ -99,52 +102,38 @@ LEXICON V-PERS-S2
 
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
-
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 
 LEXICON V-COMMON 
-
 V-FINITE-REGULAR_NEGATIVE ;
 
 LEXICON V-IV 
-
 %<v%>%<iv%>: V-COMMON ; 
 
 
 LEXICON V-TV 
-
 %<v%>%<tv%>: V-COMMON ; 
 
-
-
-
-
-
 LEXICON ADV3
-
 %<adv%>: # ;
 
 LEXICON ADV4
-
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
 %<adv%>%<subst%>: SUBST ;
 %<adv%>%<attr%>:ki # ;
 
 LEXICON ADV-ITG
-
 %<adv%>%<itg%>: # ;
 
 LEXICON CS
-
 %<cnjsub%>: # ;
 
 LEXICON CC 
-
 %<cnjcoo%>: # ;
 
 LEXICON CA
-
 %<cnjadv%>: # ;
+
 
 LEXICON CASES
 
@@ -155,7 +144,25 @@ LEXICON CASES
 %<acc%>:%>%{y%}%{I%} # ;
 %<dat%>:%>%{y%}%{A%} # ;
 
+LEXICON POSSESSIVES
 
+%<px1sg%>:%>%{I%}m CASES  ;
+%<px2sg%>:%>%{I%}n CASES ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES  ;
+%<px1pl%>:%>%{i%}m%{I%}z CASES ;
+%<px2pl%>:%>%{i%}n%{I%}z CASES  ;
+                         CASES ;
+
+
+LEXICON PLURAL
+
+%<pl%>:%>l%{A%}r # ;
+%<pl%>:%>l%{A%}r POSSESSIVES ;
+
+LEXICON FULL-NOMINAL-INFLECTION
+
+PLURAL ;
+POSSESSIVES ;
 
 LEXICON PRON-PERS-BÄN
 
@@ -221,31 +228,21 @@ LEXICON PRON-PERS-ONNAR
 
 
 LEXICON POST
-
 %<post%>: # ;
-
-LEXICON POSS 
-
-%<px3sp%>:%>%{s%}%{I%}%{n%} CASES ; 
-                            CASES ;
  
 
 LEXICON SUBST 
-
-                       POSS ;
-%<pl%>:%>%{L%}%{A%}r   POSS ;
+                       POSSESSIVES ;
+%<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
 LEXICON N1 
-
-%<n%>%<attr%>: # ;  
+%<n%>%<attr%>: FULL-NOMINAL-INFLECTION ;  
 %<n%>: SUBST ; 
 
 LEXICON NP-TOP
-
-%<np%>%<top%>: CASES ;
+%<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
 
 LEXICON NUM 
-
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{i%}nc%{I%} # ;
@@ -255,41 +252,30 @@ LEXICON PRON-REF
 %<prn%>%<ref%>: # ;
 %<prn%>%<ref%>%<pl%>:# ;
 
-
-
+LEXICON DET-QNT
+%<det%>%<qnt%>: # ;
 
 LEXICON A1 
-
 %<adj%>: # ;
 
 LEXICON A2 
-
 %<adj%>: # ;
 %<adj%>%<subst%>: SUBST ; 
 
 
-
 LEXICON NP-ANT-M
-
-%<np%>%<ant%>%<m%>: #;
+%<np%>%<ant%>%<m%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON NP-ANT-F
-
-%<np%>%<ant%>%<f%>: #;
-
+%<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
 
 
 LEXICON PRON-DEM-O
-
 %<prn%>%<dem%>%<nom%>: # ;
 
 LEXICON PRON-DEM-BU
-
 %<prn%>%<dem%>%<nom%>: # ;
 
-!LEXICON PRON-PERS-O 
-
-!%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -297,7 +283,6 @@ LEXICON PRON-DEM-BU
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Numerals 
-
 
 bir:bir NUM ; 
 iki:iki NUM ; 
@@ -429,6 +414,7 @@ padişah:padişah N1 ; ! ""
 para:para N1 ; ! ""
 pay:pay N1 ; !""
 petri:petri N1; ! ""
+poyraz:poyraz N1 ; ! ""
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
 resim:resim N1 ; ! ""
@@ -470,7 +456,6 @@ yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
 yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
-
 zaman:zaman N1 ; ! ""
 
 
@@ -479,6 +464,7 @@ LEXICON ProperNouns
 Afrika:Afrika NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
+Avtonom:Avtonom NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
@@ -539,9 +525,6 @@ Jaan:Jaan NP-ANT-M ; ! ""
 
 
 
-
-
-
 LEXICON Adjectives 
 
 küçük:küçük A2 ; ! ""
@@ -572,7 +555,7 @@ yakın:yakın A1 ; ! ""
 milli:milli A1 ; ! ""
 temel:temel A1 ; ! ""
 türk:türk A1 ; ! ""
-gaguaz:gaguaz A1 ; ! ""
+gagauz:gagauz A1 ; ! ""
 ingiliz:ingiliz A1 ; ! ""
 bulgar:bulgar A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
@@ -594,10 +577,13 @@ hiç:hiç ADV3 ; ! "none"
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 
 
+
 LEXICON Miscellaneous 
 
 da%<postadv%>:da # ;
 dä%<postadv%>:dä # ;
+
+
 
 LEXICON  Conjunctions
 
@@ -611,9 +597,13 @@ olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
 çünki:çünki CS ; ! ""
 bile:bile CS ; ! ""
-
 yoksa:yoksa CA ; ! ""
 
+
+
+LEXICON Determiners
+
+hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 
 
 
@@ -623,14 +613,10 @@ başka:başka POST ; ! ""
 görä:görä POST ; ! ""
 için:için POST ; ! ""
 
-LEXICON DET-QNT
 
-%<det%>%<qnt%>: # ;
-
-LEXICON Determiners
-hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 
 LEXICON Verbs
+
 al:al V-TV ; ! "take"
 işle:işle V-IV; ! "work/работать"
 dur:dur V-IV;
@@ -665,6 +651,7 @@ gör: gör V-TV ;
 bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
+
 
 
 LEXICON Pronouns 
