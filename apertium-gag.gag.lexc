@@ -86,6 +86,7 @@ Adverbs ;
 Determiners ; 
 Conjunctions ;
 Postpositions ;
+Abbreviations ;
 Punctuation;
 
 
@@ -242,6 +243,7 @@ LEXICON N1
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
 
+
 LEXICON NUM 
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ; 
@@ -275,9 +277,34 @@ LEXICON NP-ANT-F
 
 LEXICON PRON-DEM-O
 %<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<gen%>:nın # ;
+%<prn%>%<dem%>%<dat%>:na # ;
+%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<loc%>:nda # ;
+%<prn%>%<dem%>%<abl%>:ndan # ;
+
+LEXICON PRON-DEM-SU
+
+%<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<gen%>:nın # ;
+%<prn%>%<dem%>%<loc%>:nda # ;
+%<prn%>%<dem%>%<abl%>:ndan # ;
 
 LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<gen%>:nın # ;
+%<prn%>%<dem%>%<loc%>:nda # ;
+%<prn%>%<dem%>%<abl%>:ndan # ;
+
+LEXICON PRON-INTERR
+
+%<prn%>%<itg%>: CASES ;
+
+LEXICON ABBR
+
+%<abbr%>: # ;
 
 
 
@@ -300,6 +327,7 @@ dokuz:dokuz NUM ;
 
 otuz:otuz NUM ;
 bin:bin NUM ;
+milion:milion NUM ;
 
 
 LEXICON Nouns
@@ -367,6 +395,7 @@ direktor:direktor N1 ; ! ""
 diil:diil N1 ; ! ""
 din:din N1 ; ! ""
 derin:derin N1 ; ! ""
+deniz:deniz N1 ; ! ""
 ekonomika:ekonomika N1 ; ! ""
 er:er N1 ; ! ""
 
@@ -380,6 +409,7 @@ gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
 geeri:geeri N1 ; ! ""
+geçmiş:geçmiş N1 ; ! ""
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
@@ -465,6 +495,7 @@ territorial:territorial N1 ; ! ""
 
 universitet:universitet N1 ; ! ""
 ușak:ușak N1 ; ! ""
+uluslararası:uluslararası N1 ; ! ""
 viliyat:viliyat N1 ; ! ""
 vakıt:vakıt N1 ; ! ""
 yardım:yardım N1 ; ! ""
@@ -569,6 +600,7 @@ zor:zor  A1 ; ! ""
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
 büük:büük A2 ; ! ""
+geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
 eski:eski A1 ; ! ""
@@ -620,7 +652,7 @@ dä%<postadv%>:dä # ;
 
 
 
-LEXICON  Conjunctions
+LEXICON Conjunctions
 yada:yada CC ;
 hem:hem CC ;
 ama:ama CC ; 
@@ -706,10 +738,18 @@ biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
 
-bu:bu PRON-DEM-BU ; ! ""
+kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
 
+bu:bu PRON-DEM-BU ; ! ""
+şu:şu PRON-DEM-SU ; ! ""
 o:o PRON-DEM-O ; ! ""
+
+LEXICON Abbreviations
+Dr%.:Dr%. ABBR ;
+km:km ABBR ; 
+kg:kg ABBR ;
+d%.:d%. ABBR ;
 
 
 
