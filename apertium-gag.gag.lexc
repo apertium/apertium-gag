@@ -375,6 +375,7 @@ aktyör:aktyör N1 ; ! ""
 arhitekturacılar:arhitekturacılar N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
 arab:arab N1 ; ! ""
+angıları:angıları N1 ; ! ""
 açık:açık N1 ; ! ""
 ana:ana N1 ; ! ""
 avtor:avtor N1 ; ! ""
@@ -594,6 +595,8 @@ LEXICON Adjectives
 küçük:küçük A2 ; ! ""
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
+yok:yok A2 ; ! ""
+olan:olan A2 ; ! ""
 türlü:türlü A2 ; ! ""
 çeşitli:çeşitli A2 ; ! ""
 uzun:uzun A1 ; ! ""
@@ -634,6 +637,8 @@ neredä:neredä ADV3 ; ! " "
 ta:ta ADV3 ;
 her:her ADV3 ;
 taa:taa ADV3 ;
+burada:burada  ADV3 ; ! ""
+ozaman:ozaman ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
 sa:sa ADV3 ; ! ""
 en:en ADV3 ;
@@ -684,7 +689,7 @@ başka:başka DET-IND ; !
 
 
 LEXICON Postpositions
-
+gibi:gibi POST ; ! ""
 görä:görä POST ; ! ""
 için:için POST ; ! ""
 kadar:kadar POST ; ! ""
@@ -751,6 +756,8 @@ Dr%.:Dr%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
+te:te ABBR ; 
+de:de ABBR ;
 
 
 
