@@ -110,6 +110,7 @@ LEXICON V-PERS-S2
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 
+
 LEXICON V-GPR-COMMON
 
 !!ATTR ;
@@ -151,7 +152,7 @@ LEXICON ADV3
 LEXICON ADV4
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
 %<adv%>%<subst%>: SUBST ;
-%<adv%>%<attr%>:ki # ;
+%<adv%>%<attr%>:%>%k%{I%} # ;
 
 LEXICON ADV-ITG
 %<adv%>%<itg%>: # ;
@@ -174,6 +175,7 @@ LEXICON CASES
 %<abl%>:%>%{D%}%{A%}n # ;
 %<acc%>:%>%{y%}%{I%} # ;
 %<dat%>:%>%{y%}%{A%} # ;
+%<ins%>:%>%{y%}%{I%}%{A%} # ;
 
 LEXICON POSSESSIVES
 
@@ -263,11 +265,13 @@ LEXICON POST
  
 
 LEXICON SUBST 
+%<pl%>:%>%{L%}%{A%}r  # ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
 LEXICON N1 
-%<n%>%<attr%>: FULL-NOMINAL-INFLECTION ;  
+%<n%>%<attr%>: # ;
+%<n%>: FULL-NOMINAL-INFLECTION ;  
 %<n%>: SUBST ; 
 
 LEXICON NP-TOP
@@ -637,7 +641,6 @@ var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yok:yok A2 ; ! ""
 belli:belli A1 ; ! ""
-olan:olan A2 ; ! ""
 türlü:türlü A2 ; ! ""
 çeşitli:çeşitli A2 ; ! ""
 uzun:uzun A1 ; ! ""
@@ -685,7 +688,7 @@ taa:taa ADV3 ;
 burada:burada  ADV3 ; ! ""
 ozaman:ozaman ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
-büün:büün ADV3; ! ""
+büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
 en:en ADV3 ;
 nicä:nicä ADV-ITG ;
