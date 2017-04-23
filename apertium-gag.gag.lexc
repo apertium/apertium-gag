@@ -18,6 +18,10 @@ Multichar_Symbols
 %<lpar%>
 %<cm%>
 
+%<gna_impf%>
+%<gna_perf%>
+%<gna_when%>
+
 %<top%>
 %<ant%>
 
@@ -106,8 +110,33 @@ LEXICON V-PERS-S2
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 
+LEXICON V-GPR-COMMON
+
+!!ATTR ;
+%<subst%>: SUBST ;
+
+
+LEXICON V-GPR
+!! Verbal adjectives
+
+%<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
+
+LEXICON V-GNA
+!! Verbal adverbs
+
+%<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
+%<gna_perf%>:%>%{y%}%{I%}p # ;
+%<gna_when%>:%>%{y%}%{I%}nc%{A%} # ;
+
+
+LEXICON V-NONFIN-COMMON
+V-GNA ;
+V-GPR ;
+
+
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEGATIVE ;
+V-NONFIN-COMMON ;
 
 LEXICON V-IV 
 %<v%>%<iv%>: V-COMMON ; 
@@ -158,8 +187,8 @@ LEXICON POSSESSIVES
 
 LEXICON PLURAL
 
-%<pl%>:%>l%{A%}r # ;
-%<pl%>:%>l%{A%}r POSSESSIVES ;
+%<pl%>:%>%{L%}%{A%}r # ;
+%<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
@@ -355,6 +384,7 @@ bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
 baal:baal N1 ; ! ""
 boy:boy N1 ; ! "length"
+bilgi:bilgi N1 ; ! 
 bilim:bilim N1 ; ! ""
 büün:büün N1 ; ! ""
 
@@ -401,6 +431,7 @@ diil:diil N1 ; ! ""
 din:din N1 ; ! ""
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
+deyni:deyni N1 ; ! ""
 ekonomika:ekonomika N1 ; ! ""
 er:er N1 ; ! ""
 
@@ -664,6 +695,8 @@ beraber:beraber ADV3 ; ! "together"
 hiç:hiç ADV3 ; ! "none"
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
+orada:orada ADV3 ;
+ilgi:ilgi ADV4 ;
 
 
 
