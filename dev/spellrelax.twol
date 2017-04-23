@@ -1,0 +1,21 @@
+Alphabet
+
+    A Ä B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
+    a ä b c ç d e ê f g h ı i i̇ j k l m n o ö p r s ş ș t ţ ț u ü v y z
+
+   %':%' 
+   %`:%` %':%` 
+   %ʻ:%ʻ %':%ʻ 
+   %’:%’ %':%’  
+   %‘:%‘ %':%‘ 
+   %ʼ:%ʼ %':%ʼ 
+
+   ş:ș
+   ţ:ț
+
+ ; 
+
+Rules
+
+"Unify apostrophe styles"
+a => _ ;

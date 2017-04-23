@@ -24,6 +24,9 @@ TARGETS_COMMON =			\
 ## gag transducer
 ###############################################################################
 
+.deps/spellrelax.hfst: dev/spellrelax.twol .deps/.d
+	hfst-twolc $< -o $@
+
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol .deps/.d
 	hfst-twolc $< -o $@
 
@@ -48,8 +51,8 @@ TARGETS_COMMON =			\
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -O $< -o $@
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
-	hfst-invert $< | hfst-fst2fst -O -o $@
+$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/spellrelax.hfst
+	hfst-compose-intersect -1 $< -2 .deps/spellrelax.hfst | hfst-invert | hfst-minimise | hfst-fst2fst -O -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@
@@ -99,24 +102,24 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 
 .deps/errmodel.default.hfst: .deps/words.default.hfst .deps/strings.default.hfst
 	python dev/editdist.py -v -s -d 1 -e '@0@' -i speller/editdist.default.txt -a .deps/acceptor.default.hfst \
-	| hfst-txt2fst  -e '@0@' -o .deps/editdist.default.hfst
+	| hfst-txt2fst -e '@0@' -o .deps/editdist.default.hfst
 	hfst-disjunct .deps/strings.default.hfst .deps/editdist.default.hfst \
 	| hfst-minimise | hfst-repeat -f 1 -t 2 -o .deps/editstrings.default.hfst
 	hfst-disjunct .deps/words.default.hfst .deps/editstrings.default.hfst \
-	| hfst-fst2fst  -f olw -o $@
+	| hfst-fst2fst -f olw -o $@
 
 .deps/words.default.hfst: speller/words.default.txt
-	grep -v -e "^#" -e "^$$" $< | hfst-strings2fst  -j -o $@
+	grep -v -e "^#" -e "^$$" $< | hfst-strings2fst -j -o $@
 
 .deps/strings.default.hfst: speller/strings.default.txt .deps/anystar.hfst
-	grep -v -e "^#" -e "^$$" $< | hfst-strings2fst  -j | hfst-concatenate .deps/anystar.hfst - |\
+	grep -v -e "^#" -e "^$$" $< | hfst-strings2fst -j | hfst-concatenate .deps/anystar.hfst - |\
 	hfst-concatenate - .deps/anystar.hfst -o $@
 
 .deps/anystar.hfst:
 	echo "?*;" | hfst-regexp2fst -S -o $@
 
 .deps/acceptor.default.hfst: $(LANG1).autogen.hfst
-	cat $< | hfst-fst2fst -t | hfst-project  --project=lower | hfst-minimise |hfst-fst2fst  -f olw -o $@
+	cat $< | hfst-fst2fst -t | hfst-project --project=lower | hfst-minimise |hfst-fst2fst -f olw -o $@
 
 
 ###############################################################################
