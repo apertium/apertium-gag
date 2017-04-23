@@ -441,6 +441,7 @@ küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
 kök:kök N1 ; ! ""
+küü:küü N1 ; ! ""
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
@@ -637,6 +638,7 @@ ingiliz:ingiliz A1 ; ! ""
 bulgar:bulgar A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
 pek:pek A1 ; ! ""
+dooru:dooru A1 ; ! ""
 
 
 LEXICON Adverbs 
@@ -657,6 +659,7 @@ genä:genä ADV3 ;
 beraber:beraber ADV3 ; ! "together"
 hiç:hiç ADV3 ; ! "none"
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
+bölä:bölä ADV4 ; !
 
 
 
@@ -682,6 +685,7 @@ ki:ki CS ; ! ""
 bile:bile CS ; ! ""
 yoksa:yoksa CA ; ! ""
 hani:hani CA ; ! ""
+olsun:olsun CA ; ! ""
 
 
 
