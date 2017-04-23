@@ -39,13 +39,14 @@ Multichar_Symbols
 %<p3%>
 
 
-%{L%}
-%{I%}
-%{n%}
-%{s%}
-%{D%}
-%{y%}
-%{A%}
+%{L%}              ! l n
+%{I%}              ! i ı ü u
+%{i%}              ! i ı ü u 0 
+%{n%}              ! n 0
+%{s%}              ! s 0 
+%{D%}              ! d t
+%{y%}              ! i ı ü u 0
+%{A%}              ! a e ä
 
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
