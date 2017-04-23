@@ -513,6 +513,8 @@ yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
 zaman:zaman N1 ; ! ""
 
+gagauz:gagauz N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
@@ -522,6 +524,7 @@ Amerika:Amerika NP-TOP ; ! ""
 Üülen:Üülen NP-TOP ; ! ""
 Valkaneş:Valkaneş NP-TOP ; ! ""
 
+Gagauziya:Gagauziya NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
