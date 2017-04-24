@@ -253,7 +253,16 @@ LEXICON PRON-PERS-SIZ
 LEXICON PRON-PERS-ONNAR
 
 %<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
-%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:nın # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:ın # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:a # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:ı # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
+
+LEXICON PRON-PERS-ONLAR
+
+%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:ın # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:a # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:ı # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
@@ -273,6 +282,7 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: FULL-NOMINAL-INFLECTION ;  
 %<n%>: SUBST ; 
+%<n%>%<pl%>: PLURAL ; 
 
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
@@ -428,6 +438,7 @@ balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
 beeri:beeri N1 ; ! ""
 bölüm:bölüm N1 ; ! ""
+
 büükelçi:büükelçi N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
 ceviz:ceviz N1 ; ! ""
@@ -452,6 +463,7 @@ gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
 geeri:geeri N1 ; ! ""
+gider:gider N1 ; ! "expense"
 geçmiş:geçmiş N1 ; ! ""
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
@@ -538,6 +550,7 @@ türkü:türkü N1 ; ! ""
 territorial:territorial N1 ; ! ""
 
 
+uur:uur N1 ; ! ""
 universitet:universitet N1 ; ! ""
 uşak:uşak N1 ; ! ""
 uluslararası:uluslararası N1 ; ! ""
@@ -553,6 +566,8 @@ yuva:yuva N1 ; ! ""
 zaman:zaman N1 ; ! ""
 
 gagauz:gagauz N1 ; ! ""
+
+gagauzça:gagauzça N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -633,6 +648,9 @@ Zanet:Zanet NP-ANT-M ; ! ""
 Dimitri:Dimitri NP-ANT-M ; ! ""
 Oblastı:Oblastı NP-ANT-M  ; ! ""
 İіsus:İіsus NP-ANT-M ; ! ""
+Tepägöz:Tepägöz NP-ANT-M ; ! ""
+Yuvan:Yuvan NP-ANT-M ; ! ""
+
 
 
 Allah:Allah NP-AL ; ! ""
@@ -670,6 +688,7 @@ eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
 birleşik:birleşik A1 ; ! ""
+Birlii:Birlii A1 ; ! ""
 gözäl:gözäl A1 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
@@ -744,6 +763,8 @@ o% kadar:o% kadar DET-QNT ; ! "this much"
 ne% kadar:ne% kadar DET-QNT ; ! "how much"
 başka:başka DET-IND ; !
 çoyu:çoyu DET-QNT ;
+birkaç:birkaç DET-IND ; ! "some"
+herbir:herbir DET-IND ; !
 
 
 
@@ -753,6 +774,7 @@ gibi:gibi POST ; ! ""
 görä:görä POST ; ! ""
 için:için POST ; ! ""
 kadar:kadar POST ; ! ""
+dolayı:dolayı POST ; ! ""
 
 
 
@@ -772,6 +794,7 @@ gel:gel V-IV ;
 geç:geç V-IV ;
 başla:başla V-IV ;
 yap:yap V-TV ;
+açıkla:açıkla V-TV ;
 et:et V-TV ;
 ol:ol V-IV ;
 var:var V-IV ;
@@ -792,6 +815,8 @@ gör: gör V-TV ;
 bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
+duu:duu V-TV ;
+
 
 
 
@@ -803,6 +828,7 @@ o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
+onlar:onlar PRON-PERS-ONLAR ; !
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
