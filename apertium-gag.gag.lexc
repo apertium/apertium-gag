@@ -277,6 +277,9 @@ LEXICON N1
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
 
+LEXICON NP-AL
+%<np%>%<al%>: FULL-NOMINAL-INFLECTION  ;
+
 
 LEXICON NUM 
 %<num%>: # ;
@@ -631,7 +634,9 @@ Dimitri:Dimitri NP-ANT-M ; ! ""
 Oblastı:Oblastı NP-ANT-M  ; ! ""
 
 
-
+Allah:Allah NP-AL ; ! ""
+Hristoz:Hristoz NP-AL ; ! ""
+Hristos:Hristos NP-AL ; ! ""
 
 
 LEXICON Adjectives 
