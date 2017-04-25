@@ -299,7 +299,7 @@ LEXICON NUM
 
 LEXICON PRON-REF
 %<prn%>%<ref%>: # ;
-%<prn%>%<ref%>%<pl%>:# ;
+!%<prn%>%<ref%>%<pl%>: # ;
 
 LEXICON DET-QNT
 %<det%>%<qnt%>: # ;
