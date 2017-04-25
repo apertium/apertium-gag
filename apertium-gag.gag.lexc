@@ -107,6 +107,15 @@ LEXICON V-PERS-S2
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
 
+LEXICON V-PERS-F2
+
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>%n # ; 
+%<p3%>%<sg%>: #; 
+%<p1%>%<pl%>:%>%{y%}z # ; 
+%<p2%>%<pl%>:%>%n%{I%}z # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ; 
+
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
@@ -123,8 +132,8 @@ LEXICON V-GPR
 
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
 %<gpr_nfh%>:%>%m%{I}ş # ;
-%<gpr_fut%>:%>%{A%}c%{A%}%{k%} V-PERS-S2 ;
-%<fut%>:%>%{A%}c%{A%}%{y%} V-PERS-S2 ;
+%<gpr_fut%>:%>%{A%}c%{A%}%{k%} V-PERS-F2 ;
+
 
 LEXICON V-GNA
 !! Verbal adverbs
@@ -142,6 +151,7 @@ V-GPR ;
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEGATIVE ;
 V-NONFIN-COMMON ;
+%<fut%>:%>%{A%}c%{A%}%{y%} V-PERS-F2 ;
 
 LEXICON V-IV 
 %<v%>%<iv%>: V-COMMON ; 
