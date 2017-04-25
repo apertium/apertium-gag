@@ -434,6 +434,7 @@ adlı:adlı N1 ; ! "judiciary"
 ad:ad N1 ; !
 anı:anı N1 ; ! ""
 angı:angı N1 ; ! ""
+aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
 baba:baba N1 ; ! ""
 balık:balık N1 ; ! ""
@@ -499,6 +500,9 @@ kоntinent:kоntinent N1 ; ! ""
 kök:kök N1 ; ! ""
 komiteti:komiteti N1 ; ! ""
 küü:küü N1 ; ! ""
+kuved:kuved N1 ; !""
+kurul:kurul N1 ; ! "commission"
+
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
@@ -548,6 +552,7 @@ takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
 takvim:takvim N1 ; ! ""
 kabul:kabul N1 ; ! ""
+kod:kod N1 ; ! ""
 rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
@@ -564,6 +569,7 @@ uşak:uşak N1 ; ! ""
 uluslararası:uluslararası N1 ; ! ""
 viliyat:viliyat N1 ; ! ""
 vakıd:vakıd N1 ; ! ""
+vakıt:vakıt N1 ; ! ""
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
 yardımcı:yardımcı N1 ; ! ""
@@ -662,6 +668,7 @@ Tepägöz:Tepägöz NP-ANT-M ; ! ""
 Yuvan:Yuvan NP-ANT-M ; ! ""
 Piti:Piti NP-ANT-M ; ! ""
 Dädu:Dädu NP-ANT-M ; ! ""
+Mati:Mati NP-ANT-M ; ! ""
 
 
 
@@ -837,6 +844,8 @@ bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
 yolla:yolla V-TV ;
+kablet:kablet V-TV ;
+lääzım:lääzım V-IV ;
 duu:duu V-TV ;
 üüren:üüren V-TV ;
 urgula:urgula V-TV ;
@@ -845,9 +854,21 @@ gidär:gidär V-IV ;
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 tut:tut V-TV ;
-genoț:genoț V-IV ;
+genoți:genoți V-IV ;
 tiparla:tiparla V-TV ;
 söle:söle V-TV ;
+çeket:çeket V-IV ;
+çalış:çalış V-TV ;
+oyna:oyna V-TV ;
+göster:göster V-TV ;
+hazırla:hazırla V-TV ;
+bak:bak V-TV ;
+al:al V-TV ;
+getir:getir V-TV ;
+annat:annat V-TV ;
+bul:bul V-TV ;
+bil:bil V-TV ;
+peydala:peydala V-TV ;
 
 
 
@@ -855,12 +876,12 @@ söle:söle V-TV ;
 LEXICON Pronouns 
 
 bän:b PRON-PERS-BÄN ; ! "я"
-sän:s PRON-PERS-SÄN ; ! "ты"
+sän:s PRON-PERS-SÄN ; ! "ты"fçalış
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
-onnar:onnlar PRON-PERS-ONNAR ; !
+onnar:onlar PRON-PERS-ONNAR ; !
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
