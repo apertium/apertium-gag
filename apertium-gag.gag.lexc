@@ -51,6 +51,7 @@ Multichar_Symbols
 %{D%}              ! d t
 %{y%}              ! i ı ü u 0
 %{A%}              ! a e ä
+%{й%}              ! y
 
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
@@ -126,7 +127,7 @@ LEXICON V-GNA
 !! Verbal adverbs
 
 %<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
-%<gna_perf%>:%>%{y%}%{I%}p # ;
+%<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{y%}%{I%}nc%{A%} # ;
 
 
@@ -145,6 +146,12 @@ LEXICON V-IV
 
 LEXICON V-TV 
 %<v%>%<tv%>: V-COMMON ; 
+
+LEXICON NP1-ORG
+
+%<np%>%<org%>%<nom%>: # ;
+%<np%>%<org%>: # ; !!N-INFL-COMMON-NONOM ;
+%<np%>%<org%>%<attr%>: # ;
 
 LEXICON ADV3
 %<adv%>: # ;
@@ -259,14 +266,7 @@ LEXICON PRON-PERS-ONNAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
 
-LEXICON PRON-PERS-ONLAR
 
-%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
-%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:ın # ;
-%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:a # ;
-%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:ı # ;
-%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
-%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
 
 
 LEXICON POST
@@ -429,6 +429,7 @@ açık:açık N1 ; ! ""
 ana:ana N1 ; ! ""
 avtor:avtor N1 ; ! ""
 avtonom:avtonom N1 ; ! ""
+adlı:adlı N1 ; ! "judiciary"
 ad:ad N1 ; !
 anı:anı N1 ; ! ""
 angı:angı N1 ; ! ""
@@ -657,6 +658,9 @@ Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
 
+TİKA:TİKA NP1-ORG ;
+GHT:GHT  NP1-ORG;
+
 
 LEXICON Adjectives 
 
@@ -688,7 +692,7 @@ eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
 birleşik:birleşik A1 ; ! ""
-Birlii:Birlii A1 ; ! ""
+birlii:birlii A1 ; ! ""
 gözäl:gözäl A1 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
@@ -751,6 +755,7 @@ bile:bile CS ; ! ""
 yoksa:yoksa CA ; ! ""
 hani:hani CA ; ! ""
 olsun:olsun CA ; ! ""
+zerä:zerä CA ; ! ""
 
 
 
@@ -775,6 +780,7 @@ görä:görä POST ; ! ""
 için:için POST ; ! ""
 kadar:kadar POST ; ! ""
 dolayı:dolayı POST ; ! ""
+ilgili:ilgili POST ; ! "regarding"
 
 
 
@@ -828,7 +834,7 @@ o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
-onlar:onlar PRON-PERS-ONLAR ; !
+onlar:onnar PRON-PERS-ONNAR ; !
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
