@@ -122,6 +122,9 @@ LEXICON V-GPR
 !! Verbal adjectives
 
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
+%<gpr_nfh%>:%>%m%{I}ş # ;
+%<gpr_fut%>:%>%{A%}c%{A%}%{k%} V-PERS-S2 ;
+%<fut%>:%>%{A%}c%{A%}%{y%} V-PERS-S2 ;
 
 LEXICON V-GNA
 !! Verbal adverbs
@@ -349,6 +352,11 @@ LEXICON PRON-INTERR
 
 %<prn%>%<itg%>: CASES ;
 
+LEXICON PRON-QNT
+
+%<prn%>%<qnt%>: # ; !N-INFL-COMMON ; ! FIXME: Check contlex
+
+
 LEXICON ABBR
 
 %<abbr%>: # ;
@@ -406,6 +414,7 @@ bilim:bilim N1 ; ! ""
 büün:büün N1 ; ! ""
 
 canavar:canavar N1 ; ! ""
+canabisi:canabisi N1 ; ! ""
 çocuk:çocuk N1 ; ! ""
 çadır:çadır N1 ; ! ""
 çeket:çeket N1 ; ! ""
@@ -441,6 +450,7 @@ balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
 beeri:beeri N1 ; ! ""
 bölüm:bölüm N1 ; ! ""
+bölümlüü:bölümlüü N1 ; ! ""  
 
 büükelçi:büükelçi N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
@@ -453,6 +463,7 @@ din:din N1 ; ! ""
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
 deyni:deyni N1 ; ! ""
+dolayında:dolayında N1 ; ! ""
 ekonomika:ekonomika N1 ; ! ""
 er:er N1 ; ! ""
 
@@ -557,6 +568,8 @@ rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
 türk:türk N1 ; ! ""
+turk:turk N1 ; ! ""
+kitay:kitay N1 ; ! ""
 türkü:türkü N1 ; ! ""
 territorial:territorial N1 ; ! ""
 
@@ -685,6 +698,7 @@ LEXICON Adjectives
 küçük:küçük A2 ; ! ""
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
+yazılı:yazılı A1 ; ! "written"
 yok:yok A2 ; ! ""
 belli:belli A1 ; ! ""
 türlü:türlü A2 ; ! ""
@@ -725,9 +739,11 @@ bulgar:bulgar A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
 pek:pek A1 ; ! ""
 dooru:dooru A1 ; ! ""
+zengin:zengin A1 ; ! ""
 
 
-LEXICON Adverbs 
+LEXICON Adverbs
+ 
 artık:artık ADV3 ; ! "anymore"
 neredä:neredä ADV3 ; ! " "
 ta:ta ADV3 ;
@@ -738,6 +754,7 @@ ozaman:ozaman ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
 büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
+salt:salt ADV3 ; ! ""
 en:en ADV3 ;
 nicä:nicä ADV-ITG ;
 nasıl:nasıl ADV-ITG ;
@@ -748,7 +765,9 @@ hiç:hiç ADV3 ; ! "none"
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
+barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
+
 
 
 
@@ -797,6 +816,7 @@ herbir:herbir DET-IND ; !
 LEXICON Postpositions
 gibi:gibi POST ; ! ""
 görä:görä POST ; ! ""
+göre:göre POST ; ! ""
 için:için POST ; ! ""
 kadar:kadar POST ; ! ""
 dolayı:dolayı POST ; ! ""
@@ -847,6 +867,7 @@ yolla:yolla V-TV ;
 kablet:kablet V-TV ;
 lääzım:lääzım V-IV ;
 duu:duu V-TV ;
+bulun:bulun V-TV ;
 üüren:üüren V-TV ;
 urgula:urgula V-TV ;
 gidär:gidär V-IV ;
@@ -885,6 +906,7 @@ onnar:onlar PRON-PERS-ONNAR ; !
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
+birisi:birisi PRON-QNT ; ! "somebody"
 
 bu:bu PRON-DEM-BU ; ! ""
 şu:şu PRON-DEM-SU ; ! ""
