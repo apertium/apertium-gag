@@ -408,6 +408,7 @@ büün:büün N1 ; ! ""
 canavar:canavar N1 ; ! ""
 çocuk:çocuk N1 ; ! ""
 çadır:çadır N1 ; ! ""
+çeket:çeket N1 ; ! ""
 dil:dil N1 ; ! "язык"
 dünnää:dünnää N1 ; ! ""
 
@@ -465,6 +466,7 @@ gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
 geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
+gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
@@ -483,7 +485,9 @@ kardaş:kardaş N1 ; ! ""
 kerä:kerä N1 ; ! ""
 karar:karar N1 ; ! ""
 kırım:kırım N1 ; ! ""
+kiyad:kiyad N1 ; ! ""
 kirez:kirez N1 ; ! ""
+kurul:kurul N1 ; ! ""
 kultura:kultura N1 ; ! ""
 kurban:kurban N1 ; ! ""
 konstantin:konstantin N1 ; ! ""
@@ -493,6 +497,7 @@ küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
 kök:kök N1 ; ! ""
+komiteti:komiteti N1 ; ! ""
 küü:küü N1 ; ! ""
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
@@ -551,12 +556,14 @@ türkü:türkü N1 ; ! ""
 territorial:territorial N1 ; ! ""
 
 
+
 uur:uur N1 ; ! ""
 universitet:universitet N1 ; ! ""
+üüredicilik:üüredicilik N1 ; ! ""
 uşak:uşak N1 ; ! ""
 uluslararası:uluslararası N1 ; ! ""
 viliyat:viliyat N1 ; ! ""
-vakıt:vakıt N1 ; ! ""
+vakıd:vakıd N1 ; ! ""
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
 yardımcı:yardımcı N1 ; ! ""
@@ -564,6 +571,7 @@ yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
 yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
+yortu:yortu N1 ; ! ""
 zaman:zaman N1 ; ! ""
 
 gagauz:gagauz N1 ; ! ""
@@ -576,6 +584,7 @@ LEXICON ProperNouns
 Afrika:Afrika NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
+Saudi:Saudi NP-TOP ; ! ""
 Üülen:Üülen NP-TOP ; ! ""
 Valkaneş:Valkaneş NP-TOP ; ! ""
 
@@ -651,6 +660,8 @@ Oblastı:Oblastı NP-ANT-M  ; ! ""
 İіsus:İіsus NP-ANT-M ; ! ""
 Tepägöz:Tepägöz NP-ANT-M ; ! ""
 Yuvan:Yuvan NP-ANT-M ; ! ""
+Piti:Piti NP-ANT-M ; ! ""
+Dädu:Dädu NP-ANT-M ; ! ""
 
 
 
@@ -679,6 +690,7 @@ büük:büük A2 ; ! ""
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
+köklü:köklü A1 ; ! ""
 eski:eski A1 ; ! ""
 sade:sade A1 ; ! ""
 üüsek:üüsek A1 ; ! ""
@@ -721,6 +733,7 @@ büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
 en:en ADV3 ;
 nicä:nicä ADV-ITG ;
+nasıl:nasıl ADV-ITG ;
 daha:daha ADV3 ;
 genä:genä ADV3 ;
 beraber:beraber ADV3 ; ! "together"
@@ -801,15 +814,17 @@ geç:geç V-IV ;
 başla:başla V-IV ;
 yap:yap V-TV ;
 açıkla:açıkla V-TV ;
+aç:aç V-TV ;
 et:et V-TV ;
 ol:ol V-IV ;
 var:var V-IV ;
 katıl:katıl V-TV ;
-kablet:kablet V-TV ;
+kabled:kabled V-TV ;
 seç:seç V-TV ;
 kur:kur V-TV ;
 koy:koy V-TV ;
 kal:kal V-IV ;
+oku:oku V-TV ; 
 yaz:yaz V-TV ;
 düş:düş V-TV ;
 aç:aç V-TV ;
@@ -821,7 +836,18 @@ gör: gör V-TV ;
 bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
+yolla:yolla V-TV ;
 duu:duu V-TV ;
+üüren:üüren V-TV ;
+urgula:urgula V-TV ;
+gidär:gidär V-IV ;
+çevir:çevir V-TV ; 
+danış:danış V-IV ;
+düzül:düzül V-IV ;
+tut:tut V-TV ;
+genoț:genoț V-IV ;
+tiparla:tiparla V-TV ;
+söle:söle V-TV ;
 
 
 
@@ -834,7 +860,7 @@ o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
-onlar:onnar PRON-PERS-ONNAR ; !
+onnar:onnlar PRON-PERS-ONNAR ; !
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
