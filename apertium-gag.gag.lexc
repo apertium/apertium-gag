@@ -234,6 +234,16 @@ LEXICON PRON-PERS-BÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ända # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:ändan # ;
 
+LEXICON PRON-PERS-BEN
+
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enim # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:enimk%{i%}%{n%} CASES ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;
+
 
 LEXICON PRON-PERS-SÄN
 
@@ -425,6 +435,7 @@ ev:ev N1 ; ! "дом"
 adam:adam N1 ; ! "человек"
 ada:ada N1 ; ! ""
 afta:afta N1 ; ! ""
+angis:angis N1 ; ! ""
 bey:bey N1 ; ! ""
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
@@ -487,6 +498,7 @@ din:din N1 ; ! ""
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
 deyni:deyni N1 ; ! ""
+dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
 ekonomika:ekonomika N1 ; ! ""
 er:er N1 ; ! ""
@@ -620,6 +632,7 @@ yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
 yortu:yortu N1 ; ! ""
 zaman:zaman N1 ; ! ""
+ool:ool N1 ; ! "son"
 
 gagauz:gagauz N1 ; ! ""
 
@@ -772,6 +785,7 @@ hızlı:hızlı A1 ; ! ""
 pek:pek A1 ; ! ""
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
+kaarä:kaarä A1;
 
 
 LEXICON Adverbs
@@ -794,11 +808,14 @@ daha:daha ADV3 ;
 genä:genä ADV3 ;
 beraber:beraber ADV3 ; ! "together"
 hiç:hiç ADV3 ; ! "none"
+
+sadä:sadä ADV3 ; !
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
+
 
 
 
@@ -831,6 +848,7 @@ zerä:zerä CA ; ! ""
 
 
 
+
 LEXICON Determiners
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
@@ -839,6 +857,7 @@ bu% kadar:bu% kadar DET-QNT ; ! "this much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
 nekadar:nekadar DET-QNT ; ! "how much"
 başka:başka DET-IND ; !
+
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
 herbir:herbir DET-IND ; !
@@ -855,6 +874,7 @@ için:için POST ; ! ""
 kadar:kadar POST ; ! ""
 dolayı:dolayı POST ; ! ""
 ilgili:ilgili POST ; ! "regarding"
+
 
 
 
@@ -934,7 +954,7 @@ tanı:tanı V-TV ;
 LEXICON Pronouns 
 
 bän:b PRON-PERS-BÄN ; ! "я"
-bän:b PRON-PERS-BÄN ; ! "я"
+bän:b PRON-PERS-BEN ; ! "я"
 sän:s PRON-PERS-SÄN ; ! "ты"fçalış
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
