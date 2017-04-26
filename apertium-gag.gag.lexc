@@ -132,6 +132,7 @@ LEXICON V-GPR
 
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
 %<gpr_nfh%>:%>%m%{I}ş # ;
+%<gpr_fut%>:%>%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{A%}c%{A%}k V-PERS-S1 ;
 
 
@@ -152,6 +153,8 @@ LEXICON V-COMMON
 V-FINITE-REGULAR_NEGATIVE ;
 V-NONFIN-COMMON ;
 %<fut%>:%>%{A%}c%{A%}k V-PERS-S1 ;
+%<fut%>:%>%{A%}c%{A%} V-PERS-S1 ;
+
 
 LEXICON V-IV 
 %<v%>%<iv%>: V-COMMON ; 
@@ -253,7 +256,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:e # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
@@ -406,6 +409,7 @@ ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
 
 at:at N1 ; ! ""
+adım:adım N1 ; ! ""
 açan:açan  N1 ; ! ""
 anna:anna N1 ; !"" 
 arhitektura:arhitektura N1 ; ! ""
@@ -907,6 +911,7 @@ peydala:peydala V-TV ;
 LEXICON Pronouns 
 
 bän:b PRON-PERS-BÄN ; ! "я"
+bän:ben PRON-PERS-BÄN ; ! "я"
 sän:s PRON-PERS-SÄN ; ! "ты"fçalış
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
