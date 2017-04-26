@@ -21,6 +21,8 @@ Multichar_Symbols
 %<gna_impf%>
 %<gna_perf%>
 %<gna_when%>
+%<gpr_fut%>
+%<fut%>
 
 %<top%>
 %<ant%>
@@ -112,8 +114,8 @@ LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%n # ; 
 %<p3%>%<sg%>: #; 
-%<p1%>%<pl%>:%>%{y%}%z # ; 
-%<p2%>%<pl%>:%>%{y%}%n%{I%}z # ; 
+%<p1%>%<pl%>:%>%{й}%z # ; 
+%<p2%>%<pl%>:%>%{й}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
 
 
@@ -130,7 +132,7 @@ LEXICON V-GPR-COMMON
 LEXICON V-GPR
 !! Verbal adjectives
 
-%<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
+%<gpr_rsub%>:%>%{й}%{A%}n V-GPR-COMMON ;
 %<gpr_nfh%>:%>m%{I}ş # ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
@@ -139,9 +141,9 @@ LEXICON V-GPR
 LEXICON V-GNA
 !! Verbal adverbs
 
-%<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
+%<gna_impf%>:%>%{й}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
-%<gna_when%>:%>%{y%}%{I%}nc%{A%} # ;
+%<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
 
 
 LEXICON V-NONFIN-COMMON
@@ -154,6 +156,7 @@ V-FINITE-REGULAR_NEGATIVE ;
 V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
+%<nfh%>:%>m%{I}ş # ;
 
 
 LEXICON V-IV 
@@ -196,9 +199,9 @@ LEXICON CASES
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<abl%>:%>%{D%}%{A%}n # ;
-%<acc%>:%>%{y%}%{I%} # ;
-%<dat%>:%>%{y%}%{A%} # ;
-%<ins%>:%>%{y%}%{I%}%{A%} # ;
+%<acc%>:%>%{й}%{I%} # ;
+%<dat%>:%>%{й}%{A%} # ;
+%<ins%>:%>%{й}%{I%}%{A%} # ;
 
 LEXICON POSSESSIVES
 
@@ -222,7 +225,8 @@ POSSESSIVES ;
 
 LEXICON PRON-PERS-BÄN
 
-%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:än # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:än # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:änim # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:änink%{i%}%{n%} CASES ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:äna # ; 
@@ -299,6 +303,7 @@ LEXICON N1
 %<n%>: FULL-NOMINAL-INFLECTION ;  
 %<n%>: SUBST ; 
 %<n%>%<pl%>: PLURAL ; 
+
 
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
@@ -412,12 +417,14 @@ at:at N1 ; ! ""
 adım:adım N1 ; ! ""
 açan:açan  N1 ; ! ""
 anna:anna N1 ; !"" 
+araştırma:araştırma N1 ; ! ""
 arhitektura:arhitektura N1 ; ! ""
 asker:asker N1 ; ! ""
 arest:arest N1 ; ! ""
 ev:ev N1 ; ! "дом"
 adam:adam N1 ; ! "человек"
 ada:ada N1 ; ! ""
+afta:afta N1 ; ! ""
 bey:bey N1 ; ! ""
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
@@ -436,9 +443,11 @@ dil:dil N1 ; ! "язык"
 dünnää:dünnää N1 ; ! ""
 
 
-resim:res%{y%}m N1 ; ! "образ"
+resim:res%{й%}m N1 ; ! "образ"
+radio:radio N1 ; ! ""
 devlet:devlet N1 ; ! "государство"
 yıl:yıl N1 ; ! "год"
+yer:yer N1 ; 
 gazeta:gazeta N1 ; ! "газета"
 gün:gün N1 ; ! ""
 poliţiya:poliţiya N1 ; ! "полиция"
@@ -459,6 +468,7 @@ anı:anı N1 ; ! ""
 angı:angı N1 ; ! ""
 aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
+
 baba:baba N1 ; ! ""
 balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
@@ -576,8 +586,11 @@ taraf:taraf N1 ; ! ""
 takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
 takvim:takvim N1 ; ! ""
+televiden:televiden N1 ; ! ""
 kabul:kabul N1 ; ! ""
+tanım:tanım N1 ;
 kod:kod N1 ; ! ""
+kanal:kanal N1 ; ! ""
 rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
@@ -593,6 +606,7 @@ uur:uur N1 ; ! ""
 universitet:universitet N1 ; ! ""
 üüredicilik:üüredicilik N1 ; ! ""
 uşak:uşak N1 ; ! ""
+üzer:üzer N1 ; ! ""
 uluslararası:uluslararası N1 ; ! ""
 viliyat:viliyat N1 ; ! ""
 vakıd:vakıd N1 ; ! ""
@@ -615,6 +629,7 @@ gagauzça:gagauzça N1 ; ! ""
 LEXICON ProperNouns 
 
 Afrika:Afrika NP-TOP ; ! ""
+Bucak:Bucak NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
 Saudi:Saudi NP-TOP ; ! ""
@@ -640,6 +655,7 @@ Krım:Krım NP-TOP ; ! ""
 Komrat:Komrat NP-TOP ; ! ""
 Kişinöv:Kişinöv NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
+Kipra:Kipra NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
 Moldovaya:Moldovaya NP-TOP ; ! ""
@@ -661,7 +677,7 @@ Romıniya:Romıniya NP-TOP ; ! ""
 Ukraina:Ukraina NP-TOP ; ! ""
 
 
-
+Muhammed:Muhammed NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
 Nikolay:Nikolay NP-ANT-M ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
@@ -743,6 +759,7 @@ birlii:birlii A1 ; ! ""
 gözäl:gözäl A1 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
+ii:ii A1 ; ! "good"
 yakın:yakın A1 ; ! ""
 milli:milli A1 ; ! ""
 temel:temel A1 ; ! ""
@@ -750,6 +767,7 @@ türk:türk A1 ; ! ""
 gagauz:gagauz A1 ; ! ""
 ingiliz:ingiliz A1 ; ! ""
 bulgar:bulgar A1 ; ! ""
+azerbaycan:azerbaycan A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
 pek:pek A1 ; ! ""
 dooru:dooru A1 ; ! ""
@@ -781,6 +799,7 @@ bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
+
 
 
 
@@ -818,18 +837,19 @@ hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 bu% kadar:bu% kadar DET-QNT ; ! "this much"
 şu% kadar:şu% kadar DET-QNT ; ! "that much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
-ne% kadar:ne% kadar DET-QNT ; ! "how much"
+nekadar:nekadar DET-QNT ; ! "how much"
 başka:başka DET-IND ; !
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
 herbir:herbir DET-IND ; !
+bişey:bişey DET-IND ; 
 
 
 
 
 LEXICON Postpositions
 gibi:gibi POST ; ! ""
-görä:görä POST ; ! ""
+göre:görä POST ; ! ""
 göre:göre POST ; ! ""
 için:için POST ; ! ""
 kadar:kadar POST ; ! ""
@@ -841,7 +861,8 @@ ilgili:ilgili POST ; ! "regarding"
 LEXICON Verbs
 
 al:al V-TV ; ! "take"
-işle:işle V-IV; ! "work/работать"
+işle:işle V-IV ; ! "work/работать"
+izda:izda V-TV ;
 dur:dur V-IV;
 çek:çek V-IV  ;
 yaşa:yaşa V-IV ;
@@ -905,6 +926,7 @@ annat:annat V-TV ;
 bul:bul V-TV ;
 bil:bil V-TV ;
 peydala:peydala V-TV ;
+tanı:tanı V-TV ;
 
 
 
@@ -912,7 +934,7 @@ peydala:peydala V-TV ;
 LEXICON Pronouns 
 
 bän:b PRON-PERS-BÄN ; ! "я"
-bän:ben PRON-PERS-BÄN ; ! "я"
+bän:b PRON-PERS-BÄN ; ! "я"
 sän:s PRON-PERS-SÄN ; ! "ты"fçalış
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
