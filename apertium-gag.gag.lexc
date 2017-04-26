@@ -55,6 +55,7 @@ Multichar_Symbols
 %{y%}              ! i ı ü u 0
 %{A%}              ! a e ä
 %{й%}              ! y
+%{E%}              ! ê e y
 
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
@@ -128,10 +129,20 @@ LEXICON V-PERS-AOR
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
+LEXICON V-PERS-PROG
+
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>s%{I%}n # ; 
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}z # ; 
+%<p2%>%<pl%>:%>%{I%}n%{I}z # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ;
+
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<aor%>:%>%{A%}r V-PERS-AOR ;
+%<prog%>:%>%{E%}r V-PERS-PROG ;
 
 
 LEXICON V-GPR-COMMON
