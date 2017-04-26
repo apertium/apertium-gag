@@ -131,9 +131,9 @@ LEXICON V-GPR
 !! Verbal adjectives
 
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
-%<gpr_nfh%>:%>%m%{I}ş # ;
-%<gpr_fut%>:%>%{A%}c%{A%} V-PERS-S1 ;
-%<gpr_fut%>:%>%{A%}c%{A%}k V-PERS-S1 ;
+%<gpr_nfh%>:%>m%{I}ş # ;
+%<gpr_fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
+%<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 
 
 LEXICON V-GNA
@@ -152,8 +152,8 @@ V-GPR ;
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEGATIVE ;
 V-NONFIN-COMMON ;
-%<fut%>:%>%{A%}c%{A%}k V-PERS-S1 ;
-%<fut%>:%>%{A%}c%{A%} V-PERS-S1 ;
+%<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
+%<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 
 
 LEXICON V-IV 
@@ -892,6 +892,7 @@ tut:tut V-TV ;
 genoți:genoți V-IV ;
 tiparla:tiparla V-TV ;
 söle:söle V-TV ;
+söle:söyle V-TV ;
 çeket:çeket V-IV ;
 çalış:çalış V-TV ;
 oyna:oyna V-TV ;
