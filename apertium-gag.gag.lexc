@@ -13,6 +13,7 @@ Multichar_Symbols
 %<sent%>
 %<guio%>
 %<apos%>
+%<aor%>
 %<rquot%>
 %<rpar%>
 %<lpar%>
@@ -118,9 +119,19 @@ LEXICON V-PERS-S1
 %<p2%>%<pl%>:%>%{й}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
 
+LEXICON V-PERS-AOR
+
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>s%{I%}n # ; 
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}z # ; 
+%<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ;
+
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+%<aor%>:%>%{A%}r V-PERS-AOR ;
 
 
 LEXICON V-GPR-COMMON
