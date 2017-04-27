@@ -619,6 +619,8 @@ komisiya:komisiya N1 ;
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
+lekţiya:lekţiya N1 ; ! ""
+lidiya:lidiya N1 ; !
 
 merkez:merkez N1 ; ! ""
 millet:millet N1 ; ! ""
