@@ -32,7 +32,7 @@ Multichar_Symbols
 %<ord%>
 
 %<pl%>            ! Plural
-%<cog%>
+%<cog%>           !cogname =second name
 %<nom%>
 %<gen%>
 %<px1sg%>
@@ -332,7 +332,8 @@ LEXICON SUBST
 
 LEXICON N1 
 %<n%>%<attr%>: # ;
-%<n%>: FULL-NOMINAL-INFLECTION ;  
+%<n%>: FULL-NOMINAL-INFLECTION ; 
+%<n%>:iya FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>%<pl%>: PLURAL ; 
 
@@ -370,9 +371,11 @@ LEXICON A2
 
 LEXICON NP-ANT-M
 %<np%>%<ant%>%<m%>: FULL-NOMINAL-INFLECTION ;
+%<np%>%<ant%>%<m%>:iya FULL-NOMINAL-INFLECTION ;
 
 LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
+%<np%>%<ant%>%<f%>:iya FULL-NOMINAL-INFLECTION ;
 
 LEXICON NP-COG-MF 
 
