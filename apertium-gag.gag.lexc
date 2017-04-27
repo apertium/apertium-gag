@@ -491,6 +491,7 @@ canabisi:canabisi N1 ; ! ""
 çeket:çeket N1 ; ! ""
 dil:dil N1 ; ! "язык"
 dünnää:dünnää N1 ; ! ""
+evraziya:evraziya N1 ; 
 
 
 resim:res%{й%}m N1 ; ! "образ"
@@ -543,6 +544,10 @@ dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
 ekonomika:ekonomika N1 ; ! ""
 er:er N1 ; ! ""
+evgeniya:evgeniya N1 ;
+reorganizaţiya:reorganizaţiya N1 ;
+etnografiya:etnografiya N1 ;
+
 
 
 
@@ -560,7 +565,11 @@ geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
-geografiya:geografiya N1 ; !"" 
+gagauzologiya:gagauzologiya N1 ;
+geografiya:geografiya N1 ; !""
+geologiya:geologiya N1 ; ! ""
+grenlandiya:grenlandiya N1 ; !  
+gimnaziya:gimnaziya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
@@ -574,6 +583,7 @@ ilgi:ilgi N1 ; ! ""
 istoriya:istoriya N1 ; ! ""
 industriya:industriya N1 ; ! ""
 imperiya:imperiya N1 ; ! ""
+informaţiya:informaţiya N1 ; 
 kasım:kasım N1 ; ! ""
 karikatür:karikatür N1 ;
 kardaş:kardaş N1 ; ! ""
@@ -596,9 +606,12 @@ kök:kök N1 ; ! ""
 komediya:Komediya N1 ; ! ""
 komiteti:komiteti N1 ; ! ""
 koloniya:koloniya N1 ; 
+Konstituţiya:Konstituţiya N1 ;
+konferenţiya:konferenţiya N1 ;
 küü:küü N1 ; ! ""
 kuved:kuved N1 ; !""
 kurul:kurul N1 ; ! "commission"
+komisiya:komisiya N1 ;
 
 laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
@@ -617,6 +630,7 @@ oktäbr:oktäbr N1 ; ! ""
 ofiţial:ofiţial N1 ; !""
 orak:orak N1 ; ! ;
 okeaniyas:okeaniyas N1 ; ! ""
+okeaniya:okeaniya N1 ;
 ölä:ölä N1 ; ! ""
 önemli:önemli N1 ; ! ""
 politika:politika N1 ; ! ""
@@ -629,6 +643,7 @@ partiya:partiya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
+reorganizaţiya:reorganizaţiya N1 ;
 resim:resim N1 ; ! ""
 rayon:rayon N1 ; ! ""
 söz:söz N1; ! ""
@@ -638,10 +653,12 @@ sentäbr:sentäbr N1 ; ! ""
 serbest:serbest N1 ; ! ""
 seçim:seçim N1 ; ! ""
 sovet:sovet N1 ; ! ""
+simfoniya:simfoniya N1 ; ! 
 şkola:şkola N1 ; ! ""
 şehr:şehr N1 ; ! ""
 şahr:şahr N1 ; ! ""
 şiir:şiir N1 ; ! ""
+şotlandiya:şotlandiya N1 ;
 status:status N1 ; ! ""
 su:su N1 ; ! ""
 sport:sport N1 ; ! ""
@@ -651,6 +668,7 @@ takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
 takvim:takvim N1 ; ! ""
 televiden:televiden N1 ; ! ""
+tragediya:tragediya N1 ;
 kabul:kabul N1 ; ! ""
 tanım:tanım N1 ;
 kod:kod N1 ; ! ""
@@ -674,6 +692,7 @@ uşak:uşak N1 ; ! ""
 uluslararası:uluslararası N1 ; ! ""
 viliyat:viliyat N1 ; ! ""
 vakıd:vakıd N1 ; ! ""
+vikipediya:vikipediya N1 ;
 vakıt:vakıt N1 ; ! ""
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
@@ -700,8 +719,10 @@ Bucak:Bucak NP-TOP ; ! ""
 Buryatiya:Buryatiya NP-TOP ; ! ""
 Boliviya:Boliviya NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
+Efiopiya:Efiopiya NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
 Saudi:Saudi NP-TOP ; ! ""
+Siriya:Siriya NP-TOP ; ! ""
 Üülen:Üülen NP-TOP ; ! ""
 Valkaneş:Valkaneş NP-TOP ; ! ""
 
@@ -716,6 +737,7 @@ Avstriya:Avstriya NP-TOP ; ! ""
 Azerbaycan:Azerbaycan NP-TOP ; ! ""
 Asoţiaţiya:Asoţiaţiya NP-TOP ; ! ""
 Aziya:Aziya NP-TOP ; ! ""
+Angliya:Angliya NP-TOP ; ! ""
 Belgiya:Belgiya NP-TOP ; ! ""
 Bulgariya:Bulgariya NP-TOP ; ! ""
 Britaniya:Britaniya NP-TOP ; ! ""
@@ -725,6 +747,7 @@ Bosniya:Bosniya NP-TOP ; ! ""
 Bessarabiya:Bessarabiya NP-TOP ; ! ""
 Çernogoriya:Çernogoriya NP-TOP ; ! "" 
 Çehiya:Çehiya NP-TOP ; ! ""
+Çeçeniya:Çeçeniya NP-TOP ; ! ""
 Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
 Estoniya:Estoniya NP-TOP ; ! ""
@@ -733,7 +756,12 @@ Franţiya:Franţiya NP-TOP ; !
 Germaniya:Germaniya NP-TOP ; !
 Grețiya:Grețiya NP-TOP ; !
 Gruziya:Gruziya NP-TOP ; !
+Gaguziya:Gaguziya NP-TOP ; !
+Grenlandiya:Grenlandiya  NP-TOP ; ! 
 Horvatiya:Horvatiya NP-TOP ; ! ""
+Hakasiya:Hakasiya NP-TOP ; ! ""
+İndoneziya:İndoneziya NP-TOP ; ! ""
+İordaniya:İordaniya NP-TOP ; ! ""
 İtaliya:İtaliya NP-TOP ; ! ""
 Kiliya:Kiliya NP-TOP ; ! ""
 Keçiya:Keçiya NP-TOP ; ! ""
@@ -748,6 +776,7 @@ Kütahiya:Kütahiya NP-TOP ; ! ""
 Karbaliya:Karbaliya NP-TOP ; ! ""
 Komrat:Komrat NP-TOP ; ! ""
 Kişinöv:Kişinöv NP-TOP ; ! ""
+Kareliya:Kareliya NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
 Kipra:Kipra NP-TOP ; ! ""
 Korboliya:Korboliya NP-TOP ; ! ""
@@ -766,16 +795,21 @@ Latviya:Latviya NP-TOP ; ! ""
 Luțiya:Luțiya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
 Moldovaya:Moldovaya NP-TOP ; ! ""
+Moldaviya:Moldaviya NP-TOP ;
+Mongoliya:Mongoliya NP-TOP ;
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova  NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
+Rumıniya:Rumıniya NP-TOP ; ! ""
 Serbiya:Serbiya NP-TOP ; ! ""
 Slovakiya:Slovakiya NP-TOP ; ! ""
 Sloveniya:Sloveniya NP-TOP ; ! ""
 Șvețiya:Șvețiya NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
+Tanzaniya:Tanzaniya NP-TOP ; ! ""
+Trakiya:Trakiya NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
 Vengriya:Vengriya NP-TOP ; ! ""
 İran:İran NP-TOP ; ! ""
@@ -788,8 +822,11 @@ Vengriya:Vengriya NP-TOP ; ! ""
 Romıniya:Romıniya NP-TOP ; ! ""
 Ukraina:Ukraina NP-TOP ; ! ""
 Norvegiya:Norvegiya NP-TOP ; ! ""
+Namibiya:Namibiya NP-TOP ; ! ""
+Yaponiya:Yaponiya NP-TOP ; ! ""
 Vizentiya:Vizentiya NP-TOP ; ! ""
 Zelandiya:Zelandiya NP-TOP ; ! ""
+Zambiya:Zambiya NP-TOP ; ! ""
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
