@@ -333,7 +333,6 @@ LEXICON SUBST
 LEXICON N1 
 %<n%>%<attr%>: # ;
 %<n%>: FULL-NOMINAL-INFLECTION ; 
-%<n%>:iya FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>%<pl%>: PLURAL ; 
 
@@ -371,11 +370,11 @@ LEXICON A2
 
 LEXICON NP-ANT-M
 %<np%>%<ant%>%<m%>: FULL-NOMINAL-INFLECTION ;
-%<np%>%<ant%>%<m%>:iya FULL-NOMINAL-INFLECTION ;
+
 
 LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
-%<np%>%<ant%>%<f%>:iya FULL-NOMINAL-INFLECTION ;
+
 
 LEXICON NP-COG-MF 
 
@@ -453,6 +452,17 @@ ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
 
 at:at N1 ; ! ""
+asoţiaţiya:asoţiaţiya N1 ;
+arheologiya:arheologiya N1 ;
+antropologiya:antropologiya N1 ;
+annekțiya:annekțiya N1 ;
+agitaţiya:agitaţiya N1 ;
+akademiya:akademiya N1 ;
+administraţiya:administraţiya N1 ;
+adaptasiya:adaptasiya N1 ; 
+akredetaşiya:akredetaşiya N1 ;
+amnistiya:amnistiya N1 ;
+asemiläşiya:asemiläşiya N1 ;
 adım:adım N1 ; ! ""
 açan:açan  N1 ; ! ""
 anna:anna N1 ; !"" 
@@ -514,7 +524,9 @@ balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
 beeri:beeri N1 ; ! ""
 bölüm:bölüm N1 ; ! ""
-bölümlüü:bölümlüü N1 ; ! ""  
+bölümlüü:bölümlüü N1 ; ! ""
+biologiya:biologiya N1 ; !"" 
+bibliografiya:bibliografiya N1 ; 
 
 büükelçi:büükelçi N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
@@ -537,6 +549,9 @@ er:er N1 ; ! ""
 festival:festival N1 ; ! ""
 fevral:fevral N1 ; ! ""
 fizikacı:fizikacı N1 ; ! ""
+filologiya:filologiya N1 ; ! ""
+frakiya:frakiya N1 ;
+
 
 gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
@@ -545,6 +560,7 @@ geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
+geografiya:geografiya N1 ; !"" 
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
@@ -556,6 +572,8 @@ insan:insan N1 ; ! ""
 iş:iş N1 ; ! ""
 ilgi:ilgi N1 ; ! ""
 istoriya:istoriya N1 ; ! ""
+industriya:industriya N1 ; ! ""
+imperiya:imperiya N1 ; ! ""
 kasım:kasım N1 ; ! ""
 karikatür:karikatür N1 ;
 kardaş:kardaş N1 ; ! ""
@@ -565,6 +583,7 @@ kırım:kırım N1 ; ! ""
 kiyad:kiyad N1 ; ! ""
 kirez:kirez N1 ; ! ""
 kurul:kurul N1 ; ! ""
+
 kultura:kultura N1 ; ! ""
 kurban:kurban N1 ; ! ""
 konstantin:konstantin N1 ; ! ""
@@ -574,7 +593,9 @@ küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
 kоntinent:kоntinent N1 ; ! ""
 kök:kök N1 ; ! ""
+komediya:Komediya N1 ; ! ""
 komiteti:komiteti N1 ; ! ""
+koloniya:koloniya N1 ; 
 küü:küü N1 ; ! ""
 kuved:kuved N1 ; !""
 kurul:kurul N1 ; ! "commission"
@@ -588,6 +609,7 @@ millet:millet N1 ; ! ""
 
 muzika:muzika N1 ; ! ""
 mart:mart N1 ; ! ""
+mafiya:mafiya N1 ;
 neçin:neçin N1 ; ! ""
 
 oblast:oblast N1 ; ! ""
@@ -603,6 +625,7 @@ padişah:padişah N1 ; ! ""
 para:para N1 ; ! ""
 pay:pay N1 ; !""
 petri:petri N1; ! ""
+partiya:partiya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
@@ -659,6 +682,7 @@ yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
 yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
+yustiţiya:yustiţiya N1 ; ! ""
 yortu:yortu N1 ; ! ""
 zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
@@ -673,6 +697,8 @@ LEXICON ProperNouns
 
 Afrika:Afrika NP-TOP ; ! ""
 Bucak:Bucak NP-TOP ; ! ""
+Buryatiya:Buryatiya NP-TOP ; ! ""
+Boliviya:Boliviya NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
 Saudi:Saudi NP-TOP ; ! ""
@@ -680,45 +706,90 @@ Saudi:Saudi NP-TOP ; ! ""
 Valkaneş:Valkaneş NP-TOP ; ! ""
 
 Gagauziya:Gagauziya NP-TOP ; ! ""
-
+Abhaziya:Abhaziya NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
+Armeniya:Armeniya NP-TOP ; ! ""
+Albaniya:Albaniya NP-TOP ; ! ""
+Asuriya:Asuriya NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
 Azerbaycan:Azerbaycan NP-TOP ; ! ""
+Asoţiaţiya:Asoţiaţiya NP-TOP ; ! ""
 Aziya:Aziya NP-TOP ; ! ""
+Belgiya:Belgiya NP-TOP ; ! ""
 Bulgariya:Bulgariya NP-TOP ; ! ""
+Britaniya:Britaniya NP-TOP ; ! ""
+Braziliya:Braziliya NP-TOP ; ! ""
+Basarabiya:Basarabiya NP-TOP ; ! ""
+Bosniya:Bosniya NP-TOP ; ! ""
+Bessarabiya:Bessarabiya NP-TOP ; ! ""
+Çernogoriya:Çernogoriya NP-TOP ; ! "" 
+Çehiya:Çehiya NP-TOP ; ! ""
 Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
 Estoniya:Estoniya NP-TOP ; ! ""
 Finlandiya:Finlandiya NP-TOP ; ! ""
-Franţiya:Franţiya NP-TOP ; ! ""
+Franţiya:Franţiya NP-TOP ; !
+Germaniya:Germaniya NP-TOP ; !
+Grețiya:Grețiya NP-TOP ; !
+Gruziya:Gruziya NP-TOP ; !
 Horvatiya:Horvatiya NP-TOP ; ! ""
+İtaliya:İtaliya NP-TOP ; ! ""
+Kiliya:Kiliya NP-TOP ; ! ""
+Keçiya:Keçiya NP-TOP ; ! ""
+Keniya:Keniya NP-TOP ; ! ""
+Kazakliya:Kazakliya NP-TOP ; ! ""
 Kazahstan:Kazahstan NP-TOP ; ! ""
 Koreya:Koreya NP-TOP ; ! ""
 Krım:Krım NP-TOP ; ! ""
+Kolumbiya:Kolumbiya NP-TOP ; ! ""
+Kroațiya:Kroațiya NP-TOP ; ! ""
+Kütahiya:Kütahiya NP-TOP ; ! ""
+Karbaliya:Karbaliya NP-TOP ; ! ""
 Komrat:Komrat NP-TOP ; ! ""
 Kişinöv:Kişinöv NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
 Kipra:Kipra NP-TOP ; ! ""
+Korboliya:Korboliya NP-TOP ; ! ""
+Kaliforniya:Kaliforniya NP-TOP ; ! ""
+Kaledoniya:Kaledoniya NP-TOP ; ! ""
+Kalmıkiya:Kalmıkiya NP-TOP ; ! ""
+Kaledoniya:Kaledoniya NP-TOP ; ! ""
+Kapadokiya:Kapadokiya NP-TOP ; ! ""
+Karboliya:Karboliya NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
+Libiya:Libiya NP-TOP ; ! ""
+Liviya:Liviya NP-TOP ; ! ""
+Liberiya:Liberiya NP-TOP ; ! ""
+Liliya:Liliya NP-TOP ; ! ""
+Latviya:Latviya NP-TOP ; ! ""
+Luțiya:Luțiya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
 Moldovaya:Moldovaya NP-TOP ; ! ""
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova  NP-TOP ; ! ""
+Makedoniya:Makedoniya NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
 Serbiya:Serbiya NP-TOP ; ! ""
 Slovakiya:Slovakiya NP-TOP ; ! ""
+Sloveniya:Sloveniya NP-TOP ; ! ""
+Șvețiya:Șvețiya NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
 Vengriya:Vengriya NP-TOP ; ! ""
 İran:İran NP-TOP ; ! ""
 İrlandiya:İrlandiya NP-TOP ; ! ""
 İspaniya:İspaniya NP-TOP ; ! ""
+İslandiya:İslandiya NP-TOP ; ! ""
+İndiya:İndiya NP-TOP ; ! ""
 Şveţiya:Şveţiya NP-TOP ; ! ""
 Şveyţariya:Şveyţariya NP-TOP ; ! ""
 Romıniya:Romıniya NP-TOP ; ! ""
 Ukraina:Ukraina NP-TOP ; ! ""
+Norvegiya:Norvegiya NP-TOP ; ! ""
+Vizentiya:Vizentiya NP-TOP ; ! ""
+Zelandiya:Zelandiya NP-TOP ; ! ""
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
@@ -730,12 +801,14 @@ Dmitriy:Dmitriy NP-ANT-M ; ! ""
 Fırat:Fırat NP-ANT-F ; ! ""
 Fırat:Fırat NP-ANT-M ; ! ""
 Yunus:Yunus NP-ANT-M  ; ! ""
+Yuliya:Yuliya NP-ANT-M  ; ! ""
 Dionis:Dionis NP-ANT-M ; ! ""
 Mihail:Mihail NP-ANT-M ; ! ""
 İvan:İvan NP-ANT-F ; ! ""
 Köroglu:Köroglu NP-ANT-M ; ! ""
 Köroglu:Köroglu NP-ANT-F ; ! ""
 Stepan:Stepan NP-ANT-F ; ! ""
+Sofiya:Sofiya NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
