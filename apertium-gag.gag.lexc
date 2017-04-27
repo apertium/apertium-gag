@@ -32,7 +32,7 @@ Multichar_Symbols
 %<ord%>
 
 %<pl%>            ! Plural
-
+%<cog%>
 %<nom%>
 %<gen%>
 %<px1sg%>
@@ -374,6 +374,10 @@ LEXICON NP-ANT-M
 LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
 
+LEXICON NP-COG-MF 
+
+%<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+
 
 LEXICON PRON-DEM-O
 %<prn%>%<dem%>%<nom%>: # ;
@@ -657,6 +661,7 @@ zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 
 gagauz:gagauz N1 ; ! ""
+gregoryen:gregoryen N1 ; ! ""
 
 gagauzça:gagauzça N1 ; ! ""
 
@@ -672,6 +677,7 @@ Saudi:Saudi NP-TOP ; ! ""
 Valkaneş:Valkaneş NP-TOP ; ! ""
 
 Gagauziya:Gagauziya NP-TOP ; ! ""
+
 Argentina:Argentina NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
@@ -730,9 +736,8 @@ Stepan:Stepan NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
-Tanasoglu:Tanasoglu NP-ANT-M ; ! ""
+
 Todur:Todur NP-ANT-M ; ! ""
-Tanasoglu:Tanasoglu NP-ANT-F ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
 Açan:Açan NP-ANT-F ; ! ""
@@ -747,6 +752,49 @@ Yuvan:Yuvan NP-ANT-M ; ! ""
 Piti:Piti NP-ANT-M ; ! ""
 Dädu:Dädu NP-ANT-M ; ! ""
 Mati:Mati NP-ANT-M ; ! ""
+
+Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
+Baboglu:Baboglu NP-COG-MF ; ! ""
+Babaloglu:Babaloglu NP-COG-MF ; ! ""
+Ayoglu:Ayoglu NP-COG-MF ; ! ""
+Kuroglu:Kuroglu NP-COG-MF ; ! ""
+köroglu:köroglu NP-COG-MF ; ! ""
+Konstandoglu:Konstandoglu NP-COG-MF ; ! ""
+Kırbaoglu:Kırbaoglu NP-COG-MF ; ! ""
+Hesenoglu:Hesenoglu NP-COG-MF ; ! ""
+Demiroglu:Demiroglu NP-COG-MF ; ! ""
+Dimoglu:Dimoglu NP-COG-MF ; ! ""
+Dudoglu:Dudoglu NP-COG-MF ; ! ""
+Filoglu:Filoglu NP-COG-MF ; ! ""
+Filioglu:Filioglu NP-COG-MF ; ! ""
+Duloglu:Duloglu NP-COG-MF ; ! ""
+Marinoglu:Marinoglu NP-COG-MF ; ! ""
+Orumbetoglu:Orumbetoglu NP-COG-MF ; ! ""
+Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
+Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
+Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -879,6 +927,7 @@ bu% kadar:bu% kadar DET-QNT ; ! "this much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
 nekadar:nekadar DET-QNT ; ! "how much"
 başka:başka DET-IND ; !
+biraz:biraz DET-QNT ; ! "a bit"
 
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
