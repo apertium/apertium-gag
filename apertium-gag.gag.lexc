@@ -334,7 +334,7 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
-%<n%>%<pl%>: PLURAL ; 
+%<n%>: PLURAL ; 
 
 
 LEXICON NP-TOP
@@ -521,6 +521,7 @@ anı:anı N1 ; ! ""
 angı:angı N1 ; ! ""
 aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
+asoţiaţiya:asoţiaţiya N1 ; ! ""
 
 baba:baba N1 ; ! ""
 balık:balık N1 ; ! ""
@@ -740,7 +741,6 @@ Asuriya:Asuriya NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
 Azerbaycan:Azerbaycan NP-TOP ; ! ""
-Asoţiaţiya:Asoţiaţiya NP-TOP ; ! ""
 Aziya:Aziya NP-TOP ; ! ""
 Angliya:Angliya NP-TOP ; ! ""
 Belgiya:Belgiya NP-TOP ; ! ""
@@ -792,11 +792,12 @@ Kalmıkiya:Kalmıkiya NP-TOP ; ! ""
 Kaledoniya:Kaledoniya NP-TOP ; ! ""
 Kapadokiya:Kapadokiya NP-TOP ; ! ""
 Karboliya:Karboliya NP-TOP ; ! ""
+Kanariya:Kanariya NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
 Libiya:Libiya NP-TOP ; ! ""
 Liviya:Liviya NP-TOP ; ! ""
 Liberiya:Liberiya NP-TOP ; ! ""
-Liliya:Liliya NP-TOP ; ! ""
+
 Latviya:Latviya NP-TOP ; ! ""
 Luțiya:Luțiya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
@@ -853,6 +854,7 @@ Yuliya:Yuliya NP-ANT-M  ; ! ""
 Dionis:Dionis NP-ANT-M ; ! ""
 Mihail:Mihail NP-ANT-M ; ! ""
 İvan:İvan NP-ANT-F ; ! ""
+İliya:İliya NP-ANT-M ;
 Köroglu:Köroglu NP-ANT-M ; ! ""
 Köroglu:Köroglu NP-ANT-F ; ! ""
 Stepan:Stepan NP-ANT-F ; ! ""
@@ -860,6 +862,7 @@ Sofiya:Sofiya NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
+Liliya:Liliya NP-ANT-F ; ! ""
 
 Todur:Todur NP-ANT-M ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
