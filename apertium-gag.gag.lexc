@@ -237,12 +237,12 @@ LEXICON POSSESSIVES
 
 LEXICON PLURAL
 
-%<pl%>:%>%{L%}%{A%}r # ;
+!%<pl%>:%>%{L%}%{A%}r # ;
 %<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
-PLURAL ;
+!PLURAL ;
 POSSESSIVES ;
 
 LEXICON PRON-PERS-BÄN
@@ -326,7 +326,7 @@ LEXICON POST
  
 
 LEXICON SUBST 
-%<pl%>:%>%{L%}%{A%}r  # ;
+!%<pl%>:%>%{L%}%{A%}r  # ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
@@ -492,6 +492,8 @@ canabisi:canabisi N1 ; ! ""
 çadır:çadır N1 ; ! ""
 çeket:çeket N1 ; ! ""
 dil:dil N1 ; ! "язык"
+demografiya:demografiya N1 ; ! ""
+delegaţiya:delegaţiya N1 ; ! ""
 dünnää:dünnää N1 ; ! ""
 evraziya:evraziya N1 ; 
 
@@ -628,13 +630,14 @@ millet:millet N1 ; ! ""
 
 muzika:muzika N1 ; ! ""
 mart:mart N1 ; ! ""
-mafiya:mafiya N1 ;
+mafiya:mafiya N1 ; ! ""
+misiya:misiya N1 ; ! ""
 neçin:neçin N1 ; ! ""
 
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
 ofiţial:ofiţial N1 ; !""
-orak:orak N1 ; ! ;
+orak:orak N1 ; ! ""
 okeaniyas:okeaniyas N1 ; ! ""
 okeaniya:okeaniya N1 ;
 ölä:ölä N1 ; ! ""
@@ -646,18 +649,26 @@ para:para N1 ; ! ""
 pay:pay N1 ; !""
 petri:petri N1; ! ""
 partiya:partiya N1 ; ! ""
+politiya:politiya  N1 ; ! ""
+poeziya:poeziya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
+polişiya:polişiya N1 ; ! ""
+Panaiya:Panaiya N1 ; ! ""
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
 reorganizaţiya:reorganizaţiya N1 ;
+revolüţiya:revolüţiya N1 ;
+reçepşiya:reçepşiya N1 ; ! ""
 resim:resim N1 ; ! ""
 rayon:rayon N1 ; ! ""
+ruteniya:ruteniya N1 ; ! ""
 söz:söz N1; ! ""
 şarap:şarap N1 ; ! ""
 sent:sent N1 ; ! ""
 sentäbr:sentäbr N1 ; ! ""
 serbest:serbest N1 ; ! ""
 seçim:seçim N1 ; ! ""
+sergiya:sergiya N1 ; ! ""
 sovet:sovet N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
 şkola:şkola N1 ; ! ""
@@ -685,6 +696,7 @@ toprak:toprak N1 ; ! ""
 türk:türk N1 ; ! ""
 turk:turk N1 ; ! ""
 kitay:kitay N1 ; ! ""
+trigonometriya:trigonometriya N1 ; !
 türkü:türkü N1 ; ! ""
 territorial:territorial N1 ; ! ""
 
@@ -758,12 +770,12 @@ Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
 Estoniya:Estoniya NP-TOP ; ! ""
 Finlandiya:Finlandiya NP-TOP ; ! ""
-Franţiya:Franţiya NP-TOP ; !
-Germaniya:Germaniya NP-TOP ; !
-Grețiya:Grețiya NP-TOP ; !
-Gruziya:Gruziya NP-TOP ; !
-Gaguziya:Gaguziya NP-TOP ; !
-Grenlandiya:Grenlandiya  NP-TOP ; ! 
+Franţiya:Franţiya NP-TOP ; ! ""
+Germaniya:Germaniya NP-TOP ; ! ""
+Grețiya:Grețiya NP-TOP ; ! ""
+Gruziya:Gruziya NP-TOP ; ! ""
+Gaguziya:Gaguziya NP-TOP ; ! ""
+Grenlandiya:Grenlandiya  NP-TOP ; ! ""
 Horvatiya:Horvatiya NP-TOP ; ! ""
 Hakasiya:Hakasiya NP-TOP ; ! ""
 İndoneziya:İndoneziya NP-TOP ; ! ""
@@ -807,18 +819,23 @@ Mongoliya:Mongoliya NP-TOP ;
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova  NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
+Osetiya:Osetiya NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
+Persiya:Persiya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
 Rumıniya:Rumıniya NP-TOP ; ! ""
 Sibiriya:Sibiriya NP-TOP ; ! ""
 Somaliya:Somaliya NP-TOP ; ! ""
 Sakariya:Sakariya NP-TOP ; ! ""
 Serbiya:Serbiya NP-TOP ; ! ""
+Skifiya:Skifiya NP-TOP ; ! ""
 Slovakiya:Slovakiya NP-TOP ; ! ""
 Sloveniya:Sloveniya NP-TOP ; ! ""
+Silistiriya:Silistiriya NP-TOP ; ! ""
 Șvețiya:Șvețiya NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
 Tanzaniya:Tanzaniya NP-TOP ; ! ""
+Transnistriya:Transnistriya NP-TOP ; ! ""
 Trakiya:Trakiya NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
 Vengriya:Vengriya NP-TOP ; ! ""
@@ -832,15 +849,20 @@ Vengriya:Vengriya NP-TOP ; ! ""
 Romıniya:Romıniya NP-TOP ; ! ""
 Ukraina:Ukraina NP-TOP ; ! ""
 Norvegiya:Norvegiya NP-TOP ; ! ""
+Nigeriya:Nigeriya NP-TOP ; ! ""
 Namibiya:Namibiya NP-TOP ; ! ""
 Yaponiya:Yaponiya NP-TOP ; ! ""
 Yontiya:Yontiya NP-TOP ; ! ""
 Vizentiya:Vizentiya NP-TOP ; ! ""
+Virginiya:Virginiya NP-TOP ; ! ""
+
 Zelandiya:Zelandiya NP-TOP ; ! ""
 Zambiya:Zambiya NP-TOP ; ! ""
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
+Aleksandriya:Aleksandriya NP-ANT-M ; ! ""
+Opoziţiya:Opoziţiya NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
 Nikolay:Nikolay NP-ANT-M ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
