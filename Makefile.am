@@ -52,7 +52,7 @@ $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -O $< -o $@
 
 $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/spellrelax.hfst
-	hfst-compose-intersect -1 $< -2 .deps/spellrelax.hfst | hfst-invert | hfst-minimise | hfst-fst2fst -O -o $@
+	hfst-compose-intersect -1 $< -2 .deps/spellrelax.hfst | hfst-minimise | hfst-invert | hfst-minimise | hfst-fst2fst -O -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@

@@ -98,6 +98,7 @@ Conjunctions ;
 Postpositions ;
 Abbreviations ;
 Punctuation;
+Barbarisms ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -420,6 +421,11 @@ LEXICON PRON-QNT
 LEXICON ABBR
 
 %<abbr%>: # ;
+
+LEXICON BARB
+
+%<barb%>: # ;
+
 
 
 
@@ -1299,6 +1305,7 @@ LEXICON Punctuation
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ; ! hyphen/minus
 %–%<guio%>:%– # ; ! en dash
+%—%<guio%>:%— # ; ! em dash
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
@@ -1321,3 +1328,6 @@ LEXICON DIGITLEX
 
 %<num%>: # ;
 
+LEXICON Barbarisms
+
+<[а|б|в|г|д|е|ж|з|и|й|к|л|м|н|о|п|р|с|т|у|ф|х|ц|ч|ш|щ|ъ|ы|ь|э|ю|я|ё|є|і|ї|ј|ў|ґ|ғ|қ|ҡ|ҧ|ү|ҷ|һ|ӈ|ӓ|ө|ӱ]+> BARB ; ! Use/Circ
