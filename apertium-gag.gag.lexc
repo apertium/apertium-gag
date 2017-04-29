@@ -668,6 +668,10 @@ raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
 reorganizaţiya:reorganizaţiya N1 ;
 revolüţiya:revolüţiya N1 ;
+rusifikațiya:rusifikațiya N1 ;
+reviziya:reviziya N1 ;
+repressiya:repressiya N1 ;
+reoganizaţiya:reoganizaţiya N1 ;
 reçepşiya:reçepşiya N1 ; ! ""
 resim:resim N1 ; ! ""
 rayon:rayon N1 ; ! ""
@@ -681,15 +685,20 @@ seçim:seçim N1 ; ! ""
 sergiya:sergiya N1 ; ! ""
 sovet:sovet N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
+seysmologiya:seysmologiya N1 ;
 şkola:şkola N1 ; ! ""
 şehr:şehr N1 ; ! ""
 şahr:şahr N1 ; ! ""
+şampaniya:şampaniya N1 ;
 şiir:şiir N1 ; ! ""
 şotlandiya:şotlandiya N1 ;
 status:status N1 ; ! ""
 su:su N1 ; ! ""
 sport:sport N1 ; ! ""
 saat:saat N1 ; ! ""
+struktiya:struktiya N1 ;
+stipendiya:stipendiya N1 ;
+şivilizaşiya:şivilizaşiya N1 ;
 taraf:taraf N1 ; ! ""
 takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
@@ -698,6 +707,10 @@ televiden:televiden N1 ; ! ""
 tragediya:tragediya N1 ;
 kabul:kabul N1 ; ! ""
 tanım:tanım N1 ;
+ţivilizaţiya:ţivilizaţiya N1 ;
+teologiya:teologiya N1 ;
+tendentiya:tendentiya N1 ; 
+tehnologiya:tehnologiya N1 ;
 kod:kod N1 ; ! ""
 kanal:kanal N1 ; ! ""
 rus:rus N1 ; ! ""
@@ -709,6 +722,7 @@ kitay:kitay N1 ; ! ""
 trigonometriya:trigonometriya N1 ; !
 türkü:türkü N1 ; ! ""
 territorial:territorial N1 ; ! ""
+türkologiya:türkologiya N1 ;
 
 
 
@@ -790,6 +804,7 @@ Grețiya:Grețiya NP-TOP ; ! ""
 Gruziya:Gruziya NP-TOP ; ! ""
 Gaguziya:Gaguziya NP-TOP ; ! ""
 Gretiya:Gretiya NP-TOP ; ! ""
+Galeriya:Galeriya NP-TOP ; ! ""
 Grenlandiya:Grenlandiya  NP-TOP ; ! ""
 Horvatiya:Horvatiya NP-TOP ; ! ""
 Hakasiya:Hakasiya NP-TOP ; ! ""
@@ -833,6 +848,7 @@ Malta:Malta NP-TOP ; ! ""
 Moldovaya:Moldovaya NP-TOP ; ! ""
 Malayziya:Malayziya NP-TOP ; ! ""
 Moldaviya:Moldaviya NP-TOP ;
+Mangaliya:Mangaliya NP-TOP ;
 Mongoliya:Mongoliya NP-TOP ;
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova  NP-TOP ; ! ""
@@ -845,6 +861,7 @@ Rumıniya:Rumıniya NP-TOP ; ! ""
 Sibiriya:Sibiriya NP-TOP ; ! ""
 Somaliya:Somaliya NP-TOP ; ! ""
 Sakariya:Sakariya NP-TOP ; ! ""
+Singapur:Singapur NP-TOP ; ! ""
 Serbiya:Serbiya NP-TOP ; ! ""
 Skifiya:Skifiya NP-TOP ; ! ""
 Slovakiya:Slovakiya NP-TOP ; ! ""
@@ -858,6 +875,7 @@ Trakiya:Trakiya NP-TOP ; ! ""
 Udmurtiya:Udmurtiya NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
 Vengriya:Vengriya NP-TOP ; ! ""
+Vizantiya:Vizantiya NP-TOP ; ! ""
 İran:İran NP-TOP ; ! ""
 İrlandiya:İrlandiya NP-TOP ; ! ""
 İspaniya:İspaniya NP-TOP ; ! ""
@@ -906,6 +924,7 @@ Sofiya:Sofiya NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
+Rezolüţiya:Rezolüţiya NP-ANT-M ; ! ""
 Liliya:Liliya NP-ANT-F ; ! ""
 
 Todur:Todur NP-ANT-M ; ! ""
