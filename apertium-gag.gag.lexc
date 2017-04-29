@@ -667,6 +667,7 @@ Panaiya:Panaiya N1 ; ! ""
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
 reorganizaţiya:reorganizaţiya N1 ;
+Rezolüţiya:Rezolüţiya N1 ; ! ""
 revolüţiya:revolüţiya N1 ;
 rusifikațiya:rusifikațiya N1 ;
 reviziya:reviziya N1 ;
@@ -924,7 +925,7 @@ Sofiya:Sofiya NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
-Rezolüţiya:Rezolüţiya NP-ANT-M ; ! ""
+
 Liliya:Liliya NP-ANT-F ; ! ""
 
 Todur:Todur NP-ANT-M ; ! ""
