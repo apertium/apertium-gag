@@ -161,7 +161,7 @@ LEXICON V-GPR
 %<gpr_nfh%>:%>m%{I}ş # ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
-%<ger%>:%>m{A%} # ;
+%<ger%>:%>m{A%} POSSESSIVES ;
 
 
 LEXICON V-GNA
@@ -170,7 +170,7 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
-%<ger%>:%>m{A%} # ;
+%<ger%>:%>m{A%} POSSESSIVES ;
 
 
 LEXICON V-NONFIN-COMMON
