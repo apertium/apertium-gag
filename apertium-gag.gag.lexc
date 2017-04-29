@@ -144,7 +144,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<aor%>:%>%{A%}r V-PERS-AOR ;
 %<prog%>:%>%{E%}r V-PERS-PROG ;
-!%<nfh%>:%>m%{I}ş # ;
+%<nfh%>:%>m%{I}ş # ;
 %<inf%>:%>%>m%{A%}k # ;
 
 
@@ -161,6 +161,7 @@ LEXICON V-GPR
 %<gpr_nfh%>:%>m%{I}ş # ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
+%<ger%>:%>m{A%} # ;
 
 
 LEXICON V-GNA
@@ -169,7 +170,7 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
-%<grn%>:%>m{A%} # ;
+%<ger%>:%>m{A%} # ;
 
 
 LEXICON V-NONFIN-COMMON
@@ -241,7 +242,7 @@ LEXICON POSSESSIVES
 
 LEXICON PLURAL
 
-!%<pl%>:%>%{L%}%{A%}r # ;
+%<pl%>:%>%{L%}%{A%}r # ;
 %<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
 LEXICON FULL-NOMINAL-INFLECTION
@@ -330,7 +331,7 @@ LEXICON POST
  
 
 LEXICON SUBST 
-!%<pl%>:%>%{L%}%{A%}r  # ;
+%<pl%>:%>%{L%}%{A%}r  # ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
@@ -339,7 +340,7 @@ LEXICON N1
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>: PLURAL ; 
-%<n%>:%>m%{I}ş # ;
+
 
 
 LEXICON NP-TOP
