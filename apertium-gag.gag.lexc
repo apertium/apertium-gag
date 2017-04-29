@@ -642,6 +642,12 @@ muzika:muzika N1 ; ! ""
 mart:mart N1 ; ! ""
 mafiya:mafiya N1 ; ! ""
 misiya:misiya N1 ; ! ""
+
+miliţiya:miliţiya N1 ; ! ""
+monografiya:monografiya N1 ; ! ""
+
+multimediya:multimediya N1 ; ! ""
+mulytime:mulytime N1 ; ! ""
 neçin:neçin N1 ; ! ""
 
 oblast:oblast N1 ; ! ""
@@ -651,6 +657,13 @@ orak:orak N1 ; ! ""
 okeaniyas:okeaniyas N1 ; ! ""
 okeaniya:okeaniya N1 ;
 ölä:ölä N1 ; ! ""
+okupațiya:okupațiya N1 ; ! ""
+operațiya:operațiya N1 ; ! ""
+opoziţiya:opoziţiya N1 ; ! ""
+orfografiya:orfografiya N1 ; ! ""
+organizaşiya:organizaşiya N1 ; ! ""
+organizațiya:organizațiya N1 ; ! ""
+
 önemli:önemli N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
@@ -666,7 +679,7 @@ primariya:primariya N1 ; ! ""
 Primariya:Primariya N1 ; ! ""
 promoţiya:promoţiya N1 ; ! ""
 provokaşiya:provokaşiya N1  ; ! ""
-Psihologiya:Psihologiya N1 ; ! ""
+psihologiya:psihologiya N1 ; ! ""
 pay:pay N1 ; !""
 petri:petri N1; ! ""
 partiya:partiya N1 ; ! ""
@@ -677,9 +690,7 @@ polişiya:polişiya N1 ; ! ""
 Panaiya:Panaiya N1 ; ! ""
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
-Reçepţiya:Reçepţiya N1 ; ! ""
 redakţiya:redakţiya N1; ! ""
-Redakţiya:Redakţiya N1 ; ! ""
 redikțiya:redikțiya N1 ; ! ""
 rekomendaţiya:rekomendaţiya N1 ; ! ""
 rezolüţiya:rezolüţiya N1 ; ! ""
@@ -871,11 +882,15 @@ Malayziya:Malayziya NP-TOP ; ! ""
 Moldaviya:Moldaviya NP-TOP ;
 Mangaliya:Mangaliya NP-TOP ;
 Mongoliya:Mongoliya NP-TOP ;
+Mordoviya:Mordoviya N1 ; ! ""
+mikroneziya:Mikroneziya N1 ; ! ""
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova  NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
 Osetiya:Osetiya NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
+Poloniya:Poloniya NP-TOP ; ! ""
+Pensilvaniya:Pensilvaniya NP-TOP ; ! ""
 Persiya:Persiya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
 Rumıniya:Rumıniya NP-TOP ; ! ""
@@ -952,7 +967,7 @@ Todur:Todur NP-ANT-M ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
 Açan:Açan NP-ANT-F ; ! ""
-Vladimir:Vladimir  NP-ANT-M ; ! ""
+Vladimir:Vladimir NP-ANT-M ; ! ""
 Stepan:Stepan NP-ANT-M ; ! ""
 Zanet:Zanet NP-ANT-M ; ! ""
 Dimitri:Dimitri NP-ANT-M ; ! ""
@@ -1015,6 +1030,7 @@ Hristos:Hristos NP-AL ; ! ""
 
 TİKA:TİKA NP1-ORG ;
 GHT:GHT  NP1-ORG;
+SSCB:SSCB NP1-ORG;
 
 
 LEXICON Adjectives 
