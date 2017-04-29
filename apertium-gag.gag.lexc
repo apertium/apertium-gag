@@ -656,6 +656,17 @@ politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişah N1 ; ! ""
 para:para N1 ; ! ""
+populyasiya:populyasiya N1 ; ! ""
+poziţiya:poziţiya N1; ! ""
+premiya:premiya N1 ; ! ""
+pres:pres N1 ; ! ""
+prezentaţiya:prezentaţiya N1; ! ""
+priHvatizaţiya:priHvatizaţiya N1 ; ! ""
+primariya:primariya N1 ; ! ""
+Primariya:Primariya N1 ; ! ""
+promoţiya:promoţiya N1 ; ! ""
+provokaşiya:provokaşiya N1  ; ! ""
+Psihologiya:Psihologiya N1 ; ! ""
 pay:pay N1 ; !""
 petri:petri N1; ! ""
 partiya:partiya N1 ; ! ""
@@ -664,6 +675,15 @@ poeziya:poeziya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 polişiya:polişiya N1 ; ! ""
 Panaiya:Panaiya N1 ; ! ""
+reabilitaţiya:reabilitaţiya N1 ; ! ""
+reçepţiya:reçepţiya N1 ; ! ""
+Reçepţiya:Reçepţiya N1 ; ! ""
+redakţiya:redakţiya N1; ! ""
+Redakţiya:Redakţiya N1 ; ! ""
+redikțiya:redikțiya N1 ; ! ""
+rekomendaţiya:rekomendaţiya N1 ; ! ""
+rezolüţiya:rezolüţiya N1 ; ! ""
+
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
 reorganizaţiya:reorganizaţiya N1 ;
@@ -672,7 +692,7 @@ revolüţiya:revolüţiya N1 ;
 rusifikațiya:rusifikațiya N1 ;
 reviziya:reviziya N1 ;
 repressiya:repressiya N1 ;
-reoganizaţiya:reoganizaţiya N1 ;
+reoganizaţiya:reoganizaţiya N1 ; 
 reçepşiya:reçepşiya N1 ; ! ""
 resim:resim N1 ; ! ""
 rayon:rayon N1 ; ! ""
