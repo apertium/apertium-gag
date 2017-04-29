@@ -143,6 +143,8 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<aor%>:%>%{A%}r V-PERS-AOR ;
 %<prog%>:%>%{E%}r V-PERS-PROG ;
+!%<nfh%>:%>m%{I}ş # ;
+%<inf%>:%>%>m%{A%}k # ;
 
 
 LEXICON V-GPR-COMMON
@@ -166,6 +168,7 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
+%<grn%>:%>m{A%} # ;
 
 
 LEXICON V-NONFIN-COMMON
@@ -335,6 +338,7 @@ LEXICON N1
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>: PLURAL ; 
+%<n%>:%>m%{I}ş # ;
 
 
 LEXICON NP-TOP
@@ -450,12 +454,13 @@ orta:orta N1 ; ! ""
 iç:iç N1 ; ! ""
 ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
+ön:ön N1 ; ! ""
 
 at:at N1 ; ! ""
 asoţiaţiya:asoţiaţiya N1 ;
 arheologiya:arheologiya N1 ;
 antropologiya:antropologiya N1 ;
-annekțiya:annekțiya N1 ;
+annekţiya:annekţiya N1 ;
 agitaţiya:agitaţiya N1 ;
 akademiya:akademiya N1 ;
 administraţiya:administraţiya N1 ;
@@ -553,11 +558,13 @@ dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
 diskriminaţiya:diskriminaţiya N1 ;
 delegaşiya:delegaşiya N1 ;
+dekabri:dekabri N1 ;
 ekonomika:ekonomika N1 ; ! ""
 er:er N1 ; ! ""
 evgeniya:evgeniya N1 ;
 reorganizaţiya:reorganizaţiya N1 ;
 etnografiya:etnografiya N1 ;
+erinä:erinä N1 ;
 
 
 
@@ -620,13 +627,14 @@ kök:kök N1 ; ! ""
 komediya:Komediya N1 ; ! ""
 komiteti:komiteti N1 ; ! ""
 koloniya:koloniya N1 ; 
-klassifikațiya:klassifikațiya N1 ; ! ""
+klassifikaţiya:klassifikaţiya N1 ; ! ""
 Konstituţiya:Konstituţiya N1 ;
 konferenţiya:konferenţiya N1 ;
 küü:küü N1 ; ! ""
 kuved:kuved N1 ; !""
 kurul:kurul N1 ; ! "commission"
 komisiya:komisiya N1 ;
+kongaz:kongaz N1 ;
 
 latiniţiya:latiniţiya N1 ; 
 laf:laf N1 ; ! ""
@@ -648,6 +656,7 @@ monografiya:monografiya N1 ; ! ""
 
 multimediya:multimediya N1 ; ! ""
 mulytime:mulytime N1 ; ! ""
+merkezi:merkezi N1 ;
 neçin:neçin N1 ; ! ""
 
 oblast:oblast N1 ; ! ""
@@ -657,12 +666,12 @@ orak:orak N1 ; ! ""
 okeaniyas:okeaniyas N1 ; ! ""
 okeaniya:okeaniya N1 ;
 ölä:ölä N1 ; ! ""
-okupațiya:okupațiya N1 ; ! ""
-operațiya:operațiya N1 ; ! ""
+okupaţiya:okupaţiya N1 ; ! ""
+operaţiya:operaţiya N1 ; ! ""
 opoziţiya:opoziţiya N1 ; ! ""
 orfografiya:orfografiya N1 ; ! ""
 organizaşiya:organizaşiya N1 ; ! ""
-organizațiya:organizațiya N1 ; ! ""
+organizaţiya:organizaţiya N1 ; ! ""
 
 önemli:önemli N1 ; ! ""
 politika:politika N1 ; ! ""
@@ -676,7 +685,7 @@ pres:pres N1 ; ! ""
 prezentaţiya:prezentaţiya N1; ! ""
 priHvatizaţiya:priHvatizaţiya N1 ; ! ""
 primariya:primariya N1 ; ! ""
-Primariya:Primariya N1 ; ! ""
+primariya:primariya N1 ; ! ""
 promoţiya:promoţiya N1 ; ! ""
 provokaşiya:provokaşiya N1  ; ! ""
 psihologiya:psihologiya N1 ; ! ""
@@ -691,16 +700,15 @@ Panaiya:Panaiya N1 ; ! ""
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
 redakţiya:redakţiya N1; ! ""
-redikțiya:redikțiya N1 ; ! ""
 rekomendaţiya:rekomendaţiya N1 ; ! ""
 rezolüţiya:rezolüţiya N1 ; ! ""
 
 raysovet:raysovet N1 ; ! ""
 respublika:respublika N1 ; ! ""
 reorganizaţiya:reorganizaţiya N1 ;
-Rezolüţiya:Rezolüţiya N1 ; ! ""
+rezolüţiya:rezolüţiya N1 ; ! ""
 revolüţiya:revolüţiya N1 ;
-rusifikațiya:rusifikațiya N1 ;
+rusifikaţiya:rusifikaţiya N1 ;
 reviziya:reviziya N1 ;
 repressiya:repressiya N1 ;
 reoganizaţiya:reoganizaţiya N1 ; 
@@ -786,6 +794,7 @@ gagauz:gagauz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
 
 gagauzça:gagauzça N1 ; ! ""
+rusça:rusça N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -832,7 +841,7 @@ Estoniya:Estoniya NP-TOP ; ! ""
 Finlandiya:Finlandiya NP-TOP ; ! ""
 Franţiya:Franţiya NP-TOP ; ! ""
 Germaniya:Germaniya NP-TOP ; ! ""
-Grețiya:Grețiya NP-TOP ; ! ""
+Greţiya:Greţiya NP-TOP ; ! ""
 Gruziya:Gruziya NP-TOP ; ! ""
 Gaguziya:Gaguziya NP-TOP ; ! ""
 Gretiya:Gretiya NP-TOP ; ! ""
@@ -852,7 +861,7 @@ Kazahstan:Kazahstan NP-TOP ; ! ""
 Koreya:Koreya NP-TOP ; ! ""
 Krım:Krım NP-TOP ; ! ""
 Kolumbiya:Kolumbiya NP-TOP ; ! ""
-Kroațiya:Kroațiya NP-TOP ; ! ""
+Kroaţiya:Kroaţiya NP-TOP ; ! ""
 Kütahiya:Kütahiya NP-TOP ; ! ""
 Karbaliya:Karbaliya NP-TOP ; ! ""
 Komrat:Komrat NP-TOP ; ! ""
@@ -875,7 +884,7 @@ Liviya:Liviya NP-TOP ; ! ""
 Liberiya:Liberiya NP-TOP ; ! ""
 
 Latviya:Latviya NP-TOP ; ! ""
-Luțiya:Luțiya NP-TOP ; ! ""
+Luţiya:Luţiya NP-TOP ; ! ""
 Malta:Malta NP-TOP ; ! ""
 Moldovaya:Moldovaya NP-TOP ; ! ""
 Malayziya:Malayziya NP-TOP ; ! ""
@@ -903,7 +912,7 @@ Skifiya:Skifiya NP-TOP ; ! ""
 Slovakiya:Slovakiya NP-TOP ; ! ""
 Sloveniya:Sloveniya NP-TOP ; ! ""
 Silistiriya:Silistiriya NP-TOP ; ! ""
-Șvețiya:Șvețiya NP-TOP ; ! ""
+Șveţiya:Șveţiya NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
 Tanzaniya:Tanzaniya NP-TOP ; ! ""
 Transnistriya:Transnistriya NP-TOP ; ! ""
@@ -1158,6 +1167,7 @@ biraz:biraz DET-QNT ; ! "a bit"
 
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
+birär:birär DET-QNT ; ! "one each"
 herbir:herbir DET-IND ; !
 bişey:bişey DET-IND ; 
 
@@ -1228,7 +1238,7 @@ gidär:gidär V-IV ;
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 tut:tut V-TV ;
-genoți:genoți V-IV ;
+genoţi:genoţi V-IV ;
 tiparla:tiparla V-TV ;
 söle:söle V-TV ;
 söle:söyle V-TV ;
@@ -1270,6 +1280,8 @@ o:o PRON-DEM-O ; ! ""
 
 LEXICON Abbreviations
 Dr%.:Dr%. ABBR ;
+D%.:D%. ABBR ;
+K%.:K%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
