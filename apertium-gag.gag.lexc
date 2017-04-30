@@ -430,7 +430,6 @@ LEXICON BARB
 
 LEXICON ABBR-INIT
 
-%<abbr%>: # ;
 
 %<abbr%>%+A%.:A%. ABBR ; ! ""
 %<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
@@ -615,8 +614,8 @@ evgeniya:evgeniya N1 ;
 reorganizaţiya:reorganizaţiya N1 ;
 etnografiya:etnografiya N1 ;
 erinä:erinä N1 ;
-
-
+enţiklopediya:enţiklopediya N1 ;
+evroaziya:evroaziya N1 ;
 
 
 festival:festival N1 ; ! ""
@@ -626,7 +625,7 @@ filologiya:filologiya N1 ; ! ""
 frakiya:frakiya N1 ;
 fotografiya:fotografiya N1 ;
 filarmoniya:filarmoniya N1 ; 
-
+filosofiya:filosofiya N1 ;
 
 gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
@@ -636,11 +635,13 @@ gider:gider N1 ; ! "expense"
 gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
 gagauzologiya:gagauzologiya N1 ;
+gvardiya:gvardiya N1 ;
 geografiya:geografiya N1 ; !""
 geologiya:geologiya N1 ; ! ""
 gidrometeorologiya:gidrometeorologiya N1 ;
 grenlandiya:grenlandiya N1 ; !  
 gimnaziya:gimnaziya N1 ;
+gazifikaşiya:gazifikaşiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
@@ -653,6 +654,7 @@ insan:insan N1 ; ! ""
 iş:iş N1 ; ! ""
 ilgi:ilgi N1 ; ! ""
 istoriya:istoriya N1 ; ! ""
+intelligenţiya:intelligenţiya N1 ; !
 industriya:industriya N1 ; ! ""
 imperiya:imperiya N1 ; ! ""
 informaţiya:informaţiya N1 ; 
@@ -904,6 +906,7 @@ Bessarabiya:Bessarabiya NP-TOP ; ! ""
 Çeçeniya:Çeçeniya NP-TOP ; ! ""
 Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
+Etiyopiya:Etiyopiya NP-TOP ; ! ""
 Estoniya:Estoniya NP-TOP ; ! ""
 Finlandiya:Finlandiya NP-TOP ; ! ""
 Franţiya:Franţiya NP-TOP ; ! ""
@@ -915,6 +918,7 @@ Gretiya:Gretiya NP-TOP ; ! ""
 Gretiya:Greţiya NP-TOP ; ! ""
 Galeriya:Galeriya NP-TOP ; ! ""
 Grenlandiya:Grenlandiya  NP-TOP ; ! ""
+Gambiya:Gambiya NP-TOP ; ! ""
 Horvatiya:Horvatiya NP-TOP ; ! ""
 Hakasiya:Hakasiya NP-TOP ; ! ""
 İndoneziya:İndoneziya NP-TOP ; ! ""
@@ -1016,6 +1020,7 @@ Yugoslaviya:Yugoslaviya NP-TOP ; ! ""
 Vizentiya:Vizentiya NP-TOP ; ! ""
 
 Virginiya:Virginiya NP-TOP ; ! ""
+Valparaíso:Valparaíso NP-TOP ; ! ""
 
 Zelandiya:Zelandiya NP-TOP ; ! ""
 Zambiya:Zambiya NP-TOP ; ! ""
@@ -1024,6 +1029,7 @@ Zambiya:Zambiya NP-TOP ; ! ""
 Muhammed:Muhammed NP-ANT-M ; ! ""
 Aleksandriya:Aleksandriya NP-ANT-M ; ! ""
 Opoziţiya:Opoziţiya NP-ANT-M ; ! ""
+Eremiya:Eremiya NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
 Nikolay:Nikolay NP-ANT-M ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
@@ -1070,6 +1076,7 @@ Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
 Baboglu:Baboglu NP-COG-MF ; ! ""
 Babaloglu:Babaloglu NP-COG-MF ; ! ""
 Ayoglu:Ayoglu NP-COG-MF ; ! ""
+Genceviya:Genceviya NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 köroglu:köroglu NP-COG-MF ; ! ""
 Konstandoglu:Konstandoglu NP-COG-MF ; ! ""
@@ -1086,6 +1093,7 @@ Orumbetoglu:Orumbetoglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
 Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
+
 
 
 
