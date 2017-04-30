@@ -542,6 +542,7 @@ adam:adam N1 ; ! "человек"
 ada:ada N1 ; ! ""
 afta:afta N1 ; ! ""
 angis:angis N1 ; ! ""
+akıntı:akıntı N1 ; 
 bey:bey N1 ; ! ""
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
@@ -554,10 +555,12 @@ babu:babu N1 ; ! ""
 
 canavar:canavar N1 ; ! ""
 canabisi:canabisi N1 ; ! ""
+cuvap:cuvap N1 ; 
 çocuk:çocuk N1 ; ! ""
 çadır:çadır N1 ; ! ""
 çeket:çeket N1 ; ! ""
 çiftçilik:çiftçilik N1 ; ! ""
+çingenä:çingenä N1 ; ! ""
 dil:dil N1 ; ! "язык"
 demografiya:demografiya N1 ; ! ""
 delegaţiya:delegaţiya N1 ; ! ""
@@ -610,12 +613,14 @@ bibliografiya:bibliografiya N1 ;
 
 büükelçi:büükelçi N1 ; ! ""
 çiçek:çiçek N1 ; ! ""
+çocuu:çocuu N1 ; 
 ceviz:ceviz N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
 deputat:deputat N1 ; ! ""
 direktor:direktor N1 ; ! ""
 diil:diil N1 ; ! ""
 din:din N1 ; ! ""
+dünneyä:dünneyä N1 ; 
 diişilmesini:diişilmesini  N1 ;
 diskiriminaţiya:diskiriminaţiya N1 ;
 derin:derin N1 ; ! ""
@@ -667,6 +672,7 @@ gazifikaşiya:gazifikaşiya N1 ;
 greţiya:greţiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
+Halklararası:Halklararası N1 ;
 halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
 hederlez:hederlez N1; ! ""
@@ -812,6 +818,7 @@ serbest:serbest N1 ; ! ""
 seçim:seçim N1 ; ! ""
 sergiya:sergiya N1 ; ! ""
 sovet:sovet N1 ; ! ""
+sansın:sansın N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
 seysmologiya:seysmologiya N1 ;
 şkola:şkola N1 ; ! ""
@@ -878,6 +885,7 @@ yan:yan N1 ; ! ""
 yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
+yazı:yazı N1 ; !""
 yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
 yustiţiya:yustiţiya N1 ; ! ""
@@ -1007,6 +1015,7 @@ Moldova:Moldova NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
 Mavritaniya:Mavritaniya NP-TOP ; ! ""
 Osetiya:Osetiya NP-TOP ; ! ""
+Odesa:Odesa NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
 Poloniya:Poloniya NP-TOP ; ! ""
 Pensilvaniya:Pensilvaniya NP-TOP ; ! ""
@@ -1101,6 +1110,8 @@ Yuvan:Yuvan NP-ANT-M ; ! ""
 Piti:Piti NP-ANT-M ; ! ""
 Dädu:Dädu NP-ANT-M ; ! ""
 Mati:Mati NP-ANT-M ; ! ""
+Födor:Födor NP-ANT-M ; ! ""
+Ants:Ants NP-ANT-M ; ! ""
 
 Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
 Baboglu:Baboglu NP-COG-MF ; ! ""
@@ -1134,29 +1145,15 @@ Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
 
 TİKA:TİKA NP1-ORG ;
-GHT:GHT  NP1-ORG;
-SSCB:SSCB NP1-ORG;
-
+GHT:GHT  NP1-ORG ;
+SSCB:SSCB NP1-ORG ;
+ÜS:ÜS NP1-ORG ;
+GRT:GRT NP1-ORG ;
 
 LEXICON Adjectives 
 
@@ -1172,6 +1169,7 @@ uzun:uzun A1 ; ! ""
 zor:zor  A1 ; ! ""
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
+yaklaşık:yaklaşık A2 ; ! "approximate"
 büük:büük A2 ; ! ""
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
@@ -1226,6 +1224,7 @@ büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
 salt:salt ADV3 ; ! ""
 en:en ADV3 ;
+enidän:enidän ADV3 ;
 nicä:nicä ADV-ITG ;
 nasıl:nasıl ADV-ITG ;
 daha:daha ADV3 ;
@@ -1239,7 +1238,7 @@ bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
-sansın:sansın ADV3 ;
+!sansın:sansın ADV3 ;
 
 
 
@@ -1250,7 +1249,11 @@ LEXICON Miscellaneous
 
 da%<postadv%>:da # ;
 dä%<postadv%>:dä # ;
-
+dee%<postadv%>:dee # ;
+mı%<qst%>:mi # ;
+mı%<qst%>:mı # ;
+mı%<qst%>:mu # ; 
+mı%<qst%>:mü # ;
 
 
 LEXICON Conjunctions
