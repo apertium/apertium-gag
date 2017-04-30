@@ -280,7 +280,16 @@ LEXICON PRON-PERS-SÄN
 %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:äne # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:äni # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ända # ; 
-%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:ändan # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:ändan # ;
+
+LEXICON PRON-PERS-SEN
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enin # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:enink%{i%}%{n%} CASES ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; 
 
 LEXICON PRON-PERS-O 
 
@@ -366,6 +375,10 @@ LEXICON DET-QNT
 LEXICON DET-IND
 %<det%>%<ind%>: # ;
 
+LEXICON DET-REF
+
+%<det%>%<ref%>: # ;
+
 LEXICON A1 
 %<adj%>: # ;
 
@@ -398,14 +411,14 @@ LEXICON PRON-DEM-O
 LEXICON PRON-DEM-SU
 
 %<prn%>%<dem%>%<nom%>: # ;
-%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<acc%>:nu # ;
 %<prn%>%<dem%>%<gen%>:nın # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
 
 LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<nom%>: # ;
-%<prn%>%<dem%>%<acc%>:nı # ;
+%<prn%>%<dem%>%<acc%>:nu # ;
 %<prn%>%<dem%>%<gen%>:nın # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
@@ -537,12 +550,14 @@ boy:boy N1 ; ! "length"
 bilgi:bilgi N1 ; ! 
 bilim:bilim N1 ; ! ""
 büün:büün N1 ; ! ""
+babu:babu N1 ; ! ""
 
 canavar:canavar N1 ; ! ""
 canabisi:canabisi N1 ; ! ""
 çocuk:çocuk N1 ; ! ""
 çadır:çadır N1 ; ! ""
 çeket:çeket N1 ; ! ""
+çiftçilik:çiftçilik N1 ; ! ""
 dil:dil N1 ; ! "язык"
 demografiya:demografiya N1 ; ! ""
 delegaţiya:delegaţiya N1 ; ! ""
@@ -560,6 +575,7 @@ gün:gün N1 ; ! ""
 poliţiya:poliţiya N1 ; ! "полиция"
 
 aktrisa:aktrisa N1 ; ! ""
+agrometeorologiya:agrometeorologiya N1 ;
 asimiläţiya:asimiläţiya N1 ; ! ""
 ansambliya:ansambliya N1 ; ! ""
 apeläţiya:apeläţiya N1 ; ! 
@@ -581,6 +597,7 @@ aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
 asoţiaţiya:asoţiaţiya N1 ; ! ""
 
+biblioteka:biblioteka N1 ;
 baba:baba N1 ; ! ""
 balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
@@ -603,6 +620,9 @@ diişilmesini:diişilmesini  N1 ;
 diskiriminaţiya:diskiriminaţiya N1 ;
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
+deportaţiya:deportaţiya N1 ;
+dezinformaţiya:dezinformaţiya N1 ;
+dramaturgiya:dramaturgiya N1 ;
 dönmää:dönmää N1 ; ! ""
 deyni:deyni N1 ; ! ""
 dünnä:dünnä N1 ; ! ""
@@ -653,8 +673,10 @@ hederlez:hederlez N1; ! ""
 hepsi:hepsi N1 ; ! ""
 himiya:himiya N1 ; ! ""
 hristian:hristian N1 ; ! ""
+haliz:haliz N1 ; ! ""
 insan:insan N1 ; ! ""
 iş:iş N1 ; ! ""
+il:il N1 ; ! ""
 ilgi:ilgi N1 ; ! ""
 istoriya:istoriya N1 ; ! ""
 intelligenţiya:intelligenţiya N1 ; !
@@ -694,6 +716,7 @@ kuved:kuved N1 ; !""
 kurul:kurul N1 ; ! "commission"
 komisiya:komisiya N1 ;
 kongaz:kongaz N1 ;
+kiyat:kiyat N1 ;
 
 latiniţiya:latiniţiya N1 ; 
 laf:laf N1 ; ! ""
@@ -708,6 +731,7 @@ millet:millet N1 ; ! ""
 masmediya:masmediya N1 ; ! ""  
 
 muzika:muzika N1 ; ! ""
+muzika:muzıka N1 ; 
 mart:mart N1 ; ! ""
 mafiya:mafiya N1 ; ! ""
 misiya:misiya N1 ; ! ""
@@ -715,7 +739,7 @@ naţiya:naţiya N1 ;
 miliţiya:miliţiya N1 ; ! ""
 monografiya:monografiya N1 ; ! ""
 mifologiya:mifologiya N1 ; ! ""
-
+merak:merak N1 ; ! ""
 multimediya:multimediya N1 ; ! ""
 mulytime:mulytime N1 ; ! ""
 metallurgiya:metallurgiya N1 ;
@@ -759,7 +783,7 @@ politiya:politiya  N1 ; ! ""
 poeziya:poeziya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 polişiya:polişiya N1 ; ! ""
-Panaiya:Panaiya N1 ; ! ""
+panaiya:panaiya N1 ; ! ""
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
 redakţiya:redakţiya N1; ! ""
@@ -876,6 +900,7 @@ Buryatiya:Buryatiya NP-TOP ; ! ""
 Boliviya:Boliviya NP-TOP ; ! ""
 Besarabiya:Besarabiya NP-TOP ;! ""
 Başkiriya:Başkiriya NP-TOP ;! ""
+Belarus:Belarus NP-TOP ;! ""
 
 Evropa:Evropa NP-TOP ; ! ""
 Efiopiya:Efiopiya NP-TOP ; ! ""
@@ -906,7 +931,9 @@ Bessarabiya:Bessarabiya NP-TOP ; ! ""
 Çernogoriya:Çernogoriya NP-TOP ; ! ""
 Çuvaşiya:Çuvaşiya NP-TOP ; ! ""
 Çehiya:Çehiya NP-TOP ; ! ""
+Çergonoriya:Çergonoriya NP-TOP ; ! ""
 Çeçeniya:Çeçeniya NP-TOP ; ! ""
+Çekiya:Çekiya NP-TOP ; ! ""
 Dagestan:Dagestan NP-TOP ; ! ""
 Daniya:Daniya NP-TOP ; ! ""
 Etiyopiya:Etiyopiya NP-TOP ; ! ""
@@ -1157,6 +1184,7 @@ lääzım:lääzım A1 ; ! ""
 peri:peri A1 ; ! ""
 paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
+meraklı:meraklı A1 ;  ! "curious, curious"
 çok:çok A1 ; ! ""
 ani:ani A1 ; ! ""
 eni:eni A1 ; ! ""
@@ -1211,6 +1239,7 @@ bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
+sansın:sansın ADV3 ;
 
 
 
@@ -1254,6 +1283,9 @@ o% kadar:o% kadar DET-QNT ; ! "this much"
 nekadar:nekadar DET-QNT ; ! "how much"
 başka:başka DET-IND ; !
 biraz:biraz DET-QNT ; ! "a bit"
+zeedä:zeedä DET-QNT ; ! "a lot"
+kendi:kendi DET-REF ; ! ""
+kaç:kaç DET-QNT ; ! ""
 
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
@@ -1266,6 +1298,7 @@ bişey:bişey DET-IND ;
 
 LEXICON Postpositions
 gibi:gibi POST ; ! ""
+dee:dee POST ; ! ""
 göre:görä POST ; ! ""
 göre:göre POST ; ! ""
 için:için POST ; ! ""
@@ -1285,11 +1318,12 @@ kaç:kaç V-TV ;
 
 dur:dur V-IV;
 çek:çek V-IV  ;
-yaşa:yaşa V-IV ;
+yaşe:yaşe V-IV ;
 de:de V-TV ; 
 git:git V-IV ;
 ver:ver V-TV ;
 çık:çık V-IV ;
+çeked:çeked V-TV ;
 gir:gir V-IV ;
 gel:gel V-IV ;
 geç:geç V-IV ;
@@ -1311,7 +1345,8 @@ kullan:kullan V-TV ;
 kazan:kazan V-IV ;
 koy:koy V-TV ;
 kal:kal V-IV ;
-oku:oku V-TV ; 
+oku:oku V-TV ;
+üüred:üüred V-IV ; 
 yaz:yaz V-TV ;
 düş:düş V-TV ;
 aç:aç V-TV ;
@@ -1357,6 +1392,7 @@ bul:bul V-TV ;
 bil:bil V-TV ;
 peydala:peydala V-TV ;
 tanı:tanı V-TV ;
+üzme:üzme V-TV ;
 
 
 
@@ -1366,6 +1402,7 @@ LEXICON Pronouns
 bän:b PRON-PERS-BÄN ; ! "я"
 bän:b PRON-PERS-BEN ; ! "я"
 sän:s PRON-PERS-SÄN ; ! "ты"fçalış
+sän:s PRON-PERS-SEN ; ! "ты"fçalış
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
@@ -1374,7 +1411,9 @@ onnar:onlar PRON-PERS-ONNAR ; !
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
+kendisi:kendisi PRON-REF ; ! "self"
 birisi:birisi PRON-QNT ; ! "somebody"
+
 
 bu:bu PRON-DEM-BU ; ! ""
 şu:şu PRON-DEM-SU ; ! ""
@@ -1383,7 +1422,6 @@ o:o PRON-DEM-O ; ! ""
 LEXICON Abbreviations
 
 A%.:A%. ABBR-INIT ; ! ""
-Ä%.:Ä%. ABBR-INIT ; ! ""
 Â%.:Â%. ABBR-INIT ; ! ""
 B%.:B%. ABBR-INIT ; ! ""
 V%.:V%. ABBR-INIT ; ! ""
