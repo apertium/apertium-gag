@@ -693,6 +693,7 @@ laf:laf N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
 lekţiya:lekţiya N1 ; ! ""
+liturgiya:liturgiya N1 ; ! ""
 lidiya:lidiya N1 ; !
 
 merkez:merkez N1 ; ! ""
@@ -706,6 +707,7 @@ misiya:misiya N1 ; ! ""
 naţiya:naţiya N1 ; 
 miliţiya:miliţiya N1 ; ! ""
 monografiya:monografiya N1 ; ! ""
+mifologiya:mifologiya N1 ; ! ""
 
 multimediya:multimediya N1 ; ! ""
 mulytime:mulytime N1 ; ! ""
@@ -808,11 +810,18 @@ tendentiya:tendentiya N1 ;
 tehnologiya:tehnologiya N1 ;
 kod:kod N1 ; ! ""
 kanal:kanal N1 ; ! ""
+katılmêêr:katılmêêr N1 ; 
+klimatologiya:klimatologiya N1 ;
+koordinaţiya:koordinaţiya N1 ;
+komentariya:komentariya N1 ;
+kosmologiya:kosmologiya N1 ;
+kvalifikaţiya:kvalifikaţiya N1 ;
 rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
 türk:türk N1 ; ! ""
 turk:turk N1 ; ! ""
+karaçay:karaçay N1 ; ! ""
 kitay:kitay N1 ; ! ""
 trigonometriya:trigonometriya N1 ; !
 türkü:türkü N1 ; ! ""
@@ -860,6 +869,7 @@ Buryatiya:Buryatiya NP-TOP ; ! ""
 Boliviya:Boliviya NP-TOP ; ! ""
 Besarabiya:Besarabiya NP-TOP ;! ""
 Başkiriya:Başkiriya NP-TOP ;! ""
+
 Evropa:Evropa NP-TOP ; ! ""
 Efiopiya:Efiopiya NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
@@ -932,6 +942,8 @@ Kaledoniya:Kaledoniya NP-TOP ; ! ""
 Kapadokiya:Kapadokiya NP-TOP ; ! ""
 Kabardino:Kabardino NP-TOP ; ! ""
 Karboliya:Karboliya NP-TOP ; ! ""
+Kabardinı:Kabardinı NP-TOP ; ! ""
+Karaçay:Karaçay NP-TOP ; ! ""
 Kanariya:Kanariya NP-TOP ; ! ""
 Litvaniya:Litvaniya NP-TOP ; ! ""
 Libiya:Libiya NP-TOP ; ! ""
@@ -1162,7 +1174,7 @@ taa:taa ADV3 ;
 burada:burada  ADV3 ; ! ""
 ozaman:ozaman ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
-şindiye:şindiye ADV3 ; ! ""
+şindiya:şindiya ADV3 ; ! ""
 büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
 salt:salt ADV3 ; ! ""
