@@ -428,6 +428,47 @@ LEXICON BARB
 %<barb%>: # ;
 
 
+LEXICON ABBR-INIT
+
+%<abbr%>: # ;
+
+%<abbr%>%+A%.:A%. ABBR ; ! ""
+%<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
+%<abbr%>%+Â%.:Â%. ABBR-INIT ; ! ""
+%<abbr%>%+B%.:B%. ABBR-INIT ; ! ""
+%<abbr%>%+V%.:V%. ABBR-INIT ; ! ""
+%<abbr%>%+G%.:G%. ABBR-INIT ; ! ""
+%<abbr%>%+D%.:D%. ABBR-INIT ; ! ""
+%<abbr%>%+E%.:E%. ABBR-INIT ; ! ""
+%<abbr%>%+Ê%.:Ê%. ABBR-INIT ; ! ""
+%<abbr%>%+J%.:J%. ABBR-INIT ; ! ""
+%<abbr%>%+Z%.:Z%. ABBR-INIT ; ! ""
+%<abbr%>%+I%.:I%. ABBR-INIT ; ! ""
+%<abbr%>%+İ%.:İ%. ABBR-INIT ; ! ""
+%<abbr%>%+K%.:K%. ABBR-INIT ; ! ""
+%<abbr%>%+L%.:L%. ABBR-INIT ; ! ""
+%<abbr%>%+M%.:M%. ABBR-INIT ; ! ""
+%<abbr%>%+N%.:N%. ABBR-INIT ; ! ""
+%<abbr%>%+O%.:O%. ABBR-INIT ; ! ""
+%<abbr%>%+Ö%.:Ö%. ABBR-INIT ; ! ""
+%<abbr%>%+P%.:P%. ABBR-INIT ; ! ""
+%<abbr%>%+R%.:R%. ABBR-INIT ; ! ""
+%<abbr%>%+S%.:S%. ABBR-INIT ; ! ""
+%<abbr%>%+Ș%.:Ș%. ABBR-INIT ; ! ""
+%<abbr%>%+T%.:T%. ABBR-INIT ; ! ""
+%<abbr%>%+Ț%.:Ț%. ABBR-INIT ; ! ""
+%<abbr%>%+Ţ%.:Ţ%. ABBR-INIT ; ! ""
+%<abbr%>%+U%.:U%. ABBR-INIT ; ! ""
+%<abbr%>%+Ü%.:Ü%. ABBR-INIT ; ! ""
+%<abbr%>%+F%.:F%. ABBR-INIT ; ! ""
+%<abbr%>%+H%.:H%. ABBR-INIT ; ! ""
+%<abbr%>%+C%.:C%. ABBR-INIT ; ! ""
+%<abbr%>%+Ç%.:Ç%. ABBR-INIT ; ! ""
+%<abbr%>%+Ş%.:Ş%. ABBR-INIT ; ! ""
+%<abbr%>%+Y%.:Y%. ABBR-INIT ; ! ""
+%<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
+
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1121,6 +1162,7 @@ taa:taa ADV3 ;
 burada:burada  ADV3 ; ! ""
 ozaman:ozaman ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
+şindiye:şindiye ADV3 ; ! ""
 büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
 salt:salt ADV3 ; ! ""
@@ -1308,9 +1350,45 @@ bu:bu PRON-DEM-BU ; ! ""
 o:o PRON-DEM-O ; ! ""
 
 LEXICON Abbreviations
+
+%<abbr%>%+A%.:A%. ABBR-INIT ; ! ""
+%<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
+%<abbr%>%+Â%.:Â%. ABBR-INIT ; ! ""
+%<abbr%>%+B%.:B%. ABBR-INIT ; ! ""
+%<abbr%>%+V%.:V%. ABBR-INIT ; ! ""
+%<abbr%>%+G%.:G%. ABBR-INIT ; ! ""
+%<abbr%>%+D%.:D%. ABBR-INIT ; ! ""
+%<abbr%>%+E%.:E%. ABBR-INIT ; ! ""
+%<abbr%>%+Ê%.:Ê%. ABBR-INIT ; ! ""
+%<abbr%>%+J%.:J%. ABBR-INIT ; ! ""
+%<abbr%>%+Z%.:Z%. ABBR-INIT ; ! ""
+%<abbr%>%+I%.:I%. ABBR-INIT ; ! ""
+%<abbr%>%+İ%.:İ%. ABBR-INIT ; ! ""
+%<abbr%>%+K%.:K%. ABBR-INIT ; ! ""
+%<abbr%>%+L%.:L%. ABBR-INIT ; ! ""
+%<abbr%>%+M%.:M%. ABBR-INIT ; ! ""
+%<abbr%>%+N%.:N%. ABBR-INIT ; ! ""
+%<abbr%>%+O%.:O%. ABBR-INIT ; ! ""
+%<abbr%>%+Ö%.:Ö%. ABBR-INIT ; ! ""
+%<abbr%>%+P%.:P%. ABBR-INIT ; ! ""
+%<abbr%>%+R%.:R%. ABBR-INIT ; ! ""
+%<abbr%>%+S%.:S%. ABBR-INIT ; ! ""
+%<abbr%>%+Ș%.:Ș%. ABBR-INIT ; ! ""
+%<abbr%>%+T%.:T%. ABBR-INIT ; ! ""
+%<abbr%>%+Ț%.:Ț%. ABBR-INIT ; ! ""
+%<abbr%>%+Ţ%.:Ţ%. ABBR-INIT ; ! ""
+%<abbr%>%+U%.:U%. ABBR-INIT ; ! ""
+%<abbr%>%+Ü%.:Ü%. ABBR-INIT ; ! ""
+%<abbr%>%+F%.:F%. ABBR-INIT ; ! ""
+%<abbr%>%+H%.:H%. ABBR-INIT ; ! ""
+%<abbr%>%+C%.:C%. ABBR-INIT ; ! ""
+%<abbr%>%+Ç%.:Ç%. ABBR-INIT ; ! ""
+%<abbr%>%+Ş%.:Ş%. ABBR-INIT ; ! ""
+%<abbr%>%+Y%.:Y%. ABBR-INIT ; ! ""
+%<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
+
+
 Dr%.:Dr%. ABBR ;
-D%.:D%. ABBR ;
-K%.:K%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
