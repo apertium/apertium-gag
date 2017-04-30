@@ -599,6 +599,8 @@ deputat:deputat N1 ; ! ""
 direktor:direktor N1 ; ! ""
 diil:diil N1 ; ! ""
 din:din N1 ; ! ""
+diişilmesini:diişilmesini  N1 ;
+diskiriminaţiya:diskiriminaţiya N1 ;
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
 dönmää:dönmää N1 ; ! ""
@@ -616,7 +618,7 @@ etnografiya:etnografiya N1 ;
 erinä:erinä N1 ;
 enţiklopediya:enţiklopediya N1 ;
 evroaziya:evroaziya N1 ;
-
+êkskursiya:êkskursiya N1 ;
 
 festival:festival N1 ; ! ""
 fevral:fevral N1 ; ! ""
@@ -642,6 +644,7 @@ gidrometeorologiya:gidrometeorologiya N1 ;
 grenlandiya:grenlandiya N1 ; !  
 gimnaziya:gimnaziya N1 ;
 gazifikaşiya:gazifikaşiya N1 ;
+greţiya:greţiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 halk:halk N1 ; ! ""
