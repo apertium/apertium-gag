@@ -352,10 +352,10 @@ LEXICON N1
 %<n%>: SUBST ; 
 %<n%>: PLURAL ; 
 
-LEXICON N5
-%<n%>%<nom%>: # ;
+!!LEXICON N5
+!!%<n%>%<nom%>: # ;
 !!%<n%>:%' N-INFL-COMMON-NONOM ;
-%<n%>%<attr%>: # ;
+!!%<n%>%<attr%>: # ;
 
 
 
@@ -577,7 +577,7 @@ demografiya:demografiya N1 ; ! ""
 delegaţiya:delegaţiya N1 ; ! ""
 dünnää:dünnää N1 ; ! ""
 evraziya:evraziya N1 ; 
-
+ekmek:ekmek N1 ;
 
 resim:res%{й%}m N1 ; ! "образ"
 radio:radio N1 ; ! ""
@@ -622,6 +622,7 @@ bölüm:bölüm N1 ; ! ""
 bölümlüü:bölümlüü N1 ; ! ""
 biologiya:biologiya N1 ; !"" 
 bibliografiya:bibliografiya N1 ; 
+beygir:beygir N1 ;
 
 
 büükelçi:büükelçi N1 ; ! ""
@@ -675,6 +676,7 @@ geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
+grup:grup N1 ;
 güney:güney N1 ; ! "south"
 gagauzologiya:gagauzologiya N1 ;
 gvardiya:gvardiya N1 ;
@@ -684,6 +686,7 @@ gidrometeorologiya:gidrometeorologiya N1 ;
 grenlandiya:grenlandiya N1 ; !  
 gimnaziya:gimnaziya N1 ;
 gazifikaşiya:gazifikaşiya N1 ;
+grek:grek N1 ;
 greţiya:greţiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
@@ -697,6 +700,7 @@ hristian:hristian N1 ; ! ""
 haliz:haliz N1 ; ! ""
 haliz:halis N1 ;
 insan:insan N1 ; ! ""
+işbirlii:işbirlii N1 ;
 iş:iş N1 ; ! ""
 il:il N1 ; ! ""
 ilgi:ilgi N1 ; ! ""
@@ -711,14 +715,17 @@ kardaş:kardaş N1 ; ! ""
 kerä:kerä N1 ; ! ""
 karar:karar N1 ; ! ""
 kırım:kırım N1 ; ! ""
+karı:karı N1 ;
 kiyad:kiyad N1 ; ! ""
 kirez:kirez N1 ; ! ""
 kurul:kurul N1 ; ! ""
 kul:kul N1 ; ! ""
 kıpçak:kıpçak N1 ;
 kultura:kultura N1 ; ! ""
+karayip:karayip N1 ;
 kurban:kurban N1 ; ! ""
 konstantin:konstantin N1 ; ! ""
+kısa:kısa N1 ;
 kasaba:kasaba N1 ; ! ""
 kız:kız N1 ; ! ""
 küüy:küüy N1 ; ! ""
@@ -742,6 +749,7 @@ kongaz:kongaz N1 ;
 kiyat:kiyat N1 ;
 
 latiniţiya:latiniţiya N1 ; 
+latin:latin N1 ;
 laf:laf N1 ; ! ""
 lafbirleşmeleri:lafbirleşmeleri N1 ; ! ""
 literatura:literatura N1 ; ! ""
@@ -752,7 +760,8 @@ lidiya:lidiya N1 ; !
 
 merkez:merkez N1 ; ! ""
 millet:millet N1 ; ! ""
-masmediya:masmediya N1 ; ! ""  
+masmediya:masmediya N1 ; ! ""
+moldovan:moldovan N1 ;  
 
 muzika:muzika N1 ; ! ""
 muzika:muzıka N1 ; 
@@ -778,16 +787,19 @@ okeaniyas:okeaniyas N1 ; ! ""
 okeaniya:okeaniya N1 ;
 ölä:ölä N1 ; ! ""
 okupaţiya:okupaţiya N1 ; ! ""
+osmanlı:osmanlı N1 ; ! ""
 operaţiya:operaţiya N1 ; ! ""
 opoziţiya:opoziţiya N1 ; ! ""
 orfografiya:orfografiya N1 ; ! ""
 organizaşiya:organizaşiya N1 ; ! ""
 organizaţiya:organizaţiya N1 ; ! ""
-
+onuştan:onuştan N1 ;
+önderci:önderci N1 ;
 önemli:önemli N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişah N1 ; ! ""
+padişaa:padişaa N1 ; 
 para:para N1 ; ! ""
 populyasiya:populyasiya N1 ; ! ""
 poziţiya:poziţiya N1; ! ""
@@ -808,6 +820,7 @@ poeziya:poeziya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 polişiya:polişiya N1 ; ! ""
 panaiya:panaiya N1 ; ! ""
+parlament:parlament N1 ;
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
 roman:roman N1 ; ! ""
@@ -847,10 +860,12 @@ seysmologiya:seysmologiya N1 ;
 şehr:şehr N1 ; ! ""
 şahr:şahr N1 ; ! ""
 şampaniya:şampaniya N1 ;
+şeytan:şeytan N1 ;
 şiir:şiir N1 ; ! ""
 şotlandiya:şotlandiya N1 ;
 status:status N1 ; ! ""
 su:su N1 ; ! ""
+soy:soy N1 ; ! ""
 sport:sport N1 ; ! ""
 saat:saat N1 ; ! ""
 struktiya:struktiya N1 ;
@@ -862,11 +877,13 @@ teklif:teklif N1 ; ! ""
 takvim:takvim N1 ; ! ""
 televiden:televiden N1 ; ! ""
 tragediya:tragediya N1 ;
+topluşu:topluşu N1 ;
 kabul:kabul N1 ; ! ""
 tanım:tanım N1 ;
 ţivilizaţiya:ţivilizaţiya N1 ;
 teologiya:teologiya N1 ;
 tendentiya:tendentiya N1 ; 
+taman:taman N1; ! "completely"
 tehnologiya:tehnologiya N1 ;
 kod:kod N1 ; ! ""
 kanal:kanal N1 ; ! ""
@@ -916,6 +933,8 @@ yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
 yustiţiya:yustiţiya N1 ; ! ""
 yortu:yortu N1 ; ! ""
+yarışma:yarışma N1 ;
+yaşayan:yaşayan N1 ;
 zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 
@@ -925,15 +944,21 @@ gregoryen:gregoryen N1 ; ! ""
 gagauzça:gagauzça N1 ; ! ""
 rusça:rusça N1 ; ! ""
 
-Avgust:Avgust N5 ;
-Temmuz:Temmuz N5 ;
-Eylül:Eylül N5 ;
-Kasım:Kasım N5 ;
-Aralık: Aralık N5 ;
-Ocak:Ocak N5 ;
-Şubat:Şubat N5 ;
-Mart:Mart N5 ;
-Nisan:Nisan N5 ;
+avgust:avgust N1 ;
+temmuz:Temmuz N1 ;
+eylül:Eylül N1 ;
+kasım:kasım N1 ;
+aralık: Aralık N1 ;
+ocak:Ocak N1 ;
+şubat:Şubat N1 ;
+mart:Mart N1 ;
+nisan:Nisan N1 ;
+
+
+!!!LANGUAGES!!!!!
+
+moldovanca:moldovanca N1 ;
+ingilizçe:,ingilizçe N1 ;
 
 
 LEXICON ProperNouns 
@@ -1004,6 +1029,7 @@ Ingriya:Ingriya NP-TOP ; ! ""
 İnguşiya:İnguşiya NP-TOP ; ! ""
 İnovaţiya:İnovaţiya NP-TOP ; ! ""
 inteligenşiya:inteligenşiya NP-TOP ; ! ""
+Karayip:Karayip NP-TOP ; ! ""
 Kiliya:Kiliya NP-TOP ; ! ""
 Keçiya:Keçiya NP-TOP ; ! ""
 Keniya:Keniya NP-TOP ; ! ""
@@ -1066,6 +1092,7 @@ Singapur:Singapur NP-TOP ; ! ""
 Serbiya:Serbiya NP-TOP ; ! ""
 Skifiya:Skifiya NP-TOP ; ! ""
 Slovakiya:Slovakiya NP-TOP ; ! ""
+San:San NP-TOP ; ! ""
 Sloveniya:Sloveniya NP-TOP ; ! ""
 Silistiriya:Silistiriya NP-TOP ; ! ""
 Șveţiya:Șveţiya NP-TOP ; ! ""
@@ -1103,7 +1130,7 @@ Zambiya:Zambiya NP-TOP ; ! ""
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
-Aleksandriya:Aleksandriya NP-ANT-M ; ! ""
+Aleksandri:Aleksandri NP-ANT-M ; ! ""
 Opoziţiya:Opoziţiya NP-ANT-M ; ! ""
 Eremiya:Eremiya NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
@@ -1129,7 +1156,8 @@ Aleksander:Aleksander NP-ANT-M ; ! ""
 Andrey:Andrey NP-ANT-M ; ! ""
 Süleyman:Süleyman NP-ANT-M ; ! ""
 periya:periya NP-ANT-M ; ! ""
-
+Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
+İon:İon NP-ANT-M ; ! ""
 Liliya:Liliya NP-ANT-F ; ! ""
 
 Todur:Todur NP-ANT-M ; ! ""
@@ -1150,11 +1178,14 @@ Mati:Mati NP-ANT-M ; ! ""
 Födor:Födor NP-ANT-M ; ! ""
 Ants:Ants NP-ANT-M ; ! ""
 Dedal:Dedal NP-ANT-M ; ! ""
+Peeter:Peeter NP-ANT-M ; ! ""
+Marina:Marina NP-ANT-F ; ! ""
 
 Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
 Baboglu:Baboglu NP-COG-MF ; ! ""
 Babaloglu:Babaloglu NP-COG-MF ; ! ""
 Ayoglu:Ayoglu NP-COG-MF ; ! ""
+Moşkov:Moşkov NP-COG-MF ; ! ""
 Genceviya:Genceviya NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 köroglu:köroglu NP-COG-MF ; ! ""
@@ -1193,6 +1224,7 @@ GHT:GHT  NP1-ORG ;
 SSCB:SSCB NP1-ORG ;
 ÜS:ÜS NP1-ORG ;
 GRT:GRT NP1-ORG ;
+GR:GR NP1-ORG ;
 
 LEXICON Adjectives 
 
@@ -1216,10 +1248,13 @@ büük:büük A2 ; ! ""
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
+uygun:uygun A1 ;  ! "appropriate, suitable, appropriate"
 köklü:köklü A1 ; ! ""
 eski:eski A1 ; ! ""
 sade:sade A1 ; ! ""
+saa:saa A1 ; ! ""
 üüsek:üüsek A1 ; ! ""
+kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
 peri:peri A1 ; ! ""
 paalı:paalı A1 ; ! ""
@@ -1264,6 +1299,7 @@ ozaman:ozaman ADV3 ; ! ""
 şindiya:şindiya ADV3 ; ! ""
 büün:büün ADV4; ! ""
 sa:sa ADV3 ; ! ""
+taman:taman ADV3 ; ! "completely"
 salt:salt ADV3 ; ! ""
 en:en ADV3 ;
 enidän:enidän ADV3 ;
@@ -1282,6 +1318,7 @@ orada:orada ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
+yaşayan:yaşayan ADV3 ;
 
 
 
@@ -1307,6 +1344,8 @@ ne:ne CC ;
 ve:ve CC ; ! "and"
 a:a CC ; ! ""
 ya:ya CC ; ! ""
+bilä:bilä CS ;
+çünkü:çünkü CS ;
 
 olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
@@ -1332,6 +1371,7 @@ biraz:biraz DET-QNT ; ! "a bit"
 zeedä:zeedä DET-QNT ; ! "a lot"
 kendi:kendi DET-REF ; ! ""
 kaç:kaç DET-QNT ; ! ""
+okadar:okadar DET-QNT ; ! ""
 
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
@@ -1374,7 +1414,10 @@ gir:gir V-IV ;
 gel:gel V-IV ;
 geç:geç V-IV ;
 başla:başla V-IV ;
+çek:çek V-TV ;
 yap:yap V-TV ;
+yapıl:yapıl V-TV ;
+kurul:kurul V-IV ;
 açıkla:açıkla V-TV ;
 yaz:yaz V-IV ;
 aç:aç V-TV ;
@@ -1383,6 +1426,7 @@ ol:ol V-IV ;
 dön:dön V-IV ;
 diiştir:diiştir V-IV ;
 var:var V-IV ;
+çekile:çekile V-IV ;
 katıl:katıl V-TV ;
 kabled:kabled V-TV ;
 seç:seç V-TV ;
@@ -1422,7 +1466,7 @@ gidär:gidär V-IV ;
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 tut:tut V-TV ;
-özlää:özlää V-TV ; ! "miss" (T)
+özläär:özläär V-TV ; ! "miss" (T)
 aara:aara V-TV ;
 koru:koru V-TV ;
 genoţi:genoţi V-IV ;
@@ -1469,6 +1513,7 @@ birisi:birisi PRON-QNT ; ! "somebody"
 bu:bu PRON-DEM-BU ; ! ""
 şu:şu PRON-DEM-SU ; ! ""
 o:o PRON-DEM-O ; ! ""
+öz:öz PRON-REF ; ! ""
 
 LEXICON Abbreviations
 
@@ -1509,6 +1554,8 @@ Y%.:Y%. ABBR-INIT ; ! ""
 
 
 Dr%.:Dr%. ABBR ;
+Doç%.:Doç%. ABBR ;
+Prof%.:Prof%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
