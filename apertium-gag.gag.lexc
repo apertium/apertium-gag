@@ -344,11 +344,18 @@ LEXICON SUBST
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
+
+
 LEXICON N1 
 %<n%>%<attr%>: # ;
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>: PLURAL ; 
+
+LEXICON N5
+%<n%>%<nom%>: # ;
+!!%<n%>:%' N-INFL-COMMON-NONOM ;
+%<n%>%<attr%>: # ;
 
 
 
@@ -402,26 +409,27 @@ LEXICON NP-COG-MF
 
 LEXICON PRON-DEM-O
 %<prn%>%<dem%>%<nom%>: # ;
-%<prn%>%<dem%>%<gen%>:nın # ;
+%<prn%>%<dem%>%<gen%>:nun # ;
 %<prn%>%<dem%>%<dat%>:na # ;
 %<prn%>%<dem%>%<acc%>:nı # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
-
+%<prn%>%<dem%>%<abl%>:nnan # ;
 LEXICON PRON-DEM-SU
 
 %<prn%>%<dem%>%<nom%>: # ;
 %<prn%>%<dem%>%<acc%>:nu # ;
-%<prn%>%<dem%>%<gen%>:nın # ;
+%<prn%>%<dem%>%<gen%>:nun # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
 
 LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<nom%>: # ;
 %<prn%>%<dem%>%<acc%>:nu # ;
-%<prn%>%<dem%>%<gen%>:nın # ;
+%<prn%>%<dem%>%<gen%>:nun # ;
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
+%<prn%>%<dem%>%<abl%>:nnan # ;
 
 LEXICON PRON-INTERR
 
@@ -517,6 +525,8 @@ karşı:karşı N1 ; ! ""
 ön:ön N1 ; ! ""
 
 at:at N1 ; ! ""
+altay:altay N1 ; ! ""
+avtomobil:avtomobil N1 ; ! ""
 asoţiaţiya:asoţiaţiya N1 ;
 arheologiya:arheologiya N1 ;
 antropologiya:antropologiya N1 ;
@@ -553,6 +563,7 @@ bilim:bilim N1 ; ! ""
 büün:büün N1 ; ! ""
 babu:babu N1 ; ! ""
 
+can:can N1 ; 
 canavar:canavar N1 ; ! ""
 canabisi:canabisi N1 ; ! ""
 cuvap:cuvap N1 ; 
@@ -600,8 +611,10 @@ aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
 asoţiaţiya:asoţiaţiya N1 ; ! ""
 
+balaban:balaban N1 ; ! ""
 biblioteka:biblioteka N1 ;
 baba:baba N1 ; ! ""
+baba:boba N1 ; 
 balık:balık N1 ; ! ""
 başkan:başkan N1 ; ! ""
 beeri:beeri N1 ; ! ""
@@ -643,6 +656,7 @@ etnografiya:etnografiya N1 ;
 erinä:erinä N1 ;
 enţiklopediya:enţiklopediya N1 ;
 evroaziya:evroaziya N1 ;
+eder:eder N1 ; ! "worth"
 êkskursiya:êkskursiya N1 ;
 
 festival:festival N1 ; ! ""
@@ -661,6 +675,7 @@ geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
+güney:güney N1 ; ! "south"
 gagauzologiya:gagauzologiya N1 ;
 gvardiya:gvardiya N1 ;
 geografiya:geografiya N1 ; !""
@@ -680,6 +695,7 @@ hepsi:hepsi N1 ; ! ""
 himiya:himiya N1 ; ! ""
 hristian:hristian N1 ; ! ""
 haliz:haliz N1 ; ! ""
+haliz:halis N1 ;
 insan:insan N1 ; ! ""
 iş:iş N1 ; ! ""
 il:il N1 ; ! ""
@@ -699,7 +715,7 @@ kiyad:kiyad N1 ; ! ""
 kirez:kirez N1 ; ! ""
 kurul:kurul N1 ; ! ""
 kul:kul N1 ; ! ""
-
+kıpçak:kıpçak N1 ;
 kultura:kultura N1 ; ! ""
 kurban:kurban N1 ; ! ""
 konstantin:konstantin N1 ; ! ""
@@ -707,6 +723,7 @@ kasaba:kasaba N1 ; ! ""
 kız:kız N1 ; ! ""
 küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
+komşu:komşu N1 ; ! ""
 konstituşiya:Konstituşiya N1 ; ! ""
 kompoziţiya:kompoziţiya N1 ;
 kоntinent:kоntinent N1 ; ! ""
@@ -726,6 +743,7 @@ kiyat:kiyat N1 ;
 
 latiniţiya:latiniţiya N1 ; 
 laf:laf N1 ; ! ""
+lafbirleşmeleri:lafbirleşmeleri N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
 lekţiya:lekţiya N1 ; ! ""
@@ -792,6 +810,7 @@ polişiya:polişiya N1 ; ! ""
 panaiya:panaiya N1 ; ! ""
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
+roman:roman N1 ; ! ""
 redakţiya:redakţiya N1; ! ""
 redikţiya:redikţiya N1 ;
 rekomendaţiya:rekomendaţiya N1 ; ! ""
@@ -818,6 +837,9 @@ serbest:serbest N1 ; ! ""
 seçim:seçim N1 ; ! ""
 sergiya:sergiya N1 ; ! ""
 sovet:sovet N1 ; ! ""
+soruş:soruş N1 ; ! ""
+sıra:sıra N1 ; ! ""
+seftä:seftä N1 ;
 sansın:sansın N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
 seysmologiya:seysmologiya N1 ;
@@ -870,6 +892,8 @@ türkologiya:türkologiya N1 ;
 
 uur:uur N1 ; ! ""
 universitet:universitet N1 ; ! ""
+uzlar:uzlar N1 ;
+uc:uc N1 ;
 üüredicilik:üüredicilik N1 ; ! ""
 uşak:uşak N1 ; ! ""
 üzer:üzer N1 ; ! ""
@@ -880,6 +904,8 @@ vikipediya:vikipediya N1 ;
 vakıt:vakıt N1 ; ! ""
 versiya:versiya N1 ; ! ""
 vakansiya:vakansiya N1 ; ! ""
+vatan:vatan N1 ; ! ""
+
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
 yardımcı:yardımcı N1 ; ! ""
@@ -899,6 +925,16 @@ gregoryen:gregoryen N1 ; ! ""
 gagauzça:gagauzça N1 ; ! ""
 rusça:rusça N1 ; ! ""
 
+Avgust:Avgust N5 ;
+Temmuz:Temmuz N5 ;
+Eylül:Eylül N5 ;
+Kasım:Kasım N5 ;
+Aralık: Aralık N5 ;
+Ocak:Ocak N5 ;
+Şubat:Şubat N5 ;
+Mart:Mart N5 ;
+Nisan:Nisan N5 ;
+
 
 LEXICON ProperNouns 
 
@@ -909,6 +945,7 @@ Boliviya:Boliviya NP-TOP ; ! ""
 Besarabiya:Besarabiya NP-TOP ;! ""
 Başkiriya:Başkiriya NP-TOP ;! ""
 Belarus:Belarus NP-TOP ;! ""
+Adana:Adana NP-TOP ;! ""
 
 Evropa:Evropa NP-TOP ; ! ""
 Efiopiya:Efiopiya NP-TOP ; ! ""
@@ -1112,6 +1149,7 @@ Dädu:Dädu NP-ANT-M ; ! ""
 Mati:Mati NP-ANT-M ; ! ""
 Födor:Födor NP-ANT-M ; ! ""
 Ants:Ants NP-ANT-M ; ! ""
+Dedal:Dedal NP-ANT-M ; ! ""
 
 Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
 Baboglu:Baboglu NP-COG-MF ; ! ""
@@ -1122,6 +1160,7 @@ Kuroglu:Kuroglu NP-COG-MF ; ! ""
 köroglu:köroglu NP-COG-MF ; ! ""
 Konstandoglu:Konstandoglu NP-COG-MF ; ! ""
 Kırbaoglu:Kırbaoglu NP-COG-MF ; ! ""
+Krayı:Krayı NP-COG-MF ; ! ""
 Hesenoglu:Hesenoglu NP-COG-MF ; ! ""
 Demiroglu:Demiroglu NP-COG-MF ; ! ""
 Dimoglu:Dimoglu NP-COG-MF ; ! ""
@@ -1158,13 +1197,16 @@ GRT:GRT NP1-ORG ;
 LEXICON Adjectives 
 
 küçük:küçük A2 ; ! ""
+koyu:koyu A1 ; 
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
 yok:yok A2 ; ! ""
+maavi:maavi A2 ;  ! "blue"
 belli:belli A1 ; ! ""
 türlü:türlü A2 ; ! ""
 çeşitli:çeşitli A2 ; ! ""
+mutlu:mutlu A1 ;
 uzun:uzun A1 ; ! ""
 zor:zor  A1 ; ! ""
 ayırı:ayırı A1 ; ! ""
@@ -1227,6 +1269,7 @@ en:en ADV3 ;
 enidän:enidän ADV3 ;
 nicä:nicä ADV-ITG ;
 nasıl:nasıl ADV-ITG ;
+nasıl:nesoy ADV-ITG ;
 daha:daha ADV3 ;
 genä:genä ADV3 ;
 beraber:beraber ADV3 ; ! "together"
@@ -1333,6 +1376,7 @@ geç:geç V-IV ;
 başla:başla V-IV ;
 yap:yap V-TV ;
 açıkla:açıkla V-TV ;
+yaz:yaz V-IV ;
 aç:aç V-TV ;
 et:et V-TV ;
 ol:ol V-IV ;
@@ -1352,10 +1396,12 @@ oku:oku V-TV ;
 üüred:üüred V-IV ; 
 yaz:yaz V-TV ;
 düş:düş V-TV ;
+istäär:istäär V-TV ;
 aç:aç V-TV ;
 başar:başar V-TV ;
 çıkar:çıkar V-TV ;
 topla:topla V-TV ;
+toplan:toplan V-IV ;
 bit:bit V-TV ;
 yarat:yarat V-TV ;
 gör: gör V-TV ;
@@ -1376,6 +1422,7 @@ gidär:gidär V-IV ;
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 tut:tut V-TV ;
+özlää:özlää V-TV ; ! "miss" (T)
 aara:aara V-TV ;
 koru:koru V-TV ;
 genoţi:genoţi V-IV ;
@@ -1389,6 +1436,7 @@ göster:göster V-TV ;
 hazırla:hazırla V-TV ;
 bak:bak V-TV ;
 al:al V-TV ;
+sıkıl:sıkıl V-TV ;
 getir:getir V-TV ;
 annat:annat V-TV ;
 bul:bul V-TV ;
