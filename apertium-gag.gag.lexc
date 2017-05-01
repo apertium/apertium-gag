@@ -627,6 +627,7 @@ beygir:beygir N1 ;
 
 
 büükelçi:büükelçi N1 ; ! ""
+birliin:birliin N1 ;
 çiçek:çiçek N1 ; ! ""
 çocuu:çocuu N1 ; 
 ceviz:ceviz N1 ; ! ""
@@ -790,6 +791,7 @@ oktäbr:oktäbr N1 ; ! ""
 ofiţial:ofiţial N1 ; !""
 orak:orak N1 ; ! ""
 okeaniyas:okeaniyas N1 ; ! ""
+olay:olay N1 ; 
 okeaniya:okeaniya N1 ;
 ölä:ölä N1 ; ! ""
 okupaţiya:okupaţiya N1 ; ! ""
@@ -799,6 +801,7 @@ opoziţiya:opoziţiya N1 ; ! ""
 orfografiya:orfografiya N1 ; ! ""
 organizaşiya:organizaşiya N1 ; ! ""
 organizaţiya:organizaţiya N1 ; ! ""
+ölüm:ölüm N1 ;
 onuştan:onuştan N1 ;
 önderci:önderci N1 ;
 önemli:önemli N1 ; ! ""
@@ -902,6 +905,7 @@ kvalifikaţiya:kvalifikaţiya N1 ;
 rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 toprak:toprak N1 ; ! ""
+taş:taş N1 ; 
 türk:türk N1 ; ! ""
 turk:turk N1 ; ! ""
 karaçay:karaçay N1 ; ! ""
@@ -918,6 +922,7 @@ universitet:universitet N1 ; ! ""
 uzlar:uzlar N1 ;
 uc:uc N1 ;
 üüredicilik:üüredicilik N1 ; ! ""
+üüredici:üüredici N1 ;
 uşak:uşak N1 ; ! ""
 üzer:üzer N1 ; ! ""
 uluslararası:uluslararası N1 ; ! ""
@@ -929,8 +934,10 @@ versiya:versiya N1 ; ! ""
 vakansiya:vakansiya N1 ; ! ""
 vatan:vatan N1 ; ! ""
 
+yıldönümü:yıldönümü N1 ;
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
+yıldönümü:yıldönümü N1 ;
 yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
 yazıcı:yazıcı N1 ; ! ""
@@ -964,7 +971,7 @@ nisan:Nisan N1 ;
 !!!LANGUAGES!!!!!
 
 moldovanca:moldovanca N1 ;
-ingilizçe:,ingilizçe N1 ;
+ingilizçe:ingilizçe N1 ;
 
 
 LEXICON ProperNouns 
@@ -1166,6 +1173,7 @@ periya:periya NP-ANT-M ; ! ""
 Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
 İon:İon NP-ANT-M ; ! ""
 Liliya:Liliya NP-ANT-F ; ! ""
+Paul:Paul NP-ANT-M ; ! "" 
 
 Todur:Todur NP-ANT-M ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
@@ -1188,12 +1196,14 @@ Ants:Ants NP-ANT-M ; ! ""
 Dedal:Dedal NP-ANT-M ; ! ""
 Peeter:Peeter NP-ANT-M ; ! ""
 Marina:Marina NP-ANT-F ; ! ""
+Semön:Semön NP-ANT-M ; ! ""
 
 Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
 Baboglu:Baboglu NP-COG-MF ; ! ""
 Babaloglu:Babaloglu NP-COG-MF ; ! ""
 Ayoglu:Ayoglu NP-COG-MF ; ! ""
 Moşkov:Moşkov NP-COG-MF ; ! ""
+Voldemar:Voldemar NP-COG-MF ; ! ""
 Genceviya:Genceviya NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 köroglu:köroglu NP-COG-MF ; ! ""
@@ -1213,6 +1223,7 @@ Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
 Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
 Karaçoban:Karaçoban NP-COG-MF ; ! ""
+Vasili:Vasili NP-COG-MF ; ! ""
 
 
 
@@ -1248,6 +1259,7 @@ türlü:türlü A2 ; ! ""
 çeşitli:çeşitli A2 ; ! ""
 mutlu:mutlu A1 ;
 uzun:uzun A1 ; ! ""
+pak:pak A1 ; 
 zor:zor  A1 ; ! ""
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
@@ -1265,6 +1277,7 @@ saa:saa A1 ; ! ""
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
 peri:peri A1 ; ! ""
+yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
 meraklı:meraklı A1 ;  ! "curious, curious"
@@ -1280,6 +1293,7 @@ gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
 ii:ii A1 ; ! "good"
 yakın:yakın A1 ; ! ""
+yabancı:yabancı A1 ;  ! ""
 milli:milli A1 ; ! ""
 temel:temel A1 ; ! ""
 türk:türk A1 ; ! ""
@@ -1291,7 +1305,8 @@ hızlı:hızlı A1 ; ! ""
 pek:pek A1 ; ! ""
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
-kaarä:kaarä A1;
+kaarä:kaarä A1 ;
+raametli:raametli A1 ;
 
 
 LEXICON Adverbs
@@ -1490,6 +1505,7 @@ bak:bak V-TV ;
 al:al V-TV ;
 sıkıl:sıkıl V-TV ;
 getir:getir V-TV ;
+başlê:başlê V-IV ;
 annat:annat V-TV ;
 bul:bul V-TV ;
 bil:bil V-TV ;
@@ -1569,6 +1585,10 @@ kg:kg ABBR ;
 d%.:d%. ABBR ;
 te:te ABBR ; 
 de:de ABBR ;
+cı:cı ABBR ;
+I:I ABBR ;
+cü:cü ABBR ;
+V:V ABBR ;
 
 
 
