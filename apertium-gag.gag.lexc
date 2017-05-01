@@ -1150,6 +1150,7 @@ Mihail:Mihail NP-ANT-M ; ! ""
 İliya:İliya NP-ANT-M ;
 Köroglu:Köroglu NP-ANT-M ; ! ""
 Köroglu:Köroglu NP-ANT-F ; ! ""
+Komrattakı:Komrattakı NP-ANT-M ; ! ""
 Stepan:Stepan NP-ANT-F ; ! ""
 Sofiya:Sofiya NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
@@ -1204,7 +1205,7 @@ Orumbetoglu:Orumbetoglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
 Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
-
+Karaçoban:Karaçoban NP-COG-MF ; ! ""
 
 
 
