@@ -894,6 +894,7 @@ teologiya:teologiya N1 ;
 tendentiya:tendentiya N1 ; 
 taman:taman N1; ! "completely"
 tehnologiya:tehnologiya N1 ;
+koyun:koyun N1 ;
 kod:kod N1 ; ! ""
 kanal:kanal N1 ; ! ""
 katılmêêr:katılmêêr N1 ; 
