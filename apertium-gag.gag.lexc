@@ -557,6 +557,7 @@ bey:bey N1 ; ! ""
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
 baal:baal N1 ; ! ""
+büü:büü N1 ;
 boy:boy N1 ; ! "length"
 bilgi:bilgi N1 ; ! 
 bilim:bilim N1 ; ! ""
@@ -659,24 +660,29 @@ enţiklopediya:enţiklopediya N1 ;
 evroaziya:evroaziya N1 ;
 eder:eder N1 ; ! "worth"
 êkskursiya:êkskursiya N1 ;
+erindeki:erindeki N1 ;
 
 festival:festival N1 ; ! ""
 fevral:fevral N1 ; ! ""
 fizikacı:fizikacı N1 ; ! ""
 filologiya:filologiya N1 ; ! ""
 frakiya:frakiya N1 ;
+folklor:folklor N1 ;
 fotografiya:fotografiya N1 ;
 filarmoniya:filarmoniya N1 ; 
 filosofiya:filosofiya N1 ;
+formuzal:formuzal N1 ;
 
 gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
+güreşçi:güreşçi N1 ;
 geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
 grup:grup N1 ;
+gösteri:gösteri N1 ; 
 güney:güney N1 ; ! "south"
 gagauzologiya:gagauzologiya N1 ;
 gvardiya:gvardiya N1 ;
@@ -1164,6 +1170,7 @@ Liliya:Liliya NP-ANT-F ; ! ""
 Todur:Todur NP-ANT-M ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
+İrecek:İrecek NP-ANT-M ; ! ""
 Açan:Açan NP-ANT-F ; ! ""
 Vladimir:Vladimir NP-ANT-M ; ! ""
 Stepan:Stepan NP-ANT-M ; ! ""
