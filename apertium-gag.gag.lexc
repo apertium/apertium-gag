@@ -146,9 +146,14 @@ LEXICON V-PERS-PROG
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<aor%>:%>%{A%}r V-PERS-AOR ;
+%<aor%>:%>%{A%}r V-GZ ;
+%<aor%>:%>%{A%}r # ;
 %<prog%>:%>%{E%}r V-PERS-PROG ;
-%<nfh%>:%>m%{I}ş # ;
+%<nfh%>:%>m%{I%}ş # ;
 %<inf%>:%>%>m%{A%}k # ;
+
+LEXICON V-GZ
+%<nfh%>:%>m%{I%}ş # ;
 
 
 LEXICON V-GPR-COMMON
@@ -162,10 +167,14 @@ LEXICON V-GPR
 
 %<gpr_rsub%>:%>%{й}%{A%}n V-GPR-COMMON ;
 %<gpr_rsub%>:%>%{й}%{A%}n # ;
+%<gpr_rsub%>:%>%{й}%{A%}n V-GZ ;
+%<aor%>:%>%{A%}r  V-GZ ;
 %<gpr_nfh%>:%>m%{I}ş # ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
+%<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-GZ ;
 %<ger%>:%>m{A%} POSSESSIVES ;
+%<ger%>:%>m{A%} V-GZ;
 
 
 LEXICON V-GNA
