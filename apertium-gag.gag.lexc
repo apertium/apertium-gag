@@ -6,6 +6,7 @@ Multichar_Symbols
 %<prn%>   !Pronun
 %<postadv%>
 %<np%>
+%<abbr%>
 %<adv%>   !Adverb
 %<cnjcoo%>
 %<cnjsub%>
@@ -91,6 +92,7 @@ Numerals ;
 Nouns ;
 Verbs;
 ProperNouns ; 
+Cognomena ;
 Pronouns ; 
 Adjectives ;
 Adverbs ;
@@ -408,7 +410,6 @@ LEXICON NP-ANT-M
 LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
 
-
 LEXICON NP-COG-MF 
 
 %<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
@@ -459,7 +460,8 @@ LEXICON BARB
 LEXICON ABBR-INIT
 
 %<abbr%>: # ;
-%<abbr%>%+A%.:A%. ABBR ; ! ""
+%<abbr%>%+: Cognomena ;
+%<abbr%>%+A%.:A%. ABBR-INIT ; ! ""
 %<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
 %<abbr%>%+Â%.:Â%. ABBR-INIT ; ! ""
 %<abbr%>%+B%.:B%. ABBR-INIT ; ! ""
@@ -1008,6 +1010,7 @@ ingilizçe:ingilizçe N1 ;
 LEXICON ProperNouns 
 
 Afrika:Afrika NP-TOP ; ! ""
+São% Paulo:São% Paulo NP-TOP ; ! ""
 Bucak:Bucak NP-TOP ; ! ""
 Buryatiya:Buryatiya NP-TOP ; ! ""
 Boliviya:Boliviya NP-TOP ; ! ""
@@ -1229,32 +1232,6 @@ Peeter:Peeter NP-ANT-M ; ! ""
 Marina:Marina NP-ANT-F ; ! ""
 Semön:Semön NP-ANT-M ; ! ""
 
-Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
-Baboglu:Baboglu NP-COG-MF ; ! ""
-Babaloglu:Babaloglu NP-COG-MF ; ! ""
-Ayoglu:Ayoglu NP-COG-MF ; ! ""
-Moşkov:Moşkov NP-COG-MF ; ! ""
-Voldemar:Voldemar NP-COG-MF ; ! ""
-Genceviya:Genceviya NP-COG-MF ; ! ""
-Kuroglu:Kuroglu NP-COG-MF ; ! ""
-köroglu:köroglu NP-COG-MF ; ! ""
-Konstandoglu:Konstandoglu NP-COG-MF ; ! ""
-Kırbaoglu:Kırbaoglu NP-COG-MF ; ! ""
-Krayı:Krayı NP-COG-MF ; ! ""
-Hesenoglu:Hesenoglu NP-COG-MF ; ! ""
-Demiroglu:Demiroglu NP-COG-MF ; ! ""
-Dimoglu:Dimoglu NP-COG-MF ; ! ""
-Dudoglu:Dudoglu NP-COG-MF ; ! ""
-Filoglu:Filoglu NP-COG-MF ; ! ""
-Filioglu:Filioglu NP-COG-MF ; ! ""
-Duloglu:Duloglu NP-COG-MF ; ! ""
-Marinoglu:Marinoglu NP-COG-MF ; ! ""
-Orumbetoglu:Orumbetoglu NP-COG-MF ; ! ""
-Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
-Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
-Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
-Karaçoban:Karaçoban NP-COG-MF ; ! ""
-Vasili:Vasili NP-COG-MF ; ! ""
 
 
 
@@ -1275,6 +1252,44 @@ SSCB:SSCB NP1-ORG ;
 ÜS:ÜS NP1-ORG ;
 GRT:GRT NP1-ORG ;
 GR:GR NP1-ORG ;
+
+LEXICON Cognomena 
+
+Şevçenko:Şevçenko NP-COG-MF ; ! ""
+Mogutenko:Mogutenko NP-COG-MF ; ! ""
+Udovenko:Udovenko NP-COG-MF ; ! ""
+Spatarenko:Spatarenko NP-COG-MF ; ! ""
+Penko:Penko NP-COG-MF ; ! ""
+Makovenko:Makovenko NP-COG-MF ; ! ""
+
+Jõgi:Jõgi NP-COG-MF ; ! ""
+Ayoglu:Ayoglu NP-COG-MF ; ! ""
+Babaloglu:Babaloglu NP-COG-MF ; ! ""
+Baboglu:Baboglu NP-COG-MF ; ! ""
+Babaoglu:Babaoglu NP-COG-MF ; ! ""
+Bülbüloglu:Bülbüloglu NP-COG-MF ; ! ""
+Demiroglu:Demiroglu NP-COG-MF ; ! ""
+Dimoglu:Dimoglu NP-COG-MF ; ! ""
+Dudoglu:Dudoglu NP-COG-MF ; ! ""
+Duloglu:Duloglu NP-COG-MF ; ! ""
+Filioglu:Filioglu NP-COG-MF ; ! ""
+Filoglu:Filoglu NP-COG-MF ; ! ""
+Genceviya:Genceviya NP-COG-MF ; ! ""
+Hesenoglu:Hesenoglu NP-COG-MF ; ! ""
+Karaçoban:Karaçoban NP-COG-MF ; ! ""
+Konstandoglu:Konstandoglu NP-COG-MF ; ! ""
+Krayı:Krayı NP-COG-MF ; ! ""
+Kuroglu:Kuroglu NP-COG-MF ; ! ""
+Kırbaoglu:Kırbaoglu NP-COG-MF ; ! ""
+Marinoglu:Marinoglu NP-COG-MF ; ! ""
+Moşkov:Moşkov NP-COG-MF ; ! ""
+Orumbetoglu:Orumbetoglu NP-COG-MF ; ! ""
+Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
+Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
+Vasili:Vasili NP-COG-MF ; ! ""
+Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
+Voldemar:Voldemar NP-COG-MF ; ! ""
+Köroglu:köroglu NP-COG-MF ; ! ""
 
 LEXICON Adjectives 
 
@@ -1615,6 +1630,8 @@ Prof%.:Prof%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
+y%.:y%. ABBR ;
+h%.b%.:h%.b%. ABBR ;
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 !cı:cı ABBR ;
