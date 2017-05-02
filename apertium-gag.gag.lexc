@@ -161,6 +161,7 @@ LEXICON V-GPR
 !! Verbal adjectives
 
 %<gpr_rsub%>:%>%{й}%{A%}n V-GPR-COMMON ;
+%<gpr_rsub%>:%>%{й}%{A%}n # ;
 %<gpr_nfh%>:%>m%{I}ş # ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
@@ -343,7 +344,7 @@ LEXICON POST
  
 
 LEXICON SUBST 
-%<pl%>:%>%{L%}%{A%}r  # ;
+!%<pl%>:%>%{L%}%{A%}r  # ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
@@ -1002,7 +1003,6 @@ yuva:yuva N1 ; ! ""
 yustiţiya:yustiţiya N1 ; ! ""
 yortu:yortu N1 ; ! ""
 yarışma:yarışma N1 ;
-yaşayan:yaşayan N1 ;
 zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 
@@ -1518,7 +1518,7 @@ orada:orada ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
-yaşayan:yaşayan ADV3 ;
+
 
 
 
@@ -1690,6 +1690,7 @@ bil:bil V-TV ;
 peydala:peydala V-TV ;
 tanı:tanı V-TV ;
 üzme:üzme V-TV ;
+yaşa:yaşa V-TV ;
 
 
 
