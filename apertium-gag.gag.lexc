@@ -414,6 +414,13 @@ LEXICON NP-COG-MF
 
 %<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON NP-PAT-VICH
+
+%<np%>%<cog%>%<mf%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
+
+%<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<pat%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
+
 LEXICON NP-COG-OV
 
 %<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
@@ -1397,6 +1404,22 @@ Gabinskiy:Gabinskiy NP-COG-MF ; ! ""
 Pokşişevskiy:Pokşişevsk NP-COG-SKIJ ; ! ""
 Skalkovskiy:Skalkovsk NP-COG-SKIJ ; ! ""
 Pokrovskiy:Pokrovsk NP-COG-SKIJ ; ! ""
+
+Borisoviç:Borisov NP-PAT-VICH ; ! ""
+Födoroviç:Födorov NP-PAT-VICH ; ! ""
+Grigoroviç:Grigorov NP-PAT-VICH ; ! ""
+İvanoviç:İvanov NP-PAT-VICH ; ! ""
+Kiriloviç:Kirilov NP-PAT-VICH ; ! ""
+Makaroviç:Makarov NP-PAT-VICH ; ! ""
+Marinoviç:Marinov NP-PAT-VICH ; ! ""
+Mihayloviç:Mihaylov NP-PAT-VICH ; ! ""
+Muşegoviç:Muşegov NP-PAT-VICH ; ! ""
+Petroviç:Petrov NP-PAT-VICH ; ! ""
+Samoyloviç:Samoylov NP-PAT-VICH ; ! ""
+Trifonoviç:Trifonov NP-PAT-VICH ; ! ""
+Vladimiroviç:Vladimirov NP-PAT-VICH ; ! ""
+Yakimoviç:Yakimov NP-PAT-VICH ; ! ""
+Zaharoviç:Zaharov NP-PAT-VICH ; ! ""
 
 
 LEXICON Adjectives 
