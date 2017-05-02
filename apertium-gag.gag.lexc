@@ -4,6 +4,7 @@ Multichar_Symbols
 %<n%>             ! Noun
 %<adj%>
 %<prn%>   !Pronun
+%<postadv%>
 %<np%>
 %<adv%>   !Adverb
 %<cnjcoo%>
@@ -361,9 +362,11 @@ LEXICON N1
 
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
+%<np%>%<top%>:%' FULL-NOMINAL-INFLECTION  ; ! Dir/LR
 
 LEXICON NP-AL
 %<np%>%<al%>: FULL-NOMINAL-INFLECTION  ;
+%<np%>%<al%>:%' FULL-NOMINAL-INFLECTION  ; ! Dir/LR
 
 
 LEXICON NUM 
@@ -371,6 +374,10 @@ LEXICON NUM
 %<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{i%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;
+
+LEXICON NUM-ROMAN
+
+%<num%>: # ;
 
 LEXICON PRON-REF
 %<prn%>%<ref%>: # ;
@@ -511,6 +518,29 @@ dokuz:dokuz NUM ;
 otuz:otuz NUM ;
 bin:bin NUM ;
 milion:milion NUM ;
+
+I:I NUM-ROMAN ; ! ""
+II:II NUM-ROMAN ; ! ""
+III:III NUM-ROMAN ; ! ""
+IV:IV NUM-ROMAN ; ! ""
+IX:IX NUM-ROMAN ; ! ""
+V:V NUM-ROMAN ; ! ""
+VI:VI NUM-ROMAN ; ! ""
+VII:VII NUM-ROMAN ; ! ""
+VIII:VIII NUM-ROMAN ; ! ""
+X:X NUM-ROMAN ; ! ""
+XI:XI NUM-ROMAN ; ! ""
+XII:XII NUM-ROMAN ; ! ""
+XIII:XIII NUM-ROMAN ; ! ""
+XIV:XIV NUM-ROMAN ; ! ""
+XIX:XIX NUM-ROMAN ; ! ""
+XV:XV NUM-ROMAN ; ! ""
+XVI:XVI NUM-ROMAN ; ! ""
+XVII:XVII NUM-ROMAN ; ! ""
+XVIII:XVIII NUM-ROMAN ; ! ""
+XX:XX NUM-ROMAN ; ! ""
+XXI:XXI NUM-ROMAN ; ! ""
+XXII:XXII NUM-ROMAN ; ! ""
 
 
 LEXICON Nouns
@@ -1352,7 +1382,8 @@ yaşayan:yaşayan ADV3 ;
 LEXICON Miscellaneous 
 
 da%<postadv%>:da # ;
-dä%<postadv%>:dä # ;
+da%<postadv%>:dä # ;
+da%<postadv%>:de # ;
 dee%<postadv%>:dee # ;
 mı%<qst%>:mi # ;
 mı%<qst%>:mı # ;
@@ -1584,12 +1615,10 @@ Prof%.:Prof%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
-te:te ABBR ; 
-de:de ABBR ;
-cı:cı ABBR ;
-I:I ABBR ;
-cü:cü ABBR ;
-V:V ABBR ;
+
+! FMT: These are parts of numerals, e.g. 1936-cı
+!cı:cı ABBR ;
+!cü:cü ABBR ;
 
 
 
