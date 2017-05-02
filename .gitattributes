@@ -17,5 +17,4 @@ dev/countstems.sh -text
 dev/spellrelax.twol -text
 /gag.prob -text svneol=unset#unset
 /modes.xml -text
-texts/newgag -text
 texts/sentences.txt -text
