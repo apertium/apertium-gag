@@ -414,6 +414,21 @@ LEXICON NP-COG-MF
 
 %<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
+LEXICON NP-COG-OV
+
+%<np%>%<cog%>%<m%>: FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<f%>:a FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON NP-COG-SKIJ
+
+%<np%>%<cog%>%<m%>:iy FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<f%>:aya FULL-NOMINAL-INFLECTION ; ! FIXME
+
+LEXICON NP-COG-OGLU
+
+%<np%>%<cog%>%<mf%>:u FULL-NOMINAL-INFLECTION ; 
+%<np%>%<cog%>%<mf%>:o FULL-NOMINAL-INFLECTION ; ! Dir/LR
+
 
 LEXICON PRON-DEM-O
 %<prn%>%<dem%>%<nom%>: # ;
@@ -1282,7 +1297,7 @@ Krayı:Krayı NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 Kırbaoglu:Kırbaoglu NP-COG-MF ; ! ""
 Marinoglu:Marinoglu NP-COG-MF ; ! ""
-Moşkov:Moşkov NP-COG-MF ; ! ""
+Moşkov:Moşkov NP-COG-OV ; ! ""
 Orumbetoglu:Orumbetoglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Topçuoglu:Topçuoglu NP-COG-MF ; ! ""
@@ -1290,6 +1305,99 @@ Vasili:Vasili NP-COG-MF ; ! ""
 Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
 Voldemar:Voldemar NP-COG-MF ; ! ""
 Köroglu:köroglu NP-COG-MF ; ! ""
+
+Kopça:Kopça NP-COG-MF ; ! ""
+Kara:Kara NP-COG-MF ; ! ""
+Radova:Radova NP-COG-MF ; ! ""
+Karaya:Karaya NP-COG-MF ; ! ""
+Maruneviç:Maruneviç NP-COG-MF ; ! ""
+Tanasoviç:Tanasoviç NP-COG-MF ; ! ""
+Moyse:Moyse NP-COG-MF ; ! ""
+Frunze:Frunze NP-COG-MF ; ! ""
+Vlah:Vlah NP-COG-MF ; ! ""
+Zerdabi:Zerdabi NP-COG-MF ; ! ""
+Arabacı:Arabacı NP-COG-MF ; ! ""
+Haci:Haci NP-COG-MF ; ! ""
+Çeşmeci:Çeşmeci NP-COG-MF ; ! ""
+Yalıncı:Yalıncı NP-COG-MF ; ! ""
+Gaydarcı:Gaydarcı NP-COG-MF ; ! ""
+Mavrodi:Mavrodi NP-COG-MF ; ! ""
+Formuzalı:Formuzalı NP-COG-MF ; ! ""
+Deli:Deli NP-COG-MF ; ! ""
+Buikli:Buikli NP-COG-MF ; ! ""
+Rusnak:Rusnak NP-COG-MF ; ! ""
+Burak:Burak NP-COG-MF ; ! ""
+Novak:Novak NP-COG-MF ; ! ""
+Mednik:Mednik NP-COG-MF ; ! ""
+Topal:Topal NP-COG-MF ; ! ""
+Gogol:Gogol NP-COG-MF ; ! ""
+Kara%-Çoban:Kara%-Çoban NP-COG-MF ; ! ""
+Russu%-Çoban:Russu%-Çoban NP-COG-MF ; ! ""
+Erebakan:Erebakan NP-COG-MF ; ! ""
+Başkalän:Başkalän NP-COG-MF ; ! ""
+Patraman:Patraman NP-COG-MF ; ! ""
+Komerzan:Komerzan NP-COG-MF ; ! ""
+Puşkin:Puşkin NP-COG-MF ; ! ""
+Puşkin:Puşkin NP-COG-MF ; ! ""
+Repin:Repin NP-COG-MF ; ! ""
+Voronin:Voronin NP-COG-MF ; ! ""
+Mişin:Mişin NP-COG-MF ; ! ""
+Zanetin:Zanetin NP-COG-MF ; ! ""
+Belbenko:Belbenko NP-COG-MF ; ! ""
+Spatarenko:Spatarenko NP-COG-MF ; ! ""
+Makovenko:Makovenko NP-COG-MF ; ! ""
+Pometko:Pometko NP-COG-MF ; ! ""
+Guboglo:Gubogl NP-COG-OGLU ; ! ""
+Gerçoglo:Gerçogl NP-COG-OGLU ; ! ""
+Bolgar:Bolgar NP-COG-MF ; ! ""
+Bulgar:Bulgar NP-COG-MF ; ! ""
+Bejenar:Bejenar NP-COG-MF ; ! ""
+Morar:Morar NP-COG-MF ; ! ""
+Çakir:Çakir NP-COG-MF ; ! ""
+Nistor:Nistor NP-COG-MF ; ! ""
+Kroytor:Kroytor NP-COG-MF ; ! ""
+Soltis:Soltis NP-COG-MF ; ! ""
+Burgucu:Burgucu NP-COG-MF ; ! ""
+Duudu:Duudu NP-COG-MF ; ! ""
+Eminesku:Eminesku NP-COG-MF ; ! ""
+Babaoglu:Babaoglu NP-COG-MF ; ! ""
+Baboglu:Baboglu NP-COG-MF ; ! ""
+Guboglu:Guboglu NP-COG-MF ; ! ""
+Yançoglu:Yançoglu NP-COG-MF ; ! ""
+Vasilioglu:Vasilioglu NP-COG-MF ; ! ""
+Babaloglu:Babaloglu NP-COG-MF ; ! ""
+Vasiloglu:Vasiloglu NP-COG-MF ; ! ""
+Marinoglu:Marinoglu NP-COG-MF ; ! ""
+Kuroglu:Kuroglu NP-COG-MF ; ! ""
+Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
+Tanasoğlu:Tanasoğlu NP-COG-MF ; ! ""
+Vieru:Vieru NP-COG-MF ; ! ""
+Nikolaev:Nikolaev NP-COG-OV ; ! ""
+Varfolomeev:Varfolomeev NP-COG-OV ; ! ""
+Peev:Peev NP-COG-OV ; ! ""
+Aliev:Aliev NP-COG-OV ; ! ""
+Çernev:Çernev NP-COG-OV ; ! ""
+Tokarev:Tokarev NP-COG-OV ; ! ""
+Rabov:Rabov NP-COG-OV ; ! ""
+Meçnikov:Meçnikov NP-COG-OV ; ! ""
+Bankov:Bankov NP-COG-OV ; ! ""
+Kvilinkov:Kvilinkov NP-COG-OV ; ! ""
+Moşkov:Moşkov NP-COG-OV ; ! ""
+Krılov:Krılov NP-COG-OV ; ! ""
+Kurudimov:Kurudimov NP-COG-OV ; ! ""
+Gerasimov:Gerasimov NP-COG-OV ; ! ""
+Manov:Manov NP-COG-OV ; ! ""
+Gonçarov:Gonçarov NP-COG-OV ; ! ""
+Kuzneşov:Kuzneşov NP-COG-OV ; ! ""
+Filatov:Filatov NP-COG-OV ; ! ""
+Ahmatov:Ahmatov NP-COG-OV ; ! ""
+Lermontov:Lermontov NP-COG-OV ; ! ""
+Gorkiy:Gorkiy NP-COG-MF ; ! ""
+Gabinskiy:Gabinskiy NP-COG-MF ; ! ""
+Pokşişevskiy:Pokşişevsk NP-COG-SKIJ ; ! ""
+Skalkovskiy:Skalkovsk NP-COG-SKIJ ; ! ""
+Pokrovskiy:Pokrovsk NP-COG-SKIJ ; ! ""
+
 
 LEXICON Adjectives 
 
@@ -1632,6 +1740,10 @@ kg:kg ABBR ;
 d%.:d%. ABBR ;
 y%.:y%. ABBR ;
 h%.b%.:h%.b%. ABBR ;
+v%.b%.:v%.b%. ABBR ;
+h%.t%.b%.:h%.t%.b%. ABBR ;
+h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
+h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 !cı:cı ABBR ;
