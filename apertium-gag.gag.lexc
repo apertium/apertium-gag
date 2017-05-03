@@ -119,7 +119,7 @@ LEXICON V-PERS-S1
 
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%n # ; 
-%<p3%>%<sg%>: #; 
+%<p3%>%<sg%>: # ; 
 %<p1%>%<pl%>:%>%{й}%z # ; 
 %<p2%>%<pl%>:%>%{й}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
@@ -154,6 +154,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 
 LEXICON V-GZ
 %<nfh%>:%>m%{I%}ş # ;
+%<nfh%>:%>m%{I%}ş PLURAL ;
 
 
 LEXICON V-GPR-COMMON
@@ -174,7 +175,9 @@ LEXICON V-GPR
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<gpr_fut%>:%>%{й}%{A%}c%{A%}k V-GZ ;
 %<ger%>:%>m{A%} POSSESSIVES ;
-%<ger%>:%>m{A%} V-GZ;
+%<ger%>:%>m{A%} V-GZ ;
+%<ger%>:%>m{A%} V-PERS-S1 ; 
+
 
 
 LEXICON V-GNA
@@ -197,6 +200,7 @@ V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<nfh%>:%>m%{I}ş # ;
+%<nfh%>:%>m%{I}ş PLURAL ;
 
 
 LEXICON V-IV 
@@ -255,6 +259,7 @@ LEXICON POSSESSIVES
 
 LEXICON PLURAL
 
+%<pl%>:%>%{L%}%{A%}r V-GZ ;
 %<pl%>:%>%{L%}%{A%}r # ;
 %<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
@@ -356,6 +361,7 @@ LEXICON SUBST
 !%<pl%>:%>%{L%}%{A%}r  # ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
+%<pl%>:%>%{L%}%{A%}r   V-GZ ;
 
 
 
@@ -388,7 +394,6 @@ LEXICON NUM
 %<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;
 
 LEXICON NUM-ROMAN
-
 %<num%>: # ;
 
 LEXICON PRON-REF
@@ -402,7 +407,6 @@ LEXICON DET-IND
 %<det%>%<ind%>: # ;
 
 LEXICON DET-REF
-
 %<det%>%<ref%>: # ;
 
 LEXICON A1 
@@ -421,13 +425,11 @@ LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON NP-COG-MF 
-
 %<np%>%<cog%>%<mf%>: FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON NP-PAT-VICH
 
 %<np%>%<cog%>%<mf%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
-
 %<np%>%<pat%>%<m%>:iç FULL-NOMINAL-INFLECTION ; ! FIXME
 %<np%>%<pat%>%<f%>:na FULL-NOMINAL-INFLECTION ; ! FIXME
 
@@ -455,8 +457,8 @@ LEXICON PRON-DEM-O
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
 %<prn%>%<dem%>%<abl%>:nnan # ;
-LEXICON PRON-DEM-SU
 
+LEXICON PRON-DEM-SU
 %<prn%>%<dem%>%<nom%>: # ;
 %<prn%>%<dem%>%<acc%>:nu # ;
 %<prn%>%<dem%>%<gen%>:nun # ;
@@ -1699,7 +1701,7 @@ bil:bil V-TV ;
 peydala:peydala V-TV ;
 tanı:tanı V-TV ;
 üzme:üzme V-TV ;
-yaşa:yaşa V-TV ;
+yaşa:yaşa V-IV ;
 
 
 
@@ -1708,8 +1710,8 @@ LEXICON Pronouns
 
 bän:b PRON-PERS-BÄN ; ! "я"
 bän:b PRON-PERS-BEN ; ! "я"
-sän:s PRON-PERS-SÄN ; ! "ты"fçalış
-sän:s PRON-PERS-SEN ; ! "ты"fçalış
+sän:s PRON-PERS-SÄN ; ! "ты"
+sän:s PRON-PERS-SEN ; ! "ты"
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
