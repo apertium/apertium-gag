@@ -113,7 +113,8 @@ LEXICON V-PERS-S2
 %<p3%>%<sg%>: #; 
 %<p1%>%<pl%>:%>%k # ; 
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ;
+%<pl%>:%>%{L%}%{A%}r # ; 
 
 LEXICON V-PERS-S1
 
@@ -143,6 +144,7 @@ LEXICON V-PERS-PROG
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>%{I%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
+
 
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
