@@ -123,6 +123,7 @@ LEXICON V-PERS-S1
 %<p1%>%<pl%>:%>%{й%}%z # ; 
 %<p2%>%<pl%>:%>%{й%}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
+%<pl%>:%>%{L%}%{A%}r V-GZ ;
 
 LEXICON V-PERS-AOR
 
@@ -154,11 +155,10 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 
 LEXICON V-GZ
 %<nfh%>:%>m%{I%}ş # ;
-%<nfh%>:%>m%{I%}ş PLURAL ;
+%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 
 
 LEXICON V-GPR-COMMON
-
 !!ATTR ;
 %<subst%>: SUBST ;
 
@@ -169,7 +169,8 @@ LEXICON V-GPR
 %<gpr_rsub%>:%>%{й%}%{A%}n V-GPR-COMMON ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
 %<gpr_rsub%>:%>%{й%}%{A%}n V-GZ ;
-%<aor%>:%>%{a%}r # ;
+%<aor%>:%>%{A%}r # ;
+%<aor%>:%>%{A%}r V-PERS-S1 ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<gpr_nfh%>:%>m%{I%}ş # ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
@@ -189,11 +190,9 @@ LEXICON V-GNA
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
 %<ger%>:%>m{A%} POSSESSIVES ;
 
-
 LEXICON V-NONFIN-COMMON
 V-GNA ;
 V-GPR ;
-
 
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEGATIVE ;
@@ -201,19 +200,29 @@ V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<nfh%>:%>m%{I%}ş # ;
-%<nfh%>:%>m%{I%}ş PLURAL ;
+%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
-
 
 LEXICON V-IV 
 %<v%>%<iv%>: V-COMMON ; 
 
-
 LEXICON V-TV 
 %<v%>%<tv%>: V-COMMON ; 
 
-LEXICON NP1-ORG
 
+
+
+
+      !!!!!!!!NOUN!!!!!!!
+
+
+
+LEXICON PLURAL
+!%<pl%>:%>%{L%}%{A%}r V-GZ ;
+%<pl%>:%>%{L%}%{A%}r # ;
+%<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
+
+LEXICON NP1-ORG
 %<np%>%<org%>%<nom%>: # ;
 %<np%>%<org%>: # ; !!N-INFL-COMMON-NONOM ;
 %<np%>%<org%>%<attr%>: # ;
@@ -240,7 +249,6 @@ LEXICON CA
 
 
 LEXICON CASES
-
 %<nom%>: # ;
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<loc%>:%>%{D%}%{A%} # ;
@@ -250,7 +258,6 @@ LEXICON CASES
 %<ins%>:%>%{й}%{I%}%{A%} # ;
 
 LEXICON POSSESSIVES
-
 %<px1sg%>:%>%{I%}m CASES  ;
 %<px2sg%>:%>%{I%}n CASES ;
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASES  ;
@@ -259,16 +266,13 @@ LEXICON POSSESSIVES
                          CASES ;
 
 
-LEXICON PLURAL
 
-%<pl%>:%>%{L%}%{A%}r V-GZ ;
-%<pl%>:%>%{L%}%{A%}r # ;
-%<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
 LEXICON FULL-NOMINAL-INFLECTION
-
 !PLURAL ;
 POSSESSIVES ;
+
+
 
 LEXICON PRON-PERS-BÄN
 
