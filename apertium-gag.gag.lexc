@@ -114,7 +114,7 @@ LEXICON V-PERS-S2
 %<p1%>%<pl%>:%>%k # ; 
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
-%<pl%>:%>%{L%}%{A%}r # ; 
+%<pl%>:%>%{L%}%{A%}r # ;
 
 LEXICON V-PERS-S1
 
@@ -125,6 +125,7 @@ LEXICON V-PERS-S1
 %<p2%>%<pl%>:%>%{й%}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r V-GZ ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<ifi%>:%>%{D%}%{I%} # ;
 
 LEXICON V-PERS-AOR
@@ -135,6 +136,7 @@ LEXICON V-PERS-AOR
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
+!%<ifi%>:%>%{D%}%{I%} # ;
 
 LEXICON V-PERS-PROG
 
@@ -159,6 +161,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 LEXICON V-GZ
 %<nfh%>:%>m%{I%}ş # ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
+%<ifi%>:%>%{D%}%{I%} # ;
 
 
 LEXICON V-GPR-COMMON
