@@ -253,9 +253,24 @@ LEXICON CC
 LEXICON CA
 %<cnjadv%>: # ;
 
+LEXICON COPULA-GENERAL
+
+%<gnl%>:%>%{D%}%{I%}r # ;
+# ; 
+
+LEXICON COPULA-PERS
+
+%<p1%>%<sg%>:%>%{й%}%{I%}m COPULA-GENERAL ;
+%<p3%>%<sg%>:              COPULA-GENERAL ;
+! TODO: PERSON AGREEMENT
+
+LEXICON CLITIC-COPULA
+
+%+i%<cop%>%<aor%>: COPULA-PERS ;
+! TODO: OTHER TENSES
 
 LEXICON CASES
-%<nom%>: # ;
+%<nom%>: CLITIC-COPULA ;
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<abl%>:%>%{D%}%{A%}n # ;
@@ -277,8 +292,6 @@ LEXICON POSSESSIVES
 LEXICON FULL-NOMINAL-INFLECTION
 !PLURAL ;
 POSSESSIVES ;
-
-
 
 LEXICON PRON-PERS-BÄN
 
