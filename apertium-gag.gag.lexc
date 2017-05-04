@@ -155,11 +155,11 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{A%}r V-GZ ;
 %<aor%>:%>%{A%}r # ;
 %<prog%>:%>%{E%}r V-PERS-PROG ;
-%<nfh%>:%>m%{I%}ş # ;
+%<nfh%>:%>m%{I%}ş V-PERS-S1;
 %<inf%>:%>%>m%{A%}k # ;
 
 LEXICON V-GZ
-%<nfh%>:%>m%{I%}ş # ;
+!%<nfh%>:%>m%{I%}ş # ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} # ;
 
@@ -178,7 +178,7 @@ LEXICON V-GPR
 %<aor%>:%>%{A%}r # ;
 %<aor%>:%>%{A%}r V-PERS-S1 ;
 %<aor%>:%>%{A%}r V-GZ ;
-%<gpr_nfh%>:%>m%{I%}ş # ;
+%<gpr_nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-GZ ;
@@ -205,8 +205,8 @@ V-FINITE-REGULAR_NEGATIVE ;
 V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
-%<nfh%>:%>m%{I%}ş # ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
+!%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
 
 LEXICON V-IV 
@@ -1666,6 +1666,7 @@ yaz:yaz V-TV ;
 düş:düş V-TV ;
 istäär:istäär V-TV ;
 aç:aç V-TV ;
+yalvar:yalvar V-IV ;
 başar:başar V-TV ;
 çıkar:çıkar V-TV ;
 topla:topla V-TV ;
