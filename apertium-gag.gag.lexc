@@ -124,6 +124,7 @@ LEXICON V-PERS-S1
 %<p2%>%<pl%>:%>%{й%}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r V-GZ ;
+%<ifi%>:%>%{D%}%{I%} # ;
 
 LEXICON V-PERS-AOR
 
