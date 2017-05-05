@@ -654,6 +654,7 @@ at:at N1 ; ! ""
 altay:altay N1 ; ! ""
 avtomobil:avtomobil N1 ; ! ""
 asoţiaţiya:asoţiaţiya N1 ;
+ateş:ateş N1 ;
 arheologiya:arheologiya N1 ;
 antropologiya:antropologiya N1 ;
 annekţiya:annekţiya N1 ;
@@ -869,6 +870,7 @@ kız:kız N1 ; ! ""
 küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
 komşu:komşu N1 ; ! ""
+köşe:köşe N1 ; 
 konstituşiya:Konstituşiya N1 ; ! ""
 kompoziţiya:kompoziţiya N1 ;
 kоntinent:kоntinent N1 ; ! ""
@@ -911,6 +913,7 @@ misiya:misiya N1 ; ! ""
 naţiya:naţiya N1 ; 
 miliţiya:miliţiya N1 ; ! ""
 monografiya:monografiya N1 ; ! ""
+memleket:memleket N1 ;
 mifologiya:mifologiya N1 ; ! ""
 merak:merak N1 ; ! ""
 multimediya:multimediya N1 ; ! ""
@@ -997,6 +1000,7 @@ sıra:sıra N1 ; ! ""
 seftä:seftä N1 ;
 sansın:sansın N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
+sokaa:sokaa N1 ;
 seysmologiya:seysmologiya N1 ;
 sevgi:sevgi N1 ; 
 şkola:şkola N1 ; ! ""
@@ -1718,6 +1722,7 @@ yaz:yaz V-TV ;
 yazı:yazı V-TV ;
 aç:aç V-TV ;
 et:et V-TV ;
+evlän:evlän V-IV ;
 ol:ol V-IV ;
 getir:getir V-TV ;
 çek:çek V-TV ;
