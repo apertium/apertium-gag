@@ -106,8 +106,10 @@ Barbarisms ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON V-PERS-S2
+   !!!!!!!!!!!!!!!!!!!!!!!!VERBS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
+LEXICON V-PERS-S2
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%{i%}n # ; 
 %<p3%>%<sg%>: #; 
@@ -116,8 +118,8 @@ LEXICON V-PERS-S2
 %<p3%>%<pl%>:%>l%{A%}r # ;
 %<pl%>:%>%{L%}%{A%}r # ;
 
-LEXICON V-PERS-S1
 
+LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%n # ; 
 %<p3%>%<sg%>: # ; 
@@ -128,8 +130,8 @@ LEXICON V-PERS-S1
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<ifi%>:%>%{D%}%{I%} # ;
 
-LEXICON V-PERS-AOR
 
+LEXICON V-PERS-AOR
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>s%{I%}n # ; 
 %<p3%>%<sg%>: # ;
@@ -138,15 +140,14 @@ LEXICON V-PERS-AOR
 %<p3%>%<pl%>:%>l%{A%}r # ;
 !%<ifi%>:%>%{D%}%{I%} # ;
 
-LEXICON V-PERS-PROG
 
+LEXICON V-PERS-PROG
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>s%{I%}n # ; 
 %<p3%>%<sg%>: # ;
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>%{I%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
-
 
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
@@ -157,6 +158,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<prog%>:%>%{E%}r V-PERS-PROG ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1;
 %<inf%>:%>%>m%{A%}k # ;
+
 
 LEXICON V-GZ
 !%<nfh%>:%>m%{I%}ş # ;
@@ -170,8 +172,7 @@ LEXICON V-GPR-COMMON
 
 
 LEXICON V-GPR
-!! Verbal adjectives
-
+!!!Verbal adjectives
 %<gpr_rsub%>:%>%{й%}%{A%}n V-GPR-COMMON ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
 %<gpr_rsub%>:%>%{й%}%{A%}n V-GZ ;
@@ -187,18 +188,18 @@ LEXICON V-GPR
 %<ger%>:%>m{A%} V-PERS-S1 ; 
 
 
-
 LEXICON V-GNA
-!! Verbal adverbs
-
+!!!Verbal adverbs
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
 %<ger%>:%>m{A%} POSSESSIVES ;
 
+
 LEXICON V-NONFIN-COMMON
 V-GNA ;
 V-GPR ;
+
 
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEGATIVE ;
@@ -206,11 +207,12 @@ V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
-!%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
+
 
 LEXICON V-IV 
 %<v%>%<iv%>: V-COMMON ; 
+
 
 LEXICON V-TV 
 %<v%>%<tv%>: V-COMMON ; 
@@ -219,7 +221,7 @@ LEXICON V-TV
 
 
 
-      !!!!!!!!NOUN!!!!!!!
+!!!!!!!!!!NOUN!!!!!!!
 
 
 
@@ -258,15 +260,43 @@ LEXICON COPULA-GENERAL
 %<gnl%>:%>%{D%}%{I%}r # ;
 # ; 
 
-LEXICON COPULA-PERS
+LEXICON COPULA-PERS-AOR
+
 
 %<p1%>%<sg%>:%>%{й%}%{I%}m COPULA-GENERAL ;
-%<p3%>%<sg%>:              COPULA-GENERAL ;
+%<p2%>%<sg%>:%>s%{I%}n COPULA-GENERAL ;
+%<p3%>%<sg%>:             COPULA-GENERAL ;
+%<p1%>%<pl%>:%>%{й%}%{I}z            COPULA-GENERAL ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z COPULA-GENERAL ;
+%<p3%>%<pl%>:%>%{L%}%{A%}r COPULA-GENERAL ;
+
+LEXICON COPULA-PERS-PAST
+%<p1%>%<sg%>:%>m # ;
+%<p2%>%<sg%>:%>n  # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>k # ;
+%<p2%>%<pl%>:%>n%{I%}z # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}r # ;
+
+LEXICON COPULA-PERS-PAST-PAST
+%<p1%>%<sg%>:%>%{I%}m  COPULA-GENERAL ;
+%<p2%>%<sg%>:%>s%{I%}n  COPULA-GENERAL ;
+%<p3%>%<sg%>: COPULA-GENERAL ;
+%<p1%>%<pl%>:%>%{I%}z  COPULA-GENERAL ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z COPULA-GENERAL  ;
+%<p3%>%<pl%>:%>%{L%}%{A%}r COPULA-GENERAL ;
+
+
+
 ! TODO: PERSON AGREEMENT
 
 LEXICON CLITIC-COPULA
 
-%+i%<cop%>%<aor%>: COPULA-PERS ;
+%+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
+%+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
+%+i%<cop%>%<nfh%>:%>%{й%}%m%{I%}ş COPULA-PERS-PAST-PAST ;
+
+
 ! TODO: OTHER TENSES
 
 LEXICON CASES
