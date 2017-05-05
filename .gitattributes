@@ -18,3 +18,4 @@ dev/spellrelax.twol -text
 /gag.prob -text svneol=unset#unset
 /modes.xml -text
 texts/sentences.txt -text
+texts/verbal.txt -text

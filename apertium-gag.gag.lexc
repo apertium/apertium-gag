@@ -129,7 +129,7 @@ LEXICON V-PERS-S1
 %<pl%>:%>%{L%}%{A%}r V-GZ ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<ifi%>:%>%{D%}%{I%} # ;
-
+%<pl%>:%>%{L%}%{A%}r # ;
 
 LEXICON V-PERS-AOR
 %<p1%>%<sg%>:%>%{i%}m # ; 
@@ -208,6 +208,11 @@ V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
+%<caus%>:%>%{D%}%{I%}r # ;
+%<pass%>:%>%{i%}%{L%} # ;
+%<pass%>:%>%{I%}n V-GPR ;
+%<pass%>:%>%{i%}ş # ;
+%<pass%>:%>t # ;
 
 
 LEXICON V-IV 
@@ -780,7 +785,6 @@ etnografiya:etnografiya N1 ;
 erinä:erinä N1 ;
 enţiklopediya:enţiklopediya N1 ;
 evroaziya:evroaziya N1 ;
-eder:eder N1 ; ! "worth"
 êkskursiya:êkskursiya N1 ;
 erindeki:erindeki N1 ;
 
@@ -802,6 +806,7 @@ güreşçi:güreşçi N1 ;
 geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 geçmiş:geçmiş N1 ; ! ""
+günduus:günduus N1 ;
 grup:grup N1 ;
 gösteri:gösteri N1 ; 
 güney:güney N1 ; ! "south"
@@ -891,6 +896,7 @@ millet:millet N1 ; ! ""
 masmediya:masmediya N1 ; ! ""
 moldovan:moldovan N1 ;  
 
+musaafir:musaafir N1 ;
 muzika:muzika N1 ; ! ""
 muzika:muzıka N1 ; 
 mart:mart N1 ; ! ""
@@ -986,6 +992,7 @@ seftä:seftä N1 ;
 sansın:sansın N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
 seysmologiya:seysmologiya N1 ;
+sevgi:sevgi N1 ; 
 şkola:şkola N1 ; ! ""
 şehr:şehr N1 ; ! ""
 şahr:şahr N1 ; ! ""
@@ -996,6 +1003,7 @@ seysmologiya:seysmologiya N1 ;
 status:status N1 ; ! ""
 su:su N1 ; ! ""
 soy:soy N1 ; ! ""
+selem:selem N1 ;
 sport:sport N1 ; ! ""
 saat:saat N1 ; ! ""
 struktiya:struktiya N1 ;
@@ -1072,6 +1080,7 @@ yortu:yortu N1 ; ! ""
 yarışma:yarışma N1 ;
 zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
+son:son N1 ;
 
 gagauz:gagauz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
@@ -1322,6 +1331,7 @@ Dedal:Dedal NP-ANT-M ; ! ""
 Peeter:Peeter NP-ANT-M ; ! ""
 Marina:Marina NP-ANT-F ; ! ""
 Semön:Semön NP-ANT-M ; ! ""
+Lembit:Lembit NP-ANT-M ; ! ""
 
 
 
@@ -1528,6 +1538,7 @@ yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
 resmi:resmi A1 ; ! ""
 meraklı:meraklı A1 ;  ! "curious, curious"
+maasuz:maasuz A1 ;
 çok:çok A1 ; ! ""
 ani:ani A1 ; ! ""
 eni:eni A1 ; ! ""
@@ -1604,7 +1615,6 @@ te%<postadv%>:te # ;
 dee%<postadv%>:dee # ;
 daa%<postadv%>:daa # ;
 dir%<postadv%>:dir # ;
-cı%<postadv%>:cı # ;
 mı%<qst%>:mi # ;
 mı%<qst%>:mı # ;
 mı%<qst%>:mu # ; 
@@ -1742,6 +1752,7 @@ urgula:urgula V-TV ;
 çevir:çevir V-TV ; 
 danış:danış V-IV ;
 düzül:düzül V-IV ;
+bekle:bekle V-TV ;
 tut:tut V-TV ;
 özlä:özlä V-TV ; ! "miss" (T)
 aara:aara V-TV ;
@@ -1757,7 +1768,8 @@ göster:göster V-TV ;
 hazırla:hazırla V-TV ;
 bak:bak V-TV ;
 al:al V-TV ;
-sıkıl:sıkıl V-TV ;
+!sıkıl:sıkıl V-TV ;
+sık:sık V-TV ;
 getir:getir V-TV ;
 başlê:başlê V-IV ;
 annat:annat V-TV ;
@@ -1767,6 +1779,7 @@ peydala:peydala V-TV ;
 tanı:tanı V-TV ;
 üzme:üzme V-TV ;
 yaşa:yaşa V-IV ;
+kalk:kalk V-TV ;
 
 
 
@@ -1846,8 +1859,8 @@ h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
 h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
-!cı:cı ABBR ;
-!cü:cü ABBR ;
+cı:cı ABBR ;
+cü:cü ABBR ;
 
 
 
