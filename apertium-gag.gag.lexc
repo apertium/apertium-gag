@@ -209,7 +209,7 @@ V-NONFIN-COMMON ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
 %<caus%>:%>%{D%}%{I%}r # ;
-%<pass%>:%>%{i%}%{L%} # ;
+%<pass%>:%>%{i%}%{L%} V-FINITE-REGULAR_NEGATIVE ;
 %<pass%>:%>%{I%}n V-GPR ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
@@ -869,6 +869,7 @@ kasaba:kasaba N1 ; ! ""
 kız:kız N1 ; ! ""
 küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
+kasabasiTürkiyenın:kasabasiTürkiyenın N1 ;
 komşu:komşu N1 ; ! ""
 köşe:köşe N1 ; 
 konstituşiya:Konstituşiya N1 ; ! ""
@@ -1728,6 +1729,7 @@ getir:getir V-TV ;
 çek:çek V-TV ;
 dön:dön V-IV ;
 diiştir:diiştir V-IV ;
+anı:anı V-TV ;
 var:var V-IV ;
 çekile:çekile V-IV ;
 katıl:katıl V-TV ;
