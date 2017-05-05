@@ -679,6 +679,7 @@ ada:ada N1 ; ! ""
 afta:afta N1 ; ! ""
 angis:angis N1 ; ! ""
 akıntı:akıntı N1 ; 
+akıl:akıl N1 ;
 bey:bey N1 ; ! ""
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
@@ -689,6 +690,7 @@ bilgi:bilgi N1 ; !
 bilim:bilim N1 ; ! ""
 büün:büün N1 ; ! ""
 babu:babu N1 ; ! ""
+bela:bela N1 ;
 
 can:can N1 ; 
 canavar:canavar N1 ; ! ""
@@ -716,6 +718,7 @@ gün:gün N1 ; ! ""
 poliţiya:poliţiya N1 ; ! "полиция"
 
 aktrisa:aktrisa N1 ; ! ""
+aalem:aalem N1 ;
 agrometeorologiya:agrometeorologiya N1 ;
 asimiläţiya:asimiläţiya N1 ; ! ""
 ansambliya:ansambliya N1 ; ! ""
@@ -798,6 +801,7 @@ fotografiya:fotografiya N1 ;
 filarmoniya:filarmoniya N1 ; 
 filosofiya:filosofiya N1 ;
 formuzal:formuzal N1 ;
+fukara:fukara N1 ;
 
 gecä:gecä N1 ; ! ""
 gün:gün N1 ; ! ""
@@ -827,6 +831,7 @@ halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
 hederlez:hederlez N1; ! ""
 hepsi:hepsi N1 ; ! ""
+hasta:hasta N1 ;
 himiya:himiya N1 ; ! ""
 hristian:hristian N1 ; ! ""
 haliz:haliz N1 ; ! ""
@@ -876,6 +881,7 @@ Konstituţiya:Konstituţiya N1 ;
 konferenţiya:konferenţiya N1 ;
 küü:küü N1 ; ! ""
 kuved:kuved N1 ; !""
+karar:karar N1 ;
 kurul:kurul N1 ; ! "commission"
 komisiya:komisiya N1 ;
 kongaz:kongaz N1 ;
@@ -1075,9 +1081,11 @@ yazıcı:yazıcı N1 ; ! ""
 yazı:yazı N1 ; !""
 yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
+yufka:yufka N1 ;
 yustiţiya:yustiţiya N1 ; ! ""
 yortu:yortu N1 ; ! ""
 yarışma:yarışma N1 ;
+yaarın:yaarın N1 ;
 zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 son:son N1 ;
@@ -1631,6 +1639,7 @@ a:a CC ; ! ""
 ya:ya CC ; ! ""
 bilä:bilä CS ;
 çünkü:çünkü CS ;
+bila:bila CA ;
 
 olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
@@ -1710,6 +1719,8 @@ yazı:yazı V-TV ;
 aç:aç V-TV ;
 et:et V-TV ;
 ol:ol V-IV ;
+getir:getir V-TV ;
+çek:çek V-TV ;
 dön:dön V-IV ;
 diiştir:diiştir V-IV ;
 var:var V-IV ;
@@ -1725,6 +1736,7 @@ koy:koy V-TV ;
 kal:kal V-IV ;
 oku:oku V-TV ;
 üüred:üüred V-IV ; 
+kork:kork V-IV ;
 yaz:yaz V-TV ;
 düş:düş V-TV ;
 istä:istä V-TV ;
@@ -1770,6 +1782,7 @@ bak:bak V-TV ;
 al:al V-TV ;
 !sıkıl:sıkıl V-TV ;
 sık:sık V-TV ;
+uura:uura V-IV ;
 getir:getir V-TV ;
 başlê:başlê V-IV ;
 annat:annat V-TV ;
