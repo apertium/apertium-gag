@@ -278,7 +278,7 @@ LEXICON COPULA-PERS-PAST
 %<p2%>%<pl%>:%>n%{I%}z # ;
 %<p3%>%<pl%>:%>%{L%}%{A%}r # ;
 
-LEXICON COPULA-PERS-PAST-PAST
+LEXICON COPULA-PERS-NFH
 %<p1%>%<sg%>:%>%{I%}m  COPULA-GENERAL ;
 %<p2%>%<sg%>:%>s%{I%}n  COPULA-GENERAL ;
 %<p3%>%<sg%>: COPULA-GENERAL ;
@@ -294,7 +294,7 @@ LEXICON CLITIC-COPULA
 
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
-%+i%<cop%>%<nfh%>:%>%{й%}%m%{I%}ş COPULA-PERS-PAST-PAST ;
+%+i%<cop%>%<nfh%>:%>%{й%}%m%{I%}ş COPULA-PERS-NFH ;
 
 
 ! TODO: OTHER TENSES
@@ -801,7 +801,6 @@ güreş:güreş N1 ; !""
 güreşçi:güreşçi N1 ;
 geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
-gidär:gidär N1 ; 
 geçmiş:geçmiş N1 ; ! ""
 grup:grup N1 ;
 gösteri:gösteri N1 ; 
@@ -827,6 +826,7 @@ himiya:himiya N1 ; ! ""
 hristian:hristian N1 ; ! ""
 haliz:haliz N1 ; ! ""
 haliz:halis N1 ;
+halklararası:halklararası N1 ;
 insan:insan N1 ; ! ""
 işbirlii:işbirlii N1 ;
 iş:iş N1 ; ! ""
@@ -1062,6 +1062,7 @@ yan:yan N1 ; ! ""
 yıldönümü:yıldönümü N1 ;
 yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
+yaş:yaş N1 ;
 yazıcı:yazıcı N1 ; ! ""
 yazı:yazı N1 ; !""
 yazmaa:yazmaa N1 ; ! ""
@@ -1087,6 +1088,8 @@ ocak:Ocak N1 ;
 şubat:Şubat N1 ;
 mart:Mart N1 ;
 nisan:Nisan N1 ;
+ispan:ispan N1 ;
+islam:islam N1 ;
 
 
 !!!LANGUAGES!!!!!
@@ -1508,6 +1511,7 @@ ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
 yaklaşık:yaklaşık A2 ; ! "approximate"
 büük:büük A2 ; ! ""
+diri:diri A1 ; 
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
@@ -1595,8 +1599,12 @@ LEXICON Miscellaneous
 
 da%<postadv%>:da # ;
 da%<postadv%>:dä # ;
-da%<postadv%>:de # ;
+de%<postadv%>:de # ;
+te%<postadv%>:te # ;
 dee%<postadv%>:dee # ;
+daa%<postadv%>:daa # ;
+dir%<postadv%>:dir # ;
+cı%<postadv%>:cı # ;
 mı%<qst%>:mi # ;
 mı%<qst%>:mı # ;
 mı%<qst%>:mu # ; 
@@ -1671,7 +1679,8 @@ kaç:kaç V-TV ;
 
 dur:dur V-IV;
 çek:çek V-IV  ;
-yaşe:yaşe V-IV ;
+yaşê:yaşê V-IV ;
+yaşe:yaşe V-TV ;
 de:de V-TV ; 
 git:git V-IV ;
 ver:ver V-TV ;
@@ -1686,7 +1695,8 @@ yap:yap V-TV ;
 yapıl:yapıl V-TV ;
 kurul:kurul V-IV ;
 açıkla:açıkla V-TV ;
-yaz:yaz V-IV ;
+yaz:yaz V-TV ;
+yazı:yazı V-TV ;
 aç:aç V-TV ;
 et:et V-TV ;
 ol:ol V-IV ;
@@ -1707,7 +1717,7 @@ oku:oku V-TV ;
 üüred:üüred V-IV ; 
 yaz:yaz V-TV ;
 düş:düş V-TV ;
-istäär:istäär V-TV ;
+istä:istä V-TV ;
 aç:aç V-TV ;
 yalvar:yalvar V-IV ;
 başar:başar V-TV ;
@@ -1729,12 +1739,11 @@ lafet:lafet V-IV ;
 bulun:bulun V-TV ;
 üüren:üüren V-TV ;
 urgula:urgula V-TV ;
-gidär:gidär V-IV ;
 çevir:çevir V-TV ; 
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 tut:tut V-TV ;
-özläär:özläär V-TV ; ! "miss" (T)
+özlä:özlä V-TV ; ! "miss" (T)
 aara:aara V-TV ;
 koru:koru V-TV ;
 genoţi:genoţi V-IV ;
