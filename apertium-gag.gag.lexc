@@ -185,7 +185,9 @@ LEXICON V-GPR
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-GZ ;
 %<ger%>:%>m{A%} POSSESSIVES ;
 %<ger%>:%>m{A%} V-GZ ;
-%<ger%>:%>m{A%} V-PERS-S1 ; 
+%<ger%>:%>m{A%} V-PERS-S1 ;
+%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
+ 
 
 
 LEXICON V-GNA
@@ -194,7 +196,7 @@ LEXICON V-GNA
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
 %<ger%>:%>m{A%} POSSESSIVES ;
-
+%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
 
 LEXICON V-NONFIN-COMMON
 V-GNA ;
@@ -213,6 +215,7 @@ V-NONFIN-COMMON ;
 %<pass%>:%>%{I%}n V-GPR ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
+%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
 
 
 LEXICON V-IV 
@@ -271,7 +274,7 @@ LEXICON COPULA-PERS-AOR
 %<p1%>%<sg%>:%>%{й%}%{I%}m COPULA-GENERAL ;
 %<p2%>%<sg%>:%>s%{I%}n COPULA-GENERAL ;
 %<p3%>%<sg%>:             COPULA-GENERAL ;
-%<p1%>%<pl%>:%>%{й%}%{I}z            COPULA-GENERAL ;
+%<p1%>%<pl%>:%>%{й%}%{I}z  COPULA-GENERAL ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z COPULA-GENERAL ;
 %<p3%>%<pl%>:%>%{L%}%{A%}r COPULA-GENERAL ;
 
