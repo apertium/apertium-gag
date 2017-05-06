@@ -314,8 +314,8 @@ LEXICON CASES
 %<ins%>:%>%{й}%{I%}%{A%} # ;
 
 LEXICON POSSESSIVES
-%<px1sg%>:%>%{I%}m CASES  ;
-%<px2sg%>:%>%{I%}n CASES ;
+%<px1sg%>:%>%{i%}m CASES  ;
+%<px2sg%>:%>%{i%}n CASES ;
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASES  ;
 %<px1pl%>:%>%{i%}m%{I%}z CASES ;
 %<px2pl%>:%>%{i%}n%{I%}z CASES  ;
@@ -377,7 +377,7 @@ LEXICON PRON-PERS-O
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nu # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
-
+%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:nnan # ;
 LEXICON PRON-PERS-BIZ
 
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
@@ -457,7 +457,7 @@ LEXICON NUM-ROMAN
 %<num%>: # ;
 
 LEXICON PRON-REF
-%<prn%>%<ref%>: # ;
+%<prn%>%<ref%>: POSSESSIVES ;
 !%<prn%>%<ref%>%<pl%>: # ;
 
 LEXICON DET-QNT
@@ -706,6 +706,7 @@ dil:dil N1 ; ! "язык"
 demografiya:demografiya N1 ; ! ""
 delegaţiya:delegaţiya N1 ; ! ""
 dünnää:dünnää N1 ; ! ""
+doğum:doğum N1 ;
 evraziya:evraziya N1 ; 
 ekmek:ekmek N1 ;
 
@@ -1518,7 +1519,7 @@ LEXICON Adjectives
 
 küçük:küçük A2 ; ! ""
 koyu:koyu A1 ; 
-var:var A2 ; ! ""
+!var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
 yok:yok A2 ; ! ""
