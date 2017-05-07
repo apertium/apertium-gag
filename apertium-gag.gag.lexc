@@ -155,16 +155,18 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{A%}r V-PERS-AOR ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<aor%>:%>%{A%}r # ;
+%<aor%>:%>%{i%}r # ;
 %<prog%>:%>%{E%}r V-PERS-PROG ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1;
 %<inf%>:%>%>m%{A%}k # ;
-%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
-
+!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
+%<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
 
 LEXICON V-GZ
 !%<nfh%>:%>m%{I%}ş # ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} # ;
+ # ;
 
 
 LEXICON V-GPR-COMMON
@@ -184,11 +186,13 @@ LEXICON V-GPR
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-GZ ;
-%<ger%>:%>m{A%} POSSESSIVES ;
-%<ger%>:%>m{A%} V-GZ ;
-%<ger%>:%>m{A%} V-PERS-S1 ;
-%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
- 
+%<neg%>%<ger%>:%>m{A%} POSSESSIVES ;
+%<neg%>%<ger%>:%>m{A%}  V-PERS-AOR ;
+!%<neg%>%<ger%>:%>m{A%} V-GZ ;
+%<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
+!!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
+!!%<ger%>:%>m%{A%}z V-PERS-AOR ;
+%<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
 
 
 LEXICON V-GNA
@@ -196,8 +200,11 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
-%<ger%>:%>m{A%} POSSESSIVES ;
-%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
+%<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
+!!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
+!!%<ger%>:%>m%{A%}z  ;
+%<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
+
 
 LEXICON V-NONFIN-COMMON
 V-GNA ;
@@ -212,11 +219,11 @@ V-NONFIN-COMMON ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
 %<caus%>:%>%{D%}%{I%}r # ;
-%<pass%>:%>%{i%}%{L%} V-FINITE-REGULAR_NEGATIVE ;
+%<pass%>:%>%{I%}%{L%} V-FINITE-REGULAR_NEGATIVE ;
 %<pass%>:%>%{I%}n V-GPR ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
-%<ger%>:%>%{A%}m%{A%}%{z%} V-PERS-AOR ;
+
 
 
 LEXICON V-IV 
@@ -653,6 +660,7 @@ iç:iç N1 ; ! ""
 ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
 ön:ön N1 ; ! ""
+
 
 at:at N1 ; ! ""
 altay:altay N1 ; ! ""
@@ -1350,6 +1358,9 @@ Peeter:Peeter NP-ANT-M ; ! ""
 Marina:Marina NP-ANT-F ; ! ""
 Semön:Semön NP-ANT-M ; ! ""
 Lembit:Lembit NP-ANT-M ; ! ""
+Pötr:Pötr NP-ANT-M ; ! ""
+Olga:Olga NP-ANT-F ; ! ""
+Zaariyi:Zaariyi NP-ANT-F ; ! ""
 
 
 
@@ -1517,7 +1528,7 @@ LEXICON Adjectives
 
 küçük:küçük A2 ; ! ""
 koyu:koyu A1 ; 
-!var:var A2 ; ! ""
+var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
 yok:yok A2 ; ! ""
@@ -1682,6 +1693,7 @@ bişey:bişey DET-IND ;
 
 LEXICON Postpositions
 gibi:gibi POST ; ! ""
+ardına:ardına POST ;
 dee:dee POST ; ! ""
 göre:görä POST ; ! ""
 göre:göre POST ; ! ""
@@ -1766,6 +1778,7 @@ düşün:düşün V-TV ;
 lafet:lafet V-IV ;
 bulun:bulun V-TV ;
 üüren:üüren V-TV ;
+kurtar:kurtar V-TV ;
 urgula:urgula V-TV ;
 çevir:çevir V-TV ; 
 danış:danış V-IV ;
