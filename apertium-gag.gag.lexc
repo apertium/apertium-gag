@@ -333,11 +333,16 @@ LEXICON POSSESSIVES
                          CASES ;
 
 
+LEXICON COPULA-MIS
+%<nfh%>:%>%m{I%}ş # ;
 
+LEXICON LI-POSTPOSITION
+%+lı%<post%>:%>l%{i%} COPULA-MIS ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 !PLURAL ;
 POSSESSIVES ;
+LI-POSTPOSITION ;
 
 LEXICON PRON-PERS-BÄN
 
@@ -433,6 +438,7 @@ LEXICON SUBST
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   V-GZ ;
+!%<pass%>:%>{i%}l #
 
 
 
