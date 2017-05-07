@@ -156,8 +156,9 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{A%}r V-GZ ;
 %<aor%>:%>%{A%}r # ;
 %<aor%>:%>%{i%}r # ;
-%<prog%>:%>%{E%}r V-PERS-PROG ;
-%<nfh%>:%>m%{I%}ş V-PERS-S1;
+%<aor%>:%>%{E%}r V-PERS-PROG ;
+%<prog%>:%>%{A%}yor V-PERS-S1 ;
+%<pr%>%<nfh%>:%>m%{I%}ş V-PERS-S1;
 %<inf%>:%>%>m%{A%}k # ;
 !%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
@@ -191,8 +192,8 @@ LEXICON V-GPR
 !%<neg%>%<ger%>:%>m{A%} V-GZ ;
 %<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
 !!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
-!!%<ger%>:%>m%{A%}z V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
+
 
 
 LEXICON V-GNA
@@ -200,8 +201,12 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
+%<aor%>:%>%{A%}r # ;
+%<aor%>:%>%{A%}r V-PERS-S1 ;
+%<aor%>:%>%{A%}r V-GZ ;
 %<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
-!!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
+%<ger%>:%>m{A%} V-PERS-AOR ;
+!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 !!%<ger%>:%>m%{A%}z  ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
 
@@ -223,7 +228,8 @@ V-NONFIN-COMMON ;
 %<pass%>:%>%{I%}n V-GPR ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
-
+%<prog%>:%>%{A%}yor # ;
+%<ger%>:%>m{A%} V-PERS-AOR ;
 
 
 LEXICON V-IV 
@@ -333,12 +339,12 @@ LEXICON POSSESSIVES
                          CASES ;
 
 
-LEXICON COPULA-MIS
-%<nfh%>:%>%m{I%}ş # ;
+!LEXICON COPULA-MIS
+!%<nfh%>:%>%m{I%}ş # ;
 
 LEXICON LI-POSTPOSITION
-%+lı%<post%>:%>l%{i%} COPULA-MIS ;
-%+lı%<post%>:%>l%{i%} # ;
+
+%+lı%<post%>:%>l%{I%} # ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 !PLURAL ;
@@ -551,6 +557,13 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<abl%>:ndan # ;
 %<prn%>%<dem%>%<abl%>:nnan # ;
 
+
+LEXICON PRON-ITG-INFL
+
+%<prn%>%<itg%>: SUBST ;
+
+
+
 LEXICON PRON-INTERR
 
 %<prn%>%<itg%>: CASES ;
@@ -726,6 +739,7 @@ demografiya:demografiya N1 ; ! ""
 delegaţiya:delegaţiya N1 ; ! ""
 dünnää:dünnää N1 ; ! ""
 doğum:doğum N1 ;
+dev:dev N1 ;
 evraziya:evraziya N1 ; 
 ekmek:ekmek N1 ;
 
@@ -847,6 +861,7 @@ grek:grek N1 ;
 greţiya:greţiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
+haber:haber N1 ;
 Halklararası:Halklararası N1 ;
 halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
@@ -1033,6 +1048,7 @@ sevgi:sevgi N1 ;
 şiir:şiir N1 ; ! ""
 şotlandiya:şotlandiya N1 ;
 status:status N1 ; ! ""
+sürü:sürü N1 ;
 su:su N1 ; ! ""
 soy:soy N1 ; ! ""
 selem:selem N1 ;
@@ -1046,6 +1062,7 @@ takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
 takvim:takvim N1 ; ! ""
 televiden:televiden N1 ; ! ""
+teatru:teatru N1 ;
 tragediya:tragediya N1 ;
 topluşu:topluşu N1 ;
 kabul:kabul N1 ; ! ""
@@ -1053,7 +1070,8 @@ tanım:tanım N1 ;
 ţivilizaţiya:ţivilizaţiya N1 ;
 teologiya:teologiya N1 ;
 tendentiya:tendentiya N1 ; 
-taman:taman N1; ! "completely"
+taman:taman N1 ; ! "completely"
+talant:talant N1 ;
 tehnologiya:tehnologiya N1 ;
 koyun:koyun N1 ;
 kod:kod N1 ; ! ""
@@ -1123,14 +1141,18 @@ gagauzça:gagauzça N1 ; ! ""
 rusça:rusça N1 ; ! ""
 
 avgust:avgust N1 ;
+avgust:August N1 ;
 temmuz:Temmuz N1 ;
 eylül:Eylül N1 ;
 kasım:kasım N1 ;
-aralık: Aralık N1 ;
+aralık: aralık N1 ;
 ocak:Ocak N1 ;
 şubat:Şubat N1 ;
 mart:Mart N1 ;
 nisan:Nisan N1 ;
+aprel:aprel N1 ;
+
+
 ispan:ispan N1 ;
 islam:islam N1 ;
 
@@ -1164,6 +1186,7 @@ Valkaneş:Valkaneş NP-TOP ; ! ""
 Gagauziya:Gagauziya NP-TOP ; ! ""
 Abhaziya:Abhaziya NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
+Ankara:Ankara NP-TOP ; ! ""
 Armeniya:Armeniya NP-TOP ; ! ""
 Albaniya:Albaniya NP-TOP ; ! ""
 Asuriya:Asuriya NP-TOP ; ! ""
@@ -1280,6 +1303,7 @@ Silistiriya:Silistiriya NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
 Tanzaniya:Tanzaniya NP-TOP ; ! ""
 Transnistriya:Transnistriya NP-TOP ; ! ""
+Tomay:Tomay NP-TOP ; ! ""
 Trakiya:Trakiya NP-TOP ; ! ""
 Udmurtiya:Udmurtiya NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
@@ -1369,6 +1393,11 @@ Lembit:Lembit NP-ANT-M ; ! ""
 Pötr:Pötr NP-ANT-M ; ! ""
 Olga:Olga NP-ANT-F ; ! ""
 Zaariyi:Zaariyi NP-ANT-F ; ! ""
+Galina:Galina NP-ANT-F ; ! ""
+Veysel:Veysel NP-ANT-M ; ! ""
+Andres:Andres NP-ANT-M ; ! ""
+Tuna:Tuna NP-ANT-F ; ! ""
+Tiina:Tiina NP-ANT-F ; ! ""
 
 
 
@@ -1585,6 +1614,7 @@ yakın:yakın A1 ; ! ""
 yabancı:yabancı A1 ;  ! ""
 milli:milli A1 ; ! ""
 temel:temel A1 ; ! ""
+tez:tez A2 ;  ! ""
 türk:türk A1 ; ! ""
 gagauz:gagauz A1 ; ! ""
 ingiliz:ingiliz A1 ; ! ""
@@ -1627,6 +1657,7 @@ sadä:sadä ADV3 ; !
 sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
+çoktan:çoktan ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
@@ -1748,7 +1779,7 @@ getir:getir V-TV ;
 çek:çek V-TV ;
 dön:dön V-IV ;
 diiştir:diiştir V-IV ;
-anı:anı V-TV ;
+an:an V-TV ;
 var:var V-IV ;
 çekile:çekile V-IV ;
 katıl:katıl V-TV ;
@@ -1820,6 +1851,15 @@ tanı:tanı V-TV ;
 üzme:üzme V-TV ;
 yaşa:yaşa V-IV ;
 kalk:kalk V-TV ;
+çal:çal V-IV ;
+baal:baal V-TV ;
+kual:kual V-TV ;
+yat:yat V-IV ;
+sor:sor V-TV ;
+otur:otur V-IV ;
+at:at V-TV ;
+yaka:yaka V-TV ;
+akt:akt V-IV ;
 
 
 
@@ -1840,6 +1880,8 @@ kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
 kendisi:kendisi PRON-REF ; ! "self"
 birisi:birisi PRON-QNT ; ! "somebody"
+hangı:hangı PRON-ITG-INFL ;
+hangı:hangi PRON-ITG-INFL ;
 
 
 bu:bu PRON-DEM-BU ; ! ""
