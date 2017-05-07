@@ -338,6 +338,7 @@ LEXICON COPULA-MIS
 
 LEXICON LI-POSTPOSITION
 %+lı%<post%>:%>l%{i%} COPULA-MIS ;
+%+lı%<post%>:%>l%{i%} # ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 !PLURAL ;
@@ -1017,6 +1018,7 @@ sergiya:sergiya N1 ; ! ""
 sovet:sovet N1 ; ! ""
 soruş:soruş N1 ; ! ""
 sıra:sıra N1 ; ! ""
+saygı:saygı N1 ;
 seftä:seftä N1 ;
 sansın:sansın N1 ; ! ""
 simfoniya:simfoniya N1 ; ! 
