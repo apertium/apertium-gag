@@ -147,11 +147,16 @@ LEXICON V-PERS-PROG
 %<p3%>%<sg%>: # ;
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>%{I%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ;
+%<p3%>%<pl%>:%>l%{A%}r V-COP ;
 
+LEXICON V-COP
+%+i%<cop%>%<aor%>: V-PERS-S1 ;
+!%+ı%<cop%>%<aor%>: # ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+%<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
+%<nfh%>:%>m%{I%}ş V-PERS-S1  ;
 %<aor%>:%>%{A%}r V-PERS-AOR ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<aor%>:%>%{A%}r # ;
@@ -162,9 +167,17 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<inf%>:%>%>m%{A%}k # ;
 !%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
+%<neg%>:%>m%{A%} # ;
+%<ger%>:%>m%{A%} V-PERS-PROG ;
+
+LEXICON V-TENSE-ABIL
+%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
+%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEGATIVE ;
+
+
 
 LEXICON V-GZ
-!%<nfh%>:%>m%{I%}ş # ;
+!%{й%} # ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} # ;
  # ;
@@ -206,9 +219,11 @@ LEXICON V-GNA
 %<aor%>:%>%{A%}r V-GZ ;
 %<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
 %<ger%>:%>m{A%} V-PERS-AOR ;
-!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
+%<neg%>%<ger%>:%>%{й%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 !!%<ger%>:%>m%{A%}z  ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
+
+
 
 
 LEXICON V-NONFIN-COMMON
@@ -225,6 +240,7 @@ V-NONFIN-COMMON ;
 %<aor%>:%>%{A%}r # ;
 %<caus%>:%>%{D%}%{I%}r # ;
 %<pass%>:%>%{I%}%{L%} V-FINITE-REGULAR_NEGATIVE ;
+%<pass%>:%>%{I%}%{L%} V-TENSE-ABIL ;
 %<pass%>:%>%{I%}n V-GPR ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
@@ -641,7 +657,7 @@ altı: altı NUM ;
 yedi:yedi NUM ;
 sekiz:sekiz NUM ;
 dokuz:dokuz NUM ;
-
+on:on NUM ;
 otuz:otuz NUM ;
 bin:bin NUM ;
 milion:milion NUM ;
@@ -919,6 +935,7 @@ Konstituţiya:Konstituţiya N1 ;
 konferenţiya:konferenţiya N1 ;
 küü:küü N1 ; ! ""
 kuved:kuved N1 ; !""
+klas:klas N1 ;
 karar:karar N1 ;
 kurul:kurul N1 ; ! "commission"
 komisiya:komisiya N1 ;
@@ -1001,6 +1018,7 @@ poeziya:poeziya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 polişiya:polişiya N1 ; ! ""
 panaiya:panaiya N1 ; ! ""
+padişaalıın:padişaalıın N1 ;
 parlament:parlament N1 ;
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
@@ -1132,6 +1150,7 @@ yarışma:yarışma N1 ;
 yaarın:yaarın N1 ;
 zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
+ortak:ortak N1 ; ! ""
 son:son N1 ;
 
 gagauz:gagauz N1 ; ! ""
@@ -1139,6 +1158,7 @@ gregoryen:gregoryen N1 ; ! ""
 
 gagauzça:gagauzça N1 ; ! ""
 rusça:rusça N1 ; ! ""
+romınca:romınca N1 ;
 
 avgust:avgust N1 ;
 avgust:August N1 ;
@@ -1151,6 +1171,7 @@ ocak:Ocak N1 ;
 mart:Mart N1 ;
 nisan:Nisan N1 ;
 aprel:aprel N1 ;
+yanvar:yanvar N1 ;
 
 
 ispan:ispan N1 ;
@@ -1161,6 +1182,7 @@ islam:islam N1 ;
 
 moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
+oguz:oguz N1 ;
 
 
 LEXICON ProperNouns 
@@ -1202,6 +1224,7 @@ Braziliya:Braziliya NP-TOP ; ! ""
 Basarabiya:Basarabiya NP-TOP ; ! ""
 Bosniya:Bosniya NP-TOP ; ! ""
 Bessarabiya:Bessarabiya NP-TOP ; ! ""
+Babil:Babil NP-TOP ;
 Çernogoriya:Çernogoriya NP-TOP ; ! ""
 Çuvaşiya:Çuvaşiya NP-TOP ; ! ""
 Çehiya:Çehiya NP-TOP ; ! ""
@@ -1285,6 +1308,7 @@ Osetiya:Osetiya NP-TOP ; ! ""
 Odesa:Odesa NP-TOP ; ! ""
 Portugaliya:Portugaliya NP-TOP ; ! ""
 Poloniya:Poloniya NP-TOP ; ! ""
+Polşa:Polşa NP-TOP ; ! ""
 Pensilvaniya:Pensilvaniya NP-TOP ; ! ""
 Persiya:Persiya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
@@ -1398,6 +1422,7 @@ Veysel:Veysel NP-ANT-M ; ! ""
 Andres:Andres NP-ANT-M ; ! ""
 Tuna:Tuna NP-ANT-F ; ! ""
 Tiina:Tiina NP-ANT-F ; ! ""
+Oguz:Oguz NP-ANT-M ; ! ""
 
 
 
@@ -1421,6 +1446,7 @@ Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
 Spatarenko:Spatarenko NP-COG-MF ; ! ""
 Penko:Penko NP-COG-MF ; ! ""
+Papa:Papa NP-COG-MF ; ! ""
 Makovenko:Makovenko NP-COG-MF ; ! ""
 
 Jõgi:Jõgi NP-COG-MF ; ! ""
@@ -1435,6 +1461,8 @@ Dudoglu:Dudoglu NP-COG-MF ; ! ""
 Duloglu:Duloglu NP-COG-MF ; ! ""
 Filioglu:Filioglu NP-COG-MF ; ! ""
 Filoglu:Filoglu NP-COG-MF ; ! ""
+Selçuk:Selçuk NP-COG-MF ; ! ""
+TABUNŞÇİK:TABUNŞÇİK NP-COG-MF ; ! ""
 Genceviya:Genceviya NP-COG-MF ; ! ""
 Hesenoglu:Hesenoglu NP-COG-MF ; ! ""
 Karaçoban:Karaçoban NP-COG-MF ; ! ""
