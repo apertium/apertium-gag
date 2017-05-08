@@ -302,6 +302,11 @@ LEXICON ADV4
 LEXICON ADV-ITG
 %<adv%>%<itg%>: # ;
 
+LEXICON PRON-ADV 
+
+%<prn%>%<adv%>: CASES ; 
+
+
 LEXICON CS
 %<cnjsub%>: # ;
 
@@ -350,7 +355,8 @@ LEXICON CLITIC-COPULA
 
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
-%+i%<cop%>%<nfh%>:%>%{й%}%m%{I%}ş COPULA-PERS-NFH ;
+%+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
+%+i%<cop%>%<con%>:%>%{й%}s%{A%} # ;
 
 
 ! TODO: OTHER TENSES
@@ -528,10 +534,10 @@ LEXICON DET-REF
 %<det%>%<ref%>: # ;
 
 LEXICON A1 
-%<adj%>: # ;
+%<adj%>: CLITIC-COPULA ;
 
 LEXICON A2 
-%<adj%>: # ;
+%<adj%>: CLITIC-COPULA ;
 %<adj%>%<subst%>: SUBST ; 
 
 
@@ -959,7 +965,7 @@ kurul:kurul N1 ; ! "commission"
 komisiya:komisiya N1 ;
 kongaz:kongaz N1 ;
 kiyat:kiyat N1 ;
-
+kayıl:kayıl N1 ;
 latiniţiya:latiniţiya N1 ; 
 latin:latin N1 ;
 laf:laf N1 ; ! ""
@@ -1029,6 +1035,7 @@ promoţiya:promoţiya N1 ; ! ""
 provokaşiya:provokaşiya N1  ; ! ""
 psihologiya:psihologiya N1 ; ! ""
 pay:pay N1 ; !""
+primarı:primarı N1 ;
 petri:petri N1; ! ""
 partiya:partiya N1 ; ! ""
 politiya:politiya  N1 ; ! ""
@@ -1331,6 +1338,7 @@ Pensilvaniya:Pensilvaniya NP-TOP ; ! ""
 Persiya:Persiya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
 Rumıniya:Rumıniya NP-TOP ; ! ""
+Sarıkamış:Sarıkamış NP-TOP ; ! ""
 Sibiriya:Sibiriya NP-TOP ; ! ""
 Somaliya:Somaliya NP-TOP ; ! ""
 Sakariya:Sakariya NP-TOP ; ! ""
@@ -1440,8 +1448,7 @@ Veysel:Veysel NP-ANT-M ; ! ""
 Andres:Andres NP-ANT-M ; ! ""
 Tuna:Tuna NP-ANT-F ; ! ""
 Tiina:Tiina NP-ANT-F ; ! ""
-Oguz:Oguz NP-ANT-M ; ! ""
-
+Oguz:Oguz NP-ANT-M ; !
 
 
 
@@ -1639,6 +1646,7 @@ saa:saa A1 ; ! ""
 üüsek:üüsek A1 ; ! ""
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
+läzım:läzım A1 ;
 peri:peri A1 ; ! ""
 yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
@@ -1927,6 +1935,8 @@ kendisi:kendisi PRON-REF ; ! "self"
 birisi:birisi PRON-QNT ; ! "somebody"
 hangı:hangı PRON-ITG-INFL ;
 hangı:hangi PRON-ITG-INFL ;
+
+ora:ora PRON-ADV ;
 
 
 bu:bu PRON-DEM-BU ; ! ""
