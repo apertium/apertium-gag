@@ -356,7 +356,7 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
-%+i%<cop%>%<con%>:%>%{й%}s%{A%} # ;
+%+i%<cop%>%<con%>:%>%{й%}s%{A%} CASES ;
 
 
 ! TODO: OTHER TENSES
@@ -494,6 +494,7 @@ LEXICON N1
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>: PLURAL ; 
+%<n%>: CLITIC-COPULA ;
 
 !!LEXICON N5
 !!%<n%>%<nom%>: # ;
@@ -754,6 +755,8 @@ angis:angis N1 ; ! ""
 akıntı:akıntı N1 ; 
 akıl:akıl N1 ;
 bey:bey N1 ; ! ""
+bina:bina N1 ;
+
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
 baal:baal N1 ; ! ""
@@ -886,7 +889,8 @@ geeri:geeri N1 ; ! ""
 gider:gider N1 ; ! "expense"
 geçmiş:geçmiş N1 ; ! ""
 günduus:günduus N1 ;
-grup:grup N1 ;
+grupa:grupa N1 ;
+grupa:gruppa N1 ;
 gösteri:gösteri N1 ; 
 güney:güney N1 ; ! "south"
 gagauzologiya:gagauzologiya N1 ;
@@ -1014,6 +1018,7 @@ opoziţiya:opoziţiya N1 ; ! ""
 orfografiya:orfografiya N1 ; ! ""
 organizaşiya:organizaşiya N1 ; ! ""
 organizaţiya:organizaţiya N1 ; ! ""
+oda:oda N1 ;
 ölüm:ölüm N1 ;
 onuştan:onuştan N1 ;
 önderci:önderci N1 ;
