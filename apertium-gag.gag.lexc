@@ -1631,7 +1631,6 @@ diri:diri A1 ;
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
-lääzım:lääzım A1  ;
 uygun:uygun A1 ;  ! "appropriate, suitable, appropriate"
 köklü:köklü A1 ; ! ""
 eski:eski A1 ; ! ""
@@ -1858,7 +1857,6 @@ bul:bul V-TV ;
 yok:yok V-TV ;
 yolla:yolla V-TV ;
 kablet:kablet V-TV ;
-lääzım:lääzım V-IV ;
 duu:duu V-TV ;
 düşün:düşün V-TV ;
 lafet:lafet V-IV ;
