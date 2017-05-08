@@ -188,6 +188,15 @@ LEXICON V-GPR-COMMON
 !!ATTR ;
 %<subst%>: SUBST ;
 
+LEXICON V-GERUNDS
+
+%<ger%>:%>m%{A%} # ;
+%<ger_past%>:%>%{D%}%{I%}k # ;
+%<ger_abst%>:%>%{й%}{I%}ş # ;
+%<ger%>:%>m%{A%}k # ;
+%<ger_nfh%>:m%{I%}ş V-GPR-COMMON ;
+
+
 
 LEXICON V-GPR
 !!!Verbal adjectives
@@ -207,15 +216,21 @@ LEXICON V-GPR
 !%<neg%>%<ger%>:%>m{A%} V-GZ ;
 !!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
+%<ger_past%>:%>%{D%}%{I%}k # ;
 
 
+LEXICON GNA-KEN
+%<ken%>:%>ken # ;
 
 LEXICON V-GNA
 !!!Verbal adverbs
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
+%<gna_1%>:%>s%{A%} # ;
+%<gna_2%>:%>%{A}rs%{A%} # ;
 %<aor%>:%>%{A%}r # ;
+%<aor%>:%>%{A%}r GNA-KEN ;
 %<aor%>:%>%{A%}r V-PERS-S1 ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
@@ -227,9 +242,11 @@ LEXICON V-GNA
 
 
 
+
 LEXICON V-NONFIN-COMMON
 V-GNA ;
 V-GPR ;
+V-GERUNDS ;
 
 
 LEXICON V-COMMON 
@@ -1614,6 +1631,7 @@ diri:diri A1 ;
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
+lääzım:lääzım A1  ;
 uygun:uygun A1 ;  ! "appropriate, suitable, appropriate"
 köklü:köklü A1 ; ! ""
 eski:eski A1 ; ! ""
