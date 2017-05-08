@@ -147,28 +147,29 @@ LEXICON V-PERS-PROG
 %<p3%>%<sg%>: # ;
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>%{I%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r V-COP ;
+%<p3%>%<pl%>:%>l%{A%}r # ;
 
-LEXICON V-COP
-%+i%<cop%>%<aor%>: V-PERS-S1 ;
-!%+ı%<cop%>%<aor%>: # ;
+!!LEXICON V-COP
+!!%+i%<cop%>%<aor%>: V-PERS-S1 ;
+!!!%+ı%<cop%>%<aor%>: # ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
-%<nfh%>:%>m%{I%}ş V-PERS-S1  ;
+%<nfh%>:%>m%{I%}ş V-PERS-PROG  ;
 %<aor%>:%>%{A%}r V-PERS-AOR ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<aor%>:%>%{A%}r # ;
 %<aor%>:%>%{i%}r # ;
 %<aor%>:%>%{E%}r V-PERS-PROG ;
 %<prog%>:%>%{A%}yor V-PERS-S1 ;
-%<pr%>%<nfh%>:%>m%{I%}ş V-PERS-S1;
+!%<gpr%>%<nfh%>:%>m%{I%}ş V-PERS-S1;
 %<inf%>:%>%>m%{A%}k # ;
+!%<gpr%>%<nfh%>:%>m%{I%}ş V-GPR-COMMON;
 !%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
 %<neg%>:%>m%{A%} # ;
-%<ger%>:%>m%{A%} V-PERS-PROG ;
+!%<ger%>:%>m%{A%} V-PERS-PROG ;
 
 LEXICON V-TENSE-ABIL
 %<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
@@ -196,14 +197,14 @@ LEXICON V-GPR
 %<aor%>:%>%{A%}r # ;
 %<aor%>:%>%{A%}r V-PERS-S1 ;
 %<aor%>:%>%{A%}r V-GZ ;
-%<gpr_nfh%>:%>m%{I%}ş V-PERS-S1 ;
+%<gpr_nfh%>:%>m%{I%}ş V-GPR-COMMON ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-GZ ;
+
 %<neg%>%<ger%>:%>m{A%} POSSESSIVES ;
-%<neg%>%<ger%>:%>m{A%}  V-PERS-AOR ;
+!%<neg%>%<ger%>:%>m{A%}  V-PERS-AOR ;
 !%<neg%>%<ger%>:%>m{A%} V-GZ ;
-%<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
 !!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
 
@@ -218,7 +219,7 @@ LEXICON V-GNA
 %<aor%>:%>%{A%}r V-PERS-S1 ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
-%<ger%>:%>m{A%} V-PERS-AOR ;
+!%<ger%>:%>m{A%} V-PERS-AOR ;
 %<neg%>%<ger%>:%>%{й%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 !!%<ger%>:%>m%{A%}z  ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
@@ -236,7 +237,7 @@ V-FINITE-REGULAR_NEGATIVE ;
 V-NONFIN-COMMON ;
 %<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
 %<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
-%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
+!%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<aor%>:%>%{A%}r # ;
 %<caus%>:%>%{D%}%{I%}r # ;
 %<pass%>:%>%{I%}%{L%} V-FINITE-REGULAR_NEGATIVE ;
@@ -245,7 +246,7 @@ V-NONFIN-COMMON ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
 %<prog%>:%>%{A%}yor # ;
-%<ger%>:%>m{A%} V-PERS-AOR ;
+!%<ger%>:%>m{A%} V-PERS-AOR ;
 
 
 LEXICON V-IV 
@@ -460,7 +461,7 @@ LEXICON SUBST
 !%<pl%>:%>%{L%}%{A%}r  # ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
-%<pl%>:%>%{L%}%{A%}r   V-GZ ;
+!%<pl%>:%>%{L%}%{A%}r   V-GZ ;
 !%<pass%>:%>{i%}l #
 
 
