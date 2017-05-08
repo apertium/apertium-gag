@@ -356,7 +356,8 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
-%+i%<cop%>%<con%>:%>%{й%}s%{A%} CASES ;
+%+i%<cop%>%<cond%>:%>%{й%}s%{A%} CASES;
+%i%<cop%>%<poss%>:%>%{s%}%{I%} # ;
 
 
 ! TODO: OTHER TENSES
@@ -481,7 +482,7 @@ LEXICON POST
  
 
 LEXICON SUBST 
-!%<pl%>:%>%{L%}%{A%}r  # ;
+!%<pl%>:%>%{L%}%{A%}r   ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 !%<pl%>:%>%{L%}%{A%}r   V-GZ ;
@@ -744,6 +745,7 @@ anna:anna N1 ; !""
 araştırma:araştırma N1 ; ! ""
 arhitektura:arhitektura N1 ; ! ""
 asker:asker N1 ; ! ""
+aza:aza N1 ;
 arest:arest N1 ; ! ""
 ev:ev N1 ; ! "дом"
 evliya:evliya N1 ;
@@ -869,6 +871,7 @@ evroaziya:evroaziya N1 ;
 êkskursiya:êkskursiya N1 ;
 erindeki:erindeki N1 ;
 
+fayda:fayda N1 ; ! "benefit"
 festival:festival N1 ; ! ""
 fevral:fevral N1 ; ! ""
 fizikacı:fizikacı N1 ; ! ""
@@ -917,6 +920,7 @@ hristian:hristian N1 ; ! ""
 haliz:haliz N1 ; ! ""
 haliz:halis N1 ;
 halklararası:halklararası N1 ;
+izin:izin N1 ; ! "licence"
 insan:insan N1 ; ! ""
 işbirlii:işbirlii N1 ;
 iş:iş N1 ; ! ""
@@ -1105,6 +1109,7 @@ saat:saat N1 ; ! ""
 struktiya:struktiya N1 ;
 stipendiya:stipendiya N1 ;
 şivilizaşiya:şivilizaşiya N1 ;
+soţialist:soţialist N1 ;
 taraf:taraf N1 ; ! ""
 takım:takım N1 ; ! ""
 teklif:teklif N1 ; ! ""
@@ -1454,6 +1459,10 @@ Andres:Andres NP-ANT-M ; ! ""
 Tuna:Tuna NP-ANT-F ; ! ""
 Tiina:Tiina NP-ANT-F ; ! ""
 Oguz:Oguz NP-ANT-M ; !
+Linda:Linda NP-ANT-F ; ! ""
+Johannes:Johannes NP-ANT-M ; ! ""
+Heino:Heino NP-ANT-M ; ! ""
+Viktor:Viktor NP-ANT-M ; ! ""
 
 
 
@@ -1471,6 +1480,7 @@ GR:GR NP1-ORG ;
 
 LEXICON Cognomena 
 
+Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
@@ -1672,6 +1682,7 @@ ii:ii A1 ; ! "good"
 yakın:yakın A1 ; ! ""
 yabancı:yabancı A1 ;  ! ""
 milli:milli A1 ; ! ""
+şannı:şannı A1 ;
 temel:temel A1 ; ! ""
 tez:tez A2 ;  ! ""
 türk:türk A1 ; ! ""
@@ -1680,6 +1691,7 @@ ingiliz:ingiliz A1 ; ! ""
 bulgar:bulgar A1 ; ! ""
 azerbaycan:azerbaycan A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
+kırmızı:kırmızı A1 ;
 pek:pek A1 ; ! ""
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
@@ -1993,6 +2005,7 @@ Prof%.:Prof%. ABBR ;
 km:km ABBR ; 
 kg:kg ABBR ;
 d%.:d%. ABBR ;
+i:i ABBR ;
 y%.:y%. ABBR ;
 h%.b%.:h%.b%. ABBR ;
 v%.b%.:v%.b%. ABBR ;
@@ -2003,6 +2016,8 @@ h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
 cü:cü ABBR ;
+cu:cu ABBR ;
+ci:ci ABBR ;
 
 
 
