@@ -356,7 +356,7 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
-%+i%<cop%>%<cond%>:%>%{й%}s%{A%} CASES;
+%+i%<cop%>:%>%{й%}s%{A%} CASES;
 %i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
 
 
