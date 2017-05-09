@@ -358,12 +358,14 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
 %+i%<cop%>:%>%{й%}s%{A%} CASES;
 %i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
+%i%<cop%>%<coll%>:%>l%{I%}k # ;
 
 
 ! TODO: OTHER TENSES
 
 LEXICON CASES
 %<nom%>: CLITIC-COPULA ;
+%<nom%>:  # ;
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<abl%>:%>%{D%}%{A%}n # ;
@@ -833,13 +835,18 @@ bölümlüü:bölümlüü N1 ; ! ""
 biologiya:biologiya N1 ; !"" 
 bibliografiya:bibliografiya N1 ; 
 beygir:beygir N1 ;
+bitki:bitki N1 ;
+boyar:boyar N1 ;
 
 
 büükelçi:büükelçi N1 ; ! ""
 birliin:birliin N1 ;
 çiçek:çiçek N1 ; ! ""
-çocuu:çocuu N1 ; 
+çocuu:çocuu N1 ;
+çoban:çoban N1 ;
+çift:çift N1 ; ! "couple" 
 ceviz:ceviz N1 ; ! ""
+cenk:cenk N1 ;
 dekabr:dekabr N1 ; ! ""
 deputat:deputat N1 ; ! ""
 direktor:direktor N1 ; ! ""
@@ -905,6 +912,7 @@ grenlandiya:grenlandiya N1 ; !
 gimnaziya:gimnaziya N1 ;
 gazifikaşiya:gazifikaşiya N1 ;
 grek:grek N1 ;
+günbatı:günbatı N1 ;
 greţiya:greţiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
@@ -933,6 +941,7 @@ imperiya:imperiya N1 ; ! ""
 informaţiya:informaţiya N1 ; 
 kasım:kasım N1 ; ! ""
 karikatür:karikatür N1 ;
+Kişinêu:Kişinêu N1 ;
 kardaş:kardaş N1 ; ! ""
 kerä:kerä N1 ; ! ""
 karar:karar N1 ; ! ""
@@ -949,6 +958,7 @@ kurban:kurban N1 ; ! ""
 konstantin:konstantin N1 ; ! ""
 kısa:kısa N1 ;
 kasaba:kasaba N1 ; ! ""
+kuvet:kuvet N1 ;
 kız:kız N1 ; ! ""
 küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
@@ -961,6 +971,7 @@ kоntinent:kоntinent N1 ; ! ""
 kök:kök N1 ; ! ""
 komediya:Komediya N1 ; ! ""
 komiteti:komiteti N1 ; ! ""
+kuruluş:kuruluş N1 ;
 koloniya:koloniya N1 ; 
 klassifikaţiya:klassifikaţiya N1 ; ! ""
 Konstituţiya:Konstituţiya N1 ;
@@ -983,6 +994,7 @@ lista:lista N1 ;! ""
 lekţiya:lekţiya N1 ; ! ""
 liturgiya:liturgiya N1 ; ! ""
 lidiya:lidiya N1 ; !
+ley:ley N1 ;
 
 merkez:merkez N1 ; ! ""
 millet:millet N1 ; ! ""
@@ -1003,6 +1015,7 @@ mifologiya:mifologiya N1 ; ! ""
 merak:merak N1 ; ! ""
 multimediya:multimediya N1 ; ! ""
 mulytime:mulytime N1 ; ! ""
+muzeyin:muzeyin N1 ;
 metallurgiya:metallurgiya N1 ;
 merkezi:merkezi N1 ;
 neçin:neçin N1 ; ! ""
@@ -1396,9 +1409,11 @@ Zambiya:Zambiya NP-TOP ; ! ""
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
 Aleksandri:Aleksandri NP-ANT-M ; ! ""
+Aleksandr:Aleksandr NP-ANT-M ; ! ""
 Opoziţiya:Opoziţiya NP-ANT-M ; ! ""
 Eremiya:Eremiya NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
+Enn:Enn NP-ANT-M ; ! ""
 Nikolay:Nikolay NP-ANT-M ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
 Fatma:Fatma NP-ANT-F ; ! ""
@@ -1463,6 +1478,7 @@ Linda:Linda NP-ANT-F ; ! ""
 Johannes:Johannes NP-ANT-M ; ! ""
 Heino:Heino NP-ANT-M ; ! ""
 Viktor:Viktor NP-ANT-M ; ! ""
+Geboz:Geboz NP-ANT-M ; ! "
 
 
 
@@ -2012,6 +2028,7 @@ v%.b%.:v%.b%. ABBR ;
 h%.t%.b%.:h%.t%.b%. ABBR ;
 h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
 h%.b%.:h%.% b%. ABBR ; ! Dir/LR
+v:v ABBR ;
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
