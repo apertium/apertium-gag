@@ -357,7 +357,7 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
 %+i%<cop%>%<cond%>:%>%{й%}s%{A%} CASES;
-%i%<cop%>%<poss%>:%>%{s%}%{I%} # ;
+%i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
 
 
 ! TODO: OTHER TENSES
@@ -1661,7 +1661,7 @@ saa:saa A1 ; ! ""
 üüsek:üüsek A1 ; ! ""
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
-läzım:läzım A1 ;
+lääzım:läzım A1 ;
 peri:peri A1 ; ! ""
 yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
