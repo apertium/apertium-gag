@@ -1,0 +1,44 @@
+Multichar_Symbols
+
+%<v%> 
+
+%<iv%>
+%<tv%>
+
+%<imp%>
+
+%<p2%>
+
+%<sg%>
+
+
+LEXICON Root
+
+Verbs ;
+
+LEXICON V-IMPER
+! The imperative, "çok yaşa!", "sigara içmeyin!"
+%<imp%>%<p2%>%<sg%>: # ;
+
+LEXICON V-FINITE-REGULAR_NEG
+! All of the finite tenses that take negative in -mA-
+
+V-IMPER ; 
+
+LEXICON V-COMMON 
+
+V-FINITE-REGULAR_NEG ; 
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: V-COMMON ;
+
+LEXICON V-IV 
+
+%<v%>%<iv%>: V-COMMON ;
+
+LEXICON Verbs 
+
+yap:yap V-TV ; ! ""
+yaşa:yaşa V-IV ; ! ""
+
