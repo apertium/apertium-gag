@@ -124,7 +124,6 @@ LEXICON V-PERS-S1
 %<p2%>%<sg%>:%>%n # ; 
 %<p3%>%<sg%>: # ; 
 %<p1%>%<pl%>:%>%{й%}%z # ; 
-%<p2%>%<pl%>:%>%{й%}%n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r V-GZ ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
@@ -164,7 +163,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{E%}r V-PERS-PROG ;
 %<prog%>:%>%{A%}yor V-PERS-S1 ;
 !%<gpr%>%<nfh%>:%>m%{I%}ş V-PERS-S1;
-%<inf%>:%>%>m%{A%}k # ;
+ %<inf%>:%>%>m%{A%}k # ;
 !%<gpr%>%<nfh%>:%>m%{I%}ş V-GPR-COMMON;
 !%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
 %<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
@@ -204,7 +203,6 @@ LEXICON V-GPR
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
 %<gpr_rsub%>:%>%{й%}%{A%}n V-GZ ;
 %<aor%>:%>%{A%}r # ;
-%<aor%>:%>%{A%}r V-PERS-S1 ;
 %<aor%>:%>%{A%}r V-GZ ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-COMMON ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
@@ -357,8 +355,8 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
 %+i%<cop%>:%>%{й%}s%{A%} CASES;
-%i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
-%i%<cop%>%<coll%>:%>l%{I%}k # ;
+%+i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
+%+i%<cop%>%<coll%>:%>l%{I%}k # ;
 
 
 ! TODO: OTHER TENSES
@@ -537,6 +535,9 @@ LEXICON DET-IND
 LEXICON DET-REF
 %<det%>%<ref%>: # ;
 
+LEXICON DET-DEM
+%<det%>%<dem%>: # ;
+
 LEXICON A1 
 %<adj%>: CLITIC-COPULA ;
 
@@ -687,6 +688,7 @@ sekiz:sekiz NUM ;
 dokuz:dokuz NUM ;
 on:on NUM ;
 otuz:otuz NUM ;
+kırk:kırk NUM ;
 bin:bin NUM ;
 milion:milion NUM ;
 
@@ -1019,9 +1021,12 @@ muzeyin:muzeyin N1 ;
 metallurgiya:metallurgiya N1 ;
 merkezi:merkezi N1 ;
 neçin:neçin N1 ; ! ""
+padişahlık:padişahlık N1 ;
+padişahlıı:padişahlıı N1 ;
 
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
+oy:oy N1 ;
 ofiţial:ofiţial N1 ; !""
 orak:orak N1 ; ! ""
 okeaniyas:okeaniyas N1 ; ! ""
@@ -1065,7 +1070,6 @@ poeziya:poeziya N1 ; ! ""
 poyraz:poyraz N1 ; ! ""
 polişiya:polişiya N1 ; ! ""
 panaiya:panaiya N1 ; ! ""
-padişaalıın:padişaalıın N1 ;
 parlament:parlament N1 ;
 reabilitaţiya:reabilitaţiya N1 ; ! ""
 reçepţiya:reçepţiya N1 ; ! ""
@@ -1121,6 +1125,7 @@ sport:sport N1 ; ! ""
 saat:saat N1 ; ! ""
 struktiya:struktiya N1 ;
 stipendiya:stipendiya N1 ;
+saab:saab N1 ;
 şivilizaşiya:şivilizaşiya N1 ;
 soţialist:soţialist N1 ;
 taraf:taraf N1 ; ! ""
@@ -1187,6 +1192,7 @@ yıldönümü:yıldönümü N1 ;
 yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
 yaş:yaş N1 ;
+herliim:herliim N1 ;
 yazıcı:yazıcı N1 ; ! ""
 yazı:yazı N1 ; !""
 yazmaa:yazmaa N1 ; ! ""
@@ -1220,6 +1226,7 @@ mart:Mart N1 ;
 nisan:Nisan N1 ;
 aprel:aprel N1 ;
 yanvar:yanvar N1 ;
+izmet:izmet N1 ;
 
 
 ispan:ispan N1 ;
@@ -1231,6 +1238,7 @@ islam:islam N1 ;
 moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
+franțuz:franțuz N1 ;
 
 
 LEXICON ProperNouns 
@@ -1313,6 +1321,7 @@ Kazahstan:Kazahstan NP-TOP ; ! ""
 Karaçaevo:Karaçaevo NP-TOP ; ! ""
 Koreya:Koreya NP-TOP ; ! ""
 Krım:Krım NP-TOP ; ! ""
+Kazayak:Kazayak NP-TOP ; ! ""
 Kolumbiya:Kolumbiya NP-TOP ; ! ""
 Kroaţiya:Kroaţiya NP-TOP ; ! ""
 Kütahiya:Kütahiya NP-TOP ; ! ""
@@ -1358,6 +1367,7 @@ Portugaliya:Portugaliya NP-TOP ; ! ""
 Poloniya:Poloniya NP-TOP ; ! ""
 Polşa:Polşa NP-TOP ; ! ""
 Pensilvaniya:Pensilvaniya NP-TOP ; ! ""
+Pasifik:Pasifik NP-TOP ; ! ""
 Persiya:Persiya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
 Rumıniya:Rumıniya NP-TOP ; ! ""
@@ -1441,7 +1451,7 @@ Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
 İon:İon NP-ANT-M ; ! ""
 Liliya:Liliya NP-ANT-F ; ! ""
 Paul:Paul NP-ANT-M ; ! "" 
-
+Toomas:Toomas NP-ANT-M ; ! ""
 Todur:Todur NP-ANT-M ; ! ""
 Jaan:Jaan NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
@@ -1463,6 +1473,8 @@ Ants:Ants NP-ANT-M ; ! ""
 Dedal:Dedal NP-ANT-M ; ! ""
 Peeter:Peeter NP-ANT-M ; ! ""
 Marina:Marina NP-ANT-F ; ! ""
+Maria:Maria NP-ANT-F ; ! ""
+Mina:Mina NP-ANT-F ; ! ""
 Semön:Semön NP-ANT-M ; ! ""
 Lembit:Lembit NP-ANT-M ; ! ""
 Pötr:Pötr NP-ANT-M ; ! ""
@@ -1471,6 +1483,7 @@ Zaariyi:Zaariyi NP-ANT-F ; ! ""
 Galina:Galina NP-ANT-F ; ! ""
 Veysel:Veysel NP-ANT-M ; ! ""
 Andres:Andres NP-ANT-M ; ! ""
+Rein:Rein NP-ANT-M ; ! ""
 Tuna:Tuna NP-ANT-F ; ! ""
 Tiina:Tiina NP-ANT-F ; ! ""
 Oguz:Oguz NP-ANT-M ; !
@@ -1479,6 +1492,12 @@ Johannes:Johannes NP-ANT-M ; ! ""
 Heino:Heino NP-ANT-M ; ! ""
 Viktor:Viktor NP-ANT-M ; ! ""
 Geboz:Geboz NP-ANT-M ; ! "
+Tõnu:Tõnu NP-ANT-M ; ! "
+Priit:Priit NP-ANT-M ; ! "
+Leida:Leida NP-ANT-F ; ! ""
+Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
+Mari:Mari NP-ANT-F ; ! "" 
+Manoff:Manoff  NP-ANT-F ; 
 
 
 
@@ -1498,6 +1517,7 @@ LEXICON Cognomena
 
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
+Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
 Spatarenko:Spatarenko NP-COG-MF ; ! ""
@@ -1672,6 +1692,7 @@ bütün:bütün A2 ; ! ""
 uygun:uygun A1 ;  ! "appropriate, suitable, appropriate"
 köklü:köklü A1 ; ! ""
 eski:eski A1 ; ! ""
+hazır:hazır A1 ;
 sade:sade A1 ; ! ""
 saa:saa A1 ; ! ""
 üüsek:üüsek A1 ; ! ""
@@ -1686,6 +1707,7 @@ meraklı:meraklı A1 ;  ! "curious, curious"
 maasuz:maasuz A1 ;
 çok:çok A1 ; ! ""
 ani:ani A1 ; ! ""
+kaavi:kaavi A1 ;
 eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
@@ -1701,6 +1723,7 @@ milli:milli A1 ; ! ""
 şannı:şannı A1 ;
 temel:temel A1 ; ! ""
 tez:tez A2 ;  ! ""
+keskin:keskin A1 ;
 türk:türk A1 ; ! ""
 gagauz:gagauz A1 ; ! ""
 ingiliz:ingiliz A1 ; ! ""
@@ -1812,7 +1835,8 @@ okadar:okadar DET-QNT ; ! ""
 birkaç:birkaç DET-IND ; ! "some"
 birär:birär DET-QNT ; ! "one each"
 herbir:herbir DET-IND ; !
-bişey:bişey DET-IND ; 
+bişey:bişey DET-IND ;
+öbür:öbür DET-DEM ; !  "the other" 
 
 
 
@@ -1976,6 +2000,7 @@ bu:bu PRON-DEM-BU ; ! ""
 şu:şu PRON-DEM-SU ; ! ""
 o:o PRON-DEM-O ; ! ""
 öz:öz PRON-REF ; ! ""
+kendibaşı:kendibaşı PRON-REF ; ! "self" 
 
 LEXICON Abbreviations
 

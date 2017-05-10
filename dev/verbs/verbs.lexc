@@ -16,26 +16,63 @@ LEXICON Root
 
 Verbs ;
 
+LEXICON CASE 
+
+%<nom%>: # ;
+
+LEXICON SUBST 
+
+CASE  ;
+
+
 LEXICON V-IMPER
 ! The imperative, "çok yaşa!", "sigara içmeyin!"
 %<imp%>%<p2%>%<sg%>: # ;
+%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
 
 LEXICON V-FINITE-REGULAR_NEG
 ! All of the finite tenses that take negative in -mA-
 
 V-IMPER ; 
 
-LEXICON V-COMMON 
 
-V-FINITE-REGULAR_NEG ; 
+LEXICON V-COMMON 
+V-FINITE-REGULAR_NEG ;
+V-NONFINITE ; 
+
+
+LEXICON V-GNA
+%<gna_perf%>:%>%{й%}%{I%}p # ;
+
+
+LEXICON V-NONFINITE
+V-GNA  ;
+V-GPR ;
+
+LEXICON V-GPR-SUBST
+
+%<subst%>: SUBST ;
+%<subst%>%<pl%>:%>%{L}%{A%}r SUBST ;
+
+
+
+LEXICON V-GPR
+%<gpr%>:%>%{й%}%{A%}n #;
+%<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
+
+
+LEXICON V-DER
+
+%<coop%>:%>%{I%}ş V-COMMON ;
+ V-COMMON ;
 
 LEXICON V-TV 
 
-%<v%>%<tv%>: V-COMMON ;
+%<v%>%<tv%>: V-DER ;
 
 LEXICON V-IV 
 
-%<v%>%<iv%>: V-COMMON ;
+%<v%>%<iv%>: V-DER ;
 
 LEXICON Verbs 
 
