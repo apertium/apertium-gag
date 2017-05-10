@@ -691,6 +691,7 @@ otuz:otuz NUM ;
 kırk:kırk NUM ;
 bin:bin NUM ;
 milion:milion NUM ;
+kırk:kırk NUM ; ! ""
 
 I:I NUM-ROMAN ; ! ""
 II:II NUM-ROMAN ; ! ""
@@ -728,6 +729,15 @@ karşı:karşı N1 ; ! ""
 ön:ön N1 ; ! ""
 
 
+
+ayle:ayle N1 ; ! ""
+çiftçi:çiftçi N1 ; ! ""
+içeri:içeri N1 ; ! ""
+izmet:izmet N1 ; ! ""
+leopard:leopard N1 ; ! ""
+ses:ses N1 ; ! ""
+yarış:yarış N1 ; ! ""
+
 at:at N1 ; ! ""
 altay:altay N1 ; ! ""
 avtomobil:avtomobil N1 ; ! ""
@@ -762,6 +772,45 @@ akıntı:akıntı N1 ;
 akıl:akıl N1 ;
 bey:bey N1 ; ! ""
 bina:bina N1 ;
+
+ansamblisi:ansamblisi N1 ; ! ""
+arap:arap N1 ; ! ""
+birlik:birlik N1 ; ! ""
+bitki:bitki N1 ; ! ""
+bölge:bölge N1 ; ! ""
+doktor:doktor N1 ; ! ""
+dokument:dokument N1 ; ! ""
+fakultet:fakultet N1 ; ! ""
+gorsovet:gorsovet N1 ; ! ""
+göz:göz N1 ; ! ""
+hayvan:hayvan N1 ; ! ""
+karannık:karannık N1 ; ! ""
+kompozitor:kompozitor N1 ; ! ""
+komunist:komunist N1 ; ! ""
+koordinator:koordinator N1 ; ! ""
+liste:liste N1 ; ! ""
+million:million N1 ; ! ""
+ministr:ministr N1 ; ! ""
+muzey:muzey N1 ; ! ""
+okrug:okrug N1 ; ! ""
+örnek:örnek N1 ; ! ""
+padişahlık:padişahlık N1 ; ! ""
+pedagogika:pedagogika N1 ; ! ""
+poet:poet N1 ; ! ""
+predsedatel:predsedatel N1 ; ! ""
+prezidentura:prezidentura N1 ; ! ""
+proekt:proekt N1 ; ! ""
+programa:programa N1 ; ! ""
+redaktor:redaktor N1 ; ! ""
+rejissor:rejissor N1 ; ! ""
+resimci:resimci N1 ; ! ""
+tekst:tekst N1 ; ! ""
+türkçä:türkçä N1 ; ! ""
+umut:umut N1 ; ! ""
+vakit:vakit N1 ; ! ""
+yurtluk:yurtluk N1 ; ! ""
+
+
 
 bakannık:bakannık N1 ; ! ""
 baş:baş N1 ; ! ""
@@ -1253,6 +1302,42 @@ Başkiriya:Başkiriya NP-TOP ;! ""
 Belarus:Belarus NP-TOP ;! ""
 Adana:Adana NP-TOP ;! ""
 
+Afganistan:Afganistan NP-TOP ; ! ""
+Andorra:Andorra NP-TOP ; ! ""
+Bangladeş:Bangladeş NP-TOP ; ! ""
+Bolgrad:Bolgrad NP-TOP ; ! ""
+Dobruca:Dobruca NP-TOP ; ! ""
+Gvineya:Gvineya NP-TOP ; ! ""
+Herțegovina:Herțegovina NP-TOP ; ! ""
+İrak:İrak NP-TOP ; ! ""
+Kanada:Kanada NP-TOP ; ! ""
+Karl:Karl NP-TOP ; ! ""
+Kişinêu:Kişinêu NP-TOP ; ! ""
+Kosova:Kosova NP-TOP ; ! ""
+Laos:Laos NP-TOP ; ! ""
+Leida:Leida NP-TOP ; ! ""
+Lihtenşteyn:Lihtenşteyn NP-TOP ; ! ""
+Lüksemburg:Lüksemburg NP-TOP ; ! ""
+Madrid:Madrid NP-TOP ; ! ""
+Meksika:Meksika NP-TOP ; ! ""
+Monako:Monako NP-TOP ; ! ""
+Nepal:Nepal NP-TOP ; ! ""
+Özbekistan:Özbekistan NP-TOP ; ! ""
+Pakistan:Pakistan NP-TOP ; ! ""
+Peru:Peru NP-TOP ; ! ""
+Peterburg:Peterburg NP-TOP ; ! ""
+Portugal:Portugal NP-TOP ; ! ""
+Tacikistan:Tacikistan NP-TOP ; ! ""
+Tatarstan:Tatarstan NP-TOP ; ! ""
+Türkmenistan:Türkmenistan NP-TOP ; ! ""
+Tuva:Tuva NP-TOP ; ! ""
+Uganda:Uganda NP-TOP ; ! ""
+Urugvay:Urugvay NP-TOP ; ! ""
+Vyetnamda:Vyetnamda NP-TOP ; ! ""
+Yemen:Yemen NP-TOP ; ! ""
+
+
+
 Evropa:Evropa NP-TOP ; ! ""
 Efiopiya:Efiopiya NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
@@ -1416,6 +1501,15 @@ Valparaíso:Valparaíso NP-TOP ; ! ""
 Zelandiya:Zelandiya NP-TOP ; ! ""
 Zambiya:Zambiya NP-TOP ; ! ""
 
+Aleksandr:Aleksandr NP-ANT-M ; ! ""
+Arnold:Arnold NP-ANT-M ; ! ""
+Boris:Boris NP-ANT-M ; ! ""
+Evgeniy:Evgeniy NP-ANT-M ; ! ""
+Filip:Filip NP-ANT-M ; ! ""
+Leonid:Leonid NP-ANT-M ; ! ""
+Rudolf:Rudolf NP-ANT-M ; ! ""
+Vlad:Vlad NP-ANT-M ; ! ""
+
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
 Aleksandri:Aleksandri NP-ANT-M ; ! ""
@@ -1426,6 +1520,17 @@ Eduard:Eduard NP-ANT-M ; ! ""
 Enn:Enn NP-ANT-M ; ! ""
 Nikolay:Nikolay NP-ANT-M ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
+Ava:Ava NP-ANT-F ; ! ""
+
+Hilda:Hilda NP-ANT-F ; ! ""
+İvanka:İvanka NP-ANT-F ; ! ""
+Katrin:Katrin NP-ANT-F ; ! ""
+Lübov:Lübov NP-ANT-F ; ! ""
+Maria:Maria NP-ANT-F ; ! ""
+Mari:Mari NP-ANT-F ; ! ""
+Valentina:Valentina NP-ANT-F ; ! ""
+
+
 Fatma:Fatma NP-ANT-F ; ! ""
 Dmitriy:Dmitriy NP-ANT-M ; ! ""
 Meteorologiya:Meteorologiya NP-ANT-M ; ! ""
@@ -1525,6 +1630,9 @@ Penko:Penko NP-COG-MF ; ! ""
 Papa:Papa NP-COG-MF ; ! ""
 Makovenko:Makovenko NP-COG-MF ; ! ""
 
+Manoff:Manoff NP-COG-MF ; ! ""
+Nikolaeviç:Nikolaev NP-PAT-VICH ; ! ""
+
 Jõgi:Jõgi NP-COG-MF ; ! ""
 Ayoglu:Ayoglu NP-COG-MF ; ! ""
 Babaloglu:Babaloglu NP-COG-MF ; ! ""
@@ -1621,6 +1729,7 @@ Marinoglu:Marinoglu NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Tanasoğlu:Tanasoğlu NP-COG-MF ; ! ""
+Topçuoğlu:Topçuoğlu NP-COG-MF ; ! ""
 Vieru:Vieru NP-COG-MF ; ! ""
 Nikolaev:Nikolaev NP-COG-OV ; ! ""
 Varfolomeev:Varfolomeev NP-COG-OV ; ! ""
@@ -1672,6 +1781,10 @@ koyu:koyu A1 ;
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
+
+demokratik:demokratik A1 ; ! ""
+hazır:hazır A1 ; ! ""
+
 yok:yok A2 ; ! ""
 maavi:maavi A2 ;  ! "blue"
 belli:belli A1 ; ! ""
@@ -1713,6 +1826,14 @@ kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
 birleşik:birleşik A1 ; ! ""
 birlii:birlii A1 ; ! ""
+
+franțuz:franțuz A1 ; ! ""
+kolay:kolay A1 ; ! ""
+ortodoks:ortodoks A1 ; ! ""
+regional:regional A1 ; ! ""
+soţial:soţial A1 ; ! ""
+yavaş:yavaş A1 ; ! ""
+
 gözäl:gözäl A1 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
@@ -1747,9 +1868,9 @@ her:her ADV3 ;
 taa:taa ADV3 ;
 burada:burada  ADV3 ; ! ""
 ozaman:ozaman ADV3 ; ! ""
-şindi:şindi ADV3 ; ! ""
 şindiya:şindiya ADV3 ; ! ""
 büün:büün ADV4; ! ""
+şindi:şindi ADV4 ; ! ""
 sa:sa ADV3 ; ! ""
 taman:taman ADV3 ; ! "completely"
 salt:salt ADV3 ; ! ""
@@ -1844,6 +1965,7 @@ bişey:bişey DET-IND ;
 LEXICON Postpositions
 gibi:gibi POST ; ! ""
 ardına:ardına POST ;
+boyunca:boyunca POST ; ! ""
 dee:dee POST ; ! ""
 göre:görä POST ; ! ""
 göre:göre POST ; ! ""
@@ -2098,3 +2220,4 @@ LEXICON DIGITLEX
 LEXICON Barbarisms
 
 <[а|б|в|г|д|е|ж|з|и|й|к|л|м|н|о|п|р|с|т|у|ф|х|ц|ч|ш|щ|ъ|ы|ь|э|ю|я|ё|є|і|ї|ј|ў|ґ|ғ|қ|ҡ|ҧ|ү|ҷ|һ|ӈ|ӓ|ө|ӱ]+> BARB ; ! Use/Circ
+
