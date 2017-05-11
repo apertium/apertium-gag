@@ -437,18 +437,20 @@ LEXICON PRON-PERS-O
 
 %<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nun # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nunnan # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:na # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nu # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:nnan # ;
+
+
 LEXICON PRON-PERS-BIZ
 
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ä # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:dä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
@@ -601,6 +603,7 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<loc%>:nda # ;
 %<prn%>%<dem%>%<abl%>:ndan # ;
 %<prn%>%<dem%>%<abl%>:nnan # ;
+%<prn%>%<dem%>%<dat%>:na # ;
 
 
 LEXICON PRON-ITG-INFL
@@ -921,8 +924,8 @@ diskriminaţiya:diskriminaţiya N1 ;
 delegaşiya:delegaşiya N1 ;
 dekabri:dekabri N1 ;
 ekonomika:ekonomika N1 ; ! ""
-El:El N1 ; ! ""
-El:el N1 ; ! ""
+
+el:el N1 ; ! ""
 er:er N1 ; ! ""
 evgeniya:evgeniya N1 ;
 reorganizaţiya:reorganizaţiya N1 ;
@@ -1100,7 +1103,7 @@ onuştan:onuştan N1 ;
 önemli:önemli N1 ; ! ""
 opera:opera N1 ; ! ""
 tatar:tatar N1 ; ! ""
-Ulusal:Ulusal N1 ; ! ""
+ulusal:ulusal N1 ; ! ""
 urum:urum N1 ; ! ""
 vergi:vergi N1 ; ! ""
 peet:peet N1 ; ! ""
@@ -1300,9 +1303,20 @@ sınır:sınır N1 ; ! ""
 toplantı:toplantı N1 ; ! ""
 turizma:turizma N1 ; ! ""
 üüretim:üüretim N1 ; ! ""
-
-
-
+adet:adet N1 ; ! ""
+avşam:avşam N1 ; ! ""
+bakannıı:bakannıı N1 ; ! ""
+finans:finans N1 ; ! ""
+ilişki:ilişki N1 ; ! ""
+kan:kan N1 ; ! ""
+kumanların:kumanların N1 ; ! ""
+nışan:nışan N1 ; ! ""
+not:not N1 ; ! ""
+parça:parça N1 ; ! ""
+saha:saha N1 ; ! ""
+yalan:yalan N1 ; ! ""
+cümlâ:cümlâ N1 ;
+cümlâ:cümlâ N1 ;
 ispan:ispan N1 ;
 islam:islam N1 ;
 
@@ -1530,6 +1544,10 @@ Valparaíso:Valparaíso NP-TOP ; ! ""
 
 Zelandiya:Zelandiya NP-TOP ; ! ""
 Zambiya:Zambiya NP-TOP ; ! ""
+Çilinın:Çilinın NP-TOP ; ! ""
+Dan:Dan  NP-TOP ; ! ""
+İspolkomunun:İspolkomunun NP-TOP ; ! ""
+Zaporojye:Zaporojye NP-TOP ; ! "" 
 
 Aleksandr:Aleksandr NP-ANT-M ; ! ""
 Arnold:Arnold NP-ANT-M ; ! ""
@@ -1632,8 +1650,7 @@ Priit:Priit NP-ANT-M ; ! "
 Leida:Leida NP-ANT-F ; ! ""
 Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
 Mari:Mari NP-ANT-F ; ! "" 
-Manoff:Manoff  NP-ANT-F ;
-Dobruca:Dobruca NP-ANT-M ; 
+Manoff:Manoff  NP-ANT-F ; 
 Endel:Endel NP-ANT-M ; ! " 
 Hasan:Hasan NP-ANT-M ; ! "
 Margus:Margus NP-ANT-M ; ! "
@@ -1645,7 +1662,10 @@ Tiit:Tiit NP-ANT-F ; ! ""
 käämil:käämil NP-ANT-M ; ! "
 Raatlık:Raatlık NP-ANT-M ; ! "
 Vitaliy:Vitaliy NP-ANT-M ; ! "
- 
+Mare:Mare NP-ANT-F ; ! ""
+Artur:Artur NP-ANT-M ; ! "
+Ilmar:Ilmar NP-ANT-M ; ! "
+Kalju:Kalju NP-ANT-M ; ! "
 
 
 
@@ -1794,6 +1814,7 @@ Moşkov:Moşkov NP-COG-OV ; ! ""
 Krılov:Krılov NP-COG-OV ; ! ""
 Kurudimov:Kurudimov NP-COG-OV ; ! ""
 Gerasimov:Gerasimov NP-COG-OV ; ! ""
+Manoff:Manoff  NP-COG-OV ; ! ""
 Manov:Manov NP-COG-OV ; ! ""
 Gonçarov:Gonçarov NP-COG-OV ; ! ""
 Kuzneşov:Kuzneşov NP-COG-OV ; ! ""
@@ -1845,6 +1866,7 @@ mutlu:mutlu A1 ;
 uzun:uzun A1 ; ! ""
 pak:pak A1 ; 
 zor:zor  A1 ; ! ""
+zor:zoor A1 ;
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
 yaklaşık:yaklaşık A2 ; ! "approximate"
@@ -1914,11 +1936,22 @@ slavän:slavän A1 ; ! ""
 yannış:yannış A1 ; ! ""
 zarar:zarar A1 ; ! ""
 zorlan:zorlan A1 ; ! ""
+käämil:käämil A1 ;
+çetin:çetin A1 ;
+toplu:toplu A1 ; ! ""
+aaç:aaç A1 ; ! ""
+çırak:çırak A1 ; ! ""
+kin:kin A1 ; ! ""
+kör:kör A1 ; ! ""
+yurtluuna:yurtluuna A1 ; ! ""
+çırak:çırak A1 ;
+
 
 LEXICON Adverbs
  
 artık:artık ADV3 ; ! "anymore"
 neredä:neredä ADV3 ; ! " "
+devam:devam ADV3 ; ! ""
 orda:orda ADV3 ; ! ""
 ta:ta ADV3 ;
 her:her ADV3 ;
@@ -1932,6 +1965,7 @@ sa:sa ADV3 ; ! ""
 taman:taman ADV3 ; ! "completely"
 salt:salt ADV3 ; ! ""
 en:en ADV3 ;
+en:hen ADV3 ;
 enidän:enidän ADV3 ;
 nicä:nicä ADV-ITG ;
 nasıl:nasıl ADV-ITG ;
@@ -2003,6 +2037,7 @@ yoksa:yoksa CA ; ! ""
 hani:hani CA ; ! ""
 olsun:olsun CA ; ! ""
 zerä:zerä CA ; ! ""
+osa:osa CA ; ! ""
 
 
 
@@ -2165,7 +2200,7 @@ sayı:sayı V-TV ;
 yaka:yaka V-TV ;
 akt:akt V-IV ;
 diy:diy V-IV ;
-toplu:toplu V-IV ; ! ""
+
 
 
 
@@ -2181,6 +2216,7 @@ biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
 onnar:onlar PRON-PERS-ONNAR ; !
+
 
 kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
@@ -2250,6 +2286,8 @@ h%.t%.b%.:h%.t%.b%. ABBR ;
 h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
 h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 v:v ABBR ;
+h:h ABBR ;
+N%r:N%r ABBR ;
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
