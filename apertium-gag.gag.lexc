@@ -892,6 +892,7 @@ boyar:boyar N1 ;
 
 büükelçi:büükelçi N1 ; ! ""
 birliin:birliin N1 ;
+beegir:beegir N1 ;
 çiçek:çiçek N1 ; ! ""
 çocuu:çocuu N1 ;
 çoban:çoban N1 ;
@@ -915,10 +916,13 @@ dönmää:dönmää N1 ; ! ""
 deyni:deyni N1 ; ! ""
 dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
+dışarı:dışarı N1 ; ! ""
 diskriminaţiya:diskriminaţiya N1 ;
 delegaşiya:delegaşiya N1 ;
 dekabri:dekabri N1 ;
 ekonomika:ekonomika N1 ; ! ""
+El:El N1 ; ! ""
+El:el N1 ; ! ""
 er:er N1 ; ! ""
 evgeniya:evgeniya N1 ;
 reorganizaţiya:reorganizaţiya N1 ;
@@ -1094,6 +1098,13 @@ oda:oda N1 ;
 onuştan:onuştan N1 ;
 önderci:önderci N1 ;
 önemli:önemli N1 ; ! ""
+opera:opera N1 ; ! ""
+tatar:tatar N1 ; ! ""
+Ulusal:Ulusal N1 ; ! ""
+urum:urum N1 ; ! ""
+vergi:vergi N1 ; ! ""
+peet:peet N1 ; ! ""
+profesör:profesör N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişah N1 ; ! ""
@@ -1405,6 +1416,8 @@ Keniya:Keniya NP-TOP ; ! ""
 Kazakliya:Kazakliya NP-TOP ; ! ""
 Kazahstan:Kazahstan NP-TOP ; ! ""
 Karaçaevo:Karaçaevo NP-TOP ; ! ""
+Atlas:Atlas NP-TOP ; ! "" ; ! ""
+Balkan:Balkan NP-TOP ; ! ""; ! ""
 Koreya:Koreya NP-TOP ; ! ""
 Krım:Krım NP-TOP ; ! ""
 Kazayak:Kazayak NP-TOP ; ! ""
@@ -1604,7 +1617,13 @@ Leida:Leida NP-ANT-F ; ! ""
 Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
 Mari:Mari NP-ANT-F ; ! "" 
 Manoff:Manoff  NP-ANT-F ;
-Dobruca:Dobruca NP-ANT-M ; ! " 
+Dobruca:Dobruca NP-ANT-M ; 
+Endel:Endel NP-ANT-M ; ! " 
+Hasan:Hasan NP-ANT-M ; ! "
+Margus:Margus NP-ANT-M ; ! "
+Nevzat:Nevzat NP-ANT-M ; ! "
+Salme:Salme NP-ANT-F ; !
+ 
 
 
 
@@ -1620,8 +1639,12 @@ SSCB:SSCB NP1-ORG ;
 GRT:GRT NP1-ORG ;
 GR:GR NP1-ORG ;
 
-LEXICON Cognomena 
+LEXICON Cognomena
+çetin:çetin NP-COG-MF ; ! ""
+Demirel:Demirel NP-COG-MF ; ! ""
+Kösä:Kösä NP-COG-MF ; ! ""
 
+Kurdoglu:Kurdoglu NP-COG-MF ; ! ""
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
 Mägi:Mägi NP-COG-MF ; ! ""
@@ -1861,12 +1884,17 @@ dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
 kaarä:kaarä A1 ;
 raametli:raametli A1 ;
+dolu:dolu A1 ; ! ""
+şanlı:şanlı A1 ; ! ""
+slavän:slavän A1 ; ! ""
+yannış:yannış A1 ; ! ""
 
 
 LEXICON Adverbs
  
 artık:artık ADV3 ; ! "anymore"
 neredä:neredä ADV3 ; ! " "
+orda:orda ADV3 ; ! ""
 ta:ta ADV3 ;
 her:her ADV3 ;
 taa:taa ADV3 ;
@@ -1883,6 +1911,7 @@ enidän:enidän ADV3 ;
 nicä:nicä ADV-ITG ;
 nasıl:nasıl ADV-ITG ;
 nasıl:nesoy ADV-ITG ;
+Nedän:Nedän ADV-ITG ; ! ""
 daha:daha ADV3 ;
 genä:genä ADV3 ;
 beraber:beraber ADV3 ; ! "together"
@@ -2096,6 +2125,8 @@ yat:yat V-IV ;
 sor:sor V-TV ;
 otur:otur V-IV ;
 at:at V-TV ;
+sık:sık V-TV ;  ! ""
+sayı:sayı V-TV ;
 yaka:yaka V-TV ;
 akt:akt V-IV ;
 diy:diy V-IV ;
