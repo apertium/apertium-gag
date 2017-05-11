@@ -1287,6 +1287,20 @@ nisan:Nisan N1 ;
 aprel:aprel N1 ;
 yanvar:yanvar N1 ;
 izmet:izmet N1 ;
+baaşış:baaşış N1 ; ! ""
+Oğuz:Oğuz N1 ; ! ""
+ölü:ölü N1 ; ! ""
+ömür:ömür N1 ; ! ""
+romın:romın N1 ; ! ""
+şair:şair N1 ; ! ""
+sayı:sayı N1 ; ! ""
+sergisi:sergisi N1 ; ! ""
+sıklıı:sıklıı N1 ; ! ""
+sınır:sınır N1 ; ! ""
+toplantı:toplantı N1 ; ! ""
+turizma:turizma N1 ; ! ""
+üüretim:üüretim N1 ; ! ""
+
 
 
 ispan:ispan N1 ;
@@ -1508,6 +1522,8 @@ Yaponiya:Yaponiya NP-TOP ; ! ""
 Yontiya:Yontiya NP-TOP ; ! ""
 Yugoslaviya:Yugoslaviya NP-TOP ; ! ""
 Vizentiya:Vizentiya NP-TOP ; ! ""
+Bender:Bender NP-TOP ; ! ""
+Kavarna:Kavarna NP-TOP ; ! ""
 
 Virginiya:Virginiya NP-TOP ; ! ""
 Valparaíso:Valparaíso NP-TOP ; ! ""
@@ -1623,6 +1639,12 @@ Hasan:Hasan NP-ANT-M ; ! "
 Margus:Margus NP-ANT-M ; ! "
 Nevzat:Nevzat NP-ANT-M ; ! "
 Salme:Salme NP-ANT-F ; !
+Aino:Aino NP-ANT-F ; ! ""
+Anu:Anu NP-ANT-F ; ! ""
+Tiit:Tiit NP-ANT-F ; ! ""
+käämil:käämil NP-ANT-M ; ! "
+Raatlık:Raatlık NP-ANT-M ; ! "
+Vitaliy:Vitaliy NP-ANT-M ; ! "
  
 
 
@@ -1654,6 +1676,8 @@ Spatarenko:Spatarenko NP-COG-MF ; ! ""
 Penko:Penko NP-COG-MF ; ! ""
 Papa:Papa NP-COG-MF ; ! ""
 Makovenko:Makovenko NP-COG-MF ; ! ""
+Tabunşçik:Tabunşçik NP-COG-MF ; ! ""
+Tamm:Tamm NP-COG-MF ; ! ""
 
 Manoff:Manoff NP-COG-MF ; ! ""
 Nikolaeviç:Nikolaev NP-PAT-VICH ; ! ""
@@ -1888,7 +1912,8 @@ dolu:dolu A1 ; ! ""
 şanlı:şanlı A1 ; ! ""
 slavän:slavän A1 ; ! ""
 yannış:yannış A1 ; ! ""
-
+zarar:zarar A1 ; ! ""
+zorlan:zorlan A1 ; ! ""
 
 LEXICON Adverbs
  
@@ -1922,9 +1947,18 @@ sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 çoktan:çoktan ADV3 ;
+az:az ADV3 ;
+az:aaz ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
+
+Afanasiy:Afanasiy ADV3 ; ! ""
+evelki:evelki ADV3; ! ""
+sık:sık ADV3 ; ! ""
+übür:übür ADV3 ; ! ""
+yukarı:yukarı ADV3 ; ! ""
+
 
 
 
@@ -1959,6 +1993,7 @@ bilä:bilä CS ;
 çünkü:çünkü CS ;
 bila:bila CA ;
 diy:diy CS ;
+deyi:deyi CS ; ! ""
 
 olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
@@ -2130,6 +2165,7 @@ sayı:sayı V-TV ;
 yaka:yaka V-TV ;
 akt:akt V-IV ;
 diy:diy V-IV ;
+toplu:toplu V-IV ; ! ""
 
 
 
