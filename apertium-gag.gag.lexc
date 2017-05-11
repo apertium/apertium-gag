@@ -1366,6 +1366,7 @@ Basarabiya:Basarabiya NP-TOP ; ! ""
 Bosniya:Bosniya NP-TOP ; ! ""
 Bessarabiya:Bessarabiya NP-TOP ; ! ""
 Babil:Babil NP-TOP ;
+Bolgrad:Bolgrad NP-TOP ; ! ""
 Çernogoriya:Çernogoriya NP-TOP ; ! ""
 Çuvaşiya:Çuvaşiya NP-TOP ; ! ""
 Çehiya:Çehiya NP-TOP ; ! ""
@@ -1602,7 +1603,8 @@ Priit:Priit NP-ANT-M ; ! "
 Leida:Leida NP-ANT-F ; ! ""
 Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
 Mari:Mari NP-ANT-F ; ! "" 
-Manoff:Manoff  NP-ANT-F ; 
+Manoff:Manoff  NP-ANT-F ;
+Dobruca:Dobruca NP-ANT-M ; ! " 
 
 
 
@@ -1778,6 +1780,8 @@ LEXICON Adjectives
 
 küçük:küçük A2 ; ! ""
 koyu:koyu A1 ; 
+deil:deil A1 ;
+büyük:büyük A1 ;
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
@@ -1925,6 +1929,7 @@ ya:ya CC ; ! ""
 bilä:bilä CS ;
 çünkü:çünkü CS ;
 bila:bila CA ;
+diy:diy CS ;
 
 olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
@@ -1973,6 +1978,7 @@ için:için POST ; ! ""
 kadar:kadar POST ; ! ""
 dolayı:dolayı POST ; ! ""
 ilgili:ilgili POST ; ! "regarding"
+boyunca:boyunca POST ; ! "during"
 
 
 
@@ -2092,6 +2098,7 @@ otur:otur V-IV ;
 at:at V-TV ;
 yaka:yaka V-TV ;
 akt:akt V-IV ;
+diy:diy V-IV ;
 
 
 
