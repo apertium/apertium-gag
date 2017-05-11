@@ -451,6 +451,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:dä # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
@@ -851,6 +852,7 @@ yıl:yıl N1 ; ! "год"
 yer:yer N1 ; 
 gazeta:gazeta N1 ; ! "газета"
 gün:gün N1 ; ! ""
+gün:günä N1 ;
 poliţiya:poliţiya N1 ; ! "полиция"
 
 aktrisa:aktrisa N1 ; ! ""
@@ -1319,7 +1321,23 @@ cümlâ:cümlâ N1 ;
 cümlâ:cümlâ N1 ;
 ispan:ispan N1 ;
 islam:islam N1 ;
-
+dünnedä:dünnedä N1 ; ! ""
+esaba:esaba N1 ; ! 
+çalışma:çalışma N1 ; ! ""
+havezlän:havezlän N1 ; ! ""
+imeklär:imeklär N1 ; ! ""
+kaplan:kaplan N1 ; ! ""
+lafedeer:lafedeer N1 ; ! ""
+iyül:iyül N1 ; ! ""
+nüfus:nüfus N1 ; ! ""
+padişaalıı:padişaalıı N1 ; ! ""
+salonda:salonda N1 ; ! ""
+sergi:sergi N1 ; ! ""
+üülen:üülen N1 ; ! ""
+üzyılın:üzyılın N1 ; ! ""
+gipoteza:gipoteza N1 ; ! ""
+belliedici:belliedici N1 ;
+cümne:cümne N1 ;
 
 !!!LANGUAGES!!!!!
 
@@ -1327,6 +1345,7 @@ moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
 franțuz:franțuz N1 ;
+bulgarca:bulgarca N1 ;
 
 
 LEXICON ProperNouns 
@@ -1538,6 +1557,7 @@ Yugoslaviya:Yugoslaviya NP-TOP ; ! ""
 Vizentiya:Vizentiya NP-TOP ; ! ""
 Bender:Bender NP-TOP ; ! ""
 Kavarna:Kavarna NP-TOP ; ! ""
+Tõnis:Tõnis NP-TOP ; ! ""
 
 Virginiya:Virginiya NP-TOP ; ! ""
 Valparaíso:Valparaíso NP-TOP ; ! ""
@@ -1666,7 +1686,7 @@ Mare:Mare NP-ANT-F ; ! ""
 Artur:Artur NP-ANT-M ; ! "
 Ilmar:Ilmar NP-ANT-M ; ! "
 Kalju:Kalju NP-ANT-M ; ! "
-
+Osman:Osman NP-ANT-M ; ! "
 
 
 
@@ -1945,6 +1965,12 @@ kin:kin A1 ; ! ""
 kör:kör A1 ; ! ""
 yurtluuna:yurtluuna A1 ; ! ""
 çırak:çırak A1 ;
+düz:düz A1 ; ! ""
+kurbannık:kurbannık A1 ; ! ""
+şen:şen A1 ; ! ""
+sıkı:sıkı A1 ; ! ""
+tatlı:tatlı A1 ; ! ""
+
 
 
 LEXICON Adverbs
@@ -1992,7 +2018,10 @@ evelki:evelki ADV3; ! ""
 sık:sık ADV3 ; ! ""
 übür:übür ADV3 ; ! ""
 yukarı:yukarı ADV3 ; ! ""
-
+herkerä:herkerä ADV3 ; ! ""
+nası:nası ADV3 ; ! ""
+neçinki:neçinki ADV3 ; ! ""
+türklen:türklen ADV3 ; ! ""
 
 
 
@@ -2078,6 +2107,7 @@ kadar:kadar POST ; ! ""
 dolayı:dolayı POST ; ! ""
 ilgili:ilgili POST ; ! "regarding"
 boyunca:boyunca POST ; ! "during"
+dolayın:dolayın POST ; ! ""
 
 
 
@@ -2102,6 +2132,7 @@ gir:gir V-IV ;
 gel:gel V-IV ;
 geç:geç V-IV ;
 başla:başla V-IV ;
+başla:başle V-IV ;
 çek:çek V-TV ;
 yap:yap V-TV ;
 yapıl:yapıl V-TV ;
@@ -2200,7 +2231,7 @@ sayı:sayı V-TV ;
 yaka:yaka V-TV ;
 akt:akt V-IV ;
 diy:diy V-IV ;
-
+etiş:etiş V-IV ; ! ""
 
 
 
