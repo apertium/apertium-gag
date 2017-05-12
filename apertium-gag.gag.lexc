@@ -1338,6 +1338,31 @@ sergi:sergi N1 ; ! ""
 gipoteza:gipoteza N1 ; ! ""
 belliedici:belliedici N1 ;
 cümne:cümne N1 ;
+aazlıklar:aazlıklar N1 ; ! ""
+çıfıt:çıfıt  N1 ; ! ""
+çuvaş:çuvaş N1 ; ! ""
+demir:demir N1 ; ! ""
+fikir:fikir N1 ; ! ""
+
+İnstitutun:İnstitutun N1 ; ! ""
+İspolkomu:İspolkomu N1 ; ! ""
+kitab:kitab N1 ; ! ""
+iyün:iyün N1 ; ! ""
+maasus:maasus N1 ; ! ""
+okulda:okulda N1 ; ! ""
+paaları:paaları N1 ; ! ""
+roak:roak N1 ; ! ""
+rol:rol N1 ; ! ""
+senselâ:senselâ N1 ; ! ""
+topraa:topraa N1 ; ! ""
+maasus:maasus N1 ; ! ""
+okul:okul N1 ; ! ""
+paaları:paaları N1 ; ! ""
+senselâ:senselâ N1 ; ! ""
+uşaa:uşaa N1 ; ! ""
+zanaat:zanaat N1 ; ! ""
+
+
 
 !!!LANGUAGES!!!!!
 
@@ -1558,6 +1583,10 @@ Vizentiya:Vizentiya NP-TOP ; ! ""
 Bender:Bender NP-TOP ; ! ""
 Kavarna:Kavarna NP-TOP ; ! ""
 Tõnis:Tõnis NP-TOP ; ! ""
+Moskvadakı:Moskvadakı NP-TOP ; ! ""
+Mozambikte:Mozambikte NP-TOP ; ! ""
+Paskellä:Paskellä NP-TOP ; ! ""
+Tarsus:Tarsus NP-TOP ; ! ""
 
 Virginiya:Virginiya NP-TOP ; ! ""
 Valparaíso:Valparaíso NP-TOP ; ! ""
@@ -1597,7 +1626,7 @@ Lübov:Lübov NP-ANT-F ; ! ""
 Maria:Maria NP-ANT-F ; ! ""
 Mari:Mari NP-ANT-F ; ! ""
 Valentina:Valentina NP-ANT-F ; ! ""
-
+Hong:Hong NP-ANT-M ; ! ""
 
 Fatma:Fatma NP-ANT-F ; ! ""
 Dmitriy:Dmitriy NP-ANT-M ; ! ""
@@ -1687,8 +1716,12 @@ Artur:Artur NP-ANT-M ; ! "
 Ilmar:Ilmar NP-ANT-M ; ! "
 Kalju:Kalju NP-ANT-M ; ! "
 Osman:Osman NP-ANT-M ; ! "
-
-
+Ella:Ella NP-ANT-F ; ! ""
+Lydia:Lydia NP-ANT-F ; ! ""
+İzedin:İzedin NP-ANT-M ; ! "
+Marko:Marko NP-ANT-M ; ! "
+Şri:Şri NP-ANT-M ; ! "
+Elmar:Elmar NP-ANT-M ; ! " 
 
 Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
@@ -1819,6 +1852,12 @@ Kuroglu:Kuroglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Tanasoğlu:Tanasoğlu NP-COG-MF ; ! ""
 Topçuoğlu:Topçuoğlu NP-COG-MF ; ! ""
+
+İsmailov:İsmailov NP-COG-MF ; ! ""
+Lanka:Lanka NP-COG-MF ; ! ""
+Olak:Olak NP-COG-MF ; ! ""
+Ots:Ots NP-COG-MF ; ! ""
+uezdın:uezdın NP-COG-MF ; ! ""
 Vieru:Vieru NP-COG-MF ; ! ""
 Nikolaev:Nikolaev NP-COG-OV ; ! ""
 Varfolomeev:Varfolomeev NP-COG-OV ; ! ""
@@ -1970,7 +2009,11 @@ kurbannık:kurbannık A1 ; ! ""
 şen:şen A1 ; ! ""
 sıkı:sıkı A1 ; ! ""
 tatlı:tatlı A1 ; ! ""
-
+Genel:Genel A1 ; ! ""
+kabaatlı:kabaatlı A1 ; ! ""
+real:real A1 ; ! ""
+saadâ:saadâ A1 ; ! ""
+titsi:titsi A1 ; ! ""
 
 
 LEXICON Adverbs
@@ -2022,6 +2065,9 @@ herkerä:herkerä ADV3 ; ! ""
 nası:nası ADV3 ; ! ""
 neçinki:neçinki ADV3 ; ! ""
 türklen:türklen ADV3 ; ! ""
+dolay:dolay ADV3 ; ! ""
+gene:gene ADV3 ; ! ""
+hemen:hemen  ADV3 ; ! ""
 
 
 
@@ -2064,7 +2110,7 @@ ki:ki CS ; ! ""
 bile:bile CS ; ! ""
 yoksa:yoksa CA ; ! ""
 hani:hani CA ; ! ""
-olsun:olsun CA ; ! ""
+!olsun:olsun CA ; ! ""
 zerä:zerä CA ; ! ""
 osa:osa CA ; ! ""
 
@@ -2232,6 +2278,11 @@ yaka:yaka V-TV ;
 akt:akt V-IV ;
 diy:diy V-IV ;
 etiş:etiş V-IV ; ! ""
+göç:göç V-IV ; ! ""
+götürer:götür V-TV ; ! ""
+iyer:iyer V-TV; ! ""
+sevän:sev V-TV ; ! ""
+ur:ur V-TV ; ! ""
 
 
 
@@ -2319,6 +2370,7 @@ h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 v:v ABBR ;
 h:h ABBR ;
 N%r:N%r ABBR ;
+E:E  ABBR ;
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
