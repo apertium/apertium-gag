@@ -37,13 +37,13 @@ LEXICON V-IMPER
 LEXICON V-FINITE-REGULAR_NEG
 ! All of the finite tenses that take negative in -mA-
 
-!%<ifi%>:%>%{D%}%{I%} # ;
-!%<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
-!%<aor%>:%>%{A%}r # ;
-!%<aor%>:%>%{E%}r # ;
-!%<prog%>:%>%{A%}yor # ;
-!%<neg%>%<aor%>:%>m%{A%}z # ;
-!%<neg%>:%>m%{A%} # ;
+%<ifi%>:%>%{D%}%{I%} # ;
+%<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
+%<aor%>:%>%{A%}r # ;
+%<aor%>:%>%{E%}r # ;
+%<prog%>:%>%{A%}yor # ;
+%<neg%>%<aor%>:%>m%{A%}z # ;
+%<neg%>:%>m%{A%} # ;
 
 V-IMPER ; 
 
