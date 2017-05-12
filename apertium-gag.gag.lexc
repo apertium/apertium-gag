@@ -1380,6 +1380,19 @@ tipardan:tipardan N1 ; ! ""
 
 zakona:Zakona N1 ; ! ""
 zebra:zebra N1 ; ! ""
+ertesi:ertesi N1 ; ! ""
+göktä:göktä N1 ; ! ""
+Han:Han N1 ; ! ""
+ilkyaz:ilkyaz N1 ; ! ""
+konkurs:konkurs N1 ; ! ""
+köyünde:köyünde N1 ; ! ""
+kuman:kuman N1 ; ! ""
+lider:lider N1 ; ! ""
+mal:mal N1 ; ! ""
+ministeril:ministeril N1 ; ! ""
+proza:proza N1 ; ! ""
+raatlık:raatlık N1 ; ! ""
+roak:roak N1 ; ! ""
 
 
 
@@ -1620,7 +1633,9 @@ Avdarma:Avdarma NP-TOP ; ! ""
 Balçık:Balçık NP-TOP ; ! ""
 Bolu:Bolu NP-TOP ; ! ""
 İnd:İnd NP-TOP ; ! ""
-
+Farer:Farer NP-TOP ; ! ""
+Hocalı:Hocalı NP-TOP ; ! ""
+Kişinev:Kişinev NP-TOP ; ! ""
 
 
 
@@ -1761,7 +1776,18 @@ Vera:Vera NP-ANT-F ; ! ""
 Alfred:Alfred NP-ANT-M ; ! "
 Asta:Asta  NP-ANT-M ; ! "
 Valter:Valter NP-ANT-M ; ! "
-
+Helmi:Helmi NP-ANT-M ; ! "
+Ida:Ida NP-ANT-M ; ! "
+Irecek:Irecek NP-ANT-M ; ! " ; ! ""
+Juhan:Juhan NP-ANT-M ; ! "
+Karin:Karin NP-ANT-M ; ! "
+Krasnoyarsk:Krasnoyarsk NP-ANT-M ; ! "
+Maimu:Maimu NP-ANT-M ; ! "
+Milvi:Milvi NP-ANT-M ; ! "
+Oskar:Oskar NP-ANT-M ; ! "
+Palad:Palad NP-ANT-M ; ! "
+Raivo:Raivo NP-ANT-M ; ! "
+Piret:Piret NP-ANT-F ; ! ""
 
 
 
@@ -1777,12 +1803,15 @@ SSCB:SSCB NP1-ORG ;
 ÜS:ÜS NP1-ORG ;
 GRT:GRT NP1-ORG ;
 GR:GR NP1-ORG ;
+KDU:KDU NP1-ORG ;
+
 
 LEXICON Cognomena
 çetin:çetin NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
 Kösä:Kösä NP-COG-MF ; ! ""
-
+Kong:Kong NP-COG-MF ; ! ""
+OSTAPÇUK:OSTAPÇUK NP-COG-MF ; ! "
 Kurdoglu:Kurdoglu NP-COG-MF ; ! ""
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
@@ -2123,6 +2152,10 @@ hemen:hemen  ADV3 ; ! ""
 saklı:saklı ADV3 ;
 Ayrıca:Ayrıca  ADV3 ; ! ""
 heptän:heptän ADV3 ; ! ""
+kaare:kaare ADV3 ; ! ""
+nelär:nelär ADV3 ; ! ""
+şüpesiz:şüpesiz ADV3 ; ! ""
+
 
 
 
@@ -2208,6 +2241,7 @@ dolayı:dolayı POST ; ! ""
 ilgili:ilgili POST ; ! "regarding"
 boyunca:boyunca POST ; ! "during"
 dolayın:dolayın POST ; ! ""
+of:of  POST ; ! ""
 
 
 
@@ -2337,7 +2371,9 @@ götür:götür V-TV ; ! ""
 iyer:iyer V-TV; ! ""
 sev:sev V-TV ; ! ""
 ur:ur V-TV ; ! ""
-
+kes:kes V-TV ;
+şaş:şaş V-TV ;
+savaş:savaş  V-IV ; ! ""
 
 
 
@@ -2426,12 +2462,14 @@ h:h ABBR ;
 N%r:N%r ABBR ;
 A%l:A%l ABBR ;
 E:E  ABBR ;
+O%O%O:O%O%O ABBR ; ! ""
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
 cü:cü ABBR ;
 cu:cu ABBR ;
 ci:ci ABBR ;
+
 
 
 
