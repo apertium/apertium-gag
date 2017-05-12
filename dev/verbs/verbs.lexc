@@ -29,8 +29,8 @@ LEXICON V-IMPER
 ! The imperative, "çok yaşa!", "sigara içmeyin!"
 %<imp%>%<p2%>%<sg%>: # ;
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
-%<imp%>%<p3%>%<sg%>:%>%{S%}%{I%}n # ;
-%<imp%>%<p3%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
+%<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n # ;
+%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
 
 !LEXICON V-FINITE-IRREG-NEG
 
@@ -41,8 +41,8 @@ LEXICON V-FINITE-REGULAR_NEG
 
 %<ifi%>:%>%{D%}%{I%} # ;
 %<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
-%<prog%>:%>%{A%}yor # ;
-%<ger_nfh%>:m%{I%}ş # ;
+
+%<nfh%>:%>m%{I%}ş # ;
 
 
  
@@ -84,6 +84,7 @@ V-NONFINITE ;
 %<aor%>:%>%{A%}r V-FINITE-REGULAR_NEG ;
 %<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
+%<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 V-IMPER ;
 
 LEXICON V-DER
@@ -103,4 +104,5 @@ LEXICON Verbs
 
 yap:yap V-TV ; ! ""
 yaşa:yaşa V-IV ; ! ""
+
 

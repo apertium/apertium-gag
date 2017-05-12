@@ -1361,6 +1361,25 @@ paaları:paaları N1 ; ! ""
 senselâ:senselâ N1 ; ! ""
 uşaa:uşaa N1 ; ! ""
 zanaat:zanaat N1 ; ! ""
+uezd:uezd N1 ;
+
+administrativ:administrativ N1 ; ! ""
+ball:ball N1 ; ! ""
+göç:göç N1 ; ! ""
+gümüş:gümüş N1 ; ! ""
+ihtiar:ihtiar N1 ; ! ""
+klisä:klisä N1 ; ! ""
+masal:masal N1 ; ! ""
+may:may N1 ; ! ""
+ödül:ödül N1 ; ! ""
+sayfa:sayfa N1 ; ! ""
+sonra:sonra N1 ; ! ""
+şükür:şükür N1 ; ! ""
+sultan:sultan N1 ; ! ""
+tipardan:tipardan N1 ; ! ""
+
+zakona:Zakona N1 ; ! ""
+zebra:zebra N1 ; ! ""
 
 
 
@@ -1371,7 +1390,7 @@ ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
 franțuz:franțuz N1 ;
 bulgarca:bulgarca N1 ;
-
+ukrain:ukrain N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -1596,7 +1615,16 @@ Zambiya:Zambiya NP-TOP ; ! ""
 Çilinın:Çilinın NP-TOP ; ! ""
 Dan:Dan  NP-TOP ; ! ""
 İspolkomunun:İspolkomunun NP-TOP ; ! ""
-Zaporojye:Zaporojye NP-TOP ; ! "" 
+Zaporojye:Zaporojye NP-TOP ; ! ""
+Avdarma:Avdarma NP-TOP ; ! ""
+Balçık:Balçık NP-TOP ; ! ""
+Bolu:Bolu NP-TOP ; ! ""
+İnd:İnd NP-TOP ; ! ""
+
+
+
+
+ 
 
 Aleksandr:Aleksandr NP-ANT-M ; ! ""
 Arnold:Arnold NP-ANT-M ; ! ""
@@ -1722,6 +1750,22 @@ Lydia:Lydia NP-ANT-F ; ! ""
 Marko:Marko NP-ANT-M ; ! "
 Şri:Şri NP-ANT-M ; ! "
 Elmar:Elmar NP-ANT-M ; ! " 
+Ain:Ain NP-ANT-F ; ! ""
+Liina:Liina NP-ANT-F ; ! ""
+Sirje:Sirje NP-ANT-F ; ! ""
+Ülle:Ülle NP-ANT-F ; ! ""
+Ülo:Ülo NP-ANT-F ; ! ""
+Väino:Väino NP-ANT-F ; ! ""
+Vello:Vello NP-ANT-F ; ! ""
+Vera:Vera NP-ANT-F ; ! ""
+Alfred:Alfred NP-ANT-M ; ! "
+Asta:Asta  NP-ANT-M ; ! "
+Valter:Valter NP-ANT-M ; ! "
+
+
+
+
+
 
 Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
@@ -1852,12 +1896,14 @@ Kuroglu:Kuroglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
 Tanasoğlu:Tanasoğlu NP-COG-MF ; ! ""
 Topçuoğlu:Topçuoğlu NP-COG-MF ; ! ""
+Sepp:Sepp NP-COG-MF ; ! ""
+
+
 
 İsmailov:İsmailov NP-COG-MF ; ! ""
 Lanka:Lanka NP-COG-MF ; ! ""
 Olak:Olak NP-COG-MF ; ! ""
 Ots:Ots NP-COG-MF ; ! ""
-uezdın:uezdın NP-COG-MF ; ! ""
 Vieru:Vieru NP-COG-MF ; ! ""
 Nikolaev:Nikolaev NP-COG-OV ; ! ""
 Varfolomeev:Varfolomeev NP-COG-OV ; ! ""
@@ -1885,6 +1931,8 @@ Gabinskiy:Gabinskiy NP-COG-MF ; ! ""
 Pokşişevskiy:Pokşişevsk NP-COG-SKIJ ; ! ""
 Skalkovskiy:Skalkovsk NP-COG-SKIJ ; ! ""
 Pokrovskiy:Pokrovsk NP-COG-SKIJ ; ! ""
+Stiinţa:Stiinţa NP-COG-OV ; ! ""
+
 
 Borisoviç:Borisov NP-PAT-VICH ; ! ""
 Födoroviç:Födorov NP-PAT-VICH ; ! ""
@@ -2014,6 +2062,10 @@ kabaatlı:kabaatlı A1 ; ! ""
 real:real A1 ; ! ""
 saadâ:saadâ A1 ; ! ""
 titsi:titsi A1 ; ! ""
+boş:boş A1 ; ! ""
+sefer:sefer A1 ; ! ""
+tek:tek A1 ; ! ""
+
 
 
 LEXICON Adverbs
@@ -2068,7 +2120,9 @@ türklen:türklen ADV3 ; ! ""
 dolay:dolay ADV3 ; ! ""
 gene:gene ADV3 ; ! ""
 hemen:hemen  ADV3 ; ! ""
-
+saklı:saklı ADV3 ;
+Ayrıca:Ayrıca  ADV3 ; ! ""
+heptän:heptän ADV3 ; ! ""
 
 
 
@@ -2238,7 +2292,7 @@ danış:danış V-IV ;
 düzül:düzül V-IV ;
 bekle:bekle V-TV ;
 tut:tut V-TV ;
-özlä:özlä V-TV ; ! "miss" (T)
+özlä:özlä V-TV ; ! "miss" 
 aara:aara V-TV ;
 koru:koru V-TV ;
 genoţi:genoţi V-IV ;
@@ -2370,6 +2424,7 @@ h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 v:v ABBR ;
 h:h ABBR ;
 N%r:N%r ABBR ;
+A%l:A%l ABBR ;
 E:E  ABBR ;
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
