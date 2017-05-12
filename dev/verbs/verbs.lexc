@@ -29,6 +29,8 @@ LEXICON V-IMPER
 ! The imperative, "çok yaşa!", "sigara içmeyin!"
 %<imp%>%<p2%>%<sg%>: # ;
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
+%<imp%>%<p3%>%<sg%>:%>%{S%}%{I%}n # ;
+%<imp%>%<p3%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
 
 !LEXICON V-FINITE-IRREG-NEG
 
