@@ -39,10 +39,8 @@ LEXICON V-FINITE-REGULAR_NEG
 
 %<ifi%>:%>%{D%}%{I%} # ;
 %<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
-%<aor%>:%>%{A%}r # ;
-%<aor%>:%>%{E%}r # ;
 %<prog%>:%>%{A%}yor # ;
-%<neg%>%<aor%>:%>m%{A%}z # ;
+%<ger_nfh%>:m%{I%}ş # ;
 %<neg%>:%>m%{A%} # ;
 
 V-IMPER ; 
@@ -51,11 +49,15 @@ V-IMPER ;
 LEXICON V-NONFINITE
 V-GNA  ;
 V-GPR ;
+V-GER ;
 
-!LEXICON V-GNA-SUBST
+LEXICON V-GER
+%<ger%>:%>m%{A%} # ;
+%<ger_past%>:%>%{D%}%{I%}k # ;
+%<ger_abst%>:%>%{й%}{I%}ş # ;
 
-%<subst%>: SUBST ;
-%<subst%>%<pl%>:%>%{L}%{A%}r SUBST ;
+%<ger%>:%>m%{A%}k # ;
+
 
 LEXICON V-GNA
 %<gna_perf%>:%>%{й%}%{I%}p # ;
@@ -67,13 +69,19 @@ LEXICON V-GPR-SUBST
 
 
 LEXICON V-GPR
-%<gpr%>:%>%{й%}%{A%}n #;
 %<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
+%<gpr%>:%>%{й%}%{A%}n # ;
+%<gpr_rsub%>:%>%{й%}%{A%}n # ;
+
+
 
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEG ;
 V-NONFINITE ;
 !V-FINITE-IRREG-NEG ;
+%<aor%>:%>%{A%}r V-FINITE-REGULAR_NEG ;
+%<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
+%<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 
 LEXICON V-DER
 
