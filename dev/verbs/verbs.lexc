@@ -41,9 +41,9 @@ LEXICON V-FINITE-REGULAR_NEG
 %<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
 %<prog%>:%>%{A%}yor # ;
 %<ger_nfh%>:m%{I%}ş # ;
-%<neg%>:%>m%{A%} # ;
 
-V-IMPER ; 
+
+ 
 
 
 LEXICON V-NONFINITE
@@ -82,6 +82,7 @@ V-NONFINITE ;
 %<aor%>:%>%{A%}r V-FINITE-REGULAR_NEG ;
 %<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
+V-IMPER ;
 
 LEXICON V-DER
 
