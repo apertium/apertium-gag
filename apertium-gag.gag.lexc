@@ -737,7 +737,7 @@ iç:iç N1 ; ! ""
 ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
 ön:ön N1 ; ! ""
-aşaa:aşşa N1 ;
+aşaa:aşaa N1 ;
 
 
 
@@ -1465,9 +1465,9 @@ jandarma:jandarma N1 ; ! ""
 kanon:kanon N1 ; ! ""
 kompaniya:kompaniya N1 ; ! ""
 konţert:konţert N1 ; ! ""
-korkudan:korkudan N1 ; ! ""
+korku:korku N1 ; ! ""
 laamın:laamın N1 ; ! ""
-Maie:Maie N1 ; ! ""
+
 material:material N1 ; ! ""
 meydan:meydan N1 ; ! ""
 nasaat:nasaat N1 ; ! ""
@@ -1476,6 +1476,33 @@ pazar:pazar N1 ; ! ""
 siiredici:siiredici N1 ; ! ""
 üürenci:üürenci N1 ; ! ""
 kedi:kedi N1 ; ! ""
+ansız:ansız N1 ; ! ""
+aul:aul N1 ; ! ""
+ayaa:ayaa N1 ; ! ""
+aylä:aylä N1 ; ! ""
+çeh:çeh N1 ; ! ""
+cengindä:cengindä N1 ; ! ""
+çocucak:çocucak N1 ; ! ""
+Cumhuriyet:cumhuriyet N1 ; ! ""
+dooruluk:dooruluk N1 ; ! ""
+dostluk:dostluk N1 ; ! ""
+emirlikleri:emirlikleri N1 ; ! ""
+evlat:evlat N1 ; ! ""
+fabrika:fabrika N1 ; ! ""
+fıkaara:fıkaara N1 ; ! ""
+filcan:filcan N1 ; ! ""
+futbol:futbol N1 ; ! ""
+
+gelişi:gelişi N1 ; ! ""
+                                
+harç:harç N1 ; ! ""
+hastalık:hastalık N1 ; ! ""
+hefte:hefte N1 ; ! ""
+içerdä:içerdä N1 ; ! ""
+ihtär:ihtär N1 ; ! ""
+konuylan:konuylan N1 ; ! ""
+gagauzluk:gagauzluk N1 ; ! ""
+yaki:yaki N1 ; ! ""
 
 
 
@@ -1493,7 +1520,7 @@ bulgarca:bulgarca N1 ;
 ukrain:ukrain N1 ; ! ""
 dan:dan  N1 ; ! ""
 alban:alban N1 ; ! ""
-
+hakas:hakas N1 ; ! ""
 LEXICON ProperNouns 
 
 Afrika:Afrika NP-TOP ; ! ""
@@ -1745,6 +1772,8 @@ Kazan:Kazan NP-TOP ; ! ""
 Kongazçık:Kongazçık NP-TOP ; ! ""
 Mozambik:Mozambik NP-TOP ; ! ""
 Nahçıvan:Nahçıvan NP-TOP ; ! ""
+Bahamalar:Bahamalar NP-TOP ; ! ""
+Çöşmä:Çöşmä NP-TOP ; ! ""
 
  
 
@@ -1768,6 +1797,7 @@ Enn:Enn NP-ANT-M ; ! ""
 Nikolay:Nikolay NP-ANT-M ; ! ""
 Mariya:Mariya NP-ANT-F ; ! ""
 Ava:Ava NP-ANT-F ; ! ""
+Maie:Maie N1 ; ! ""
 
 Hilda:Hilda NP-ANT-F ; ! ""
 İvanka:İvanka NP-ANT-F ; ! ""
@@ -1896,7 +1926,7 @@ Raivo:Raivo NP-ANT-M ; ! "
 Piret:Piret NP-ANT-F ; ! ""
 Ellen:Ellen NP-ANT-M ; ! "
 Janez:Janez NP-ANT-M ; ! "
-Barbara:Barbara NP-ANT-M ; ! "
+Barbara:Barbara NP-ANT-F ; ! "
 Reet:Reet NP-ANT-M ; ! "
 Robert:Robert NP-ANT-M ; ! ""
 Saar:Saar NP-ANT-M ; ! "
@@ -1918,9 +1948,10 @@ Pontus:Pontus NP-ANT-M ; ! "
 Por:Por NP-ANT-M ; ! "
 Irina:Irina NP-ANT-F ; ! ""
 Ivan:Ivan NP-ANT-F ; ! ""
+Ivan:Ivan NP-ANT-M ; ! ""
 Milan:Milan NP-ANT-F ; ! ""
 Nata:Nata NP-ANT-F ; ! ""
-
+Arvo:Arvo NP-ANT-M ; ! ""
 
 Allah:Allah NP-AL ; ! ""
 Allah:Allaa NP-AL ; ! ""
@@ -1942,12 +1973,15 @@ SSR:SSR NP1-ORG ;
 LEXICON Cognomena
 Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
+Ban:Ban NP-COG-MF ; ! ""
+
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
 Ostapçuk:Ostapçuk NP-COG-MF ; ! "
 Kurdoglu:Kurdoglu NP-COG-MF ; ! ""
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
+Gimnası:Gimnası NP-COG-MF ; ! ""
 Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
@@ -1980,6 +2014,7 @@ Hesenoglu:Hesenoglu NP-COG-MF ; ! ""
 Karaçoban:Karaçoban NP-COG-MF ; ! ""
 Konstandoglu:Konstandoglu NP-COG-MF ; ! ""
 Krayı:Krayı NP-COG-MF ; ! ""
+Georgesku:Georgesku NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 Kırbaoglu:Kırbaoglu NP-COG-MF ; ! ""
 Marinoglu:Marinoglu NP-COG-MF ; ! ""
@@ -2258,6 +2293,8 @@ yayan:yayan A1 ; ! ""
 ansız:ansız A1 ; ! ""
 incäzanaat:incäzanaat A1 ; ! ""
 üüsüz:üüsüz A1 ; ! ""
+farklı:farklı A1 ; ! ""
+fin:fin A1 ; ! ""
 
 
 
@@ -2331,6 +2368,8 @@ neredän:neredän ADV3 ; ! ""
 nereyi:nereyi ADV3 ; ! ""
 kimär:kimär ADV3 ; ! ""
 nezaman:nezaman ADV3 ; ! ""
+ey:ey ADV3 ; ! ""
+herzaman:herzaman ADV3 ; ! ""
 
 
 
@@ -2403,7 +2442,7 @@ birär:birär DET-QNT ; ! "one each"
 herbir:herbir DET-IND ; !
 bişey:bişey DET-IND ;
 öbür:öbür DET-DEM ; !  "the other" 
-kimisi:kimisi DET-REF ; ! ""
+
 
 
 
@@ -2558,12 +2597,11 @@ düş:düş V-IV ; ! ""
 fikirle:fikirle V-IV ; ! ""
 genellikle:genellikle V-IV ; ! ""
 bilmeer:bilmeer V-TV ; ! ""
-brakıp:brakıp V-TV ; ! ""
 konuş:konuş V-IV ; ! ""
-brakıp:brak V-TV ; ! ""
-yollaner:yolla V-TV ; ! ""
+brak:brak V-TV ; ! ""
+yolla:yolla V-TV ; ! ""
 pin:pin V-IV ; ! ""
-
+ense:ense V-IV ; ! ""
 
 LEXICON Pronouns 
 
@@ -2584,6 +2622,7 @@ kendisi:kendisi PRON-REF ; ! "self"
 birisi:birisi PRON-QNT ; ! "somebody"
 hangı:hangı PRON-ITG-INFL ;
 hangı:hangi PRON-ITG-INFL ;
+kimisi:kimisi PRON-ITG-INFL ;
 
 ora:ora PRON-ADV ;
 
@@ -2654,6 +2693,9 @@ O%O%O:O%O%O ABBR ; ! ""
 of:of  ABBR ; ! ""
 is:is ABBR ; ! ""
 a%a%r:a%a%r ABBR ; ! ""
+b%ä:b%ä ABBR ; ! ""
+G:G  ABBR ; ! ""
+
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
