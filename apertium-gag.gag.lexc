@@ -392,6 +392,7 @@ LEXICON FULL-NOMINAL-INFLECTION
 !PLURAL ;
 POSSESSIVES ;
 LI-POSTPOSITION ;
+GENERAL-POSSESSIVE-ETC ;
 
 LEXICON PRON-PERS-BÄN
 
@@ -485,17 +486,20 @@ LEXICON POST
 %<post%>: # ;
  
 
-LEXICON SUBST 
-!%<pl%>:%>%{L%}%{A%}r   ;
+LEXICON SUBST
+%<attr%>: # ; 
+%<pl%>:%>%{L%}%{A%}r  CASES ;
+%<subst%>: CASES ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
-!%<pl%>:%>%{L%}%{A%}r   V-GZ ;
-!%<pass%>:%>{i%}l #
+
+
+LEXICON GENERAL-POSSESSIVE-ETC
+%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 
 
 
 LEXICON N1 
-%<n%>%<attr%>: # ;
 %<n%>: FULL-NOMINAL-INFLECTION ; 
 %<n%>: SUBST ; 
 %<n%>: PLURAL ; 
@@ -937,7 +941,7 @@ erinä:erinä N1 ;
 enţiklopediya:enţiklopediya N1 ;
 evroaziya:evroaziya N1 ;
 êkskursiya:êkskursiya N1 ;
-erindeki:erindeki N1 ;
+erin:erin N1 ;
 
 fayda:fayda N1 ; ! "benefit"
 festival:festival N1 ; ! ""
@@ -1744,7 +1748,7 @@ Mihail:Mihail NP-ANT-M ; ! ""
 İliya:İliya NP-ANT-M ;
 Köroglu:Köroglu NP-ANT-M ; ! ""
 Köroglu:Köroglu NP-ANT-F ; ! ""
-Komrattakı:Komrattakı NP-ANT-M ; ! ""
+Komrat:Komrat NP-ANT-M ; ! ""
 Stepan:Stepan NP-ANT-F ; ! ""
 Sofiya:Sofiya NP-ANT-F ; ! ""
 Aleksander:Aleksander NP-ANT-M ; ! ""
