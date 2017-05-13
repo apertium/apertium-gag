@@ -352,12 +352,13 @@ LEXICON COPULA-PERS-NFH
 LEXICON CLITIC-COPULA
 
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
-%+i%<cop%>%<past%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
+%+i%<cop%>%<ifi%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
 %+i%<cop%>:%>%{й%}s%{A%} CASES;
 %+i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
-%+i%<cop%>%<coll%>:%>l%{I%}k # ;
-
+%+i%<cop%>%<aor%>: # ;
+%+i%<cop%>%<gna-cond%>:%>s%{A%} CASES ;
+%+i%<cop%>%<gna-cond%>:%>m%{A%}k CASES ;
 
 ! TODO: OTHER TENSES
 
@@ -1334,7 +1335,7 @@ padişaalıı:padişaalıı N1 ; ! ""
 salonda:salonda N1 ; ! ""
 sergi:sergi N1 ; ! ""
 üülen:üülen N1 ; ! ""
-üzyılın:üzyılın N1 ; ! ""
+üzyıl:üzyıl N1 ; ! ""
 gipoteza:gipoteza N1 ; ! ""
 belliedici:belliedici N1 ;
 cümne:cümne N1 ;
@@ -1378,21 +1379,73 @@ sonra:sonra N1 ; ! ""
 sultan:sultan N1 ; ! ""
 tipardan:tipardan N1 ; ! ""
 
-zakona:Zakona N1 ; ! ""
+zakon:zakon N1 ; ! ""
 zebra:zebra N1 ; ! ""
 ertesi:ertesi N1 ; ! ""
 göktä:göktä N1 ; ! ""
-Han:Han N1 ; ! ""
+han:han N1 ; ! ""
 ilkyaz:ilkyaz N1 ; ! ""
 konkurs:konkurs N1 ; ! ""
-köyünde:köyünde N1 ; ! ""
+köy:köy N1 ; ! ""
 kuman:kuman N1 ; ! ""
 lider:lider N1 ; ! ""
 mal:mal N1 ; ! ""
-ministeril:ministeril N1 ; ! ""
+ministerlik:ministerlik N1 ; ! ""
 proza:proza N1 ; ! ""
 raatlık:raatlık N1 ; ! ""
-roak:roak N1 ; ! ""
+stiinţa:stiinţa N1 ; ! ""
+artistik:artistik N1 ; ! ""
+barış:barış N1 ; ! ""
+bildirdi:bildirdi N1 ; ! ""
+blok:blok N1 ; ! ""
+çerçeve:çerçeve N1 ; ! ""
+çoğunluk:çoğunluk N1 ; ! ""
+dere:dere N1 ; ! ""
+duygu:duygu N1 ; ! ""
+educaţiel:educaţiel N1 ; ! ""
+fan:fan N1 ; ! ""
+Hacı:Hacı N1 ; ! ""
+komradın:komradın N1 ; ! ""
+kongresin:kongresin N1 ; ! ""
+republıcıı:republıcıı N1 ; ! ""
+beceri:beceri N1 ;
+                                
+analiz:analiz N1 ; ! ""
+aslan:aslan N1 ; ! ""
+                                 
+azınlık:azınlık N1 ; ! ""
+azınnık:azınnık N1 ; ! ""
+başlankı:başlankı N1 ; ! ""
+çay:çay N1 ; ! ""
+dışında:dışında N1 ; ! ""
+film:film N1 ; ! ""
+gençlik:gençlik N1 ; ! ""
+genellikle:genellikle N1 ; ! ""
+iilik:iilik N1 ; ! ""
+kalä:kalä N1 ; ! ""
+kolaylık:kolaylık N1 ; ! ""
+kongres:kongres N1 ; ! ""
+kontinent:kontinent N1 ; ! ""
+maanası:maanası N1 ; ! ""
+masa:masa N1 ; ! ""
+ministeril:ministeril N1 ; ! ""
+pınar:pınar N1 ; ! ""
+resimcilik:resimcilik N1 ; ! ""
+ruh:ruh N1 ; ! ""
+saalık:saalık N1 ; ! ""
+seläm:seläm N1 ; ! ""
+sevda:sevda N1 ; ! ""
+teknik:teknik N1 ; ! ""
+viza:viza N1 ; ! ""
+yaz:yaz N1 ; ! ""
+yıllık:yıllık N1 ; ! ""
+içindeki:içindeki N1 ; ! ""
+
+
+
+
+
+
 
 
 
@@ -1404,6 +1457,7 @@ oguz:oguz N1 ;
 franțuz:franțuz N1 ;
 bulgarca:bulgarca N1 ;
 ukrain:ukrain N1 ; ! ""
+Dan:Dan  N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -1626,7 +1680,7 @@ Valparaíso:Valparaíso NP-TOP ; ! ""
 Zelandiya:Zelandiya NP-TOP ; ! ""
 Zambiya:Zambiya NP-TOP ; ! ""
 Çilinın:Çilinın NP-TOP ; ! ""
-Dan:Dan  NP-TOP ; ! ""
+
 İspolkomunun:İspolkomunun NP-TOP ; ! ""
 Zaporojye:Zaporojye NP-TOP ; ! ""
 Avdarma:Avdarma NP-TOP ; ! ""
@@ -1636,8 +1690,13 @@ Bolu:Bolu NP-TOP ; ! ""
 Farer:Farer NP-TOP ; ! ""
 Hocalı:Hocalı NP-TOP ; ! ""
 Kişinev:Kişinev NP-TOP ; ! ""
-
-
+Krasnoyarsk:Krasnoyarsk NP-TOP ; ! ""
+Beşalma:Beşalma NP-TOP ; ! ""
+Kongo:Kongo NP-TOP ; ! ""
+afrika:afrika NP-TOP ; ! ""
+Akdeniz:Akdeniz NP-TOP ; ! ""
+Karadeniz:Karadeniz NP-TOP ; ! ""
+Marmara:Marmara NP-TOP ; ! ""
 
  
 
@@ -1781,19 +1840,21 @@ Ida:Ida NP-ANT-M ; ! "
 Irecek:Irecek NP-ANT-M ; ! " ; ! ""
 Juhan:Juhan NP-ANT-M ; ! "
 Karin:Karin NP-ANT-M ; ! "
-Krasnoyarsk:Krasnoyarsk NP-ANT-M ; ! "
+
 Maimu:Maimu NP-ANT-M ; ! "
 Milvi:Milvi NP-ANT-M ; ! "
 Oskar:Oskar NP-ANT-M ; ! "
 Palad:Palad NP-ANT-M ; ! "
 Raivo:Raivo NP-ANT-M ; ! "
 Piret:Piret NP-ANT-F ; ! ""
-
+Ellen:Ellen NP-ANT-M ; ! "
+Janez:Janez NP-ANT-M ; ! "
 
 
 
 
 Allah:Allah NP-AL ; ! ""
+Allah:Allaa NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
 
@@ -1804,14 +1865,16 @@ SSCB:SSCB NP1-ORG ;
 GRT:GRT NP1-ORG ;
 GR:GR NP1-ORG ;
 KDU:KDU NP1-ORG ;
+MR:MR NP1-ORG ;
+
 
 
 LEXICON Cognomena
-çetin:çetin NP-COG-MF ; ! ""
+Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
-OSTAPÇUK:OSTAPÇUK NP-COG-MF ; ! "
+Ostapçuk:Ostapçuk NP-COG-MF ; ! "
 Kurdoglu:Kurdoglu NP-COG-MF ; ! ""
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
@@ -1866,6 +1929,7 @@ Karaya:Karaya NP-COG-MF ; ! ""
 Maruneviç:Maruneviç NP-COG-MF ; ! ""
 Tanasoviç:Tanasoviç NP-COG-MF ; ! ""
 Moyse:Moyse NP-COG-MF ; ! ""
+İncäzanaat:İncäzanaat NP-COG-MF ; ! ""
 Frunze:Frunze NP-COG-MF ; ! ""
 Vlah:Vlah NP-COG-MF ; ! ""
 Zerdabi:Zerdabi NP-COG-MF ; ! ""
@@ -1960,7 +2024,7 @@ Gabinskiy:Gabinskiy NP-COG-MF ; ! ""
 Pokşişevskiy:Pokşişevsk NP-COG-SKIJ ; ! ""
 Skalkovskiy:Skalkovsk NP-COG-SKIJ ; ! ""
 Pokrovskiy:Pokrovsk NP-COG-SKIJ ; ! ""
-Stiinţa:Stiinţa NP-COG-OV ; ! ""
+
 
 
 Borisoviç:Borisov NP-PAT-VICH ; ! ""
@@ -2055,6 +2119,7 @@ temel:temel A1 ; ! ""
 tez:tez A2 ;  ! ""
 keskin:keskin A1 ;
 türk:türk A1 ; ! ""
+uygur:uygur A1 ; ! ""
 gagauz:gagauz A1 ; ! ""
 ingiliz:ingiliz A1 ; ! ""
 bulgar:bulgar A1 ; ! ""
@@ -2094,6 +2159,26 @@ titsi:titsi A1 ; ! ""
 boş:boş A1 ; ! ""
 sefer:sefer A1 ; ! ""
 tek:tek A1 ; ! ""
+roak:roak A1 ; ! ""
+dooruluu:dooruluu A1 ; ! ""
+dübüdüz:dübüdüz A1 ; ! ""
+etnik:etnik A1 ; ! ""
+cümnä:cümnä A1 ;
+becerikli:becerikli A1 ;
+aslı:aslı A1 ; ! ""
+dar:dar A1 ; ! ""
+esir:esir A1 ; ! ""
+girgin:girgin A1 ; ! ""
+kär:kär A1 ; ! ""
+kesin:kesin A1 ; ! ""
+korkusuz:korkusuz A1 ; ! ""
+kötü:kötü A1 ; ! ""
+lafedän:lafedän A1 ; ! ""
+ufak:ufak A1 ; ! ""
+
+
+
+
 
 
 
@@ -2155,6 +2240,13 @@ heptän:heptän ADV3 ; ! ""
 kaare:kaare ADV3 ; ! ""
 nelär:nelär ADV3 ; ! ""
 şüpesiz:şüpesiz ADV3 ; ! ""
+aşaa:aşaa ADV3 ; ! ""
+bekim:bekim ADV3 ; ! ""
+bireri:bireri ADV3 ; ! ""
+dayma:dayma ADV3 ; ! ""
+düün:düün ADV3 ; ! ""
+neredän:neredän ADV3 ; ! ""
+nereyi:nereyi ADV3 ; ! ""
 
 
 
@@ -2165,6 +2257,7 @@ nelär:nelär ADV3 ; ! ""
 LEXICON Miscellaneous 
 
 da%<postadv%>:da # ;
+tä%<postadv%>:tä # ;
 da%<postadv%>:dä # ;
 de%<postadv%>:de # ;
 te%<postadv%>:te # ;
@@ -2217,6 +2310,7 @@ zeedä:zeedä DET-QNT ; ! "a lot"
 kendi:kendi DET-REF ; ! ""
 kaç:kaç DET-QNT ; ! ""
 okadar:okadar DET-QNT ; ! ""
+bukadar:bukadar DET-QNT ; ! "this much"
 
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
@@ -2241,7 +2335,7 @@ dolayı:dolayı POST ; ! ""
 ilgili:ilgili POST ; ! "regarding"
 boyunca:boyunca POST ; ! "during"
 dolayın:dolayın POST ; ! ""
-of:of  POST ; ! ""
+
 
 
 
@@ -2368,13 +2462,18 @@ diy:diy V-IV ;
 etiş:etiş V-IV ; ! ""
 göç:göç V-IV ; ! ""
 götür:götür V-TV ; ! ""
-iyer:iyer V-TV; ! ""
+iy:iy V-TV; ! ""
 sev:sev V-TV ; ! ""
 ur:ur V-TV ; ! ""
 kes:kes V-TV ;
 şaş:şaş V-TV ;
 savaş:savaş  V-IV ; ! ""
-
+düş:düş V-IV ; ! ""
+fikirle:fikirle V-IV ; ! ""
+genellikle:genellikle V-IV ; ! ""
+bilmeer:bilmeer V-TV ; ! ""
+brakıp:brakıp V-TV ; ! ""
+konuş:konuş V-IV ; ! ""
 
 
 LEXICON Pronouns 
@@ -2463,6 +2562,8 @@ N%r:N%r ABBR ;
 A%l:A%l ABBR ;
 E:E  ABBR ;
 O%O%O:O%O%O ABBR ; ! ""
+of:of  ABBR ; ! ""
+a%a%r:a%a%r ABBR ; ! ""
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
