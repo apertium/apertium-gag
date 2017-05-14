@@ -16,13 +16,52 @@ LEXICON Root
 
 Verbs ;
 
-LEXICON CASE 
 
-%<nom%>: # ;
+
+LEXICON CASES
+!%<nom%>: CLITIC-COPULA ;
+%<nom%>:  # ;
+%<gen%>:%>%{n%}%{I%}%{n%} # ;
+%<loc%>:%>%{D%}%{A%} # ;
+%<abl%>:%>%{D%}%{A%}n # ;
+%<acc%>:%>%{й}%{I%} # ;
+%<dat%>:%>%{й}%{A%} # ;
+%<ins%>:%>%{й}%{I%}%{A%} # ;
+
 
 LEXICON SUBST 
+CASES ;
 
-CASE  ;
+
+LEXICON V-PERS-S1
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>%n # ; 
+%<p3%>%<sg%>: # ; 
+%<p1%>%<pl%>:%>%{й%}%z # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ; 
+%<pl%>:%>%{L%}%{A%}r # ;
+%<ifi%>:%>%{D%}%{I%} # ;
+%<ifi%>:%>%{D%}%{I%} # ;
+%<pl%>:%>%{L%}%{A%}r # ;
+
+
+LEXICON V-PERS-AOR
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>s%{I%}n # ; 
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}z # ; 
+%<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
+%<p3%>%<pl%>:%>l%{A%}r # ;
+
+
+
+LEXICON POSSESSIVES
+%<px1sg%>:%>%{i%}m CASES  ;
+%<px2sg%>:%>%{i%}n CASES ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES  ;
+%<px1pl%>:%>%{i%}m%{I%}z CASES ;
+%<px2pl%>:%>%{i%}n%{I%}z CASES  ;
+                         CASES ;
 
 
 LEXICON V-IMPER
@@ -31,6 +70,8 @@ LEXICON V-IMPER
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
 %<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n # ;
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
+
+
 
 !LEXICON V-FINITE-IRREG-NEG
 
@@ -41,11 +82,8 @@ LEXICON V-FINITE-REGULAR_NEG
 
 %<ifi%>:%>%{D%}%{I%} # ;
 %<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
-
 %<nfh%>:%>m%{I%}ş # ;
 
-
- 
 
 
 LEXICON V-NONFINITE
@@ -54,26 +92,37 @@ V-GPR ;
 V-GER ;
 
 LEXICON V-GER
-%<ger%>:%>m%{A%} # ;
 %<ger_past%>:%>%{D%}%{I%}k # ;
 %<ger_abst%>:%>%{й%}{I%}ş # ;
-
 %<ger%>:%>m%{A%}k # ;
+%<ger_nfh%>:m%{I%}ş V-GPR-SUBST ;
+%<ger%>%<neg%>:%>m%{A%} POSSESSIVES ;
 
 
 LEXICON V-GNA
 %<gna_perf%>:%>%{й%}%{I%}p # ;
+%<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
+%<gna_perf%>:%>%{й%}%{I%}p # ;
+%<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
+%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
 
 LEXICON V-GPR-SUBST
-
 %<subst%>: SUBST ;
 %<subst%>%<pl%>:%>%{L}%{A%}r SUBST ;
 
 
 LEXICON V-GPR
 %<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
-%<gpr%>:%>%{й%}%{A%}n # ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
+%<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
+%<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
+%<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
+%<gpr%>%<neg%>:%>m%{A%}z # ;
+%<gpr_past%>:%>%{D%}%{I%}k # ;
+%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
+%<gpr_aor%>:%>{A%}r # ;
+%<gpr_1%>:%>s%{A%} # ;
+%<gpr_2%>:%>%{A}rs%{A%} # ;
 
 
 
@@ -85,10 +134,12 @@ V-NONFINITE ;
 %<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
+
 V-IMPER ;
 
-LEXICON V-DER
 
+
+LEXICON V-DER
 %<coop%>:%>%{I%}ş V-COMMON ;
  V-COMMON ;
 
@@ -103,6 +154,6 @@ LEXICON V-IV
 LEXICON Verbs 
 
 yap:yap V-TV ; ! ""
-yaşa:yaşa V-IV ; ! ""
+çık:çık V-IV ; ! ""
 
 
