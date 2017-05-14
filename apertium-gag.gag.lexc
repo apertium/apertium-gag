@@ -1476,14 +1476,14 @@ pazar:pazar N1 ; ! ""
 siiredici:siiredici N1 ; ! ""
 üürenci:üürenci N1 ; ! ""
 kedi:kedi N1 ; ! ""
-ansız:ansız N1 ; ! ""
+
 aul:aul N1 ; ! ""
 ayaa:ayaa N1 ; ! ""
 aylä:aylä N1 ; ! ""
 çeh:çeh N1 ; ! ""
 cengindä:cengindä N1 ; ! ""
 çocucak:çocucak N1 ; ! ""
-Cumhuriyet:cumhuriyet N1 ; ! ""
+cumhuriyet:cumhuriyet N1 ; ! ""
 dooruluk:dooruluk N1 ; ! ""
 dostluk:dostluk N1 ; ! ""
 emirlikleri:emirlikleri N1 ; ! ""
@@ -1493,18 +1493,35 @@ fıkaara:fıkaara N1 ; ! ""
 filcan:filcan N1 ; ! ""
 futbol:futbol N1 ; ! ""
 
-gelişi:gelişi N1 ; ! ""
+geliş:geliş N1 ; ! ""
                                 
 harç:harç N1 ; ! ""
 hastalık:hastalık N1 ; ! ""
 hefte:hefte N1 ; ! ""
-içerdä:içerdä N1 ; ! ""
+içer:içer N1 ; ! ""
 ihtär:ihtär N1 ; ! ""
 konuylan:konuylan N1 ; ! ""
 gagauzluk:gagauzluk N1 ; ! ""
 yaki:yaki N1 ; ! ""
-
-
+gimna:gimna N1 ;
+lääzımnık:lääzımnık  N1 ;
+bellilikçi:bellilikçi N1 ; ! ""
+çempionat:çempionat N1 ; ! ""
+gece:gece N1 ; ! ""
+roak:roak N1 ; ! ""
+sol:sol N1 ; ! ""
+sopaylan:sopaylan N1 ; ! ""
+student:student N1 ; ! ""
+tazı:tazı N1 ; ! ""
+temsilci:temsilci N1 ; ! ""
+türkücü:türkücü N1 ; ! ""
+tütün:tütün N1 ; ! ""
+vatandaş:vatandaş N1 ; ! ""
+vizit:vizit N1 ; ! ""
+yaamur:yaamur N1 ; ! ""
+yayın:yayın N1 ; ! ""
+yazici:yazici N1 ; ! ""
+yannışlık:yannışlık N1 ;
 
 
 
@@ -1774,7 +1791,10 @@ Mozambik:Mozambik NP-TOP ; ! ""
 Nahçıvan:Nahçıvan NP-TOP ; ! ""
 Bahamalar:Bahamalar NP-TOP ; ! ""
 Çöşmä:Çöşmä NP-TOP ; ! ""
-
+Şor:Şor NP-TOP ; ! ""
+Stavropol:Stavropol NP-TOP ; ! ""
+Tirana:Tirana NP-TOP ; ! ""
+Trinidad:Trinidad NP-TOP ; ! ""
  
 
 Aleksandr:Aleksandr NP-ANT-M ; ! ""
@@ -1952,6 +1972,15 @@ Ivan:Ivan NP-ANT-M ; ! ""
 Milan:Milan NP-ANT-F ; ! ""
 Nata:Nata NP-ANT-F ; ! ""
 Arvo:Arvo NP-ANT-M ; ! ""
+Picus:Picus NP-ANT-M ; ! ""
+Zaari:Zaari NP-ANT-M ; ! ""
+Alenka:Alenka NP-ANT-F ; ! ""
+Tudorka:Tudorka NP-ANT-F ; ! ""
+Valentin:Valentin NP-ANT-F ; ! ""
+
+
+
+
 
 Allah:Allah NP-AL ; ! ""
 Allah:Allaa NP-AL ; ! ""
@@ -1967,6 +1996,8 @@ GR:GR NP1-ORG ;
 KDU:KDU NP1-ORG ;
 MR:MR NP1-ORG ;
 SSR:SSR NP1-ORG ;
+                  
+TÜRKSOY:TÜRKSOY NP1-ORG ;
 
 
 
@@ -1974,6 +2005,11 @@ LEXICON Cognomena
 Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
 Ban:Ban NP-COG-MF ; ! ""
+Ştefan:Ştefan NP-COG-MF ; ! ""
+Tarmo:Tarmo NP-COG-MF ; ! ""
+Tepegöz:Tepegöz NP-COG-MF ; ! ""
+Vaher:Vaher NP-COG-MF ; ! ""
+Vasilyeviç:Vasilyeviç NP-COG-MF ; ! ""
 
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
@@ -1981,7 +2017,7 @@ Ostapçuk:Ostapçuk NP-COG-MF ; ! "
 Kurdoglu:Kurdoglu NP-COG-MF ; ! ""
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
-Gimnası:Gimnası NP-COG-MF ; ! ""
+
 Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
@@ -2136,6 +2172,8 @@ Gabinskiy:Gabinskiy NP-COG-MF ; ! ""
 Pokşişevskiy:Pokşişevsk NP-COG-SKIJ ; ! ""
 Skalkovskiy:Skalkovsk NP-COG-SKIJ ; ! ""
 Pokrovskiy:Pokrovsk NP-COG-SKIJ ; ! ""
+Agenstvosu:Agenstvosu NP-COG-SKIJ ; ! ""
+Tamannıklı:Tamannıklı NP-COG-SKIJ ; ! ""
 
 
 
@@ -2197,6 +2235,7 @@ saa:saa A1 ; ! ""
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
 lääzım:läzım A1 ;
+lääzımnı:lääzımnı A1 ;
 peri:peri A1 ; ! ""
 yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
@@ -2295,6 +2334,14 @@ incäzanaat:incäzanaat A1 ; ! ""
 üüsüz:üüsüz A1 ; ! ""
 farklı:farklı A1 ; ! ""
 fin:fin A1 ; ! ""
+aktiv:aktiv A1 ; ! ""
+där:där A1 ; ! ""
+süryani:süryani A1 ; ! ""
+ters:ters A1 ; ! ""
+yaban:yaban A1 ; ! ""
+yannış:yannış A1 ; ! ""
+yeni:yeni A1 ; ! ""
+zerem:zerem A1 ; ! ""
 
 
 
@@ -2370,7 +2417,7 @@ kimär:kimär ADV3 ; ! ""
 nezaman:nezaman ADV3 ; ! ""
 ey:ey ADV3 ; ! ""
 herzaman:herzaman ADV3 ; ! ""
-
+ansızdan:ansızdan ADV3 ; ! ""
 
 
 
@@ -2398,6 +2445,7 @@ yada:yada CC ;
 veya:veya CC ; ! ""
 hem:hem CC ;
 ama:ama CC ; 
+ama:amma CC ;
 ne:ne CC ;
 ve:ve CC ; ! "and"
 a:a CC ; ! ""
@@ -2602,6 +2650,10 @@ brak:brak V-TV ; ! ""
 yolla:yolla V-TV ; ! ""
 pin:pin V-IV ; ! ""
 ense:ense V-IV ; ! ""
+çaar:çaar V-TV ; ! ""
+taşı:taşı V-TV ; ! ""
+açıkla:açıkla V-IV ; ! ""
+
 
 LEXICON Pronouns 
 
@@ -2672,6 +2724,9 @@ Y%.:Y%. ABBR-INIT ; ! ""
 
 
 Dr%.:Dr%. ABBR ;
+St%.:St%. ABBR ;
+
+
 Doç%.:Doç%. ABBR ;
 Prof%.:Prof%. ABBR ;
 km:km ABBR ; 
@@ -2679,6 +2734,7 @@ kg:kg ABBR ;
 d%.:d%. ABBR ;
 i:i ABBR ;
 y%.:y%. ABBR ;
+y%.y%.:y%.y%. ABBR ;
 h%.b%.:h%.b%. ABBR ;
 v%.b%.:v%.b%. ABBR ;
 h%.t%.b%.:h%.t%.b%. ABBR ;
