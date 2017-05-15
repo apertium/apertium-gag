@@ -76,27 +76,28 @@ LEXICON V-IMPER
 !LEXICON V-FINITE-IRREG-NEG
 
 
-
 LEXICON V-FINITE-REGULAR_NEG
 ! All of the finite tenses that take negative in -mA-
-
 %<ifi%>:%>%{D%}%{I%} # ;
 %<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
 %<nfh%>:%>m%{I%}ş # ;
 
 
 
-LEXICON V-NONFINITE
-V-GNA  ;
-V-GPR ;
-V-GER ;
+LEXICON GER-N-INFL-COMMON
+CASES ;
+
+LEXICON GER-SUBST
+GER-N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r GER-N-INFL-COMMON ;
 
 LEXICON V-GER
-%<ger_past%>:%>%{D%}%{I%}k # ;
-%<ger_abst%>:%>%{й%}{I%}ş # ;
-%<ger%>:%>m%{A%}k # ;
-%<ger_nfh%>:m%{I%}ş V-GPR-SUBST ;
-%<ger%>%<neg%>:%>m%{A%} POSSESSIVES ;
+%<ger_past%>:%>%{D%}%{I%}k GER-SUBST ;
+%<ger_abst%>:%>%{й%}{I%}ş GER-SUBST ;
+%<ger%>:%>m%{A%}k GER-SUBST  ;
+%<ger_nfh%>:%>m%{I%}ş GER-SUBST  ;
+
+!%<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
 
 
 LEXICON V-GNA
@@ -104,7 +105,9 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
-%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
+
+!%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
+
 
 LEXICON V-GPR-SUBST
 %<subst%>: SUBST ;
@@ -114,16 +117,21 @@ LEXICON V-GPR-SUBST
 LEXICON V-GPR
 %<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
 %<gpr%>%<neg%>:%>m%{A%}z # ;
 %<gpr_past%>:%>%{D%}%{I%}k # ;
-%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
 %<gpr_aor%>:%>{A%}r # ;
-%<gpr_1%>:%>s%{A%} # ;
-%<gpr_2%>:%>%{A}rs%{A%} # ;
 
+!%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
+!%<gpr_1%>:%>s%{A%} # ;
+!%<gpr_2%>:%>%{A}rs%{A%} # ;
+
+
+LEXICON V-NONFINITE
+V-GNA  ;
+V-GPR ;
+V-GER ;
 
 
 LEXICON V-COMMON 
@@ -132,8 +140,10 @@ V-NONFINITE ;
 !V-FINITE-IRREG-NEG ;
 %<aor%>:%>%{A%}r V-FINITE-REGULAR_NEG ;
 %<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
-%<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
+%<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
+%<neg%>:%>m%{A%} V-NONFINITE ;
+
 
 V-IMPER ;
 
@@ -141,18 +151,22 @@ V-IMPER ;
 
 LEXICON V-DER
 %<coop%>:%>%{I%}ş V-COMMON ;
+%<caus%>:%>%{D%}%{I%}r # ;
+%<pass%>:%>%{i%}%{L%} V-COMMON ;
+%<pass%>:%>t # ;
+%<pass%>:%>%{I%}n # ;
+
  V-COMMON ;
 
-LEXICON V-TV 
 
+LEXICON V-TV 
 %<v%>%<tv%>: V-DER ;
 
 LEXICON V-IV 
-
 %<v%>%<iv%>: V-DER ;
 
-LEXICON Verbs 
 
+LEXICON Verbs 
 yap:yap V-TV ; ! ""
 çık:çık V-IV ; ! ""
 
