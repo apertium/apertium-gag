@@ -128,6 +128,8 @@ LEXICON V-GPR
 !%<gpr_2%>:%>%{A}rs%{A%} # ;
 
 
+
+
 LEXICON V-NONFINITE
 V-GNA  ;
 V-GPR ;
@@ -143,11 +145,10 @@ V-NONFINITE ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-NONFINITE ;
-
+%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEG ;
+%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEG ;
 
 V-IMPER ;
-
-
 
 LEXICON V-DER
 %<coop%>:%>%{I%}ş V-COMMON ;
