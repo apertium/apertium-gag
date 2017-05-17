@@ -1531,6 +1531,30 @@ yaamur:yaamur N1 ; ! ""
 yayın:yayın N1 ; ! ""
 yazici:yazici N1 ; ! ""
 yannışlık:yannışlık N1 ;
+yil:yil N1 ; ! ""
+agenstvosu:agenstvosu N1 ; ! ""
+departament:departament N1 ; ! ""
+dünneyin:dünneyin N1 ; ! ""
+durum:durum N1 ; ! ""
+medali:medali N1 ; ! ""
+mongol:mongol N1 ; ! ""
+ot:ot N1 ; ! ""
+oyun:oyun N1 ; ! ""
+paası:paası N1 ; ! ""
+personaj:personaj N1 ; ! ""
+plaka:plaka N1 ; ! ""
+poem:poem N1 ; ! ""
+professor:professor N1 ; ! ""
+pyesa:pyesa N1 ; ! ""
+saatlık:saatlık N1 ; ! ""
+sabaa:sabaa N1 ; ! ""
+şansora:şansora N1 ; ! ""
+taligayı:taligayı N1 ; ! ""
+Tamannıklı:Tamannıklı N1 ; ! ""
+temel:temel N1 ; ! ""
+viţe:viţe N1 ; ! ""
+vizit:vizit N1 ; ! ""
+
 
 
 
@@ -1839,7 +1863,12 @@ Bolboka:Bolboka NP-TOP ; ! ""
 Falkland:Falkland NP-TOP ; ! ""
 Galiçya:Galiçya NP-TOP ; ! ""
 Haiti:Haiti NP-TOP ; ! ""
-
+Niue:Niue NP-TOP ; ! ""
+Oman:Oman NP-TOP ; ! ""
+Puerto:Puerto NP-TOP ; ! ""
+Salar:Salar NP-TOP ; ! ""
+Sumqayıt:Sumqayıt NP-TOP ; ! ""
+Yamayka:Yamayka NP-TOP ; ! ""
 
 
 
@@ -2032,7 +2061,17 @@ Zaari:Zaari NP-ANT-M ; ! ""
 Alenka:Alenka NP-ANT-F ; ! ""
 Tudorka:Tudorka NP-ANT-F ; ! ""
 Valentin:Valentin NP-ANT-F ; ! ""
-
+Mehmet:Mehmet NP-ANT-M ; ! ""
+Mihkel:Mihkel NP-ANT-M ; ! ""
+Nabi:Nabi NP-ANT-M ; ! ""
+Nikolae:Nikolae NP-ANT-M ; ! ""
+Oleg:Oleg NP-ANT-M ; ! ""
+Peep:Peep NP-ANT-M ; ! ""
+Peter:Peter NP-ANT-M ; ! ""
+Rotmistr:Rotmistr NP-ANT-M ; ! ""
+Selim:Selim NP-ANT-M ; ! ""
+Miha:Miha NP-ANT-F ; ! ""
+Nina:Nina NP-ANT-F ; ! ""
 
 
 
@@ -2200,6 +2239,10 @@ Slaveikov:Slaveikov NP-COG-MF ; ! ""
 Stoyanov:Stoyanov NP-COG-MF ; ! ""
 TARLEV:TARLEV NP-COG-MF ; ! ""
 Vali:Valič NP-COG-MF ; ! ""
+Panthera:Panthera NP-COG-MF ; ! ""
+Saksan:Saksan NP-COG-MF ; ! ""
+Pärn:Pärn NP-COG-MF ; ! ""
+Rebane:Rebane NP-COG-MF ; ! ""
 
 
 İsmailov:İsmailov NP-COG-MF ; ! ""
@@ -2413,6 +2456,14 @@ dost:dost A1 ; ! ""
 geç:geç A1 ; ! ""
 ak:ak A1 ; ! ""
 afanasiy:afanasiy A1 ; ! ""
+çox:çox A1 ; ! ""
+pop:pop A1 ; ! ""
+roak:roak A1 ; ! ""
+şahmatı:şahmatı A1 ; ! ""
+şaşki:şaşki A1 ; ! ""
+serbest:serbest A1 ; ! ""
+sıcak:sıcak A1 ; ! ""
+siirek:siirek A1 ; ! ""
 
 
 
@@ -2459,6 +2510,9 @@ az:aaz ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
+acaba:acaba ADV3 ; ! ""
+burda:burda ADV3 ; ! ""
+näänı:näänı ADV3 ; ! ""
 
 
 evelki:evelki ADV3; ! ""
@@ -2725,6 +2779,9 @@ ense:ense V-IV ; ! ""
 çaar:çaar V-TV ; ! ""
 taşı:taşı V-TV ; ! ""
 açıkla:açıkla V-IV ; ! ""
+baaşladı:baaşladı V-IV ; ! ""
+peydala:peydala V-TV ; ! ""
+sürttü:sürttü V-TV ; ! ""
 
 
 LEXICON Pronouns 
@@ -2825,6 +2882,7 @@ is:is ABBR ; ! ""
 a%a%r:a%a%r ABBR ; ! ""
 b%ä:b%ä ABBR ; ! ""
 G:G  ABBR ; ! ""
+y%y:y%y ABBR ; ! ""
 
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
