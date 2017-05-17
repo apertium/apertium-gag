@@ -1492,7 +1492,16 @@ fabrika:fabrika N1 ; ! ""
 fıkaara:fıkaara N1 ; ! ""
 filcan:filcan N1 ; ! ""
 futbol:futbol N1 ; ! ""
-
+aaçlık:aaçlık N1 ; ! ""
+aaraştırma:aaraştırma N1 ; ! ""
+                                    
+ansambl:ansambl N1 ; ! ""
+belediye:belediye N1 ; ! ""
+dolarlık:dolarlık N1 ; ! ""
+eki:eki N1 ; ! ""
+emir:emir N1 ; ! ""
+firma:firma N1 ; ! ""
+hergelä:hergelä N1 ; ! ""
 geliş:geliş N1 ; ! ""
                                 
 harç:harç N1 ; ! ""
@@ -1823,8 +1832,26 @@ Bahamalar:Bahamalar NP-TOP ; ! ""
 Stavropol:Stavropol NP-TOP ; ! ""
 Tirana:Tirana NP-TOP ; ! ""
 Trinidad:Trinidad NP-TOP ; ! ""
- 
+Aare:Aare NP-TOP ; ! ""
+Bahreyn:Bahreyn NP-TOP ; ! ""
+Baurçu:Baurçu NP-TOP ; ! ""
+Bolboka:Bolboka NP-TOP ; ! ""
+Falkland:Falkland NP-TOP ; ! ""
+Galiçya:Galiçya NP-TOP ; ! ""
+Haiti:Haiti NP-TOP ; ! ""
 
+
+
+
+Alice:Alice NP-ANT-F ; ! ""
+Helene:Helene NP-ANT-F ; ! ""
+ 
+Ago:Ago NP-ANT-M ; ! ""
+Bahtiyar:Bahtiyar NP-ANT-M ; ! ""
+Çimpoeş:Çimpoeş NP-ANT-M ; ! ""
+Don:Don NP-ANT-M ; ! ""
+Epp:Epp NP-ANT-M ; ! ""
+Georgievın:Georgievın NP-ANT-M ; ! ""
 Aleksandr:Aleksandr NP-ANT-M ; ! ""
 Arnold:Arnold NP-ANT-M ; ! ""
 Boris:Boris NP-ANT-M ; ! ""
@@ -2024,6 +2051,7 @@ GR:GR NP1-ORG ;
 KDU:KDU NP1-ORG ;
 MR:MR NP1-ORG ;
 SSR:SSR NP1-ORG ;
+
                   
 TÜRKSOY:TÜRKSOY NP1-ORG ;
 
@@ -2057,7 +2085,12 @@ Tabunşçik:Tabunşçik NP-COG-MF ; ! ""
 Tamm:Tamm NP-COG-MF ; ! ""
 
 Manoff:Manoff NP-COG-MF ; ! ""
-Nikolaeviç:Nikolaev NP-PAT-VICH ; ! ""
+                                  Nikolaeviç:Nikolaev NP-PAT-VICH ; ! ""
+EŞİLER:EŞİLER NP-COG-MF ; ! ""
+FİLAT:FİLAT NP-COG-MF ; ! ""
+Gäncä:Gäncä NP-COG-MF ; ! ""
+Görgi:Görgi NP-COG-MF ; ! ""
+Härm:Härm NP-COG-MF ; ! ""
 
 Jõgi:Jõgi NP-COG-MF ; ! ""
 Ayoglu:Ayoglu NP-COG-MF ; ! ""
@@ -2370,14 +2403,25 @@ yaban:yaban A1 ; ! ""
 yannış:yannış A1 ; ! ""
 yeni:yeni A1 ; ! ""
 zerem:zerem A1 ; ! ""
-
-
+aşık:aşık A1 ; ! ""
+ayozlu:ayozlu A1 ; ! ""
+baamsız:baamsız A1 ; ! ""
+çalışkan:çalışkan A1 ; ! ""
+çirkin:çirkin A1 ; ! ""
+çukur:çukur A1 ; ! ""
+dost:dost A1 ; ! ""
+geç:geç A1 ; ! ""
+ak:ak A1 ; ! ""
+afanasiy:afanasiy A1 ; ! ""
 
 
 
 
 LEXICON Adverbs
- 
+
+bezbelli:bezbelli ADV3 ; ! ""
+fena:fena ADV3 ; ! ""
+hakkında:hakkında  ADV3 ; ! "" 
 artık:artık ADV3 ; ! "anymore"
 neredä:neredä ADV3 ; ! " "
 devam:devam ADV3 ; ! ""
@@ -2416,7 +2460,7 @@ barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
 
-Afanasiy:Afanasiy ADV3 ; ! ""
+
 evelki:evelki ADV3; ! ""
 sık:sık ADV3 ; ! ""
 übür:übür ADV3 ; ! ""
@@ -2429,7 +2473,7 @@ dolay:dolay ADV3 ; ! ""
 gene:gene ADV3 ; ! ""
 hemen:hemen  ADV3 ; ! ""
 saklı:saklı ADV3 ;
-Ayrıca:Ayrıca  ADV3 ; ! ""
+ayrıca:ayrıca  ADV3 ; ! ""
 heptän:heptän ADV3 ; ! ""
 kaare:kaare ADV3 ; ! ""
 nelär:nelär ADV3 ; ! ""
@@ -2493,7 +2537,7 @@ hani:hani CA ; ! ""
 !olsun:olsun CA ; ! ""
 zerä:zerä CA ; ! ""
 osa:osa CA ; ! ""
-
+hadi:hadi CA ;
 
 
 
@@ -2770,6 +2814,8 @@ h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
 h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 v:v ABBR ;
 h:h ABBR ;
+B%a:B%a ABBR ; ! ""
+b%.:b%. ABBR  ; ! ""
 N%r:N%r ABBR ;
 A%l:A%l ABBR ;
 E:E  ABBR ;
