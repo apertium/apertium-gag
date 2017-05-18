@@ -36,9 +36,9 @@ CASES ;
 LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%n # ; 
-%<p3%>%<sg%>: # ; 
+%<p3%>%<sg%>:%>%{k%} # ; 
 %<p1%>%<pl%>:%>%{й%}%z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ; 
+%<p3%>%<pl%>:%>%{k%}l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r # ;
 %<ifi%>:%>%{D%}%{I%} # ;
 %<ifi%>:%>%{D%}%{I%} # ;
@@ -73,13 +73,13 @@ LEXICON V-IMPER
 
 
 
-!LEXICON V-FINITE-IRREG-NEG
+LEXICON V-FINITE-IRREG-NEG
+%<neg%>%<gpr_aor%>:%>m%{A%}z # ;
 
 
 LEXICON V-FINITE-REGULAR_NEG
 ! All of the finite tenses that take negative in -mA-
 %<ifi%>:%>%{D%}%{I%} # ;
-!%<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
 %<nfh%>:%>m%{I%}ş # ;
 
 
@@ -117,11 +117,11 @@ LEXICON V-GPR-SUBST
 LEXICON V-GPR
 %<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
+%<gpr_fut%>:%>%{й%}%{A%}c%{A%} POSSESSIVES ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
-%<gpr%>%<neg%>:%>m%{A%}z # ;
+
 %<gpr_past%>:%>%{D%}%{I%}k # ;
-%<gpr_aor%>:%>{A%}r # ;
+%<gpr_aor%>:%>{A%}r V-PERS-AOR  ;
 
 !%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
 !%<gpr_1%>:%>s%{A%} # ;
@@ -139,12 +139,12 @@ V-GER ;
 LEXICON V-COMMON 
 V-FINITE-REGULAR_NEG ;
 V-NONFINITE ;
-!V-FINITE-IRREG-NEG ;
-!%<aor%>:%>%{A%}r V-FINITE-REGULAR_NEG ;
+V-FINITE-IRREG-NEG ;
 %<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-NONFINITE ;
+%<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
 %<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEG ;
 %<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEG ;
 
@@ -152,10 +152,7 @@ V-IMPER ;
 
 LEXICON V-DER
 %<coop%>:%>%{I%}ş V-COMMON ;
-!%<caus%>:%>%{D%}%{I%}r # ;
 %<pass%>:%>%{i%}%{L%} V-COMMON ;
-!%<pass%>:%>t # ;
-!%<pass%>:%>%{I%}n # ;
 
  V-COMMON ;
 
