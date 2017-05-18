@@ -40,8 +40,9 @@ LEXICON V-PERS-S1
 %<p1%>%<pl%>:%>%{й%}%z # ; 
 %<p3%>%<pl%>:%>%{k%}l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r # ;
-%<ifi%>:%>%{D%}%{I%} # ;
-%<ifi%>:%>%{D%}%{I%} # ;
+%<ifi%>:%>%{й%}%{D%}%{I%} # ;
+%<cond%>:%>%{й%}s%{A%} # ;
+
 %<pl%>:%>%{L%}%{A%}r # ;
 
 
@@ -52,6 +53,9 @@ LEXICON V-PERS-AOR
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
+%<ifi%>:%>%{й%}%{D%}%{I%} # ;
+%<dob%>:%>%{й%}%m%{I%}ş # ;
+
 
 
 
@@ -79,8 +83,9 @@ LEXICON V-FINITE-IRREG-NEG
 
 LEXICON V-FINITE-REGULAR_NEG
 ! All of the finite tenses that take negative in -mA-
-%<ifi%>:%>%{D%}%{I%} # ;
-%<nfh%>:%>m%{I%}ş # ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-S1 ;
+%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
+%<cond%>:%>%{s%}%{A%} V-PERS-AOR ;
 
 
 
