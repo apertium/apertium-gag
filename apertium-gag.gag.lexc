@@ -1557,7 +1557,7 @@ viţe:viţe N1 ; ! ""
 vizit:vizit N1 ; ! ""
 agenstvo:agenstvo N1 ; ! ""
 esap:esap N1 ; ! ""
-İspolkomu:İspolkomu N1 ; ! ""
+İspolkom:İspolkom N1 ; ! ""
 jurnalistika:jurnalistika N1 ; ! ""
 kalkıntı:kalkıntı N1 ; ! ""
 kanad:kanad N1 ; ! ""
@@ -1575,6 +1575,22 @@ kuzu:kuzu N1 ; ! ""
 nişan:nişan N1 ; ! ""
 sayêr:sayêr  N1 ; ! ""
 verim:verim N1 ; ! ""
+bek:bek N1 ; ! ""
+dädu:dädu N1 ; ! ""
+dokladı:dokladı N1 ; ! ""
+geçici:geçici N1 ; ! ""
+işadam:işadam N1 ; ! ""
+kısıraan:kısıraan N1 ; ! ""
+kaynak:kaynak  N1 ; ! ""
+pravitelstvosu:pravitelstvosu N1 ; ! ""
+upravleniyası:upravleniyası N1 ; ! ""
+yılan:yılan N1 ; ! ""
+yıldız:yıldız N1 ; ! ""
+yugur:yugur N1 ; ! ""
+zakonculuk:zakonculuk N1 ; ! ""
+zanaatçı:zanaatçı N1 ; ! ""
+zavodu:zavodu N1 ; ! ""
+zmey:zmey N1 ; ! ""
 
 
 
@@ -1891,6 +1907,10 @@ Puerto:Puerto NP-TOP ; ! ""
 Salar:Salar NP-TOP ; ! ""
 Sumqayıt:Sumqayıt NP-TOP ; ! ""
 Yamayka:Yamayka NP-TOP ; ! ""
+Astrahan:Astrahan NP-TOP ; ! ""
+Kemerovo:Kemerovo NP-TOP ; ! ""
+Zanzibar:Zanzibar NP-TOP ; ! ""
+Zimbabve:Zimbabve NP-TOP ; ! ""
 
 
 
@@ -2103,7 +2123,11 @@ Malle:Malle NP-ANT-M ; ! ""
 Juta:Juta NP-ANT-F ; ! ""
 Magda:Magda NP-ANT-F ; ! ""
 Marika:Marika NP-ANT-F ; ! ""
-
+Hugo:Hugo NP-ANT-M ; ! ""
+Indrek:Indrek NP-ANT-M ; ! ""
+Yakup:Yakup NP-ANT-M ; ! ""
+Yaver:Yaver NP-ANT-M ; ! ""
+Zinaida:Zinaida NP-ANT-F ; ! ""
 
 
 Allah:Allah NP-AL ; ! ""
@@ -2135,6 +2159,9 @@ Tarmo:Tarmo NP-COG-MF ; ! ""
 Tepegöz:Tepegöz NP-COG-MF ; ! ""
 Vaher:Vaher NP-COG-MF ; ! ""
 Vasilyeviç:Vasilyeviç NP-COG-MF ; ! ""
+Dimitrievna:Dimitrievna NP-COG-MF ; ! ""
+Zupančič:Zupančič NP-COG-MF ; ! ""
+
 
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
@@ -2456,7 +2483,7 @@ dübüdüz:dübüdüz A1 ; ! ""
 etnik:etnik A1 ; ! ""
 cümnä:cümnä A1 ;
 becerikli:becerikli A1 ;
-aslıy:aslıy A1 ; ! ""
+aslı:aslı A1 ; ! ""
 dar:dar A1 ; ! ""
 esir:esir A1 ; ! ""
 girgin:girgin A1 ; ! ""
@@ -2507,11 +2534,18 @@ iiri:iiri A1 ; ! ""
 kaliteli:kaliteli A1 ; ! ""
 kayıp:kayıp A1 ; ! ""
 Kızıl:Kızıl A1 ; ! ""
+aşırı:aşırı A1 ; ! ""
+çingene:çingene A1 ; ! ""
+dizçä:dizçä A1 ; ! ""
+dokumental:dokumental A1 ; ! ""
+eşil:eşil A1 ; ! ""
+gelin:gelin A1 ; ! ""
+hırsız:hırsız A1 ; ! ""
 
 
 
 LEXICON Adverbs
-
+yırak:yırak ADV3 ; ! ""
 bezbelli:bezbelli ADV3 ; ! ""
 fena:fena ADV3 ; ! ""
 hakkında:hakkında  ADV3 ; ! "" 
@@ -2778,7 +2812,7 @@ söle:söyle V-TV ;
 oyna:oyna V-TV ;
 göster:göster V-TV ;
 hazırla:hazırla V-TV ;
-bak:bak V-TV ;
+bak:bak V-IV ;
 al:al V-TV ;
 !sıkıl:sıkıl V-TV ;
 sık:sık V-TV ;
@@ -2834,6 +2868,10 @@ incele:incele V-TV ; ! ""
 iste:iste V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
 kolver:kolver V-TV ; ! ""
+karşıla:karşıla V-TV ; ! ""
+kaybet:kaybet V-TV ; ! ""
+yerleşmiş:yerleş V-TV ; ! ""
+
 
 LEXICON Pronouns 
 
