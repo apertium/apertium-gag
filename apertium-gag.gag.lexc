@@ -510,6 +510,13 @@ LEXICON N1
 !!%<n%>:%' N-INFL-COMMON-NONOM ;
 !!%<n%>%<attr%>: # ;
 
+LEXICON N2 
+                      
+%<n%>: FULL-NOMINAL-INFLECTION ;
+!%<n%>: N-COMPOUND-PX-COMMON ;
+%<n%>%<pl%>:%>%{L%}%{A%}р%>%{s%}%{I%}%{n%} CASES ; ! (e.g. чик сакчылары=пограничники)
+                                                      !  FIXME CHECK: Is {S} needed here ?
+
 
 
 LEXICON NP-TOP
@@ -743,7 +750,6 @@ aşaa:aşaa N1 ;
 
 ayle:ayle N1 ; ! ""
 çiftçi:çiftçi N1 ; ! ""
-içeri:içeri N1 ; ! ""
 izmet:izmet N1 ; ! ""
 leopard:leopard N1 ; ! ""
 ses:ses N1 ; ! ""
@@ -784,7 +790,7 @@ akıl:akıl N1 ;
 bey:bey N1 ; ! ""
 bina:bina N1 ;
 
-ansamblisi:ansamblisi N1 ; ! ""
+ansambl:ansambl N1 ; ! ""
 arap:arap N1 ; ! ""
 birlik:birlik N1 ; ! ""
 bitki:bitki N1 ; ! ""
@@ -805,7 +811,7 @@ ministr:ministr N1 ; ! ""
 muzey:muzey N1 ; ! ""
 okrug:okrug N1 ; ! ""
 örnek:örnek N1 ; ! ""
-padişahlık:padişahlık N1 ; ! ""
+
 pedagogika:pedagogika N1 ; ! ""
 poet:poet N1 ; ! ""
 predsedatel:predsedatel N1 ; ! ""
@@ -836,7 +842,7 @@ bela:bela N1 ;
 
 can:can N1 ; 
 canavar:canavar N1 ; ! ""
-canabisi:canabisi N1 ; ! ""
+canab:canab N1 ; ! ""
 cuvap:cuvap N1 ; 
 çocuk:çocuk N1 ; ! ""
 çadır:çadır N1 ; ! ""
@@ -874,14 +880,13 @@ arhitekturacılar:arhitekturacılar N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
 arab:arab N1 ; ! ""
 anmak:anmak N1 ;
-angıları:angıları N1 ; ! ""
 açık:açık N1 ; ! ""
 ana:ana N1 ; ! ""
 avtor:avtor N1 ; ! ""
 avtonom:avtonom N1 ; ! ""
 adlı:adlı N1 ; ! "judiciary"
 ad:ad N1 ; !
-anı:anı N1 ; ! ""
+anı:anı N2 ; ! ""
 angı:angı N1 ; ! ""
 aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
@@ -918,7 +923,6 @@ direktor:direktor N1 ; ! ""
 diil:diil N1 ; ! ""
 din:din N1 ; ! ""
 dünneyä:dünneyä N1 ; 
-diişilmesini:diişilmesini  N1 ;
 diskiriminaţiya:diskiriminaţiya N1 ;
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
@@ -926,13 +930,13 @@ deportaţiya:deportaţiya N1 ;
 dezinformaţiya:dezinformaţiya N1 ;
 dramaturgiya:dramaturgiya N1 ;
 dönmää:dönmää N1 ; ! ""
-deyni:deyni N1 ; ! ""
+deyni:deyni N2 ; ! ""
 dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
 dışarı:dışarı N1 ; ! ""
 diskriminaţiya:diskriminaţiya N1 ;
 delegaşiya:delegaşiya N1 ;
-dekabri:dekabri N1 ;
+dekabri:dekabri N2 ;
 ekonomika:ekonomika N1 ; ! ""
 
 el:el N1 ; ! ""
@@ -985,11 +989,10 @@ greţiya:greţiya N1 ;
 jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 haber:haber N1 ;
-Halklararası:Halklararası N1 ;
 halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
 hederlez:hederlez N1; ! ""
-hepsi:hepsi N1 ; ! ""
+
 hasta:hasta N1 ;
 himiya:himiya N1 ; ! ""
 hristian:hristian N1 ; ! ""
@@ -1009,7 +1012,7 @@ imperiya:imperiya N1 ; ! ""
 informaţiya:informaţiya N1 ; 
 kasım:kasım N1 ; ! ""
 karikatür:karikatür N1 ;
-Kişinêu:Kişinêu N1 ;
+
 kardaş:kardaş N1 ; ! ""
 kerä:kerä N1 ; ! ""
 karar:karar N1 ; ! ""
@@ -1056,7 +1059,7 @@ kayıl:kayıl N1 ;
 latiniţiya:latiniţiya N1 ; 
 latin:latin N1 ;
 laf:laf N1 ; ! ""
-lafbirleşmeleri:lafbirleşmeleri N1 ; ! ""
+lafbirleşme:lafbirleşme N1 ; ! ""
 literatura:literatura N1 ; ! ""
 lista:lista N1 ;! ""
 lekţiya:lekţiya N1 ; ! ""
@@ -1085,10 +1088,10 @@ multimediya:multimediya N1 ; ! ""
 mulytime:mulytime N1 ; ! ""
 muzeyin:muzeyin N1 ;
 metallurgiya:metallurgiya N1 ;
-merkezi:merkezi N1 ;
+merkezi:merkezi N2 ;
 neçin:neçin N1 ; ! ""
 padişahlık:padişahlık N1 ;
-padişahlıı:padişahlıı N1 ;
+
 
 oblast:oblast N1 ; ! ""
 oktäbr:oktäbr N1 ; ! ""
@@ -1121,7 +1124,8 @@ profesör:profesör N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişah N1 ; ! ""
-padişaa:padişaa N1 ; 
+padişah:padişaa N1 ; 
+padişahlık:padişah N1 ; ! ""
 para:para N1 ; ! ""
 populyasiya:populyasiya N1 ; ! ""
 poziţiya:poziţiya N1; ! ""
@@ -1208,7 +1212,7 @@ takvim:takvim N1 ; ! ""
 televiden:televiden N1 ; ! ""
 teatru:teatru N1 ;
 tragediya:tragediya N1 ;
-topluşu:topluşu N1 ;
+topluşu:topluşu N2 ;
 kabul:kabul N1 ; ! ""
 tanım:tanım N1 ;
 ţivilizaţiya:ţivilizaţiya N1 ;
@@ -1249,7 +1253,7 @@ uc:uc N1 ;
 üüredici:üüredici N1 ;
 uşak:uşak N1 ; ! ""
 üzer:üzer N1 ; ! ""
-uluslararası:uluslararası N1 ; ! ""
+uluslararası:uluslararası N2 ; ! ""
 viliyat:viliyat N1 ; ! ""
 vakıd:vakıd N1 ; ! ""
 vikipediya:vikipediya N1 ;
@@ -1258,15 +1262,14 @@ versiya:versiya N1 ; ! ""
 vakansiya:vakansiya N1 ; ! ""
 vatan:vatan N1 ; ! ""
 
-yıldönümü:yıldönümü N1 ;
+yıldönümü:yıldönümü N2 ;
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
-yıldönümü:yıldönümü N1 ;
 yardımcı:yardımcı N1 ; ! ""
 yol:yol N1 ; ! ""
 yaş:yaş N1 ;
 herliim:herliim N1 ;
-yazıcı:yazıcı N1 ; ! ""
+yazcı:yazıcı N1 ; ! ""
 yazı:yazı N1 ; !""
 yazmaa:yazmaa N1 ; ! ""
 yuva:yuva N1 ; ! ""
@@ -1301,21 +1304,21 @@ aprel:aprel N1 ;
 yanvar:yanvar N1 ;
 izmet:izmet N1 ;
 baaşış:baaşış N1 ; ! ""
-Oğuz:Oğuz N1 ; ! ""
+oğuz:Oğuz N1 ; ! ""
 ölü:ölü N1 ; ! ""
 ömür:ömür N1 ; ! ""
 romın:romın N1 ; ! ""
 şair:şair N1 ; ! ""
 sayı:sayı N1 ; ! ""
-sergisi:sergisi N1 ; ! ""
-sıklıı:sıklıı N1 ; ! ""
+sergi:sergi N1 ; ! ""
+
 sınır:sınır N1 ; ! ""
 toplantı:toplantı N1 ; ! ""
 turizma:turizma N1 ; ! ""
 üüretim:üüretim N1 ; ! ""
 adet:adet N1 ; ! ""
 avşam:avşam N1 ; ! ""
-bakannıı:bakannıı N1 ; ! ""
+bakan:bakan N1 ; ! ""
 finans:finans N1 ; ! ""
 ilişki:ilişki N1 ; ! ""
 kan:kan N1 ; ! ""
@@ -1338,7 +1341,6 @@ kaplan:kaplan N1 ; ! ""
 lafedeer:lafedeer N1 ; ! ""
 iyül:iyül N1 ; ! ""
 nüfus:nüfus N1 ; ! ""
-padişaalıı:padişaalıı N1 ; ! ""
 salonda:salonda N1 ; ! ""
 sergi:sergi N1 ; ! ""
 üülen:üülen N1 ; ! ""
@@ -1353,19 +1355,18 @@ demir:demir N1 ; ! ""
 fikir:fikir N1 ; ! ""
 
 institutu:institutu N1 ; ! ""
-ispolkomu:ispolkomu N1 ; ! ""
+ispolkomu:ispolkomu N2 ; ! ""
 kitap:kitap N1 ; ! ""
 iyün:iyün N1 ; ! ""
 maasus:maasus N1 ; ! ""
 okul:okul N1 ; ! ""
-paaları:paaları N1 ; ! ""
+paa:paa N1 ; ! ""
 roak:roak N1 ; ! ""
 rol:rol N1 ; ! ""
 senselâ:senselâ N1 ; ! ""
 topraa:topraa N1 ; ! ""
 maasus:maasus N1 ; ! ""
 okul:okul N1 ; ! ""
-paaları:paaları N1 ; ! ""
 senselâ:senselâ N1 ; ! ""
 uşaa:uşaa N1 ; ! ""
 zanaat:zanaat N1 ; ! ""
@@ -1388,7 +1389,7 @@ tipardan:tipardan N1 ; ! ""
 
 zakon:zakon N1 ; ! ""
 zebra:zebra N1 ; ! ""
-ertesi:ertesi N1 ; ! ""
+erte:erte N1 ; ! ""
 göktä:göktä N1 ; ! ""
 han:han N1 ; ! ""
 ilkyaz:ilkyaz N1 ; ! ""
@@ -1403,7 +1404,7 @@ raatlık:raatlık N1 ; ! ""
 stiinţa:stiinţa N1 ; ! ""
 artistik:artistik N1 ; ! ""
 barış:barış N1 ; ! ""
-bildirdi:bildirdi N1 ; ! ""
+bildiri:bildiri N1 ; ! ""
 blok:blok N1 ; ! ""
 çerçeve:çerçeve N1 ; ! ""
 çoğunluk:çoğunluk N1 ; ! ""
@@ -1411,10 +1412,10 @@ dere:dere N1 ; ! ""
 duygu:duygu N1 ; ! ""
 educaţiel:educaţiel N1 ; ! ""
 fan:fan N1 ; ! ""
-Hacı:Hacı N1 ; ! ""
+hacı:hacı N1 ; ! ""
 komradın:komradın N1 ; ! ""
 kongresin:kongresin N1 ; ! ""
-republıcıı:republıcıı N1 ; ! ""
+republıc:republıc N1 ; ! ""
 beceri:beceri N1 ;
                                 
 analiz:analiz N1 ; ! ""
@@ -1433,7 +1434,7 @@ kalä:kalä N1 ; ! ""
 kolaylık:kolaylık N1 ; ! ""
 kongres:kongres N1 ; ! ""
 kontinent:kontinent N1 ; ! ""
-maanası:maanası N1 ; ! ""
+maana:maana N1 ; ! ""
 masa:masa N1 ; ! ""
 ministeril:ministeril N1 ; ! ""
 pınar:pınar N1 ; ! ""
@@ -1446,7 +1447,7 @@ teknik:teknik N1 ; ! ""
 viza:viza N1 ; ! ""
 yaz:yaz N1 ; ! ""
 yıllık:yıllık N1 ; ! ""
-içindeki:içindeki N1 ; ! ""
+iç:iç N1 ; ! ""
 teprem:teprem N1 ; ! ""
 aga:aga N1 ; ! ""
 
@@ -1486,7 +1487,7 @@ cengindä:cengindä N1 ; ! ""
 cumhuriyet:cumhuriyet N1 ; ! ""
 dooruluk:dooruluk N1 ; ! ""
 dostluk:dostluk N1 ; ! ""
-emirlikleri:emirlikleri N1 ; ! ""
+emirlikl:emirlik N2 ; ! ""
 evlat:evlat N1 ; ! ""
 fabrika:fabrika N1 ; ! ""
 fıkaara:fıkaara N1 ; ! ""
@@ -1498,7 +1499,7 @@ aaraştırma:aaraştırma N1 ; ! ""
 ansambl:ansambl N1 ; ! ""
 belediye:belediye N1 ; ! ""
 dolarlık:dolarlık N1 ; ! ""
-eki:eki N1 ; ! ""
+eki:eki N2 ; ! ""
 emir:emir N1 ; ! ""
 firma:firma N1 ; ! ""
 hergelä:hergelä N1 ; ! ""
@@ -1514,10 +1515,10 @@ gagauzluk:gagauzluk N1 ; ! ""
 yaki:yaki N1 ; ! ""
 gimna:gimna N1 ;
 lääzımnık:lääzımnık  N1 ;
-bellilikçi:bellilikçi N1 ; ! ""
+bellilik:bellilik N1 ; ! ""
 çempionat:çempionat N1 ; ! ""
 gece:gece N1 ; ! ""
-roak:roak N1 ; ! ""
+
 sol:sol N1 ; ! ""
 sopaylan:sopaylan N1 ; ! ""
 student:student N1 ; ! ""
@@ -1529,10 +1530,10 @@ vatandaş:vatandaş N1 ; ! ""
 vizit:vizit N1 ; ! ""
 yaamur:yaamur N1 ; ! ""
 yayın:yayın N1 ; ! ""
-yazici:yazici N1 ; ! ""
+yazıcı:yazici N1 ; ! ""
 yannışlık:yannışlık N1 ;
 yil:yil N1 ; ! ""
-agenstvosu:agenstvosu N1 ; ! ""
+agenstvos:agenstvos N1 ; ! ""
 departament:departament N1 ; ! ""
 dünneyin:dünneyin N1 ; ! ""
 durum:durum N1 ; ! ""
@@ -1540,7 +1541,7 @@ medali:medali N1 ; ! ""
 mongol:mongol N1 ; ! ""
 ot:ot N1 ; ! ""
 oyun:oyun N1 ; ! ""
-paası:paası N1 ; ! ""
+paa:paa N1 ; ! ""
 personaj:personaj N1 ; ! ""
 plaka:plaka N1 ; ! ""
 poem:poem N1 ; ! ""
@@ -1550,10 +1551,30 @@ saatlık:saatlık N1 ; ! ""
 sabaa:sabaa N1 ; ! ""
 şansora:şansora N1 ; ! ""
 taligayı:taligayı N1 ; ! ""
-Tamannıklı:Tamannıklı N1 ; ! ""
+tamannık:tamannık N1 ; ! ""
 temel:temel N1 ; ! ""
 viţe:viţe N1 ; ! ""
 vizit:vizit N1 ; ! ""
+agenstvo:agenstvo N1 ; ! ""
+esap:esap N1 ; ! ""
+İspolkomu:İspolkomu N1 ; ! ""
+jurnalistika:jurnalistika N1 ; ! ""
+kalkıntı:kalkıntı N1 ; ! ""
+kanad:kanad N1 ; ! ""
+kenar:kenar N1 ; ! ""
+
+kızkardaşı:kızkardaşı N2 ; ! ""
+klise:klise N1 ; ! ""
+kommun:kommun N2 ; ! ""
+konu:konu N1 ; ! ""
+kral:kral N2 ; ! ""
+kuba:kuba N1 ; ! ""
+kurak:kurak N1 ; ! ""
+kuş:kuş N1 ; ! ""
+kuzu:kuzu N1 ; ! ""
+nişan:nişan N1 ; ! ""
+sayêr:sayêr  N1 ; ! ""
+verim:verim N1 ; ! ""
 
 
 
@@ -1561,7 +1582,7 @@ vizit:vizit N1 ; ! ""
 
 
 !!!LANGUAGES!!!!!
-
+kirill:kirill N1 ; ! ""
 moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
@@ -1594,7 +1615,6 @@ Herțegovina:Herțegovina NP-TOP ; ! ""
 İrak:İrak NP-TOP ; ! ""
 Kanada:Kanada NP-TOP ; ! ""
 Karl:Karl NP-TOP ; ! ""
-Kişinêu:Kişinêu NP-TOP ; ! ""
 Kosova:Kosova NP-TOP ; ! ""
 Laos:Laos NP-TOP ; ! ""
 Leida:Leida NP-TOP ; ! ""
@@ -1837,7 +1857,9 @@ afrika:afrika NP-TOP ; ! ""
 Akdeniz:Akdeniz NP-TOP ; ! ""
 Karadeniz:Karadeniz NP-TOP ; ! ""
 Marmara:Marmara NP-TOP ; ! ""
-
+İstanbul:İstanbul NP-TOP ; ! ""
+Kurçu:Kurçu NP-TOP ; ! ""
+liţeyi:liţeyi NP-TOP ; ! ""
 Rostov:Rostov NP-TOP ; ! ""
 Sibirä:Sibirä NP-TOP ; ! ""
 Virgin:Virgin NP-TOP ; ! ""
@@ -2017,11 +2039,11 @@ Alfred:Alfred NP-ANT-M ; ! "
 Asta:Asta  NP-ANT-M ; ! "
 Valter:Valter NP-ANT-M ; ! "
 Helmi:Helmi NP-ANT-M ; ! "
-Ida:Ida NP-ANT-M ; ! "
+Ida:Ida NP-ANT-M ; ! "NP-ANT-M ; ! "
 Irecek:Irecek NP-ANT-M ; ! " ; ! ""
 Juhan:Juhan NP-ANT-M ; ! "
 Karin:Karin NP-ANT-M ; ! "
-
+Kişinêu:Kişinêu NP-ANT-M ; ! "
 Maimu:Maimu NP-ANT-M ; ! "
 Milvi:Milvi NP-ANT-M ; ! "
 Oskar:Oskar NP-ANT-M ; ! "
@@ -2072,7 +2094,15 @@ Rotmistr:Rotmistr NP-ANT-M ; ! ""
 Selim:Selim NP-ANT-M ; ! ""
 Miha:Miha NP-ANT-F ; ! ""
 Nina:Nina NP-ANT-F ; ! ""
-
+İsmail:İsmail NP-ANT-M ; ! ""
+Jan:Jan NP-ANT-M ; ! ""
+Kaarel:Kaarel NP-ANT-M ; ! ""
+Laine:Laine NP-ANT-M ; ! ""
+Ludmilla:Ludmilla NP-ANT-M ; ! ""
+Malle:Malle NP-ANT-M ; ! ""
+Juta:Juta NP-ANT-F ; ! ""
+Magda:Magda NP-ANT-F ; ! ""
+Marika:Marika NP-ANT-F ; ! ""
 
 
 
@@ -2112,6 +2142,11 @@ Ostapçuk:Ostapçuk NP-COG-MF ; ! "
 Kurdoglu:Kurdoglu NP-COG-MF ; ! ""
 Kır:Kır NP-COG-MF ; ! ""
 Şevçenko:Şevçenko NP-COG-MF ; ! ""
+Mansi:Mansi NP-COG-MF ; ! ""
+Karacaoğlan:Karacaoğlan NP-COG-MF ; ! ""
+Koppel:Koppel NP-COG-MF ; ! ""
+Lill:Lill NP-COG-MF ; ! ""
+Makidon:Makidon NP-COG-MF ; ! ""
 
 Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
@@ -2399,6 +2434,7 @@ aaç:aaç A1 ; ! ""
 çırak:çırak A1 ; ! ""
 kin:kin A1 ; ! ""
 kör:kör A1 ; ! ""
+sıklıı:sıklıı A1 ; ! ""
 yurtluuna:yurtluuna A1 ; ! ""
 çırak:çırak A1 ;
 düz:düz A1 ; ! ""
@@ -2420,7 +2456,7 @@ dübüdüz:dübüdüz A1 ; ! ""
 etnik:etnik A1 ; ! ""
 cümnä:cümnä A1 ;
 becerikli:becerikli A1 ;
-aslı:aslı A1 ; ! ""
+aslıy:aslıy A1 ; ! ""
 dar:dar A1 ; ! ""
 esir:esir A1 ; ! ""
 girgin:girgin A1 ; ! ""
@@ -2464,7 +2500,13 @@ roak:roak A1 ; ! ""
 serbest:serbest A1 ; ! ""
 sıcak:sıcak A1 ; ! ""
 siirek:siirek A1 ; ! ""
-
+Bellilikçi:Bellilikçi A1 ; ! ""
+estrada:estrada A1 ; ! ""
+iiri:iiri A1 ; ! ""
+İtalyan:İtalyan A1 ; ! ""
+kaliteli:kaliteli A1 ; ! ""
+kayıp:kayıp A1 ; ! ""
+Kızıl:Kızıl A1 ; ! ""
 
 
 
@@ -2544,6 +2586,9 @@ nezaman:nezaman ADV3 ; ! ""
 ey:ey ADV3 ; ! ""
 herzaman:herzaman ADV3 ; ! ""
 ansızdan:ansızdan ADV3 ; ! ""
+itibarıyla:itibarıyla ADV3  ; ! ""
+nänı:nänı ADV3  ; ! ""
+sıravardı:sıravardı ADV3  ; ! ""
 
 
 
@@ -2616,7 +2661,9 @@ birär:birär DET-QNT ; ! "one each"
 herbir:herbir DET-IND ; !
 bişey:bişey DET-IND ;
 öbür:öbür DET-DEM ; !  "the other" 
+hepsi:hepsi DET-QNT ;
 
+kere:kere DET-QNT ;
 
 
 
@@ -2633,13 +2680,13 @@ dolayı:dolayı POST ; ! ""
 ilgili:ilgili POST ; ! "regarding"
 boyunca:boyunca POST ; ! "during"
 dolayın:dolayın POST ; ! ""
-
+ise:ise POST ; ! ""
 
 
 
 
 LEXICON Verbs
-
+sırala:sırala V-IV ; !
 al:al V-TV ; ! "take"
 işle:işle V-IV ; ! "work/работать"
 izda:izda V-TV ;
@@ -2779,10 +2826,14 @@ ense:ense V-IV ; ! ""
 çaar:çaar V-TV ; ! ""
 taşı:taşı V-TV ; ! ""
 açıkla:açıkla V-IV ; ! ""
-baaşladı:baaşladı V-IV ; ! ""
+baaşla:baaşla V-IV ; ! ""
 peydala:peydala V-TV ; ! ""
-sürttü:sürttü V-TV ; ! ""
-
+sürt:sürt V-TV ; ! ""
+erleş:erleş V-TV ; ! ""
+incele:incele V-TV ; ! ""
+iste:iste V-TV ; ! ""
+karşıla:karşıla V-TV ; ! ""
+kolver:kolver V-TV ; ! ""
 
 LEXICON Pronouns 
 
