@@ -412,7 +412,7 @@ LEXICON PRON-PERS-BEN
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:enimk%{i%}%{n%} CASES ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;
 
 
@@ -464,7 +464,7 @@ LEXICON PRON-PERS-SIZ
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:in # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:ink%{i%}%{n%} CASES ;
-%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:e # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
@@ -1562,6 +1562,20 @@ jurnalistika:jurnalistika N1 ; ! ""
 kalkıntı:kalkıntı N1 ; ! ""
 kanad:kanad N1 ; ! ""
 kenar:kenar N1 ; ! ""
+imää:imää  N1 ; ! ""
+matriarhat:matriarhat N1 ; ! ""
+neleri:neleri N1 ; ! ""
+panayıra:panayıra  N1 ; ! ""
+Torki:Torki N1 ; ! ""
+tüfek:tüfek N1 ; ! ""
+
+üniversitesi:üniversite N1 ; ! ""
+ürektän:ürektän N1 ; ! ""
+uyku:uyku N1 ; ! ""
+üzük:üzük N1 ; ! ""
+viliatında:viliatında N1 ; ! ""
+Yakıt:Yakıt N1 ; ! ""
+
 
 kızkardaşı:kızkardaşı N2 ; ! ""
 klise:klise N1 ; ! ""
@@ -1591,7 +1605,8 @@ zakonculuk:zakonculuk N1 ; ! ""
 zanaatçı:zanaatçı N1 ; ! ""
 zavodu:zavodu N1 ; ! ""
 zmey:zmey N1 ; ! ""
-
+teritorial:teritorial N1 ;
+gubernator:gubernator N1 ;
 
 
 
@@ -1875,6 +1890,19 @@ Karadeniz:Karadeniz NP-TOP ; ! ""
 Marmara:Marmara NP-TOP ; ! ""
 İstanbul:İstanbul NP-TOP ; ! ""
 Kurçu:Kurçu NP-TOP ; ! ""
+Tsonga:Tsonga NP-TOP ; ! ""
+Tudora:Tudora NP-TOP ; ! ""
+Tülü:Tülü NP-TOP ; ! ""
+Van:Van NP-TOP ; ! ""
+Varnaya:Varnaya NP-TOP ; ! ""
+Vasluy:Vasluy NP-TOP ; ! ""
+Venesuela:Venesuela NP-TOP ; ! ""
+Viisimaa:Viisimaa NP-TOP ; ! ""
+Volga:Volga NP-TOP ; ! ""
+Vyetnam:Vyetnam NP-TOP ; ! ""
+Washington:ashington NP-TOP ; ! ""
+Xunqueira:Xunqueira NP-TOP ; ! ""
+
 liţeyi:liţeyi NP-TOP ; ! ""
 Rostov:Rostov NP-TOP ; ! ""
 Sibirä:Sibirä NP-TOP ; ! ""
@@ -2004,6 +2032,12 @@ Maria:Maria NP-ANT-F ; ! ""
 Mina:Mina NP-ANT-F ; ! ""
 Semön:Semön NP-ANT-M ; ! ""
 Lembit:Lembit NP-ANT-M ; ! ""
+Troyan:Troyan NP-ANT-M ; ! ""
+Uro:Uroš NP-ANT-M ; ! ""
+Vaike:Vaike NP-ANT-M ; ! ""
+Valve:Valve NP-ANT-M ; ! ""
+Villu:Villu NP-ANT-M ; ! ""
+
 Pötr:Pötr NP-ANT-M ; ! ""
 Olga:Olga NP-ANT-F ; ! ""
 Zaariyi:Zaariyi NP-ANT-F ; ! ""
@@ -2162,6 +2196,8 @@ Vasilyeviç:Vasilyeviç NP-COG-MF ; ! ""
 Dimitrievna:Dimitrievna NP-COG-MF ; ! ""
 Zupančič:Zupančič NP-COG-MF ; ! ""
 
+Uzi:Uzi NP-COG-MF ; ! ""
+VİKOL:VİKOL NP-COG-MF ; ! ""
 
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
@@ -2416,7 +2452,9 @@ kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
 birleşik:birleşik A1 ; ! ""
 birlii:birlii A1 ; ! ""
-
+duhovoy:duhovoy A1 ; ! ""
+yaralı:yaralı A1 ; ! ""
+zabun:zabun A1 ; ! ""
 franțuz:franțuz A1 ; ! ""
 kolay:kolay A1 ; ! ""
 ortodoks:ortodoks A1 ; ! ""
@@ -2512,6 +2550,7 @@ zerem:zerem A1 ; ! ""
 aşık:aşık A1 ; ! ""
 ayozlu:ayozlu A1 ; ! ""
 baamsız:baamsız A1 ; ! ""
+türkmen:türkmen N1 ; ! ""
 çalışkan:çalışkan A1 ; ! ""
 çirkin:çirkin A1 ; ! ""
 çukur:çukur A1 ; ! ""
@@ -2541,7 +2580,8 @@ dokumental:dokumental A1 ; ! ""
 eşil:eşil A1 ; ! ""
 gelin:gelin A1 ; ! ""
 hırsız:hırsız A1 ; ! ""
-
+az:az A2 ;
+az:aaz A2 ;
 
 
 LEXICON Adverbs
@@ -2581,8 +2621,7 @@ sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 çoktan:çoktan ADV3 ;
-az:az ADV3 ;
-az:aaz ADV3 ;
+
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
@@ -2871,7 +2910,9 @@ kolver:kolver V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
 kaybet:kaybet V-TV ; ! ""
 yerleşmiş:yerleş V-TV ; ! ""
-
+seslän:seslän V-IV ; ! ""
+uyu:uyu V-IV ; ! ""
+unut:unut V-IV ; ! ""
 
 LEXICON Pronouns 
 
@@ -2972,6 +3013,9 @@ a%a%r:a%a%r ABBR ; ! ""
 b%ä:b%ä ABBR ; ! ""
 G:G  ABBR ; ! ""
 y%y:y%y ABBR ; ! ""
+A%B%D:A%B%D ABBR ; ! ""
+y%e:y%e  ABBR ; ! ""
+y%n:y%n ABBR ; ! ""
 
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
