@@ -367,6 +367,7 @@ LEXICON CASES
 %<nom%>:  # ;
 %<gen%>:%>%{n%}%{I%}%{n%} # ;
 %<loc%>:%>%{D%}%{A%} # ;
+%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
@@ -392,7 +393,7 @@ LEXICON FULL-NOMINAL-INFLECTION
 !PLURAL ;
 POSSESSIVES ;
 LI-POSTPOSITION ;
-GENERAL-POSSESSIVE-ETC ;
+!GENERAL-POSSESSIVE-ETC ;
 
 LEXICON PRON-PERS-BÄN
 
@@ -494,8 +495,8 @@ LEXICON SUBST
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
 
 
-LEXICON GENERAL-POSSESSIVE-ETC
-%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
+!LEXICON GENERAL-POSSESSIVE-ETC
+!%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 
 
 
@@ -632,7 +633,7 @@ LEXICON PRON-INTERR
 
 LEXICON PRON-QNT
 
-%<prn%>%<qnt%>: # ; !N-INFL-COMMON ; ! FIXME: Check contlex
+%<prn%>%<qnt%>: POSSESSIVES ; !N-INFL-COMMON ; ! FIXME: Check contlex
 
 
 LEXICON ABBR
@@ -1571,12 +1572,12 @@ panayıra:panayıra  N1 ; ! ""
 Torki:Torki N1 ; ! ""
 tüfek:tüfek N1 ; ! ""
 
-üniversitesi:üniversite N1 ; ! ""
+üniversite:üniversite N1 ; ! ""
 ürektän:ürektän N1 ; ! ""
 uyku:uyku N1 ; ! ""
 üzük:üzük N1 ; ! ""
-viliatında:viliatında N1 ; ! ""
-Yakıt:Yakıt N1 ; ! ""
+viliat :viliat N1 ; ! ""
+yakıt:yakıt N1 ; ! ""
 
 
 kızkardaşı:kızkardaşı N2 ; ! ""
@@ -1609,6 +1610,24 @@ zavodu:zavodu N1 ; ! ""
 zmey:zmey N1 ; ! ""
 teritorial:teritorial N1 ;
 gubernator:gubernator N1 ;
+hakikat:hakikat N1 ; ! ""
+hallıklı:hallıklı N1 ; ! ""
+harakteri:harakteri N1 ; ! ""
+hastalıı:hastalıı N1 ; ! ""
+hava:hava N1 ; ! ""
+hristianlık:hristianlık N1 ; ! ""
+idare:idare N1 ; ! ""
+ilaç:ilaç N1 ; ! ""
+imäk:imäk N1 ; ! ""
+imza:imza N1 ; ! ""
+inek:inek N1 ; ! ""
+kafa:kafa N1 ; ! ""
+kalendarı:kalendarı N1 ; ! ""
+kardaşlık:kardaşlık N1 ; ! ""
+jem:jem N1 ; ! ""
+maşina:maşina N1 ; ! ""
+musafirci:musafirci N1 ; ! ""
+muzikacı:muzikacı N1 ; ! ""
 
 
 
@@ -1807,10 +1826,10 @@ Mangaliya:Mangaliya NP-TOP ;
 Mongoliya:Mongoliya NP-TOP ;
 Mordoviya:Mordoviya NP-TOP ;
 Mikroneziya:Mikroneziya NP-TOP ;
-NewYork:NewYork NP-TOP ;
-NewHampshire:NewHampshire NP-TOP ;
-NewMexico:NewMexico NP-TOP ;
-NewJersey:NewJersey NP-TOP ;
+New%York:New%York NP-TOP ;
+New%Hampshire:New%Hampshire NP-TOP ;
+New%Mexico:New%Mexico NP-TOP ;
+New%Jersey:New%Jersey NP-TOP ;
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
@@ -1877,6 +1896,8 @@ Valparaíso:Valparaíso NP-TOP ; ! ""
 Zelandiya:Zelandiya NP-TOP ; ! ""
 Zambiya:Zambiya NP-TOP ; ! ""
 Çilinın:Çilinın NP-TOP ; ! ""
+Horasan:Horasan NP-TOP ; ! ""
+İdil:İdil NP-TOP ; ! ""
 
 İspolkomunun:İspolkomunun NP-TOP ; ! ""
 Zaporojye:Zaporojye NP-TOP ; ! ""
@@ -1906,7 +1927,7 @@ Venesuela:Venesuela NP-TOP ; ! ""
 Viisimaa:Viisimaa NP-TOP ; ! ""
 Volga:Volga NP-TOP ; ! ""
 Vyetnam:Vyetnam NP-TOP ; ! ""
-Washington:ashington NP-TOP ; ! ""
+Washington:Washington NP-TOP ; ! ""
 Xunqueira:Xunqueira NP-TOP ; ! ""
 
 liţeyi:liţeyi NP-TOP ; ! ""
@@ -2168,7 +2189,29 @@ Indrek:Indrek NP-ANT-M ; ! ""
 Yakup:Yakup NP-ANT-M ; ! ""
 Yaver:Yaver NP-ANT-M ; ! ""
 Zinaida:Zinaida NP-ANT-F ; ! ""
-
+Helle:Helle NP-ANT-F ; ! ""
+Herta:Herta NP-ANT-F ; ! ""
+Hilja:Hilja NP-ANT-F ; ! ""
+Inge:Inge NP-ANT-F ; ! ""
+Jenny:Jenny NP-ANT-F ; ! ""
+Maire:Maire NP-ANT-F ; ! ""
+Meelis:Meelis NP-ANT-F ; ! ""
+Menevşa:Menevşa NP-ANT-F ; ! ""
+Merle:Merle NP-ANT-F ; ! ""
+Hakan:Hakan NP-ANT-M ; ! ""
+Helgi:Helgi NP-ANT-M ; ! ""
+ikram:ikram NP-ANT-M ; ! ""
+İstorik:İstorik NP-ANT-M ; ! ""
+İvangos:İvangos NP-ANT-M ; ! ""
+Jernej:Jernej NP-ANT-M ; ! ""
+Kai:Kai NP-ANT-M ; ! ""
+Makarki:Makarki NP-ANT-M ; ! ""
+Märt:Märt NP-ANT-M ; ! ""
+Meta:Meta NP-ANT-M ; ! ""
+Mikk:Mikk NP-ANT-M ; ! ""
+Miliş:Miliş NP-ANT-M ; ! ""
+Mişa:Mişa NP-ANT-M ; ! ""
+Mojca:Mojca NP-ANT-M ; ! ""
 
 Allah:Allah NP-AL ; ! ""
 Allah:Allaa NP-AL ; ! ""
@@ -2201,6 +2244,13 @@ Vaher:Vaher NP-COG-MF ; ! ""
 Vasilyeviç:Vasilyeviç NP-COG-MF ; ! ""
 Dimitrievna:Dimitrievna NP-COG-MF ; ! ""
 Zupančič:Zupančič NP-COG-MF ; ! ""
+Hammer:Hammer NP-COG-MF ; ! ""
+Hansen:Hansen NP-COG-MF ; ! ""
+İisus:İisus NP-COG-MF ; ! ""
+Jekova:Jekova NP-COG-MF ; ! ""
+Johanson:Johanson NP-COG-MF ; ! ""
+Maripuu:Maripuu NP-COG-MF ; ! ""
+Mitt:Mitt NP-COG-MF ; ! ""
 
 Uzi:Uzi NP-COG-MF ; ! ""
 VİKOL:VİKOL NP-COG-MF ; ! ""
@@ -2413,7 +2463,15 @@ genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
 
 demokratik:demokratik A1 ; ! ""
-hazır:hazır A1 ; ! ""
+
+haşlak:haşlak A1 ; ! ""
+hodul:hodul A1 ; ! ""
+horu:horu A1 ; ! ""
+hoş:hoş A1 ; ! ""
+incä:incä A1 ; ! ""
+kabaat:kabaat A1 ; ! ""
+kahır:kahır A1 ; ! ""
+kalın:kalın A1 ; ! ""
 
 yok:yok A2 ; ! ""
 maavi:maavi A2 ;  ! "blue"
@@ -2740,7 +2798,7 @@ birär:birär DET-QNT ; ! "one each"
 herbir:herbir DET-IND ; !
 bişey:bişey DET-IND ;
 öbür:öbür DET-DEM ; !  "the other" 
-hepsi:hepsi DET-QNT ;
+
 
 kere:kere DET-QNT ;
 
@@ -2920,8 +2978,8 @@ seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
 unut:unut V-IV ; ! ""
 türklen:türklen V-IV ; ! ""
-
-
+kaldırdı:kaldır V-TV ; ! ""
+ilerle:ilerle V-IV ; ! ""
 
 
 LEXICON Pronouns 
@@ -2944,7 +3002,7 @@ birisi:birisi PRON-QNT ; ! "somebody"
 hangı:hangı PRON-ITG-INFL ;
 hangı:hangi PRON-ITG-INFL ;
 kimisi:kimisi PRON-ITG-INFL ;
-hepsi:hepsi PRON-ITG-INFL ;
+hepsi:hepsi PRON-QNT  ;
 
 ora:ora PRON-ADV ;
 ora:or PRON-ADV ;
@@ -3014,6 +3072,9 @@ h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
 h%.b%.:h%.% b%. ABBR ; ! Dir/LR
 v:v ABBR ;
 h:h ABBR ;
+i%d%i:i%d%i ABBR ; ! ""
+M%S%K:M%S%K ABBR ; ! ""
+
 B%a:B%a ABBR ; ! ""
 b%.:b%. ABBR  ; ! ""
 N%r:N%r ABBR ;
