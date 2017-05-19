@@ -539,7 +539,7 @@ LEXICON NUM-ROMAN
 
 LEXICON PRON-REF
 %<prn%>%<ref%>: POSSESSIVES ;
-!%<prn%>%<ref%>%<pl%>: # ;
+%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
 LEXICON DET-QNT
 %<det%>%<qnt%>: # ;
@@ -2948,6 +2948,7 @@ hepsi:hepsi PRON-ITG-INFL ;
 
 ora:ora PRON-ADV ;
 ora:or PRON-ADV ;
+bura:bura PRON-ADV ;
 
 
 bu:bu PRON-DEM-BU ; ! ""
