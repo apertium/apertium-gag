@@ -1242,7 +1242,8 @@ trigonometriya:trigonometriya N1 ; !
 türkü:türkü N1 ; ! ""
 territorial:territorial N1 ; ! ""
 türkologiya:türkologiya N1 ;
-
+padişahlıı:padişahlıı N1 ;
+padişaalıın:padişaalıın N1 ;
 
 
 uur:uur N1 ; ! ""
@@ -1282,6 +1283,7 @@ zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 ortak:ortak N1 ; ! ""
 son:son N1 ;
+bakannıı:bakannıı N1 ;
 
 gagauz:gagauz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
@@ -1804,7 +1806,11 @@ Moldaviya:Moldaviya NP-TOP ;
 Mangaliya:Mangaliya NP-TOP ;
 Mongoliya:Mongoliya NP-TOP ;
 Mordoviya:Mordoviya NP-TOP ;
-mikroneziya:Mikroneziya NP-TOP ;
+Mikroneziya:Mikroneziya NP-TOP ;
+NewYork:NewYork NP-TOP ;
+NewHampshire:NewHampshire NP-TOP ;
+NewMexico:NewMexico NP-TOP ;
+NewJersey:NewJersey NP-TOP ;
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
@@ -2628,7 +2634,7 @@ ilgi:ilgi ADV4 ;
 acaba:acaba ADV3 ; ! ""
 burda:burda ADV3 ; ! ""
 näänı:näänı ADV3 ; ! ""
-
+aazdan:aazdan ADV3 ;
 
 evelki:evelki ADV3; ! ""
 sık:sık ADV3 ; ! ""
@@ -2637,7 +2643,7 @@ yukarı:yukarı ADV3 ; ! ""
 herkerä:herkerä ADV3 ; ! ""
 nası:nası ADV3 ; ! ""
 neçinki:neçinki ADV3 ; ! ""
-türklen:türklen ADV3 ; ! ""
+
 dolay:dolay ADV3 ; ! ""
 gene:gene ADV3 ; ! ""
 hemen:hemen  ADV3 ; ! ""
@@ -2913,6 +2919,10 @@ yerleşmiş:yerleş V-TV ; ! ""
 seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
 unut:unut V-IV ; ! ""
+türklen:türklen V-IV ; ! ""
+
+
+
 
 LEXICON Pronouns 
 
@@ -2934,8 +2944,10 @@ birisi:birisi PRON-QNT ; ! "somebody"
 hangı:hangı PRON-ITG-INFL ;
 hangı:hangi PRON-ITG-INFL ;
 kimisi:kimisi PRON-ITG-INFL ;
+hepsi:hepsi PRON-ITG-INFL ;
 
 ora:ora PRON-ADV ;
+ora:or PRON-ADV ;
 
 
 bu:bu PRON-DEM-BU ; ! ""
