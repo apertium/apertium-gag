@@ -1314,6 +1314,38 @@ romın:romın N1 ; ! ""
 şair:şair N1 ; ! ""
 sayı:sayı N1 ; ! ""
 sergi:sergi N1 ; ! ""
+stihlar:stihlar  N1 ; ! ""
+sarap:sarap N1 ; ! ""
+vekil:vekil N1 ; ! ""
+pita:pita N1 ; ! ""
+plan:plan N1 ; ! ""
+profesor:profesor N1 ; ! ""
+referendum:referendum N1 ; ! ""
+region:region N1 ; ! ""
+saç:saç N1 ; ! ""
+sancak:sancak N1 ; ! ""
+şarapçı:şarapçı N1 ; ! ""
+sebep:sebep N1 ; ! ""
+seminar:seminar N1 ; ! ""
+semt:semt N1 ; ! ""
+sensele:sensele N1 ; ! ""
+sistem:sistem N1 ; ! ""
+sokak:sokak N1 ; ! ""
+solärka:solärka N1 ; ! ""
+stajirovka:stajirovka N1 ; ! ""
+stil:stil N1 ; ! ""
+taliga:taliga N1 ; ! ""
+tavana:tavana N1 ; ! ""
+tayfe:tayfe N1 ; ! ""
+tehnik:tehnik N1 ; ! ""
+tema:tema N1 ; ! ""
+teoretik:teoretik N1 ; ! ""
+terbietmää:terbietmää N1 ; ! ""
+ton:ton N1 ; ! ""
+topluluu:topluluu N1 ; ! ""
+toplum:toplum N1 ; ! ""
+yerleşim:yerleşim N1 ; ! ""
+zaabit:zaabit N1 ; ! ""
 
 sınır:sınır N1 ; ! ""
 toplantı:toplantı N1 ; ! ""
@@ -1966,7 +1998,15 @@ Astrahan:Astrahan NP-TOP ; ! ""
 Kemerovo:Kemerovo NP-TOP ; ! ""
 Zanzibar:Zanzibar NP-TOP ; ! ""
 Zimbabve:Zimbabve NP-TOP ; ! ""
-
+Prut:Prut NP-TOP ; ! ""
+RÄBOV:RÄBOV NP-TOP ; ! ""
+Santiago:Santiago NP-TOP ; ! ""
+São:São NP-TOP ; ! ""
+Sint:Sint NP-TOP ; ! ""
+Sloven:Sloven NP-TOP ; ! ""
+Soria:Soria NP-TOP ; ! ""
+Stovropol:Stovropol NP-TOP ; ! ""
+Taşkent:Taşkent NP-TOP ; ! ""
 
 
 Alice:Alice NP-ANT-F ; ! ""
@@ -2212,6 +2252,25 @@ Mikk:Mikk NP-ANT-M ; ! ""
 Miliş:Miliş NP-ANT-M ; ! ""
 Mişa:Mişa NP-ANT-M ; ! ""
 Mojca:Mojca NP-ANT-M ; ! ""
+Pork:Pork NP-ANT-M ; ! ""                    
+Rafet:Rafet NP-ANT-M ; ! ""
+Riina:Riina NP-ANT-M ; ! ""
+Sergey:Sergey NP-ANT-M ; ! ""
+Sulev:Sulev NP-ANT-M ; ! ""
+Taavi:Taavi NP-ANT-M ; ! ""
+Tarvo:Tarvo NP-ANT-M ; ! ""
+Theodor:Theodor NP-ANT-M ; ! ""
+Thomas:Thomas NP-ANT-M ; ! ""
+Tom:Tomé NP-ANT-M ; ! ""
+Nataša:Nataša NP-ANT-F ; ! ""
+Saša:Saša NP-ANT-F ; ! ""
+Silvia:Silvia NP-ANT-F ; ! ""
+Tiiu:Tiiu NP-ANT-F ; ! ""
+
+
+
+
+
 
 Allah:Allah NP-AL ; ! ""
 Allah:Allaa NP-AL ; ! ""
@@ -2227,6 +2286,7 @@ GR:GR NP1-ORG ;
 KDU:KDU NP1-ORG ;
 MR:MR NP1-ORG ;
 SSR:SSR NP1-ORG ;
+SSRB:SSRB NP1-ORG ;
 
                   
 TÜRKSOY:TÜRKSOY NP1-ORG ;
@@ -2251,9 +2311,14 @@ Jekova:Jekova NP-COG-MF ; ! ""
 Johanson:Johanson NP-COG-MF ; ! ""
 Maripuu:Maripuu NP-COG-MF ; ! ""
 Mitt:Mitt NP-COG-MF ; ! ""
-
+Grasın:Grasın NP-COG-MF ; ! ""
 Uzi:Uzi NP-COG-MF ; ! ""
 VİKOL:VİKOL NP-COG-MF ; ! ""
+Ratassepp:Ratassepp NP-COG-MF ; ! ""
+Ribič:Ribič NP-COG-MF ; ! ""
+Selçuk:Selçuk NP-COG-MF ; ! ""
+Skalykovskiy:Skalykovskiy  NP-COG-MF ; ! ""
+Toompere:Toompere NP-COG-MF ; ! ""
 
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
@@ -2266,7 +2331,8 @@ Karacaoğlan:Karacaoğlan NP-COG-MF ; ! ""
 Koppel:Koppel NP-COG-MF ; ! ""
 Lill:Lill NP-COG-MF ; ! ""
 Makidon:Makidon NP-COG-MF ; ! ""
-
+taazä:taazä A1 ; ! ""
+Temiz:Temiz A1 ; ! ""
 Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
@@ -2546,6 +2612,7 @@ azerbaycan:azerbaycan A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
 kırmızı:kırmızı A1 ;
 pek:pek A1 ; ! ""
+new:new A1 ;
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
 kaarä:kaarä A1 ;
@@ -2980,6 +3047,10 @@ unut:unut V-IV ; ! ""
 türklen:türklen V-IV ; ! ""
 kaldırdı:kaldır V-TV ; ! ""
 ilerle:ilerle V-IV ; ! ""
+çöz:çöz V-IV ; ! ""
+aac:aac V-IV ; ! ""
+tanış:tanış V-IV ; ! ""
+
 
 
 LEXICON Pronouns 
@@ -3063,6 +3134,7 @@ km:km ABBR ;
 kg:kg ABBR ;
 d%.:d%. ABBR ;
 i:i ABBR ;
+s%ä:s%ä  ABBR ;
 y%.:y%. ABBR ;
 y%.y%.:y%.y%. ABBR ;
 h%.b%.:h%.b%. ABBR ;
