@@ -91,6 +91,7 @@ LEXICON V-FINITE-REGULAR_NEG
 
 LEXICON GER-N-INFL-COMMON
 CASES ;
+POSSESSIVES ;
 
 LEXICON GER-SUBST
 GER-N-INFL-COMMON ; 
@@ -102,7 +103,7 @@ LEXICON V-GER
 %<ger%>:%>m%{A%}k GER-SUBST  ;
 %<ger_nfh%>:%>m%{I%}ş GER-SUBST  ;
 
-!%<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
+%<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
 
 
 LEXICON V-GNA
