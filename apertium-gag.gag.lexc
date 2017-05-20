@@ -369,6 +369,7 @@ LEXICON CASES
 %<loc%>:%>%{D%}%{A%} # ;
 %<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
+%<abl%>:%>n%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
 %<ins%>:%>%{й}%{I%}%{A%} # ;
@@ -556,6 +557,7 @@ LEXICON DET-DEM
 
 LEXICON A1 
 %<adj%>: CLITIC-COPULA ;
+
 
 LEXICON A2 
 %<adj%>: CLITIC-COPULA ;
@@ -1455,6 +1457,28 @@ beceri:beceri N1 ;
                                 
 analiz:analiz N1 ; ! ""
 aslan:aslan N1 ; ! ""
+kapu:kapu N1 ; ! ""
+karikatur:karikatur N1 ; ! ""
+kırlarında:kırlarında N1 ; ! ""
+kişisel:kişisel N1 ; ! ""
+kıyı:kıyı N1 ; ! ""
+komitetın:komitetın N1 ; ! ""
+legislativ:legislativ N1 ; ! ""
+                                          
+maaza:maaza N1 ; ! ""
+mamu:mamu N1 ; ! ""
+musulman:musulman N1 ; ! ""
+naturanın:naturanın N1 ; ! ""
+neet:neet N1 ; ! ""
+nesa:nesa N1 ; ! ""
+ogla:oglan N1 ; ! ""
+omuz:omuz N1 ; ! ""
+orkestra:orkestra N1 ; ! ""
+özellik:özellik N1 ; ! ""
+panda:panda N1 ; ! ""
+pasport:pasport N1 ; ! ""
+peçenegler:peçenegler N1 ; ! ""
+
                                  
 azınlık:azınlık N1 ; ! ""
 azınnık:azınnık N1 ; ! ""
@@ -1688,7 +1712,7 @@ Besarabiya:Besarabiya NP-TOP ;! ""
 Başkiriya:Başkiriya NP-TOP ;! ""
 Belarus:Belarus NP-TOP ;! ""
 Adana:Adana NP-TOP ;! ""
-
+Nemtä:Nemtä NP-TOP ;! ""
 Afganistan:Afganistan NP-TOP ; ! ""
 Andorra:Andorra NP-TOP ; ! ""
 Bangladeş:Bangladeş NP-TOP ; ! ""
@@ -1804,6 +1828,7 @@ Gambiya:Gambiya NP-TOP ; ! ""
 Horvatiya:Horvatiya NP-TOP ; ! ""
 Hakasiya:Hakasiya NP-TOP ; ! ""
 İndoneziya:İndoneziya NP-TOP ; ! ""
+Kastilya:Kastilya NP-TOP ; ! ""
 İordaniya:İordaniya NP-TOP ; ! ""
 İtaliya:İtaliya NP-TOP ; ! ""
 İnguşetiya:İnguşetiya NP-TOP ; ! ""
@@ -1858,10 +1883,10 @@ Mangaliya:Mangaliya NP-TOP ;
 Mongoliya:Mongoliya NP-TOP ;
 Mordoviya:Mordoviya NP-TOP ;
 Mikroneziya:Mikroneziya NP-TOP ;
-New%York:New%York NP-TOP ;
-New%Hampshire:New%Hampshire NP-TOP ;
-New%Mexico:New%Mexico NP-TOP ;
-New%Jersey:New%Jersey NP-TOP ;
+New% York:New% York NP-TOP ;
+New% Hampshire:New% Hampshire NP-TOP ;
+New% Mexico:New% Mexico NP-TOP ;
+New% Jersey:New% Jersey NP-TOP ;
 Moskva:Moskva NP-TOP ; ! ""
 Moldova:Moldova NP-TOP ; ! ""
 Makedoniya:Makedoniya NP-TOP ; ! ""
@@ -1999,7 +2024,7 @@ Kemerovo:Kemerovo NP-TOP ; ! ""
 Zanzibar:Zanzibar NP-TOP ; ! ""
 Zimbabve:Zimbabve NP-TOP ; ! ""
 Prut:Prut NP-TOP ; ! ""
-RÄBOV:RÄBOV NP-TOP ; ! ""
+Räbov:Räbov NP-TOP ; ! ""
 Santiago:Santiago NP-TOP ; ! ""
 São:São NP-TOP ; ! ""
 Sint:Sint NP-TOP ; ! ""
@@ -2007,6 +2032,15 @@ Sloven:Sloven NP-TOP ; ! ""
 Soria:Soria NP-TOP ; ! ""
 Stovropol:Stovropol NP-TOP ; ! ""
 Taşkent:Taşkent NP-TOP ; ! ""
+Kamboca:Kamboca NP-TOP ; ! ""
+Karaman:Karaman NP-TOP ; ! ""
+Katar:Katar NP-TOP ; ! ""
+Kievdakı:Kievdakı NP-TOP ; ! ""
+Krit:Krit NP-TOP ; ! ""
+Kuveyt:Kuveyt NP-TOP ; ! ""
+Livan:Livan NP-TOP ; ! ""
+Lugo:Lugo NP-TOP ; ! ""
+Niderland:Niderland NP-TOP ; ! ""
 
 
 Alice:Alice NP-ANT-F ; ! ""
@@ -2072,6 +2106,14 @@ periya:periya NP-ANT-M ; ! ""
 Dobrotiç:Dobrotiç NP-ANT-M ; ! ""
 İon:İon NP-ANT-M ; ! ""
 Liliya:Liliya NP-ANT-F ; ! ""
+Kadri:Kadri NP-ANT-M ; ! ""
+Kama:Kama NP-ANT-M ; ! ""
+Kaykauz:Kaykauz NP-ANT-M ; ! ""
+Laur:Laur NP-ANT-F ; ! ""
+Mai:Mai NP-ANT-F ; ! ""
+Natalya:Natalya NP-ANT-F ; ! ""
+Özlem:Özlem NP-ANT-F ; ! ""
+
 Paul:Paul NP-ANT-M ; ! "" 
 Toomas:Toomas NP-ANT-M ; ! ""
 Todur:Todur NP-ANT-M ; ! ""
@@ -2240,7 +2282,7 @@ Menevşa:Menevşa NP-ANT-F ; ! ""
 Merle:Merle NP-ANT-F ; ! ""
 Hakan:Hakan NP-ANT-M ; ! ""
 Helgi:Helgi NP-ANT-M ; ! ""
-ikram:ikram NP-ANT-M ; ! ""
+
 İstorik:İstorik NP-ANT-M ; ! ""
 İvangos:İvangos NP-ANT-M ; ! ""
 Jernej:Jernej NP-ANT-M ; ! ""
@@ -2288,6 +2330,7 @@ MR:MR NP1-ORG ;
 SSR:SSR NP1-ORG ;
 SSRB:SSRB NP1-ORG ;
 
+
                   
 TÜRKSOY:TÜRKSOY NP1-ORG ;
 
@@ -2297,6 +2340,16 @@ LEXICON Cognomena
 Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
 Ban:Ban NP-COG-MF ; ! ""
+Kattai:Kattai NP-COG-MF ; ! ""
+Kroat:Kroat NP-COG-MF ; ! ""
+Leissar:Leissar NP-COG-MF ; ! ""
+Leyçu:Leyçu NP-COG-MF ; ! ""
+Luik:Luik NP-COG-MF ; ! ""
+Maasik:Maasik NP-COG-MF ; ! ""
+mari:mari NP-COG-MF ; ! ""
+Nõmmik:Nõmmik NP-COG-MF ; ! ""
+Paleolog:Paleolog NP-COG-MF ; ! ""
+
 Ştefan:Ştefan NP-COG-MF ; ! ""
 Tarmo:Tarmo NP-COG-MF ; ! ""
 Tepegöz:Tepegöz NP-COG-MF ; ! ""
@@ -2313,7 +2366,7 @@ Maripuu:Maripuu NP-COG-MF ; ! ""
 Mitt:Mitt NP-COG-MF ; ! ""
 Grasın:Grasın NP-COG-MF ; ! ""
 Uzi:Uzi NP-COG-MF ; ! ""
-VİKOL:VİKOL NP-COG-MF ; ! ""
+Vikol:Vikol NP-COG-MF ; ! ""
 Ratassepp:Ratassepp NP-COG-MF ; ! ""
 Ribič:Ribič NP-COG-MF ; ! ""
 Selçuk:Selçuk NP-COG-MF ; ! ""
@@ -2331,8 +2384,7 @@ Karacaoğlan:Karacaoğlan NP-COG-MF ; ! ""
 Koppel:Koppel NP-COG-MF ; ! ""
 Lill:Lill NP-COG-MF ; ! ""
 Makidon:Makidon NP-COG-MF ; ! ""
-taazä:taazä A1 ; ! ""
-Temiz:Temiz A1 ; ! ""
+
 Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
@@ -2591,6 +2643,10 @@ ortodoks:ortodoks A1 ; ! ""
 regional:regional A1 ; ! ""
 soţial:soţial A1 ; ! ""
 yavaş:yavaş A1 ; ! ""
+kıvrak:kıvrak A1 ; ! ""
+kuru:kuru A1 ; ! ""
+laap:laap A1 ; ! ""
+ofişial:ofişial A1 ; ! ""
 
 gözäl:gözäl A1 ; ! ""
 gelän:gelän A1 ; ! ""
@@ -2612,7 +2668,7 @@ azerbaycan:azerbaycan A1 ; ! ""
 hızlı:hızlı A1 ; ! ""
 kırmızı:kırmızı A1 ;
 pek:pek A1 ; ! ""
-new:new A1 ;
+
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
 kaarä:kaarä A1 ;
@@ -2700,6 +2756,8 @@ siirek:siirek A1 ; ! ""
 Bellilikçi:Bellilikçi A1 ; ! ""
 estrada:estrada A1 ; ! ""
 iiri:iiri A1 ; ! ""
+taazä:taazä A1 ; ! ""
+temiz:temiz A1 ; ! ""
 İtalyan:İtalyan A1 ; ! ""
 kaliteli:kaliteli A1 ; ! ""
 kayıp:kayıp A1 ; ! ""
@@ -2713,7 +2771,7 @@ gelin:gelin A1 ; ! ""
 hırsız:hırsız A1 ; ! ""
 az:az A2 ;
 az:aaz A2 ;
-
+ikram:ikram A1 ; ! ""
 
 LEXICON Adverbs
 yırak:yırak ADV3 ; ! ""
@@ -2793,6 +2851,10 @@ ansızdan:ansızdan ADV3 ; ! ""
 itibarıyla:itibarıyla ADV3  ; ! ""
 nänı:nänı ADV3  ; ! ""
 sıravardı:sıravardı ADV3  ; ! ""
+nerdä:nerdä ADV3  ; ! ""
+
+nicäl:nicäl ADV3  ; ! ""
+nice:nice ADV3  ; ! ""
 
 
 
@@ -2858,6 +2920,7 @@ kendi:kendi DET-REF ; ! ""
 kaç:kaç DET-QNT ; ! ""
 okadar:okadar DET-QNT ; ! ""
 bukadar:bukadar DET-QNT ; ! "this much"
+neyä:neyä DET-QNT ;
 
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
@@ -3045,7 +3108,7 @@ seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
 unut:unut V-IV ; ! ""
 türklen:türklen V-IV ; ! ""
-kaldırdı:kaldır V-TV ; ! ""
+kaldır:kaldır V-TV ; ! ""
 ilerle:ilerle V-IV ; ! ""
 çöz:çöz V-IV ; ! ""
 aac:aac V-IV ; ! ""
@@ -3146,6 +3209,8 @@ v:v ABBR ;
 h:h ABBR ;
 i%d%i:i%d%i ABBR ; ! ""
 M%S%K:M%S%K ABBR ; ! ""
+l%a:l%a ABBR ; ! ""
+L%y:L%y ABBR ; ! ""
 
 B%a:B%a ABBR ; ! ""
 b%.:b%. ABBR  ; ! ""
@@ -3162,7 +3227,7 @@ y%y:y%y ABBR ; ! ""
 A%B%D:A%B%D ABBR ; ! ""
 y%e:y%e  ABBR ; ! ""
 y%n:y%n ABBR ; ! ""
-
+N:N ABBR ; ! ""
 
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
