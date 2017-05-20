@@ -1411,6 +1411,7 @@ uezd:uezd N1 ;
 
 administrativ:administrativ N1 ; ! ""
 ball:ball N1 ; ! ""
+ball:bal N1 ;
 göç:göç N1 ; ! ""
 gümüş:gümüş N1 ; ! ""
 ihtiar:ihtiar N1 ; ! ""
@@ -1700,9 +1701,47 @@ ukrain:ukrain N1 ; ! ""
 dan:dan  N1 ; ! ""
 alban:alban N1 ; ! ""
 hakas:hakas N1 ; ! ""
+aard:aard  N1 ; ! ""
+                                       
+aeroport:aeroport N1 ; ! ""
+annaşma:annaşma N1 ; ! ""
+asan:asan N1 ; ! ""
+aşk:aşk N1 ; ! ""
+ayak:ayak N1 ; ! ""
+aydınnık:aydınnık N1 ; ! ""
+aylık:aylık N1 ; ! ""
+baskı:baskı N1 ; ! ""
+başkir:başkir N1 ; ! ""
+bayraa:bayraa N1 ; ! ""
+bişeycik:bişeycik N1 ; ! ""
+buba:buba N1 ; ! ""
+büükelçi:büükelçi N1 ; ! ""
+çarşamba:çarşamba N1 ; ! ""
+çempion:çempion N1 ; ! ""
+çoban:çoban N1 ; ! ""
+cumaa:cumaa N1 ; ! ""
+daayı:daayı N1 ; ! ""
+dam:dam N1 ; ! ""
+demokratika:demokratika N1 ; ! ""
+diplomatik:diplomatik N1 ; ! ""
+dış:dış N1 ; ! ""
+dolar:dolar N1 ; ! ""
+                                 
+duşmannık:duşmannık N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
+Arnaut:Arnaut NP-TOP ; ! ""
+Baku:Baku NP-TOP ; ! ""
+Bar:Bar NP-TOP ; ! ""
+Berde:Berde NP-TOP ; ! ""
+Beşgöz:Beşgöz NP-TOP ; ! ""
+Bethoven:Bethoven NP-TOP ; ! ""
+Butan:Butan NP-TOP ; ! ""
+Çankaya:Çankaya NP-TOP ; ! ""
+Çumra:Çumra NP-TOP ; ! ""
+Dolgan:Dolgan NP-TOP ; ! ""
 Afrika:Afrika NP-TOP ; ! ""
 São% Paulo:São% Paulo NP-TOP ; ! ""
 Bucak:Bucak NP-TOP ; ! ""
@@ -2060,6 +2099,17 @@ Filip:Filip NP-ANT-M ; ! ""
 Leonid:Leonid NP-ANT-M ; ! ""
 Rudolf:Rudolf NP-ANT-M ; ! ""
 Vlad:Vlad NP-ANT-M ; ! ""
+Andrus:Andrus NP-ANT-M ; ! ""
+Anton:Anton NP-ANT-M ; ! ""
+Araz:Araz NP-ANT-M ; ! ""
+Branko:Branko NP-ANT-M ; ! ""
+Bucaa:Bucaa NP-ANT-M ; ! ""
+Burhanettin:Burhanettin NP-ANT-M ; ! ""
+Dragan:Dragan NP-ANT-M ; ! ""
+Aili:Aili NP-ANT-F ; ! ""
+Andrej:Andrej NP-ANT-F ; ! ""
+Astrid:Astrid NP-ANT-F ; ! ""
+
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
@@ -2349,6 +2399,11 @@ Maasik:Maasik NP-COG-MF ; ! ""
 mari:mari NP-COG-MF ; ! ""
 Nõmmik:Nõmmik NP-COG-MF ; ! ""
 Paleolog:Paleolog NP-COG-MF ; ! ""
+Adriatik:Adriatik NP-COG-MF ; ! ""
+Arsevenin:Arsevenin NP-COG-MF ; ! ""
+Bass:Bass NP-COG-MF ; ! ""
+Bayazid:Bayazid NP-COG-MF ; ! ""
+Bozbey:Bozbey NP-COG-MF ; ! ""
 
 Ştefan:Ştefan NP-COG-MF ; ! ""
 Tarmo:Tarmo NP-COG-MF ; ! ""
@@ -2629,6 +2684,10 @@ maasuz:maasuz A1 ;
 çok:çok A1 ; ! ""
 ani:ani A1 ; ! ""
 kaavi:kaavi A1 ;
+açik:açik A1 ; ! ""
+cengin:cengin A1 ; ! ""
+çölmek:çölmek A1 ; ! ""
+
 eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
@@ -2658,6 +2717,7 @@ milli:milli A1 ; ! ""
 şannı:şannı A1 ;
 temel:temel A1 ; ! ""
 tez:tez A2 ;  ! ""
+duşman:duşman A1 ; ! ""
 keskin:keskin A1 ;
 türk:türk A1 ; ! ""
 uygur:uygur A1 ; ! ""
@@ -2907,7 +2967,7 @@ hadi:hadi CA ;
 
 
 LEXICON Determiners
-
+dak:dak DET-QNT ;
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 bu% kadar:bu% kadar DET-QNT ; ! "this much"
 şu% kadar:şu% kadar DET-QNT ; ! "that much"
@@ -3112,8 +3172,19 @@ kaldır:kaldır V-TV ; ! ""
 ilerle:ilerle V-IV ; ! ""
 çöz:çöz V-IV ; ! ""
 aac:aac V-IV ; ! ""
+aac:aaç V-IV ;
 tanış:tanış V-IV ; ! ""
 
+aaraştır:aaraştır V-TV ; ! ""
+batır:batır V-TV ; ! ""
+becer:becer V-TV ; ! ""
+benze:benze V-TV ; ! ""
+böl:böl V-TV ; ! ""
+bulgarlan:bulgarlan V-TV ; ! ""
+doğ:doğ V-TV ; ! ""
+baar:baar V-IV ; ! ""
+buluş:buluş V-IV ; ! ""
+buyur:buyur V-IV ; ! ""
 
 
 LEXICON Pronouns 
@@ -3229,11 +3300,16 @@ y%e:y%e  ABBR ; ! ""
 y%n:y%n ABBR ; ! ""
 N:N ABBR ; ! ""
 
+ç%o:ç%o ABBR ;
+D:D ABBR ;
+e:e ABBR ;
+
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
 cü:cü ABBR ;
 cu:cu ABBR ;
 ci:ci ABBR ;
+nci:nci ABBR ;
 
 
 
