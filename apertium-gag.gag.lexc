@@ -631,7 +631,7 @@ LEXICON PRON-ITG-INFL
 
 LEXICON PRON-INTERR
 
-%<prn%>%<itg%>: CASES ;
+%<prn%>%<itg%>: SUBST ;
 
 LEXICON PRON-QNT
 
@@ -1287,7 +1287,7 @@ ool:ool N1 ; ! "son"
 ortak:ortak N1 ; ! ""
 son:son N1 ;
 bakannıı:bakannıı N1 ;
-
+aaç:aaç N1 ; !"tree"
 gagauz:gagauz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
 
@@ -2747,7 +2747,7 @@ kıvrak:kıvrak A1 ; ! ""
 kuru:kuru A1 ; ! ""
 laap:laap A1 ; ! ""
 ofişial:ofişial A1 ; ! ""
-
+başka:başka A2 ; !
 gözäl:gözäl A1 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
@@ -3013,7 +3013,7 @@ bu% kadar:bu% kadar DET-QNT ; ! "this much"
 şu% kadar:şu% kadar DET-QNT ; ! "that much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
 nekadar:nekadar DET-QNT ; ! "how much"
-başka:başka DET-IND ; !
+
 biraz:biraz DET-QNT ; ! "a bit"
 zeedä:zeedä DET-QNT ; ! "a lot"
 kendi:kendi DET-REF ; ! ""
