@@ -995,7 +995,7 @@ haber:haber N1 ;
 halk:halk N1 ; ! ""
 harman:harman N1 ; ! ""
 hederlez:hederlez N1; ! ""
-
+volontör:volontör N1 ; ! ""
 hasta:hasta N1 ;
 himiya:himiya N1 ; ! ""
 hristian:hristian N1 ; ! ""
@@ -1744,6 +1744,36 @@ demokratika:demokratika N1 ; ! ""
 diplomatik:diplomatik N1 ; ! ""
 dış:dış N1 ; ! ""
 dolar:dolar N1 ; ! ""
+svahili:svahili N1 ; ! ""
+tabasaran:tabasaran N1 ; ! ""
+takrir:takrir N1 ; ! ""
+tefter:tefter N1 ; ! ""
+teknoloji:teknoloji N1 ; ! ""
+telegraf:telegraf N1 ; ! ""
+tele:tele N1 ; ! ""
+temsil:temsil N1 ; ! ""
+tender:tender N1 ; ! ""
+tepägöz:tepägöz N1 ; ! ""
+terzi:terzi N1 ; ! ""
+tip:tip N1 ; ! ""
+                                    
+topuz:topuz  N1 ; ! ""
+tosun:tosun N1 ; ! ""
+toz:toz N1 ; ! ""
+tula:tula N1 ; ! ""
+turnir:turnir N1 ; ! ""
+tüü:tüü N1 ; ! ""
+tuz:tuz N1 ;
+ekmek:ekmek N1 ; ! ""
+üçbuçuk:üçbuçuk N1 ; ! ""
+Uuelys:uelys N1 ; ! ""
+                                                  
+ural:ural N1 ; ! ""
+zaametçi:zaametçi N1 ; ! ""
+
+
+
+
                                  
 duşmannık:duşmannık N1 ; ! ""
 dinastia:dinastia N1 ; ! ""
@@ -2129,6 +2159,16 @@ Wisconsin:Wisconsin NP-TOP ; ! ""
 Wyoming:Wyoming NP-TOP ; ! ""
 Yamalo:Yamalo NP-TOP ; ! ""
 Nenets:Nenets NP-TOP ; ! ""
+Șveți:Șveți NP-TOP ; ! ""
+Svetlıy:Svetlıy NP-TOP ; ! ""
+Tailand:Tailand NP-TOP ; ! ""
+Taraklı:Taraklı NP-TOP ; ! ""
+Tiraspol:Tiraspol NP-TOP ; ! ""
+Tobago:Tobago NP-TOP ; ! ""
+Tofa:Tofa NP-TOP ; ! ""
+Tonga:Tonga NP-TOP ; ! ""
+Tülüküü:Tülüküü NP-TOP ; ! ""
+Tunis:Tunis NP-TOP ; ! ""
 
 
 
@@ -2439,8 +2479,14 @@ Nataša:Nataša NP-ANT-F ; ! ""
 Saša:Saša NP-ANT-F ; ! ""
 Silvia:Silvia NP-ANT-F ; ! ""
 Tiiu:Tiiu NP-ANT-F ; ! ""
-
-
+Tatarnikov:Tatarnikov NP-ANT-M ; ! ""
+Tatyana:Tatyana NP-ANT-M ; ! ""
+Teet:Teet NP-ANT-M ; ! ""
+Terje:Terje NP-ANT-M ; ! ""
+Tiia:Tiia NP-ANT-M ; ! ""
+Triin:Triin NP-ANT-M ; ! ""
+Ülvi:Ülvi NP-ANT-M ; ! ""
+Tanja:Tanja NP-ANT-F ; ! ""
 
 
 
@@ -2460,14 +2506,22 @@ KDU:KDU NP1-ORG ;
 MR:MR NP1-ORG ;
 SSR:SSR NP1-ORG ;
 SSRB:SSRB NP1-ORG ;
-
-
+UNEC:UNEC NP1-ORG ;
+ÜNESKO:ÜNESKO NP1-ORG ;
+TOBB:TOBB NP1-ORG ;
                   
 TÜRKSOY:TÜRKSOY NP1-ORG ;
 
 
 
 LEXICON Cognomena
+Talvik:Talvik NP-COG-MF ; ! ""
+Tauşancı:Tauşancı NP-COG-MF ; ! ""
+Teder:Teder NP-COG-MF ; ! ""
+Tinn:Tinn NP-COG-MF ; ! ""
+Toom:Toom NP-COG-MF ; ! ""
+Urb:Urb NP-COG-MF ; ! ""
+
 Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
 Kruusement:Kruusement NP-COG-MF ; ! ""
@@ -2784,8 +2838,8 @@ cengin:cengin A1 ; ! ""
 çölmek:çölmek A1 ; ! ""
 deyil:deyil A1 ; ! ""
 uzak:uzak A1 ; ! ""
-varlı:varlı A1 ; ! ""
-volontör:volontör A1 ; ! ""
+varlıı:varlıı A1 ; ! ""
+
 yalpak:yalpak A1 ; ! ""
 yarı:yarı A1 ; ! ""
 yaslı:yaslı A1 ; ! ""
@@ -2829,6 +2883,8 @@ keskin:keskin A1 ;
 emin:emin A1 ; ! ""
 erkek:erkek A1 ; ! ""
 fukaara:fukaara A1 ; ! ""
+tıynak:tıynak A1 ; ! ""
+tuç:tuç A1 ; ! ""
 
 hızlı:hızlı A1 ; ! ""
 kırmızı:kırmızı A1 ;
@@ -3304,7 +3360,8 @@ yık:yık V-TV ;
 den:den V-IV ; ! ""
 lafeder:lafeder V-IV ;
 sözlän:sözlän V-IV ;
-
+tamamnan:tamamnan V-IV ; ! ""
+bil:bil V-TV ; ! ""
 
 LEXICON Pronouns 
 
@@ -3422,6 +3479,9 @@ N:N ABBR ; ! ""
 e%y%i:e%y%i ABBR ; ! ""
 
 Z:Z ABBR ; ! ""
+T:T ABBR ; ! ""
+U:U ABBR ; ! ""
+u%z:u%z ABBR ; ! ""
 
 ç%o:ç%o ABBR ;
 D:D ABBR ;
