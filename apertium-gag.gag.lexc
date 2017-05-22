@@ -1378,7 +1378,7 @@ kaplan:kaplan N1 ; ! ""
 lafedeer:lafedeer N1 ; ! ""
 iyül:iyül N1 ; ! ""
 nüfus:nüfus N1 ; ! ""
-salonda:salonda N1 ; ! ""
+salon:salon N1 ; ! ""
 sergi:sergi N1 ; ! ""
 üülen:üülen N1 ; ! ""
 üzyıl:üzyıl N1 ; ! ""
@@ -1512,7 +1512,7 @@ teprem:teprem N1 ; ! ""
 aga:aga N1 ; ! ""
 
 premyer:premyer N1 ; ! ""
-problem:problem N1 ; ! ""
+problema:problema N1 ; ! ""
 süt:süt N1 ; ! ""
 temas:temas N1 ; ! ""
 nedän:nedän N1 ; ! "reason"
@@ -1595,7 +1595,7 @@ yannışlık:yannışlık N1 ;
 yil:yil N1 ; ! ""
 agenstvos:agenstvos N1 ; ! ""
 departament:departament N1 ; ! ""
-dünneyin:dünneyin N1 ; ! ""
+dünney:dünney N1 ; ! ""
 durum:durum N1 ; ! ""
 medali:medali N1 ; ! ""
 mongol:mongol N1 ; ! ""
@@ -1614,6 +1614,7 @@ taligayı:taligayı N1 ; ! ""
 tamannık:tamannık N1 ; ! ""
 temel:temel N1 ; ! ""
 viţe:viţe N1 ; ! ""
+etnograf:etnograf N1 ; ! ""
 vizit:vizit N1 ; ! ""
 agenstvo:agenstvo N1 ; ! ""
 esap:esap N1 ; ! ""
@@ -1745,6 +1746,25 @@ dış:dış N1 ; ! ""
 dolar:dolar N1 ; ! ""
                                  
 duşmannık:duşmannık N1 ; ! ""
+dinastia:dinastia N1 ; ! ""
+kolhozda:kolhozda N1 ; ! ""
+kuleyi:kuleyi N1 ; ! ""
+velohora:velohora N1 ; ! ""
+minister:minister N1 ; ! ""
+peçeneglâr:peçeneglâr N1 ; ! ""
+sene:sene N1 ; ! ""
+üyesi:üyesi N1 ; ! ""
+
+uzbek:uzbek N1 ; ! ""
+yavru:yavru N1 ; ! ""
+yımırta:yımırta N1 ; ! ""
+yörs:yörs N1 ; ! ""
+yuriy:yuriy N1 ; ! ""
+zaamet:zaamet N1 ; ! ""
+zal:zal N1 ; ! ""
+zorluk:zorluk N1 ; ! ""
+zulum:zulum N1 ; ! ""
+
 
 
 LEXICON ProperNouns 
@@ -2100,15 +2120,33 @@ Niderland:Niderland NP-TOP ; ! ""
 Egipet:Egipet NP-TOP ; ! ""
 Evros:Evros NP-TOP ; ! ""
 Fici:Fici NP-TOP ; ! ""
+Vandalizm:Vandalizm NP-TOP ; ! ""
+Vanuatu:Vanuatu NP-TOP ; ! ""
+Vatikan:Vatikan NP-TOP ; ! ""
+Vena:Vena NP-TOP ; ! ""
+Vilankulo:Vilankulo NP-TOP ; ! ""
+Wisconsin:Wisconsin NP-TOP ; ! ""
+Wyoming:Wyoming NP-TOP ; ! ""
+Yamalo:Yamalo NP-TOP ; ! ""
+Nenets:Nenets NP-TOP ; ! ""
+
+
+
+
+
+
+
+
+
 
 Alice:Alice NP-ANT-F ; ! ""
 Helene:Helene NP-ANT-F ; ! ""
-Dobrov:Dobrov NP-ANT-M ; ! ""
+
 Eero:Eero NP-ANT-M ; ! ""
 Emre:Emre NP-ANT-M ; ! ""
 Erich:Erich NP-ANT-M ; ! ""
 Erika:Erika NP-ANT-M ; ! ""
-Etnograf:Etnograf NP-ANT-M ; ! ""
+
 Evald:Evald NP-ANT-M ; ! ""
 Fedora:Fedora NP-ANT-M ; ! ""
 Felix:Felix NP-ANT-M ; ! ""
@@ -2121,6 +2159,10 @@ Eha:Eha NP-ANT-F ; ! ""
 Ekaterina:Ekaterina NP-ANT-F ; ! ""
 Elena:Elena NP-ANT-F ; ! ""
 Gördüynän:Gördüynän NP-ANT-F ; ! ""
+Valeriu:Valeriu NP-ANT-M ; ! ""
+Yavuz:Yavuz NP-ANT-M ; ! ""
+Zaza:Zaza NP-ANT-M ; ! ""
+Zlatko:Zlatko NP-ANT-M ; ! ""
 
  
 Ago:Ago NP-ANT-M ; ! ""
@@ -2370,6 +2412,7 @@ Menevşa:Menevşa NP-ANT-F ; ! ""
 Merle:Merle NP-ANT-F ; ! ""
 Hakan:Hakan NP-ANT-M ; ! ""
 Helgi:Helgi NP-ANT-M ; ! ""
+Zinovya:Zinovya NP-ANT-F ; ! ""
 
 İstorik:İstorik NP-ANT-M ; ! ""
 İvangos:İvangos NP-ANT-M ; ! ""
@@ -2427,6 +2470,16 @@ TÜRKSOY:TÜRKSOY NP1-ORG ;
 LEXICON Cognomena
 Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
+Kruusement:Kruusement NP-COG-MF ; ! ""
+Vaarik:Vaarik NP-COG-MF ; ! ""
+Vähi:Vähi NP-COG-MF ; ! ""
+Väli:Väli NP-COG-MF ; ! ""
+Veesaar:Veesaar NP-COG-MF ; ! ""
+Veli:Veli NP-COG-MF ; ! ""
+Viires:Viires NP-COG-MF ; ! ""
+Viller:Viller NP-COG-MF ; ! ""
+Zalında:Zalında NP-COG-MF ; ! ""
+
 Ban:Ban NP-COG-MF ; ! ""
 Kattai:Kattai NP-COG-MF ; ! ""
 Kroat:Kroat NP-COG-MF ; ! ""
@@ -2441,11 +2494,12 @@ Adriatik:Adriatik NP-COG-MF ; ! ""
 Arsevenin:Arsevenin NP-COG-MF ; ! ""
 Bass:Bass NP-COG-MF ; ! ""
 Bayazid:Bayazid NP-COG-MF ; ! ""
-Bozbey:Bozbey NP-COG-MF ; ! ""
+Bozbey:Bozbey NP-COG-MF ; ! "" 
+Lunga:Lunga NP-COG-MF ; ! ""
 Enseyişin:Enseyişin NP-COG-MF ; ! ""
 Grahmez:Grahmez NP-COG-MF ; ! ""
 Edinaya:Edinaya NP-COG-MF ; ! ""
-
+Dobrov:Dobrov NP-COG-MF ; ! ""
 Ştefan:Ştefan NP-COG-MF ; ! ""
 Tarmo:Tarmo NP-COG-MF ; ! ""
 Tepegöz:Tepegöz NP-COG-MF ; ! ""
@@ -2480,7 +2534,7 @@ Karacaoğlan:Karacaoğlan NP-COG-MF ; ! ""
 Koppel:Koppel NP-COG-MF ; ! ""
 Lill:Lill NP-COG-MF ; ! ""
 Makidon:Makidon NP-COG-MF ; ! ""
-
+Golubovski:Golubovski NP-COG-MF ; ! ""
 Mägi:Mägi NP-COG-MF ; ! ""
 Mogutenko:Mogutenko NP-COG-MF ; ! ""
 Udovenko:Udovenko NP-COG-MF ; ! ""
@@ -2728,6 +2782,18 @@ kaavi:kaavi A1 ;
 açik:açik A1 ; ! ""
 cengin:cengin A1 ; ! ""
 çölmek:çölmek A1 ; ! ""
+deyil:deyil A1 ; ! ""
+uzak:uzak A1 ; ! ""
+varlı:varlı A1 ; ! ""
+volontör:volontör A1 ; ! ""
+yalpak:yalpak A1 ; ! ""
+yarı:yarı A1 ; ! ""
+yaslı:yaslı A1 ; ! ""
+yaygın:yaygın A1 ; ! ""
+yırtık:yırtık A1 ; ! ""
+yorgun:yorgun A1 ; ! ""
+zarar:zarar A1 ; ! ""
+
 
 eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
@@ -3233,7 +3299,11 @@ bulgurlan:bulgurlan V-IV ; ! ""
 dök:dök V-IV ; ! ""
 gül:gül  V-IV ; ! ""
 inan:inan V-IV ; ! ""
-
+uzan:uzan V-IV ; ! ""
+yık:yık V-TV ;
+den:den V-IV ; ! ""
+lafeder:lafeder V-IV ;
+sözlän:sözlän V-IV ;
 
 
 LEXICON Pronouns 
@@ -3255,6 +3325,7 @@ kendisi:kendisi PRON-REF ; ! "self"
 birisi:birisi PRON-QNT ; ! "somebody"
 hangı:hangı PRON-ITG-INFL ;
 hangı:hangi PRON-ITG-INFL ;
+neyi:neyi PRON-ITG-INFL ;
 kimisi:kimisi PRON-ITG-INFL ;
 hepsi:hepsi PRON-QNT  ;
 
@@ -3350,6 +3421,7 @@ y%n:y%n ABBR ; ! ""
 N:N ABBR ; ! ""
 e%y%i:e%y%i ABBR ; ! ""
 
+Z:Z ABBR ; ! ""
 
 ç%o:ç%o ABBR ;
 D:D ABBR ;
