@@ -1704,12 +1704,35 @@ gagauz:gagauz N1 ; ! ""
 ingiliz:ingiliz N1 ; ! ""
 bulgar:bulgar N1 ; ! ""
 azerbaycan:azerbaycan N1 ; ! ""
-
+kişilik:kişilik N1 ; ! ""
+Kış:Kış N1 ; ! ""
+kısmet:kısmet  N1 ; ! ""
+sovetskaya:sovetskaya N1 ; ! ""
+öğrenci:öğrenci N1 ; ! ""
+raport:raport N1 ; ! ""
+renk:renk N1 ; ! ""
+ruus:ruus N1 ; ! ""
+sandık:sandık N1 ; ! ""
+saz:saz N1 ; ! ""
+sekretar:sekretar N1 ; ! ""
+senat:senat N1 ; ! ""
+sırt:sırt N1 ; ! ""
+şişä:şişä N1 ; ! ""
+soba:soba N1 ; ! ""
+sofra:sofra N1 ; ! ""
+sonucu:sonucu N1 ; ! ""
+spiker:spiker N1 ; ! ""
+spor:spor N1 ; ! ""
+stanın:stanın N1 ; ! ""
+stêd:stêd N1 ; ! ""
+steonoz:steonoz N1 ; ! ""
+süjet:süjet N1 ; ! ""
+surinam:surinam N1 ; ! ""
 
 
 
 !!!LANGUAGES!!!!!
-kirill:kirill N1 ; ! ""
+kiril:kiril N1 ; ! ""
 moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
@@ -2192,6 +2215,12 @@ Antarktida:Antarktida NP-TOP ; ! ""
 Arizona:Arizona NP-TOP ; ! ""
 Aruba:Aruba NP-TOP ; ! ""
 Atsena:Atsena NP-TOP ; ! ""
+Mersin:Mersin NP-TOP ; ! ""
+Mısır:Mısır NP-TOP ; ! ""
+Paris:Paris NP-TOP ; ! ""
+Sivas:Sivas NP-TOP ; ! ""
+Somali:Somali NP-TOP ; ! ""
+Şuşa:Şuşa NP-TOP ; ! ""
 
 
 
@@ -2253,6 +2282,8 @@ Aili:Aili NP-ANT-F ; ! ""
 Andrej:Andrej NP-ANT-F ; ! ""
 Astrid:Astrid NP-ANT-F ; ! ""
 
+Musa:Musa NP-ANT-M ; ! "
+Mustafa:Mustafa NP-ANT-M ; ! "
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
@@ -2544,6 +2575,7 @@ UNEC:UNEC NP1-ORG ;
 TOBB:TOBB NP1-ORG ;
 ATO:ATO NP1-ORG ;                 
 TÜRKSOY:TÜRKSOY NP1-ORG ;
+SSC:SSC NP1-ORG ;
 
 
 
@@ -2554,7 +2586,7 @@ Teder:Teder NP-COG-MF ; ! ""
 Tinn:Tinn NP-COG-MF ; ! ""
 Toom:Toom NP-COG-MF ; ! ""
 Urb:Urb NP-COG-MF ; ! ""
-
+Suits:Suits NP-COG-MF ; ! ""
 Atatürk:Atatürk NP-COG-MF ; ! ""
 Demirel:Demirel NP-COG-MF ; ! ""
 Kruusement:Kruusement NP-COG-MF ; ! ""
@@ -2924,10 +2956,16 @@ erkek:erkek A1 ; ! ""
 fukaara:fukaara A1 ; ! ""
 tıynak:tıynak A1 ; ! ""
 tuç:tuç A1 ; ! ""
-
+satın:satın A1 ;
 hızlı:hızlı A1 ; ! ""
 kırmızı:kırmızı A1 ;
 pek:pek A1 ; ! ""
+kisa:kisa A1 ; ! ""
+mutlak:mutlak A1 ; ! ""
+sert:sert A1 ; ! ""
+sţenaya:sţenaya A1 ; ! ""
+stih:stih A1 ; ! ""
+taşlan:taşlan A1 ; ! ""
 
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
@@ -3079,6 +3117,8 @@ acaba:acaba ADV3 ; ! ""
 burda:burda ADV3 ; ! ""
 näänı:näänı ADV3 ; ! ""
 aazdan:aazdan ADV3 ;
+Ozamandan:Ozamandan ADV3 ;
+
 
 evelki:evelki ADV3; ! ""
 sık:sık ADV3 ; ! ""
@@ -3404,6 +3444,8 @@ sözlän:sözlän V-IV ;
 tamamnan:tamamnan V-IV ; ! ""
 bil:bil V-TV ; ! ""
 avla:avla V-IV ;
+sus:sus V-IV ;
+
 
 LEXICON Pronouns 
 
@@ -3519,6 +3561,9 @@ y%e:y%e  ABBR ; ! ""
 y%n:y%n ABBR ; ! ""
 N:N ABBR ; ! ""
 e%y%i:e%y%i ABBR ; ! ""
+R:R ABBR ; ! ""
+S:S ABBR ; ! ""
+
 
 Z:Z ABBR ; ! ""
 T:T ABBR ; ! ""
