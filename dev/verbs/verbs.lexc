@@ -159,6 +159,7 @@ V-IMPER ;
 LEXICON V-DER
 %<coop%>:%>%{I%}ş V-COMMON ;
 %<pass%>:%>%{i%}%{L%} V-COMMON ;
+%<caus%>:%>%{D%}%{I%}r V-COMMON ;
 
  V-COMMON ;
 
