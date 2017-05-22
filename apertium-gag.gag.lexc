@@ -261,7 +261,7 @@ V-NONFIN-COMMON ;
 %<pass%>:%>%{i%}ş # ;
 %<pass%>:%>t # ;
 %<prog%>:%>%{A%}yor # ;
-!%<ger%>:%>m{A%} V-PERS-AOR ;
+!%<ger%>:%>m{A%} V-PERS-AOR ; 
 
 
 LEXICON V-IV 
@@ -1715,6 +1715,7 @@ ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
 franțuz:franțuz N1 ;
 bulgarca:bulgarca N1 ;
+azerbaycanca:azerbaycanca N1 ; ! ""
 ukrain:ukrain N1 ; ! ""
 dan:dan  N1 ; ! ""
 alban:alban N1 ; ! ""
@@ -1767,9 +1768,23 @@ tuz:tuz N1 ;
 ekmek:ekmek N1 ; ! ""
 üçbuçuk:üçbuçuk N1 ; ! ""
 Uuelys:uelys N1 ; ! ""
-                                                  
+aslı:aslı N1 ;                                                  
 ural:ural N1 ; ! ""
 zaametçi:zaametçi N1 ; ! ""
+abzațlar:abzațlar N1 ; ! ""
+afgan:afgan N1 ; ! ""
+aftalık:aftalık N1 ; ! ""
+agrar:agrar N1 ; ! ""
+agrikultura:agrikultura N1 ; ! ""
+alfabet:alfabet N1 ; ! ""
+aprilin:aprilin N1 ; ! ""
+arka:arka N1 ; ! ""
+armän:armän N1 ; ! ""
+auç:auç N1 ; ! ""
+avrasya:avrasya N1 ; ! ""
+azerbaycanca:azerbaycanca N1 ; ! ""
+azpetrol:azpetrol N1 ; ! ""
+altıncık:altıncık N1 ; ! ""
 
 
 
@@ -2169,6 +2184,14 @@ Tofa:Tofa NP-TOP ; ! ""
 Tonga:Tonga NP-TOP ; ! ""
 Tülüküü:Tülüküü NP-TOP ; ! ""
 Tunis:Tunis NP-TOP ; ! ""
+Afina:Afina NP-TOP ; ! ""
+Aleksandrovka:Aleksandrovka NP-TOP ; ! ""
+Aljir:Aljir NP-TOP ; ! ""
+amerika:amerika NP-TOP ; ! ""
+Antarktida:Antarktida NP-TOP ; ! ""
+Arizona:Arizona NP-TOP ; ! ""
+Aruba:Aruba NP-TOP ; ! ""
+Atsena:Atsena NP-TOP ; ! ""
 
 
 
@@ -2487,7 +2510,17 @@ Tiia:Tiia NP-ANT-M ; ! ""
 Triin:Triin NP-ANT-M ; ! ""
 Ülvi:Ülvi NP-ANT-M ; ! ""
 Tanja:Tanja NP-ANT-F ; ! ""
-
+Ahmet:Ahmet NP-ANT-M ; ! ""
+Aksel:Aksel NP-ANT-M ; ! ""
+Albert:Albert NP-ANT-M ; ! ""
+Alli:Alli NP-ANT-M ; ! ""
+Arno:Arno NP-ANT-M ; ! ""
+Aasa:Aasa NP-ANT-F ; ! ""
+Agnes:Agnes NP-ANT-F ; ! ""
+Aime:Aime NP-ANT-F ; ! ""
+Aivar:Aivar NP-ANT-F ; ! ""
+Ajda:Ajda NP-ANT-F ; ! ""
+Alla:Alla NP-ANT-F ; ! ""
 
 
 
@@ -2509,7 +2542,7 @@ SSRB:SSRB NP1-ORG ;
 UNEC:UNEC NP1-ORG ;
 ÜNESKO:ÜNESKO NP1-ORG ;
 TOBB:TOBB NP1-ORG ;
-                  
+ATO:ATO NP1-ORG ;                 
 TÜRKSOY:TÜRKSOY NP1-ORG ;
 
 
@@ -2600,7 +2633,7 @@ Tabunşçik:Tabunşçik NP-COG-MF ; ! ""
 Tamm:Tamm NP-COG-MF ; ! ""
 
 Manoff:Manoff NP-COG-MF ; ! ""
-Nikolaeviç:Nikolaev NP-COG-MF ; ! ""
+Nikolaeviç:Nikolaeviç NP-COG-MF ; ! ""
 EŞİLER:EŞİLER NP-COG-MF ; ! ""
 FİLAT:FİLAT NP-COG-MF ; ! ""
 Gäncä:Gäncä NP-COG-MF ; ! ""
@@ -2719,6 +2752,12 @@ Panthera:Panthera NP-COG-MF ; ! ""
 Saksan:Saksan NP-COG-MF ; ! ""
 Pärn:Pärn NP-COG-MF ; ! ""
 Rebane:Rebane NP-COG-MF ; ! ""
+Aarma:Aarma NP-COG-MF ; ! ""
+Ander:Ander NP-COG-MF ; ! ""
+Andre:Andre NP-COG-MF ; ! ""
+Aren:Aren NP-COG-MF ; ! ""
+Arseven:Arseven NP-COG-MF ; ! ""
+Ayrancıoğlu:Ayrancıoğlu NP-COG-MF ; ! ""
 
 
 İsmailov:İsmailov NP-COG-MF ; ! ""
@@ -3077,7 +3116,7 @@ nerdä:nerdä ADV3  ; ! ""
 
 nicäl:nicäl ADV3  ; ! ""
 nice:nice ADV3  ; ! ""
-
+amacıyla:amacıyla ADV3 ;
 
 
 
@@ -3171,6 +3210,7 @@ boyunca:boyunca POST ; ! "during"
 dolayın:dolayın POST ; ! ""
 ise:ise POST ; ! ""
 
+                                    
 
 
 
@@ -3240,7 +3280,7 @@ gör: gör V-TV ;
 bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
-yolla:yolla V-TV ;
+yollan:yollan V-TV ;
 kablet:kablet V-TV ;
 duu:duu V-TV ;
 düşün:düşün V-TV ;
@@ -3253,6 +3293,7 @@ urgula:urgula V-TV ;
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 bekle:bekle V-TV ;
+yinan:yinan V-IV ;
 tut:tut V-TV ;
 özlä:özlä V-TV ; ! "miss" 
 aara:aara V-TV ;
@@ -3362,6 +3403,7 @@ lafeder:lafeder V-IV ;
 sözlän:sözlän V-IV ;
 tamamnan:tamamnan V-IV ; ! ""
 bil:bil V-TV ; ! ""
+avla:avla V-IV ;
 
 LEXICON Pronouns 
 
@@ -3487,14 +3529,23 @@ u%z:u%z ABBR ; ! ""
 D:D ABBR ;
 e:e ABBR ;
 
+                               
+b%a%a:b%a%a ABBR ;
+b%a:b%a ABBR ;
+B:B ABBR ;
+
+
+
 ! FMT: These are parts of numerals, e.g. 1936-cı
 cı:cı ABBR ;
 cü:cü ABBR ;
 cu:cu ABBR ;
 ci:ci ABBR ;
 nci:nci ABBR ;
-
-
+ncü:ncü ABBR ;
+ncı:ncı ABBR ;
+dän:dän ABBR ;
+na:na ABBR ;
 
 
 
