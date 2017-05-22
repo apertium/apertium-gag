@@ -111,7 +111,8 @@ LEXICON V-GNA
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
-
+%<gpr_1%>:%>s%{A%} # ;
+%<gpr_2%>:%>%{A}rs%{A%} # ;
 !%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
 
 
@@ -130,8 +131,7 @@ LEXICON V-GPR
 %<gpr_aor%>:%>{A%}r V-PERS-AOR  ;
 
 !%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
-!%<gpr_1%>:%>s%{A%} # ;
-!%<gpr_2%>:%>%{A}rs%{A%} # ;
+
 
 
 
