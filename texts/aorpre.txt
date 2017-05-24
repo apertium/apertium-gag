@@ -1,20 +1,9 @@
-istäärmiş
-benzäärmiş
-däärdilär
-zeetläärdilär
-Sooäär
-özläärmiş
-büüyärmiş, Örüyärdi
-bul-un-u-er,bul-u-er, duu-er
-uyu-y-er, oku-y-er 
-taşı-y-er-lar
-sesli-y-er
-bekle-y-er
-duyer
-koruyer
+
 
 Şimdiki zaman:  -Êr  -êr, -er
 Geniş zaman: -Ar  -ar, -är
+
+
 
 271	<pres>	yapêr		yap-Êr		10 yaşından beeri “Vekil” güreş klubunda serbest güreş sekţiyasında trenirovka yapêr.
 138	<pres>	eder		et-Êr		“Kaynak” Fondu fıkaaralara hem üüsüzlerä cok yardım eder.		
@@ -22,3 +11,37 @@ Geniş zaman: -Ar  -ar, -är
 121	?	deer		de-?		O emen bakmeer näänı itirer şaşkilerini o suvazleer onun başını da deer.
 23	?	söleerim	söle-?-im	Altını imzaladıktan sora, baalılıklardan kurtuluşumun uuruna çay söleerim
 2	<aor>	edär		et-Ar		Kitayda ayırıca dil olan, salarcada, laf edär 70,000 insan.
+3       <aor>   edärdi          et-Ar-di        O vakıtlarda padişahlık edärdi imperator Dioklitian, angısı en titsi koolardı hristiannarı.
+8       <aor>   gidärdi         git-är-di       Bir sabaalän o genä gidärdi sokakça aaramaa iş.
+46      ?       gider           git-Êr          Da gider adam. Avşam üstü geler oolu kırdan, babu çıkayor karşı ooluna da deer:            
+2       ?       gideer          git-?           O adamnar da gideerlär Tepägözün yanına.
+3      <pres>   annader         annat-Êr        Poet nicä kuan, ucer çiçektän çiçää, nektar aarer, sora taa annader, ani bu uçmakta, 
+3      <aor>    annadar         annat-Ar        Neredän da geçärmiş, hepsinä annadarmış bobasının çektiklerini hem dä kendi needini dooruluk için.
+7      <pres>   annadêr         annad-Êr        Bu yıl yapılacek işlär için TİKA koordinatoru Nevzat EŞİLER annadêr.
+3      <pres>   unudardı        unut-Ar         Açan o başlaardı muzika yazmaa unudardı uyku için saymaazdı zaametini, korumaazdı saalını.
+3      <pres>   unudêrlar       unut-Êr         Onnar (partiyalar) bizi koyun erinä kullanêrlar. Sora unudêrlar.
+8      <pres>   içer            iç-Êr           Gelmiş dev evä, baksa Yuvan iyer içer karıynan, o da oturmuş imää.
+3      <pres>   baker           bak-Êr          Yaklaştı o seraya, orada sa pençeredän baker padişaa hanum.
+15     <aor>    bakardı         bak-Ar          Kaplan sa bakardı derecää dooru. Çoçuk kararladı
+8      <pers>   bakêr           bak-Êr          Kendi uşaana bir buka ekmek kazanmaa deyni aalemin uşaklarını bakêr.
+
+
+
+
+
+1      <pres>  yatêr            yat-Êr         Bir iş belli - bunun altında nesa yatêr? Bu soruşun cuvabı nekadar çok susakta saklı kalacek,
+1      <pres>  yaterım          yat-Êr         nicâ lirikalı poeziyası: Hep yaterım, uyanenm Ba erda, ba yukarda. 
+1      <pres>  seçer            seç-Êr         baladaları Hayduk İvan poeması Anılmış Çadır legendası Andrey stihli masalı Kuşlar bey seçerlär hem   başka.                                         başka.
+1      <pres>  seçärdi          seç-Ar         Büünkü günädän Başkanı Gagauziyanın halkı seçärdi.
+1      <pres>  bakeer           bak-Êr         Nata dilinä hem kulturasına büük pragmatizmaylan bakeer, aktiv oler türlü toplantılarda, kongreslerdä.
+
+
+
+
+
+
+
+ 
+
+
+

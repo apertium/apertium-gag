@@ -2210,7 +2210,7 @@ Tunis:Tunis NP-TOP ; ! ""
 Afina:Afina NP-TOP ; ! ""
 Aleksandrovka:Aleksandrovka NP-TOP ; ! ""
 Aljir:Aljir NP-TOP ; ! ""
-amerika:amerika NP-TOP ; ! ""
+
 Antarktida:Antarktida NP-TOP ; ! ""
 Arizona:Arizona NP-TOP ; ! ""
 Aruba:Aruba NP-TOP ; ! ""
@@ -3117,7 +3117,7 @@ acaba:acaba ADV3 ; ! ""
 burda:burda ADV3 ; ! ""
 näänı:näänı ADV3 ; ! ""
 aazdan:aazdan ADV3 ;
-Ozamandan:Ozamandan ADV3 ;
+ozaman:ozaman ADV3 ;
 
 
 evelki:evelki ADV3; ! ""
