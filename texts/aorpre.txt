@@ -12,3 +12,13 @@ sesli-y-er
 bekle-y-er
 duyer
 koruyer
+
+Şimdiki zaman:  -Êr  -êr, -er
+Geniş zaman: -Ar  -ar, -är
+
+271	<pres>	yapêr		yap-Êr		10 yaşından beeri “Vekil” güreş klubunda serbest güreş sekţiyasında trenirovka yapêr.
+138	<pres>	eder		et-Êr		“Kaynak” Fondu fıkaaralara hem üüsüzlerä cok yardım eder.		
+
+121	?	deer		de-?		O emen bakmeer näänı itirer şaşkilerini o suvazleer onun başını da deer.
+23	?	söleerim	söle-?-im	Altını imzaladıktan sora, baalılıklardan kurtuluşumun uuruna çay söleerim
+2	<aor>	edär		et-Ar		Kitayda ayırıca dil olan, salarcada, laf edär 70,000 insan.
