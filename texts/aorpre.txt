@@ -24,6 +24,28 @@ Geniş zaman: -Ar  -ar, -är
 3      <pres>   baker           bak-Êr          Yaklaştı o seraya, orada sa pençeredän baker padişaa hanum.
 15     <aor>    bakardı         bak-Ar          Kaplan sa bakardı derecää dooru. Çoçuk kararladı
 8      <pers>   bakêr           bak-Êr          Kendi uşaana bir buka ekmek kazanmaa deyni aalemin uşaklarını bakêr.
+4      <pres>   ister           iste-?          Onu beenmiş sever onu. Pek ister onu. Çocuun sevdasınnan Menevşa çiçek oler bir büük aaç.
+20     <pres>   isteer          iste-Êr         O isteer gagauzların olsun kendi ayırı gazetası da çıksın aftalık ya hergün.
+8      <aor>    istär           iste-Ar         Demişlär: “Ne istärsin bizdän baaşış?”        
+10     <aor>    istäär          iste-?          Gezin görün istäärseniz bütün dünneyi, kalmasın hiç bir köşesi dä,
+3      <aor>    baarar          baar-Ar         Neçin delikatça olmeer Allahım? baarardı çift için dä koruntusuz adam.
+2      <pres>   baarer          baar-Êr         Çocuk deri sırtında tanımeer onu. Çıkıp baarer Tepägözä. Takışmasın bu onun aardına.
+3      <pres>   baarêr          baar-Êr         dördüncüsü söleer, ani arhivleri sökmüş; beçincisi baarêr, ani gagauz dilindä şkola açaceymış;
+10     <pres>   buluer          bul-u-Êr        îstoria buluer gagauzlan" Kara Denizin gün batisinin kenarinda, hem taa ülen tarafinda bulunuer bir büük gagauz küü,
+
+2      <aor>    bulardılar      bul-Ar          Onnar lafetmääzdilär, sade susmasınnar deyni, ama lafçıların arasında bulardılar kendi keskin fıkraların erini.
+
+7     <pres>    buler           bul-Êr          Soruşturer da buler o hanın serayını hem onun yanında Zaariyi.
+8     <pres>    bulêr           bul-Êr          “Gagauziya Başkan yardımcısı Nikolay STOYANOVun teklifini bakannık dooru bulêr da ona görä hepsi kaldırılma soruşlarda:
+
+9     <aor>     bulunar         bulun-Ar        O gagauzları pek sevärdi, gazetamızı pek sevärdi, herkerä yardımda bulunardı.
+9     <pres>    buluner         bulun-Êr        İlk gagauz yazıcıların arasında buluner Nikolay Tanasoglu da anılmış şairin profesorun,
+12    <pres>    bulunuer        bulun-u-Êr      Kara Denizin gün batisinin kenarinda, hem taa ülen tarafinda bulunuer bir büük gagauz küü,
+3     ?         bulunurmuş      bulun-u-r-mIş   Basarabiya geçärmiş bir çok kıtlık hem yokluk vakıtlardan, bulunurmuş Romanıya krallıı altında.
+2     <pres>    uyurmuş         uyu-r-muş       Adam kalkayor, da iyer o potmarı, çingenä sa uyurmuş.
+
+
+
 
 
 
@@ -34,7 +56,7 @@ Geniş zaman: -Ar  -ar, -är
 1      <pres>  seçer            seç-Êr         baladaları Hayduk İvan poeması Anılmış Çadır legendası Andrey stihli masalı Kuşlar bey seçerlär hem   başka.                                         başka.
 1      <pres>  seçärdi          seç-Ar         Büünkü günädän Başkanı Gagauziyanın halkı seçärdi.
 1      <pres>  bakeer           bak-Êr         Nata dilinä hem kulturasına büük pragmatizmaylan bakeer, aktiv oler türlü toplantılarda, kongreslerdä.
-
+1      <pres>  uyuyerlar        uyu-yer-lar    Gecä zebralar uyuyerlar, ama onnarın var kendi bekçileri, angılarıuyumeerlar, seslenerlärherbir fışırtıya.
 
 
 
