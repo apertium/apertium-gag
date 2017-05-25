@@ -44,8 +44,12 @@ Geniş zaman: -Ar  -ar, -är
 3     ?         bulunurmuş      bulun-u-r-mIş   Basarabiya geçärmiş bir çok kıtlık hem yokluk vakıtlardan, bulunurmuş Romanıya krallıı altında.
 2     <pres>    uyurmuş         uyu-r-muş       Adam kalkayor, da iyer o potmarı, çingenä sa uyurmuş.
 
+57    ?         yaşeer          yaşa-?          Acı balık (Latin: "Rhodeus sericeus") — Aziya, Evropa hem Rusiya da yaşeer.Türkiyede Marmara denizi, Karadeniz hem akarlarda göllerde yaşeer.
 
-
+35   ?          yaşêêr         yaşa-?           Bunnarın içindä taa çok gençlär hem bunnarın çoyu Komrat’ta hem Çadır’da yaşêêr.
+26   <pres>     olêr           ol-Êr            Her yılın Komrat “Atatürk” bibliotekasında “İlkyaz resim sergisi” olêr.
+21   <pers>     oler           ol-Êr            Şindi hepsi tersinä oler, insan çok işleer, kaçarak gezer, ama raatlık bulameer. Yaamurlar hep yaameer!
+19   <pres>     olur           ol               Okuyucular gülerlär, ama gülüşlär olur kimi sıra çok kahıra soksunnar, kannı yaş akıtsınnar yaşamanın kötülükleri için.
 
 
 
