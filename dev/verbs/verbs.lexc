@@ -100,7 +100,8 @@ GER-N-INFL-COMMON ;
 LEXICON V-GER
 %<ger_past%>:%>%{D%}%{I%}k GER-SUBST ;
 %<ger_abst%>:%>%{й%}{I%}ş GER-SUBST ;
-%<ger%>:%>m%{A%}k GER-SUBST  ;
+%<ger_1%>:%>m%{A%}k GER-SUBST  ;
+%<ger_1%>:%>m%{A%}%{A%} GER-SUBST  ;
 %<ger_nfh%>:%>m%{I%}ş GER-SUBST  ;
 
 %<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
@@ -110,9 +111,16 @@ LEXICON V-GNA
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
-%<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
-%<gpr_1%>:%>s%{A%} # ;
-%<gpr_2%>:%>%{A}rs%{A%} # ;
+%<gna_when1%>:%>%{й}%{I%}nc%{A%}%{k%} # ;
+%<gna_aor%>:%>%{A%}r V-PERS-AOR ;
+%<gna_ferq%>:%>%{A%} # ;
+%<gna_time1%>:%>%{D%}%{I%}kç{A%} # ;
+%<gna_time2%>:%>%{D%}%{I%}kt{A%}n # ;
+%<gna_when2%>:%>%{D%}%{I%}yn%{A%}n # ;
+%<gna_3%>:%>k%{A%}n%{A%} # ;
+%<gna%>%<neg%>:%>m%{A%}d%{A%}%{A%}n # ;
+%<gna_1%>:%>s%{A%} # ;
+%<gna_2%>:%>%{A%}rs%{A%} # ;
 !%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
 
 
@@ -126,8 +134,9 @@ LEXICON V-GPR
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{A%} POSSESSIVES ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
-
-%<gpr_past%>:%>%{D%}%{I%}k # ;
+%<gpr_past1%>:%>%{D%}%{I%}%{I%}yn{A%}n # ;
+%<gpr_past2%>:%>%{D%}%{I%}k # ;
+%<gpr_past2%>%<neg%>:%>m%{A%}%{D%}%{I%}k # ;
 %<gpr_aor%>:%>{A%}r V-PERS-AOR  ;
 
 !%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
