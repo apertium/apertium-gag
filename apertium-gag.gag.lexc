@@ -1850,8 +1850,15 @@ sözlük:sözlük N1 ; ! ""
 susuzluk:susuzluk N1 ; ! ""
 yoksuzluk:yoksuzluk N1 ; ! ""
 
+religiya:religiya N1 ; ! ""
+meteorologiya:meteorologiya N1 ; ! ""
+avtobus:avtobus N1 ; ! ""
+krisis:krisis N1 ; ! ""
 
 LEXICON ProperNouns 
+
+Balkariya:Balkariya NP-TOP ; ! ""
+Çerkesiya:Çerkesiya NP-TOP ; ! ""
 
 Arnaut:Arnaut NP-TOP ; ! ""
 Baku:Baku NP-TOP ; ! ""
@@ -1870,6 +1877,9 @@ Buryatiya:Buryatiya NP-TOP ; ! ""
 Boliviya:Boliviya NP-TOP ; ! ""
 Besarabiya:Besarabiya NP-TOP ;! ""
 Başkiriya:Başkiriya NP-TOP ;! ""
+Başkırdistan:Başkırdistan NP-TOP ; ! ""
+Başkırdistan:Başkurdistan NP-TOP ; ! "" ! Dir/LR
+Başkırdistan:Başkortostan NP-TOP ; ! "" ! Dir/LR
 Belarus:Belarus NP-TOP ;! ""
 Adana:Adana NP-TOP ;! ""
 Nemtä:Nemtä NP-TOP ;! ""
@@ -1933,6 +1943,7 @@ Sodom:Sodom NP-TOP ; ! ""
 Stefan:Stefan NP-ANT-M ; ! ""
 Sіmon:Sіmon NP-ANT-M ; ! ""
 Tіmofey:Tіmofey NP-ANT-M ; ! ""
+Tristan:Tristan NP-ANT-M ; ! ""
 
 Şri% Lanka:Şri% Lanka NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
@@ -1948,6 +1959,8 @@ Abhaziya:Abhaziya NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
 Ankara:Ankara NP-TOP ; ! ""
 Armeniya:Armeniya NP-TOP ; ! ""
+Ermenistan:Ermenistan NP-TOP ; ! ""
+Ermenistan:ermenistan NP-TOP ; ! "" ! Dir/LR
 Albaniya:Albaniya NP-TOP ; ! ""
 Asuriya:Asuriya NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
@@ -2002,6 +2015,8 @@ Keçiya:Keçiya NP-TOP ; ! ""
 Keniya:Keniya NP-TOP ; ! ""
 Kazakliya:Kazakliya NP-TOP ; ! ""
 Kazahstan:Kazahstan NP-TOP ; ! ""
+Kazahstan:Qazaqstan NP-TOP ; ! "" ! Dir/LR
+Kazahstan:Kazakhstan NP-TOP ; ! "" ! Dir/LR
 Karaçaevo:Karaçaevo NP-TOP ; ! ""
 Atlas:Atlas NP-TOP ; ! "" ; ! ""
 Balkan:Balkan NP-TOP ; ! ""; ! ""
@@ -2016,6 +2031,9 @@ Komrat:Komrat NP-TOP ; ! ""
 Kişinöv:Kişinöv NP-TOP ; ! ""
 Kareliya:Kareliya NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
+Kırgızstan:Kirgizstan NP-TOP ; ! "" ! Dir/LR
+Kırgızstan:Kirgizistan NP-TOP ; ! "" ! Dir/LR
+Kırgızstan:Kırgızistan NP-TOP ; ! "" ! Dir/LR
 Kipra:Kipra NP-TOP ; ! ""
 Korboliya:Korboliya NP-TOP ; ! ""
 Kaliforniya:Kaliforniya NP-TOP ; ! ""
