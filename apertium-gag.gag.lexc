@@ -1829,7 +1829,26 @@ cümlä:cümlä N1 ; ! ""
 dağlık:dağlık N1 ; ! ""
 dalga:dalga N1 ; ! ""
 babo:babo N1 ; ! ""
-
+energetika:energetika N1 ; ! ""
+ense:ense N1 ; ! ""
+eşää:eşää N1 ; ! ""
+eskimos:eskimos N1 ;
+aleut:aleut N1 ; ! ""
+evel:evel N1 ; ! ""
+evlad:evlad N1 ; ! ""
+fasıl:fasıl N1 ; ! ""
+fidan:fidan N1 ; ! ""
+fıkra:fıkra N1 ; ! ""
+fillär:fillär N1 ; ! ""
+fondu:fondu N1 ; ! ""
+forma:forma N1 ; ! ""
+Galata:Galata N1 ; ! ""
+gemi:gemi N1 ; ! ""
+gol:gol N1 ; ! ""
+grafik:grafik N1 ; ! ""
+gramatika:gramatika N1 ; ! ""
+gripası:gripası N1 ; ! ""
+Gumanitar:Gumanitar N1 ; ! 
 
 
 
@@ -2353,6 +2372,13 @@ Paris:Paris NP-TOP ; ! ""
 Sivas:Sivas NP-TOP ; ! ""
 Somali:Somali NP-TOP ; ! ""
 Şuşa:Şuşa NP-TOP ; ! ""
+Espadanedo:Espadanedo NP-TOP ; ! ""
+Evrоpa:Evrоpa NP-TOP ; ! ""
+Giovanni:Giovanni NP-TOP ; ! ""
+Grenada:Grenada NP-TOP ; ! ""
+Guam:Guam NP-TOP ; ! ""
+Guernsey:Guernsey NP-TOP ; ! ""
+Gürcistan:Gürcistan NP-TOP ; ! ""
 
 
 
@@ -2387,6 +2413,14 @@ Valeriu:Valeriu NP-ANT-M ; ! ""
 Yavuz:Yavuz NP-ANT-M ; ! ""
 Zaza:Zaza NP-ANT-M ; ! ""
 Zlatko:Zlatko NP-ANT-M ; ! ""
+Eugen:Eugen NP-ANT-M ; ! ""
+Franc:Franc NP-ANT-M ; ! ""
+Gorazd:Gorazd NP-ANT-M ; ! ""
+Gregor:Gregor NP-ANT-M ; ! ""
+Grigoriy:Grigoriy NP-ANT-M ; ! ""
+Guido:Guido NP-ANT-M ; ! ""
+Ester:Ester NP-ANT-F ; ! ""
+
 
  
 Ago:Ago NP-ANT-M ; ! ""
@@ -2981,6 +3015,7 @@ SSC:SSC NP1-ORG ;
 
 
 
+
 LEXICON Cognomena
 Talvik:Talvik NP-COG-MF ; ! ""
 Tauşancı:Tauşancı NP-COG-MF ; ! ""
@@ -3358,6 +3393,8 @@ Suursööt:Suursööt NP-COG-MF ; ! ""
 Süvalep:Süvalep NP-COG-MF ; ! ""
 Suve:Suve NP-COG-MF ; ! ""
 Suvero:Suvero NP-COG-MF ; ! ""
+Ervin:Ervin NP-COG-MF ; ! ""
+
 
 Konstantinov:Konstantinov NP-COG-OV ; ! ""
 Radulov:Radulov NP-COG-OV ; ! ""
@@ -3453,6 +3490,17 @@ incä:incä A1 ; ! ""
 kabaat:kabaat A1 ; ! ""
 kahır:kahır A1 ; ! ""
 kalın:kalın A1 ; ! ""
+epika:epika A1 ; ! ""
+erif:erif A1 ; ! ""
+esabı:esabı A1 ; ! ""
+êstrada:êstrada A1 ; ! ""
+geçerli:geçerli A1 ; ! ""
+general:general A1 ; ! ""
+                                              
+gözel:gözel A1 ; ! ""
+gündüz:gündüz A1 ; ! ""
+güneşli:güneşli A1 ; ! ""
+
 
 yok:yok A2 ; ! ""
 maavi:maavi A2 ;  ! "blue"
@@ -4058,7 +4106,10 @@ brayor:brayor V-TV ; ! ""
 açıklê:açıklê V-TV ; ! ""
 ara:ara V-TV ; ! ""
 cezala:cezala V-TV ; ! ""
-ekle:ekle V-TV ; ! ""  
+ekle:ekle V-TV ; ! "" 
+gez:gez V-IV ; ! ""
+gecele:gecele V-IV ; ! ""
+ 
 
 LEXICON Pronouns 
 
@@ -4156,6 +4207,10 @@ i%d%i:i%d%i ABBR ; ! ""
 M%S%K:M%S%K ABBR ; ! ""
 l%a:l%a ABBR ; ! ""
 L%y:L%y ABBR ; ! ""
+e%d%i:e%d%i ABBR ; ! ""
+F:F ABBR ; ! ""
+
+
 
 B%a:B%a ABBR ; ! ""
 b%.:b%. ABBR  ; ! ""
