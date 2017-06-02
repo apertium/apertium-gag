@@ -1834,6 +1834,22 @@ zorluk:zorluk N1 ; ! ""
 zulum:zulum N1 ; ! ""
 
 
+annamsızlık:annamsızlık N1 ; ! ""
+baamsızlık:baamsızlık N1 ; ! ""
+bitkisizlik:bitkisizlik N1 ; ! ""
+dinsizlik:dinsizlik N1 ; ! ""
+düzensizlik:düzensizlik N1 ; ! ""
+hayarsızlık:hayarsızlık N1 ; ! ""
+hırsızlık:hırsızlık N1 ; ! ""
+ırsızlık:ırsızlık N1 ; ! ""
+işsizlik:işsizlik N1 ; ! ""
+kayılsızlık:kayılsızlık N1 ; ! ""
+kuvetsizlik:kuvetsizlik N1 ; ! ""
+raatsızlık:raatsızlık N1 ; ! ""
+sözlük:sözlük N1 ; ! ""
+susuzluk:susuzluk N1 ; ! ""
+yoksuzluk:yoksuzluk N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
