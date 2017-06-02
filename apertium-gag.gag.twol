@@ -1,7 +1,7 @@
 Alphabet
 
     A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
-    a ä â b c ç d e ê f g h ı i i̇ j k l m n o ö p r s ş ș t ţ ț u ü v y z
+    a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
  %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê %{E%}:ê %{E%}:e %{E%}:y
  %{I%}:u %{I%}:i %{I%}:ı %{I%}:ü %{й%}:y %{й%}:0
@@ -9,7 +9,7 @@ Alphabet
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
  %{s%}:s %{s%}:0
  %{n%}:n %{n%}:0
- %{D%}:d %{D%}:t
+ %{D%}:d 
  %{L%}:l %{L%}:n
 
  %>:0  ;
@@ -19,10 +19,38 @@ Sets
 Vowel = A E Ä I O Ö U Ü Y Ý 
         a e ä i o ö u ü y ý ;
 
+HardVow = A Â O I U
+          a â o ı u ;
+
+SoftVow = E Ä İ Ö Ü
+          e ä i ö ü ;
+
+RoundVow = O Ö U Ü
+           o ö u ü ;
+
+FlatVow = A Â E İ I 
+          a â e i ı ;
+ 
+           
+
+CnsVcls   = F S T K Ç Ş H P 
+           f s t k ç ş h p ;
+            
+
+
+
 Rules 
 
 "Delete morpheme boundary"
 %>:0 <=> _ ;
+
+"{D} changed to t when after a stem-final voiceless consonant" 
+
+%{D%}:t <=> :CnsVcls %>:0 _ ;  
+
+"{T} change to d before vowels "
+
+%{T%}:d <=> %>:0 _ :Vowel ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

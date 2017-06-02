@@ -933,7 +933,7 @@ deportaţiya:deportaţiya N1 ;
 dezinformaţiya:dezinformaţiya N1 ;
 dramaturgiya:dramaturgiya N1 ;
 dönmää:dönmää N1 ; ! ""
-deyni:deyni N2 ; ! ""
+
 dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
 dışarı:dışarı N1 ; ! ""
@@ -1808,6 +1808,26 @@ avrasya:avrasya N1 ; ! ""
 azerbaycanca:azerbaycanca N1 ; ! ""
 azpetrol:azpetrol N1 ; ! ""
 altıncık:altıncık N1 ; ! ""
+akt:akt N1 ; ! ""
+balada:balada N1 ; ! ""
+basamak:basamak N1 ; ! ""
+başlangıç:başlangıç N1 ; ! ""
+belge:belge N1 ; ! ""
+bereket:bereket N1 ; ! ""
+                                                         
+bilet:bilet N1 ; ! ""
+bilmeyce:bilmeycelär N1 ; ! ""
+binnik:binnik N1 ; ! ""
+borcunu:borcunu N1 ; ! ""
+çeçen:çeçen N1 ; ! ""
+ceng:ceng N1 ; ! ""
+ceza:ceza N1 ; ! ""
+Çobancık:Çobancık N1 ; ! ""
+çoçuk:çoçuk N1 ; ! ""
+cümlä:cümlä N1 ; ! ""
+dağlık:dağlık N1 ; ! ""
+dalga:dalga N1 ; ! ""
+babo:babo N1 ; ! ""
 
 
 
@@ -2637,6 +2657,12 @@ Aime:Aime NP-ANT-F ; ! ""
 Aivar:Aivar NP-ANT-F ; ! ""
 Ajda:Ajda NP-ANT-F ; ! ""
 Alla:Alla NP-ANT-F ; ! ""
+Anti:Anti NP-ANT-M ; ! ""
+Bedri:Bedri NP-ANT-M ; ! ""
+Blaž:Blaž NP-ANT-M ; ! ""
+Bojan:Bojan NP-ANT-M ; ! ""
+Çukotka:Çukotka NP-ANT-M ; ! ""
+Alee:Alee NP-ANT-F ; ! ""
 
 
 Kiev:Kiev NP-TOP ; ! ""
@@ -2877,6 +2903,19 @@ Lizbon:Lizbon NP-TOP ; ! "" !
 Amsterdam:Amsterdam NP-TOP ; ! "" ! 
 Tahran:Tahran NP-TOP ; ! "" ! 
 Yakutsk:Yakutsk NP-TOP ; ! "" ! 
+Balçik:Balçik NP-TOP ; ! "" !
+Barbados:Barbados NP-TOP ; ! "" !
+Beliz:Beliz NP-TOP ; ! "" !
+Berlin:Berlin NP-TOP ; ! "" !
+Brazylia:Brazylia NP-TOP ; ! "" !
+Bruney:Bruney NP-TOP ; ! "" !
+Buenos:Buenos NP-TOP ; ! "" !
+Burundi:Burundi  NP-TOP ; ! "" !
+Çad:Çad NP-TOP ; ! "" !
+Çili:Çili NP-TOP ; ! "" !
+Çomahtur:Çomahtur NP-TOP ; ! "" !
+Çayır:Çayır NP-TOP ; ! "" !
+
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
 !Franțuz% Gayanası:Franțuz% Gayanası NP-TOP ; ! "" ! 
@@ -2974,7 +3013,14 @@ Ribič:Ribič NP-COG-MF ; ! ""
 Selçuk:Selçuk NP-COG-MF ; ! ""
 Skalykovskiy:Skalykovskiy  NP-COG-MF ; ! ""
 Toompere:Toompere NP-COG-MF ; ! ""
-
+Afanasievna:Afanasievna NP-COG-MF ; ! ""
+Avci:Avci NP-COG-MF ; ! ""
+Benedetto:Benedetto NP-COG-MF ; ! ""
+Bülbüloğlu:Bülbüloğlu NP-COG-MF ; ! ""
+Cavazza:Cavazza NP-COG-MF ; ! ""
+Danilo:Danilo NP-COG-MF ; ! ""
+Danilova:Danilova NP-COG-MF ; ! ""
+Daradur:Daradur NP-COG-MF ; ! ""
 Kösä:Kösä NP-COG-MF ; ! ""
 Kong:Kong NP-COG-MF ; ! ""
 Ostapçuk:Ostapçuk NP-COG-MF ; ! "
@@ -3413,6 +3459,7 @@ resmi:resmi A1 ; ! ""
 meraklı:meraklı A1 ;  ! "curious, curious"
 maasuz:maasuz A1 ;
 çok:çok A1 ; ! ""
+çok:cok A1 ;
 ani:ani A1 ; ! ""
 kaavi:kaavi A1 ;
 açik:açik A1 ; ! ""
@@ -3555,6 +3602,10 @@ geç:geç A1 ; ! ""
 ak:ak A1 ; ! ""
 afanasiy:afanasiy A1 ; ! ""
 çox:çox A1 ; ! ""
+batak:batak A1 ; ! ""
+bilgiç:bilgiç A1 ; ! ""
+cuvab:cuvab A1 ; ! ""
+
 pop:pop A1 ; ! ""
 roak:roak A1 ; ! ""
 şahmatı:şahmatı A1 ; ! ""
@@ -3581,6 +3632,8 @@ hırsız:hırsız A1 ; ! ""
 az:az A2 ;
 az:aaz A2 ;
 ikram:ikram A1 ; ! ""
+çabuk:çabuk A1 ; ! ""
+
 
 LEXICON Adverbs
 yırak:yırak ADV3 ; ! ""
@@ -3664,7 +3717,7 @@ itibarıyla:itibarıyla ADV3  ; ! ""
 nänı:nänı ADV3  ; ! ""
 sıravardı:sıravardı ADV3  ; ! ""
 nerdä:nerdä ADV3  ; ! ""
-
+beter:beter ADV3  ; ! ""
 nicäl:nicäl ADV3  ; ! ""
 nice:nice ADV3  ; ! ""
 amacıyla:amacıyla ADV3 ;
@@ -3725,6 +3778,7 @@ bu% kadar:bu% kadar DET-QNT ; ! "this much"
 şu% kadar:şu% kadar DET-QNT ; ! "that much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
 nekadar:nekadar DET-QNT ; ! "how much"
+birer:birer DET-QNT ;
 
 biraz:biraz DET-QNT ; ! "a bit"
 zeedä:zeedä DET-QNT ; ! "a lot"
@@ -3733,7 +3787,7 @@ kaç:kaç DET-QNT ; ! ""
 okadar:okadar DET-QNT ; ! ""
 bukadar:bukadar DET-QNT ; ! "this much"
 neyä:neyä DET-QNT ;
-
+bazı:bazı DET-QNT ;
 çoyu:çoyu DET-QNT ;
 birkaç:birkaç DET-IND ; ! "some"
 birär:birär DET-QNT ; ! "one each"
@@ -3760,7 +3814,7 @@ ilgili:ilgili POST ; ! "regarding"
 boyunca:boyunca POST ; ! "during"
 dolayın:dolayın POST ; ! ""
 ise:ise POST ; ! ""
-
+başça:başça POST ; ! ""
                                     
 
 
@@ -3777,7 +3831,7 @@ dur:dur V-IV;
 yaşê:yaşê V-IV ;
 yaşe:yaşe V-TV ;
 de:de V-TV ; 
-git:git V-IV ;
+git:gi%{T%} V-TV ;
 ver:ver V-TV ;
 çık:çık V-IV ;
 çeked:çeked V-TV ;
@@ -3794,7 +3848,7 @@ açıkla:açıkla V-TV ;
 yaz:yaz V-TV ;
 yazı:yazı V-TV ;
 aç:aç V-TV ;
-et:et V-TV ;
+et:e%{T%} V-TV ;
 evlän:evlän V-IV ;
 ol:ol V-IV ;
 getir:getir V-TV ;
@@ -3844,6 +3898,7 @@ urgula:urgula V-TV ;
 danış:danış V-IV ;
 düzül:düzül V-IV ;
 bekle:bekle V-TV ;
+bekle:beklee V-TV ;
 yinan:yinan V-IV ;
 tut:tut V-TV ;
 özlä:özlä V-TV ; ! "miss" 
@@ -3954,9 +4009,12 @@ lafeder:lafeder V-IV ;
 sözlän:sözlän V-IV ;
 tamamnan:tamamnan V-IV ; ! ""
 bil:bil V-TV ; ! ""
-avla:avla V-IV ;
+avla:avla V-TV ;
 sus:sus V-IV ;
-
+deyn:deyn V-IV ; ! ""
+baala:baala V-TV ; ! ""
+bas:bas V-TV ; ! ""
+brayor:brayor V-TV ; ! "" 
 
 LEXICON Pronouns 
 
@@ -4089,6 +4147,13 @@ e:e ABBR ;
 b%a%a:b%a%a ABBR ;
 b%a:b%a ABBR ;
 B:B ABBR ;
+
+
+
+
+C:C ABBR ;
+
+d:d ABBR ;
 
 
 
