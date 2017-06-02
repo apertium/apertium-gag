@@ -7,7 +7,7 @@ Alphabet
  %{I%}:u %{I%}:i %{I%}:ı %{I%}:ü %{й%}:y %{й%}:0
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
- %{s%}:s %{s%}:0
+ %{s%}:s %{s%}:0 %{T%}:t
  %{n%}:n %{n%}:0
  %{D%}:d 
  %{L%}:l %{L%}:n
@@ -16,8 +16,8 @@ Alphabet
 
 Sets
 
-Vowel = A E Ä I O Ö U Ü Y Ý 
-        a e ä i o ö u ü y ý ;
+Vowel = A E Ê Ä I O Ö U Ü Y Ý 
+        a e ê ä i o ö u ü y ý ;
 
 HardVow = A Â O I U
           a â o ı u ;
@@ -50,7 +50,7 @@ Rules
 
 "{T} change to d before vowels "
 
-%{T%}:d <=> %>:0 _ :Vowel ;
+%{T%}:d  <=>  _  %>:0  :Vowel  ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

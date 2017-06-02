@@ -2,6 +2,7 @@
 Multichar_Symbols
 
 %<n%>             ! Noun
+
 %<adj%>
 %<prn%>   !Pronun
 %<postadv%>
@@ -58,7 +59,7 @@ Multichar_Symbols
 %{A%}              ! a e ä
 %{й%}              ! y
 %{E%}              ! ê e y
-
+%{T%}
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
 %<f%>              ! Feminine     
@@ -1876,6 +1877,27 @@ avtobus:avtobus N1 ; ! ""
 krizis:krizis N1 ; ! ""
 görev:görev N1 ; ! ""
 
+angliyca:angliyca N1 ; ! ""
+ansambli:ansambli N1 ; ! ""
+birtaani:birtaani N1 ; ! ""
+boks:boks N1 ; ! ""
+derä:derä N1 ; ! ""
+dergi:dergi N1 ; ! ""
+deri:deri N1 ; ! ""
+dernek:dernek N1 ; ! ""
+devletlik:devletlik N1 ; ! ""
+diploma:diploma N1 ; ! ""
+diplomat:diplomat N1 ; ! ""
+dolaşık:dolaşık N1 ; ! ""
+dua:dua N1 ; ! ""
+dünya:dünya N1 ; ! ""
+duruk:duruk N1 ; ! ""
+düüş:düüş N1 ; ! ""
+duvar:duvar N1 ; ! ""
+eğitim:eğitim N1 ; ! ""
+ekonomi:ekonomi N1 ; ! ""
+element:element N1 ; ! ""
+
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
@@ -1986,6 +2008,11 @@ Uher:Uher NP-ANT-M ; ! ""
 Viljo:Viljo NP-ANT-M ; ! ""
 Willem:Willem NP-ANT-M ; ! ""
 Yrjö:Yrjö NP-ANT-M ; ! ""
+Eino:Eino NP-ANT-M ; ! ""
+Ejder:Ejder NP-ANT-M ; ! ""
+Diana:Diana NP-ANT-F ; ! ""
+Elvira:Elvira NP-ANT-F ; ! ""
+Ene:Ene NP-ANT-F ; ! ""
 
 
 Asіya:Asіya NP-ANT-F ; ! ""
@@ -2914,7 +2941,10 @@ Burundi:Burundi  NP-TOP ; ! "" !
 Çad:Çad NP-TOP ; ! "" !
 Çili:Çili NP-TOP ; ! "" !
 Çomahtur:Çomahtur NP-TOP ; ! "" !
-Çayır:Çayır NP-TOP ; ! "" !
+Çayır:Çayır  NP-TOP ; ! "" !
+Dominikan:Dominikan NP-TOP ; ! "" !
+Dumlupınar:Dumlupınar NP-TOP ; ! "" !
+Ekvatorial:Ekvatorial NP-TOP ; ! "" !
 
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
@@ -2970,7 +3000,8 @@ Veli:Veli NP-COG-MF ; ! ""
 Viires:Viires NP-COG-MF ; ! ""
 Viller:Viller NP-COG-MF ; ! ""
 Zalında:Zalında NP-COG-MF ; ! ""
-
+Derganc:Derganc NP-COG-MF ; ! ""
+Dmitrievna:Dmitrievna NP-COG-MF ; ! ""
 Ban:Ban NP-COG-MF ; ! ""
 Kattai:Kattai NP-COG-MF ; ! ""
 Kroat:Kroat NP-COG-MF ; ! ""
@@ -3633,6 +3664,13 @@ az:az A2 ;
 az:aaz A2 ;
 ikram:ikram A1 ; ! ""
 çabuk:çabuk A1 ; ! ""
+bronza:bronza A1 ; ! ""
+doğru:doğru A1 ; ! ""
+drama:drama A1 ; ! ""
+durgun:durgun A1 ; ! ""
+duygu:duygu A1 ; ! ""
+ecel:ecel A1 ; ! ""
+elvi:elvi A1 ; ! ""
 
 
 LEXICON Adverbs
@@ -3922,6 +3960,8 @@ uura:uura V-IV ;
 getir:getir V-TV ;
 başlê:başlê V-IV ;
 annat:annat V-TV ;
+dinnen:dinnen V-IV ;
+
 bul:bul V-TV ;
 bil:bil V-TV ;
 peydala:peydala V-TV ;
@@ -4014,7 +4054,11 @@ sus:sus V-IV ;
 deyn:deyn V-IV ; ! ""
 baala:baala V-TV ; ! ""
 bas:bas V-TV ; ! ""
-brayor:brayor V-TV ; ! "" 
+brayor:brayor V-TV ; ! ""
+açıklê:açıklê V-TV ; ! ""
+ara:ara V-TV ; ! ""
+cezala:cezala V-TV ; ! ""
+ekle:ekle V-TV ; ! ""  
 
 LEXICON Pronouns 
 
@@ -4118,6 +4162,8 @@ b%.:b%. ABBR  ; ! ""
 N%r:N%r ABBR ;
 A%l:A%l ABBR ;
 E:E  ABBR ;
+d%ə:d%ə ABBR ;
+D%K:D%K ABBR ;
 O%O%O:O%O%O ABBR ; ! ""
 of:of  ABBR ; ! ""
 is:is ABBR ; ! ""
