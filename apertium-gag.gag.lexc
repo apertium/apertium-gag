@@ -2649,6 +2649,244 @@ Lyvov:Lyvov NP-TOP ; ! ""
 Ljubov:Ljubov NP-ANT-F ; ! ""
 Krakov:Krakov NP-TOP ; ! ""
 
+Abejar:Abejar NP-TOP ; ! "" ! 
+Adıyaman:Adıyaman NP-TOP ; ! "" ! 
+Alaska:Alaska NP-TOP ; ! "" ! 
+Alconaba:Alconaba NP-TOP ; ! "" ! 
+Almatı:Almatı NP-TOP ; ! "" ! 
+Almazán:Almazán NP-TOP ; ! "" ! 
+Başküü:Başküü NP-TOP ; ! "" ! 
+Berlin:Berlin NP-TOP ; ! "" ! 
+Bratislava:Bratislava NP-TOP ; ! "" ! 
+Brüksel:Brüksel NP-TOP ; ! "" ! 
+Bursa:Bursa NP-TOP ; ! "" ! 
+Bêlţi:Bêlţi NP-TOP ; ! "" ! 
+Ceuta:Ceuta NP-TOP ; ! "" ! 
+Cibuti:Cibuti NP-TOP ; ! "" ! 
+Coltay:Coltay NP-TOP ; ! "" ! 
+Dezgincä:Dezgincä NP-TOP ; ! "" ! 
+Erivan:Erivan NP-TOP ; ! "" ! 
+Furio:Furio NP-TOP ; ! "" ! 
+Hakkari:Hakkari NP-TOP ; ! "" ! 
+Haydar:Haydar NP-TOP ; ! "" ! 
+Helsinki:Helsinki NP-TOP ; ! "" ! 
+Isparta:Isparta NP-TOP ; ! "" ! 
+Kasaba:Kasaba NP-TOP ; ! "" ! 
+Kıyiv:Kıyiv NP-TOP ; ! "" ! 
+Kiriyet:Kiriyet NP-TOP ; ! "" ! 
+Kongaz:Kongaz NP-TOP ; ! "" ! 
+Konya:Konya NP-TOP ; ! "" ! 
+Kuruv:Kuruv NP-TOP ; ! "" ! 
+Köseli% Rus:Köseli% Rus NP-TOP ; ! "" ! 
+Küü:Küü NP-TOP ; ! "" ! 
+Kıpçak:Kıpçak NP-TOP ; ! "" ! 
+Kırlannar:Kırlannar NP-TOP ; ! "" ! 
+Lefkoşa:Lefkoşa NP-TOP ; ! "" ! 
+Minsk:Minsk NP-TOP ; ! "" ! 
+Oslo:Oslo NP-TOP ; ! "" ! 
+Panama:Panama NP-TOP ; ! "" ! 
+Praga:Praga NP-TOP ; ! "" ! 
+Riga:Riga NP-TOP ; ! "" ! 
+Tallinn:Tallinn NP-TOP ; ! "" ! 
+Uetersen:Uetersen NP-TOP ; ! "" ! 
+Vaduz:Vaduz NP-TOP ; ! "" ! 
+Valetta:Valetta NP-TOP ; ! "" ! 
+Wellington:Wellington NP-TOP ; ! "" ! 
+Zagreb:Zagreb NP-TOP ; ! "" ! 
+Zonguldak:Zonguldak NP-TOP ; ! "" ! 
+Ágreda:Ágreda NP-TOP ; ! "" ! 
+Çadır:Çadır NP-TOP ; ! "" ! 
+Şırnak:Şırnak NP-TOP ; ! "" ! 
+Ţicleni:Ţicleni NP-TOP ; ! "" ! 
+İzmir:İzmir NP-TOP ; ! "" ! 
+Artvin:Artvin NP-TOP ; ! "" ! 
+Aydın:Aydın NP-TOP ; ! "" ! 
+Riyad:Riyad NP-TOP ; ! "" ! 
+Balıkesir:Balıkesir NP-TOP ; ! "" ! 
+Edirnä:Edirnä NP-TOP ; ! "" ! 
+Giresun:Giresun NP-TOP ; ! "" ! 
+Iıdır:Iıdır NP-TOP ; ! "" ! 
+Beyrut:Beyrut NP-TOP ; ! "" ! 
+Seul:Seul NP-TOP ; ! "" ! 
+Çili:Çili NP-TOP ; ! "" ! 
+Ekvador:Ekvador NP-TOP ; ! "" ! 
+Gayana:Gayana NP-TOP ; ! "" ! 
+Paragvay:Paragvay NP-TOP ; ! "" ! 
+Surinam:Surinam NP-TOP ; ! "" ! 
+Cebelitarık:Cebelitarık NP-TOP ; ! "" ! 
+Myanmar:Myanmar NP-TOP ; ! "" ! 
+Bruney:Bruney NP-TOP ; ! "" ! 
+Filippinner:Filippinner NP-TOP ; ! "" ! 
+Günduusu% Timor:Günduusu% Timor NP-TOP ; ! "" ! 
+Cezair:Cezair NP-TOP ; ! "" ! 
+Angola:Angola NP-TOP ; ! "" ! 
+Günbatısı% Sahara:Günbatısı% Sahara NP-TOP ; ! "" ! 
+Benin:Benin NP-TOP ; ! "" ! 
+Botsvana:Botsvana NP-TOP ; ! "" ! 
+Burkina% Faso:Burkina% Faso NP-TOP ; ! "" ! 
+Burundi:Burundi NP-TOP ; ! "" ! 
+Çad:Çad NP-TOP ; ! "" ! 
+Gabon:Gabon NP-TOP ; ! "" ! 
+Gana:Gana NP-TOP ; ! "" ! 
+Lesoto:Lesoto NP-TOP ; ! "" ! 
+Kabo% Verde:Kabo% Verde NP-TOP ; ! "" ! 
+Kamerun:Kamerun NP-TOP ; ! "" ! 
+Komorlar:Komorlar NP-TOP ; ! "" ! 
+Madagaskar:Madagaskar NP-TOP ; ! "" ! 
+Malavi:Malavi NP-TOP ; ! "" ! 
+Mali:Mali NP-TOP ; ! "" ! 
+Svazilend:Svazilend NP-TOP ; ! "" ! 
+Ruanda:Ruanda NP-TOP ; ! "" ! 
+Monzón:Monzón NP-TOP ; ! "" ! 
+Sydney:Sydney NP-TOP ; ! "" ! 
+Dong% Hoi:Dong% Hoi NP-TOP ; ! "" ! 
+Dili:Dili NP-TOP ; ! "" ! 
+Duşanbe:Duşanbe NP-TOP ; ! "" ! 
+Varşava:Varşava NP-TOP ; ! "" ! 
+L'yublyana:L'yublyana NP-TOP ; ! "" ! 
+Stockholm:Stockholm NP-TOP ; ! "" ! 
+Budapeşt:Budapeşt NP-TOP ; ! "" ! 
+Angoche:Angoche NP-TOP ; ! "" ! 
+Xai-Xai:Xai-Xai NP-TOP ; ! "" ! 
+Zavala:Zavala NP-TOP ; ! "" ! 
+Catandica:Catandica NP-TOP ; ! "" ! 
+Cuamba:Cuamba NP-TOP ; ! "" ! 
+Lichinga:Lichinga NP-TOP ; ! "" ! 
+Quelimane:Quelimane NP-TOP ; ! "" ! 
+Chicualacuala:Chicualacuala NP-TOP ; ! "" ! 
+Niger:Niger NP-TOP ; ! "" ! 
+Gvinaya:Gvinaya NP-TOP ; ! "" ! 
+Togo:Togo NP-TOP ; ! "" ! 
+Senegal:Senegal NP-TOP ; ! "" ! 
+Eritreya:Eritreya NP-TOP ; ! "" ! 
+Seyşeller:Seyşeller NP-TOP ; ! "" ! 
+Marokko:Marokko NP-TOP ; ! "" ! 
+Sudan:Sudan NP-TOP ; ! "" ! 
+Mavriki:Mavriki NP-TOP ; ! "" ! 
+Azorlar:Azorlar NP-TOP ; ! "" ! 
+Mayotte:Mayotte NP-TOP ; ! "" ! 
+Melilla:Melilla NP-TOP ; ! "" ! 
+Puntlend:Puntlend NP-TOP ; ! "" ! 
+Réunion:Réunion NP-TOP ; ! "" ! 
+Somaliland:Somaliland NP-TOP ; ! "" ! 
+Aland:Aland NP-TOP ; ! "" ! 
+Xankändi:Xankändi NP-TOP ; ! "" ! 
+Ağdam:Ağdam NP-TOP ; ! "" ! 
+Balakən:Balakən NP-TOP ; ! "" ! 
+Bərdə:Bərdə NP-TOP ; ! "" ! 
+Biləsuvar:Biləsuvar NP-TOP ; ! "" ! 
+Cəbrayıl:Cəbrayıl NP-TOP ; ! "" ! 
+Gədəbəy:Gədəbəy NP-TOP ; ! "" ! 
+Qax:Qax NP-TOP ; ! "" ! 
+Ucar:Ucar NP-TOP ; ! "" ! 
+Zəngilan:Zəngilan NP-TOP ; ! "" ! 
+Zaqatala:Zaqatala NP-TOP ; ! "" ! 
+Zərdab:Zərdab NP-TOP ; ! "" ! 
+Reşadiye:Reşadiye NP-TOP ; ! "" ! 
+Fındıklı:Fındıklı NP-TOP ; ! "" ! 
+Lice:Lice NP-TOP ; ! "" ! 
+Özalp:Özalp NP-TOP ; ! "" ! 
+Ilıca:Ilıca NP-TOP ; ! "" ! 
+Ürgüp:Ürgüp NP-TOP ; ! "" ! 
+Hualpén:Hualpén NP-TOP ; ! "" ! 
+Lota:Lota NP-TOP ; ! "" ! 
+Chiguayante:Chiguayante NP-TOP ; ! "" ! 
+Bolvadin:Bolvadin NP-TOP ; ! "" ! 
+Erzin:Erzin NP-TOP ; ! "" ! 
+Beyşehir:Beyşehir NP-TOP ; ! "" ! 
+İslahiye:İslahiye NP-TOP ; ! "" ! 
+Karapınar:Karapınar NP-TOP ; ! "" ! 
+Anamur:Anamur NP-TOP ; ! "" ! 
+Bodrum:Bodrum NP-TOP ; ! "" ! 
+Beypazarı:Beypazarı NP-TOP ; ! "" ! 
+Marmaris:Marmaris NP-TOP ; ! "" ! 
+Ayvalık:Ayvalık NP-TOP ; ! "" ! 
+Akçaabat:Akçaabat NP-TOP ; ! "" ! 
+Bor:Bor NP-TOP ; ! "" ! 
+Bulancak:Bulancak NP-TOP ; ! "" ! 
+Develi:Develi NP-TOP ; ! "" ! 
+Burhaniye:Burhaniye NP-TOP ; ! "" ! 
+Afşin:Afşin NP-TOP ; ! "" ! 
+Biga:Biga NP-TOP ; ! "" ! 
+Düziçi:Düziçi NP-TOP ; ! "" ! 
+Gönen:Gönen NP-TOP ; ! "" ! 
+Ceylanpınar:Ceylanpınar NP-TOP ; ! "" ! 
+Didim:Didim NP-TOP ; ! "" ! 
+Fatsa:Fatsa NP-TOP ; ! "" ! 
+Karacabey:Karacabey NP-TOP ; ! "" ! 
+Keşan:Keşan NP-TOP ; ! "" ! 
+Bismil:Bismil NP-TOP ; ! "" ! 
+Bozüyük:Bozüyük NP-TOP ; ! "" ! 
+Erbaa:Erbaa NP-TOP ; ! "" ! 
+Bergama:Bergama NP-TOP ; ! "" ! 
+Akşehir:Akşehir NP-TOP ; ! "" ! 
+Kahta:Kahta NP-TOP ; ! "" ! 
+Ergani:Ergani NP-TOP ; ! "" ! 
+Kuşadası:Kuşadası NP-TOP ; ! "" ! 
+Doobeyazıt:Doobeyazıt NP-TOP ; ! "" ! 
+Kırıkhan:Kırıkhan NP-TOP ; ! "" ! 
+Erciş:Erciş NP-TOP ; ! "" ! 
+Fethiye:Fethiye NP-TOP ; ! "" ! 
+Kozan:Kozan NP-TOP ; ! "" ! 
+Çerkesköy:Çerkesköy NP-TOP ; ! "" ! 
+Silopi:Silopi NP-TOP ; ! "" ! 
+Kadirli:Kadirli NP-TOP ; ! "" ! 
+Manavgat:Manavgat NP-TOP ; ! "" ! 
+Bafra:Bafra NP-TOP ; ! "" ! 
+Elbistan:Elbistan NP-TOP ; ! "" ! 
+Polatlı:Polatlı NP-TOP ; ! "" ! 
+İskenderun:İskenderun NP-TOP ; ! "" ! 
+İnegöl:İnegöl NP-TOP ; ! "" ! 
+Bandırma:Bandırma NP-TOP ; ! "" ! 
+Nazilli:Nazilli NP-TOP ; ! "" ! 
+Siverek:Siverek NP-TOP ; ! "" ! 
+Akhisar:Akhisar NP-TOP ; ! "" ! 
+Lüleburgaz:Lüleburgaz NP-TOP ; ! "" ! 
+Ceyhan:Ceyhan NP-TOP ; ! "" ! 
+Salihli:Salihli NP-TOP ; ! "" ! 
+Nizip:Nizip NP-TOP ; ! "" ! 
+Alanya:Alanya NP-TOP ; ! "" ! 
+Duduleşt:Duduleşt NP-TOP ; ! "" ! 
+İsrail:İsrail NP-TOP ; ! "" ! 
+Makao:Makao NP-TOP ; ! "" ! 
+Rıbniţa:Rıbniţa NP-TOP ; ! "" ! 
+Nha% Trang:Nha% Trang NP-TOP ; ! "" ! 
+Ho% Chi% Minh% City:Ho% Chi% Minh% City NP-TOP ; ! "" ! 
+Ba% Ria:Ba% Ria NP-TOP ; ! "" ! 
+Vung% Tau:Vung% Tau NP-TOP ; ! "" ! 
+Bien% Hoa:Bien% Hoa NP-TOP ; ! "" ! 
+Girne:Girne NP-TOP ; ! "" ! 
+İskele:İskele NP-TOP ; ! "" ! 
+Podgoritsa:Podgoritsa NP-TOP ; ! "" ! 
+Kırbaalı:Kırbaalı NP-TOP ; ! "" ! 
+Palestina:Palestina NP-TOP ; ! "" ! 
+Sent% Helena:Sent% Helena NP-TOP ; ! "" ! 
+Karakalpakistan:Karakalpakistan NP-TOP ; ! "" ! 
+Trojany:Trojany NP-TOP ; ! "" ! 
+Reagan:Reagan NP-ANT-M ; ! "" ! 
+Ronald:Ronald NP-COG-MF ; ! "" ! 
+Sohum:Sohum NP-TOP ; ! "" ! 
+Tshinvali:Tshinvali NP-TOP ; ! "" ! 
+Belgrad:Belgrad NP-TOP ; ! "" ! 
+Bukureş:Bukureş NP-TOP ; ! "" ! 
+Vilnüs:Vilnüs NP-TOP ; ! "" ! 
+Kopenhagen:Kopenhagen NP-TOP ; ! "" ! 
+London:London NP-TOP ; ! "" ! 
+Dublin:Dublin NP-TOP ; ! "" ! 
+Lizbon:Lizbon NP-TOP ; ! "" ! 
+Amsterdam:Amsterdam NP-TOP ; ! "" ! 
+Tahran:Tahran NP-TOP ; ! "" ! 
+Yakutsk:Yakutsk NP-TOP ; ! "" ! 
+
+!Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
+!Franțuz% Gayanası:Franțuz% Gayanası NP-TOP ; ! "" ! 
+!Kitay% Respublikası:Kitay% Respublikası NP-TOP ; ! "" ! (Tayvan)
+!Kitay% Halk% Respublikası:Kitay% Halk% Respublikası NP-TOP ; ! "" ! 
+!Fildişi% Kumsalı:Fildişi% Kumsalı NP-TOP ; ! "" ! 
+!Madeira% adaları:Madeira% adaları NP-TOP ; ! "" ! 
+
+
+
 
 Allah:Allah NP-AL ; ! ""
 Allah:Allaa NP-AL ; ! ""
