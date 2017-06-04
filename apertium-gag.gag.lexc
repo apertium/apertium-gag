@@ -1995,10 +1995,39 @@ yadımcı:yadımcı N1 ; ! ""
 yurisdikţiya:yurisdikţiya N1 ; ! ""
 zona:zona N1 ; ! ""
 
+decpotstvo:decpotstvo N1 ; ! ""
+dokazatelystvo:dokazatelystvo N1 ; ! ""
+ministerstvo:ministerstvo N1 ; ! ""
+pravitelstvo:pravitelstvo N1 ; ! ""
+pravitelystvo:pravitelystvo N1 ; ! ""
+predprinematelstvo:predprinematelstvo N1 ; ! ""
+rojdestvo:rojdestvo N1 ; ! ""
+torgpredstvo:torgpredstvo N1 ; ! ""
+zemstvo:zemstvo N1 ; ! ""
+
+artist:artist N1 ; ! ""
+ekonomist:ekonomist N1 ; ! ""
+ekonomist:êkonomist N1 ; ! "" ! Err/Orth
+etnografist:etnografist N1 ; ! ""
+hokkeyist:hokkeyist N1 ; ! ""
+karikatürist:karikatürist N1 ; ! ""
+kolonist:kolonist N1 ; ! ""
+kommunist:kommunist N1 ; ! ""
+metodist:metodist N1 ; ! ""
+naţionalist:naţionalist N1 ; ! ""
+profesionist:profesionist N1 ; ! ""
+publiţist:publiţist N1 ; ! ""
+puudist:puudist N1 ; ! ""
+raist:raist N1 ; ! ""
+solist:solist N1 ; ! ""
+speţialist:speţialist N1 ; ! ""
+
+
 jurnal:jurnal N1 ; ! ""
 jurnalcı:jurnalcı N1 ; ! ""
 
 başkasaba N2 ; ! ""
+
 
 LEXICON ProperNouns 
 
