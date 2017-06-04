@@ -763,6 +763,7 @@ at:at N1 ; ! ""
 altay:altay N1 ; ! ""
 avtomobil:avtomobil N1 ; ! ""
 asoţiaţiya:asoţiaţiya N1 ;
+investiţiya:investiţiya N1 ; ! ""
 ateş:ateş N1 ;
 arheologiya:arheologiya N1 ;
 antropologiya:antropologiya N1 ;
@@ -1117,7 +1118,8 @@ oda:oda N1 ;
 ölüm:ölüm N1 ;
 onuştan:onuştan N1 ;
 önderci:önderci N1 ;
-önemli:önemli N1 ; ! ""
+önemni:önemli N1 ; ! "" ! Err/Orth
+önemni:önemni N1 ; ! ""
 opera:opera N1 ; ! ""
 tatar:tatar N1 ; ! ""
 ulusal:ulusal N1 ; ! ""
@@ -2022,6 +2024,11 @@ raist:raist N1 ; ! ""
 solist:solist N1 ; ! ""
 speţialist:speţialist N1 ; ! ""
 
+upravleniya:upravleniya N1 ; ! ""
+tamojnä:tamojnä N1 ; ! ""
+kandidat:kandidat N1 ; ! ""
+akademik:akademik N1 ; ! ""
+komanda:komanda N1 ; ! ""
 
 jurnal:jurnal N1 ; ! ""
 jurnalcı:jurnalcı N1 ; ! ""
@@ -2033,6 +2040,8 @@ LEXICON ProperNouns
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
+
+Vladikavkaz:Vladikavkaz NP-TOP ; ! ""
 
 Arnaut:Arnaut NP-TOP ; ! ""
 Baku:Baku NP-TOP ; ! ""
@@ -2092,12 +2101,24 @@ Yemen:Yemen NP-TOP ; ! ""
 
 
 Aivo:Aivo NP-ANT-M ; ! ""
+Vadim:Vadim NP-ANT-M ; ! ""
+Anatoliy:Anatoliy NP-ANT-M ; ! ""
 Albin:Albin NP-ANT-M ; ! ""
 Aleks:Aleks NP-ANT-M ; ! ""
 Alexius:Alexius NP-ANT-M ; ! ""
 Angelina:Angelina NP-ANT-F ; ! ""
 Anneli:Anneli NP-ANT-F ; ! ""
+İrina:İrina NP-ANT-F ; ! ""
+İgor:İgor NP-ANT-M ; ! ""
+Tayyip:Tayyip NP-ANT-M ; ! ""
+Recep:Recep NP-ANT-M ; ! ""
+Lüdmila:Lüdmila NP-ANT-F ; ! ""
+Pavel:Pavel NP-ANT-M ; ! ""
+Kemal:Kemal NP-ANT-M ; ! ""
+
 Arnold:arnold NP-ANT-M ; ! ""
+Arnold:Arnold NP-ANT-M ; ! ""
+
 Arthur:Arthur NP-ANT-M ; ! ""
 Eda:Eda NP-ANT-F ; ! ""
 Eevi:Eevi NP-ANT-F ; ! ""
@@ -3064,6 +3085,9 @@ Karakalpakistan:Karakalpakistan NP-TOP ; ! "" !
 Trojany:Trojany NP-TOP ; ! "" ! 
 Reagan:Reagan NP-ANT-M ; ! "" ! 
 Ronald:Ronald NP-COG-MF ; ! "" ! 
+Erdoğan:Erdoğan NP-COG-MF ; ! ""
+Yıldırım:Yıldırım NP-COG-MF ; ! ""
+Kılıç:Kılıç NP-COG-MF ; ! ""
 Sohum:Sohum NP-TOP ; ! "" ! 
 Tshinvali:Tshinvali NP-TOP ; ! "" ! 
 Belgrad:Belgrad NP-TOP ; ! "" ! 
@@ -3131,6 +3155,7 @@ SSC:SSC NP1-ORG ;
 LEXICON Cognomena
 Talvik:Talvik NP-COG-MF ; ! ""
 Tauşancı:Tauşancı NP-COG-MF ; ! ""
+Kuus:Kuus NP-COG-MF ; ! ""
 Teder:Teder NP-COG-MF ; ! ""
 Tinn:Tinn NP-COG-MF ; ! ""
 Toom:Toom NP-COG-MF ; ! ""
@@ -4221,6 +4246,10 @@ cezala:cezala V-TV ; ! ""
 ekle:ekle V-TV ; ! "" 
 gez:gez V-IV ; ! ""
 gecele:gecele V-IV ; ! ""
+
+ekmeklän:ekmeklän V-IV ; ! ""
+tuzekmeklän:tuzekmeklän V-IV ; ! ""
+kuu:kuu V-TV ; ! ""
  
 
 LEXICON Pronouns 
