@@ -713,6 +713,10 @@ kırk:kırk NUM ;
 bin:bin NUM ;
 milion:milion NUM ;
 kırk:kırk NUM ; ! ""
+onbeş:onbeş NUM ; ! ""
+
+oniki:oniki NUM ; ! ""
+
 
 I:I NUM-ROMAN ; ! ""
 II:II NUM-ROMAN ; ! ""
@@ -1448,6 +1452,7 @@ may:may N1 ; ! ""
 ödül:ödül N1 ; ! ""
 sayfa:sayfa N1 ; ! ""
 sonra:sonra N1 ; ! ""
+öncä:öncä N1 ; ! ""
 şükür:şükür N1 ; ! ""
 sultan:sultan N1 ; ! ""
 tipardan:tipardan N1 ; ! ""
@@ -2097,6 +2102,30 @@ leleklär:leleklär N1 ; ! ""
 leo:leo  N1 ; ! ""
 Kadın:kadın N1 ; ! ""
 
+bak:bak N1 ; ! ""
+bakış:bakış N1 ; ! ""
+näända:näända N1 ; ! ""
+naşêy:naşêy N1 ; ! ""
+nogay:nogay N1 ; ! ""
+nomara:nomara N1 ; ! ""
+noyabri:noyabri N1 ; ! ""
+ocağ:ocağ N1 ; ! ""
+operacı:operacı N1 ; ! ""
+ordeni:ordeni N1 ; ! ""
+orqanizm:orqanizm N1 ; ! ""
+ortalık:ortalık N1 ; ! ""
+pali:pali N1 ; ! ""
+panayır:panayır N1 ; ! ""
+parçacık:parçacık N1 ; ! ""
+patriarhat:patriarhat N1 ; ! ""
+peçeneg:peçeneg N1 ; ! ""
+pedagoji:pedagoji N1 ; ! ""
+peetçi:peetçi N1 ; ! ""
+pençere:pençere N1 ; ! ""
+perioda:perioda N1 ; ! ""
+persica:persica  N1 ; ! ""
+
+
 
 başkasaba N2 ; ! ""
 
@@ -2259,6 +2288,13 @@ Kaljo:Kaljo NP-ANT-F ; ! ""
 Kersti:Kersti NP-ANT-F ; ! ""
 Lea:Lea NP-ANT-F ; ! ""
 Lehte:Lehte NP-ANT-F ; ! ""
+Nasreddin:Nasreddin NP-ANT-M ; ! ""
+Pille:Pille NP-ANT-F ; ! ""
+Oguzhan:Oguzhan NP-ANT-M ; ! ""
+Oli:Oli NP-ANT-M ; ! ""
+Otto:Otto NP-ANT-M ; ! ""
+Petra:Petra NP-ANT-M ; ! ""
+Petru:Petru NP-ANT-M ; ! ""
 
 
 
@@ -3248,7 +3284,11 @@ Ekvatorial:Ekvatorial NP-TOP ; ! "" !
 Kamçatka:Kamçatka NP-TOP ; ! "" !
 Karabağ:Karabağ NP-TOP ; ! "" !
 Kumık:Kumık NP-TOP ; ! "" !
-
+nemţä:nemţä NP-TOP ; ! "" !
+Nha:Nha NP-TOP ; ! "" !
+Norfolk:Norfolk NP-TOP ; ! "" !
+Odessa:Odessa NP-TOP ; ! "" !
+Papua:Papua NP-TOP ; ! "" !
 
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
@@ -3297,7 +3337,6 @@ Karm:Karm NP-COG-MF ; ! ""
 Kikas:Kikas NP-COG-MF ; ! ""
 Kilgas:Kilgas NP-COG-MF ; ! ""
 Kivirähk:Kivirähk NP-COG-MF ; ! ""
-Komrada:Komrada NP-COG-MF ; ! ""
 Laid:Laid NP-COG-MF ; ! ""
 
 Talvik:Talvik NP-COG-MF ; ! ""
@@ -3400,6 +3439,15 @@ Filat:Filat NP-COG-MF ; ! ""
 Gäncä:Gäncä NP-COG-MF ; ! ""
 Görgi:Görgi NP-COG-MF ; ! ""
 Härm:Härm NP-COG-MF ; ! ""
+
+Oja:Oja NP-COG-MF ; ! ""
+Onofrey:Onofrey NP-COG-MF ; ! ""
+Orav:Orav NP-COG-MF ; ! ""
+Ostan:Ostan NP-COG-MF ; ! ""
+Paolo:Paolo NP-COG-MF ; ! ""
+pardus:pardus NP-COG-MF ; ! ""
+Põder:Põder NP-COG-MF ; ! ""
+
 
 Jõgi:Jõgi NP-COG-MF ; ! ""
 Ayoglu:Ayoglu NP-COG-MF ; ! ""
@@ -4119,7 +4167,9 @@ beter:beter ADV3  ; ! ""
 nicäl:nicäl ADV3  ; ! ""
 nice:nice ADV3  ; ! ""
 amacıyla:amacıyla ADV3 ;
-
+netürlü:netürlü ADV3 ;
+neylän:neylän ADV3 ;
+orıy:orıy ADV3 ;
 
 
 
@@ -4214,6 +4264,9 @@ dolayın:dolayın POST ; ! ""
 ise:ise POST ; ! ""
 başça:başça POST ; ! ""
                                     
+
+ötää:ötää POST ; !""
+öter:öter POST; ! ""
 
 
 
@@ -4602,6 +4655,8 @@ M:M ABBR ;
 C:C ABBR ;
 
 d:d ABBR ;
+P:P ABBR ;
+n%o:n%o ABBR ;
 
 
 
