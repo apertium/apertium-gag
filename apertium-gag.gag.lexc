@@ -4191,6 +4191,22 @@ baaşla:baaşla V-IV ; ! ""
 peydala:peydala V-TV ; ! ""
 sürt:sürt V-TV ; ! ""
 erleş:erleş V-TV ; ! ""
+erleştir:erleştir V-TV ; ! "" ! Der/Caus
+çipleştir:çipleştir V-TV ; ! "" ! Der/Caus
+sözleş:sözleş V-IV ; ! ""
+gerçekleş:gerçekleş V-IV ; ! "" 
+gerçekleştir:gerçekleştir V-TV ; ! "" ! Der/Caus
+birleştir:birleştir V-TV ; ! "" ! Der/Caus
+üleştir:üleştir V-TV ; ! "" ! Der/Caus
+koyuleş:koyuleş V-TV ; ! "" ! Der/Caus
+kökleştir:kökleştir V-TV ; ! "" ! Der/Caus
+kaavileştir:kaavileştir V-TV ; ! "" ! Der/Caus
+kaavileş:kaavileş V-TV ; ! "" ! Der/Caus
+ileştir:ileştir V-TV ; ! "" ! Der/Caus
+iileştir:iileştir V-TV ; ! "" ! Der/Caus
+haberleş:haberleş V-IV ; ! ""
+birleş:birleş V-IV ; ! ""
+
 incele:incele V-TV ; ! ""
 iste:iste V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
