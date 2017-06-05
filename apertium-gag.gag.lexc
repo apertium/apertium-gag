@@ -1732,7 +1732,7 @@ ingiliz:ingiliz N1 ; ! ""
 bulgar:bulgar N1 ; ! ""
 azerbaycan:azerbaycan N1 ; ! ""
 kişilik:kişilik N1 ; ! ""
-Kış:Kış N1 ; ! ""
+kış:kış N1 ; ! ""
 kısmet:kısmet  N1 ; ! ""
 sovetskaya:sovetskaya N1 ; ! ""
 öğrenci:öğrenci N1 ; ! ""
@@ -1875,6 +1875,18 @@ grafik:grafik N1 ; ! ""
 gramatika:gramatika N1 ; ! ""
 gripası:gripası N1 ; ! ""
 Gumanitar:Gumanitar N1 ; ! 
+
+liţey:liţey N1 ; ! ""
+mandat:mandat N1 ; ! ""
+manevşa:manevşa N1 ; ! ""
+matematikaçı:matematikaçı N1 ; ! ""
+mediţina:mediţina N1 ; ! ""
+meropriyatiye:meropriyatiye N1 ; ! ""
+mezar:mezar N1 ; ! ""
+minudun:minudun N1 ; ! ""
+minut:minut N1 ; ! ""
+mitingçi:mitingçi N1 ; ! ""
+
 
 
 
@@ -2324,6 +2336,13 @@ Litvaniya:Litvaniya NP-TOP ; ! ""
 Libiya:Libiya NP-TOP ; ! ""
 Liviya:Liviya NP-TOP ; ! ""
 Liberiya:Liberiya NP-TOP ; ! ""
+
+Magadan:Magadan NP-TOP ; ! ""
+Maldivler:Maldivler NP-TOP ; ! ""
+Marşall:Marşall NP-TOP ; ! ""
+Mingäçevir:Mingäçevir NP-TOP ; ! ""
+Mozart:Mozart NP-TOP ; ! ""
+
 
 Latviya:Latviya NP-TOP ; ! ""
 Luţiya:Luţiya NP-TOP ; ! ""
@@ -2887,6 +2906,28 @@ Jure:Jure NP-ANT-M ; ! ""
 Jurij:Jurij NP-ANT-M ; ! ""
 Kristijan:Kristijan NP-ANT-M ; ! ""
 Iva:Iva NP-ANT-F ; ! ""
+
+Leo:Leo NP-ANT-M ; ! ""
+Ligor:Ligor NP-ANT-M ; ! ""
+Lojze:Lojze NP-ANT-M ; ! ""
+Madis:Madis NP-ANT-M ; ! ""
+Mahmut:Mahmut NP-ANT-M ; ! ""
+Mait:Mait NP-ANT-M ; ! ""
+Maja:Maja NP-ANT-M ; ! ""
+Mamedova:Mamedova NP-ANT-M ; ! ""
+Marjan:Marjan NP-ANT-M ; ! ""
+Marje:Marje NP-ANT-M ; ! ""
+Matiaş:Matiaş NP-ANT-M ; ! ""
+Matija:Matija NP-ANT-M ; ! ""
+Matjaž:Matjaž NP-ANT-M ; ! ""
+Mihayıl:Mihayıl NP-ANT-M ; ! ""
+Minos:Minos NP-ANT-M ; ! ""
+Liia:Liia NP-ANT-F ; ! ""
+Majda:Majda NP-ANT-F ; ! ""
+Mani:Mani NP-ANT-F ; ! ""
+Marija:Marija NP-ANT-F ; ! ""
+Mateja:Mateja NP-ANT-F ; ! ""
+
 
 
 Kiev:Kiev NP-TOP ; ! ""
@@ -3573,6 +3614,18 @@ Kuningas:Kuningas NP-COG-MF ; ! ""
 Kuntner:Kuntner NP-COG-MF ; ! ""
 Kürkçü:Kürkçü NP-COG-MF ; ! ""
 Kuusik:Kuusik NP-COG-MF ; ! ""
+Lepa:Lepa NP-COG-MF ; ! ""
+Lepik:Lepik NP-COG-MF ; ! ""
+Lepp:Lepp NP-COG-MF ; ! ""
+Liiger:Liiger NP-COG-MF ; ! ""
+Liiv:Liiv NP-COG-MF ; ! ""
+Lipp:Lipp NP-COG-MF ; ! ""
+Loo:Loo NP-COG-MF ; ! ""
+Luts:Luts NP-COG-MF ; ! ""
+Mikiver:Mikiver NP-COG-MF ; ! ""
+Mölder:Mölder NP-COG-MF ; ! ""
+mühit:mühit NP-COG-MF ; ! ""
+
 
 
 
@@ -3659,6 +3712,10 @@ büyük:büyük A1 ;
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
+merak:merak A1 ; ! ""
+miilli:miilli A1 ; ! ""
+motivi:motivi A1 ; ! ""
+
 
 demokratik:demokratik A1 ; ! ""
 
@@ -4460,6 +4517,7 @@ B:B ABBR ;
 J:J ABBR ;
 K:K ABBR ;
 L:L ABBR ;
+M:M ABBR ;
 
 
 
