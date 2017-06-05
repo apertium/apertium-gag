@@ -109,27 +109,18 @@ Barbarisms ;
 
    !!!!!!!!!!!!!!!!!!!!!!!!VERBS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
-LEXICON V-PERS-S2
-%<p1%>%<sg%>:%>%{i%}m # ; 
-%<p2%>%<sg%>:%>%{i%}n # ; 
-%<p3%>%<sg%>: #; 
-%<p1%>%<pl%>:%>%k # ; 
-%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ;
-%<pl%>:%>%{L%}%{A%}r # ;
-
-
 LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%n # ; 
-%<p3%>%<sg%>: # ; 
+%<p3%>%<sg%>:%>%{k%} # ; 
 %<p1%>%<pl%>:%>%{й%}%z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ; 
-%<pl%>:%>%{L%}%{A%}r V-GZ ;
-%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
-%<ifi%>:%>%{D%}%{I%} # ;
+%<p3%>%<pl%>:%>%{k%}l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r # ;
+%<ifi%>:%>%{й%}%{D%}%{I%} # ;
+%<cond%>:%>%{й%}s%{A%} # ;
+
+%<pl%>:%>%{L%}%{A%}r # ;
+
 
 LEXICON V-PERS-AOR
 %<p1%>%<sg%>:%>%{i%}m # ; 
@@ -138,139 +129,157 @@ LEXICON V-PERS-AOR
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
-!%<ifi%>:%>%{D%}%{I%} # ;
+%<ifi%>:%>%{й%}%{D%}%{I%} # ;
+%<dob%>:%>%{й%}%m%{I%}ş # ;
+%<pl%>:%>%{L%}%{A%}r # ;
 
 
-LEXICON V-PERS-PROG
-%<p1%>%<sg%>:%>%{i%}m # ; 
-%<p2%>%<sg%>:%>s%{I%}n # ; 
-%<p3%>%<sg%>: # ;
-%<p1%>%<pl%>:%>%{I%}z # ; 
-%<p2%>%<pl%>:%>%{I%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ;
+
+
+
+
 
 !!LEXICON V-COP
 !!%+i%<cop%>%<aor%>: V-PERS-S1 ;
 !!!%+ı%<cop%>%<aor%>: # ;
 
-LEXICON V-FINITE-REGULAR_NEGATIVE
-%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
-%<ifi%>:%>%{D%}%{I%}%{й%}%{D%}%{I%}  # ;
-%<nfh%>:%>m%{I%}ş V-PERS-PROG  ;
-%<aor%>:%>%{A%}r V-PERS-AOR ;
-%<aor%>:%>%{A%}r V-GZ ;
-%<aor%>:%>%{A%}r # ;
-%<aor%>:%>%{i%}r # ;
-%<aor%>:%>%{E%}r V-PERS-PROG ;
-%<prog%>:%>%{A%}yor V-PERS-S1 ;
-!%<gpr%>%<nfh%>:%>m%{I%}ş V-PERS-S1;
- %<inf%>:%>%>m%{A%}k # ;
-!%<gpr%>%<nfh%>:%>m%{I%}ş V-GPR-COMMON;
-!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
-%<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
-%<neg%>:%>m%{A%} # ;
-!%<ger%>:%>m%{A%} V-PERS-PROG ;
 
-LEXICON V-TENSE-ABIL
-%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
-%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEGATIVE ;
+
+!LEXICON V-TENSE-ABIL
+!%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
+!%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEGATIVE ;
 
 
 
-LEXICON V-GZ
+!LEXICON V-GZ
 !%{й%} # ;
+!%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
+!%<ifi%>:%>%{D%}%{I%} # ;
+! # ;
+
+
+
+LEXICON V-IMPER
+! The imperative, "çok yaşa!", "sigara içmeyin!"
+%<imp%>%<p2%>%<sg%>: # ;
+%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
+%<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n # ;
+%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
+
+
+
+LEXICON V-FINITE-IRREG-NEG
+%<neg%>%<gpr_aor%>:%>m%{A%}z # ;
+
+
+LEXICON V-FINITE-REGULAR_NEG
+! All of the finite tenses that take negative in -mA-
+%<ifi%>:%>%{D%}%{I%} V-PERS-S1 ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
-%<ifi%>:%>%{D%}%{I%} # ;
- # ;
+%<cond%>:%>%{s%}%{A%} V-PERS-AOR ;
 
 
-LEXICON V-GPR-COMMON
+!LEXICON V-GPR-COMMON
 !!ATTR ;
+!%<subst%>: SUBST ;
+
+
+
+
+LEXICON GER-N-INFL-COMMON
+CASES ;
+POSSESSIVES ;
+
+LEXICON GER-SUBST
+GER-N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r GER-N-INFL-COMMON ;
+
+LEXICON V-GER
+%<ger_past%>:%>%{D%}%{I%}k GER-SUBST ;
+%<ger_abst%>:%>%{й%}{I%}ş GER-SUBST ;
+%<ger_1%>:%>m%{A%}k GER-SUBST  ;
+%<ger_1%>:%>m%{A%}%{A%} GER-SUBST  ;
+%<ger_nfh%>:%>m%{I%}ş GER-SUBST  ;
+
+%<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
+
+
+
+LEXICON V-GPR-SUBST
 %<subst%>: SUBST ;
-
-LEXICON V-GERUNDS
-
-%<ger%>:%>m%{A%} # ;
-%<ger_past%>:%>%{D%}%{I%}k # ;
-%<ger_abst%>:%>%{й%}{I%}ş # ;
-%<ger%>:%>m%{A%}k # ;
-%<ger_nfh%>:m%{I%}ş V-GPR-COMMON ;
-
+%<subst%>%<pl%>:%>%{L}%{A%}r SUBST ;
 
 
 LEXICON V-GPR
-!!!Verbal adjectives
-%<gpr_rsub%>:%>%{й%}%{A%}n V-GPR-COMMON ;
+%<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
-%<gpr_rsub%>:%>%{й%}%{A%}n V-GZ ;
-%<aor%>:%>%{A%}r # ;
-%<aor%>:%>%{A%}r V-GZ ;
-%<gpr_nfh%>:%>m%{I%}ş V-GPR-COMMON ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-PERS-S1 ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{A%}k V-GZ ;
+%<gpr_fut%>:%>%{й%}%{A%}c%{A%} POSSESSIVES ;
+%<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
+%<gpr_past1%>:%>%{D%}%{I%}%{I%}yn{A%}n # ;
+%<gpr_past2%>:%>%{D%}%{I%}k # ;
+%<gpr_past2%>%<neg%>:%>m%{A%}%{D%}%{I%}k # ;
+%<gpr_aor%>:%>{A%}r V-PERS-AOR  ;
 
-%<neg%>%<ger%>:%>m{A%} POSSESSIVES ;
-!%<neg%>%<ger%>:%>m{A%}  V-PERS-AOR ;
-!%<neg%>%<ger%>:%>m{A%} V-GZ ;
-!!%<ger%>:%>%{y%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
-%<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
-%<ger_past%>:%>%{D%}%{I%}k # ;
+!%<gpr%>%<neg%>:%>m{A%} POSSESSIVES ;
 
 
-LEXICON GNA-KEN
-%<ken%>:%>ken # ;
+!LEXICON GNA-KEN
+!%<ken%>:%>ken # ;
 
 LEXICON V-GNA
-!!!Verbal adverbs
+%<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
-%<gna_when%>:%>%{й}%{I%}nc%{A%} # ;
+%<gna_when1%>:%>%{й}%{I%}nc%{A%}%{k%} # ;
+%<gna_aor%>:%>%{A%}r V-PERS-AOR ;
+%<gna_ferq%>:%>%{A%} # ;
+%<gna_time1%>:%>%{D%}%{I%}kç{A%} # ;
+%<gna_time2%>:%>%{D%}%{I%}kt{A%}n # ;
+%<gna_when2%>:%>%{D%}%{I%}yn%{A%}n # ;
+%<gna_3%>:%>k%{A%}n%{A%} # ;
+%<gna%>%<neg%>:%>m%{A%}d%{A%}%{A%}n # ;
 %<gna_1%>:%>s%{A%} # ;
-%<gna_2%>:%>%{A}rs%{A%} # ;
-%<aor%>:%>%{A%}r # ;
-%<aor%>:%>%{A%}r GNA-KEN ;
-%<aor%>:%>%{A%}r V-PERS-S1 ;
-%<aor%>:%>%{A%}r V-GZ ;
-%<neg%>%<ger%>:%>m{A%} V-PERS-AOR ;
-!%<ger%>:%>m{A%} V-PERS-AOR ;
-%<neg%>%<ger%>:%>%{й%}%{A%}m%{A%}%{z%} V-PERS-AOR ;
-!!%<ger%>:%>m%{A%}z  ;
-%<neg%>%<aor%>:%>m%{A%}z V-PERS-AOR ;
+%<gna_2%>:%>%{A%}rs%{A%} # ;
+!%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
 
 
 
 
 
-LEXICON V-NONFIN-COMMON
+LEXICON V-NONFINITE
 V-GNA ;
 V-GPR ;
-V-GERUNDS ;
-
+V-GER ;
 
 LEXICON V-COMMON 
-V-FINITE-REGULAR_NEGATIVE ;
-V-NONFIN-COMMON ;
-%<fut%>:%>%{й}%{A%}c%{A%}k V-PERS-S1 ;
-%<fut%>:%>%{й}%{A%}c%{A%} V-PERS-S1 ;
-!%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
-%<aor%>:%>%{A%}r # ;
-%<caus%>:%>%{D%}%{I%}r # ;
-%<pass%>:%>%{I%}%{L%} V-FINITE-REGULAR_NEGATIVE ;
-%<pass%>:%>%{I%}%{L%} V-TENSE-ABIL ;
-%<pass%>:%>%{I%}n V-GPR ;
-%<pass%>:%>%{i%}ş # ;
-%<pass%>:%>t # ;
-%<prog%>:%>%{A%}yor # ;
-!%<ger%>:%>m{A%} V-PERS-AOR ; 
+V-FINITE-REGULAR_NEG ;
+V-NONFINITE ;
+V-FINITE-IRREG-NEG ;
+%<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
+%<aor%>:%>%{E%}r V-PERS-AOR ;
+%<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
+%<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
+%<neg%>:%>m%{A%} V-NONFINITE ;
+%<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
+%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEG ;
+%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEG ;
+
+V-IMPER ;
+
+LEXICON V-DER
+%<coop%>:%>%{I%}ş V-COMMON ;
+%<pass%>:%>%{i%}%{L%} V-COMMON ;
+%<caus%>:%>%{D%}%{I%}r V-COMMON ;
+
+ V-COMMON ; 
 
 
 LEXICON V-IV 
-%<v%>%<iv%>: V-COMMON ; 
+%<v%>%<iv%>: V-DER ; 
 
 
 LEXICON V-TV 
-%<v%>%<tv%>: V-COMMON ; 
+%<v%>%<tv%>: V-DER ; 
 
 
 
