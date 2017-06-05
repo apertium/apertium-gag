@@ -759,6 +759,30 @@ leopard:leopard N1 ; ! ""
 ses:ses N1 ; ! ""
 yarış:yarış N1 ; ! ""
 
+injiner:injiner N1 ; ! ""
+inşa:inşa N1 ; ! ""
+insannık:insannık N1 ; ! ""
+işçi:işçi N1 ; ! ""
+işlik:işlik N1 ; ! ""
+istämeer:istämeer N1 ; ! ""
+iz:iz N1 ; ! ""
+kadet:kadet N1 ; ! ""
+kafadar:kafadar N1 ; ! ""
+kâfir:kâfir N1 ; ! ""
+kaku:kaku N1 ; ! ""
+kale:kale N1 ; ! ""
+kanat:kanat N1 ; ! ""
+kandidatura:kandidatura N1 ; ! ""
+kardinal:kardinal N1 ; ! ""
+kaseta:kaseta N1 ; ! ""
+kat:kat N1 ; ! ""
+kiyatçılaa:kiyatçılaa N1 ; ! ""
+kızçaaz:kızçaaz N1 ; ! ""
+kol:kol N1 ; ! ""
+
+kadın:kadın N1 ; ! ""
+
+
 at:at N1 ; ! ""
 altay:altay N1 ; ! ""
 avtomobil:avtomobil N1 ; ! ""
@@ -2857,6 +2881,12 @@ Blaž:Blaž NP-ANT-M ; ! ""
 Bojan:Bojan NP-ANT-M ; ! ""
 Çukotka:Çukotka NP-ANT-M ; ! ""
 Alee:Alee NP-ANT-F ; ! ""
+İsus:İsus NP-ANT-M ; ! ""
+Josef:Josef NP-ANT-M ; ! ""
+Jure:Jure NP-ANT-M ; ! ""
+Jurij:Jurij NP-ANT-M ; ! ""
+Kristijan:Kristijan NP-ANT-M ; ! ""
+Iva:Iva NP-ANT-F ; ! ""
 
 
 Kiev:Kiev NP-TOP ; ! ""
@@ -3115,6 +3145,10 @@ Burundi:Burundi  NP-TOP ; ! "" !
 Dominikan:Dominikan NP-TOP ; ! "" !
 Dumlupınar:Dumlupınar NP-TOP ; ! "" !
 Ekvatorial:Ekvatorial NP-TOP ; ! "" !
+Kamçatka:Kamçatka NP-TOP ; ! "" !
+Karabağ:Karabağ NP-TOP ; ! "" !
+Kumık:Kumık NP-TOP ; ! "" !
+
 
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
@@ -3531,6 +3565,15 @@ Süvalep:Süvalep NP-COG-MF ; ! ""
 Suve:Suve NP-COG-MF ; ! ""
 Suvero:Suvero NP-COG-MF ; ! ""
 Ervin:Ervin NP-COG-MF ; ! ""
+Joonas:Joonas NP-COG-MF ; ! ""
+Kard:Kard NP-COG-MF ; ! ""
+Katedrali:Katedrali NP-COG-MF ; ! ""
+Kull:Kull NP-COG-MF ; ! ""
+Kuningas:Kuningas NP-COG-MF ; ! ""
+Kuntner:Kuntner NP-COG-MF ; ! ""
+Kürkçü:Kürkçü NP-COG-MF ; ! ""
+Kuusik:Kuusik NP-COG-MF ; ! ""
+
 
 
 Konstantinov:Konstantinov NP-COG-OV ; ! ""
@@ -4223,6 +4266,7 @@ ilerle:ilerle V-IV ; ! ""
 aac:aac V-IV ; ! ""
 aac:aaç V-IV ;
 tanış:tanış V-IV ; ! ""
+kurtul:kurtul V-IV  ; ! ""
 
 aaraştır:aaraştır V-TV ; ! ""
 batır:batır V-TV ; ! ""
@@ -4265,6 +4309,15 @@ gecele:gecele V-IV ; ! ""
 ekmeklän:ekmeklän V-IV ; ! ""
 tuzekmeklän:tuzekmeklän V-IV ; ! ""
 kuu:kuu V-TV ; ! ""
+imzaladı:imzala V-IV ; ! ""
+in:in V-IV ; ! ""
+kapat:kapat V-IV ; ! ""
+kay:kay V-IV ; ! ""
+işit:işit V-TV ; ! ""
+itir:itir V-TV ; ! ""
+kap:kap V-TV ; ! ""
+kaple:kaple V-TV ; ! ""
+
  
 
 LEXICON Pronouns 
@@ -4404,6 +4457,9 @@ e:e ABBR ;
 b%a%a:b%a%a ABBR ;
 b%a:b%a ABBR ;
 B:B ABBR ;
+J:J ABBR ;
+K:K ABBR ;
+L:L ABBR ;
 
 
 
