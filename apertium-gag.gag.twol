@@ -4,7 +4,7 @@ Alphabet
     a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
  %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê %{E%}:ê %{E%}:e %{E%}:y
- %{I%}:u %{I%}:i %{I%}:ı %{I%}:ü %{й%}:y %{й%}:0
+ %{I%}:i %{й%}:y %{й%}:0
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
  %{s%}:s %{s%}:0 %{T%}:t
@@ -51,6 +51,9 @@ Rules
 "{T} change to d before vowels "
 
 %{T%}:d  <=>  _  %>:0  :Vowel  ;
+
+
+
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
