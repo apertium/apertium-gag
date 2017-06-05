@@ -2069,6 +2069,35 @@ komanda:komanda N1 ; ! ""
 jurnal:jurnal N1 ; ! ""
 jurnalcı:jurnalcı N1 ; ! ""
 
+
+henez:henez N1 ; ! ""
+hıristiyan:hıristiyan N1 ; ! ""
+hükümet:hükümet N1 ; ! ""
+irmi:irmi N1 ; ! ""
+kart:kart N1 ; ! ""
+keçiyi:keçiyi N1 ; ! ""
+kemençä:kemençä N1 ; ! ""
+keseri:keseri N1 ; ! ""
+kesiy:kesiy N1 ; ! ""
+kihat:kihat N1 ; ! ""
+klip:klip N1 ; ! ""
+klub:klub N1 ; ! ""
+koktel:koktel N1 ; ! ""
+kolec:kolec N1 ; ! ""
+kolhoz:kolhoz N1 ; ! ""
+Konefedrasyon:konefedrasyon N1 ; ! ""
+kontrol:kontrol N1 ; ! ""
+konyar:konyar N1 ; ! ""
+köprü:köprü N1 ; ! ""
+kulak:kulak N1 ; ! ""
+kurucu:kurucu N1 ; ! ""
+laam:laam N1 ; ! ""
+lazari:lazari N1 ; ! ""
+leleklär:leleklär N1 ; ! ""
+leo:leo  N1 ; ! ""
+Kadın:kadın N1 ; ! ""
+
+
 başkasaba N2 ; ! ""
 
 
@@ -2134,6 +2163,22 @@ Uganda:Uganda NP-TOP ; ! ""
 Urugvay:Urugvay NP-TOP ; ! ""
 Vyetnamda:Vyetnamda NP-TOP ; ! ""
 Yemen:Yemen NP-TOP ; ! ""
+
+Honduras:Honduras NP-TOP ; ! ""
+İçeriçumra:İçeriçumra NP-TOP ; ! ""
+Kars:Kars NP-TOP ; ! ""
+Kaşkay:Kaşkay NP-TOP ; ! ""
+Katalan:Katalan NP-TOP ; ! ""
+Kavala:Kavala NP-TOP ; ! ""
+Kiribati:Kiribati NP-TOP ; ! ""
+Kolorado:Kolorado NP-TOP ; ! ""
+Kore:Kore NP-TOP ; ! ""
+Koryak:Koryak NP-TOP ; ! ""
+Köseli:Köseli NP-TOP ; ! ""
+Kosta:Kosta NP-TOP ; ! ""
+Länkäran:Länkäran NP-TOP ; ! ""
+Lan:Lan NP-TOP ; ! ""
+
 
 
 Aivo:Aivo NP-ANT-M ; ! ""
@@ -2201,6 +2246,20 @@ Ejder:Ejder NP-ANT-M ; ! ""
 Diana:Diana NP-ANT-F ; ! ""
 Elvira:Elvira NP-ANT-F ; ! ""
 Ene:Ene NP-ANT-F ; ! ""
+
+Hendrik:Hendrik NP-ANT-M ; ! ""
+İgnat:İgnat NP-ANT-M ; ! ""
+Igor:Igor NP-ANT-M ; ! ""
+İlham:İlham NP-ANT-M ; ! ""
+Imbi:Imbi NP-ANT-M ; ! ""
+Helga:Helga NP-ANT-F ; ! ""
+Heli:Heli NP-ANT-F ; ! ""
+Iivi:Iivi NP-ANT-F ; ! ""
+Kaljo:Kaljo NP-ANT-F ; ! ""
+Kersti:Kersti NP-ANT-F ; ! ""
+Lea:Lea NP-ANT-F ; ! ""
+Lehte:Lehte NP-ANT-F ; ! ""
+
 
 
 Asіya:Asіya NP-ANT-F ; ! ""
@@ -3228,6 +3287,19 @@ SSC:SSC NP1-ORG ;
 
 
 LEXICON Cognomena
+
+Hein:Hein NP-COG-MF ; ! ""
+Helena:Helena NP-COG-MF ; ! ""
+Hribar:Hribar NP-COG-MF ; ! ""
+İlyiç:İlyiç NP-COG-MF ; ! ""
+Kallas:Kallas NP-COG-MF ; ! ""
+Karm:Karm NP-COG-MF ; ! ""
+Kikas:Kikas NP-COG-MF ; ! ""
+Kilgas:Kilgas NP-COG-MF ; ! ""
+Kivirähk:Kivirähk NP-COG-MF ; ! ""
+Komrada:Komrada NP-COG-MF ; ! ""
+Laid:Laid NP-COG-MF ; ! ""
+
 Talvik:Talvik NP-COG-MF ; ! ""
 Tauşancı:Tauşancı NP-COG-MF ; ! ""
 Kuus:Kuus NP-COG-MF ; ! ""
@@ -3704,6 +3776,9 @@ Zaharoviç:Zaharov NP-PAT-VICH ; ! ""
 
 
 LEXICON Adjectives 
+
+kirli:kirli A1 ; ! ""
+korkunç:korkunç A1 ; ! ""
 
 küçük:küçük A2 ; ! ""
 koyu:koyu A1 ; 
@@ -4374,6 +4449,8 @@ işit:işit V-TV ; ! ""
 itir:itir V-TV ; ! ""
 kap:kap V-TV ; ! ""
 kaple:kaple V-TV ; ! ""
+kapat:kapat V-IV ; ! ""
+işit:işit V-TV ; ! ""
 
  
 
