@@ -2185,6 +2185,24 @@ zere:zere N1 ; ! ""
 zorbalaa:zorbalaa N1 ; ! ""
 zorbalık:zorbalık N1 ; ! ""
 
+persengelâr:persengelâr N1 ; ! ""
+yamanmak:yamanmak N1 ; ! ""
+Allahlık:Allahlık  N1 ; ! ""
+Vina:Vina N1 ; ! ""
+şahmata:şahmata N1 ; ! ""
+yadım:yadım N1 ; ! ""
+yahudi:yahudi N1 ; ! ""
+yaka:yaka N1 ; ! ""
+yalabık:yalabık N1 ; ! ""
+yalnızlılık:yalnızlılık N1 ; ! ""
+yanlaşik:yanlaşik N1 ; ! ""
+yannaşık:yannaşık N1 ; ! ""
+Yapon:Yapon N1 ; ! ""
+yaprak:yaprak N1 ; ! ""
+yastık:yastık N1 ; ! ""
+yurt:yurt N1 ; ! ""
+
+
 
 
 
@@ -2717,6 +2735,15 @@ Harakter:Harakter NP-TOP ; ! ""
 Hispanınca:Hispanınca NP-TOP ; ! ""
 Pridnestrovyeda:Pridnestrovyeda NP-TOP ; ! ""
 
+Voyvodaköy:Voyvodaköy NP-TOP ; ! ""
+Vilanculos:Vilanculos NP-TOP ; ! ""
+Vințent:Vințent NP-TOP ; ! ""
+Viyena:Viyena NP-TOP ; ! ""
+Vizentiye:Vizentiye NP-TOP ; ! ""
+Voenni:Voenni NP-TOP ; ! ""
+Voyvodina:Voyvodina NP-TOP ; ! ""
+Wallis:Wallis NP-TOP ; ! ""
+Yalpug:Yalpug NP-TOP ; ! ""
 
 
 
@@ -2883,6 +2910,22 @@ Rok:Rok NP-ANT-M ; ! ""
 Roland:Roland NP-ANT-M ; ! ""
 Riho:Riho NP-ANT-F ; ! ""
 Ross:Ross NP-ANT-F ; ! ""
+Vlayku:Vlayku NP-ANT-M ; ! ""
+Vilhelm:Vilhelm NP-ANT-M ; ! ""
+Vojko:Vojko NP-ANT-M ; ! ""
+Vung:Vung NP-ANT-M ; ! ""
+Wolfgang:Wolfgang NP-ANT-M ; ! ""
+Yakut:Yakut NP-ANT-M ; ! ""
+Yavan:Yavan NP-ANT-M ; ! ""
+Yusif:Yusif NP-ANT-M ; ! ""
+Viata:Viata NP-ANT-F ; ! ""
+Vida:Vida NP-ANT-F ; ! ""
+Viire:Viire NP-ANT-F ; ! ""
+Viiu:Viiu NP-ANT-F ; ! ""
+Viive:Viive NP-ANT-F ; ! ""
+Vilma:Vilma NP-ANT-F ; ! ""
+
+
 
 
 Pötr:Pötr NP-ANT-M ; ! ""
@@ -3426,6 +3469,22 @@ Kilgas:Kilgas NP-COG-MF ; ! ""
 Kivirähk:Kivirähk NP-COG-MF ; ! ""
 Laid:Laid NP-COG-MF ; ! ""
 
+Vihandi:Vihandi NP-COG-MF ; ! ""
+Viidas:Viidas NP-COG-MF ; ! ""
+Viikholm:Viikholm NP-COG-MF ; ! ""
+Viir:Viir NP-COG-MF ; ! ""
+Viljur:Viljur NP-COG-MF ; ! ""
+Villard:Villard NP-COG-MF ; ! ""
+Villa:Villa NP-COG-MF ; ! ""
+Vineks:Vineks  NP-COG-MF ; ! ""
+Vlado:Vlado NP-COG-MF ; ! ""
+VOLKOV:VOLKOV NP-COG-MF ; ! ""
+Vončina:Vončina NP-COG-MF ; ! ""
+Yakupoğlu:Yakupoğlu NP-COG-MF ; ! ""
+Yanioglu:Yanioglu NP-COG-MF ; ! ""
+Yorgannar:Yorgannar NP-COG-MF ; ! ""
+Yosifin:Yosifin NP-COG-MF ; ! ""
+
 Talvik:Talvik NP-COG-MF ; ! ""
 Tauşancı:Tauşancı NP-COG-MF ; ! ""
 Kuus:Kuus NP-COG-MF ; ! ""
@@ -3958,7 +4017,7 @@ gözel:gözel A1 ; ! ""
 gündüz:gündüz A1 ; ! ""
 güneşli:güneşli A1 ; ! ""
 
-
+yazık:yazık A1 ; ! ""
 yok:yok A2 ; ! ""
 maavi:maavi A2 ;  ! "blue"
 belli:belli A1 ; ! ""
@@ -3984,6 +4043,11 @@ hazır:hazır A1 ;
 sade:sade A1 ; ! ""
 saa:saa A1 ; ! ""
 üüsek:üüsek A1 ; ! ""
+yabanı:yabanı A1 ; ! ""
+yalancı:yalancı A1 ; ! ""
+yarar:yarar  A1 ; ! ""
+yüksek:yüksek A1 ; ! ""
+
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
 lääzım:läzım A1 ;
@@ -4184,6 +4248,7 @@ ikram:ikram A1 ; ! ""
 çabuk:çabuk A1 ; ! ""
 bronza:bronza A1 ; ! ""
 doğru:doğru A1 ; ! ""
+doğru:doru A1 ; ! ""
 drama:drama A1 ; ! ""
 durgun:durgun A1 ; ! ""
 duygu:duygu A1 ; ! ""
@@ -4530,6 +4595,12 @@ taşı:taşı V-TV ; ! ""
 açıkla:açıkla V-IV ; ! ""
 baaşla:baaşla V-IV ; ! ""
 peydala:peydala V-TV ; ! ""
+taşi:taşi V-TV ; ! ""
+yak:yak V-TV ; ! ""
+yan:yan V-IV ; ! ""
+yufkala:yufkala V-IV ; ! ""
+
+
 sürt:sürt V-TV ; ! ""
 erleş:erleş V-TV ; ! ""
 erleştir:erleştir V-TV ; ! "" ! Der/Caus
@@ -4756,6 +4827,10 @@ Z:Z ABBR ; ! ""
 T:T ABBR ; ! ""
 U:U ABBR ; ! ""
 u%z:u%z ABBR ; ! ""
+W:W ABBR ; ! ""
+yaa:yaa  ABBR ; ! ""
+Y:Y ABBR ; ! ""
+
 
 ç%o:ç%o ABBR ;
 D:D ABBR ;
