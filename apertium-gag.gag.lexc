@@ -2133,6 +2133,22 @@ peetçi:peetçi N1 ; ! ""
 pençere:pençere N1 ; ! ""
 perioda:perioda N1 ; ! ""
 persica:persica  N1 ; ! ""
+rumınca:rumınca N1 ; ! ""
+razgeler:razgeler N1 ; ! ""
+refren:refren N1 ; ! ""
+rektor:rektor N1 ; ! ""
+ruba:ruba N1 ; ! ""
+salar:salar N1 ; ! ""
+şarapçılık:şarapçılık N1 ; ! ""
+şelale:şelale N1 ; ! ""
+Rep:Rep   N1 ;
+blica:blica N1 ; ! ""
+sevinmelik:sevinmelik N1 ; ! ""
+simpozium:simpozium N1 ; ! ""
+sinciri:sinciri N1 ; ! ""
+solistka:solistka N1 ; ! ""
+sözcük:sözcük N1 ; ! ""
+suvan:suvan N1 ; ! ""
 
 
 
@@ -2816,6 +2832,11 @@ Uro:Uroš NP-ANT-M ; ! ""
 Vaike:Vaike NP-ANT-M ; ! ""
 Valve:Valve NP-ANT-M ; ! ""
 Villu:Villu NP-ANT-M ; ! ""
+Rok:Rok NP-ANT-M ; ! ""
+Roland:Roland NP-ANT-M ; ! ""
+Riho:Riho NP-ANT-F ; ! ""
+Ross:Ross NP-ANT-F ; ! ""
+
 
 Pötr:Pötr NP-ANT-M ; ! ""
 Olga:Olga NP-ANT-F ; ! ""
@@ -3299,6 +3320,14 @@ Norfolk:Norfolk NP-TOP ; ! "" !
 Odessa:Odessa NP-TOP ; ! "" !
 Papua:Papua NP-TOP ; ! "" !
 
+Şan:Şan NP-TOP ; ! "" !
+Reni:Reni NP-TOP ; ! "" !
+Salvador:Salvador NP-TOP ; ! "" !
+Şəki:Şəki NP-TOP ; ! "" !
+Şerur:Şerur NP-TOP ; ! "" !
+Silva:Silva NP-TOP ; ! "" !
+
+
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
 !Franţuz% Gayanası:Franţuz% Gayanası NP-TOP ; ! "" ! 
@@ -3738,6 +3767,12 @@ Ervin:Ervin NP-COG-MF ; ! ""
 Joonas:Joonas NP-COG-MF ; ! ""
 Kard:Kard NP-COG-MF ; ! ""
 Katedrali:Katedrali NP-COG-MF ; ! ""
+Raag:Raag NP-COG-MF ; ! ""
+Radiş:Radiş NP-COG-MF ; ! ""
+Randoja:Randoja NP-COG-MF ; ! ""
+Riko:Riko NP-COG-MF ; ! ""
+Sofi:Sofi NP-COG-MF ; ! ""
+
 Kull:Kull NP-COG-MF ; ! ""
 Kuningas:Kuningas NP-COG-MF ; ! ""
 Kuntner:Kuntner NP-COG-MF ; ! ""
@@ -3973,6 +4008,12 @@ sţenaya:sţenaya A1 ; ! ""
 stih:stih A1 ; ! ""
 taşlan:taşlan A1 ; ! ""
 
+serin:serin A1 ; ! ""
+rezina:rezina A1 ; ! ""
+saade:saade A1 ; ! ""
+slujba:slujba A1 ; ! ""
+sțena:sțena A1 ; ! ""
+
 dooru:dooru A1 ; ! ""
 zengin:zengin A1 ; ! ""
 kaarä:kaarä A1 ;
@@ -4091,6 +4132,8 @@ elvi:elvi A1 ; ! ""
 
 
 LEXICON Adverbs
+
+şindi:şindi ADV3 ; ! ""
 yırak:yırak ADV3 ; ! ""
 bezbelli:bezbelli ADV3 ; ! ""
 fena:fena ADV3 ; ! ""
@@ -4513,6 +4556,9 @@ kap:kap V-TV ; ! ""
 kaple:kaple V-TV ; ! ""
 kapat:kapat V-IV ; ! ""
 işit:işit V-TV ; ! ""
+saa:saa V-TV ; ! "sağmak"
+sil:sil V-TV ; ! ""
+suvazle:suvazle V-TV ; ! ""
 
  
 
