@@ -717,6 +717,9 @@ yedi:yedi NUM ;
 sekiz:sekiz NUM ;
 dokuz:dokuz NUM ;
 on:on NUM ;
+oniki:oniki NUM ; ! ""
+
+
 otuz:otuz NUM ;
 kırk:kırk NUM ;
 bin:bin NUM ;
@@ -724,7 +727,7 @@ milion:milion NUM ;
 kırk:kırk NUM ; ! ""
 onbeş:onbeş NUM ; ! ""
 
-oniki:oniki NUM ; ! ""
+
 
 
 I:I NUM-ROMAN ; ! ""
@@ -2150,6 +2153,35 @@ solistka:solistka N1 ; ! ""
 sözcük:sözcük N1 ; ! ""
 suvan:suvan N1 ; ! ""
 
+fayton:fayton N1 ; ! ""
+fıçı:fıçı  N1 ; ! ""
+harap:harap N1 ; ! ""
+hatır:hatır N1 ; ! ""
+hazne:hazne N1 ; ! ""
+hristiyan:hristiyan N1 ;
+
+lan:lan N1 ; ! ""
+zamanêêrsın:zamanêêrsın  N1 ; ! ""
+pers:pers N1 ; ! ""
+popaz:popaz N1 ; ! ""
+predmet:predmet N1 ; ! ""
+pristavı:pristavı N1 ; ! ""
+profesional:profesional N1 ; ! ""
+prokuroru:prokuroru N1 ; ! ""
+publițistik:publițistik N1 ; ! ""
+punar:punar N1 ; ! ""
+zabit:zabit N1 ; ! ""
+zadaniya:zadaniya N1 ; ! ""
+zannat:zannat N1 ; ! ""
+zaza:zaza N1 ; ! ""
+zebillik:zebillik N1 ; ! ""
+zeet:zeet N1 ; ! ""
+zenginnik:zenginnik N1 ; ! ""
+zere:zere N1 ; ! ""
+zorbalaa:zorbalaa N1 ; ! ""
+zorbalık:zorbalık N1 ; ! ""
+
+
 
 
 başkasaba N2 ; ! ""
@@ -2231,7 +2263,7 @@ Koryak:Koryak NP-TOP ; ! ""
 Köseli:Köseli NP-TOP ; ! ""
 Kosta:Kosta NP-TOP ; ! ""
 Länkäran:Länkäran NP-TOP ; ! ""
-Lan:Lan NP-TOP ; ! ""
+
 
 
 
@@ -2675,6 +2707,11 @@ Grenada:Grenada NP-TOP ; ! ""
 Guam:Guam NP-TOP ; ! ""
 Guernsey:Guernsey NP-TOP ; ! ""
 Gürcistan:Gürcistan NP-TOP ; ! ""
+Habarovsk:Habarovsk NP-TOP ; ! ""
+Hansing:Hansing NP-TOP ; ! ""
+Harakter:Harakter NP-TOP ; ! ""
+Hispanınca:Hispanınca NP-TOP ; ! ""
+Pridnestrovyeda:Pridnestrovyeda NP-TOP ; ! ""
 
 
 
@@ -2746,6 +2783,12 @@ Astrid:Astrid NP-ANT-F ; ! ""
 
 Musa:Musa NP-ANT-M ; ! "
 Mustafa:Mustafa NP-ANT-M ; ! "
+Harald:Harald NP-ANT-M ; ! "
+Harri:Harri NP-ANT-M ; ! "
+Harry:Harry NP-ANT-M ; ! "
+Primož:Primož NP-ANT-M ; ! "
+Zoya:Zoya NP-ANT-M ; ! "
+Hadise:Hadise NP-ANT-F ; ! ""
 
 
 Muhammed:Muhammed NP-ANT-M ; ! ""
@@ -3360,6 +3403,8 @@ TOBB:TOBB NP1-ORG ;
 ATO:ATO NP1-ORG ;                 
 TÜRKSOY:TÜRKSOY NP1-ORG ;
 SSC:SSC NP1-ORG ;
+OBSE:OBSE NP1-ORG ;
+
 
 
 
@@ -3469,6 +3514,10 @@ Papa:Papa NP-COG-MF ; ! ""
 Makovenko:Makovenko NP-COG-MF ; ! ""
 Tabunşçik:Tabunşçik NP-COG-MF ; ! ""
 Tamm:Tamm NP-COG-MF ; ! ""
+Puusepp:Puusepp NP-COG-MF ; ! ""
+Žagar:Žagar NP-COG-MF ; ! ""
+Zidar:Zidar NP-COG-MF ; ! ""
+
 
 Manoff:Manoff NP-COG-MF ; ! ""
 Nikolaeviç:Nikolaeviç NP-COG-MF ; ! ""
@@ -4095,6 +4144,13 @@ batak:batak A1 ; ! ""
 bilgiç:bilgiç A1 ; ! ""
 cuvab:cuvab A1 ; ! ""
 
+hayın:hayın A1 ; ! ""
+prost:prost A1 ; ! ""
+zalog:zalog A1 ; ! ""
+Zavallı:Zavallı A1 ; ! ""
+zerd:zerd A1 ; ! ""
+
+
 pop:pop A1 ; ! ""
 roak:roak A1 ; ! ""
 şahmatı:şahmatı A1 ; ! ""
@@ -4171,7 +4227,7 @@ sora:sora ADV4 ; ! "after, afterwards" @@@ also postp
 bölä:bölä ADV4 ; !
 orada:orada ADV3 ;
 çoktan:çoktan ADV3 ;
-
+mutlaka:mutlaka ADV3 ;
 barabar:barabar ADV3 ; !
 ilgi:ilgi ADV4 ;
 !sansın:sansın ADV3 ;
@@ -4222,7 +4278,7 @@ amacıyla:amacıyla ADV3 ;
 netürlü:netürlü ADV3 ;
 neylän:neylän ADV3 ;
 orıy:orıy ADV3 ;
-
+irmişär:irmişär ADV3 ;
 
 
 
@@ -4504,7 +4560,7 @@ aac:aac V-IV ; ! ""
 aac:aaç V-IV ;
 tanış:tanış V-IV ; ! ""
 kurtul:kurtul V-IV  ; ! ""
-
+zvez:zvez V-IV ; ! ""
 aaraştır:aaraştır V-TV ; ! ""
 batır:batır V-TV ; ! ""
 becer:becer V-TV ; ! ""
@@ -4559,6 +4615,11 @@ işit:işit V-TV ; ! ""
 saa:saa V-TV ; ! "sağmak"
 sil:sil V-TV ; ! ""
 suvazle:suvazle V-TV ; ! ""
+
+dene:dene V-TV ; ! ""
+duy:duy V-TV ; ! ""
+zaptet:zaptet V-TV ; ! ""
+zeedele:zeedele V-TV ; ! ""
 
  
 
@@ -4712,6 +4773,7 @@ C:C ABBR ;
 d:d ABBR ;
 P:P ABBR ;
 n%o:n%o ABBR ;
+n%d%e:n%d%e ABBR ;
 
 
 
@@ -4725,6 +4787,7 @@ ncü:ncü ABBR ;
 ncı:ncı ABBR ;
 dän:dän ABBR ;
 na:na ABBR ;
+nın:nın ABBR ;
 
 
 
