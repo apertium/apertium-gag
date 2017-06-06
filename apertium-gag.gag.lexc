@@ -112,7 +112,7 @@ Barbarisms ;
 LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>%n # ; 
-%<p3%>%<sg%>:%>%{k%} # ; 
+%<p3%>%<sg%>:%>%k # ; 
 %<p1%>%<pl%>:%>%{й%}%z # ; 
 %<p3%>%<pl%>:%>%{k%}l%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r # ;
@@ -2025,6 +2025,7 @@ lirika:lirika N1 ; ! ""
 melodiya:melodiya N1 ; ! ""
 olimpiada:olimpiada N1 ; ! ""
 poema:poema N1 ; ! ""
+rock:rock N1 ;
 poêziya:poêziya N1 ; ! ""
 politikacı:politikacı N1 ; ! ""
 premyera:premyera N1 ; ! ""
@@ -2790,7 +2791,7 @@ Harald:Harald NP-ANT-M ; ! "
 Harri:Harri NP-ANT-M ; ! "
 Harry:Harry NP-ANT-M ; ! "
 Primož:Primož NP-ANT-M ; ! "
-Zoya:Zoya NP-ANT-M ; ! "
+Zoya:Zoya NP-ANT-F ; ! "
 Hadise:Hadise NP-ANT-F ; ! ""
 
 
@@ -4447,6 +4448,7 @@ gör: gör V-TV ;
 bul:bul V-TV ;
 çek:çek V-TV ;
 yok:yok V-TV ;
+yaşar:yaşar V-IV ;
 yollan:yollan V-TV ;
 kablet:kablet V-TV ;
 duu:duu V-TV ;
