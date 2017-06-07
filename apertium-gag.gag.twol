@@ -5,7 +5,7 @@ Alphabet
 
  %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê 
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i
- %{I%}:i %{I%}:ü %{I%}:ı  %{I%}:u
+ %{I%}:i %{I%}:ı  %{I%}:u  %{I%}:ü
  %{й%}:y %{й%}:0
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
@@ -14,12 +14,13 @@ Alphabet
  %{D%}:d 
  %{L%}:l %{L%}:n
 
- %>:0  ;
+ %>:0  
+ %+ % ;
 
 Sets
 
-Cns =  Â B C Ç D  F G H  J K L M N  P R S Ş Ș T Ţ Ț V Y Z
-       â b c ç d  f g h  j k l m n  p r s ş ș t ţ ț v y z ;
+Cns = B C Ç D  F G H  J K L M N  P R S Ş Ș T Ţ Ț V Y Z
+      b c ç d  f g h  j k l m n  p r s ş ș t ţ ț v y z ;
 
 Vowel = A E Ê Ä I O Ö U Ü Y Ý 
         a e ê ä i o ö u ü y ý ;
@@ -39,7 +40,7 @@ FlatVow = A Â E İ I
            
 
 CnsVcls   = F S T K Ç Ş H P 
-           f s t k ç ş h p ;
+            f s t k ç ş h p ;
             
 
 
@@ -56,6 +57,13 @@ Rules
 "{T} change to d before vowels "
 
 %{T%}:d  <=>  _  %>:0  :Vowel  ;
+
+!"Vowel harmony for archiphoneme {I}"
+
+!%{I%}:Vy <=> :Vx :Cns+ :0* _ ;
+!      where Vx in ( a â ê o ö u ü ı)
+!            Vy in ( ı ı ı u ü u ü ı)
+!     matched ;
 
 
 

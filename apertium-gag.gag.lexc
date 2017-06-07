@@ -59,6 +59,9 @@ Multichar_Symbols
 %{A%}              ! a e ä
 %{й%}              ! y
 %{E%}              ! ê e y
+%>
+%+
+
 %{T%}
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
@@ -2202,6 +2205,21 @@ yaprak:yaprak N1 ; ! ""
 yastık:yastık N1 ; ! ""
 yurt:yurt N1 ; ! ""
 
+aakdemiyasın:aakdemiyasın N1 ; ! ""
+aarif:aarif N1 ; ! ""
+afşar:afşar N1 ; ! ""
+ahit:ahit N1 ; ! ""
+aktör:aktör N1 ; ! ""
+alay:alay N1 ; ! ""
+alfabe:alfabe N1 ; ! ""
+allelem:allelem  N1 ; ! ""
+amur:amur N1 ; ! ""
+armeni:armeni N1 ; ! ""
+artistlik:artistlik N1 ; ! ""
+arzu:arzu N1 ; ! ""
+aşçı:aşçı N1 ; ! ""
+aslılık:aslılık  N1 ; ! ""
+
 
 
 
@@ -2744,7 +2762,17 @@ Voenni:Voenni NP-TOP ; ! ""
 Voyvodina:Voyvodina NP-TOP ; ! ""
 Wallis:Wallis NP-TOP ; ! ""
 Yalpug:Yalpug NP-TOP ; ! ""
-
+Abşeron:Abşeron NP-TOP ; ! ""
+Acar:Acar NP-TOP ; ! ""
+Adige:Adige NP-TOP ; ! ""
+Adrianopolun:Adrianopolun NP-TOP ; ! ""
+Akdere:Akdere NP-TOP ; ! ""
+Akkerman:Akkerman NP-TOP ; ! ""
+Amadeus:Amadeus NP-TOP ; ! ""
+Anadol:Anadol NP-TOP ; ! ""
+Anatoliyanın:Anatoliyanın NP-TOP ; ! ""
+Antalya:Antalya NP-TOP ; ! ""
+Antigua:Antigua NP-TOP ; ! ""
 
 
 
@@ -2924,6 +2952,19 @@ Viire:Viire NP-ANT-F ; ! ""
 Viiu:Viiu NP-ANT-F ; ! ""
 Viive:Viive NP-ANT-F ; ! ""
 Vilma:Vilma NP-ANT-F ; ! ""
+Abd:Abd NP-ANT-M ; ! ""
+Aladdin:Aladdin NP-ANT-M ; ! ""
+Alari:Alari NP-ANT-M ; ! ""
+Ali:Ali NP-ANT-M ; ! ""
+Alojz:Alojz NP-ANT-M ; ! ""
+Arne:Arne NP-ANT-M ; ! ""
+Arvi:Arvi NP-ANT-M ; ! ""
+Adele:Adele NP-ANT-F ; ! ""
+Aigi:Aigi NP-ANT-F ; ! ""
+Aita:Aita NP-ANT-F ; ! ""
+Alo:Alo NP-ANT-F ; ! ""
+Amanda:Amanda NP-ANT-F ; ! ""
+
 
 
 
@@ -3451,6 +3492,7 @@ ATO:ATO NP1-ORG ;
 TÜRKSOY:TÜRKSOY NP1-ORG ;
 SSC:SSC NP1-ORG ;
 OBSE:OBSE NP1-ORG ;
+AO:AO  NP1-ORG ;
 
 
 
@@ -3484,6 +3526,24 @@ Yakupoğlu:Yakupoğlu NP-COG-MF ; ! ""
 Yanioglu:Yanioglu NP-COG-MF ; ! ""
 Yorgannar:Yorgannar NP-COG-MF ; ! ""
 Yosifin:Yosifin NP-COG-MF ; ! ""
+
+Aav:Aav NP-COG-MF ; ! ""
+Abel:Abel NP-COG-MF ; ! ""
+Adari:Adari NP-COG-MF ; ! ""
+Ader:Ader NP-COG-MF ; ! ""
+Adlas:Adlas NP-COG-MF ; ! ""
+Adolf:Adolf NP-COG-MF ; ! ""
+Adusson:Adusson NP-COG-MF ; ! ""
+Alaküla:Alaküla NP-COG-MF ; ! ""
+Albers:Albers NP-COG-MF ; ! ""
+Allabert:Allabert NP-COG-MF ; ! ""
+Allik:Allik NP-COG-MF ; ! ""
+Altermann:Altermann NP-COG-MF ; ! ""
+Altleis:Altleis NP-COG-MF ; ! ""
+Andrekson:Andrekson NP-COG-MF ; ! ""
+Annast:Annast NP-COG-MF ; ! ""
+Arabaci:Arabaci NP-COG-MF ; ! ""
+
 
 Talvik:Talvik NP-COG-MF ; ! ""
 Tauşancı:Tauşancı NP-COG-MF ; ! ""
@@ -4047,6 +4107,7 @@ yabanı:yabanı A1 ; ! ""
 yalancı:yalancı A1 ; ! ""
 yarar:yarar  A1 ; ! ""
 yüksek:yüksek A1 ; ! ""
+acı:acı A1 ; ! ""
 
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
@@ -4844,7 +4905,8 @@ J:J ABBR ;
 K:K ABBR ;
 L:L ABBR ;
 M:M ABBR ;
-
+ä:ä ABBR ;
+a%m:a%m ABBR ;
 
 
 
