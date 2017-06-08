@@ -2221,16 +2221,28 @@ aşçı:aşçı N1 ; ! ""
 aslılık:aslılık  N1 ; ! ""
 
 
+kahramanlık:kahramanlık N1 ; ! ""
+şehit:şehit N1 ; ! ""
 
 
-
-başkasaba N2 ; ! ""
+başkasaba:başkasaba N2 ; ! ""
 
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
+
+Alaşehir:Alaşehir NP-TOP ; ! ""
+Doanşehir:Doanşehir NP-TOP ; ! ""
+Eskişehir:Eskişehir NP-TOP ; ! ""
+Gülşehir:Gülşehir NP-TOP ; ! ""
+Kırşehir:Kırşehir NP-TOP ; ! ""
+Nevşehir:Nevşehir NP-TOP ; ! ""
+Seydişehir:Seydişehir NP-TOP ; ! ""
+Viranşehir:Viranşehir NP-TOP ; ! ""
+Yenişehir:Yenişehir NP-TOP ; ! ""
+
 
 Vladikavkaz:Vladikavkaz NP-TOP ; ! ""
 
@@ -4520,10 +4532,8 @@ dur:dur V-IV;
 yaşê:yaşê V-IV ;
 yaşe:yaşe V-TV ;
 de:de V-TV ; 
-git:gi%{T%} V-TV ;
 ver:ver V-TV ;
 çık:çık V-IV ;
-çeked:çeked V-TV ;
 gir:gir V-IV ;
 gel:gel V-IV ;
 geç:geç V-IV ;
@@ -4537,7 +4547,6 @@ açıkla:açıkla V-TV ;
 yaz:yaz V-TV ;
 yazı:yazı V-TV ;
 aç:aç V-TV ;
-et:e%{T%} V-TV ;
 evlän:evlän V-IV ;
 ol:ol V-IV ;
 getir:getir V-TV ;
@@ -4548,7 +4557,6 @@ an:an V-TV ;
 var:var V-IV ;
 çekile:çekile V-IV ;
 katıl:katıl V-TV ;
-kabled:kabled V-TV ;
 seç:seç V-TV ;
 kur:kur V-TV ;
 kutla:kutla V-IV ;
@@ -4557,7 +4565,6 @@ kazan:kazan V-IV ;
 koy:koy V-TV ;
 kal:kal V-IV ;
 oku:oku V-TV ;
-üüred:üüred V-IV ; 
 kork:kork V-IV ;
 yaz:yaz V-TV ;
 düş:düş V-TV ;
@@ -4576,10 +4583,8 @@ bul:bul V-TV ;
 yok:yok V-TV ;
 yaşar:yaşar V-IV ;
 yollan:yollan V-TV ;
-kablet:kablet V-TV ;
 duu:duu V-TV ;
 düşün:düşün V-TV ;
-lafet:lafet V-IV ;
 bulun:bulun V-TV ;
 üüren:üüren V-TV ;
 kurtar:kurtar V-TV ;
@@ -4599,7 +4604,7 @@ tiparla:tiparla V-TV ;
 söle:söle V-TV ;
 söle:söyle V-TV ;
 öl:öl V-TV ;
-çeket:çeket V-IV ;
+
 çalış:çalış V-TV ;
 oyna:oyna V-TV ;
 göster:göster V-TV ;
@@ -4684,7 +4689,7 @@ incele:incele V-TV ; ! ""
 iste:iste V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
 kolver:kolver V-TV ; ! ""
-kaybet:kaybet V-TV ; ! ""
+
 yerleş:yerleş V-TV ; ! ""
 seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
@@ -4719,7 +4724,6 @@ inan:inan V-IV ; ! ""
 uzan:uzan V-IV ; ! ""
 yık:yık V-TV ;
 den:den V-IV ; ! ""
-lafeder:lafeder V-IV ;
 sözlän:sözlän V-IV ;
 tamamnan:tamamnan V-IV ; ! ""
 bil:bil V-TV ; ! ""
@@ -4755,8 +4759,20 @@ suvazle:suvazle V-TV ; ! ""
 
 dene:dene V-TV ; ! ""
 duy:duy V-TV ; ! ""
+
+git:gi%{T%} V-TV ;
+çeket:çeke%{T%} V-TV ;
+et:e%{T%} V-TV ;
+kablet:kablet V-TV ;
+lafet:lafet V-IV ;
+çeket:çeket V-IV ;
+kaybet:kaybet V-TV ; ! ""
 zaptet:zaptet V-TV ; ! ""
+kabled:kabled V-TV ;
+üüred:üüred V-IV ; 
+lafeder:lafeder V-IV ;
 zeedele:zeedele V-TV ; ! ""
+zeedelet:zeedelet V-TV ; ! ""
 
  
 
