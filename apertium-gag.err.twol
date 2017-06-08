@@ -1,0 +1,66 @@
+Alphabet
+
+    A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
+    a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
+
+    ä:â ş:ș ţ:ț
+    Ä:Â Ş:Ș Ţ:Ț
+
+    і:і i:і
+
+
+ %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê 
+ %{E%}:ê %{E%}:e %{E%}:y
+ %{I%}:i %{I%}:ı %{I%}:ü %{I%}:u
+ %{й%}:y %{й%}:0
+ %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
+ %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
+ %{s%}:s %{s%}:0 
+ %{T%}:t %{T%}:d
+ %{n%}:n %{n%}:0
+ %{D%}:d %{D%}:t
+ %{L%}:l %{L%}:n
+
+   %':%' 
+   %`:%` %':%` 
+   %ʻ:%ʻ %':%ʻ 
+   %’:%’ %':%’  
+   %‘:%‘ %':%‘ 
+   %ʼ:%ʼ %':%ʼ 
+
+
+ %>:0  ;
+
+Sets
+
+Vowel = A E Ê Ä I O Ö U Ü Y Ý 
+        a e ê ä i o ö u ü y ý ;
+
+HardVow = A Â O I U
+          a â o ı u ;
+
+SoftVow = E Ä İ Ö Ü
+          e ä i ö ü ;
+
+RoundVow = O Ö U Ü
+           o ö u ü ;
+
+FlatVow = A Â E İ I 
+          a â e i ı ;
+ 
+CnsVcls   = F S T K Ç Ş H P 
+           f s t k ç ş h p ;
+
+Rules 
+
+"Delete morpheme boundary"
+%>:0 <=> _ ;
+
+
+! Resources:
+! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! http://hfst.sourceforge.net/
+! http://wiki.apertium.org/wiki/Twol
+! http://wiki.apertium.org/wiki/Hfst
+

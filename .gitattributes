@@ -6,6 +6,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-gag.err.twol -text
 /apertium-gag.gag.lexc -text
 /apertium-gag.gag.rlx -text
 /apertium-gag.gag.twol -text
