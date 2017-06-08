@@ -4542,7 +4542,7 @@ gir:gir V-IV ;
 gel:gel V-IV ;
 geç:geç V-IV ;
 başla:başla V-IV ;
-başla:başle V-IV ;
+başla:başle V-IV ; ! Err/Orth
 çek:çek V-TV ;
 yap:yap V-IV ;
 yapıl:yapıl V-TV ;
@@ -4553,6 +4553,7 @@ yazı:yazı V-TV ;
 aç:aç V-TV ;
 evlän:evlän V-IV ;
 ol:ol V-IV ;
+ol%<v%>%<iv%>%<aor%>:olur V-PERS-AOR ; ! Dir/LR ! Err/Orth
 getir:getir V-TV ;
 çek:çek V-TV ;
 dön:dön V-IV ;
