@@ -370,11 +370,8 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<aor%>: COPULA-PERS-AOR ;
 %+i%<cop%>%<ifi%>:%>%{й%}%{D%}%{I%} COPULA-PERS-PAST ;
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
-%+i%<cop%>:%>%{й%}s%{A%} CASES;
-%+i%<cop%>%<poss%>:%>%{s%}%{I%}n%{A%} CASES ;
-%+i%<cop%>%<aor%>: # ;
-%+i%<cop%>%<gna-cond%>:%>s%{A%} CASES ;
-%+i%<cop%>%<gna-cond%>:%>m%{A%}k CASES ;
+%+i%<cop%>%<gna_cond%>:%>%{й%}s%{A%} V-PERS-S1 ;
+
 
 ! TODO: OTHER TENSES
 
@@ -411,6 +408,7 @@ PLURAL ;
 POSSESSIVES ;
 LI-POSTPOSITION ;
 !GENERAL-POSSESSIVE-ETC ;
+
 
 LEXICON PRON-PERS-BÄN
 
@@ -471,7 +469,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:dä # ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ä # ;
+%<prn%>%<pers%>%<p1%>%<plexıon%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
@@ -505,11 +503,15 @@ LEXICON POST
  
 
 LEXICON SUBST
-%<attr%>: # ; 
+!%<attr%>: # ; 
 %<pl%>:%>%{L%}%{A%}r  CASES ;
-%<subst%>: CASES ;
+ CASES ;
                        POSSESSIVES ;
 %<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
+
+
+LEXICON ATTR
+%<attr%>: # ;
 
 
 !LEXICON GENERAL-POSSESSIVE-ETC
@@ -518,8 +520,10 @@ LEXICON SUBST
 
 
 LEXICON N1 
+
+%<n%>: ATTR;
 %<n%>: FULL-NOMINAL-INFLECTION ; 
-!%<n%>: SUBST ; 
+ 
 %<n%>: PLURAL ; 
 %<n%>: CLITIC-COPULA ;
 
@@ -550,7 +554,7 @@ LEXICON NUM
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{i%}nc%{I%} # ;
-%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;
+%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST  ;
 
 LEXICON NUM-ROMAN
 %<num%>: # ;
@@ -1977,11 +1981,11 @@ duvar:duvar N1 ; ! ""
 eğitim:eğitim N1 ; ! ""
 ekonomi:ekonomi N1 ; ! ""
 element:element N1 ; ! ""
-
+canabi:canabi N1 ;
 ajansı:ajansı N1 ; ! ""
 armata:armata N1 ; ! ""
-asoţiaşiyası:asoţiaşiyası N1 ; ! ""
-assosiatiyası:assosiatiyası N1 ; ! ""
+asoţiaşiyası:asoţiaşiya N1 ; ! ""
+assosiatiyası:assosiatiya N1 ; ! ""
 aviaţiya:aviaţiya N1 ; ! ""
 avtonomiya:avtonomiya N1 ; ! ""
 aydınnadıcı:aydınnadıcı N1 ; ! ""
@@ -1990,10 +1994,10 @@ broşürası:broşürası N1 ; ! ""
 çarşısı:çarşısı N1 ; ! ""
 çorba:çorba N1 ; ! ""
 çorbacı:çorbacı N1 ; ! ""
-degustaşiyası:degustaşiyası N1 ; ! ""
-deklaraţiyası:deklaraţiyası N1 ; ! ""
-ekspertizası:ekspertizası N1 ; ! ""
-etimologiyası:etimologiyası N1 ; ! ""
+degustaşiya:degustaşiya N1 ; ! ""
+deklaraţiya:deklaraţiya N1 ; ! ""
+ekspertiza:ekspertiza N1 ; ! ""
+etimologiya:etimologiya N1 ; ! ""
 fantaziya:fantaziya N1 ; ! ""
 fauna:fauna N1 ; ! ""
 federaţiya:federaţiya N1 ; ! ""
@@ -2187,8 +2191,8 @@ zenginnik:zenginnik N1 ; ! ""
 zere:zere N1 ; ! ""
 zorbalaa:zorbalaa N1 ; ! ""
 zorbalık:zorbalık N1 ; ! ""
-
-persengelâr:persengelâr N1 ; ! ""
+tepreme:tepreme N1 ;
+persenge:persenge N1 ; ! ""
 yamanmak:yamanmak N1 ; ! ""
 Allahlık:Allahlık  N1 ; ! ""
 Vina:Vina N1 ; ! ""

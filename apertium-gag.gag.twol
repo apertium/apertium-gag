@@ -3,10 +3,9 @@ Alphabet
     A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
     a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
- %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê 
+ %{A%}:a %{A%}:e %{A%}:ä  %{A%}:ê 
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i
  %{I%}:i 
-!%{I%}:ı  %{I%}:u  %{I%}:ü
  %{й%}:y %{й%}:0
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
@@ -23,8 +22,8 @@ Sets
 Cns = B C Ç D  F G H  J K L M N  P R S Ş Ș T Ţ Ț V Y Z
       b c ç d  f g h  j k l m n  p r s ş ș t ţ ț v y z ;
 
-Vowel = A E Ê Ä I O Ö U Ü Y Ý 
-        a e ê ä i o ö u ü y ý ;
+Vowel = A E Ê Ä I O Ö U Ü  
+        a e ê ä i o ö u ü   ;
 
 HardVow = A Â O I U
           a â o ı u ;
@@ -66,8 +65,8 @@ Rules
             Vy in ( ı ı ı u ü u ü ı)
      matched ;
 
-
-
+"{й}  become y when intervocalic"
+%{й%}:y <=> :Vowel :0 _ :Vowel ;
 
 
 
