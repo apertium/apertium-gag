@@ -5,7 +5,8 @@ Alphabet
 
  %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê 
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i
- %{I%}:i %{I%}:ı  %{I%}:u  %{I%}:ü
+ %{I%}:i 
+!%{I%}:ı  %{I%}:u  %{I%}:ü
  %{й%}:y %{й%}:0
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
@@ -58,12 +59,12 @@ Rules
 
 %{T%}:d  <=>  _  %>:0  :Vowel  ;
 
-!"Vowel harmony for archiphoneme {I}"
+"Vowel harmony for archiphoneme {I}"
 
-!%{I%}:Vy <=> :Vx :Cns+ :0* _ ;
-!      where Vx in ( a â ê o ö u ü ı)
-!            Vy in ( ı ı ı u ü u ü ı)
-!     matched ;
+%{I%}:Vy <=> :Vx :Cns+/:0* _ ;
+     where Vx in ( a â ê o ö u ü ı)
+            Vy in ( ı ı ı u ü u ü ı)
+     matched ;
 
 
 
