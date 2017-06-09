@@ -2243,6 +2243,29 @@ artistlik:artistlik N1 ; ! ""
 arzu:arzu N1 ; ! ""
 aşçı:aşçı N1 ; ! ""
 aslılık:aslılık  N1 ; ! ""
+geçmiş:geçmiş N1 ; ! ""
+taraftar:taraftar N1 ; ! ""
+tarihçi:tarihçi N1 ; ! ""
+tarla:tarla N1 ; ! ""
+tatlar:tatlar N1 ; ! ""
+tauşan:tauşan N1 ; ! ""
+telefon:telefon N1 ; ! ""
+telegram:telegram N1 ; ! ""
+televizion:televizion N1 ; ! ""
+tepe:tepe N1 ; ! ""
+ters:ters N1 ; ! ""
+test:test N1 ; ! ""
+tezicik:tezicik N1 ; ! ""
+
+topluluk:topluluk N1 ; ! ""
+top:top N1 ; ! ""
+tork:tork  N1 ; ! ""
+tübingen:tübingen N1 ; ! ""
+Türkçe:Türkçe N1 ; ! ""
+türkolog:türkolog N1 ; ! ""
+türksoy:türksoy N1 ; ! ""
+ülke:ülke N1 ; ! ""
+tekrar:tekrar N1 ; ! ""
 
 
 kahramanlık:kahramanlık N1 ; ! ""
@@ -2458,6 +2481,19 @@ Stefan:Stefan NP-ANT-M ; ! ""
 Sіmon:Sіmon NP-ANT-M ; ! ""
 Tіmofey:Tіmofey NP-ANT-M ; ! ""
 Tristan:Tristan NP-ANT-M ; ! ""
+
+Teodor:Teodor NP-ANT-M ; ! ""
+Tomaž:Tomaž NP-ANT-M ; ! ""
+Torah:Torah NP-ANT-M ; ! ""
+Turban:Turban NP-ANT-M ; ! ""
+Tutarkana:Tutarkana NP-ANT-M ; ! ""
+Valdeko:Valdeko NP-ANT-M ; ! ""
+Tatjana:Tatjana NP-ANT-F ; ! ""
+Thea:Thea NP-ANT-F ; ! ""
+Tina:Tina NP-ANT-F ; ! ""
+Türkân:Türkân NP-ANT-F ; ! ""
+
+
 
 Şri% Lanka:Şri% Lanka NP-TOP ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
@@ -3515,6 +3551,21 @@ Salvador:Salvador NP-TOP ; ! "" !
 Şerur:Şerur NP-TOP ; ! "" !
 Silva:Silva NP-TOP ; ! "" !
 
+Thanh:Thanh NP-TOP ; ! "" !
+Thomson:Thomson NP-TOP ; ! "" !
+Timişoara:Timişoara NP-TOP ; ! "" !
+Tivat:Tivat NP-TOP ; ! "" !
+Tomsk:Tomsk NP-TOP ; ! "" !
+Trakyaya:Trakyaya NP-TOP ; ! "" !
+Tümen:Tümen NP-TOP ; ! "" !
+Tunanm:Tunanm NP-TOP ; ! "" !
+Tunaran:Tunaran NP-TOP ; ! "" !
+Türkistan:Türkistan NP-TOP ; ! "" !
+Turks:Turks NP-TOP ; ! "" !
+Turla:Turla NP-TOP ; ! "" !
+Ulcinj:Ulcinj NP-TOP ; ! "" !
+Ungeni:Ungeni NP-TOP ; ! "" !
+
 
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
@@ -3842,6 +3893,45 @@ Aren:Aren NP-COG-MF ; ! ""
 Arseven:Arseven NP-COG-MF ; ! ""
 Ayrancıoğlu:Ayrancıoğlu NP-COG-MF ; ! ""
 
+Tari:Tari NP-COG-MF ; ! ""
+Techner:Techner NP-COG-MF ; ! ""
+Tedre:Tedre NP-COG-MF ; ! ""
+Tee:Tee NP-COG-MF ; ! ""
+Tekstil:Tekstil NP-COG-MF ; ! ""
+Teleradio:Teleradio NP-COG-MF ; ! ""
+Telpizä:Telpizä NP-COG-MF ; ! ""
+Ternovšek:Ternovšek NP-COG-MF ; ! ""
+Tič:Tič NP-COG-MF ; ! ""
+Tigina:Tigina NP-COG-MF ; ! ""
+Tilk:Tilk NP-COG-MF ; ! ""
+Toman:Toman NP-COG-MF ; ! ""
+Tommingas:Tommingas NP-COG-MF ; ! ""
+Tomson:Tomson NP-COG-MF ; ! ""
+Toomla:Toomla NP-COG-MF ; ! ""
+Toona:Toona NP-COG-MF ; ! ""
+TOPÇU:TOPÇU NP-COG-MF ; ! ""
+Trang:Trang NP-COG-MF ; ! ""
+Trei:Trei NP-COG-MF ; ! ""
+Trink:Trink NP-COG-MF ; ! ""
+Truu:Truu NP-COG-MF ; ! ""
+Tudorki:Tudorki NP-COG-MF ; ! ""
+Tufar:Tufar NP-COG-MF ; ! ""
+Tuisk:Tuisk NP-COG-MF ; ! ""
+Tuuling:Tuuling NP-COG-MF ; ! ""
+Tüzmen:Tüzmen NP-COG-MF ; ! ""
+Uibopuu:Uibopuu NP-COG-MF ; ! ""
+Uibo:Uibo NP-COG-MF ; ! ""
+Üksküla:Üksküla NP-COG-MF ; ! ""
+Ülevain:Ülevain NP-COG-MF ; ! ""
+Ulfsak:Ulfsak NP-COG-MF ; ! ""
+Urbel:Urbel NP-COG-MF ; ! ""
+Urbsoo:Urbsoo NP-COG-MF ; ! ""
+Vabamäe:Vabamäe NP-COG-MF ; ! ""
+Vahabzade:Vahabzade NP-COG-MF ; ! ""
+Vahing:Vahing NP-COG-MF ; ! ""
+Vahur:Vahur NP-COG-MF ; ! ""
+Valdes:Valdes NP-COG-MF ; ! ""
+
 
 İsmailov:İsmailov NP-COG-MF ; ! ""
 Lanka:Lanka NP-COG-MF ; ! ""
@@ -4140,6 +4230,10 @@ general:general A1 ; ! ""
 gözel:gözel A1 ; ! ""
 gündüz:gündüz A1 ; ! ""
 güneşli:güneşli A1 ; ! ""
+tertip:tertip A1 ;
+
+uslu:uslu  A1 ; ! ""
+uzlu:uzlu A1 ; ! ""
 
 yazık:yazık A1 ; ! ""
 yok:yok A2 ; ! ""
@@ -4754,7 +4848,7 @@ iste:iste V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
 kolver:kolver V-TV ; ! ""
 
-yerleş:yerleş V-TV ; ! ""
+yerleş:yerleş V-IV ; ! ""
 seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
 unut:unut V-IV ; ! ""
@@ -4823,6 +4917,14 @@ suvazle:suvazle V-TV ; ! ""
 
 dene:dene V-TV ; ! ""
 duy:duy V-TV ; ! ""
+
+temelleş:temelleş V-IV ;
+
+tipar:tipar V-IV ;
+uçêr:uçêr V-IV ;
+umutlan:umutlan V-IV ;
+uzlaş:uzlaş V-IV ;
+
 
 git:gi%{T%} V-TV ;
 çeket:çeke%{T%} V-TV ;
@@ -4940,7 +5042,7 @@ e%d%i:e%d%i ABBR ; ! ""
 F:F ABBR ; ! ""
 
 
-
+T%V:T%V ABBR ; ! ""
 B%a:B%a ABBR ; ! ""
 b%.:b%. ABBR  ; ! ""
 N%r:N%r ABBR ;
