@@ -1913,6 +1913,26 @@ mezar:mezar N1 ; ! ""
 minudun:minudun N1 ; ! ""
 minut:minut N1 ; ! ""
 mitingçi:mitingçi N1 ; ! ""
+argument:argument N1 ; ! ""
+asambleya:asambleya N1 ; ! ""
+astronom:astronom N1 ; ! ""
+astronotları:astronotları N1 ; ! ""
+asya:asya N1 ; ! ""
+ateşlik:ateşlik N1 ; ! ""
+atletizm:atletizm N1 ; ! ""
+atletlär:atletlär N1 ; ! ""
+avuç:avuç N1 ; ! ""
+aylak:aylak N1 ; ! ""
+bakanık:bakanık N1 ; ! ""
+balkona:balkona N1 ; ! ""
+baluchi:caluchi N1 ; ! ""
+bank:bank N1 ; ! ""
+bekçi:bekçi N1 ; ! ""
+belorus:belorus  N1 ; ! ""
+bengal:bengal N1 ; ! ""
+beyan:beyan N1 ; ! ""
+beylik:beylik N1 ; ! ""
+bez:bez N1 ; ! ""
 
 
 
@@ -2551,6 +2571,20 @@ Marşall:Marşall NP-TOP ; ! ""
 Mingäçevir:Mingäçevir NP-TOP ; ! ""
 Mozart:Mozart NP-TOP ; ! ""
 
+Araviyi:Araviyi NP-TOP ; ! ""
+Averian:Averian NP-TOP ; ! ""
+Avrupa:Avrupa NP-TOP ; ! ""
+Aydar:Aydar NP-TOP ; ! ""
+Babadagda:Babadagda NP-TOP ; ! ""
+Babaeski:Babaeski NP-TOP ; ! """
+Bağlıca:Bağlıca NP-TOP ; ! ""
+Baserabiyaya:Baserabiyaya NP-TOP ; ! ""
+Başküüy:Başküüy NP-TOP ; ! ""
+Bayat:Bayat NP-TOP ; ! ""
+Belţ:Belţ NP-TOP ; ! ""
+Berane:Berane NP-TOP ; ! ""
+Bengali:Bengali NP-TOP ; ! ""
+
 
 Latviya:Latviya NP-TOP ; ! ""
 Luţiya:Luţiya NP-TOP ; ! ""
@@ -2856,6 +2890,13 @@ Aili:Aili NP-ANT-F ; ! ""
 Andrej:Andrej NP-ANT-F ; ! ""
 Astrid:Astrid NP-ANT-F ; ! ""
 
+Apokofkosun:Apokofkosun NP-ANT-M ; ! ""
+Atilla:Atilla NP-ANT-M ; ! ""
+Azer:Azer NP-ANT-M ; ! ""
+Bektaş:Bektaş NP-ANT-M ; ! ""
+Bernhard:Bernhard NP-ANT-M ; ! ""
+Berta:Berta NP-ANT-M ; ! ""
+Bert:Bert NP-ANT-M ; ! ""
 Musa:Musa NP-ANT-M ; ! "
 Mustafa:Mustafa NP-ANT-M ; ! "
 Harald:Harald NP-ANT-M ; ! "
@@ -3509,7 +3550,7 @@ TÜRKSOY:TÜRKSOY NP1-ORG ;
 SSC:SSC NP1-ORG ;
 OBSE:OBSE NP1-ORG ;
 AO:AO  NP1-ORG ;
-
+ATB:ATB NP1-ORG ;
 
 
 
@@ -3656,6 +3697,13 @@ Tamm:Tamm NP-COG-MF ; ! ""
 Puusepp:Puusepp NP-COG-MF ; ! ""
 Žagar:Žagar NP-COG-MF ; ! ""
 Zidar:Zidar NP-COG-MF ; ! ""
+
+Aru:Aru NP-COG-MF ; ! ""
+Ayvaz:Ayvaz NP-COG-MF ; ! ""
+Baines:Baines NP-COG-MF ; ! ""
+Baykam:Baykam NP-COG-MF ; ! ""
+Beyinâ:Beyinâ NP-COG-MF ; ! ""
+
 
 
 Manoff:Manoff NP-COG-MF ; ! ""
@@ -4253,6 +4301,10 @@ esir:esir A1 ; ! ""
 girgin:girgin A1 ; ! ""
 kär:kär A1 ; ! ""
 kesin:kesin A1 ; ! ""
+
+arif:arif A1 ; ! ""
+ayıptır:ayıp A1 ; ! ""
+başarı:başarı A1 ; ! ""
 korkusuz:korkusuz A1 ; ! ""
 kötü:kötü A1 ; ! ""
 lafedän:lafedän A1 ; ! ""
@@ -4294,6 +4346,8 @@ prost:prost A1 ; ! ""
 zalog:zalog A1 ; ! ""
 Zavallı:Zavallı A1 ; ! ""
 zerd:zerd A1 ; ! ""
+
+
 
 
 pop:pop A1 ; ! ""
@@ -4382,7 +4436,7 @@ burda:burda ADV3 ; ! ""
 näänı:näänı ADV3 ; ! ""
 aazdan:aazdan ADV3 ;
 ozaman:ozaman ADV3 ;
-
+aykıre:aykıre ADV3 ;
 
 evelki:evelki ADV3; ! ""
 sık:sık ADV3 ; ! ""
@@ -4557,6 +4611,11 @@ ol%<v%>%<iv%>%<aor%>:olur V-PERS-AOR ; ! Dir/LR ! Err/Orth
 getir:getir V-TV ;
 çek:çek V-TV ;
 dön:dön V-IV ;
+
+as:as V-TV ;
+ayır:ayır V-TV ;
+besle:besle V-TV ;
+
 diiştir:diiştir V-IV ;
 an:an V-TV ;
 var:var V-IV ;
@@ -4937,6 +4996,7 @@ d:d ABBR ;
 P:P ABBR ;
 n%o:n%o ABBR ;
 n%d%e:n%d%e ABBR ;
+b%i:b%i ABBR ;
 
 
 
