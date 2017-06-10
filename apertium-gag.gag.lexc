@@ -117,11 +117,11 @@ LEXICON V-PERS-S1
 %<p2%>%<sg%>:%>%n # ; 
 %<p3%>%<sg%>:%>%k # ; 
 %<p1%>%<pl%>:%>%{й%}%z # ; 
-%<p3%>%<pl%>:%>%{k%}l%{A%}r # ; 
+%<p3%>%<pl%>:%>%{L%}%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r # ;
 %<ifi%>:%>%{й%}%{D%}%{I%} # ;
 %<cond%>:%>%{й%}s%{A%} # ;
-%<pl%>:%>%{L%}%{A%}r # ;
+
 
 
 LEXICON V-PERS-S2
@@ -142,7 +142,7 @@ LEXICON V-PERS-AOR
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
 %<ifi%>:%>%{й%}%{D%}%{I%} # ;
-%<dob%>:%>%{й%}%m%{I%}ş # ;
+%<nfh%>:%>%{й%}%m%{I%}ş # ;
 %<pl%>:%>%{L%}%{A%}r # ;
 
 
@@ -269,6 +269,8 @@ V-FINITE-IRREG-NEG ;
 %<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
 %<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEG ;
 %<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEG ;
+%<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
+
 
 V-IMPER ;
 
@@ -2183,7 +2185,7 @@ sinciri:sinciri N1 ; ! ""
 solistka:solistka N1 ; ! ""
 sözcük:sözcük N1 ; ! ""
 suvan:suvan N1 ; ! ""
-
+saabi:saabi N1 ;
 fayton:fayton N1 ; ! ""
 fıçı:fıçı  N1 ; ! ""
 harap:harap N1 ; ! ""
@@ -2228,6 +2230,24 @@ Yapon:Yapon N1 ; ! ""
 yaprak:yaprak N1 ; ! ""
 yastık:yastık N1 ; ! ""
 yurt:yurt N1 ; ! ""
+
+hepsicii:hepsicii N1 ; ! ""
+kirill:kirill N1 ; ! ""
+protest:protest N1 ; ! ""
+satıcı:satıcı N1 ; ! ""
+serbestlik:serbestlik N1 ; ! ""
+seres:seres N1 ; ! ""
+sıçan:sıçan N1 ; ! ""
+şii:şii N1 ; ! ""
+sıklık:sıklık N1 ; ! ""
+silez:silez N1 ; ! ""
+işndilik:şindilik N1 ; ! ""
+şirit:şirit N1 ; ! ""
+şiş:şiş N1 ; ! ""
+siyasetçi:siyasetçi N1 ; ! ""
+slötlar:slötlar N1 ; ! ""
+sokakça:sokakça N1 ; ! ""
+sopa:sopa N1 ; ! ""
 
 aakdemiyasın:aakdemiyasın N1 ; ! ""
 aarif:aarif N1 ; ! ""
@@ -2384,6 +2404,22 @@ Kemal:Kemal NP-ANT-M ; ! ""
 
 Arnold:arnold NP-ANT-M ; ! ""
 Arnold:Arnold NP-ANT-M ; ! ""
+
+Hans:Hans NP-ANT-M ; ! ""
+Saveliy:Saveliy NP-ANT-M ; ! ""
+Say:Say NP-ANT-M ; ! ""
+Serdar:Serdar NP-ANT-M ; ! ""
+Serraf:Serraf NP-ANT-M ; ! ""
+Simon:Simon NP-ANT-M ; ! ""
+
+Elise:Elise NP-ANT-F ; ! ""
+Elsa:Elsa NP-ANT-F ; ! ""
+Signe:Signe NP-ANT-F ; ! ""
+Siina:Siina NP-ANT-F ; ! ""
+Siiri:Siiri NP-ANT-F ; ! ""
+Vasilisa:Vasilisa NP-ANT-F ; ! ""
+
+
 
 Arthur:Arthur NP-ANT-M ; ! ""
 Eda:Eda NP-ANT-F ; ! ""
@@ -2859,6 +2895,23 @@ Anadol:Anadol NP-TOP ; ! ""
 Anatoliyanın:Anatoliyanın NP-TOP ; ! ""
 Antalya:Antalya NP-TOP ; ! ""
 Antigua:Antigua NP-TOP ; ! ""
+
+Şerif:Şerif NP-TOP ; ! ""
+Sarayevo:Sarayevo NP-TOP ; ! ""
+Saray:Saray NP-TOP ; ! ""
+Sär:Sär NP-TOP ; ! ""
+Serres:Serres NP-TOP ; ! ""
+Sibir:Sibir NP-TOP ; ! ""
+Sikstanskaya:Sikstanskaya NP-TOP ; ! ""
+Silifke:Silifke NP-TOP ; ! ""
+Silistra:Silistra NP-TOP ; ! ""
+Silistriyanin:Silistriya NP-TOP ; ! ""
+Sinop:Sinop NP-TOP ; ! ""
+Sızrany:Sızrany NP-TOP ; ! ""
+Skifiyanm:Skifiyanm NP-TOP ; ! ""
+Slovak:Slovak NP-TOP ; ! ""
+Solomon:Solomon NP-TOP ; ! ""
+
 
 
 
@@ -3583,6 +3636,7 @@ Allah:Allaa NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
 
+SP:SP NP1-ORG ;
 TİKA:TİKA NP1-ORG ;
 GHT:GHT  NP1-ORG ;
 SSCB:SSCB NP1-ORG ;
@@ -3651,6 +3705,12 @@ Altleis:Altleis NP-COG-MF ; ! ""
 Andrekson:Andrekson NP-COG-MF ; ! ""
 Annast:Annast NP-COG-MF ; ! ""
 Arabaci:Arabaci NP-COG-MF ; ! ""
+
+Sava:Sava NP-COG-MF ; ! ""
+SAVASTİN:SAVASTİN NP-COG-MF ; ! ""
+Simčič:Simčič NP-COG-MF ; ! ""
+Şoray:Şoray NP-COG-MF ; ! ""
+
 
 
 Talvik:Talvik NP-COG-MF ; ! ""
@@ -4232,6 +4292,16 @@ gündüz:gündüz A1 ; ! ""
 güneşli:güneşli A1 ; ! ""
 tertip:tertip A1 ;
 
+allaasız:allaasız A1 ; ! ""
+şanli:şanli A1 ; ! ""
+satan:satan A1 ; ! ""
+savaşı:savaşı A1 ; ! ""
+sebepsiz:sebepsiz A1 ; ! ""
+sıkça:sıkça A1 ; ! ""
+sintaksis:sintaksis A1 ; ! ""
+umutsuz:umutsuz A1 ; ! ""
+
+
 uslu:uslu  A1 ; ! ""
 uzlu:uzlu A1 ; ! ""
 
@@ -4479,6 +4549,11 @@ durgun:durgun A1 ; ! ""
 duygu:duygu A1 ; ! ""
 ecel:ecel A1 ; ! ""
 elvi:elvi A1 ; ! ""
+parasız:parasız A1 ;
+kabaatsız:kabaatsız A1 ;
+uşaksız:uşaksız A1 ;
+yazısız:yazısız A1 ;
+ansız:ansız A1 ;
 
 
 LEXICON Adverbs
@@ -4539,6 +4614,10 @@ yukarı:yukarı ADV3 ; ! ""
 herkerä:herkerä ADV3 ; ! ""
 nası:nası ADV3 ; ! ""
 neçinki:neçinki ADV3 ; ! ""
+
+boşuna:boşuna ADV3 ; ! ""
+sebepiylän:sebepiylän ADV3 ; ! ""
+sevgiylän:sevgiylän ADV3 ; ! ""
 
 dolay:dolay ADV3 ; ! ""
 gene:gene ADV3 ; ! ""
@@ -4762,7 +4841,8 @@ tiparla:tiparla V-TV ;
 söle:söle V-TV ;
 söle:söyle V-TV ;
 öl:öl V-TV ;
-
+kayibet:kayibet V-TV ;
+kabulet:kabulet V-TV ;
 çalış:çalış V-TV ;
 oyna:oyna V-TV ;
 göster:göster V-TV ;
@@ -4823,6 +4903,7 @@ taşi:taşi V-TV ; ! ""
 yak:yak V-TV ; ! ""
 yan:yan V-IV ; ! ""
 yufkala:yufkala V-IV ; ! ""
+sarsıla:sarsıla V-TV ; ! ""
 
 
 sürt:sürt V-TV ; ! ""
@@ -4917,6 +4998,14 @@ suvazle:suvazle V-TV ; ! ""
 
 dene:dene V-TV ; ! ""
 duy:duy V-TV ; ! ""
+
+şanlan:şanlan V-IV ; ! ""
+sanmak:sanmak V-IV ; ! ""
+saygıylan:saygıylan V-IV ; ! ""
+sımarla:sımarla V-IV ; ! ""
+sokan:sokan V-IV ; ! ""
+üren:üren V-IV ; ! ""
+
 
 temelleş:temelleş V-IV ;
 
@@ -5073,6 +5162,13 @@ u%z:u%z ABBR ; ! ""
 W:W ABBR ; ! ""
 yaa:yaa  ABBR ; ! ""
 Y:Y ABBR ; ! ""
+
+y%a:y%a ABBR ; ! ""
+d%a:d%a ABBR ; ! ""
+s%n:s%n ABBR ; ! ""
+
+n%ı%n:n%ı%n ABBR ; ! ""
+
 
 
 ç%o:ç%o ABBR ;
