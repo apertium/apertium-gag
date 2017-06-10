@@ -390,7 +390,7 @@ LEXICON CASES
 %<abl%>:%>n%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
-%<ins%>:%>%{й}%{I%}%{A%} # ;
+%<ins%>:%>%{й}%{L%}%{A%} # ;
 
 LEXICON POSSESSIVES
 %<px1sg%>:%>%{i%}m CASES  ;
@@ -478,7 +478,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:dän # ;
 
 LEXICON PRON-PERS-SIZ
 

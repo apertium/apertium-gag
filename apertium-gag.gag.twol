@@ -12,7 +12,7 @@ Alphabet
  %{s%}:s %{s%}:0 %{T%}:t
  %{n%}:n %{n%}:0
  %{D%}:d 
- %{L%}:l %{L%}:n
+ %{L%}:l 
 
  %>:0  
  %+ % ;
@@ -37,10 +37,13 @@ RoundVow = O Ö U Ü
 FlatVow = A Â E İ I 
           a â e i ı ;
  
-           
+ 
+NasalCns = n,m ;          
 
 CnsVcls   = F S T K Ç Ş H P 
             f s t k ç ş h p ;
+
+
             
 
 
@@ -52,7 +55,7 @@ Rules
 
 "{D} changed to t when after a stem-final voiceless consonant" 
 
-%{D%}:t <=> :CnsVcls %>:0 _ ;  
+%{D%}:t <=> :CnsVcls %>:0 _ ;    
 
 "{T} change to d before vowels "
 
@@ -67,6 +70,9 @@ Rules
 
 "{й}  become y when intervocalic"
 %{й%}:y <=> :Vowel :0 _ :Vowel ;
+
+"{L} changed to n when after a Nasal consonant"
+%{L%}:n <=> :NasalCns  %>:0 _ ; 
 
 
 
