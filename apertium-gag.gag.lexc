@@ -267,19 +267,22 @@ V-FINITE-IRREG-NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-NONFINITE ;
 %<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
-%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEG ;
-%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEG ;
 %<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
-
 
 V-IMPER ;
 
-LEXICON V-DER
-%<coop%>:%>%{I%}ş V-COMMON ;
-%<pass%>:%>%{i%}%{L%} V-COMMON ;
-%<caus%>:%>%{D%}%{I%}r V-COMMON ;
+LEXICON V-ABIL
 
- V-COMMON ; 
+%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-COMMON ;
+%<abil%>:%>%{й%}%{A%}bil V-COMMON ;
+V-COMMON ; 
+
+LEXICON V-DER
+%<coop%>:%>%{I%}ş      V-ABIL ;
+%<pass%>:%>%{i%}%{L%}  V-ABIL ;
+%<caus%>:%>%{D%}%{I%}r V-ABIL ;
+
+                       V-ABIL ; 
 
 
 LEXICON V-IV 
