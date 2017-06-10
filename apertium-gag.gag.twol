@@ -38,7 +38,8 @@ FlatVow = A Â E İ I
           a â e i ı ;
  
  
-NasalCns = n,m ;          
+NasalCns = n m 
+           N M ;
 
 CnsVcls   = F S T K Ç Ş H P 
             f s t k ç ş h p ;
