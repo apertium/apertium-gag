@@ -581,10 +581,13 @@ LEXICON DET-DEM
 %<det%>%<dem%>: # ;
 
 LEXICON A1 
+
+%<adj%>: # ;               ! <attr> reading
 %<adj%>: CLITIC-COPULA ;
 
-
 LEXICON A2 
+
+%<adj%>: # ;               ! <attr> reading
 %<adj%>: CLITIC-COPULA ;
 %<adj%>%<subst%>: SUBST ; 
 
@@ -1796,6 +1799,7 @@ moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
 franţuz:franţuz N1 ;
+franţuz:franţsuz N1 ; ! Err/Orth ! Dir/LR
 bulgarca:bulgarca N1 ;
 azerbaycanca:azerbaycanca N1 ; ! ""
 ukrain:ukrain N1 ; ! ""
