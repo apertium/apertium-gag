@@ -302,7 +302,7 @@ LEXICON V-TV
 
 LEXICON PLURAL
 !%<pl%>:%>%{L%}%{A%}r V-GZ ;
-%<pl%>:%>%{L%}%{A%}r # ;
+%<pl%>:%>%{L%}%{A%}r CASES ;
 %<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
 LEXICON NP1-ORG
@@ -391,6 +391,7 @@ LEXICON CASES
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
 %<ins%>:%>%{й}%{L%}%{A%} # ;
+%<ins%>:%>%{й}%{L%}%{A%}n # ;
 
 LEXICON POSSESSIVES
 %<px1sg%>:%>%{i%}m CASES  ;
@@ -2126,6 +2127,20 @@ komanda:komanda N1 ; ! ""
 jurnal:jurnal N1 ; ! ""
 jurnalcı:jurnalcı N1 ; ! ""
 
+pelivan:pelivan N1 ; ! ""
+personal:personal N1 ; ! ""
+padişahka:padişahka N1 ; ! ""
+pamätlik:pamätlik N1 ; ! ""
+paradtan:paradtan N1 ; ! ""
+parmak:parmak N1 ; ! ""
+paşa:paşa N1 ; ! ""
+patrettä:patrettä N1 ; ! ""
+pelevanlık:pelevanlık N1 ; ! ""
+perdä:perdä N1 ; ! ""
+peygamber:peygamber N1 ; ! ""
+peyzaj:peyzaj N1 ; ! ""
+
+
 
 henez:henez N1 ; ! ""
 hıristiyan:hıristiyan N1 ; ! ""
@@ -2663,6 +2678,10 @@ Bayat:Bayat NP-TOP ; ! ""
 Belţ:Belţ NP-TOP ; ! ""
 Berane:Berane NP-TOP ; ! ""
 Bengali:Bengali NP-TOP ; ! ""
+Pachuca:Pachuca NP-TOP ; ! ""
+Palu:Palu NP-TOP ; ! ""
+Pedro:Pedro NP-TOP ; ! ""
+
 
 
 Latviya:Latviya NP-TOP ; ! ""
@@ -3316,6 +3335,14 @@ Jurij:Jurij NP-ANT-M ; ! ""
 Kristijan:Kristijan NP-ANT-M ; ! ""
 Iva:Iva NP-ANT-F ; ! ""
 
+Pavlo:Pavlo NP-ANT-M ; ! ""
+Perm:Perm NP-ANT-M ; ! ""
+Petco:Petco NP-ANT-M ; ! ""
+Petr:Petr NP-ANT-M ; ! ""
+Phan:Phan NP-ANT-M ; ! ""
+Pir:Pir NP-ANT-M ; ! ""
+
+
 Leo:Leo NP-ANT-M ; ! ""
 Ligor:Ligor NP-ANT-M ; ! ""
 Lojze:Lojze NP-ANT-M ; ! ""
@@ -3839,6 +3866,20 @@ Ostan:Ostan NP-COG-MF ; ! ""
 Paolo:Paolo NP-COG-MF ; ! ""
 pardus:pardus NP-COG-MF ; ! ""
 Põder:Põder NP-COG-MF ; ! ""
+Paas:Paas NP-COG-MF ; ! ""
+Paavel:Paavel NP-COG-MF ; ! ""
+Padrik:Padrik NP-COG-MF ; ! ""
+Päiv:Päiv NP-COG-MF ; ! ""
+Pajo:Pajo NP-COG-MF ; ! ""
+Paliologun:Paliologun NP-COG-MF ; ! ""
+Pallo:Pallo NP-COG-MF ; ! ""
+Papp:Papp NP-COG-MF ; ! ""
+Peetri:Peetri NP-COG-MF ; ! ""
+Pest:Pest NP-COG-MF ; ! ""
+Peterson:Peterson NP-COG-MF ; ! ""
+Pettai:Pettai NP-COG-MF ; ! ""
+Pierre:Pierre NP-COG-MF ; ! ""
+
 
 
 Jõgi:Jõgi NP-COG-MF ; ! ""
@@ -4343,6 +4384,9 @@ yalancı:yalancı A1 ; ! ""
 yarar:yarar  A1 ; ! ""
 yüksek:yüksek A1 ; ! ""
 acı:acı A1 ; ! ""
+
+parasal:parasal A1 ; ! ""
+parlak:parlak A1 ; ! ""
 
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
