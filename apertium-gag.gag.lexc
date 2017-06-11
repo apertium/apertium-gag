@@ -1792,6 +1792,21 @@ steonoz:steonoz N1 ; ! ""
 süjet:süjet N1 ; ! ""
 surinam:surinam N1 ; ! ""
 
+polovtsi:polovtsi N1 ; ! ""
+pravda:pravda N1 ; ! ""
+padişaalık:padişaalık N1 ; ! ""
+plastik:plastik N1 ; ! ""
+poläk:poläk N1 ; ! ""
+politehnika:politehnika N1 ; ! ""
+posta:posta  N1 ; ! ""
+raido:raido N1 ; ! ""
+registrat:registrat N1 ; ! ""
+religialık:religialık N1 ; ! ""
+religiyacı:religiyacı N1 ; ! ""
+remont:remont N1 ; ! ""
+republika:republika N1 ; ! ""
+
+
 
 
 !!!LANGUAGES!!!!!
@@ -2798,6 +2813,12 @@ Vyetnam:Vyetnam NP-TOP ; ! ""
 Washington:Washington NP-TOP ; ! ""
 Xunqueira:Xunqueira NP-TOP ; ! ""
 
+Providisa:Providisa NP-TOP ; ! ""
+Quebec:Quebec NP-TOP ; ! ""
+Rhode:Rhode NP-TOP ; ! ""
+Rio:Rio NP-TOP ; ! ""
+
+
 liţeyi:liţeyi NP-TOP ; ! ""
 Rostov:Rostov NP-TOP ; ! ""
 Sibirä:Sibirä NP-TOP ; ! ""
@@ -3335,6 +3356,17 @@ Jurij:Jurij NP-ANT-M ; ! ""
 Kristijan:Kristijan NP-ANT-M ; ! ""
 Iva:Iva NP-ANT-F ; ! ""
 
+Polona:Polona NP-ANT-F ; ! ""
+Praskovya:Praskovya NP-ANT-F ; ! ""
+Rita:Rita NP-ANT-F ; ! ""
+
+Polde:Polde NP-ANT-M ; ! ""
+Grasa:Grasa NP-ANT-M ; ! ""
+Print:Print NP-ANT-M ; ! ""
+Raid:Raid NP-ANT-M ; ! ""
+Rick:Rick NP-ANT-M ; ! ""
+
+
 Pavlo:Pavlo NP-ANT-M ; ! ""
 Perm:Perm NP-ANT-M ; ! ""
 Petco:Petco NP-ANT-M ; ! ""
@@ -3670,6 +3702,7 @@ Allah:Allaa NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
 
+RMF:RMF NP1-ORG ;
 SP:SP NP1-ORG ;
 TİKA:TİKA NP1-ORG ;
 GHT:GHT  NP1-ORG ;
@@ -3744,6 +3777,40 @@ Sava:Sava NP-COG-MF ; ! ""
 SAVASTİN:SAVASTİN NP-COG-MF ; ! ""
 Simčič:Simčič NP-COG-MF ; ! ""
 Şoray:Şoray NP-COG-MF ; ! ""
+
+Parmas:Parmas NP-COG-MF ; ! ""
+Pırkêlab:Pırkêlab  NP-COG-MF ; ! ""
+Põldoja:Põldoja NP-COG-MF ; ! ""
+Põldroos:Põldroos NP-COG-MF ; ! ""
+Polič:Polič NP-COG-MF ; ! ""
+Põltsamaa:Põltsamaa NP-COG-MF ; ! ""
+Poom:Poom NP-COG-MF ; ! ""
+Prangel:Prangel NP-COG-MF ; ! ""
+Puhm:Puhm NP-COG-MF ; ! ""
+Pumbo:Pumbo NP-COG-MF ; ! ""
+Purre:Purre NP-COG-MF ; ! ""
+Puura:Puura NP-COG-MF ; ! ""
+Raa:Raa NP-COG-MF ; ! ""
+Raave:Raave NP-COG-MF ; ! ""
+Radlov:Radlov  NP-COG-MF ; ! ""
+Raiend:Raiend NP-COG-MF ; ! ""
+Raik:Raik NP-COG-MF ; ! ""
+Raimo:Raimo NP-COG-MF ; ! ""
+Rämmeld:Rämmeld NP-COG-MF ; ! ""
+Randviir:Randviir NP-COG-MF ; ! ""
+Rannaste:Rannaste NP-COG-MF ; ! ""
+Ranniku:Ranniku NP-COG-MF ; ! ""
+Rästas:Rästas NP-COG-MF ; ! ""
+Rätsepp:Rätsepp NP-COG-MF ; ! ""
+Rätsep:Rätsep NP-COG-MF ; ! ""
+Raudsepp:Raudsepp NP-COG-MF ; ! ""
+Raudsep:Raudsep NP-COG-MF ; ! ""
+Raudsik:Raudsik NP-COG-MF ; ! ""
+Raukas:Raukas NP-COG-MF ; ! ""
+Raus:Raus NP-COG-MF ; ! ""
+Reiart:Reiart NP-COG-MF ; ! ""
+Reiman:Reiman NP-COG-MF ; ! ""
+Renel:Renel NP-COG-MF ; ! ""
 
 
 
@@ -4516,6 +4583,9 @@ esir:esir A1 ; ! ""
 girgin:girgin A1 ; ! ""
 kär:kär A1 ; ! ""
 kesin:kesin A1 ; ! ""
+pişman:pişman A1 ; ! ""
+populär:populär A1 ; ! ""
+
 
 arif:arif A1 ; ! ""
 ayıptır:ayıp A1 ; ! ""
@@ -4974,7 +5044,7 @@ ileştir:ileştir V-TV ; ! "" ! Der/Caus
 iileştir:iileştir V-TV ; ! "" ! Der/Caus
 haberleş:haberleş V-IV ; ! ""
 birleş:birleş V-IV ; ! ""
-
+piş:piş V-TV ;
 incele:incele V-TV ; ! ""
 iste:iste V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
@@ -5237,7 +5307,7 @@ L:L ABBR ;
 M:M ABBR ;
 ä:ä ABBR ;
 a%m:a%m ABBR ;
-
+Q:Q ABBR ;
 
 
 C:C ABBR ;
