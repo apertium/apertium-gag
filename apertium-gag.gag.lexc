@@ -48,7 +48,7 @@ Multichar_Symbols
 %<p2%>
 %<p3%>
 
-
+%{K%}
 %{L%}              ! l n
 %{I%}              ! i ı ü u
 %{i%}              ! i ı ü u 0 
@@ -2387,6 +2387,25 @@ sanatçı:sanatçı N1 ; ! ""
 sanat:sanat N1 ; ! ""
 Sandwich:Sandwich N1 ; ! ""
 
+kadınca:kadınca N1 ; ! ""
+studentlik:studentlik N1 ; ! ""
+studio:studio N1 ; ! ""
+Șvețtir:Șvețtir N1 ; ! ""
+tamah:tamah N1 ; ! ""
+tamazlık:tamazlık N1 ; ! ""
+Tanrı:Tanrı N1 ; ! ""
+ürek:ürek N1 ; ! ""
+urumca:urumca N1 ; ! ""
+üürencilik:üürencilik N1 ; ! ""
+valeybol:valeybol N1 ; ! ""
+vokal:vokal N1 ; ! ""
+yar:yar N1 ; ! ""
+yatırım:yatırım N1 ; ! ""
+yazıcılık:yazıcılık N1 ; ! ""
+yazılık:yazılık N1 ; ! ""
+yevä:yevä  N1 ; ! ""
+yıkık:yıkık N1 ; ! ""
+
 
 
 kahramanlık:kahramanlık N1 ; ! ""
@@ -2481,6 +2500,13 @@ Lima:Lima NP-TOP ; ! ""
 Krima:Krima NP-TOP ; ! ""
 Krasnoy:Krasnoy NP-TOP ; ! ""
 Lüdvig:Lüdvig NP-TOP ; ! ""
+Çin:Çin NP-TOP ; ! ""
+
+Suşehri:Suşehri NP-TOP ; ! ""
+Tamil:Tamil NP-TOP ; ! ""
+Uzotorki:Uzotorki NP-TOP ; ! ""
+Vaatizedici:Vaatizedici NP-TOP ; ! ""
+Van:Van NP-TOP ; ! ""
 
 
 Honduras:Honduras NP-TOP ; ! ""
@@ -2623,6 +2649,18 @@ Oli:Oli NP-ANT-M ; ! ""
 Otto:Otto NP-ANT-M ; ! ""
 Petra:Petra NP-ANT-M ; ! ""
 Petru:Petru NP-ANT-M ; ! ""
+Jaanus:Jaanus NP-ANT-M ; ! ""
+Suleyman:Suleyman NP-ANT-M ; ! ""
+Sung:Sung NP-ANT-M ; ! ""
+Taavet:Taavet NP-ANT-M ; ! ""
+Talyat:Talyat NP-ANT-M ; ! ""
+Tanel:Tanel NP-ANT-M ; ! ""
+Valdo:Valdo NP-ANT-M ; ! ""
+Valdur:Valdur NP-ANT-M ; ! ""
+Susy:Susy NP-ANT-F ; ! ""
+Svetlana:Svetlana NP-ANT-F ; ! ""
+Syerra:Syerra NP-ANT-F ; ! ""
+Versänä:Versänä NP-ANT-F ; ! ""
 
 
 
@@ -3901,6 +3939,22 @@ Nõmtak:Nõmtak NP-COG-MF ; ! ""
 Noormets:Noormets NP-COG-MF ; ! ""
 Noor:Noor NP-COG-MF ; ! ""
 
+Šugman:Šugman NP-COG-MF ; ! ""
+Taarna:Taarna NP-COG-MF ; ! ""
+Tabor:Tabor NP-COG-MF ; ! ""
+Tabun:Tabun NP-COG-MF ; ! ""
+Taka:Taka NP-COG-MF ; ! ""
+Tali:Tali NP-COG-MF ; ! ""
+Talpsepp:Talpsepp NP-COG-MF ; ! ""
+Tammur:Tammur NP-COG-MF ; ! ""
+Uustal:Uustal NP-COG-MF ; ! ""
+Valdma:Valdma NP-COG-MF ; ! ""
+Valge:Valge NP-COG-MF ; ! ""
+Väljaots:Väljaots NP-COG-MF ; ! ""
+Varts:Varts NP-COG-MF ; ! ""
+Vasar:Vasar NP-COG-MF ; ! ""
+Yuvarlaka:Yuvarlaka NP-COG-MF ; ! ""
+
 Kralj:Kralj NP-COG-MF ; ! ""
 Kranjc:Kranjc NP-COG-MF ; ! ""
 Kreen:Kreen NP-COG-MF ; ! ""
@@ -4662,6 +4716,10 @@ acı:acı A1 ; ! ""
 
 parasal:parasal A1 ; ! ""
 parlak:parlak A1 ; ! ""
+uçsuz:uçsuz A1 ;
+kenarsız:kenarsız A1 ; ! ""
+zavalı:zavalı A1 ; ! ""
+
 
 kısa:kısa A1 ; ! ""
 lääzım:lääzım A1 ; ! ""
@@ -5119,6 +5177,7 @@ ol%<v%>%<iv%>%<aor%>:olur V-PERS-AOR ; ! Dir/LR ! Err/Orth
 getir:getir V-TV ;
 çek:çek V-TV ;
 dön:dön V-IV ;
+yarış:yarış V-IV ;
 
 as:as V-TV ;
 ayır:ayır V-TV ;

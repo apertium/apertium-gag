@@ -11,7 +11,7 @@ Alphabet
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
  %{s%}:s %{s%}:0 %{T%}:t
  %{n%}:n %{n%}:0
- %{D%}:d 
+ %{D%}:d %{K%}:k
  %{L%}:l 
  %{☭%}:0
  %{в%}:0
@@ -77,8 +77,8 @@ Rules
 "{L} changed to n when after a Nasal consonant"
 %{L%}:n <=> :NasalCns  %>:0 _ ; 
 
-!"{K} change to a before vowels"
-!%{K%}:0 <=>  _  %>:0 :Vowel ;
+"{K} change to a before vowels"
+%{K%}:0   <=> :Vowel  _  %>:0  :Vowel ;
 
 "Voicing of non-coronal stem-final voiceless consonants"
 
