@@ -80,13 +80,13 @@ Rules
 !"{K} change to a before vowels"
 !%{K%}:0 <=>  _  %>:0 :Vowel ;
 
-"Devoicing of non-coronal stem-final voiceless consonants"
-Cx:Cy <=> _ .#. ;
-          _ %>: :Cns/:0* ;
+"Voicing of non-coronal stem-final voiceless consonants"
+
+Cx:Cy <=> :Vowel/:0* _ %>: :Vowel/:0* ;
       except
-           _ %{☭%}: %>: ; 
-      where Cx in ( p k )
-            Cy in ( b g )
+          _ %{☭%}: %>: ; 
+      where Cx in ( p k  )
+            Cy in ( b g  )
       matched ;
 
 
