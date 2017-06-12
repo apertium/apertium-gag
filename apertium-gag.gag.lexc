@@ -59,6 +59,8 @@ Multichar_Symbols
 %{A%}              ! a e ä
 %{й%}              ! y
 %{E%}              ! ê e y
+%{в%}
+%{☭%}
 %>
 %+
 
@@ -533,10 +535,10 @@ LEXICON N1
 %<n%>: PLURAL ; 
 !%<n%>: CLITIC-COPULA ;
 
-!!LEXICON N5
-!!%<n%>%<nom%>: # ;
-!!%<n%>:%' N-INFL-COMMON-NONOM ;
-!!%<n%>%<attr%>: # ;
+LEXICON N5
+
+%<n%>:%{☭%} FULL-NOMINAL-INFLECTION ; 
+%<n%>%<attr%>: # ;
 
 LEXICON N2 
                       
@@ -1455,7 +1457,7 @@ fikir:fikir N1 ; ! ""
 
 institutu:institutu N1 ; ! ""
 ispolkomu:ispolkomu N2 ; ! ""
-kitap:kitap N1 ; ! ""
+kitap:kitap N5 ; ! ""
 iyün:iyün N1 ; ! ""
 maasus:maasus N1 ; ! ""
 okul:okul N1 ; ! ""

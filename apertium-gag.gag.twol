@@ -13,9 +13,11 @@ Alphabet
  %{n%}:n %{n%}:0
  %{D%}:d 
  %{L%}:l 
+ %{☭%}:0
  %{в%}:0
  %>:0  
  %+ % ;
+ 
 
 Sets
 
@@ -77,6 +79,15 @@ Rules
 
 !"{K} change to a before vowels"
 !%{K%}:0 <=>  _  %>:0 :Vowel ;
+
+"Devoicing of non-coronal stem-final voiceless consonants"
+Cx:Cy <=> _ .#. ;
+          _ %>: :Cns/:0* ;
+      except
+           _ %{☭%}: %>: ; 
+      where Cx in ( p k )
+            Cy in ( b g )
+      matched ;
 
 
 
