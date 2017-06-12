@@ -531,7 +531,7 @@ LEXICON N1
 %<n%>: FULL-NOMINAL-INFLECTION ; 
  
 %<n%>: PLURAL ; 
-%<n%>: CLITIC-COPULA ;
+!%<n%>: CLITIC-COPULA ;
 
 !!LEXICON N5
 !!%<n%>%<nom%>: # ;
@@ -2323,6 +2323,27 @@ türkolog:türkolog N1 ; ! ""
 türksoy:türksoy N1 ; ! ""
 ülke:ülke N1 ; ! ""
 tekrar:tekrar N1 ; ! ""
+                                                      ÇİN:ÇİN N1 ; ! ""
+öğretmen:öğretmen N1 ; ! ""
+öküz:öküz  N1 ; ! ""
+öndercilik:öndercilik N1 ; ! ""
+ördek:ördek N1 ; ! ""
+orhon:orhon N1 ; ! ""
+örtü:örtü N1 ; ! ""
+oruç:oruç N1 ; ! ""
+öykü:öykü N1 ; ! ""
+politik:politik N1 ; ! ""
+romm:romm N1 ; ! ""
+saa:saa N1 ; ! ""
+sabur:sabur N1 ; ! ""
+sahip:sahip N1 ; ! ""
+şaka:şaka N1 ; ! ""
+salı:salı N1 ; ! ""
+şamanizm:şamanizm N1 ; ! ""
+sanatçı:sanatçı N1 ; ! ""
+sanat:sanat N1 ; ! ""
+Sandwich:Sandwich N1 ; ! ""
+
 
 
 kahramanlık:kahramanlık N1 ; ! ""
@@ -2959,6 +2980,17 @@ Skifiyanm:Skifiyanm NP-TOP ; ! ""
 Slovak:Slovak NP-TOP ; ! ""
 Solomon:Solomon NP-TOP ; ! ""
 
+Oregon:Oregon NP-TOP ; ! ""
+Orestiada:Orestiada NP-TOP ; ! ""
+Orhan:Orhan NP-TOP ; ! ""
+Özerk:Özerk NP-TOP ; ! ""
+Pitcairn:Pitcairn NP-TOP ; ! ""
+Rodopi:Rodopi NP-TOP ; ! ""
+Romeniyada:Romeniyada NP-TOP ; ! ""
+Şabran:Şabran NP-TOP ; ! ""
+Salonik:Salonik NP-TOP ; ! ""
+Samoa:Samoa NP-TOP ; ! ""
+Samsun:Samsun NP-TOP ; ! ""
 
 
 
@@ -3395,7 +3427,8 @@ Majda:Majda NP-ANT-F ; ! ""
 Mani:Mani NP-ANT-F ; ! ""
 Marija:Marija NP-ANT-F ; ! ""
 Mateja:Mateja NP-ANT-F ; ! ""
-
+Olli:Olli NP-ANT-M ; ! ""
+Oksana:Oksana NP-ANT-F ; ! ""
 
 
 Kiev:Kiev NP-TOP ; ! ""
@@ -3811,6 +3844,23 @@ Raus:Raus NP-COG-MF ; ! ""
 Reiart:Reiart NP-COG-MF ; ! ""
 Reiman:Reiman NP-COG-MF ; ! ""
 Renel:Renel NP-COG-MF ; ! ""
+
+Oks:Oks NP-COG-MF ; ! ""
+Olmaru:Olmaru NP-COG-MF ; ! ""
+Otsus:Otsus NP-COG-MF ; ! ""
+Rojnik:Rojnik NP-COG-MF ; ! ""
+Romanâska:Romanâska NP-COG-MF ; ! ""
+Romanov:Romanov NP-COG-MF ; ! ""
+Roosileht:Roosileht NP-COG-MF ; ! ""
+Roos:Roos NP-COG-MF ; ! ""
+Roots:Roots NP-COG-MF ; ! ""
+Rozman:Rozman NP-COG-MF ; ! ""
+Rumessen:Rumessen NP-COG-MF ; ! ""
+Rump:Rump NP-COG-MF ; ! ""
+Ruubel:Ruubel NP-COG-MF ; ! ""
+Rüütel:Rüütel NP-COG-MF ; ! ""
+Saksida:Saksida NP-COG-MF ; ! ""
+
 
 
 
@@ -4484,7 +4534,10 @@ yırtık:yırtık A1 ; ! ""
 yorgun:yorgun A1 ; ! ""
 zarar:zarar A1 ; ! ""
 
-
+Ooluk:Ooluk A1 ; ! ""
+original:original A1 ; ! ""
+Özgür:Özgür A1 ; ! ""
+şamatası:şamatası A1 ; ! ""
 eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
 biyaz:biyaz A1 ; ! ""
@@ -5010,7 +5063,7 @@ düş:düş V-IV ; ! ""
 fikirle:fikirle V-IV ; ! ""
 genellikle:genellikle V-IV ; ! ""
 bilmeer:bilmeer V-TV ; ! ""
-konuş:konuş V-IV ; ! ""
+konuş:konuş V-TV ; ! ""
 brak:brak V-TV ; ! ""
 yolla:yolla V-TV ; ! ""
 pin:pin V-IV ; ! ""
@@ -5099,7 +5152,8 @@ cezala:cezala V-TV ; ! ""
 ekle:ekle V-TV ; ! "" 
 gez:gez V-IV ; ! ""
 gecele:gecele V-IV ; ! ""
-
+öt:öt V-IV ;
+sakla:sakla V-TV ;
 ekmeklän:ekmeklän V-IV ; ! ""
 tuzekmeklän:tuzekmeklän V-IV ; ! ""
 kuu:kuu V-TV ; ! ""
@@ -5275,6 +5329,9 @@ N:N ABBR ; ! ""
 e%y%i:e%y%i ABBR ; ! ""
 R:R ABBR ; ! ""
 S:S ABBR ; ! ""
+
+Ö:Ö ABBR ; ! ""
+s:s ABBR ; ! ""
 
 
 Z:Z ABBR ; ! ""
