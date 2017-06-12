@@ -1260,7 +1260,7 @@ sevgi:sevgi N1 ;
 şotlandiya:şotlandiya N1 ;
 status:status N1 ; ! ""
 sürü:sürü N1 ;
-su:su N1 ; ! ""
+su:su%{в%} N1 ;
 soy:soy N1 ; ! ""
 selem:selem N1 ;
 sport:sport N1 ; ! ""
@@ -2105,6 +2105,7 @@ teoriya:teoriya N1 ; ! ""
 yadımcı:yadımcı N1 ; ! ""
 yurisdikţiya:yurisdikţiya N1 ; ! ""
 zona:zona N1 ; ! ""
+sud:sud N1 ;
 
 decpotstvo:decpotstvo N1 ; ! ""
 dokazatelystvo:dokazatelystvo N1 ; ! ""
