@@ -1599,6 +1599,7 @@ aga:aga N1 ; ! ""
 premyer:premyer N1 ; ! ""
 problema:problema N1 ; ! ""
 süt:süt N1 ; ! ""
+süt:sud N1 ; ! "" ! Dir/LR ! Err/Orth
 temas:temas N1 ; ! ""
 nedän:nedän N1 ; ! "reason"
 
@@ -2127,7 +2128,6 @@ teoriya:teoriya N1 ; ! ""
 yadımcı:yadımcı N1 ; ! ""
 yurisdikţiya:yurisdikţiya N1 ; ! ""
 zona:zona N1 ; ! ""
-sud:sud N1 ;
 süt:süt N1 ;
 
 decpotstvo:decpotstvo N1 ; ! ""
@@ -2191,7 +2191,9 @@ kemençä:kemençä N1 ; ! ""
 keseri:keseri N1 ; ! ""
 kesiy:kesiy N1 ; ! ""
 kihat:kihat N1 ; ! ""
-klip:klip N1 ; ! ""
+klip:klip N5 ; ! ""
+videoklip:videoklip N5 ; ! ""
+videoklip:vidioklip N5 ; ! "" ! Err/Orth ! Dir/LR
 klub:klub N1 ; ! ""
 koktel:koktel N1 ; ! ""
 kolec:kolec N1 ; ! ""

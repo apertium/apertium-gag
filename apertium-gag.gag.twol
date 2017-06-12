@@ -84,7 +84,7 @@ Rules
 
 Cx:Cy <=> :Vowel/:0* _ %>: :Vowel/:0* ;
       except
-          _ %{☭%}: %>: ; 
+                     _ %{☭%}: %>: ; 
       where Cx in ( p k t )
             Cy in ( b g d )
       matched ;
