@@ -48,7 +48,7 @@ Multichar_Symbols
 %<p2%>
 %<p3%>
 
-%{K%}
+%{k%}
 %{L%}              ! l n
 %{I%}              ! i ı ü u
 %{i%}              ! i ı ü u 0 
