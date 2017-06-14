@@ -1429,8 +1429,8 @@ not:not N1 ; ! ""
 parça:parça N1 ; ! ""
 saha:saha N1 ; ! ""
 yalan:yalan N1 ; ! ""
-cümle:cümlâ N1 ; ! "" ! Err/Orth ! Dir/LR
-cümle:cümlä N1 ; ! "" ! Err/Orth ! Dir/LR
+cümle:cümlâ N1 ; ! "" ! Err/Orth
+cümle:cümlä N1 ; ! "" ! Err/Orth 
 cümle:cümle N1 ;
 ispan:ispan N1 ;
 islam:islam N1 ;
@@ -1600,7 +1600,7 @@ aga:aga N1 ; ! ""
 premyer:premyer N1 ; ! ""
 problema:problema N1 ; ! ""
 süt:süt N1 ; ! ""
-süt:sud N1 ; ! "" ! Dir/LR ! Err/Orth
+süt:sud N1 ; ! "" ! Err/Orth
 temas:temas N1 ; ! ""
 nedän:nedän N1 ; ! "reason"
 
@@ -1839,7 +1839,7 @@ moldovanca:moldovanca N1 ;
 ingilizçe:ingilizçe N1 ;
 oguz:oguz N1 ;
 franţuz:franţuz N1 ;
-franţuz:franţsuz N1 ; ! Err/Orth ! Dir/LR
+franţuz:franţsuz N1 ; ! Err/Orth 
 bulgarca:bulgarca N1 ;
 azerbaycanca:azerbaycanca N1 ; ! ""
 ukrain:ukrain N1 ; ! ""
@@ -2193,7 +2193,7 @@ kesiy:kesiy N1 ; ! ""
 kihat:kihat N1 ; ! ""
 klip:klip N5 ; ! ""
 videoklip:videoklip N5 ; ! ""
-videoklip:vidioklip N5 ; ! "" ! Err/Orth ! Dir/LR
+videoklip:vidioklip N5 ; ! "" ! Err/Orth 
 klub:klub N1 ; ! ""
 koktel:koktel N1 ; ! ""
 kolec:kolec N1 ; ! ""
@@ -5173,7 +5173,7 @@ yazı:yazı V-TV ;
 aç:aç V-TV ;
 evlän:evlän V-IV ;
 ol:ol V-IV ;
-ol%<v%>%<iv%>%<aor%>:olur V-PERS-AOR ; ! Dir/LR ! Err/Orth
+ol%<v%>%<iv%>%<aor%>:olur V-PERS-AOR ; ! Err/Orth
 getir:getir V-TV ;
 çek:çek V-TV ;
 dön:dön V-IV ;
