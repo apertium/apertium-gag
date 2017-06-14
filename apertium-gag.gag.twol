@@ -15,7 +15,8 @@ Alphabet
  %{L%}:l 
  %{☭%}:0
  %{в%}:0
- %>:0  
+ %>:0
+ %{N%}:n  
  %+ % ;
  
 
@@ -24,8 +25,8 @@ Sets
 Cns = B C Ç D  F G H  J K L M N  P R S Ş Ș T Ţ Ț V Y Z
       b c ç d  f g h  j k l m n  p r s ş ș t ţ ț v y z ;
 
-Vowel = A E Ê Ä I O Ö U Ü  
-        a e ê ä i o ö u ü   ;
+Vowel = A E Ê Ä İ I O Ö U Ü  
+        a e ê ä i ı o ö u ü   ;
 
 HardVow = A Â O I U
           a â o ı u ;
@@ -58,27 +59,51 @@ Rules
 
 "{D} changed to t when after a stem-final voiceless consonant" 
 
-%{D%}:t <=> :CnsVcls %>:0 _ ;    
+%{D%}:t <=> :CnsVcls %>:0 _ ; 
+   
 
 "{T} change to d before vowels "
 
-%{T%}:d  <=>  _  %>:0  :Vowel  ;  
+%{T%}:d  <=>  _  %>:0  :Vowel  ; 
+ 
 
 "Vowel harmony for archiphoneme {I}"
 
-%{I%}:Vy <=> :Vx :Cns+/:0* _ ;
-     where Vx in ( a â ä e ê o ö u ü ı i )
-           Vy in ( ı ı i i ı u ü u ü ı i )
-     matched ;
+%{I%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+    where Vx in ( a â ä e ê o ö u ü ı i )
+          Vy in ( ı ı i i ı u ü u ü ı i )
+    matched ;
+
+!!%{I%}:Vy <=> :Vx :Cns+/:0* _ ; 
+
 
 "{й}  become y when intervocalic"
 %{й%}:y <=> :Vowel :0 _ :Vowel ;
 
+"{s} become 0 when intervocalic"
+%{s%}:0 <=> :Cns :0 _ :Vowel ;
+
+
 "{L} changed to n when after a Nasal consonant"
 %{L%}:n <=> :NasalCns  %>:0 _ ; 
 
-"{K} change to a before vowels"
-%{K%}:0   <=> :Vowel  _  %>:0  :Vowel ;
+
+
+"deleting k before vowels"
+%{k%}:0 <=> :Vowel _ %>:0 :0* :Vowel ;
+       
+           
+
+
+"{n} become 0 before genetive case "
+
+%{n%}:0 <=> _ %>:0  %{N%}: %{I%}:   ;
+
+"{n} become 0 at the end "
+
+%{n%}:0 <=> %>:0 : :  _ .#. ;
+
+
 
 "Voicing of non-coronal stem-final voiceless consonants"
 

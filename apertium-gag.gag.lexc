@@ -60,6 +60,7 @@ Multichar_Symbols
 %{й%}              ! y
 %{E%}              ! ê e y
 %{в%}
+%{N%}
 %{☭%}
 %>
 %+
@@ -385,7 +386,7 @@ LEXICON CLITIC-COPULA
 LEXICON CASES
 %<nom%>: CLITIC-COPULA ;
 %<nom%>:  # ;
-%<gen%>:%>%{n%}%{I%}%{n%} # ;
+%<gen%>:%>%{n%}%{I%}n # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
@@ -910,7 +911,7 @@ can:can N1 ;
 canavar:canavar N1 ; ! ""
 canab:canab N1 ; ! ""
 cuvap:cuvap N1 ; 
-çocuk:çocuk N1 ; ! ""
+çocuk:çocu%{k%} N1 ; ! ""
 çadır:çadır N1 ; ! ""
 çeket:çeket N1 ; ! ""
 çiftçilik:çiftçilik N1 ; ! ""
@@ -978,7 +979,6 @@ büükelçi:büükelçi N1 ; ! ""
 birliin:birliin N1 ;
 beegir:beegir N1 ;
 çiçek:çiçek N1 ; ! ""
-çocuu:çocuu N1 ;
 çoban:çoban N1 ;
 çift:çift N1 ; ! "couple" 
 ceviz:ceviz N1 ; ! ""
@@ -4728,7 +4728,6 @@ lääzımnı:lääzımnı A1 ;
 peri:peri A1 ; ! ""
 yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
-resmi:resmi A1 ; ! ""
 meraklı:meraklı A1 ;  ! "curious, curious"
 maasuz:maasuz A1 ;
 çok:çok A1 ; ! ""
