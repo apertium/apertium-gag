@@ -1429,8 +1429,9 @@ not:not N1 ; ! ""
 parça:parça N1 ; ! ""
 saha:saha N1 ; ! ""
 yalan:yalan N1 ; ! ""
-cümlâ:cümlâ N1 ;
-cümlâ:cümlâ N1 ;
+cümle:cümlâ N1 ; ! "" ! Err/Orth ! Dir/LR
+cümle:cümlä N1 ; ! "" ! Err/Orth ! Dir/LR
+cümle:cümle N1 ;
 ispan:ispan N1 ;
 islam:islam N1 ;
 dünnedä:dünnedä N1 ; ! ""
@@ -1926,7 +1927,6 @@ ceng:ceng N1 ; ! ""
 ceza:ceza N1 ; ! ""
 Çobancık:Çobancık N1 ; ! ""
 çoçuk:çoçuk N1 ; ! ""
-cümlä:cümlä N1 ; ! ""
 dağlık:dağlık N1 ; ! ""
 dalga:dalga N1 ; ! ""
 babo:babo N1 ; ! ""
@@ -5207,6 +5207,7 @@ başar:başar V-TV ;
 topla:topla V-TV ;
 toplan:toplan V-IV ;
 bit:bit V-TV ;
+bitir:bitir V-TV ; ! Der/Caus
 yarat:yarat V-TV ;
 gör: gör V-TV ;
 bul:bul V-TV ;
