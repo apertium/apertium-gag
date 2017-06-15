@@ -3,7 +3,8 @@ Alphabet
     A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
     a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
- %{A%}:a %{A%}:e %{A%}:ä  %{A%}:ê %{A%}:â
+ %{A%}:a !%{A%}:e %{A%}:ä  %{A%}:ê %{A%}:â
+    
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i  %{E%}:u
  %{I%}:i 
  %{й%}:y %{й%}:0
@@ -100,8 +101,6 @@ Rules
 " u become a before vowels"
 u:a <=> : _ %{k%}:0 >:0 :0* :a ;
        
-           
-
 
 "{n} become 0 before genetive case "
 

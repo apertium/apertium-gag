@@ -128,12 +128,12 @@ LEXICON V-PERS-S1
 %<cond%>:%>%{й%}s%{A%} # ;
 
 LEXICON V-PERS-FUT
-%<p1%>%<sg%>:%>am # ; 
-%<p2%>%<sg%>:%>an # ; 
-%<p3%>%<sg%>:%>ek # ; 
+%<p1%>%<sg%>:%>m # ; 
+%<p2%>%<sg%>:%>n # ; 
+%<p3%>%<sg%>:%>k # ; 
 %<p1%>%<pl%>:%>a%{й%}%z # ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>ek%{L%}%{A%}r # ; 
+%<p3%>%<pl%>:%>k%{L%}%{A%}r # ; 
 
 
 
@@ -279,7 +279,7 @@ V-FINITE-IRREG-NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-NONFINITE ;
-%<fut%>:%>%{й%}%{A%}c V-PERS-FUT ;
+%<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-FUT ;
 %<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
 
 V-IMPER ;
