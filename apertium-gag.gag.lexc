@@ -52,6 +52,7 @@ Multichar_Symbols
 %{L%}              ! l n
 %{I%}              ! i ı ü u
 %{i%}              ! i ı ü u 0 
+%{a%}              ! a e
 %{n%}              ! n 0
 %{s%}              ! s 0 
 %{D%}              ! d t
@@ -117,13 +118,22 @@ Barbarisms ;
 
 LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
-%<p2%>%<sg%>:%>%n # ; 
+%<p2%>%<sg%>:%>n # ; 
 %<p3%>%<sg%>:%>%k # ; 
-%<p1%>%<pl%>:%>%{й%}%z # ; 
+%<p1%>%<pl%>:%>%{й%}%z # ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}r # ; 
 %<pl%>:%>%{L%}%{A%}r # ;
 %<ifi%>:%>%{й%}%{D%}%{I%} # ;
 %<cond%>:%>%{й%}s%{A%} # ;
+
+LEXICON V-PERS-FUT
+%<p1%>%<sg%>:%>am # ; 
+%<p2%>%<sg%>:%>an # ; 
+%<p3%>%<sg%>:%>ek # ; 
+%<p1%>%<pl%>:%>a%{й%}%z # ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
+%<p3%>%<pl%>:%>ek%{L%}%{A%}r # ; 
 
 
 
@@ -269,7 +279,7 @@ V-FINITE-IRREG-NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-NONFINITE ;
-%<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-S1 ;
+%<fut%>:%>%{й%}%{A%}c V-PERS-FUT ;
 %<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
 
 V-IMPER ;
@@ -410,7 +420,7 @@ LEXICON POSSESSIVES
 
 LEXICON LI-POSTPOSITION
 
-%+lı%<post%>:%>l%{I%} POSSESSIVES ;
+%+lı%<post%>:%>l%{I%} # ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 PLURAL ;
