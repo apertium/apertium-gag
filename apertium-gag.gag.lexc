@@ -1189,8 +1189,8 @@ oda:oda N1 ;
 ölüm:ölüm N1 ;
 onuştan:onuştan N1 ;
 önderci:önderci N1 ;
-önemni:önemli N1 ; ! "" ! Err/Orth
-önemni:önemni N1 ; ! ""
+önemli:önemni N1 ; ! "" ! Err/Orth
+önemli:önemli N1 ; ! ""
 opera:opera N1 ; ! ""
 tatar:tatar N1 ; ! ""
 ulusal:ulusal N1 ; ! ""
@@ -1382,8 +1382,9 @@ nisan:Nisan N1 ;
 aprel:aprel N1 ;
 yanvar:yanvar N1 ;
 izmet:izmet N1 ;
+kıymet:kıymet N1 ; ! ""
 baaşış:baaşış N1 ; ! ""
-oğuz:Oğuz N1 ; ! ""
+oğuz:oğuz N1 ; ! ""
 ölü:ölü N1 ; ! ""
 ömür:ömür N1 ; ! ""
 romın:romın N1 ; ! ""
@@ -2428,6 +2429,7 @@ başkasaba:başkasaba N2 ; ! ""
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
+Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
 
 Alaşehir:Alaşehir NP-TOP ; ! ""

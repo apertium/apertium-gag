@@ -9,7 +9,7 @@ Alphabet
     і:і i:і
 
 
- %{A%}:a %{A%}:e %{A%}:ä %{A%}:0 %{A%}:ê 
+ %{A%}:a %{A%}:e %{A%}:ä %{A%}:ê 
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
  %{I%}:i %{I%}:ı %{I%}:ü %{I%}:u
@@ -64,6 +64,8 @@ Rules
 "Delete morpheme boundary"
 %>:0 <=> _ ;
 
+"Delete final {n}"
+%{n%}:0 <=> _ .#. ; 
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
