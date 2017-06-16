@@ -10,7 +10,8 @@ Alphabet
  %{й%}:y %{й%}:0
  %{i%}:i  %{i%}:0 ! %{i%}:u  !%{i%}:ı !%{i%}:ü 
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
- %{s%}:s %{s%}:0 %{T%}:t
+ %{s%}:s %{s%}:0 
+ %{T%}:t %{T%}:d
  %{n%}:n %{n%}:0
  %{D%}:d %{k%}:k
  %{L%}:l %{u%}:u 
@@ -67,8 +68,9 @@ Rules
 
 "{T} change to d before vowels "
 
-%{T%}:d  <=>  _  %>:0  :Vowel  ; 
+%{T%}:d  <=>  _  %>:0 (:0) :Vowel  ; 
  
+!@ g:g i:i {T}:d >:0 {й}:0 {a}:e c:c {A}:ä >:0 m:m
 
 "Vowel harmony for archiphoneme {I}"
 
