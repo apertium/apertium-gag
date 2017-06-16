@@ -48,48 +48,53 @@ Multichar_Symbols
 %<p1%>
 %<p2%>
 %<p3%>
-%{u%}
-%{k%}
-%{L%}              ! l n
-%{I%}              ! i ı ü u
-%{i%}              ! i ı ü u 0 
-%{a%}              ! a e
-%{n%}              ! n 0
-%{s%}              ! s 0 
-%{D%}              ! d t
-%{y%}              ! i ı ü u 0
-%{A%}              ! a e ä
-%{й%}              ! y
-%{E%}              ! ê e y
-%{e%}              ! e
-%{в%}
-%{N%}
-%{☭%}
-%>
-%+
 
-%{T%}
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
 %<f%>              ! Feminine     
 %<mf%>             ! Either
 
-! "Syntactic" tags. Attributive use of non-adjectives etc. !!!!! NOT SURE I WANT THIS !!!!
+! "Syntactic" tags. Attributive use of non-adjectives etc. 
 %<attr%>           ! Attributive
 %<subst%>          ! Substantive
 %<advl%>           ! Adverbial
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 
-%<pers%>           ! Personal
 ! Pronoun and determiner types
+%<pers%>           ! Personal
 %<dem%>            ! Demonstrative
 %<ind%>            ! Indefinite
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
-%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs ! what do you mean firespeaker??
+%<neg%>            ! Negative    
 %<ref%>            ! Reflexive
 %<recip%>          ! Reciprocal
+
+%{u%}              ! 
+%{k%}              ! k 0
+%{L%}              ! l n
+%{I%}              ! i ı ü u
+%{i%}              ! i ı ü u 0 
+%{a%}              ! a e
+%{n%}              ! n 0
+%{s%}              ! s 0 
+%{y%}              ! i ı ü u 0
+%{A%}              ! a e ä
+%{й%}              ! y
+%{E%}              ! ê e y
+%{e%}              ! e
+%{в%}              ! 0
+%{N%}              ! n 0
+%{D%}              ! d t
+%{T%}              ! t d 
+
+%{☭%}              ! Loan word phonology
+
+%>
+%+
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -938,7 +943,7 @@ dev:dev N1 ;
 evraziya:evraziya N1 ; 
 ekmek:ekmek N1 ;
 
-resim:res%{й%}m N1 ; ! "образ"
+resim:res%{y%}m N1 ; ! "образ"
 radio:radio N1 ; ! ""
 devlet:devlet N1 ; ! "государство"
 yıl:yıl N1 ; ! "год"
@@ -3294,7 +3299,9 @@ Vladimir:Vladimir NP-ANT-M ; ! ""
 Stepan:Stepan NP-ANT-M ; ! ""
 Zanet:Zanet NP-ANT-M ; ! ""
 Dimitri:Dimitri NP-ANT-M ; ! ""
-Oblastı:Oblastı NP-ANT-M  ; ! ""
+Dimitriy:Dimitriy NP-ANT-M ; ! ""
+Vasiliy:Vasiliy NP-ANT-M ; ! ""
+!Oblastı:Oblastı NP-ANT-M  ; ! ""
 İіsus:İіsus NP-ANT-M ; ! ""
 Tepägöz:Tepägöz NP-ANT-M ; ! ""
 Yuvan:Yuvan NP-ANT-M ; ! ""
