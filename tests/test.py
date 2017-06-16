@@ -47,6 +47,8 @@ for f in testf: #{
 			err += 1;
 		#}
 	#}
+	print('');
 #}
 
-print('%.2f\t%d\t%d\t%d' % (err/(err+corr), err+corr, corr, err));
+print('PASS:\t%.2f%%' % ((corr/(err+corr))*100.0));
+print('%d\t%d\t%d' % (err+corr, corr, err));
