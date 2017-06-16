@@ -1,5 +1,10 @@
 import sys, libhfst, glob;
 
+if len(sys.argv) <= 1: #{
+	print('test.py <lang code>');
+	sys.exit(-1);
+#}
+
 lang = sys.argv[1];
 
 istr1 = libhfst.HfstInputStream('../'+lang+'.automorf.hfst');
