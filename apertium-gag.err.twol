@@ -65,7 +65,7 @@ Rules
 %>:0 <=> _ ;
 
 "Delete final {n}"
-%{n%}:0 <=> _ .#. ; 
+%{n%}:0 <= _ .#. ; 
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

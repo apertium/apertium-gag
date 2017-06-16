@@ -31,6 +31,7 @@ Multichar_Symbols
 %<top%>
 %<ant%>
 
+%<prog%>
 
 %<ord%>
 
@@ -145,7 +146,6 @@ LEXICON V-PERS-S2
 %<p1%>%<pl%>:%>%k # ; 
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>l%{A%}r # ;
-%<pl%>:%>%{L%}%{A%}r # ;
 
 
 LEXICON V-PERS-AOR
@@ -273,21 +273,24 @@ LEXICON V-COMMON
 V-FINITE-REGULAR_NEG ;
 V-NONFINITE ;
 V-FINITE-IRREG-NEG ;
-%<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
 %<aor%>:%>%{E%}r V-PERS-AOR ;
+%<prog%>:%>%{A%}yor V-PERS-S2 ; 
+%<fut%>:%>%{й%}%{a%}c V-PERS-FUT ;
+
+%<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
-%<neg%>:%>m%{A%} V-NONFINITE ;
-%<fut%>:%>%{й%}%{a%}c V-PERS-FUT ;
 %<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
+
+%<neg%>:%>m%{A%} V-NONFINITE ;
 
 V-IMPER ;
 
 LEXICON V-ABIL
 
 %<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-COMMON ;
-%<abil%>:%>%{й%}%{A%}bil V-COMMON ;
-V-COMMON ; 
+%<abil%>:%>%{й%}%{A%}bil           V-COMMON ;
+                                   V-COMMON ; 
 
 LEXICON V-DER
 %<coop%>:%>%{I%}ş      V-ABIL ;
