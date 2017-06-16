@@ -22,6 +22,7 @@ dev/verbs/verbs.lexc -text
 /modes.xml -text
 tests/future.tsv -text
 tests/genitive.tsv -text
+tests/possessives.tsv -text
 tests/test.py -text
 texts/aorpre.txt -text
 texts/sentences.txt -text
