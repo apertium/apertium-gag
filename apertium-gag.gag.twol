@@ -3,7 +3,7 @@ Alphabet
     A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
     a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
- %{A%}:a !%{A%}:e %{A%}:ä  %{A%}:ê %{A%}:â
+ %{A%}:a %{A%}:ä  %{A%}:ê %{A%}:â
     
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i  %{E%}:u
  %{I%}:i 
@@ -16,6 +16,8 @@ Alphabet
  %{L%}:l %{u%}:u 
  %{☭%}:0
  %{в%}:0
+ %{e%}:e
+ %{a%}:a %{a%}:e
  %>:0
  %{N%}:n  
  %+ % ;
@@ -76,10 +78,32 @@ Rules
     matched ;
 
 "Vowel harmony for archiphoneme {A}"
-
 %{A%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+    except 
+        %{a%}: c %{e%}: k %>: %{L%}: _ ;
     where Vx in ( a ä e ê o ö u ü ı i )
-          Vy in ( a ä ä a a ä a ä a ä )
+              Vy in ( a ä ä a a ä a ä a ä )
+    matched ;
+
+!@ o:o l:l >:0 {й}:0 {A}:a c:c >:0 {e}:e k:k >:0 {L}:l {A}:a r:r
+
+"Vowel harmony in the future suffix with plural"
+%{A%}:Vy <=> %{a%}:Vx c %{e%}: k %>: %{L%}: _ ; 
+    where Vx in ( a ä e ê )
+          Vy in ( a ä ä a )
+    matched ;
+ 
+
+!%{A%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+!    where Vx in ( a ä e ê o ö u ü ı i )
+!          Vy in ( a ä ä a a ä a ä a ä )
+!    matched ;
+!
+
+"Vowel harmony for archiphoneme {a}"
+%{a%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+    where Vx in ( a ä e ê o ö u ü ı i )
+              Vy in ( a e e a a e a e a e )
     matched ;
 
 

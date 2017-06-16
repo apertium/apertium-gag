@@ -20,6 +20,8 @@ dev/verbs/Makefile -text
 dev/verbs/verbs.lexc -text
 /gag.prob -text svneol=unset#unset
 /modes.xml -text
+tests/future.tsv -text
+tests/test.py -text
 texts/aorpre.txt -text
 texts/sentences.txt -text
 texts/verbal.txt -text

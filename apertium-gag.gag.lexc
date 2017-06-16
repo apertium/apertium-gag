@@ -60,6 +60,7 @@ Multichar_Symbols
 %{A%}              ! a e ä
 %{й%}              ! y
 %{E%}              ! ê e y
+%{e%}              ! e
 %{в%}
 %{N%}
 %{☭%}
@@ -128,12 +129,12 @@ LEXICON V-PERS-S1
 %<cond%>:%>%{й%}s%{A%} # ;
 
 LEXICON V-PERS-FUT
-%<p1%>%<sg%>:%>m # ; 
-%<p2%>%<sg%>:%>n # ; 
-%<p3%>%<sg%>:%>k # ; 
-%<p1%>%<pl%>:%>a%{й%}%z # ;
-%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>k%{L%}%{A%}r # ; 
+%<p1%>%<sg%>:%{a%}%>m # ; 
+%<p2%>%<sg%>:%{a%}%>n # ; 
+%<p3%>%<sg%>:%{e%}%>k # ; 
+%<p1%>%<pl%>:%{a%}%>z # ;
+%<p2%>%<pl%>:%{a%}%>n%{I%}z # ; 
+%<p3%>%<pl%>:%{e%}k%>%{L%}%{A%}r # ; 
 
 
 
@@ -279,7 +280,7 @@ V-FINITE-IRREG-NEG ;
 %<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
 %<neg%>:%>m%{A%} V-NONFINITE ;
-%<fut%>:%>%{й%}%{A%}c%{A%} V-PERS-FUT ;
+%<fut%>:%>%{й%}%{a%}c V-PERS-FUT ;
 %<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
 
 V-IMPER ;
