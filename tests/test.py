@@ -28,6 +28,11 @@ for f in testf: #{
 		row = t.strip().split('\t');
 		g_res = gene.lookup(row[0]);
 
+		if g_res == (): #{
+			print('-\t%s\t%s\t%s' % (row[0], row[1], g_res));
+			err += 1;
+			continue;
+		#}
 		if g_res[0][0] == row[1]: #{
 			print('+\t%s\t%s' % (row[0], g_res[0][0]));
 			corr += 1;

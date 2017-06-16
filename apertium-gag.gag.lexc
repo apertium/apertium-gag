@@ -129,8 +129,8 @@ LEXICON V-PERS-S1
 %<cond%>:%>%{й%}s%{A%} # ;
 
 LEXICON V-PERS-FUT
-%<p1%>%<sg%>:%{a%}%>m # ; 
-%<p2%>%<sg%>:%{a%}%>n # ; 
+%<p1%>%<sg%>:%{A%}%>m # ; 
+%<p2%>%<sg%>:%{A%}%>n # ; 
 %<p3%>%<sg%>:%{e%}%>k # ; 
 %<p1%>%<pl%>:%{a%}%>z # ;
 %<p2%>%<pl%>:%{a%}%>n%{I%}z # ; 
@@ -5423,7 +5423,7 @@ umutlan:umutlan V-IV ;
 uzlaş:uzlaş V-IV ;
 
 
-git:gi%{T%} V-TV ;
+git:gi%{T%} V-IV ;
 çeket:çeke%{T%} V-TV ;
 et:e%{T%} V-TV ;
 kablet:kablet V-TV ;
