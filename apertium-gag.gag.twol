@@ -6,16 +6,16 @@ Alphabet
  %{A%}:a %{A%}:ä  %{A%}:ê %{A%}:â
     
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i  %{E%}:u
- %{I%}:i 
+ %{I%}:i  
  %{й%}:y %{й%}:0
  %{i%}:i  %{i%}:0 ! %{i%}:u  !%{i%}:ı !%{i%}:ü 
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
  %{s%}:s %{s%}:0 
  %{T%}:t %{T%}:d
- %{n%}:n %{n%}:0
+ %{n%}:n  %{n%}:0
  %{D%}:d %{k%}:k
  %{L%}:l %{u%}:u 
- %{☭%}:0
+ %{☭%}:0 
  %{в%}:0
  %{e%}:e
  %{a%}:a %{a%}:e
@@ -128,14 +128,17 @@ Rules
 u:a <=> : _ %{k%}:0 >:0 :0* :a ;
        
 
-"{n} become 0 before genetive case "
+!"delete {n} before genetive case "
 
-%{n%}:0 <=> _ %>:0  %{N%}: %{I%}:   ;
+!%{n%}:0 <=>  %>:0 _ %{I%}:   ;
+
+!"{n} become 0 at the end "
+
+!%{n%}:0 <=> %>:0 : : _ .#. ;
 
 "{n} become 0 at the end "
 
-%{n%}:0 <=> %>:0 : :  _ .#. ;
-
+%{n%}:0 <=> :Cns %>:0  _ %{I%}: : ;
 
 
 "Voicing of non-coronal stem-final voiceless consonants"
