@@ -1157,7 +1157,7 @@ moldovan:moldovan N1 ;
 
 musaafir:musaafir N1 ;
 muzika:muzika N1 ; ! ""
-muzika:muzıka N1 ; 
+muzika:muzıka N1 ; ! "" ! Err/Orth
 mart:mart N1 ; ! ""
 mafiya:mafiya N1 ; ! ""
 misiya:misiya N1 ; ! ""
@@ -1802,7 +1802,10 @@ kardaşlık:kardaşlık N1 ; ! ""
 jem:jem N1 ; ! ""
 maşina:maşina N1 ; ! ""
 musafirci:musafirci N1 ; ! ""
+muzikant:muzikant N1 ; ! ""
+muzikant:muzıkant N1 ; ! "" ! Err/Orth
 muzikacı:muzikacı N1 ; ! ""
+muzikacı:muzıkacı N1 ; ! "" ! Err/Orth
 türk:türk N1 ; ! ""
 uygur:uygur N1 ; ! ""
 gagauz:gagauz N1 ; ! ""
