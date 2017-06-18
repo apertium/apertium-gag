@@ -1930,6 +1930,8 @@ harakteri:harakteri N1 ; ! ""
 hastalıı:hastalıı N1 ; ! ""
 hava:hava N1 ; ! ""
 hristianlık:hristianlı%{k%} N1 ; ! ""
+hristianlık:hristianli%{k%} N1 ; ! "" ! Err/Orth
+hristianlık:hristiannı%{k%} N1 ; ! "" ! Err/Orth
 idare:idare N1 ; ! ""
 ilaç:ilaç N1 ; ! ""
 imäk:imäk N1 ; ! ""
@@ -2324,6 +2326,7 @@ pelivan:pelivan N1 ; ! ""
 personal:personal N1 ; ! ""
 padişahka:padişahka N1 ; ! ""
 pamätlik:pamätli%{k%} N1 ; ! ""
+pamätnik:pamätni%{k%} N1 ; ! ""
 paradtan:paradtan N1 ; ! ""
 parmak:parmak N1 ; ! ""
 paşa:paşa N1 ; ! ""
@@ -2578,15 +2581,51 @@ cumaa:cumaa N1 ; ! ""
 zorbalık:zorbalı%{k%} N1 ; ! ""
 saa:saa N1 ; ! ""
 
+avtorluk:avtorlu%{k%} N1 ; ! ""
+bolluk:bollu%{k%} N1 ; ! ""
+boşluk:boşlu%{k%} N1 ; ! ""
+boyacılık:boyacılı%{k%} N1 ; ! ""
+çokluk:çoklu%{k%} N1 ; ! ""
+çorbacılık:çorbacılı%{k%} N1 ; ! ""
+düşmanlık:düşmanlı%{k%} N1 ; ! ""
+düzüntülük:düzüntülü%{k%} N1 ; ! ""
+ekincilik:ekincili%{k%} N1 ; ! ""
+elçilik:elçili%{k%} N1 ; ! ""
+geroyluk:geroylu%{k%} N1 ; ! ""
+günnük:günnü%{k%} N1 ; ! ""
+irsızlık:irsızlı%{k%} N1 ; ! ""
+i̇şitmemezlik:i̇şitmemezli%{k%} N1 ; ! ""
+kayıllık:kayıllı%{k%} N1 ; ! ""
+kilometralık:kilometralı%{k%} N1 ; ! ""
+kısmetlilik:kısmetlili%{k%} N1 ; ! ""
+kıtlık:kıtlı%{k%} N1 ; ! ""
+komandanlık:komandanlı%{k%} N1 ; ! ""
+kompozitorluk:kompozitorlu%{k%} N1 ; ! ""
+konsulluk:konsullu%{k%} N1 ; ! ""
+kötülük:kötülü%{k%} N1 ; ! ""
+lektorluk:lektorlu%{k%} N1 ; ! ""
+milletlik:milletli%{k%} N1 ; ! ""
+oguzluk:oguzlu%{k%} N1 ; ! ""
+oolluk:oollu%{k%} N1 ; ! ""
+patriotluk:patriotlu%{k%} N1 ; ! ""
+rejisörlük:rejisörlü%{k%} N1 ; ! ""
+satılık:satılı%{k%} N1 ; ! ""
+uşaklık:uşaklı%{k%} N1 ; ! ""
+vatandaşlık:vatandaşlı%{k%} N1 ; ! ""
+verişçilik:verişçili%{k%} N1 ; ! ""
+verişlik:verişli%{k%} N1 ; ! ""
+zoorluk:zoorlu%{k%} N1 ; ! ""
+
+
 hepsicii:hepsicii N1 ; ! ""
 şii:şii N1 ; ! ""
-birlii:birli%{k%} N1 ; ! ""
 işbirlii:işbirlii N1 ;
 
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
+Martinik:Martinik NP-TOP ; ! ""
 Kitay:Kitay NP-TOP ; ! ""
 Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
@@ -4023,11 +4062,11 @@ Salvador:Salvador NP-TOP ; ! "" !
 Silva:Silva NP-TOP ; ! "" !
 
 Thanh:Thanh NP-TOP ; ! "" !
-Thomson:Thomson NP-TOP ; ! "" !
+Thomson:Thomson NP-COG-MF ; ! "" !
 Timişoara:Timişoara NP-TOP ; ! "" !
 Tivat:Tivat NP-TOP ; ! "" !
 Tomsk:Tomsk NP-TOP ; ! "" !
-Trakyaya:Trakyaya NP-TOP ; ! "" !
+Trakya:Trakya NP-TOP ; ! "" !
 Tümen:Tümen NP-TOP ; ! "" !
 Tunanm:Tunanm NP-TOP ; ! "" !
 Tunaran:Tunaran NP-TOP ; ! "" !
@@ -4037,6 +4076,7 @@ Turla:Turla NP-TOP ; ! "" !
 Ulcinj:Ulcinj NP-TOP ; ! "" !
 Ungeni:Ungeni NP-TOP ; ! "" !
 
+Yeniçiftlik:Yeniçiftli%{k%} NP-TOP ; ! ""
 
 
 !Birleşik% Arab% Emirlikleri:Birleşik% Arab% Emirlikleri NP-TOP ; ! "" ! 
