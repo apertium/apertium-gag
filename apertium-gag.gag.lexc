@@ -356,8 +356,7 @@ LEXICON ADV3
 
 LEXICON ADV4
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
-%<adv%>%<subst%>: SUBST ;
-%<adv%>%<attr%>:%>%k%{I%} # ;
+%<adv%>%<attr%>:%>k%{I%} # ;
 
 LEXICON ADV-ITG
 %<adv%>%<itg%>: # ;
@@ -4912,14 +4911,14 @@ paalı:paalı A1 ; ! ""
 meraklı:meraklı A1 ;  ! "curious, curious"
 maasuz:maasuz A1 ;
 çok:çok A1 ; ! ""
-çok:cok A1 ;
+çok:cok A1 ; ! Err/Orth
 ani:ani A1 ; ! ""
 kaavi:kaavi A1 ;
 açik:açik A1 ; ! ""
 çölmek:çölmek A1 ; ! ""
 deyil:deyil A1 ; ! ""
-uzak:uzak A1 ; ! ""
-varlıı:varlıı A1 ; ! ""
+uzak:uzak A2 ; ! ""
+varlık:varlı%{k%} N1 ; ! ""
 
 yalpak:yalpak A1 ; ! ""
 yarı:yarı A1 ; ! ""
@@ -5143,9 +5142,11 @@ ta:ta ADV3 ;
 her:her ADV3 ;
 taa:taa ADV3 ;
 burada:burada  ADV3 ; ! ""
-ozaman:ozaman ADV3 ; ! ""
 şindiya:şindiya ADV3 ; ! ""
 büün:büün ADV4; ! ""
+ozaman:ozaman ADV4 ; 
+ozamannar:ozamannar ADV3 ; ! ""
+ozamanda:ozamanda ADV3 ; ! ""
 şindi:şindi ADV4 ; ! ""
 sa:sa ADV3 ; ! ""
 taman:taman ADV3 ; ! "completely"
@@ -5569,6 +5570,7 @@ v%.b%.:v%.b%. ABBR ;
 h%.t%.b%.:h%.t%.b%. ABBR ;
 h%.t%.b%.:h%.% t%.% b%. ABBR ; ! Dir/LR
 h%.b%.:h%.% b%. ABBR ; ! Dir/LR
+yapr%.:yapr%. ABBR ; ! ""
 v:v ABBR ;
 h:h ABBR ;
 i%d%i:i%d%i ABBR ; ! ""
