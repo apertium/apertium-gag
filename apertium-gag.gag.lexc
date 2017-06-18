@@ -1512,7 +1512,7 @@ zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 ortak:ortak N1 ; ! ""
 son:son N1 ;
-bakannıı:bakannıı N1 ;
+bakannık:bakannı%{k%} N1 ;
 aaç:aaç N1 ; !"tree"
 gagauz:gagauz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
@@ -1571,7 +1571,7 @@ tema:tema N1 ; ! ""
 teoretik:teoretik N1 ; ! ""
 terbietmää:terbietmää N1 ; ! ""
 ton:ton N1 ; ! ""
-topluluu:topluluu N1 ; ! ""
+topluluk:toplulu%{k%} N1 ; ! ""
 toplum:toplum N1 ; ! ""
 yerleşim:yerleşim N1 ; ! ""
 zaabit:zaabit N1 ; ! ""
@@ -1927,7 +1927,7 @@ gubernator:gubernator N1 ;
 hakikat:hakikat N1 ; ! ""
 hallıklı:hallıklı N1 ; ! ""
 harakteri:harakteri N1 ; ! ""
-hastalıı:hastalıı N1 ; ! ""
+hastalık:hastalı%{k%} N1 ; ! ""
 hava:hava N1 ; ! ""
 hristianlık:hristianlı%{k%} N1 ; ! ""
 hristianlık:hristianli%{k%} N1 ; ! "" ! Err/Orth
