@@ -240,10 +240,10 @@ LEXICON V-GPR-SUBST
 LEXICON V-GPR
 %<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{a%}k POSSESSIVES ;
+%<gpr_fut%>:%>%{й%}%{A%}c%{a%}%{k%} POSSESSIVES ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
+%<gpr_past2%>:%>%{D%}%{I%}%{k%} # ;
 %<gpr_past1%>:%>%{D%}%{I%}%{I%}yn{A%}n # ;
-%<gpr_past2%>:%>%{D%}%{I%}k # ;
 %<neg%>%<gpr_past2%>:%>m%{A%}%>%{D%}%{I%}k # ;
 %<gpr_aor%>:%>{A%}r V-PERS-AOR  ;
 
@@ -2566,6 +2566,7 @@ kahramanlık:kahramanlık N1 ; ! ""
 
 başkasabası:başkasaba N2 ; ! ""
 dost:dost N1 ; ! ""
+küçüklük:küçüklü%{k%} N1 ; ! ""
 
 
 LEXICON ProperNouns 

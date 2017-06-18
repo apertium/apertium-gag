@@ -16,7 +16,7 @@ Alphabet
  %{D%}:d %{k%}:k
  %{L%}:l %{u%}:u 
  %{☭%}:0 
- %{в%}:0
+ %{в%}:0 %{в%}:y
  %{e%}:e
  %{a%}:a %{a%}:e
  %>:0
@@ -50,7 +50,7 @@ NasalCns = n m
 CnsVcls   = F S T K Ç Ş H P 
             f s t k ç ş h p ;
 
-ArchiCns = %{k%} ; 
+ArchiCns = %{k%} %{в%} ; 
 
             
 
@@ -59,21 +59,18 @@ ArchiCns = %{k%} ;
 Rules 
 
 "Delete morpheme boundary"
-%>: <=> _ ;
+%>:0 <=> _ ;
 
 "{D} changed to t when after a stem-final voiceless consonant" 
-
 %{D%}:t <=> :CnsVcls %>: _ ; 
    
 
 "{T} change to d before vowels "
-
 %{T%}:d  <=>  _  %>: (:0) :Vowel  ; 
  
 !@ g:g i:i {T}:d >:0 {й}:0 {a}:e c:c {A}:ä >:0 m:m
 
 "Vowel harmony for archiphoneme {I}"
-
 %{I%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
     where Vx in ( a â ä e ê o ö u ü ı i )
           Vy in ( ı ı i i ı u ü u ü ı i )
@@ -95,22 +92,14 @@ Rules
           Vy in ( a ä ä a )
     matched ;
  
-
-!%{A%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
-!    where Vx in ( a ä e ê o ö u ü ı i )
-!          Vy in ( a ä ä a a ä a ä a ä )
-!    matched ;
-!
-
 "Vowel harmony for archiphoneme {a}"
 %{a%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
     where Vx in ( a ä e ê o ö u ü ı i )
               Vy in ( a e e a a e a e a e )
     matched ;
 
-
 "{й}  become y when intervocalic"
-%{й%}:y <=> :Vowel :0 _ :Vowel ;
+%{й%}:y <=> :Vowel %>: _ :Vowel ;
 
 "{s} become 0 when intervocalic"
 %{s%}:0 <=> [ ArchiCns: | Cns: ] %>: _ :Vowel ;
@@ -136,6 +125,7 @@ u:a <=> : _ %{k%}:0 >:0 :0* :a ;
 %{N%}:0 <=> [ ArchiCns: | Cns: ] %>: _ ;
 
 !@ a:a y:y >:0 {N}:0 {I}:ı n:n
+
 !@ ş:ş k:k o:o l:l a:a >:0 {N}:n {I}:ı n:n
 
 !@ ç:ç o:o c:c u:u {k}:0 >:0 {N}:0 {I}:u n:n
@@ -150,12 +140,17 @@ Cx:Cy <=> :Vowel/:0* _ %>: :Vowel/:0* ;
             Cy in ( b g d )
       matched ;
 
+"The final consonant in su-"
+%{в%}:0 <=> _ .#. ; 
+            _ %>: [ %{L%}: | %{D%}: ] ;
 
-
-! Resources:
-! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
-! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
-! http://hfst.sourceforge.net/
-! http://wiki.apertium.org/wiki/Twol
-! http://wiki.apertium.org/wiki/Hfst
-
+!@ s:s u:u {в}:0
+!@ s:s u:u {в}:0 >:0 {L}:l {A}:a r:r
+!@ s:s u:u {в}:y >:0 {N}:0 {I}:u n:n
+!@ s:s u:u {в}:y >:0 {s}:0 {I}:u {n}:n >:0 {N}:0 {I}:u n:n
+!@ s:s u:u {в}:y >:0 {s}:0 {I}:u {n}:n >:0 {й}:0 {A}:a
+!@ s:s u:u {в}:y >:0 {s}:0 {I}:u {n}:n >:0 {й}:0 {I}:u
+!@ s:s u:u {в}:y >:0 {й}:0 {A}:a 
+!@ s:s u:u {в}:0 >:0 {D}:d {A}:a 
+!@ s:s u:u {в}:y >:0 {й}:0 {I}:u
+!@ s:s u:u {в}:y >:0 {й}:0 {L}:l {A}:a 
