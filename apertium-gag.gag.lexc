@@ -1098,6 +1098,7 @@ resim:res%{y%}m N1 ; ! "образ"
 radio:radio N1 ; ! ""
 devlet:devlet N1 ; ! "государство"
 yıl:yıl N1 ; ! "год"
+yıl:yil N1 ; ! "" ! Err/Orth
 yer:yer N1 ; 
 gazeta:gazeta N1 ; ! "газета"
 gün:gün N1 ; ! ""
@@ -1492,7 +1493,7 @@ versiya:versiya N1 ; ! ""
 vakansiya:vakansiya N1 ; ! ""
 vatan:vatan N1 ; ! ""
 
-yıldönümü:yıldönümü N2 ;
+yıldönümü:yıldönüm N2 ;
 yardım:yardım N1 ; ! ""
 yan:yan N1 ; ! ""
 yardımcı:yardımcı N1 ; ! ""
@@ -1753,6 +1754,7 @@ teknik:teknik N1 ; ! ""
 viza:viza N1 ; ! ""
 yaz:yaz N1 ; ! ""
 yıllık:yıllı%{k%} N1 ; ! ""
+yıllık:yilli%{k%} N1 ; ! "" ! Err/Orth
 iç:iç N1 ; ! ""
 teprem:teprem N1 ; ! ""
 aga:aga N1 ; ! ""
@@ -1837,7 +1839,6 @@ yaamur:yaamur N1 ; ! ""
 yayın:yayın N1 ; ! ""
 yazıcı:yazici N1 ; ! ""
 yannışlık:yannışlı%{k%} N1 ;
-yil:yil N1 ; ! ""
 agenstvos:agenstvos N1 ; ! ""
 departament:departament N1 ; ! ""
 dünney:dünney N1 ; ! ""
