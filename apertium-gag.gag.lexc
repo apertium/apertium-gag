@@ -745,6 +745,138 @@ LEXICON ABBR-INIT
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Miscellaneous 
+
+da%<postadv%>:da # ;
+tä%<postadv%>:tä # ;
+da%<postadv%>:dä # ;
+de%<postadv%>:de # ;
+te%<postadv%>:te # ;
+dee%<postadv%>:dee # ;
+daa%<postadv%>:daa # ;
+dir%<postadv%>:dir # ;
+mı%<qst%>:mi # ;
+mı%<qst%>:mı # ;
+mı%<qst%>:mu # ; 
+mı%<qst%>:mü # ;
+
+
+LEXICON Conjunctions
+yada:yada CC ;
+veya:veya CC ; ! ""
+hem:hem CC ;
+ama:ama CC ; 
+ama:amma CC ;
+ne:ne CC ;
+ve:ve CC ; ! "and"
+a:a CC ; ! ""
+ya:ya CC ; ! ""
+bilä:bilä CS ;
+çünkü:çünkü CS ;
+çünki:çünki CS ; ! ""
+bila:bila CA ;
+diy:diy CS ;
+deyi:deyi CS ; ! ""
+
+!olarak:olarak CS ; ! ""
+ki:ki CS ; ! ""
+bile:bile CS ; ! ""
+yoksa:yoksa CA ; ! ""
+hani:hani CA ; ! ""
+zerä:zerä CA ; ! ""
+osa:osa CA ; ! ""
+hadi:hadi CA ;
+
+
+
+LEXICON Postpositions
+gibi:gibi POST ; ! ""
+ardına:ardına POST ;
+boyunca:boyunca POST ; ! ""
+dee:dee POST ; ! ""
+göre:görä POST ; ! ""
+göre:göre POST ; ! ""
+için:için POST ; ! ""
+kadar:kadar POST ; ! ""
+dolayı:dolayı POST ; ! ""
+ilgili:ilgili POST ; ! "regarding"
+boyunca:boyunca POST ; ! "during"
+dolayın:dolayın POST ; ! ""
+ise:ise POST ; ! ""
+başça:başça POST ; ! ""
+                                    
+
+ötää:ötää POST ; !""
+öter:öter POST; ! ""
+
+
+LEXICON Pronouns 
+
+bän:b PRON-PERS-BÄN ; ! "я"
+bän:b PRON-PERS-BEN ; ! "я"
+sän:s PRON-PERS-SÄN ; ! "ты"
+sän:s PRON-PERS-SEN ; ! "ты"
+o:o PRON-PERS-O ; ! "он, она, оно"
+biz:biz PRON-PERS-BIZ ; ! "мы"
+siz:siz PRON-PERS-SIZ ; ! "вы"
+onnar:onnar PRON-PERS-ONNAR ; ! "они"
+onnar:onlar PRON-PERS-ONNAR ; !
+
+
+kim:kim PRON-INTERR ;
+kendi:kendi PRON-REF ; ! "self"
+kendisi:kendisi PRON-REF ; ! "self"
+birisi:birisi PRON-QNT ; ! "somebody"
+hangı:hangı PRON-ITG-INFL ;
+hangı:hangi PRON-ITG-INFL ;
+neyi:neyi PRON-ITG-INFL ;
+kimisi:kimisi PRON-ITG-INFL ;
+hepsi:hepsi PRON-QNT  ;
+kimsey:kimsey PRON-ITG-INFL ;
+
+ora:ora PRON-ADV ;
+ora:or PRON-ADV ;
+bura:bura PRON-ADV ;
+
+
+bu:bu PRON-DEM-BU ; ! ""
+şu:şu PRON-DEM-SU ; ! ""
+o:o PRON-DEM-O ; ! ""
+öz:öz PRON-REF ; ! ""
+kendibaşı:kendibaşı PRON-REF ; ! "self" 
+
+
+
+
+LEXICON Determiners
+
+dak:dak DET-QNT ;
+hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
+bu% kadar:bu% kadar DET-QNT ; ! "this much"
+şu% kadar:şu% kadar DET-QNT ; ! "that much"
+o% kadar:o% kadar DET-QNT ; ! "this much"
+nekadar:nekadar DET-QNT ; ! "how much"
+birer:birer DET-QNT ;
+
+biraz:biraz DET-QNT ; ! "a bit"
+zeedä:zeedä DET-QNT ; ! "a lot"
+kendi:kendi DET-REF ; ! ""
+kaç:kaç DET-QNT ; ! ""
+okadar:okadar DET-QNT ; ! ""
+bukadar:bukadar DET-QNT ; ! "this much"
+neyä:neyä DET-QNT ;
+bazı:bazı DET-QNT ;
+çoyu:çoyu DET-QNT ;
+birkaç:birkaç DET-IND ; ! "some"
+birär:birär DET-QNT ; ! "one each"
+herbir:herbir DET-IND ; !
+bişey:bişey DET-IND ;
+öbür:öbür DET-DEM ; !  "the other" 
+
+
+kere:kere DET-QNT ;
+
+
 LEXICON Numerals 
 
 bir:bir NUM ; 
@@ -4664,10 +4796,10 @@ LEXICON Adjectives
 kirli:kirli A1 ; ! ""
 korkunç:korkunç A1 ; ! ""
 
-küçük:küçük A2 ; ! ""
+küçük:küçü%{k%} A2 ; ! ""
 koyu:koyu A1 ; 
 deil:deil A1 ;
-büyük:büyük A1 ;
+büyük:büyü%{k%} A1 ;
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
@@ -5006,7 +5138,7 @@ enidän:enidän ADV3 ;
 nicä:nicä ADV-ITG ;
 nasıl:nasıl ADV-ITG ;
 nasıl:nesoy ADV-ITG ;
-Nedän:Nedän ADV-ITG ; ! ""
+nedän:nedän ADV-ITG ; ! ""
 daha:daha ADV3 ;
 genä:genä ADV3 ;
 beraber:beraber ADV3 ; ! "together"
@@ -5073,101 +5205,6 @@ netürlü:netürlü ADV3 ;
 neylän:neylän ADV3 ;
 orıy:orıy ADV3 ;
 irmişär:irmişär ADV3 ;
-
-
-
-LEXICON Miscellaneous 
-
-da%<postadv%>:da # ;
-tä%<postadv%>:tä # ;
-da%<postadv%>:dä # ;
-de%<postadv%>:de # ;
-te%<postadv%>:te # ;
-dee%<postadv%>:dee # ;
-daa%<postadv%>:daa # ;
-dir%<postadv%>:dir # ;
-mı%<qst%>:mi # ;
-mı%<qst%>:mı # ;
-mı%<qst%>:mu # ; 
-mı%<qst%>:mü # ;
-
-
-LEXICON Conjunctions
-yada:yada CC ;
-veya:veya CC ; ! ""
-hem:hem CC ;
-ama:ama CC ; 
-ama:amma CC ;
-ne:ne CC ;
-ve:ve CC ; ! "and"
-a:a CC ; ! ""
-ya:ya CC ; ! ""
-bilä:bilä CS ;
-çünkü:çünkü CS ;
-çünki:çünki CS ; ! ""
-bila:bila CA ;
-diy:diy CS ;
-deyi:deyi CS ; ! ""
-
-!olarak:olarak CS ; ! ""
-ki:ki CS ; ! ""
-bile:bile CS ; ! ""
-yoksa:yoksa CA ; ! ""
-hani:hani CA ; ! ""
-zerä:zerä CA ; ! ""
-osa:osa CA ; ! ""
-hadi:hadi CA ;
-
-
-
-LEXICON Determiners
-dak:dak DET-QNT ;
-hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
-bu% kadar:bu% kadar DET-QNT ; ! "this much"
-şu% kadar:şu% kadar DET-QNT ; ! "that much"
-o% kadar:o% kadar DET-QNT ; ! "this much"
-nekadar:nekadar DET-QNT ; ! "how much"
-birer:birer DET-QNT ;
-
-biraz:biraz DET-QNT ; ! "a bit"
-zeedä:zeedä DET-QNT ; ! "a lot"
-kendi:kendi DET-REF ; ! ""
-kaç:kaç DET-QNT ; ! ""
-okadar:okadar DET-QNT ; ! ""
-bukadar:bukadar DET-QNT ; ! "this much"
-neyä:neyä DET-QNT ;
-bazı:bazı DET-QNT ;
-çoyu:çoyu DET-QNT ;
-birkaç:birkaç DET-IND ; ! "some"
-birär:birär DET-QNT ; ! "one each"
-herbir:herbir DET-IND ; !
-bişey:bişey DET-IND ;
-öbür:öbür DET-DEM ; !  "the other" 
-
-
-kere:kere DET-QNT ;
-
-
-
-LEXICON Postpositions
-gibi:gibi POST ; ! ""
-ardına:ardına POST ;
-boyunca:boyunca POST ; ! ""
-dee:dee POST ; ! ""
-göre:görä POST ; ! ""
-göre:göre POST ; ! ""
-için:için POST ; ! ""
-kadar:kadar POST ; ! ""
-dolayı:dolayı POST ; ! ""
-ilgili:ilgili POST ; ! "regarding"
-boyunca:boyunca POST ; ! "during"
-dolayın:dolayın POST ; ! ""
-ise:ise POST ; ! ""
-başça:başça POST ; ! ""
-                                    
-
-ötää:ötää POST ; !""
-öter:öter POST; ! ""
 
 
 
@@ -5453,41 +5490,6 @@ zeedele:zeedele V-TV ; ! ""
 zeedelet:zeedelet V-TV ; ! ""
 
  
-
-LEXICON Pronouns 
-
-bän:b PRON-PERS-BÄN ; ! "я"
-bän:b PRON-PERS-BEN ; ! "я"
-sän:s PRON-PERS-SÄN ; ! "ты"
-sän:s PRON-PERS-SEN ; ! "ты"
-o:o PRON-PERS-O ; ! "он, она, оно"
-biz:biz PRON-PERS-BIZ ; ! "мы"
-siz:siz PRON-PERS-SIZ ; ! "вы"
-onnar:onnar PRON-PERS-ONNAR ; ! "они"
-onnar:onlar PRON-PERS-ONNAR ; !
-
-
-kim:kim PRON-INTERR ;
-kendi:kendi PRON-REF ; ! "self"
-kendisi:kendisi PRON-REF ; ! "self"
-birisi:birisi PRON-QNT ; ! "somebody"
-hangı:hangı PRON-ITG-INFL ;
-hangı:hangi PRON-ITG-INFL ;
-neyi:neyi PRON-ITG-INFL ;
-kimisi:kimisi PRON-ITG-INFL ;
-hepsi:hepsi PRON-QNT  ;
-kimsey:kimsey PRON-ITG-INFL ;
-
-ora:ora PRON-ADV ;
-ora:or PRON-ADV ;
-bura:bura PRON-ADV ;
-
-
-bu:bu PRON-DEM-BU ; ! ""
-şu:şu PRON-DEM-SU ; ! ""
-o:o PRON-DEM-O ; ! ""
-öz:öz PRON-REF ; ! ""
-kendibaşı:kendibaşı PRON-REF ; ! "self" 
 
 LEXICON Abbreviations
 
