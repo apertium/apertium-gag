@@ -1043,6 +1043,7 @@ fizikacı:fizikacı N1 ; ! ""
 filologiya:filologiya N1 ; ! ""
 frakiya:frakiya N1 ;
 folklor:folklor N1 ;
+folklorcu:folklorcu N1 ; ! ""
 fotografiya:fotografiya N1 ;
 filarmoniya:filarmoniya N1 ; 
 filosofiya:filosofiya N1 ;
@@ -5103,17 +5104,16 @@ a:a CC ; ! ""
 ya:ya CC ; ! ""
 bilä:bilä CS ;
 çünkü:çünkü CS ;
+çünki:çünki CS ; ! ""
 bila:bila CA ;
 diy:diy CS ;
 deyi:deyi CS ; ! ""
 
-olarak:olarak CS ; ! ""
+!olarak:olarak CS ; ! ""
 ki:ki CS ; ! ""
-çünki:çünki CS ; ! ""
 bile:bile CS ; ! ""
 yoksa:yoksa CA ; ! ""
 hani:hani CA ; ! ""
-!olsun:olsun CA ; ! ""
 zerä:zerä CA ; ! ""
 osa:osa CA ; ! ""
 hadi:hadi CA ;
@@ -5561,9 +5561,8 @@ b%.:b%. ABBR  ; ! ""
 N%r:N%r ABBR ;
 A%l:A%l ABBR ;
 E:E  ABBR ;
-d%ə:d%ə ABBR ;
 D%K:D%K ABBR ;
-O%O%O:O%O%O ABBR ; ! ""
+OOO:OOO ABBR ; ! ""
 of:of  ABBR ; ! ""
 is:is ABBR ; ! ""
 a%a%r:a%a%r ABBR ; ! ""
@@ -5574,13 +5573,13 @@ A%B%D:A%B%D ABBR ; ! ""
 y%e:y%e  ABBR ; ! ""
 y%n:y%n ABBR ; ! ""
 N:N ABBR ; ! ""
-e%y%i:e%y%i ABBR ; ! ""
 R:R ABBR ; ! ""
 S:S ABBR ; ! ""
 
 Ö:Ö ABBR ; ! ""
 s:s ABBR ; ! ""
 
+!e%y%i:e%y%i ABBR ; ! "" FIXME
 
 Z:Z ABBR ; ! ""
 T:T ABBR ; ! ""
@@ -5594,7 +5593,6 @@ y%a:y%a ABBR ; ! ""
 d%a:d%a ABBR ; ! ""
 s%n:s%n ABBR ; ! ""
 
-n%ı%n:n%ı%n ABBR ; ! ""
 
 
 
@@ -5619,9 +5617,8 @@ C:C ABBR ;
 
 d:d ABBR ;
 P:P ABBR ;
-n%o:n%o ABBR ;
-n%d%e:n%d%e ABBR ;
-b%i:b%i ABBR ;
+no:no ABBR ;
+bi:bi ABBR ;
 
 
 
@@ -5636,6 +5633,8 @@ ncı:ncı ABBR ;
 dän:dän ABBR ;
 na:na ABBR ;
 nın:nın ABBR ;
+nde:nde ABBR ;
+nın:nın ABBR ; ! ""
 
 
 
