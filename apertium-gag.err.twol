@@ -8,6 +8,7 @@ Alphabet
 
     і:і i:і
 
+    p:b
 
  %{A%}:a %{A%}:e %{A%}:ä %{A%}:ê 
  %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
@@ -21,6 +22,7 @@ Alphabet
  %{й%}:y %{й%}:0
  %{s%}:s %{s%}:0 
  %{n%}:n %{n%}:0
+ %{N%}:n %{N%}:0
  %{L%}:l %{L%}:n
 
    %':%' 
@@ -40,6 +42,10 @@ Alphabet
 
 
 Sets
+
+
+Cns = B C Ç D  F G H  J K L M N  P R S Ş Ș T Ţ Ț V Y Z
+      b c ç d  f g h  j k l m n  p r s ş ș t ţ ț v y z ;
 
 Vowel = A E Ê Ä I O Ö U Ü Y Ý 
         a e ê ä i o ö u ü y ý ;
@@ -66,6 +72,10 @@ Rules
 
 "Delete final {n}"
 %{n%}:0 <= _ .#. ; 
+
+"Always p"
+p:p <= _ .#. ; 
+       _ :Cns ; 
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

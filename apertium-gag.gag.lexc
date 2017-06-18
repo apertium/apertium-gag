@@ -183,13 +183,15 @@ LEXICON V-PERS-AOR
 ! # ;
 
 
-
 LEXICON V-IMPER
 ! The imperative, "çok yaşa!", "sigara içmeyin!"
+%<imp%>%<p1%>%<sg%>:%>%{й%}%{A%}y%{I%}m # ;
 %<imp%>%<p2%>%<sg%>: # ;
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
 %<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n # ;
+%<imp%>%<p1%>%<pl%>:%>%{й%}%{A%}l%{I%}m # ;
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
+%<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n%>%{L%}%{A%}r # ;
 
 
 
@@ -403,7 +405,7 @@ LEXICON CLITIC-COPULA
 LEXICON CASES
 %<nom%>: CLITIC-COPULA ;
 %<nom%>:  # ;
-%<gen%>:%>%{n%}%{I%}n # ;
+%<gen%>:%>%{N%}%{I%}n # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
@@ -892,6 +894,7 @@ koordinator:koordinator N1 ; ! ""
 liste:liste N1 ; ! ""
 million:million N1 ; ! ""
 ministr:ministr N1 ; ! ""
+ministru:ministru N1 ; ! ""
 muzey:muzey N1 ; ! ""
 okrug:okrug N1 ; ! ""
 örnek:örnek N1 ; ! ""
@@ -1019,7 +1022,7 @@ dolayında:dolayında N1 ; ! ""
 dışarı:dışarı N1 ; ! ""
 diskriminaţiya:diskriminaţiya N1 ;
 delegaşiya:delegaşiya N1 ;
-dekabri:dekabri N2 ;
+dekabr:dekabr N1 ;
 ekonomika:ekonomika N1 ; ! ""
 
 el:el N1 ; ! ""
@@ -1171,7 +1174,7 @@ multimediya:multimediya N1 ; ! ""
 mulytime:mulytime N1 ; ! ""
 muzeyin:muzeyin N1 ;
 metallurgiya:metallurgiya N1 ;
-merkezi:merkezi N2 ;
+merkez:merkez N1 ;
 neçin:neçin N1 ; ! ""
 padişahlık:padişahlık N1 ;
 
@@ -1208,8 +1211,6 @@ profesör:profesör N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişah N1 ; ! ""
-padişah:padişaa N1 ; 
-padişahlık:padişah N1 ; ! ""
 para:para N1 ; ! ""
 populyasiya:populyasiya N1 ; ! ""
 poziţiya:poziţiya N1; ! ""
@@ -1321,10 +1322,8 @@ taş:taş N1 ;
 türk:türk N1 ; ! ""
 turk:turk N1 ; ! ""
 karaçay:karaçay N1 ; ! ""
-kitay:kitay N1 ; ! ""
 trigonometriya:trigonometriya N1 ; !
 türkü:türkü N1 ; ! ""
-territorial:territorial N1 ; ! ""
 türkologiya:türkologiya N1 ;
 padişahlıı:padişahlıı N1 ;
 padişaalıın:padişaalıın N1 ;
@@ -1338,10 +1337,9 @@ uc:uc N1 ;
 üüredici:üüredici N1 ;
 uşak:uşak N1 ; ! ""
 üzer:üzer N1 ; ! ""
-uluslararası:uluslararası N2 ; ! ""
+uluslararası:uluslarara N2 ; ! ""
 viliyat:viliyat N1 ; ! ""
 vakıd:vakıd N1 ; ! ""
-vikipediya:vikipediya N1 ;
 vakıt:vakıt N1 ; ! ""
 versiya:versiya N1 ; ! ""
 vakansiya:vakansiya N1 ; ! ""
@@ -1490,7 +1488,7 @@ neftçi:neftçi N1 ; ! ""
 neft:neft N1 ; ! ""
 nestor:nestor N1 ; ! ""
 nihongo:nihongo N1 ; ! ""
-noktayı:noktayı N1 ; ! ""
+nokta:nokta N1 ; ! ""
 messager:messager N1 ; ! ""
 
 
@@ -2028,21 +2026,21 @@ zorluk:zorluk N1 ; ! ""
 zulum:zulum N1 ; ! ""
 
 
-annamsızlık:annamsızlık N1 ; ! ""
-baamsızlık:baamsızlık N1 ; ! ""
-bitkisizlik:bitkisizlik N1 ; ! ""
-dinsizlik:dinsizlik N1 ; ! ""
-düzensizlik:düzensizlik N1 ; ! ""
-hayarsızlık:hayarsızlık N1 ; ! ""
-hırsızlık:hırsızlık N1 ; ! ""
-ırsızlık:ırsızlık N1 ; ! ""
-işsizlik:işsizlik N1 ; ! ""
-kayılsızlık:kayılsızlık N1 ; ! ""
-kuvetsizlik:kuvetsizlik N1 ; ! ""
-raatsızlık:raatsızlık N1 ; ! ""
-sözlük:sözlük N1 ; ! ""
-susuzluk:susuzluk N1 ; ! ""
-yoksuzluk:yoksuzluk N1 ; ! ""
+annamsızlık:annamsızlı%{k%} N1 ; ! ""
+baamsızlık:baamsızlı%{k%} N1 ; ! ""
+bitkisizlik:bitkisizli%{k%} N1 ; ! ""
+dinsizlik:dinsizli%{k%} N1 ; ! ""
+düzensizlik:düzensizli%{k%} N1 ; ! ""
+hayarsızlık:hayarsızlı%{k%} N1 ; ! ""
+hırsızlık:hırsızlı%{k%} N1 ; ! ""
+ırsızlık:ırsızlı%{k%} N1 ; ! ""
+işsizlik:işsizli%{k%} N1 ; ! ""
+kayılsızlık:kayılsızlı%{k%} N1 ; ! ""
+kuvetsizlik:kuvetsizli%{k%} N1 ; ! ""
+raatsızlık:raatsızlı%{k%} N1 ; ! ""
+sözlük:sözlü%{k%} N1 ; ! ""
+susuzluk:susuzlu%{k%} N1 ; ! ""
+yoksuzluk:yoksuzlu%{k%} N1 ; ! ""
 
 religiya:religiya N1 ; ! ""
 meteorologiya:meteorologiya N1 ; ! ""
@@ -2433,12 +2431,14 @@ kahramanlık:kahramanlık N1 ; ! ""
 şehit:şehit N1 ; ! ""
 
 
-başkasaba:başkasaba N2 ; ! ""
+başkasabası:başkasaba N2 ; ! ""
+dost:dost N1 ; ! ""
 
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
+Kitay:Kitay NP-TOP ; ! ""
 Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
 
@@ -2737,6 +2737,8 @@ Siriya:Siriya NP-TOP ; ! ""
 Valkaneş:Valkaneş NP-TOP ; ! ""
 
 Gagauziya:Gagauziya NP-TOP ; ! ""
+Gagauziya:gagauziya NP-TOP ; ! "" ! Err/Orth
+Gagauziya:Gagauziye NP-TOP ; ! "" ! Err/Orth
 Abhaziya:Abhaziya NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
 Ankara:Ankara NP-TOP ; ! ""
@@ -3896,6 +3898,8 @@ Ungeni:Ungeni NP-TOP ; ! "" !
 
 
 
+Expo:Expo NP-AL ; ! ""
+Vikipediya:Vikipediya NP-AL ;
 Allah:Allah NP-AL ; ! ""
 Allah:Allaa NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
@@ -4776,9 +4780,9 @@ moor:moor A1 ; ! ""
 negativ:negativ A1 ; ! ""
 
 
-Ooluk:Ooluk A1 ; ! ""
+ooluk:ooluk A1 ; ! ""
 original:original A1 ; ! ""
-Özgür:Özgür A1 ; ! ""
+özgür:özgür A1 ; ! ""
 şamatası:şamatası A1 ; ! ""
 eni:eni A1 ; ! ""
 kara:kara A1 ; ! ""
@@ -4789,7 +4793,8 @@ duhovoy:duhovoy A1 ; ! ""
 yaralı:yaralı A1 ; ! ""
 zabun:zabun A1 ; ! ""
 franţuz:franţuz A1 ; ! ""
-kolay:kolay A1 ; ! ""
+territorial:territorial A1 ; ! ""
+kolay:kolay A2 ; ! ""
 ortodoks:ortodoks A1 ; ! ""
 regional:regional A1 ; ! ""
 soţial:soţial A1 ; ! ""
@@ -4799,17 +4804,17 @@ kuru:kuru A1 ; ! ""
 laap:laap A1 ; ! ""
 ofişial:ofişial A1 ; ! ""
 başka:başka A2 ; !
-gözäl:gözäl A1 ; ! ""
+gözäl:gözäl A2 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
-ii:ii A1 ; ! "good"
+ii:ii A2 ; ! "good"
 yakın:yakın A1 ; ! ""
-yabancı:yabancı A1 ;  ! ""
+yabancı:yabancı A2 ;  ! ""
 milli:milli A1 ; ! ""
 şannı:şannı A1 ;
 temel:temel A1 ; ! ""
 tez:tez A2 ;  ! ""
-duşman:duşman A1 ; ! ""
+duşman:duşman N1 ; ! ""
 keskin:keskin A1 ;
 emin:emin A1 ; ! ""
 erkek:erkek A1 ; ! ""
@@ -4912,7 +4917,6 @@ türkmen:türkmen N1 ; ! ""
 çalışkan:çalışkan A1 ; ! ""
 çirkin:çirkin A1 ; ! ""
 çukur:çukur A1 ; ! ""
-dost:dost A1 ; ! ""
 geç:geç A1 ; ! ""
 ak:ak A1 ; ! ""
 afanasiy:afanasiy A1 ; ! ""
