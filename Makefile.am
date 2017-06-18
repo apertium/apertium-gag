@@ -24,6 +24,11 @@ TARGETS_COMMON =			\
 ## Gagauz transducer
 ###############################################################################
 
+# The spellrelax should contain things that are not strictly orthographic
+# errors
+.deps/spellrelax.hfst: dev/spellrelax.twol .deps/.d
+	hfst-twolc $< -o $@
+
 .deps/$(LANG1).err.hfst: $(BASENAME).err.twol .deps/.d
 	hfst-twolc $< -o $@
 
@@ -72,8 +77,8 @@ TARGETS_COMMON =			\
 	hfst-compose-intersect -1 .deps/$(LANG1).EL.lexc.hfst -2 .deps/$(LANG1).twol.hfst | hfst-minimise -o $@
 
 # The final analyser is a combination of the normative analyser and the error analyser.
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).LR.err.hfst
-	hfst-union -1 .deps/$(LANG1).LR.hfst -2 .deps/$(LANG1).LR.err.hfst | hfst-invert | hfst-fst2fst -w -o $@
+$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).LR.err.hfst .deps/spellrelax.hfst
+	hfst-union -1 .deps/$(LANG1).LR.hfst -2 .deps/$(LANG1).LR.err.hfst | hfst-compose-intersect -1 - -2 .deps/spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
 
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -w $< -o $@

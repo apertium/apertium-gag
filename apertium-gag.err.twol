@@ -3,8 +3,8 @@ Alphabet
     A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
     a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
-    ä:â ş:ș ţ:ț
-    Ä:Â Ş:Ș Ţ:Ț
+    ä:â
+    Ä:Â 
 
     і:і
     i:і ! CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I
@@ -30,14 +30,6 @@ Alphabet
  %{n%}:n %{n%}:0
  %{N%}:n %{N%}:0
  %{L%}:l %{L%}:n
-
-   %':%' 
-   %`:%` %':%` 
-   %ʻ:%ʻ %':%ʻ 
-   %’:%’ %':%’  
-   %‘:%‘ %':%‘ 
-   %ʼ:%ʼ %':%ʼ 
-
 
  %{☭%}:0
  %{в%}:0

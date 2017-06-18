@@ -1,12 +1,12 @@
-su<n><nom>	su
-su<n><acc>	suyu
-su<n><gen>	suyun
-su<n><dat>	suya
-su<n><loc>	suda
-su<n><abl>	sudan
-su<n><ins>	suylan
-su<n><pl><nom>	sular
-su<n><px3sp><acc>	suyunu
-su<n><px3sp><gen>	suyunun
-su<n><px3sp><dat>	suyuna
-su<n><px3sp><abl>	suyundan
+_	su<n><nom>	su
+_	su<n><acc>	suyu
+_	su<n><gen>	suyun
+_	su<n><dat>	suya
+_	su<n><loc>	suda
+_	su<n><abl>	sudan
+_	su<n><ins>	suylan
+_	su<n><pl><nom>	sular
+_	su<n><px3sp><acc>	suyunu
+_	su<n><px3sp><gen>	suyunun
+_	su<n><px3sp><dat>	suyuna
+_	su<n><px3sp><abl>	suyundan

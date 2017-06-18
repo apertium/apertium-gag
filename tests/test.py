@@ -26,34 +26,43 @@ for f in testf: #{
 	print('Generation:');
 	for t in tf: #{
 		row = t.strip().split('\t');
-		g_res = gene.lookup(row[0]);
+		g_res = gene.lookup(row[1]);
+
+		if row[0] == '>': #{
+			continue;
+		#}
 
 		if g_res == (): #{
-			print('-\t%s\t%s\t%s' % (row[0], row[1], g_res));
+			print('-\t%s\t%s\t%s' % (row[1], row[2], g_res));
 			err += 1;
 			continue;
 		#}
-		if g_res[0][0] == row[1]: #{
-			print('+\t%s\t%s' % (row[0], g_res[0][0]));
+		if g_res[0][0] == row[2]: #{
+			print('+\t%s\t%s' % (row[1], g_res[0][0]));
 			corr += 1;
 		else: #{	
-			print('-\t%s\t%s\t%s' % (row[0], row[1], g_res[0][0]));
+			print('-\t%s\t%s\t%s' % (row[1], row[2], g_res[0][0]));
 			err += 1;
 		#}
 	#}
 	print('Analysis:');
 	for t in tf: #{
 		row = t.strip().split('\t');
-		a_res = anal.lookup(row[1]);
+
+		if row[0] == '<': #{
+			continue;
+		#}
+
+		a_res = anal.lookup(row[2]);
 		found = False;
 		for r in a_res: #{
-			if row[0] == r[0]: found = True;
+			if row[1] == r[0]: found = True;
 		#}
 		if found: #{
-			print('+\t%s\t%s' % (row[1], row[0]));
+			print('+\t%s\t%s' % (row[2], row[1]));
 			corr += 1;
 		else: #{	
-			print('-\t%s\t%s\t%s' % (row[1], row[0], a_res));
+			print('-\t%s\t%s\t%s' % (row[2], row[1], a_res));
 			err += 1;
 		#}
 	#}

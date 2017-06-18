@@ -2616,6 +2616,7 @@ verişçilik:verişçili%{k%} N1 ; ! ""
 verişlik:verişli%{k%} N1 ; ! ""
 zoorluk:zoorlu%{k%} N1 ; ! ""
 
+foto:foto N1 ; ! ""
 
 hepsicii:hepsicii N1 ; ! ""
 şii:şii N1 ; ! ""
@@ -4097,6 +4098,7 @@ Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
 
+FETÖ:FETÖ NP1-ORG ; ! ""
 RMF:RMF NP1-ORG ;
 SP:SP NP1-ORG ;
 TİKA:TİKA NP1-ORG ;
