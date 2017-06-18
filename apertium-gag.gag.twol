@@ -3,16 +3,18 @@ Alphabet
     A Ä Â B C Ç D E Ê F G H I İ J K L M N O Ö P R S Ş Ș T Ţ Ț U Ü V Y Z
     a ä â b c ç d e ê f g h ı i j k l m n o ö p r s ş ș t ţ ț u ü v y z
 
- %{A%}:a %{A%}:ä  %{A%}:ê %{A%}:â
+ %{A%}:a %{A%}:ä  %{A%}:ê 
     
  %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i  %{E%}:u
- %{I%}:i  
+ %{I%}:i 
  %{й%}:y %{й%}:0
  %{i%}:i  %{i%}:0 ! %{i%}:u  !%{i%}:ı !%{i%}:ü 
  %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
  %{s%}:s %{s%}:0 
  %{T%}:t %{T%}:d
  %{n%}:n  %{n%}:0
+ %{к%}:k  %{к%}:g
+ %{h%}:h %{h%}:0
  %{D%}:d %{k%}:k
  %{L%}:l %{u%}:u 
  %{☭%}:0 
@@ -50,7 +52,7 @@ NasalCns = n m
 CnsVcls   = F S T K Ç Ş H P 
             f s t k ç ş h p ;
 
-ArchiCns = %{k%} %{в%} ; 
+ArchiCns = %{k%} %{в%} %{h%} ; 
 
             
 
@@ -63,7 +65,6 @@ Rules
 
 "{D} changed to t when after a stem-final voiceless consonant" 
 %{D%}:t <=> :CnsVcls %>: _ ; 
-   
 
 "{T} change to d before vowels "
 %{T%}:d  <=>  _  %>: (:0) :Vowel  ; 
@@ -71,13 +72,23 @@ Rules
 !@ g:g i:i {T}:d >:0 {й}:0 {a}:e c:c {A}:ä >:0 m:m
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+%{I%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
+    except
+          :Vx [ %{k%}: | %{h%}: ] %>: %{s%}: _ %{n%}: ; 
     where Vx in ( a â ä e ê o ö u ü ı i )
           Vy in ( ı ı i i ı u ü u ü ı i )
     matched ;
 
+"Vowel harmony for archiphoneme {I} with assimilation"
+%{I%}:Vy <=> :Vx [ %{k%}: | %{h%}: ] %>: %{s%}: _ %{n%}: ; 
+    where Vx in ( a â ä e ê o ö u ü ı i )
+          Vy in ( a a ä e a a i u ü ı i )
+    matched ;
+
+!@ t:t o:o p:p r:r a:a {k}:0 >:0 {s}:0 {I}:a {n}:n >:0 {й}:0 {A}:a 
+
 "Vowel harmony for archiphoneme {A}"
-%{A%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+%{A%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
     except 
         %{a%}: c %{e%}: k %>: %{L%}: _ ;
     where Vx in ( a ä e ê o ö u ü ı i )
@@ -93,7 +104,7 @@ Rules
     matched ;
  
 "Vowel harmony for archiphoneme {a}"
-%{a%}:Vy <=> :Vx  [ :Cns | %{k%}: ]+/:0* _ ; 
+%{a%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
     where Vx in ( a ä e ê o ö u ü ı i )
               Vy in ( a e e a a e a e a e )
     matched ;
@@ -109,12 +120,18 @@ Rules
 "{L} changed to n when after a Nasal consonant"
 %{L%}:n <=> :NasalCns  %>: _ ; 
 
-"deleting k before vowels"
-%{k%}:0 <=> :Vowel _ %>: :0* :Vowel ;
+"Consonant elision intervocalic"
+Cx:0 <=> :Vowel _ %>: :Vowel/:0* ;
+      where Cx in ( %{k%} %{h%} ) ;
 
-" u become a before vowels"
-u:a <=> : _ %{k%}:0 >:0 :0* :a ;
+"Vowel assimilation in dative"
+Vx:a <=> _ [ %{h%}:0 | %{k%}:0 ] %>: %{й%}: %{A%}:  ;
+     where Vx in ( u ı ) ;
        
+!@ ç:ç o:o c:c u:a {k}:0 >:0 {й}:0 {A}:a
+
+!@ p:p a:a d:d i:i ş:ş a:a {h}:0 >:0 {й}:0 {A}:a
+
 "delete {n} before genetive case "
 %{n%}:0 <=>  _ %>: %{N%}:  ;
 
@@ -136,13 +153,16 @@ u:a <=> : _ %{k%}:0 >:0 :0* :a ;
 Cx:Cy <=> :Vowel/:0* _ %>: :Vowel/:0* ;
       except
                      _ %{☭%}: %>: ; 
-      where Cx in ( p k t )
-            Cy in ( b g d )
+      where Cx in ( p t )
+            Cy in ( b d )
       matched ;
 
 "The final consonant in su-"
 %{в%}:0 <=> _ .#. ; 
             _ %>: [ %{L%}: | %{D%}: ] ;
+
+"Nasalisation of nk followed by vowel"
+%{к%}:g <=> n _ %>: :Vowel/:0* ; 
 
 !@ s:s u:u {в}:0
 !@ s:s u:u {в}:0 >:0 {L}:l {A}:a r:r
