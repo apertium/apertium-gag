@@ -242,10 +242,9 @@ GER-N-INFL-COMMON ;
 %<pl%>:%>l%{A%}r GER-N-INFL-COMMON ;
 
 LEXICON V-GER
-%<ger_past%>:%>%{D%}%{I%}k GER-SUBST ;
+%<ger%>:%>m%{A%}%{k%} GER-SUBST  ;
+%<ger_past%>:%>%{D%}%{I%}%{k%} GER-SUBST ;
 %<ger_abst%>:%>%{й%}{I%}ş GER-SUBST ;
-%<ger_1%>:%>m%{A%}k GER-SUBST  ;
-%<ger_1%>:%>m%{A%}%{A%} GER-SUBST  ;
 %<ger_nfh%>:%>m%{I%}ş GER-SUBST  ;
 
 %<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
@@ -4051,6 +4050,8 @@ Ungeni:Ungeni NP-TOP ; ! "" !
 
 
 Expo:Expo NP-AL ; ! ""
+Mold%-Expo:Mold%-Expo NP-AL ; ! ""
+Mold%-Ekspo:Mold%-Ekspo NP-AL ; ! ""
 Vikipediya:Vikipediya NP-AL ;
 Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
@@ -5394,7 +5395,7 @@ birleştir:birleştir V-TV ; ! "" ! Der/Caus
 koyuleş:koyuleş V-TV ; ! "" ! Der/Caus
 kökleştir:kökleştir V-TV ; ! "" ! Der/Caus
 kaavileştir:kaavileştir V-TV ; ! "" ! Der/Caus
-kaavileş:kaavileş V-TV ; ! "" ! Der/Caus
+kaavileş:kaavileş V-TV ; ! "" 
 ileştir:ileştir V-TV ; ! "" ! Der/Caus
 iileştir:iileştir V-TV ; ! "" ! Der/Caus
 haberleş:haberleş V-IV ; ! ""
@@ -5406,6 +5407,9 @@ karşıla:karşıla V-TV ; ! ""
 kolver:kolver V-TV ; ! ""
 
 yerleş:yerleş V-IV ; ! ""
+seslä:seslä V-IV ; ! ""
+seslä:sesle V-IV ; ! "" ! Err/Orth
+bildir:bildir V-TV ; ! "" Der/Caus
 seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
 unut:unut V-IV ; ! ""
