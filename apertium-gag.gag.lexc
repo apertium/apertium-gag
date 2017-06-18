@@ -170,7 +170,7 @@ LEXICON V-PERS-S2
 %<p3%>%<sg%>: #; 
 %<p1%>%<pl%>:%>%k # ; 
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}r # ;
 
 
 LEXICON V-PERS-AOR
@@ -179,10 +179,10 @@ LEXICON V-PERS-AOR
 %<p3%>%<sg%>: # ;
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
-%<p3%>%<pl%>:%>l%{A%}r # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}r # ;
 %<ifi%>:%>%{й%}%{D%}%{I%} # ;
 %<nfh%>:%>%{й%}%m%{I%}ş # ;
-%<pl%>:%>%{L%}%{A%}r # ;
+!%<pl%>:%>%{L%}%{A%}r # ;
 
 
 !!LEXICON V-COP
@@ -239,7 +239,7 @@ POSSESSIVES ;
 
 LEXICON GER-SUBST
 GER-N-INFL-COMMON ; 
-%<pl%>:%>l%{A%}r GER-N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}r GER-N-INFL-COMMON ;
 
 LEXICON V-GER
 %<ger%>:%>m%{A%}%{k%} GER-SUBST  ;
@@ -455,56 +455,65 @@ POSSESSIVES ;
 LI-POSTPOSITION ;
 !GENERAL-POSSESSIVE-ETC ;
 
+LEXICON SUBST-ATTR 
+
+%<attr%>: # ; 
+%<subst%>: CASES ;
 
 LEXICON PRON-PERS-BÄN
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:än # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:änim # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:änink%{i%}%{n%} CASES ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:änink%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:äna # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:äni # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ända # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ändä # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ändäk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:ändan # ;
 
-LEXICON PRON-PERS-BEN
-
-%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enim # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:enimk%{i%}%{n%} CASES ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;
-
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enim # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enimk%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:endän # ;  ! Err/Orth
 
 LEXICON PRON-PERS-SÄN
 
 %<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:än # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:änin # ; 
-%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>%<subst%>:änink%{i%}%{n%} CASES ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:änink%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:äne # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:äni # ; 
-%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ända # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ändä # ; 
+%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ändäk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:ändan # ;
 
-LEXICON PRON-PERS-SEN
-%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enin # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:enink%{i%}%{n%} CASES ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ; 
-%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; 
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enin # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enink%{i%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;  ! Err/Orth
 
 LEXICON PRON-PERS-O 
 
 %<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nun # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nunk%{I%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nunnan # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:na # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nu # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ndak%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
 
 
@@ -513,35 +522,38 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:imk%{i%}%{n%} CASES ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:dä # ;
-%<prn%>%<pers%>%<p1%>%<plexıon%>%<dat%>:ä # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:imk%{i%}%{n%} SUBST-ATTR ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
-%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ; ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:dä # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:däk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:dän # ;
 
 LEXICON PRON-PERS-SIZ
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:in # ;
-%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:ink%{i%}%{n%} CASES ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:ink%{i%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:i # ;
-%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ;
-%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:den # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:de # ; ! Err/Orth
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:dä # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:däk%{I%}%{n%} SUBST-ATTR ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:dän # ;
 
 
 LEXICON PRON-PERS-ONNAR
 
 %<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:ın # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:ınk%{I%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:a # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:ı # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:dak%{I%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
-
-
 
 
 LEXICON POST
@@ -831,14 +843,12 @@ başça:başça POST ; ! ""
 LEXICON Pronouns 
 
 bän:b PRON-PERS-BÄN ; ! "я"
-bän:b PRON-PERS-BEN ; ! "я"
 sän:s PRON-PERS-SÄN ; ! "ты"
-sän:s PRON-PERS-SEN ; ! "ты"
 o:o PRON-PERS-O ; ! "он, она, оно"
 biz:biz PRON-PERS-BIZ ; ! "мы"
 siz:siz PRON-PERS-SIZ ; ! "вы"
 onnar:onnar PRON-PERS-ONNAR ; ! "они"
-onnar:onlar PRON-PERS-ONNAR ; !
+onnar:onlar PRON-PERS-ONNAR ; !        ! Err/Orth
 
 
 kim:kim PRON-INTERR ;
@@ -1134,6 +1144,10 @@ baba:baba N1 ; ! ""
 baba:boba N1 ; 
 balık:balı%{k%} N1 ; ! ""
 başkan:başkan N1 ; ! ""
+başkannık:başkan%>%{L%}ı%{k%} N1 ; ! "" 
+!başkannık:başkanlı%{k%} N1 ; ! "" ! Err/Orth
+krallık:krallı%{k%} N1 ; ! ""
+
 beeri:beeri N1 ; ! ""
 bölüm:bölüm N1 ; ! ""
 bölümlüü:bölümlüü N1 ; ! ""
@@ -1755,7 +1769,6 @@ viza:viza N1 ; ! ""
 yaz:yaz N1 ; ! ""
 yıllık:yıllı%{k%} N1 ; ! ""
 yıllık:yilli%{k%} N1 ; ! "" ! Err/Orth
-iç:iç N1 ; ! ""
 teprem:teprem N1 ; ! ""
 aga:aga N1 ; ! ""
 
@@ -5298,6 +5311,7 @@ yaz:yaz V-TV ;
 yazı:yazı V-TV ;
 aç:aç V-TV ;
 evlän:evlän V-IV ;
+evlän:evlen V-IV ; ! Err/Orth
 ol:ol V-IV ;
 ol%<v%>%<iv%>%<aor%>:olur V-PERS-AOR ; ! Err/Orth
 getir:getir V-TV ;
@@ -5530,6 +5544,7 @@ saygıylan:saygıylan V-IV ; ! ""
 sımarla:sımarla V-IV ; ! ""
 sokan:sokan V-IV ; ! ""
 üren:üren V-IV ; ! ""
+iç:iç V-TV ; ! ""
 
 say:say V-IV ; ! ""
 
