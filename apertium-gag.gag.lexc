@@ -142,8 +142,8 @@ Barbarisms ; ! Use/Circ
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-   !!!!!!!!!!!!!!!!!!!!!!!!VERBS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! VERBS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
@@ -156,6 +156,14 @@ LEXICON V-PERS-S1
 %<ifi%>:%>%{й%}%{D%}%{I%} # ;
 %<cond%>:%>%{й%}s%{A%} # ;
 
+LEXICON V-PERS-S2
+%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p2%>%<sg%>:%>%{i%}n # ; 
+%<p3%>%<sg%>: #; 
+%<p1%>%<pl%>:%>k # ; 
+%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
+%<p3%>%<pl%>:%>%{L%}%{A%}r # ;
+
 LEXICON V-PERS-FUT
 %<p1%>%<sg%>:%{A%}%>m # ; 
 %<p2%>%<sg%>:%{A%}%>n # ; 
@@ -164,17 +172,6 @@ LEXICON V-PERS-FUT
 %<p2%>%<pl%>:%{a%}%>n%{I%}z # ; 
 %<p3%>%<pl%>:%{e%}k%>%{L%}%{A%}r # ; 
 
-
-
-LEXICON V-PERS-S2
-%<p1%>%<sg%>:%>%{i%}m # ; 
-%<p2%>%<sg%>:%>%{i%}n # ; 
-%<p3%>%<sg%>: #; 
-%<p1%>%<pl%>:%>%k # ; 
-%<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
-%<p3%>%<pl%>:%>%{L%}%{A%}r # ;
-
-
 LEXICON V-PERS-AOR
 %<p1%>%<sg%>:%>%{i%}m # ; 
 %<p2%>%<sg%>:%>s%{I%}n # ; 
@@ -182,28 +179,13 @@ LEXICON V-PERS-AOR
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}r # ;
+
 %<ifi%>:%>%{й%}%{D%}%{I%} # ;
 %<nfh%>:%>%{й%}%m%{I%}ş # ;
-!%<pl%>:%>%{L%}%{A%}r # ;
-
-
-!!LEXICON V-COP
-!!%+i%<cop%>%<aor%>: V-PERS-S1 ;
-!!!%+ı%<cop%>%<aor%>: # ;
-
 
 !LEXICON V-TENSE-ABIL
 !%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
 !%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEGATIVE ;
-
-
-
-!LEXICON V-GZ
-!%{й%} # ;
-!%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
-!%<ifi%>:%>%{D%}%{I%} # ;
-! # ;
-
 
 LEXICON V-IMPER
 ! The imperative, "çok yaşa!", "sigara içmeyin!"
@@ -225,14 +207,7 @@ LEXICON V-FINITE-REGULAR_NEG
 ! All of the finite tenses that take negative in -mA-
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
-%<cond%>:%>%{s%}%{A%} V-PERS-AOR ;
-
-
-!LEXICON V-GPR-COMMON
-!!ATTR ;
-!%<subst%>: SUBST ;
-
-
+%<cond%>:%>s%{A%} V-PERS-S2 ;
 
 
 LEXICON GER-N-INFL-COMMON
@@ -263,56 +238,54 @@ LEXICON V-GPR
 %<gpr_rsub%>:%>%{й%}%{A%}n # ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{a%}%{k%} POSSESSIVES ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
-%<gpr_past2%>:%>%{D%}%{I%}%{k%} # ;
 %<gpr_past1%>:%>%{D%}%{I%}%{I%}yn{A%}n # ;
-%<neg%>%<gpr_past2%>:%>m%{A%}%>%{D%}%{I%}k # ;
-%<gpr_aor%>:%>{A%}r V-PERS-AOR  ;
-
-
-!LEXICON GNA-KEN
-!%<ken%>:%>ken # ;
+%<gpr_past2%>:%>%{D%}%{I%}%{k%} POSSESSIVES ;
+%<neg%>%<gpr_past2%>:%>m%{A%}%>%{D%}%{I%}k POSSESSIVES ;
+%<gpr_aor%>:%>{A%}r #  ;
 
 LEXICON V-GNA
+
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_when1%>:%>%{й}%{I%}nc%{A%}%{k%} # ;
-%<gna_aor%>:%>%{A%}r V-PERS-AOR ;
 %<gna_ferq%>:%>%{A%} # ;
 %<gna_time1%>:%>%{D%}%{I%}kç{A%} # ;
 %<gna_time2%>:%>%{D%}%{I%}kt{A%}n # ;
 %<gna_when2%>:%>%{D%}%{I%}yn%{A%}n # ;
 %<gna_3%>:%>k%{A%}n%{A%} # ;
-%<gna%>%<neg%>:%>m%{A%}d%{A%}%{A%}n # ;
-%<gna_1%>:%>s%{A%} # ;
+%<gna%>%<gna%>:%>m%{A%}d%{A%}%{A%}n # ;
+%<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_2%>:%>%{A%}rs%{A%} # ;
 !%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
 
 
-
-
-
 LEXICON V-NONFINITE
+
 V-GNA ;
 V-GPR ;
 V-GER ;
 
 LEXICON V-COMMON 
-V-FINITE-REGULAR_NEG ;
-V-NONFINITE ;
-V-FINITE-IRREG-NEG ;
-%<aor%>:%>%{E%}r V-PERS-AOR ;
-%<prog%>:%>%{A%}yor V-PERS-S2 ; 
-%<fut%>:%>%{й%}%{a%}c V-PERS-FUT ;
+                         V-FINITE-REGULAR_NEG ;
+                         V-NONFINITE ;
+                         V-FINITE-IRREG-NEG ;
 
-%<aor%>:%>%{E%}r V-FINITE-REGULAR_NEG ;
-%<prog%>:%>%{A%}yor V-FINITE-REGULAR_NEG ;
-%<neg%>:%>m%{A%} V-FINITE-REGULAR_NEG ;
-%<nfh%>:%>m%{I%}ş V-FINITE-REGULAR_NEG ;
+%<aor%>:%>%{E%}r         V-PERS-AOR ;
+%<aor%>:%>%{й%}%{E%}r    V-PERS-AOR ;             ! Err/Orth
+%<aor%>:%>%{E%}r         V-FINITE-REGULAR_NEG ;
 
-%<neg%>:%>m%{A%} V-NONFINITE ;
+%<prog%>:%>%{A%}yor      V-PERS-S2 ; 
+%<prog%>:%>%{A%}yor      V-FINITE-REGULAR_NEG ;
 
-V-IMPER ;
+%<fut%>:%>%{й%}%{a%}c    V-PERS-FUT ;
+
+%<nfh%>:%>m%{I%}ş        V-FINITE-REGULAR_NEG ;
+
+%<neg%>:%>m%{A%}         V-FINITE-REGULAR_NEG ;
+%<neg%>:%>m%{A%}         V-NONFINITE ;
+
+                         V-IMPER ;
 
 LEXICON V-ABIL
 
@@ -322,24 +295,20 @@ LEXICON V-ABIL
 
 LEXICON V-DER
 %<coop%>:%>%{I%}ş      V-ABIL ;
-%<pass%>:%>%{i%}%{L%}  V-ABIL ;
+%<pass%>:%>%{i%}%{L%}  V-ABIL ;      ! No pass with IV ? 
 %<caus%>:%>%{D%}%{I%}r V-ABIL ;
 
                        V-ABIL ; 
 
-
 LEXICON V-IV 
 %<v%>%<iv%>: V-DER ; 
-
 
 LEXICON V-TV 
 %<v%>%<tv%>: V-DER ; 
 
-
-
-
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!NOUN!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
@@ -599,6 +568,11 @@ LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
 %<np%>%<top%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
 
+LEXICON NP-TOP-RUS
+%<np%>%<top%>:%{☭%} FULL-NOMINAL-INFLECTION  ;
+%<np%>%<top%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
+
+
 LEXICON NP-AL
 %<np%>%<al%>: FULL-NOMINAL-INFLECTION  ;
 %<np%>%<al%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
@@ -802,18 +776,19 @@ bilä:bilä CS ;
 çünkü:çünkü CS ;
 çünki:çünki CS ; ! ""
 bila:bila CA ;
-diy:diy CS ;
-deyi:deyi CS ; ! ""
 
-!olarak:olarak CS ; ! ""
+
 ki:ki CS ; ! ""
-bile:bile CS ; ! ""
 yoksa:yoksa CA ; ! ""
 hani:hani CA ; ! ""
 zerä:zerä CA ; ! ""
 osa:osa CA ; ! ""
 hadi:hadi CA ;
 
+
+diy:diy CS ;
+deyi:deyi CS ; ! ""
+deyni:deyni CS ; ! ""
 
 
 LEXICON Postpositions
@@ -831,6 +806,7 @@ boyunca:boyunca POST ; ! "during"
 dolayın:dolayın POST ; ! ""
 ise:ise POST ; ! ""
 başça:başça POST ; ! ""
+deyni:deyni POST ; ! ""
                                     
 
 ötää:ötää POST ; !""
@@ -1136,7 +1112,7 @@ cuvap:cuvap N1 ;
 dil:dil N1 ; ! "язык"
 dil:til N1 ;
 demografiya:demografiya N1 ; ! ""
-doğum:doğum N1 ;
+doğum:doğum N1 ; ! Err/Orth
 dev:dev N1 ;
 evraziya:evraziya N1 ; 
 ekmek:ekmek N1 ;
@@ -1565,6 +1541,7 @@ ortak:ortak N1 ; ! ""
 son:son N1 ;
 aaç:aaç N1 ; !"tree"
 gagauz:gagauz N1 ; ! ""
+gagavuz:gagavuz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
 
 gagauzça:gagauzça N1 ; ! ""
@@ -1587,7 +1564,7 @@ yanvar:yanvar N1 ;
 izmet:izmet N1 ;
 kıymet:kıymet N1 ; ! ""
 baaşış:baaşış N1 ; ! ""
-oğuz:oğuz N1 ; ! ""
+oğuz:oğuz N1 ; ! "" ! Err/Orth
 ölü:ölü N1 ; ! ""
 ömür:ömür N1 ; ! ""
 romın:romın N1 ; ! ""
@@ -1677,7 +1654,7 @@ metre:metre N1 ; ! ""
 milyar:milyar N1 ; ! ""
 milyon:milyon N1 ; ! ""
 müdür:müdür N1 ; ! ""
-muratağa:muratağa N1 ; ! ""
+muratağa:muratağa N1 ; ! ""  ! Err/Orth
 müslüman:müslüman N1 ; ! ""
 muzikacılık:muzikacılı%{k%} N1 ; ! ""
 naţional:naţional N1 ; ! ""
@@ -1742,7 +1719,7 @@ barış:barış N1 ; ! ""
 bildiri:bildiri N1 ; ! ""
 blok:blok N1 ; ! ""
 çerçeve:çerçeve N1 ; ! ""
-çoğunluk:çoğunlu%{k%} N1 ; ! ""
+çoğunluk:çoğunlu%{k%} N1 ; ! "" ! Err/Orth
 dere:dere N1 ; ! ""
 duygu:duygu N1 ; ! ""
 educaţiel:educaţiel N1 ; ! ""
@@ -1838,6 +1815,7 @@ organ:organ N1 ; ! ""
 pazar:pazar N1 ; ! ""
 siiredici:siiredici N1 ; ! ""
 üürenci:üürenci N1 ; ! ""
+üürenci:öğrenci N1 ; ! "" ! Err/Orth
 kedi:kedi N1 ; ! ""
 
 aul:aul N1 ; ! ""
@@ -2008,7 +1986,6 @@ azerbaycan:azerbaycan N1 ; ! ""
 kişilik:kişili%{k%} N1 ; ! ""
 kış:kış N1 ; ! ""
 kısmet:kısmet  N1 ; ! ""
-öğrenci:öğrenci N1 ; ! ""
 raport:raport N1 ; ! ""
 ruus:ruus N1 ; ! ""
 sandık:sandık N1 ; ! ""
@@ -2583,9 +2560,10 @@ sahip:sahip N1 ; ! ""
 şaka:şaka N1 ; ! ""
 salı:salı N1 ; ! ""
 şamanizm:şamanizm N1 ; ! ""
+turizm:turizm N1 ; ! ""
 sanatçı:sanatçı N1 ; ! ""
 sanat:sanat N1 ; ! ""
-Sandwich:Sandwich N1 ; ! ""
+sandwich:sandwich N1 ; ! ""
 
 kadınca:kadınca N1 ; ! ""
 studentlik:studentli%{k%} N1 ; ! ""
@@ -2745,13 +2723,19 @@ raat:raat N1 ; ! ""
 demokrat:demokrat N1 ; ! ""
 edebiyat:edebiyat N1 ; ! ""
 internet:internet N1 ; ! ""
-patret:patret N1 ; ! ""
+patret:patret N5 ; ! ""
 korespondent:korespondent N1 ; ! ""
 terorist:terorist N1 ; ! ""
 yolcu:yolcu N1 ; ! ""
 arhiv:arhiv N1 ; ! ""
 kirgiz:kirgiz N1 ; ! ""
 nevruz:nevruz N1 ; ! ""
+prokuror:prokuror N1 ; ! ""
+protoierey:protoierey N1 ; ! ""
+burs:burs N1 ; ! ""
+tur:tur N1 ; ! ""
+gimn:gimn N1 ; ! ""
+sıracık:sıracık N1 ; ! ""
 
 
 dışişleri:dışişler%>%{s%}%{I%}%{n%} N3 ; ! ""
@@ -2764,6 +2748,7 @@ Kitay:Kitay NP-TOP ; ! ""
 Edirne:Edirne NP-TOP ; ! ""
 Kaul:Kaul NP-TOP ; ! ""
 Marı:Marı NP-TOP ; ! ""
+Merv:Merv NP-TOP ; ! ""
 Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
 
@@ -2818,6 +2803,7 @@ Başkırdistan:Başkortostan NP-TOP ; ! "" ! Err/Orth
 Başkırdistan:Başkurtistan NP-TOP ; ! "" ! Err/Orth
 Belarus:Belarus NP-TOP ;! ""
 Uzbekistan:Uzbekistan NP-TOP ; ! ""
+Özbekistan:Özbekistan NP-TOP ; ! ""
 Adana:Adana NP-TOP ;! ""
 Nemtä:Nemtä NP-TOP ;! ""
 Afganistan:Afganistan NP-TOP ; ! ""
@@ -2834,15 +2820,14 @@ Kosova:Kosova NP-TOP ; ! ""
 Laos:Laos NP-TOP ; ! ""
 Leida:Leida NP-TOP ; ! ""
 Lihtenşteyn:Lihtenşteyn NP-TOP ; ! ""
-Lüksemburg:Lüksemburg NP-TOP ; ! ""
+Lüksemburg:Lüksemburg NP-TOP-RUS ; ! ""
 Madrid:Madrid NP-TOP ; ! ""
 Meksika:Meksika NP-TOP ; ! ""
 Monako:Monako NP-TOP ; ! ""
 Nepal:Nepal NP-TOP ; ! ""
-Özbekistan:Özbekistan NP-TOP ; ! ""
 Pakistan:Pakistan NP-TOP ; ! ""
 Peru:Peru NP-TOP ; ! ""
-Peterburg:Peterburg NP-TOP ; ! ""
+Peterburg:Peterburg NP-TOP-RUS ; ! ""
 Portugal:Portugal NP-TOP ; ! ""
 Tacikistan:Tacikistan NP-TOP ; ! ""
 Tatarstan:Tatarstan NP-TOP ; ! ""
@@ -4279,7 +4264,7 @@ Yeniçiftlik:Yeniçiftli%{k%} NP-TOP ; ! ""
 !Fildişi% Kumsalı:Fildişi% Kumsalı NP-TOP ; ! "" ! 
 !Madeira% adaları:Madeira% adaları NP-TOP ; ! "" ! 
 
-Sankt%-Peterburg:Sankt%-Peterburg NP-TOP ; ! ""
+Sankt%-Peterburg:Sankt%-Peterburg NP-TOP-RUS ; ! ""
 
 
 Evrovideniye:Evrovideniye NP-AL ; ! ""
@@ -4331,10 +4316,71 @@ Leanka:Leanka NP-COG-MF ; ! ""
 Kolsa:Kolsa NP-COG-MF ; ! ""
 Kissa:Kissa NP-COG-MF ; ! ""
 Zahariya:Zahariya NP-COG-MF ; ! ""
-Georgieviç:Georgieviç NP-COG-MF ; ! ""
-Afanasiyeviç:Afanasiyeviç NP-COG-MF ; ! ""
-Petkoviç:Petkoviç NP-COG-MF ; ! ""
-Sultanoviç:Sultanoviç NP-COG-MF ; ! ""
+
+Streleţ:Streleţ NP-COG-MF ; ! ""
+Filev:Filev NP-COG-MF ; ! ""
+
+Abdrahmanoviç:Abdrahmanov NP-PAT-VICH ; ! ""
+Afanasieviç:Afanasiev NP-PAT-VICH ; ! ""
+Afanasiyeviç:Afanasiyev NP-PAT-VICH ; ! ""
+Akramoviç:Akramov NP-PAT-VICH ; ! ""
+Aleksandroviç:Aleksandrov NP-PAT-VICH ; ! ""
+Alekseeviç:Alekseev NP-PAT-VICH ; ! ""
+Anatolyeviç:Anatolyev NP-PAT-VICH ; ! ""
+Andreeviç:Andreev NP-PAT-VICH ; ! ""
+Arhipoviç:Arhipov NP-PAT-VICH ; ! ""
+Daniloviç:Danilov NP-PAT-VICH ; ! ""
+Dimirieviç:Dimiriev NP-PAT-VICH ; ! ""
+Dimitrieviç:Dimitriev NP-PAT-VICH ; ! ""
+Dimitriyeviç:Dimitriyev NP-PAT-VICH ; ! ""
+Galiahmetoviç:Galiahmetov NP-PAT-VICH ; ! ""
+Genadiyeviç:Genadiyev NP-PAT-VICH ; ! ""
+Genadyeviç:Genadyev NP-PAT-VICH ; ! ""
+Georgeviç:Georgev NP-PAT-VICH ; ! ""
+Georgiyeviç:Georgiyev NP-PAT-VICH ; ! ""
+Georieviç:Georiev NP-PAT-VICH ; ! ""
+Gusmanoviç:Gusmanov NP-PAT-VICH ; ! ""
+Harlampieviç:Harlampiev NP-PAT-VICH ; ! ""
+İavanoviç:İavanov NP-PAT-VICH ; ! ""
+İlarionoviç:İlarionov NP-PAT-VICH ; ! ""
+İsmagiloviç:İsmagilov NP-PAT-VICH ; ! ""
+İvanaviç:İvanav NP-PAT-VICH ; ! ""
+Jaudatoviç:Jaudatov NP-PAT-VICH ; ! ""
+Kiroviç:Kirov NP-PAT-VICH ; ! ""
+Konstantinoviç:Konstantinov NP-PAT-VICH ; ! ""
+Leonidoviç:Leonidov NP-PAT-VICH ; ! ""
+Lukyanoviç:Lukyanov NP-PAT-VICH ; ! ""
+Lunkeviç:Lunkev NP-PAT-VICH ; ! ""
+Mateeviç:Mateev NP-PAT-VICH ; ! ""
+Matveeviç:Matveev NP-PAT-VICH ; ! ""
+Mirzoeviç:Mirzoev NP-PAT-VICH ; ! ""
+Moiseeviç:Moiseev NP-PAT-VICH ; ! ""
+Nikanoroviç:Nikanorov NP-PAT-VICH ; ! ""
+Nikolayaviç:Nikolayav NP-PAT-VICH ; ! ""
+Nikolayeviç:Nikolayev NP-PAT-VICH ; ! ""
+Nikoleviç:Nikolev NP-PAT-VICH ; ! ""
+Nurislamoviç:Nurislamov NP-PAT-VICH ; ! ""
+Panteleeviç:Panteleev NP-PAT-VICH ; ! ""
+Pantileeviç:Pantileev NP-PAT-VICH ; ! ""
+Pavloviç:Pavlov NP-PAT-VICH ; ! ""
+Pötroviç:Pötrov NP-PAT-VICH ; ! ""
+Rafaeloviç:Rafaelov NP-PAT-VICH ; ! ""
+Raufoviç:Raufov NP-PAT-VICH ; ! ""
+Şaehoviç:Şaehov NP-PAT-VICH ; ! ""
+Saveliyeviç:Saveliyev NP-PAT-VICH ; ! ""
+Sergeeviç:Sergeev NP-PAT-VICH ; ! ""
+Serviç:Serv NP-PAT-VICH ; ! ""
+Stepanoviç:Stepanov NP-PAT-VICH ; ! ""
+Vasilyeviç:Vasilyev NP-PAT-VICH ; ! ""
+Viktoroviç:Viktorov NP-PAT-VICH ; ! ""
+Yakovleviç:Yakovlev NP-PAT-VICH ; ! ""
+Yusupoviç:Yusupov NP-PAT-VICH ; ! ""
+
+
+Georgieviç:Georgiev NP-PAT-VICH ; ! ""
+Afanasiyeviç:Afanasiyev NP-PAT-VICH ; ! ""
+Petkoviç:Petkov NP-PAT-VICH ; ! ""
+Sultanoviç:Sultanov NP-PAT-VICH ; ! ""
 Ormanci:Ormanci NP-COG-MF ; ! ""
 Garbali:Garbali NP-COG-MF ; ! ""
 Kapakli:Kapakli NP-COG-MF ; ! ""
@@ -4639,10 +4685,58 @@ Vineks:Vineks  NP-COG-MF ; ! ""
 Vlado:Vlado NP-COG-MF ; ! ""
 VOLKOV:VOLKOV NP-COG-MF ; ! ""
 Vončina:Vončina NP-COG-MF ; ! ""
-Yakupoğlu:Yakupoğlu NP-COG-MF ; ! ""
+Yakupoğlu:Yakupoğl NP-COG-OGLU ; ! ""
 Yanioglu:Yanioglu NP-COG-MF ; ! ""
 Yorgannar:Yorgannar NP-COG-MF ; ! ""
 Yosifin:Yosifin NP-COG-MF ; ! ""
+
+Avramoglu:Avramogl NP-COG-OGLU ; ! ""
+Büyükkantarcioğlu:Büyükkantarcioğl NP-COG-OGLU ; ! ""
+Çavuşoğlu:Çavuşoğl NP-COG-OGLU ; ! ""
+Çernioglu:Çerniogl NP-COG-OGLU ; ! ""
+Davutoğlu:Davutoğl NP-COG-OGLU ; ! ""
+Dimçoglu:Dimçogl NP-COG-OGLU ; ! ""
+Dimitroglu:Dimitrogl NP-COG-OGLU ; ! ""
+Dobrioglu:Dobriogl NP-COG-OGLU ; ! ""
+Dudoglu:Dudogl NP-COG-OGLU ; ! ""
+Eroğlu:Eroğl NP-COG-OGLU ; ! ""
+Filioglu:Filiogl NP-COG-OGLU ; ! ""
+Gerçioglu:Gerçiogl NP-COG-OGLU ; ! ""
+İbicioğlu:İbicioğl NP-COG-OGLU ; ! ""
+İhsanoğlu:İhsanoğl NP-COG-OGLU ; ! ""
+İrioglu:İriogl NP-COG-OGLU ; ! ""
+İvançoglu:İvançogl NP-COG-OGLU ; ! ""
+Jelezoglu:Jelezogl NP-COG-OGLU ; ! ""
+Karamollaoğlu:Karamollaoğl NP-COG-OGLU ; ! ""
+Kelioglu:Keliogl NP-COG-OGLU ; ! ""
+Kihayoglu:Kihayogl NP-COG-OGLU ; ! ""
+Kioroglu:Kiorogl NP-COG-OGLU ; ! ""
+Kiroglu:Kirogl NP-COG-OGLU ; ! ""
+Kolioglu:Koliogl NP-COG-OGLU ; ! ""
+Kostandoglu:Kostandogl NP-COG-OGLU ; ! ""
+Kristioglu:Kristiogl NP-COG-OGLU ; ! ""
+Kurdoglu:Kurdogl NP-COG-OGLU ; ! ""
+Kuyçoglu:Kuyçogl NP-COG-OGLU ; ! ""
+Mitioglu:Mitiogl NP-COG-OGLU ; ! ""
+Mutkoglu:Mutkogl NP-COG-OGLU ; ! ""
+Ömeroğlu:Ömeroğl NP-COG-OGLU ; ! ""
+Petrioglu:Petriogl NP-COG-OGLU ; ! ""
+Peyoglu:Peyogl NP-COG-OGLU ; ! ""
+Popazoglu:Popazogl NP-COG-OGLU ; ! ""
+Poyrazoğlu:Poyrazoğl NP-COG-OGLU ; ! ""
+Ratkoglu:Ratkogl NP-COG-OGLU ; ! ""
+Sarioglu:Sariogl NP-COG-OGLU ; ! ""
+Stefoglu:Stefogl NP-COG-OGLU ; ! ""
+Stoyanoglu:Stoyanogl NP-COG-OGLU ; ! ""
+Tanosoglu:Tanosogl NP-COG-OGLU ; ! ""
+Taşoglu:Taşogl NP-COG-OGLU ; ! ""
+Trifonoglu:Trifonogl NP-COG-OGLU ; ! ""
+Vasilioglu:Vasiliogl NP-COG-OGLU ; ! ""
+Vornikoglu:Vornikogl NP-COG-OGLU ; ! ""
+Yamboglu:Yambogl NP-COG-OGLU ; ! ""
+Yanioglu:Yaniogl NP-COG-OGLU ; ! ""
+Yanişoglu:Yanişogl NP-COG-OGLU ; ! ""
+
 
 Aav:Aav NP-COG-MF ; ! ""
 Abel:Abel NP-COG-MF ; ! ""
@@ -4764,7 +4858,7 @@ Dobrov:Dobrov NP-COG-MF ; ! ""
 Tarmo:Tarmo NP-COG-MF ; ! ""
 Tepegöz:Tepegöz NP-COG-MF ; ! ""
 Vaher:Vaher NP-COG-MF ; ! ""
-Vasilyeviç:Vasilyeviç NP-COG-MF ; ! ""
+Vasilyeviç:Vasilyev NP-PAT-VICH ; ! ""
 Dimitrievna:Dimitrievna NP-COG-MF ; ! ""
 Zupančič:Zupančič NP-COG-MF ; ! ""
 Hammer:Hammer NP-COG-MF ; ! ""
@@ -4785,7 +4879,7 @@ Toompere:Toompere NP-COG-MF ; ! ""
 Afanasievna:Afanasievna NP-COG-MF ; ! ""
 Avci:Avci NP-COG-MF ; ! ""
 Benedetto:Benedetto NP-COG-MF ; ! ""
-Bülbüloğlu:Bülbüloğlu NP-COG-MF ; ! ""
+Bülbüloğlu:Bülbüloğl NP-COG-OGLU ; ! ""
 Cavazza:Cavazza NP-COG-MF ; ! ""
 Danilo:Danilo NP-COG-MF ; ! ""
 Danilova:Danilova NP-COG-MF ; ! ""
@@ -4824,7 +4918,7 @@ Beyinâ:Beyinâ NP-COG-MF ; ! ""
 
 
 Manoff:Manoff NP-COG-MF ; ! ""
-Nikolaeviç:Nikolaeviç NP-COG-MF ; ! ""
+Nikolaeviç:Nikolaev NP-PAT-VICH ; ! ""
 Eşiler:Eşiler NP-COG-MF ; ! ""
 Filat:Filat NP-COG-MF ; ! ""
 Gäncä:Gäncä NP-COG-MF ; ! ""
@@ -4893,8 +4987,8 @@ Kopça:Kopça NP-COG-MF ; ! ""
 Kara:Kara NP-COG-MF ; ! ""
 Radova:Radova NP-COG-MF ; ! ""
 Karaya:Karaya NP-COG-MF ; ! ""
-Maruneviç:Maruneviç NP-COG-MF ; ! ""
-Tanasoviç:Tanasoviç NP-COG-MF ; ! ""
+Maruneviç:Marunev NP-PAT-VICH ; ! ""
+Tanasoviç:Tanasov NP-PAT-VICH ; ! ""
 Moyse:Moyse NP-COG-MF ; ! ""
 İncäzanaat:İncäzanaat NP-COG-MF ; ! ""
 Frunze:Frunze NP-COG-MF ; ! ""
@@ -4954,8 +5048,8 @@ Vasiloglu:Vasiloglu NP-COG-MF ; ! ""
 Marinoglu:Marinoglu NP-COG-MF ; ! ""
 Kuroglu:Kuroglu NP-COG-MF ; ! ""
 Tanasoglu:Tanasoglu NP-COG-MF ; ! ""
-Tanasoğlu:Tanasoğlu NP-COG-MF ; ! ""
-Topçuoğlu:Topçuoğlu NP-COG-MF ; ! ""
+Tanasoğlu:Tanasoğl NP-COG-OGLU ; ! ""
+Topçuoğlu:Topçuoğl NP-COG-OGLU ; ! ""
 Sepp:Sepp NP-COG-MF ; ! ""
 Sirkeli:Sirkeli NP-COG-MF ; ! ""
 Slaveikov:Slaveikov NP-COG-MF ; ! ""
@@ -4971,23 +5065,23 @@ Ander:Ander NP-COG-MF ; ! ""
 Andre:Andre NP-COG-MF ; ! ""
 Aren:Aren NP-COG-MF ; ! ""
 Arseven:Arseven NP-COG-MF ; ! ""
-Ayrancıoğlu:Ayrancıoğlu NP-COG-MF ; ! ""
+Ayrancıoğlu:Ayrancıoğl NP-COG-OGLU ; ! ""
 
-Çavuşoğlu:Çavuşoğlu NP-COG-MF ; ! ""
-Karamollaoğlu:Karamollaoğlu NP-COG-MF ; ! ""
-Ömeroğlu:Ömeroğlu NP-COG-MF ; ! ""
-Eroğlu:Eroğlu NP-COG-MF ; ! ""
-Babaoğlu:Babaoğlu NP-COG-MF ; ! ""
-Davutoğlu:Davutoğlu NP-COG-MF ; ! ""
-Poyrazoğlu:Poyrazoğlu NP-COG-MF ; ! ""
-Kuveloğlu:Kuveloğlu NP-COG-MF ; ! ""
-Köroğlu:Köroğlu NP-COG-MF ; ! ""
-İhsanoğlu:İhsanoğlu NP-COG-MF ; ! ""
-İbicioğlu:İbicioğlu NP-COG-MF ; ! ""
-Hüseyinoğlu:Hüseyinoğlu NP-COG-MF ; ! ""
-Büyükkantarcioğlu:Büyükkantarcioğlu NP-COG-MF ; ! ""
-Ardıcıoğlu:Ardıcıoğlu NP-COG-MF ; ! ""
-Acaroğlu:Acaroğlu NP-COG-MF ; ! ""
+Çavuşoğlu:Çavuşoğl NP-COG-OGLU ; ! ""
+Karamollaoğlu:Karamollaoğl NP-COG-OGLU ; ! ""
+Ömeroğlu:Ömeroğl NP-COG-OGLU ; ! ""
+Eroğlu:Eroğl NP-COG-OGLU ; ! ""
+Babaoğlu:Babaoğl NP-COG-OGLU ; ! ""
+Davutoğlu:Davutoğl NP-COG-OGLU ; ! ""
+Poyrazoğlu:Poyrazoğl NP-COG-OGLU ; ! ""
+Kuveloğlu:Kuveloğl NP-COG-OGLU ; ! ""
+Köroğlu:Köroğl NP-COG-OGLU ; ! ""
+İhsanoğlu:İhsanoğl NP-COG-OGLU ; ! ""
+İbicioğlu:İbicioğl NP-COG-OGLU ; ! ""
+Hüseyinoğlu:Hüseyinoğl NP-COG-OGLU ; ! ""
+Büyükkantarcioğlu:Büyükkantarcioğl NP-COG-OGLU ; ! ""
+Ardıcıoğlu:Ardıcıoğl NP-COG-OGLU ; ! ""
+Acaroğlu:Acaroğl NP-COG-OGLU ; ! ""
 
 
 Tari:Tari NP-COG-MF ; ! ""
@@ -5307,6 +5401,13 @@ miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
 topraksız:topraksız A2 ; ! ""
+raatsız:raatsız A2 ; ! ""
+vizasız:vizasız A1 ; ! ""
+başarısız:başarısız A1 ; ! ""
+operaţiyasız:operaţiyasız A1 ; ! ""
+tarafsız:tarafsız A1 ; ! ""
+problemasız:problemasız A1 ; ! ""
+
 
 demokratik:demokratik A1 ; ! ""
 
@@ -5619,6 +5720,7 @@ küülü:küülü A1 ; ! ""
 
 LEXICON Adverbs
 
+bile:bile ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
 yırak:yırak ADV3 ; ! ""
 bezbelli:bezbelli ADV3 ; ! ""
@@ -5737,9 +5839,14 @@ gel:gel V-IV ;
 geç:geç V-IV ;
 başla:başla V-IV ;
 başla:başle V-IV ; ! Err/Orth
+başlat:başlat V-TV ; ! "" ! Der/Caus
+tanıt:tanıt V-TV ; ! "" Der/Caus
+resimne:resim%>%{L%}e V-IV ; ! ""
+düz:düz V-IV ; ! ""
+
 çek:çek V-TV ;
-yap:yap V-IV ;
-yapıl:yapıl V-TV ;
+yap:yap V-TV ;
+yapıl:yapıl V-IV ;
 kurul:kurul V-IV ;
 açıkla:açıkla V-TV ;
 yaz:yaz V-TV ;

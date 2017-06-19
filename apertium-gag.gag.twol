@@ -96,6 +96,8 @@ Rules
           Vy in ( a ä ä a a ä a ä a ä ä )
     matched ;
 
+!@ y:y a:a p:p >:0 {E}:a r:r >:0 {D}:d {I}:ı >:0 {L}:l {A}:a r:r
+
 !@ o:o l:l >:0 {й}:0 {A}:a c:c >:0 {e}:e k:k >:0 {L}:l {A}:a r:r
 
 "Vowel harmony in the future suffix with plural"
