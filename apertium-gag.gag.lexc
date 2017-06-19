@@ -738,9 +738,8 @@ LEXICON ABBR-INIT
 %<abbr%>%+P%.:P%. ABBR-INIT ; ! ""
 %<abbr%>%+R%.:R%. ABBR-INIT ; ! ""
 %<abbr%>%+S%.:S%. ABBR-INIT ; ! ""
-%<abbr%>%+Ș%.:Ș%. ABBR-INIT ; ! ""
+%<abbr%>%+Ş%.:Ş%. ABBR-INIT ; ! ""
 %<abbr%>%+T%.:T%. ABBR-INIT ; ! ""
-%<abbr%>%+Ț%.:Ț%. ABBR-INIT ; ! ""
 %<abbr%>%+Ţ%.:Ţ%. ABBR-INIT ; ! ""
 %<abbr%>%+U%.:U%. ABBR-INIT ; ! ""
 %<abbr%>%+Ü%.:Ü%. ABBR-INIT ; ! ""
@@ -751,6 +750,8 @@ LEXICON ABBR-INIT
 %<abbr%>%+Ş%.:Ş%. ABBR-INIT ; ! ""
 %<abbr%>%+Y%.:Y%. ABBR-INIT ; ! ""
 %<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
+%<abbr%>%+Ž%.:Ž%. ABBR-INIT ; ! ""
+%<abbr%>%+Š%.:Š%. ABBR-INIT ; ! ""
 
 
 LEXICON POST
