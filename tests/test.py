@@ -18,8 +18,12 @@ gene = istr2.read();
 testf = glob.glob('*.tsv');
 
 print(testf);
-err = 0;
-corr = 0;
+err_g = 0;
+corr_g = 0;
+total_g = 0;
+err_a = 0;
+corr_a = 0;
+total_a = 0;
 for f in testf: #{
 	print(f + ':');
 	tf = open(f).read().strip().split('\n');
@@ -33,17 +37,19 @@ for f in testf: #{
 		#}
 
 		if g_res == (): #{
-			print('-\t%s\t%s\t%s' % (row[1], row[2], g_res));
-			err += 1;
+			print('!\t%s\t%s\t%s' % (row[1], row[2], g_res));
+			err_g += 1;
+			total_g += 1;
 			continue;
 		#}
 		if g_res[0][0] == row[2]: #{
 			print('+\t%s\t%s' % (row[1], g_res[0][0]));
-			corr += 1;
+			corr_g += 1;
 		else: #{	
 			print('-\t%s\t%s\t%s' % (row[1], row[2], g_res[0][0]));
-			err += 1;
+			err_g += 1;
 		#}
+		total_g += 1
 	#}
 	print('Analysis:');
 	for t in tf: #{
@@ -60,14 +66,19 @@ for f in testf: #{
 		#}
 		if found: #{
 			print('+\t%s\t%s' % (row[2], row[1]));
-			corr += 1;
+			corr_a += 1;
 		else: #{	
 			print('-\t%s\t%s\t%s' % (row[2], row[1], a_res));
-			err += 1;
+			err_a += 1;
 		#}
+		total_a += 1
 	#}
 	print('');
 #}
 
-print('PASS:\t%.2f%%' % ((corr/(err+corr))*100.0));
-print('%d\t%d\t%d' % (err+corr, corr, err));
+corr = corr_g + corr_a
+total = total_g + total_a
+
+print('PASS:\t%.2f%%' % ((corr/total)*100.0));
+print('GEN :\t%d\t%d\t%d' % (total_g, corr_g, err_g));
+print('ANAL:\t%d\t%d\t%d' % (total_a, corr_a, err_a));
