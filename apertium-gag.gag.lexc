@@ -136,7 +136,7 @@ Conjunctions ;
 Postpositions ;
 Abbreviations ;
 Punctuation;
-Barbarisms ;
+Barbarisms ; ! Use/Circ
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -421,8 +421,8 @@ LEXICON CLITIC-COPULA
 ! TODO: OTHER TENSES
 
 LEXICON CASES
-%<nom%>: CLITIC-COPULA ;
 %<nom%>:  # ;
+%<nom%>: CLITIC-COPULA ;
 %<gen%>:%>%{N%}%{I%}n # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
@@ -431,7 +431,7 @@ LEXICON CASES
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
 %<ins%>:%>%{й}%{L%}%{A%} # ;
-%<ins%>:%>%{й}%{L%}%{A%}n # ;
+%<ins%>:%>%{й}%{L%}%{A%}n # ; ! Dir/LR
 
 LEXICON POSSESSIVES
 %<px1sg%>:%>%{i%}m CASES  ;
@@ -459,6 +459,7 @@ LEXICON SUBST-ATTR
 
 %<attr%>: # ; 
 %<subst%>: CASES ;
+%<subst%>%<pl%>:%>%{L%}%{A%}r CASES ;
 
 LEXICON PRON-PERS-BÄN
 
@@ -556,47 +557,37 @@ LEXICON PRON-PERS-ONNAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
 
 
-LEXICON POST
-%<post%>: # ;
- 
 
 LEXICON SUBST
 !%<attr%>: # ; 
 %<pl%>:%>%{L%}%{A%}r  CASES ;
- CASES ;
-                       POSSESSIVES ;
-%<pl%>:%>%{L%}%{A%}r   POSSESSIVES ;
-
-
-LEXICON ATTR
-%<attr%>: # ;
-
+                      CASES ;
+                      POSSESSIVES ;
+%<pl%>:%>%{L%}%{A%}r  POSSESSIVES ;
 
 !LEXICON GENERAL-POSSESSIVE-ETC
 !%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
 
+LEXICON N-COMPOUND-PX-COMMON
 
+:%>%{s%}%{I%}%{n%} CASES ;
+POSSESSIVES ;     ! for stuff like "bizim demiryolumuz" 
+                  ! which should have a <px analysis
 
 LEXICON N1 
 
-%<n%>: ATTR;
-%<n%>: FULL-NOMINAL-INFLECTION ; 
- 
-%<n%>: PLURAL ; 
-!%<n%>: CLITIC-COPULA ;
-
-LEXICON N5
-
-%<n%>:%{☭%} FULL-NOMINAL-INFLECTION ; 
 %<n%>%<attr%>: # ;
+%<n%>: FULL-NOMINAL-INFLECTION ; 
 
 LEXICON N2 
                       
-%<n%>: FULL-NOMINAL-INFLECTION ;
-!%<n%>: N-COMPOUND-PX-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р%>%{s%}%{I%}%{n%} CASES ; ! (e.g. чик сакчылары=пограничники)
-                                                      !  FIXME CHECK: Is {S} needed here ?
+%<n%>: N-COMPOUND-PX-COMMON ;
+%<n%>%<pl%>:%>%{L%}%{A%}r%>%{s%}%{I%}%{n%} CASES ;
 
+LEXICON N5
+
+%<n%>%<attr%>: # ;
+%<n%>:%{☭%} FULL-NOMINAL-INFLECTION ; 
 
 
 LEXICON NP-TOP
@@ -644,10 +635,8 @@ LEXICON A2
 %<adj%>: CLITIC-COPULA ;
 %<adj%>%<subst%>: SUBST ; 
 
-
 LEXICON NP-ANT-M
 %<np%>%<ant%>%<m%>: FULL-NOMINAL-INFLECTION ;
-
 
 LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: FULL-NOMINAL-INFLECTION ;
@@ -723,11 +712,6 @@ LEXICON ABBR
 
 %<abbr%>: # ;
 
-LEXICON BARB
-
-%<barb%>: # ;
-
-
 LEXICON ABBR-INIT
 
 %<abbr%>: # ;
@@ -768,6 +752,13 @@ LEXICON ABBR-INIT
 %<abbr%>%+Y%.:Y%. ABBR-INIT ; ! ""
 %<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
 
+
+LEXICON POST
+%<post%>: # ;
+
+LEXICON BARB
+
+%<barb%>: # ;
 
 
 
@@ -1074,7 +1065,8 @@ yurtluk:yurtlu%{k%} N1 ; ! ""
 
 
 
-bakannık:bakannık N1 ; ! ""
+bakannık:bakannı%{k%} N1 ; ! ""
+başbakannık:başbakannı%{k%} N1 ; ! ""
 baş:baş N1 ; ! ""
 baal:baal N1 ; ! ""
 büü:büü N1 ;
@@ -1097,7 +1089,6 @@ cuvap:cuvap N1 ;
 dil:dil N1 ; ! "язык"
 dil:til N1 ;
 demografiya:demografiya N1 ; ! ""
-delegaţiya:delegaţiya N1 ; ! ""
 dünnää:dünnää N1 ; ! ""
 doğum:doğum N1 ;
 dev:dev N1 ;
@@ -1122,7 +1113,7 @@ asimiläţiya:asimiläţiya N1 ; ! ""
 ansambliya:ansambliya N1 ; ! ""
 apeläţiya:apeläţiya N1 ; ! 
 aktyör:aktyör N1 ; ! ""
-arhitekturacılar:arhitekturacılar N1 ; ! ""
+arhitekturacı:arhitekturacı N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
 arab:arab N1 ; ! ""
 anmak:anmak N1 ;
@@ -1132,7 +1123,7 @@ avtor:avtor N1 ; ! ""
 avtonom:avtonom N1 ; ! ""
 adlı:adlı N1 ; ! "judiciary"
 ad:ad N1 ; !
-anı:anı N2 ; ! ""
+anı:anı N1 ; ! ""
 angı:angı N1 ; ! ""
 aktivist:aktivist N1 ; ! ""
 ay:ay N1 ; ! ""
@@ -1147,6 +1138,7 @@ başkan:başkan N1 ; ! ""
 başkannık:başkan%>%{L%}ı%{k%} N1 ; ! "" 
 !başkannık:başkanlı%{k%} N1 ; ! "" ! Err/Orth
 krallık:krallı%{k%} N1 ; ! ""
+krallık:kralı%{k%} N1 ; ! "" ! Err/Orth
 
 beeri:beeri N1 ; ! ""
 bölüm:bölüm N1 ; ! ""
@@ -1185,7 +1177,6 @@ dünnä:dünnä N1 ; ! ""
 dolayında:dolayında N1 ; ! ""
 dışarı:dışarı N1 ; ! ""
 diskriminaţiya:diskriminaţiya N1 ;
-delegaşiya:delegaşiya N1 ;
 dekabr:dekabr N1 ;
 ekonomika:ekonomika N1 ; ! ""
 
@@ -1283,7 +1274,6 @@ kuvet:kuvet N1 ;
 kız:kız N1 ; ! ""
 küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
-kasabasiTürkiyenın:kasabasiTürkiyenın N1 ;
 komşu:komşu N1 ; ! ""
 köşe:köşe N1 ; 
 konstituşiya:Konstituşiya N1 ; ! ""
@@ -1751,6 +1741,12 @@ film:film N1 ; ! ""
 gençlik:gençli%{k%} N1 ; ! ""
 genellikle:genellikle N1 ; ! ""
 iilik:iili%{k%} N1 ; ! ""
+iilik:iyili%{k%} N1 ; ! "" ! Err/Orth
+mutluluk:mutlulu%{k%} N1 ; ! ""
+kordinatorluk:kordinatorlu%{k%} N1 ; ! ""
+habercilik:habercili%{k%} N1 ; ! ""
+güvennik:güvenni%{k%} N1 ; ! ""
+
 kalä:kalä N1 ; ! ""
 kolaylık:kolaylı%{k%} N1 ; ! ""
 kongres:kongres N1 ; ! ""
@@ -2634,7 +2630,18 @@ foto:foto N1 ; ! ""
 hepsicii:hepsicii N1 ; ! ""
 şii:şii N1 ; ! ""
 işbirlii:işbirlii N1 ;
+peynir:peynir N1 ; ! ""
 
+meropriyatiya:meropriyatiya N1 ; ! ""
+represiya:represiya N1 ; ! ""
+realiya:realiya N1 ; ! ""
+mediya:mediya N1 ; ! ""
+auditoriya:auditoriya N1 ; ! ""
+muniţipiya:muniţipiya N1 ; ! ""
+
+delegaţiya:delegaţiya N1 ; ! ""
+delegaţiya:delgaţiya N1 ; ! "" ! Err/Orth
+delegaţiya:delegaşiya N1 ; ! "" ! Err/Orth
 
 LEXICON ProperNouns 
 
@@ -3115,6 +3122,7 @@ Sloveniya:Sloveniya NP-TOP ; ! ""
 Silistiriya:Silistiriya NP-TOP ; ! ""
 Șveţiya:Șveţiya NP-TOP ; ! ""
 Türkiye:Türkiye NP-TOP ; ! ""
+Türkiye:Türkiyä NP-TOP ; ! "" ! Err/Orth
 Tanzaniya:Tanzaniya NP-TOP ; ! ""
 Transnistriya:Transnistriya NP-TOP ; ! ""
 Tomay:Tomay NP-TOP ; ! ""
@@ -5753,7 +5761,8 @@ LEXICON DIGITLEX
 
 %<num%>: # ;
 
-LEXICON Barbarisms
+LEXICON Barbarisms ! Use/Circ
 
 <[а|б|в|г|д|е|ж|з|и|й|к|л|м|н|о|п|р|с|т|у|ф|х|ц|ч|ш|щ|ъ|ы|ь|э|ю|я|ё|є|і|ї|ј|ў|ґ|ғ|қ|ҡ|ҧ|ү|ҷ|һ|ӈ|ӓ|ө|ӱ]+> BARB ; ! Use/Circ
 
+!<[α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|ς|τ|υ|φ|χ|ψ|ω]+> BARB ; ! Use/Circ
