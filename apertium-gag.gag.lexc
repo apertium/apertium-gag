@@ -969,7 +969,21 @@ yarış:yarış N1 ; ! ""
 
 injiner:injiner N1 ; ! ""
 inşa:inşa N1 ; ! ""
-insannık:insannık N1 ; ! ""
+
+aydınnık:aydın%>%{L%}ı%{k%} N1 ; ! ""
+azınnık:azın%>%{L%}ı%{k%} N1 ; ! ""
+bakannık:bakan%>%{L%}ı%{k%} N1 ; ! ""
+başbakannık:başbakan%>%{L%}ı%{k%} N1 ; ! ""
+başkannık:başkan%>%{L%}ı%{k%} N1 ; ! "" 
+binnik:bin%>%{L%}i%{k%} N1 ; ! ""
+duşmannık:duşman%>%{L%}ı%{k%} N1 ; ! ""
+günnük:gün%>%{L%}ü%{k%} N1 ; ! ""
+güvennik:güven%>%{L%}i%{k%} N1 ; ! ""
+insannık:insan%>%{L%}ı%{k%} N1 ; ! ""
+karannık:karan%>%{L%}ı%{k%} N1 ; ! ""
+tamannık:taman%>%{L%}ı%{k%} N1 ; ! ""
+zenginnik:zengin%>%{L%}i%{k%} N1 ; ! ""
+
 işçi:işçi N1 ; ! ""
 işlik:işli%{k%} N1 ; ! ""
 istämeer:istämeer N1 ; ! ""
@@ -1037,7 +1051,6 @@ fakultet:fakultet N1 ; ! ""
 gorsovet:gorsovet N1 ; ! ""
 göz:göz N1 ; ! ""
 hayvan:hayvan N1 ; ! ""
-karannık:karannık N1 ; ! ""
 kompozitor:kompozitor N1 ; ! ""
 komunist:komunist N1 ; ! ""
 koordinator:koordinator N1 ; ! ""
@@ -1066,8 +1079,6 @@ yurtluk:yurtlu%{k%} N1 ; ! ""
 
 
 
-bakannık:bakannı%{k%} N1 ; ! ""
-başbakannık:başbakannı%{k%} N1 ; ! ""
 baş:baş N1 ; ! ""
 baal:baal N1 ; ! ""
 büü:büü N1 ;
@@ -1136,8 +1147,6 @@ baba:baba N1 ; ! ""
 baba:boba N1 ; 
 balık:balı%{k%} N1 ; ! ""
 başkan:başkan N1 ; ! ""
-başkannık:başkan%>%{L%}ı%{k%} N1 ; ! "" 
-!başkannık:başkanlı%{k%} N1 ; ! "" ! Err/Orth
 krallık:krallı%{k%} N1 ; ! ""
 krallık:kralı%{k%} N1 ; ! "" ! Err/Orth
 
@@ -1517,7 +1526,6 @@ zaman:zaman N1 ; ! ""
 ool:ool N1 ; ! "son"
 ortak:ortak N1 ; ! ""
 son:son N1 ;
-bakannık:bakannı%{k%} N1 ;
 aaç:aaç N1 ; !"tree"
 gagauz:gagauz N1 ; ! ""
 gregoryen:gregoryen N1 ; ! ""
@@ -1733,8 +1741,6 @@ pasport:pasport N1 ; ! ""
 peçenegler:peçenegler N1 ; ! ""
 
                                  
-azınlık:azınlı%{k%} N1 ; ! ""
-azınnık:azınnık N1 ; ! ""
 başlankı:başlankı N1 ; ! ""
 çay:çay N1 ; ! ""
 dışında:dışında N1 ; ! ""
@@ -1746,7 +1752,6 @@ iilik:iyili%{k%} N1 ; ! "" ! Err/Orth
 mutluluk:mutlulu%{k%} N1 ; ! ""
 kordinatorluk:kordinatorlu%{k%} N1 ; ! ""
 habercilik:habercili%{k%} N1 ; ! ""
-güvennik:güvenni%{k%} N1 ; ! ""
 
 kalä:kalä N1 ; ! ""
 kolaylık:kolaylı%{k%} N1 ; ! ""
@@ -1865,7 +1870,6 @@ pyesa:pyesa N1 ; ! ""
 saatlık:saatlı%{k%} N1 ; ! ""
 şansora:şansora N1 ; ! ""
 taligayı:taligayı N1 ; ! ""
-tamannık:tamannık N1 ; ! ""
 temel:temel N1 ; ! ""
 viţe:viţe N1 ; ! ""
 etnograf:etnograf N1 ; ! ""
@@ -2022,7 +2026,6 @@ aeroport:aeroport N1 ; ! ""
 annaşma:annaşma N1 ; ! ""
 asan:asan N1 ; ! ""
 aşk:aşk N1 ; ! ""
-aydınnık:aydınnık N1 ; ! ""
 aylık:aylı%{k%} N1 ; ! ""
 baskı:baskı N1 ; ! ""
 başkir:başkir N1 ; ! ""
@@ -2087,7 +2090,6 @@ bereket:bereket N1 ; ! ""
                                                          
 bilet:bilet N1 ; ! ""
 bilmeyce:bilmeycelär N1 ; ! ""
-binnik:binnik N1 ; ! ""
 borcunu:borcunu N1 ; ! ""
 çeçen:çeçen N1 ; ! ""
 ceza:ceza N1 ; ! ""
@@ -2152,7 +2154,6 @@ bez:bez N1 ; ! ""
 
 
                                  
-duşmannık:duşmannık N1 ; ! ""
 dinastia:dinastia N1 ; ! ""
 kolhozda:kolhozda N1 ; ! ""
 kuleyi:kuleyi N1 ; ! ""
@@ -2439,7 +2440,6 @@ zannat:zannat N1 ; ! ""
 zaza:zaza N1 ; ! ""
 zebillik:zebilli%{k%} N1 ; ! ""
 zeet:zeet N1 ; ! ""
-zenginnik:zenginnik N1 ; ! ""
 zere:zere N1 ; ! ""
 tepreme:tepreme N1 ;
 persenge:persenge N1 ; ! ""
@@ -2602,7 +2602,6 @@ düzüntülük:düzüntülü%{k%} N1 ; ! ""
 ekincilik:ekincili%{k%} N1 ; ! ""
 elçilik:elçili%{k%} N1 ; ! ""
 geroyluk:geroylu%{k%} N1 ; ! ""
-günnük:günnü%{k%} N1 ; ! ""
 irsızlık:irsızlı%{k%} N1 ; ! ""
 i̇şitmemezlik:i̇şitmemezli%{k%} N1 ; ! ""
 kayıllık:kayıllı%{k%} N1 ; ! ""
@@ -2643,6 +2642,8 @@ muniţipiya:muniţipiya N1 ; ! ""
 delegaţiya:delegaţiya N1 ; ! ""
 delegaţiya:delgaţiya N1 ; ! "" ! Err/Orth
 delegaţiya:delegaşiya N1 ; ! "" ! Err/Orth
+
+büükelçilik:büükelçili%{k%} N1 ; ! ""
 
 LEXICON ProperNouns 
 
