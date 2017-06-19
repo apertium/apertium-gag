@@ -7,6 +7,7 @@ Multichar_Symbols
 %<cop%>            ! Copula
 %<np%>             ! Proper noun
 %<abbr%>           ! Abbreviation
+%<ij%>             ! Interjections 
 %<adv%>            ! Adverb
 %<cnjcoo%>         ! Coordinating conjunction
 %<cnjsub%>
@@ -72,18 +73,25 @@ Multichar_Symbols
 
 ! Verb forms
 
+%<fut%>
+%<pres%>
+%<ifi%>
+
+%<aor%>
+%<nfh%>
+
 %<prog%>           ! Progressive [Loan from Turkish]
+
 %<gna_impf%>
 %<gna_perf%>
 %<gna_when%>
 %<gpr_fut%>
-%<fut%>
+
 
 
 %<sent%>           ! Sentence marker
 %<guio%>
 %<apos%>
-%<aor%>
 %<rquot%>
 %<rpar%>
 %<lpar%>
@@ -112,6 +120,7 @@ Multichar_Symbols
 %{T%}              ! t d 
 
 %{☭%}              ! Loan word phonology
+%{·%}              ! Block voicing
 
 %>
 %+
@@ -137,6 +146,7 @@ Determiners ;
 Conjunctions ;
 Postpositions ;
 Abbreviations ;
+Interjections ;
 Punctuation;
 Barbarisms ; ! Use/Circ
 
@@ -152,9 +162,9 @@ LEXICON V-PERS-S1
 %<p1%>%<pl%>:%>%{й%}%z # ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}r # ; 
-%<pl%>:%>%{L%}%{A%}r # ;
-%<ifi%>:%>%{й%}%{D%}%{I%} # ;
-%<cond%>:%>%{й%}s%{A%} # ;
+
+%<ifi%>:%>%{й%}%{D%}%{I%} V-PERS-S2 ;
+%<cond%>:%>%{й%}s%{A%} V-PERS-S2 ;
 
 LEXICON V-PERS-S2
 %<p1%>%<sg%>:%>%{i%}m # ; 
@@ -173,15 +183,15 @@ LEXICON V-PERS-FUT
 %<p3%>%<pl%>:%{e%}k%>%{L%}%{A%}r # ; 
 
 LEXICON V-PERS-AOR
-%<p1%>%<sg%>:%>%{i%}m # ; 
+%<p1%>%<sg%>:%>%{I%}m # ; 
 %<p2%>%<sg%>:%>s%{I%}n # ; 
 %<p3%>%<sg%>: # ;
 %<p1%>%<pl%>:%>%{I%}z # ; 
 %<p2%>%<pl%>:%>s%{I%}n%{I}z # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}r # ;
 
-%<ifi%>:%>%{й%}%{D%}%{I%} # ;
-%<nfh%>:%>%{й%}%m%{I%}ş # ;
+%<ifi%>:%>%{й%}%{D%}%{I%} V-PERS-S2 ;
+%<nfh%>:%>%{й%}m%{I%}ş V-PERS-S1 ;
 
 !LEXICON V-TENSE-ABIL
 !%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
@@ -191,11 +201,11 @@ LEXICON V-IMPER
 ! The imperative, "çok yaşa!", "sigara içmeyin!"
 %<imp%>%<p1%>%<sg%>:%>%{й%}%{A%}y%{I%}m # ;
 %<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
-%<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n # ;
+%<imp%>%<p3%>%<sg%>:%>s%{I%}n # ;
 %<imp%>%<p1%>%<pl%>:%>%{й%}%{A%}l%{I%}m # ;
-%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n{I%}z #;
-%<imp%>%<p3%>%<sg%>:%>%{s%}%{I%}n%>%{L%}%{A%}r # ;
+%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
+%<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n%{I%}z # ; ! Dir/LR
+%<imp%>%<p3%>%<pl%>:%>s%{I%}n%>%{L%}%{A%}r # ;
 
 
 
@@ -209,6 +219,7 @@ LEXICON V-FINITE-REGULAR_NEG
 %<nfh%>:%>m%{I%}ş V-PERS-S1 ;
 %<cond%>:%>s%{A%} V-PERS-S2 ;
 
+                         V-IMPER ;
 
 LEXICON GER-N-INFL-COMMON
 CASES ;
@@ -234,30 +245,31 @@ LEXICON V-GPR-SUBST
 
 
 LEXICON V-GPR
-%<gpr%>:%>%{й%}%{A%}n V-GPR-SUBST ;
-%<gpr_rsub%>:%>%{й%}%{A%}n # ;
+
+%<gpr_rsub%>:%>%{й%}%{A%}n V-GPR-SUBST ;
 %<gpr_fut%>:%>%{й%}%{A%}c%{a%}%{k%} POSSESSIVES ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
-%<gpr_past1%>:%>%{D%}%{I%}%{I%}yn{A%}n # ;
 %<gpr_past2%>:%>%{D%}%{I%}%{k%} POSSESSIVES ;
 %<neg%>%<gpr_past2%>:%>m%{A%}%>%{D%}%{I%}k POSSESSIVES ;
-%<gpr_aor%>:%>{A%}r #  ;
+%<gpr_aor%>:%>%{A%}r #  ;
 
 LEXICON V-GNA
 
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
-%<gna_perf%>:%>%{й%}%{I%}p # ;
-%<gna_when1%>:%>%{й}%{I%}nc%{A%}%{k%} # ;
 %<gna_ferq%>:%>%{A%} # ;
-%<gna_time1%>:%>%{D%}%{I%}kç{A%} # ;
-%<gna_time2%>:%>%{D%}%{I%}kt{A%}n # ;
+
+%<gna_when1%>:%>%{й}%{I%}nc%{A%}%{k%} # ;
 %<gna_when2%>:%>%{D%}%{I%}yn%{A%}n # ;
-%<gna_3%>:%>k%{A%}n%{A%} # ;
-%<gna%>%<gna%>:%>m%{A%}d%{A%}%{A%}n # ;
+
+%<gna_time1%>:%>%{D%}%{I%}kç%{A%} # ;
+%<gna_time2%>:%>%{D%}%{I%}kt%{A%}n # ;
+
+%<neg%>%<gna%>:%>m%{A%}d%{A%}%{A%}n # ;
+
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
+%<gna_3%>:%>k%{A%}n%{A%} # ;
 %<gna_2%>:%>%{A%}rs%{A%} # ;
-!%<gna%>%<neg%>:%>m{A%} V-PERS-AOR ;
 
 
 LEXICON V-NONFINITE
@@ -271,9 +283,14 @@ LEXICON V-COMMON
                          V-NONFINITE ;
                          V-FINITE-IRREG-NEG ;
 
-%<aor%>:%>%{E%}r         V-PERS-AOR ;
-%<aor%>:%>%{й%}%{E%}r    V-PERS-AOR ;             ! Err/Orth
-%<aor%>:%>%{E%}r         V-FINITE-REGULAR_NEG ;
+%<pres%>:%>%{E%}r        V-PERS-AOR ;
+%<pres%>:%>%{й%}%{E%}r   V-PERS-AOR ;              ! Err/Orth
+
+%<aor%>:%>%{A%}r         V-PERS-AOR ;
+%<aor%>:%>%{A%}r         V-FINITE-REGULAR_NEG ;
+
+%<aor%>:%>%{I%}r         V-PERS-AOR ;              ! Err/Orth
+%<aor%>:%>%{I%}r         V-FINITE-REGULAR_NEG ;    ! Err/Orth
 
 %<prog%>:%>%{A%}yor      V-PERS-S2 ; 
 %<prog%>:%>%{A%}yor      V-FINITE-REGULAR_NEG ;
@@ -301,10 +318,10 @@ LEXICON V-DER
                        V-ABIL ; 
 
 LEXICON V-IV 
-%<v%>%<iv%>: V-DER ; 
+%<v%>%<iv%>:%{·%} V-DER ; 
 
 LEXICON V-TV 
-%<v%>%<tv%>: V-DER ; 
+%<v%>%<tv%>:%{·%} V-DER ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!NOUN!!!!!!!
@@ -355,7 +372,7 @@ LEXICON COPULA-PERS-AOR
 
 
 %<p1%>%<sg%>:%>%{й%}%{I%}m COPULA-GENERAL ;
-%<p2%>%<sg%>:%>s%{I%}n COPULA-GENERAL ;
+%<p2%>%<sg%>:%>%{й%}s%{I%}n COPULA-GENERAL ;
 %<p3%>%<sg%>:             COPULA-GENERAL ;
 %<p1%>%<pl%>:%>%{й%}%{I}z  COPULA-GENERAL ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z COPULA-GENERAL ;
@@ -388,15 +405,16 @@ LEXICON CLITIC-COPULA
 %+i%<cop%>%<nfh%>:%>%{й%}m%{I%}ş COPULA-PERS-NFH ;
 %+i%<cop%>%<gna_cond%>:%>%{й%}s%{A%} V-PERS-S1 ;
 
+# ; 
+
 
 ! TODO: OTHER TENSES
 
 LEXICON CASES
-%<nom%>:  # ;
 %<nom%>: CLITIC-COPULA ;
 %<gen%>:%>%{N%}%{I%}n # ;
 %<loc%>:%>%{D%}%{A%} # ;
-%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
+%<loc%>:%>%{D%}%{A%}k%{I%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<abl%>:%>n%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;
@@ -414,7 +432,7 @@ LEXICON POSSESSIVES
 
 
 !LEXICON COPULA-MIS
-!%<nfh%>:%>%m{I%}ş # ;
+!%<nfh%>:%>%m%{I%}ş # ;
 
 LEXICON LI-POSTPOSITION
 
@@ -443,6 +461,7 @@ LEXICON PRON-PERS-BÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ändä # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ändäk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:ändan # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:änimnän  CLITIC-COPULA ; 
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enim # ;  ! Err/Orth
@@ -454,6 +473,7 @@ LEXICON PRON-PERS-BÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:endän # ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:enimnän CLITIC-COPULA ; ! Err/Orth 
 
 LEXICON PRON-PERS-SÄN
 
@@ -466,6 +486,8 @@ LEXICON PRON-PERS-SÄN
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ändäk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:ändan # ;
 
+%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:äninnän  CLITIC-COPULA ; 
+
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enin # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enink%{i%}%{n%} SUBST-ATTR ;  ! Err/Orth
@@ -476,12 +498,14 @@ LEXICON PRON-PERS-SÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;  ! Err/Orth
 
+%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:eninnän CLITIC-COPULA ; ! Err/Orth
+
 LEXICON PRON-PERS-O 
 
 %<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nun # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nunk%{I%}%{n%} SUBST-ATTR ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nunnan # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nunnan  CLITIC-COPULA ; 
 %<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:na # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nu # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
@@ -502,6 +526,7 @@ LEXICON PRON-PERS-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:dä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:däk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:dän # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:izimnän  CLITIC-COPULA ; 
 
 LEXICON PRON-PERS-SIZ
 
@@ -514,6 +539,8 @@ LEXICON PRON-PERS-SIZ
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:dä # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:däk%{I%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:dän # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:dän # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:innän  CLITIC-COPULA ; 
 
 
 LEXICON PRON-PERS-ONNAR
@@ -526,6 +553,7 @@ LEXICON PRON-PERS-ONNAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:da # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:dak%{I%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:dan # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:lan  CLITIC-COPULA ; 
 
 
 
@@ -537,7 +565,7 @@ LEXICON SUBST
 %<pl%>:%>%{L%}%{A%}r  POSSESSIVES ;
 
 !LEXICON GENERAL-POSSESSIVE-ETC
-!%<loc%>:%>%{D%}%{A%}k{I%} SUBST ;
+!%<loc%>:%>%{D%}%{A%}k%{I%} SUBST ;
 
 LEXICON N-COMPOUND-PX-COMMON
 
@@ -672,11 +700,9 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<pl%>:nnar CASES ;
 
 
-LEXICON PRON-ITG-INFL
+LEXICON PRON-IND
 
-%<prn%>%<itg%>: SUBST ;
-
-
+%<prn%>%<ind%>: SUBST ;
 
 LEXICON PRON-INTERR
 
@@ -735,6 +761,11 @@ LEXICON ABBR-INIT
 
 LEXICON POST
 %<post%>: # ;
+
+LEXICON INTERJ
+
+%<ij%>: # ;
+
 
 LEXICON BARB
 
@@ -828,12 +859,12 @@ kim:kim PRON-INTERR ;
 kendi:kendi PRON-REF ; ! "self"
 kendisi:kendisi PRON-REF ; ! "self"
 birisi:birisi PRON-QNT ; ! "somebody"
-hangı:hangı PRON-ITG-INFL ;
-hangı:hangi PRON-ITG-INFL ;
-neyi:neyi PRON-ITG-INFL ;
-kimisi:kimisi PRON-ITG-INFL ;
+hangı:hangı PRON-INTERR ;
+hangı:hangi PRON-INTERR ;
+neyi:neyi PRON-INTERR ;
+kimisi:kimisi PRON-INTERR ;
 hepsi:hepsi PRON-QNT  ;
-kimsey:kimsey PRON-ITG-INFL ;
+kimsey:kimsey PRON-INTERR ;
 
 ora:ora PRON-ADV ;
 ora:or PRON-ADV ;
@@ -846,6 +877,9 @@ o:o PRON-DEM-O ; ! ""
 öz:öz PRON-REF ; ! ""
 kendibaşı:kendibaşı PRON-REF ; ! "self" 
 
+bişey:bişey PRON-IND ; ! ""
+herkez:herkez PRON-IND ; ! ""
+herkez:herkes PRON-IND ; ! "" ! Err/Orth
 
 
 
@@ -977,6 +1011,8 @@ acızgannık:acızgan%>%{L%}ı%{k%} N1 ; ! ""
 
 nışannık:nışan%>%{L%}ı%{k%} N1 ; ! ""
 
+allahsızlık:allahsızlı%{k%} N1 ; ! ""
+şaatlık:şaatlı%{k%} N1 ; ! ""
 mezarlık:mezarlı%{k%} N1 ; ! ""
 gazetacılık:gazetacılı%{k%} N1 ; ! ""
 fıkaaralık:fıkaaralı%{k%} N1 ; ! ""
@@ -1702,7 +1738,6 @@ tipardan:tipardan N1 ; ! ""
 zakon:zakon N1 ; ! ""
 zebra:zebra N1 ; ! ""
 erte:erte N1 ; ! ""
-göktä:göktä N1 ; ! ""
 han:han N1 ; ! ""
 ilkyaz:ilkyaz N1 ; ! ""
 konkurs:konkurs N1 ; ! ""
@@ -2736,7 +2771,27 @@ burs:burs N1 ; ! ""
 tur:tur N1 ; ! ""
 gimn:gimn N1 ; ! ""
 sıracık:sıracık N1 ; ! ""
+ödek:ödek N1 ; ! ""
+ayoz:ayoz N1 ; ! "ангел"
+diveç:diveç N1 ; ! "век"
+iivergi:iivergi N1 ; ! ""
+gök:gök N1 ; ! "небо"
+prorok:prorok N1 ; ! ""
 
+kavga:kavga N1 ; ! ""
+idol:idol N1 ; ! ""
+tokat:tokat N1 ; ! ""
+psalma:psalma N1 ; ! ""
+çarşaf:çarşaf N1 ; ! ""
+sinagoga:sinagoga N1 ; ! ""
+apostol:apostol N1 ; ! ""
+günah:günah N1 ; ! ""
+
+inteligenşiya:inteligenşiya N1 ; ! ""
+inteligenţiya:inteligenţiya N1 ; ! ""
+orospuluk:orospulu%{k%} N1 ; ! ""
+
+metinnik:metin%>%{L%}i%{k%} N1 ; ! ""
 
 dışişleri:dışişler%>%{s%}%{I%}%{n%} N3 ; ! ""
 
@@ -2744,6 +2799,8 @@ LEXICON ProperNouns
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
+Laodikiya:Laodikiya NP-TOP ; ! ""
+İerapol:İerapol NP-TOP ; ! ""
 Kitay:Kitay NP-TOP ; ! ""
 Edirne:Edirne NP-TOP ; ! ""
 Kaul:Kaul NP-TOP ; ! ""
@@ -2880,7 +2937,6 @@ Metka:Metka NP-ANT-F ; ! ""
 Milena:Milena NP-ANT-F ; ! ""
 Mira:Mira NP-ANT-F ; ! ""
 Mitja:Mitja NP-ANT-F ; ! ""
-nä:nä NP-ANT-F ; ! ""
 Neeme:Neeme NP-ANT-F ; ! ""
 Nenä:Nenä NP-ANT-F ; ! ""
 Neža:Neža NP-ANT-F ; ! ""
@@ -2892,6 +2948,11 @@ Novi:Novi NP-ANT-F ; ! ""
 
 
 Matej:Matej NP-ANT-M ; ! ""
+Timofey:Timofey NP-ANT-M ; ! ""
+Aristarh:Aristarh NP-ANT-M ; ! ""
+Dimas:Dimas NP-ANT-M ; ! ""
+Moisey:Moisey NP-ANT-M ; ! ""
+Pavli:Pavli NP-ANT-M ; ! ""
 Mıhailo:Mıhailo NP-ANT-M ; ! ""
 Mihun:Mihun NP-ANT-M ; ! ""
 Mitropolitı:Mitropolitı NP-ANT-M ; ! ""
@@ -3114,12 +3175,12 @@ Hakasiya:Hakasiya NP-TOP ; ! ""
 İndoneziya:İndoneziya NP-TOP ; ! ""
 Kastilya:Kastilya NP-TOP ; ! ""
 İordaniya:İordaniya NP-TOP ; ! ""
+İerusalim:İerusalim NP-TOP ; ! ""
 İtaliya:İtaliya NP-TOP ; ! ""
 İnguşetiya:İnguşetiya NP-TOP ; ! ""
 Ingriya:Ingriya NP-TOP ; ! ""
 İnguşiya:İnguşiya NP-TOP ; ! ""
 İnovaţiya:İnovaţiya NP-TOP ; ! ""
-inteligenşiya:inteligenşiya NP-TOP ; ! ""
 Karayip:Karayip NP-TOP ; ! ""
 Kiliya:Kiliya NP-TOP ; ! ""
 Keçiya:Keçiya NP-TOP ; ! ""
@@ -5400,6 +5461,12 @@ merak:merak A1 ; ! ""
 miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
+borçlu:borçlu A1 ; ! ""
+
+allahsız:allahsız A2 ; ! ""
+inansız:inansız A2 ; ! ""
+kararsız:kararsız A2 ; ! ""
+akılsız:akılsız A2 ; ! ""
 topraksız:topraksız A2 ; ! ""
 raatsız:raatsız A2 ; ! ""
 vizasız:vizasız A1 ; ! ""
@@ -5407,6 +5474,18 @@ başarısız:başarısız A1 ; ! ""
 operaţiyasız:operaţiyasız A1 ; ! ""
 tarafsız:tarafsız A1 ; ! ""
 problemasız:problemasız A1 ; ! ""
+
+kusursuz:kusursuz A2 ; ! ""
+lekesiz:lekesiz A2 ; ! ""
+meyvasız:meyvasız A2 ; ! ""
+bilgisiz:bilgisiz A2 ; ! ""
+zakonsuz:zakonsuz A2 ; ! ""
+faydasız:faydasız A2 ; ! ""
+susuz:susuz A2 ; ! ""
+fikirsiz:fikirsiz A2 ; ! ""
+esapsız:esapsız A2 ; ! ""
+ölümsüz:ölümsüz A2 ; ! ""
+kedersiz:kedersiz A2 ; ! ""
 
 
 demokratik:demokratik A1 ; ! ""
@@ -6117,7 +6196,10 @@ ilerlet:ilerlet V-TV ; ! ""
 
 tamamna:tamamna V-IV ; ! ""
 karşla:karşla V-IV ; ! ""
+üreklendir:üreklendir V-TV ; ! "" Der/Caus
  
+öde:öde V-TV ; ! ""
+
 
 LEXICON Abbreviations
 
@@ -6267,6 +6349,10 @@ nın:nın ABBR ;
 nde:nde ABBR ;
 nın:nın ABBR ; ! ""
 
+LEXICON Interjections 
+
+
+amin:amin INTERJ ; 
 
 
 LEXICON Punctuation

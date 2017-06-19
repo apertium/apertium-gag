@@ -6,8 +6,8 @@ Alphabet
     і
 
     %{A%}:a %{A%}:ä  %{A%}:ê 
-    %{E%}:ê %{E%}:e %{E%}:y  %{E%}:i  %{E%}:u
-    %{I%}:i 
+    %{E%}:ê %{E%}:e 
+    %{I%}:ı %{I%}:i %{I%}:u %{I%}:ü
 
     %{i%}:i  %{i%}:0 ! %{i%}:u  !%{i%}:ı !%{i%}:ü 
     %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
@@ -31,6 +31,7 @@ Alphabet
     %{e%}:e
     %{u%}:u 
 
+    %{·%}:0 
     %{☭%}:0 
     %>:0
     %+ % 
@@ -119,7 +120,7 @@ Rules
 
 
 "{й}  become y when intervocalic"
-%{й%}:y <=> :Vowel %>: _ :Vowel ;
+%{й%}:y <=> :Vowel ([ :0 - [ %{k%}: | %{h%}: ] ]) %>: _ :Vowel ;
 
 "{s} become 0 when intervocalic"
 %{s%}:0 <=> [ ArchiCns: | Cns: ] %>: _ :Vowel ;
@@ -150,7 +151,7 @@ Vx:a <=> _ [ %{h%}:0 | %{k%}:0 ] %>: %{й%}: %{A%}:  ;
 %{D%}:t <=> :CnsVcls %>: _ ; 
 
 "{T} change to d before vowels "
-%{T%}:d  <=>  _  %>: (:0) :Vowel  ; 
+%{T%}:d  <=>  _ (:0) %>: (:0) :Vowel  ; 
  
 !@ g:g i:i {T}:d >:0 {й}:0 {a}:e c:c {A}:ä >:0 m:m
 
@@ -158,6 +159,7 @@ Vx:a <=> _ [ %{h%}:0 | %{k%}:0 ] %>: %{й%}: %{A%}:  ;
 Cx:Cy <=> :Vowel/:0* _ %>: :Vowel/:0* ;
       except
                      _ %{☭%}: %>: ; 
+                     _ %{·%}: %>: ; 
       where Cx in ( p t )
             Cy in ( b d )
       matched ;
