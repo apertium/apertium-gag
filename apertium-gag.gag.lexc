@@ -346,7 +346,7 @@ LEXICON PLURAL
 %<pl%>:%>%{L%}%{A%}r CASES ;
 %<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
-LEXICON NP1-ORG
+LEXICON NP-ORG
 %<np%>%<org%>%<nom%>: # ;
 %<np%>%<org%>: # ; !!N-INFL-COMMON-NONOM ;
 %<np%>%<org%>%<attr%>: # ;
@@ -584,11 +584,14 @@ LEXICON N2
 %<n%>: N-COMPOUND-PX-COMMON ;
 %<n%>%<pl%>:%>%{L%}%{A%}r%>%{s%}%{I%}%{n%} CASES ;
 
+LEXICON N3 
+
+%<n%>%<pl%>: CASES ; 
+
 LEXICON N5
 
 %<n%>%<attr%>: # ;
 %<n%>:%{☭%} FULL-NOMINAL-INFLECTION ; 
-
 
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
@@ -957,6 +960,7 @@ iç:iç N1 ; ! ""
 ileri:ileri N1 ; ! ""
 karşı:karşı N1 ; ! ""
 ön:ön N1 ; ! ""
+yakın:yakın N1 ; ! ""
 
 
 
@@ -990,18 +994,20 @@ bütünnük:bütün%>%{L%}ü%{k%} N1 ; ! ""
 
 hayvanliktan:hayvan%>%{L%}ı%{k%} N1 ; ! ""
 hayvanliktan:hayvan%>%{L%}i%{k%} N1 ; ! "" ! Err/Orth
+acızgannık:acızgan%>%{L%}ı%{k%} N1 ; ! ""
+şennık:şen%>%{L%}ı%{k%} N1 ; ! ""
 
 nışannık:nışan%>%{L%}ı%{k%} N1 ; ! ""
 
-mezarlık:mezarlık N1 ; ! ""
-gazetacılık:gazetacılık N1 ; ! ""
-fıkaaralık:fıkaaralık N1 ; ! ""
-komuşuluk:komuşuluk N1 ; ! ""
-musaafirlik:musaafirlik N1 ; ! ""
-ustalık:ustalık N1 ; ! ""
-uzaklık:uzaklık N1 ; ! ""
-yabancılık:yabancılık N1 ; ! ""
-ihtiyarlık:ihtiyarlık N1 ; ! ""
+mezarlık:mezarlı%{k%} N1 ; ! ""
+gazetacılık:gazetacılı%{k%} N1 ; ! ""
+fıkaaralık:fıkaaralı%{k%} N1 ; ! ""
+komuşuluk:komuşulu%{k%} N1 ; ! ""
+musaafirlik:musaafirli%{k%} N1 ; ! ""
+ustalık:ustalı%{k%} N1 ; ! ""
+uzaklık:uzaklı%{k%} N1 ; ! ""
+yabancılık:yabancılı%{k%} N1 ; ! ""
+ihtiyarlık:ihtiyarlı%{k%} N1 ; ! ""
 
 elektrotehnika:elektrotehnika N1 ; ! ""
 kollektiv:kollektiv N1 ; ! ""
@@ -1099,6 +1105,7 @@ rejissor:rejissor N1 ; ! ""
 resimci:resimci N1 ; ! ""
 tekst:tekst N1 ; ! ""
 türkçä:türkçä N1 ; ! ""
+türkçä:türkçe N1 ; ! "" ! Err/Orth
 umut:umut N1 ; ! ""
 vakit:vakit N1 ; ! ""
 yurtluk:yurtlu%{k%} N1 ; ! ""
@@ -1127,7 +1134,6 @@ cuvap:cuvap N1 ;
 dil:dil N1 ; ! "язык"
 dil:til N1 ;
 demografiya:demografiya N1 ; ! ""
-dünnää:dünnää N1 ; ! ""
 doğum:doğum N1 ;
 dev:dev N1 ;
 evraziya:evraziya N1 ; 
@@ -1209,7 +1215,10 @@ dezinformaţiya:dezinformaţiya N1 ;
 dramaturgiya:dramaturgiya N1 ;
 dönmää:dönmää N1 ; ! ""
 
+dünnää:dünnää N1 ; ! ""
 dünnä:dünnä N1 ; ! ""
+dünnä:dünä N1 ; ! "" ! Err/Orth
+
 dolayında:dolayında N1 ; ! ""
 dışarı:dışarı N1 ; ! ""
 diskriminaţiya:diskriminaţiya N1 ;
@@ -1640,7 +1649,7 @@ dünnedä:dünnedä N1 ; ! ""
 esaba:esaba N1 ; ! 
 çalışma:çalışma N1 ; ! ""
 havezlän:havezlän N1 ; ! ""
-imeklär:imeklär N1 ; ! ""
+imek:imek N1 ; ! ""
 kaplan:kaplan N1 ; ! ""
 lafedeer:lafedeer N1 ; ! ""
 iyül:iyül N1 ; ! ""
@@ -2134,7 +2143,7 @@ evlad:evlad N1 ; ! ""
 fasıl:fasıl N1 ; ! ""
 fidan:fidan N1 ; ! ""
 fıkra:fıkra N1 ; ! ""
-fillär:fillär N1 ; ! ""
+fil:fil N1 ; ! ""
 fondu:fondu N1 ; ! ""
 forma:forma N1 ; ! ""
 Galata:Galata N1 ; ! ""
@@ -2154,6 +2163,7 @@ meropriyatiye:meropriyatiye N1 ; ! ""
 mezar:mezar N1 ; ! ""
 minudun:minudun N1 ; ! ""
 minut:minut N1 ; ! ""
+miting:miting N5 ; ! ""
 mitingçi:mitingçi N1 ; ! ""
 argument:argument N1 ; ! ""
 asambleya:asambleya N1 ; ! ""
@@ -2162,7 +2172,7 @@ astronotları:astronotları N1 ; ! ""
 asya:asya N1 ; ! ""
 ateşlik:ateşli%{k%} N1 ; ! ""
 atletizm:atletizm N1 ; ! ""
-atletlär:atletlär N1 ; ! ""
+atlet:atlet N1 ; ! ""
 avuç:avuç N1 ; ! ""
 aylak:aylak N1 ; ! ""
 bakanık:bakanık N1 ; ! ""
@@ -2400,7 +2410,7 @@ kulak:kulak N1 ; ! ""
 kurucu:kurucu N1 ; ! ""
 laam:laam N1 ; ! ""
 lazari:lazari N1 ; ! ""
-leleklär:leleklär N1 ; ! ""
+lelek:lelek N1 ; ! ""
 leo:leo  N1 ; ! ""
 Kadın:kadın N1 ; ! ""
 
@@ -2658,6 +2668,8 @@ hepsicii:hepsicii N1 ; ! ""
 işbirlii:işbirlii N1 ;
 peynir:peynir N1 ; ! ""
 
+beceriklik:becerikli%{k%} N1 ; ! ""
+
 meropriyatiya:meropriyatiya N1 ; ! ""
 represiya:represiya N1 ; ! ""
 realiya:realiya N1 ; ! ""
@@ -2670,12 +2682,86 @@ delegaţiya:delgaţiya N1 ; ! "" ! Err/Orth
 delegaţiya:delegaşiya N1 ; ! "" ! Err/Orth
 
 büükelçilik:büükelçili%{k%} N1 ; ! ""
+mini%-futbol:mini%-futbol N1 ; ! ""
+
+slujba:slujba N1 ; ! ""
+liga:liga N1 ; ! ""
+juridika:juridika N1 ; ! ""
+santehnika:santehnika N1 ; ! ""
+praktika:praktika N1 ; ! ""
+sţena:sţena N1 ; ! ""
+infrastruktura:infrastruktura N1 ; ! ""
+bolniţa:bolniţa N1 ; ! ""
+distrofiya:distrofiya N1 ; ! ""
+kategoriya:kategoriya N1 ; ! ""
+integraţiya:integraţiya N1 ; ! ""
+integraţiya:intergraţiya N1 ; ! "" ! Err/Orth
+demokratiya:demokratiya N1 ; ! ""
+sonuç:sonuç N1 ; ! ""
+genoţid:genoţid N1 ; ! ""
+miting:miting N1 ; ! ""
+pedagog:pedagog N1 ; ! ""
+dialog:dialog N1 ; ! ""
+dramaturg:dramaturg N1 ; ! ""
+bibliotekacı:bibliotekacı N1 ; ! ""
+üürenici:üürenici N1 ; ! ""
+çevirici:çevirici N1 ; ! ""
+spektakli:spektakli N1 ; ! ""
+kiyatçık:kiyatçık N1 ; ! ""
+tamojnik:tamojnik N1 ; ! ""
+park:park N1 ; ! ""
+final:final N1 ; ! ""
+annadıl:annadıl N1 ; ! ""
+spektakl:spektakl N5 ; ! ""
+voleybol:voleybol N1 ; ! ""
+devrim:devrim N1 ; ! ""
+albom:albom N1 ; ! ""
+forum:forum N1 ; ! ""
+dekan:dekan N1 ; ! ""
+veteran:veteran N1 ; ! ""
+sportsmen:sportsmen N1 ; ! ""
+stadion:stadion N1 ; ! ""
+video:video N1 ; ! ""
+audio:audio N1 ; ! ""
+maestro:maestro N1 ; ! ""
+euro:euro N1 ; ! ""
+tertip:tertip N1 ; ! ""
+kaar:kaar N1 ; ! ""
+nomer:nomer N1 ; ! ""
+trener:trener N1 ; ! ""
+master:master N1 ; ! ""
+rejisör:rejisör N1 ; ! ""
+sponsor:sponsor N1 ; ! ""
+editor:editor N1 ; ! ""
+güneş:güneş N1 ; ! ""
+biznes:biznes N1 ; ! ""
+eş:eş N1 ; ! ""
+ofis:ofis N1 ; ! ""
+tenis:tenis N1 ; ! ""
+jivopis:jivopis N1 ; ! ""
+raat:raat N1 ; ! ""
+demokrat:demokrat N1 ; ! ""
+edebiyat:edebiyat N1 ; ! ""
+internet:internet N1 ; ! ""
+patret:patret N1 ; ! ""
+korespondent:korespondent N1 ; ! ""
+terorist:terorist N1 ; ! ""
+yolcu:yolcu N1 ; ! ""
+arhiv:arhiv N1 ; ! ""
+kirgiz:kirgiz N1 ; ! ""
+nevruz:nevruz N1 ; ! ""
+
+
+dışişleri:dışişler%>%{s%}%{I%}%{n%} N3 ; ! ""
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
 Kitay:Kitay NP-TOP ; ! ""
+Edirne:Edirne NP-TOP ; ! ""
+Kaul:Kaul NP-TOP ; ! ""
+Marı:Marı NP-TOP ; ! ""
 Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
 
@@ -2725,9 +2811,11 @@ Boliviya:Boliviya NP-TOP ; ! ""
 Besarabiya:Besarabiya NP-TOP ;! ""
 Başkiriya:Başkiriya NP-TOP ;! ""
 Başkırdistan:Başkırdistan NP-TOP ; ! ""
-Başkırdistan:Başkurdistan NP-TOP ; ! "" ! Dir/LR
-Başkırdistan:Başkortostan NP-TOP ; ! "" ! Dir/LR
+Başkırdistan:Başkurdistan NP-TOP ; ! "" ! Err/Orth
+Başkırdistan:Başkortostan NP-TOP ; ! "" ! Err/Orth
+Başkırdistan:Başkurtistan NP-TOP ; ! "" ! Err/Orth
 Belarus:Belarus NP-TOP ;! ""
+Uzbekistan:Uzbekistan NP-TOP ; ! ""
 Adana:Adana NP-TOP ;! ""
 Nemtä:Nemtä NP-TOP ;! ""
 Afganistan:Afganistan NP-TOP ; ! ""
@@ -3111,7 +3199,7 @@ Berane:Berane NP-TOP ; ! ""
 Bengali:Bengali NP-TOP ; ! ""
 Pachuca:Pachuca NP-TOP ; ! ""
 Palu:Palu NP-TOP ; ! ""
-Pedro:Pedro NP-TOP ; ! ""
+Pedro:Pedro NP-ANT-M ; ! ""
 
 Moskova:Moskova NP-TOP ; ! ""
 Madeira:Madeira NP-TOP ; ! ""
@@ -3121,7 +3209,7 @@ Mazari:Mazari NP-TOP ; ! "";
 Mérida:Mérida NP-TOP ; ! ""
 Minh:Minh NP-TOP ; ! ""
 Montevideo:Montevideo NP-TOP ; ! ""
-Mordvinler:Mordvinler NP-TOP ; ! ""
+mordvin:mordvin N1 ; ! ""
 Murmansk:Murmansk NP-TOP ; ! ""
 Nevada:Nevada NP-TOP ; ! ""
 
@@ -4144,6 +4232,41 @@ Turla:Turla NP-TOP ; ! "" !
 Ulcinj:Ulcinj NP-TOP ; ! "" !
 Ungeni:Ungeni NP-TOP ; ! "" !
 
+İurie:İurie NP-ANT-M ; ! ""
+Abdullah:Abdullah NP-ANT-M ; ! ""
+Meclisi:Meclisi NP-ANT-M ; ! ""
+Hulusi:Hulusi NP-ANT-M ; ! ""
+Gavriil:Gavriil NP-ANT-M ; ! ""
+Cemil:Cemil NP-ANT-M ; ! ""
+Cem:Cem NP-ANT-M ; ! ""
+Maksim:Maksim NP-ANT-M ; ! ""
+İordan:İordan NP-ANT-M ; ! ""
+Andrian:Andrian NP-ANT-M ; ! ""
+Cankan:Cankan NP-ANT-M ; ! ""
+Canan:Canan NP-ANT-M ; ! ""
+Demyan:Demyan NP-ANT-M ; ! ""
+Hüseyin:Hüseyin NP-ANT-M ; ! ""
+Haldun:Haldun NP-ANT-M ; ! ""
+László:László NP-ANT-M ; ! ""
+Kantemir:Kantemir NP-ANT-M ; ! ""
+Omor:Omor NP-ANT-M ; ! ""
+Farit:Farit NP-ANT-M ; ! ""
+Mevlüt:Mevlüt NP-ANT-M ; ! ""
+Väçeslav:Väçeslav NP-ANT-M ; ! ""
+Aleksey:Aleksey NP-ANT-M ; ! ""
+
+Nadejda:Nadejda NP-ANT-F ; ! ""
+Natalia:Natalia NP-ANT-F ; ! ""
+Monika:Monika NP-ANT-F ; ! ""
+Lena:Lena NP-ANT-F ; ! ""
+Alöna:Alöna NP-ANT-F ; ! ""
+Olesä:Olesä NP-ANT-F ; ! ""
+Sofya:Sofya NP-ANT-F ; ! ""
+Evdokiya:Evdokiya NP-ANT-F ; ! ""
+Nataliya:Nataliya NP-ANT-F ; ! ""
+Anastasiya:Anastasiya NP-ANT-F ; ! ""
+
+
 Yeniçiftlik:Yeniçiftli%{k%} NP-TOP ; ! ""
 
 
@@ -4154,7 +4277,7 @@ Yeniçiftlik:Yeniçiftli%{k%} NP-TOP ; ! ""
 !Fildişi% Kumsalı:Fildişi% Kumsalı NP-TOP ; ! "" ! 
 !Madeira% adaları:Madeira% adaları NP-TOP ; ! "" ! 
 
-
+Sankt%-Peterburg:Sankt%-Peterburg NP-TOP ; ! ""
 
 
 Evrovideniye:Evrovideniye NP-AL ; ! ""
@@ -4165,34 +4288,88 @@ Vikipediya:Vikipediya NP-AL ;
 Allah:Allah NP-AL ; ! ""
 Hristoz:Hristoz NP-AL ; ! ""
 Hristos:Hristos NP-AL ; ! ""
+Türkvizion:Türkvizion NP-AL ; ! ""
+Türkvizion:Türkvizyon NP-AL ; ! "" ! Dir/LR
 
-FETÖ:FETÖ NP1-ORG ; ! ""
-RMF:RMF NP1-ORG ;
-SP:SP NP1-ORG ;
-TİKA:TİKA NP1-ORG ;
-GHT:GHT  NP1-ORG ;
-SSCB:SSCB NP1-ORG ;
-ÜS:ÜS NP1-ORG ;
-GRT:GRT NP1-ORG ;
-GR:GR NP1-ORG ;
-KDU:KDU NP1-ORG ;
-MR:MR NP1-ORG ;
-SSR:SSR NP1-ORG ;
-SSRB:SSRB NP1-ORG ;
-UNEC:UNEC NP1-ORG ;
-ÜNESKO:ÜNESKO NP1-ORG ;
-TOBB:TOBB NP1-ORG ;
-ATO:ATO NP1-ORG ;                 
-TÜRKSOY:TÜRKSOY NP1-ORG ;
-SSC:SSC NP1-ORG ;
-OBSE:OBSE NP1-ORG ;
-AO:AO  NP1-ORG ;
-ATB:ATB NP1-ORG ;
+RF:RF NP-ORG ; ! ""
+SSC:SSC NP-ORG ;
+SSCB:SSCB NP-ORG ;
+
+GHT:GHT NP-ORG ; ! ""
+GRT:GRT NP-ORG ; ! ""
+KKTC:KKTC NP-ORG ; ! ""
+FETÖ:FETÖ NP-ORG ; ! ""
+RMF:RMF NP-ORG ;
+SP:SP NP-ORG ;
+TİKA:TİKA NP-ORG ;
+GHT:GHT  NP-ORG ;
+ÜS:ÜS NP-ORG ;
+GRT:GRT NP-ORG ;
+GR:GR NP-ORG ;
+KDU:KDU NP-ORG ;
+MR:MR NP-ORG ;
+SSR:SSR NP-ORG ;
+SSRB:SSRB NP-ORG ;
+UNEC:UNEC NP-ORG ;
+ÜNESKO:ÜNESKO NP-ORG ;
+UNESCO:UNESCO NP-ORG ;
+TOBB:TOBB NP-ORG ;
+ATO:ATO NP-ORG ;                 
+TÜRKSOY:TÜRKSOY NP-ORG ;
+OBSE:OBSE NP-ORG ;
+AO:AO  NP-ORG ;
+ATB:ATB NP-ORG ;
 
 
 
 
 LEXICON Cognomena
+
+Leanka:Leanka NP-COG-MF ; ! ""
+Kolsa:Kolsa NP-COG-MF ; ! ""
+Kissa:Kissa NP-COG-MF ; ! ""
+Zahari̇ya:Zahari̇ya NP-COG-MF ; ! ""
+Georgieviç:Georgieviç NP-COG-MF ; ! ""
+Afanasiyeviç:Afanasiyeviç NP-COG-MF ; ! ""
+Petkovi̇ç:Petkovi̇ç NP-COG-MF ; ! ""
+Sultanoviç:Sultanoviç NP-COG-MF ; ! ""
+Ormanci:Ormanci NP-COG-MF ; ! ""
+Garbali:Garbali NP-COG-MF ; ! ""
+Kapakli:Kapakli NP-COG-MF ; ! ""
+Karaseni̇:Karaseni̇ NP-COG-MF ; ! ""
+Ti̇mofti̇:Ti̇mofti̇ NP-COG-MF ; ! ""
+Torlak:Torlak NP-COG-MF ; ! ""
+Babuk:Babuk NP-COG-MF ; ! ""
+İvançuk:İvançuk NP-COG-MF ; ! ""
+Kartal:Kartal NP-COG-MF ; ! ""
+Çeban:Çeban NP-COG-MF ; ! ""
+Tukan:Tukan NP-COG-MF ; ! ""
+Alpaslan:Alpaslan NP-COG-MF ; ! ""
+Sukman:Sukman NP-COG-MF ; ! ""
+German:German NP-COG-MF ; ! ""
+Korman:Korman NP-COG-MF ; ! ""
+Goti̇şan:Goti̇şan NP-COG-MF ; ! ""
+Draguşan:Draguşan NP-COG-MF ; ! ""
+Gari̇zan:Gari̇zan NP-COG-MF ; ! ""
+Muhametşi̇n:Muhametşi̇n NP-COG-MF ; ! ""
+Puti̇n:Puti̇n NP-COG-MF ; ! ""
+Dodon:Dodon NP-COG-MF ; ! ""
+Nedälko:Nedälko NP-COG-MF ; ! ""
+Taner:Taner NP-COG-MF ; ! ""
+Yasibaş:Yasibaş NP-COG-MF ; ! ""
+Keleş:Keleş NP-COG-MF ; ! ""
+Karami̇t:Karami̇t NP-COG-MF ; ! ""
+Sirbu:Sirbu NP-COG-MF ; ! ""
+Mokanu:Mokanu NP-COG-MF ; ! ""
+Todi̇ev:Todi̇ev NP-COG-MF ; ! ""
+Ari̇kov:Ari̇kov NP-COG-OV ; ! ""
+Duşkov:Duşkov NP-COG-OV ; ! ""
+Mi̇haylov:Mi̇haylov NP-COG-OV ; ! ""
+Kasei̇nov:Kasei̇nov NP-COG-OV ; ! ""
+Şveţov:Şveţov NP-COG-OV ; ! ""
+Tarnavski̇y:Tarnavsk NP-COG-SKIJ ; ! ""
+Baranovskiy:Baranovsk NP-COG-SKIJ ; ! ""
+
 
 Hein:Hein NP-COG-MF ; ! ""
 Helena:Helena NP-COG-MF ; ! ""
@@ -4653,7 +4830,7 @@ Tommingas:Tommingas NP-COG-MF ; ! ""
 Tomson:Tomson NP-COG-MF ; ! ""
 Toomla:Toomla NP-COG-MF ; ! ""
 Toona:Toona NP-COG-MF ; ! ""
-TOPÇU:TOPÇU NP-COG-MF ; ! ""
+Topçu:Topçu NP-COG-MF ; ! ""
 Trang:Trang NP-COG-MF ; ! ""
 Trei:Trei NP-COG-MF ; ! ""
 Trink:Trink NP-COG-MF ; ! ""
@@ -5256,6 +5433,13 @@ uşaksız:uşaksız A1 ;
 yazısız:yazısız A1 ;
 ansız:ansız A1 ;
 
+bütündünnä:bütündünnä A1 ; ! ""
+kapalı:kapalı A1 ; ! ""
+başarılı:başarılı A1 ; ! ""
+karşılıklı:karşılıklı A1 ; ! ""
+güçlü:güçlü A1 ; ! ""
+küülü:küülü A1 ; ! ""
+
 
 LEXICON Adverbs
 
@@ -5645,6 +5829,11 @@ lafet:lafe%{T%} V-IV ;
 zeedele:zeedele V-TV ; ! ""
 zeedelet:zeedelet V-TV ; ! ""
 
+doorut:doorut V-TV ; ! ""
+ilerlet:ilerlet V-TV ; ! ""
+
+tamamna:tamamna V-IV ; ! ""
+karşla:karşla V-IV ; ! ""
  
 
 LEXICON Abbreviations
