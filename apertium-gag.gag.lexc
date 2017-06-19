@@ -2651,6 +2651,21 @@ Kitay:Kitay NP-TOP ; ! ""
 Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
 
+Yeşilköy:Yeşilköy NP-TOP ; ! ""
+Yerköy:Yerköy NP-TOP ; ! ""
+Yeniceköy:Yeniceköy NP-TOP ; ! ""
+Sultanköy:Sultanköy NP-TOP ; ! ""
+Şarköy:Şarköy NP-TOP ; ! ""
+Sarayköy:Sarayköy NP-TOP ; ! ""
+Ortaköy:Ortaköy NP-TOP ; ! ""
+Obaköy:Obaköy NP-TOP ; ! ""
+Küçükköy:Küçükköy NP-TOP ; ! ""
+Hasköy:Hasköy NP-TOP ; ! ""
+Gümüşhacıköy:Gümüşhacıköy NP-TOP ; ! ""
+Gölköy:Gölköy NP-TOP ; ! ""
+Çiftlikköy:Çiftlikköy NP-TOP ; ! ""
+
+
 Alaşehir:Alaşehir NP-TOP ; ! ""
 Doanşehir:Doanşehir NP-TOP ; ! ""
 Eskişehir:Eskişehir NP-TOP ; ! ""
@@ -4111,6 +4126,7 @@ Yeniçiftlik:Yeniçiftli%{k%} NP-TOP ; ! ""
 
 
 
+Evrovideniye:Evrovideniye NP-AL ; ! ""
 Expo:Expo NP-AL ; ! ""
 Mold%-Expo:Mold%-Expo NP-AL ; ! ""
 Mold%-Ekspo:Mold%-Ekspo NP-AL ; ! ""
