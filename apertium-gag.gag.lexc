@@ -592,11 +592,11 @@ LEXICON N5
 
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
-%<np%>%<top%>:%' FULL-NOMINAL-INFLECTION  ; ! Dir/LR
+%<np%>%<top%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
 
 LEXICON NP-AL
 %<np%>%<al%>: FULL-NOMINAL-INFLECTION  ;
-%<np%>%<al%>:%' FULL-NOMINAL-INFLECTION  ; ! Dir/LR
+%<np%>%<al%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
 
 
 LEXICON NUM 
@@ -969,6 +969,7 @@ yarış:yarış N1 ; ! ""
 
 injiner:injiner N1 ; ! ""
 inşa:inşa N1 ; ! ""
+başbakan:başbakan N1 ; ! ""
 
 aydınnık:aydın%>%{L%}ı%{k%} N1 ; ! ""
 azınnık:azın%>%{L%}ı%{k%} N1 ; ! ""
@@ -983,6 +984,31 @@ insannık:insan%>%{L%}ı%{k%} N1 ; ! ""
 karannık:karan%>%{L%}ı%{k%} N1 ; ! ""
 tamannık:taman%>%{L%}ı%{k%} N1 ; ! ""
 zenginnik:zengin%>%{L%}i%{k%} N1 ; ! ""
+yorgunnuk:yorgun%>%{L%}u%{k%} N1 ; ! ""
+tuyannık:tuyan%>%{L%}ı%{k%} N1 ; ! ""
+bütünnük:bütün%>%{L%}ü%{k%} N1 ; ! ""
+
+hayvanliktan:hayvan%>%{L%}ı%{k%} N1 ; ! ""
+hayvanliktan:hayvan%>%{L%}i%{k%} N1 ; ! "" ! Err/Orth
+
+nışannık:nışan%>%{L%}ı%{k%} N1 ; ! ""
+
+mezarlık:mezarlık N1 ; ! ""
+gazetacılık:gazetacılık N1 ; ! ""
+fıkaaralık:fıkaaralık N1 ; ! ""
+komuşuluk:komuşuluk N1 ; ! ""
+musaafirlik:musaafirlik N1 ; ! ""
+ustalık:ustalık N1 ; ! ""
+uzaklık:uzaklık N1 ; ! ""
+yabancılık:yabancılık N1 ; ! ""
+ihtiyarlık:ihtiyarlık N1 ; ! ""
+
+elektrotehnika:elektrotehnika N1 ; ! ""
+kollektiv:kollektiv N1 ; ! ""
+elektrika:elektrika N1 ; ! ""
+dialekt:dialekt N1 ; ! ""
+nektar:nektar N1 ; ! ""
+êlektorat:êlektorat N1 ; ! ""
 
 işçi:işçi N1 ; ! ""
 işlik:işli%{k%} N1 ; ! ""
@@ -1753,6 +1779,7 @@ mutluluk:mutlulu%{k%} N1 ; ! ""
 kordinatorluk:kordinatorlu%{k%} N1 ; ! ""
 habercilik:habercili%{k%} N1 ; ! ""
 
+kordinator:kordinator N1 ; ! ""
 kalä:kalä N1 ; ! ""
 kolaylık:kolaylı%{k%} N1 ; ! ""
 kongres:kongres N1 ; ! ""
@@ -1970,7 +1997,6 @@ azerbaycan:azerbaycan N1 ; ! ""
 kişilik:kişili%{k%} N1 ; ! ""
 kış:kış N1 ; ! ""
 kısmet:kısmet  N1 ; ! ""
-sovetskaya:sovetskaya N1 ; ! ""
 öğrenci:öğrenci N1 ; ! ""
 raport:raport N1 ; ! ""
 ruus:ruus N1 ; ! ""
@@ -3024,9 +3050,12 @@ Kiliya:Kiliya NP-TOP ; ! ""
 Keçiya:Keçiya NP-TOP ; ! ""
 Keniya:Keniya NP-TOP ; ! ""
 Kazakliya:Kazakliya NP-TOP ; ! ""
-Kazahstan:Kazahstan NP-TOP ; ! ""
-Kazahstan:Qazaqstan NP-TOP ; ! "" ! Dir/LR
-Kazahstan:Kazakhstan NP-TOP ; ! "" ! Dir/LR
+
+Kazakistan:Kazakistan NP-TOP ; ! ""
+Kazakistan:Kazahstan NP-TOP ; ! "" ! Err/Orth
+Kazakistan:Qazaqstan NP-TOP ; ! "" ! Err/Orth
+Kazakistan:Kazakhstan NP-TOP ; ! "" ! Err/Orth
+
 Karaçaevo:Karaçaevo NP-TOP ; ! ""
 Atlas:Atlas NP-TOP ; ! "" ; ! ""
 Balkan:Balkan NP-TOP ; ! ""; ! ""
@@ -4910,6 +4939,9 @@ motivi:motivi A1 ; ! ""
 topraksız:topraksız A2 ; ! ""
 
 demokratik:demokratik A1 ; ! ""
+
+sovetskaya:sovetskaya A1 ; ! ""
+kolektıvnaya:kolektıvnaya A1 ; ! ""
 
 haşlak:haşlak A1 ; ! ""
 hodul:hodul A1 ; ! ""
