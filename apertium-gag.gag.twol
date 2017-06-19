@@ -73,6 +73,13 @@ Rules
 !!                      V O W E L · H A R M O N Y 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+"Vowel harmony for archiphoneme {E}"
+%{E%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
+            Vx: %{·%}: %>: _ ; 
+    where Vx in ( a â ä e ê o ö u ü ı i і )
+          Vy in ( ê ê e e ê ê e ê e ê e e )
+    matched ;
+
 "Vowel harmony for archiphoneme {I}"
 %{I%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
     except
@@ -168,6 +175,14 @@ Cx:Cy <=> :Vowel/:0* _ %>: :Vowel/:0* ;
 %{к%}:g <=> n _ %>: :Vowel/:0* ; 
 
 !@ c:c e:e n:n {к}:g >:0 {й}:0 {A}:ä
+
+"Vowel assimilation in the present"
+Vx:Vy <=> _ %{·%}: %>: %{E%}:Vy ;
+      where Vx in ( ä a ) 
+            Vy in ( e ê ) 
+      matched ;
+
+!@ y:y o:o l:l l:l a:ê {·}:0 >:0 {E}:ê r:r >:0 {I}:ı m:m
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!                   M O R P H O L O G Y 

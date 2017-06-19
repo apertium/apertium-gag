@@ -235,7 +235,7 @@ LEXICON V-GER
 %<ger_abst%>:%>%{й%}{I%}ş GER-SUBST ;
 %<ger_nfh%>:%>m%{I%}ş GER-SUBST  ;
 
-%<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
+!%<ger%>%<neg%>:%>m%{A%} GER-SUBST  ;
 
 
 
@@ -313,7 +313,7 @@ LEXICON V-ABIL
 LEXICON V-DER
 %<coop%>:%>%{I%}ş      V-ABIL ;
 %<pass%>:%>%{i%}%{L%}  V-ABIL ;      ! No pass with IV ? 
-%<caus%>:%>%{D%}%{I%}r V-ABIL ;
+%<caus%>:%>%{D%}%{I%}r V-ABIL ;      ! Fix this, -t/-DIr !!!! 
 
                        V-ABIL ; 
 
@@ -414,13 +414,13 @@ LEXICON CASES
 %<nom%>: CLITIC-COPULA ;
 %<gen%>:%>%{N%}%{I%}n # ;
 %<loc%>:%>%{D%}%{A%} # ;
-%<loc%>:%>%{D%}%{A%}k%{I%} SUBST ;
+%<loc%>%<subst%>:%>%{D%}%{A%}k%{I%}%{n%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<abl%>:%>n%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
-%<ins%>:%>%{й}%{L%}%{A%} # ;
-%<ins%>:%>%{й}%{L%}%{A%}n # ; ! Dir/LR
+%<ins%>:%>%{й}%{L%}%{A%} # ; ! Dir/LR
+%<ins%>:%>%{й}%{L%}%{A%}n # ; 
 
 LEXICON POSSESSIVES
 %<px1sg%>:%>%{i%}m CASES  ;
@@ -496,6 +496,7 @@ LEXICON PRON-PERS-SÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ende # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:endän # ;  ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;  ! Err/Orth
 
 %<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:eninnän CLITIC-COPULA ; ! Err/Orth
@@ -558,10 +559,9 @@ LEXICON PRON-PERS-ONNAR
 
 
 LEXICON SUBST
-!%<attr%>: # ; 
-%<pl%>:%>%{L%}%{A%}r  CASES ;
                       CASES ;
                       POSSESSIVES ;
+%<pl%>:%>%{L%}%{A%}r  CASES ;
 %<pl%>:%>%{L%}%{A%}r  POSSESSIVES ;
 
 !LEXICON GENERAL-POSSESSIVE-ETC
@@ -1082,7 +1082,7 @@ ada:ada N1 ; ! ""
 afta:afta N1 ; ! ""
 angis:angis N1 ; ! ""
 akıntı:akıntı N1 ; 
-akıl:akıl N1 ;
+akıl:ak%{y%}l N1 ;
 bey:bey N1 ; ! ""
 bina:bina N1 ;
 
@@ -2789,11 +2789,23 @@ günah:günah N1 ; ! ""
 
 inteligenşiya:inteligenşiya N1 ; ! ""
 inteligenţiya:inteligenţiya N1 ; ! ""
+
 orospuluk:orospulu%{k%} N1 ; ! ""
+prorokluk:proroklu%{k%} N1 ; ! ""
+kesiklik:kesikli%{k%} N1 ; ! ""
+haylazlık:haylazlı%{k%} N1 ; ! ""
+acıyannık:acıyan%>%{L%}ı%{k%} N1 ; ! ""
+zaabitlik:zaabitli%{k%} N1 ; ! ""
+usluluk:uslulu%{k%} N1 ; ! ""
+aslılık:aslılı%{k%} N1 ; ! ""
 
 metinnik:metin%>%{L%}i%{k%} N1 ; ! ""
 
 dışişleri:dışişler%>%{s%}%{I%}%{n%} N3 ; ! ""
+
+duh:duh N1 ; ! ""
+şaat:şaat N1 ; ! ""
+sincir:sincir N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -2930,6 +2942,8 @@ Kosta:Kosta NP-TOP ; ! ""
 Länkäran:Länkäran NP-TOP ; ! ""
 
 Maarika:Maarika NP-ANT-F ; ! ""
+Priskilla:Priskilla NP-ANT-F ; ! ""
+Akila:Akila NP-ANT-F ; ! ""
 Maarja:Maarja NP-ANT-F ; ! ""
 Madli:Madli NP-ANT-F ; ! ""
 Marinka:Marinka NP-ANT-F ; ! ""
@@ -2949,6 +2963,7 @@ Novi:Novi NP-ANT-F ; ! ""
 
 Matej:Matej NP-ANT-M ; ! ""
 Timofey:Timofey NP-ANT-M ; ! ""
+Onisifor:Onisifor NP-ANT-M ; !  ""
 Aristarh:Aristarh NP-ANT-M ; ! ""
 Dimas:Dimas NP-ANT-M ; ! ""
 Moisey:Moisey NP-ANT-M ; ! ""
@@ -5908,8 +5923,7 @@ kaç:kaç V-TV ;
 
 dur:dur V-IV;
 çek:çek V-IV  ;
-yaşê:yaşê V-IV ;
-yaşe:yaşe V-TV ;
+yaşa:yaşa V-IV ;
 de:de V-TV ; 
 ver:ver V-TV ;
 çık:çık V-IV ;
@@ -5961,6 +5975,7 @@ kork:kork V-IV ;
 yaz:yaz V-TV ;
 düş:düş V-TV ;
 istä:istä V-TV ;
+istä:iste V-TV ; ! "" ! Err/Orth
 aç:aç V-TV ;
 yalvar:yalvar V-IV ;
 başar:başar V-TV ;
@@ -5994,9 +6009,14 @@ aara:aara V-TV ;
 koru:koru V-TV ;
 genoţi:genoţi V-IV ;
 tiparla:tiparla V-TV ;
+
+söle:sölä V-TV ;
 söle:söle V-TV ;
-söle:söyle V-TV ;
+söle:söyle V-TV ; ! Err/Orth
+
 öl:öl V-TV ;
+öldür:öldür V-TV ; ! Der/Caus
+yaptır:yaptır V-TV ; ! "" ! Der/Caus
 kayibet:kayibet V-TV ;
 kabulet:kabulet V-TV ;
 çalış:çalış V-TV ;
@@ -6018,7 +6038,6 @@ bil:bil V-TV ;
 peydala:peydala V-TV ;
 tanı:tanı V-TV ;
 üzme:üzme V-TV ;
-yaşa:yaşa V-IV ;
 kalk:kalk V-TV ;
 çal:çal V-IV ;
 baal:baal V-TV ;
@@ -6081,7 +6100,6 @@ haberleş:haberleş V-IV ; ! ""
 birleş:birleş V-IV ; ! ""
 piş:piş V-TV ;
 incele:incele V-TV ; ! ""
-iste:iste V-TV ; ! ""
 karşıla:karşıla V-TV ; ! ""
 kolver:kolver V-TV ; ! ""
 
@@ -6195,10 +6213,23 @@ doorut:doorut V-TV ; ! ""
 ilerlet:ilerlet V-TV ; ! ""
 
 tamamna:tamamna V-IV ; ! ""
+tamanna:tamanna V-IV ; ! ""
+selämne:selämne V-IV ; ! ""
 karşla:karşla V-IV ; ! ""
 üreklendir:üreklendir V-TV ; ! "" Der/Caus
  
 öde:öde V-TV ; ! ""
+
+yaklaş:yaklaş V-IV ; ! ""
+öpüşlän:öpüşlän V-IV ; ! ""
+kötülä:kötülä V-IV ; ! ""
+ek:ek V-IV ; ! "сеять"
+biç:biç V-IV ; ! "косить"
+eri:eri V-IV ; ! "таять" 
+
+koola:koola V-IV ; ! ""
+mındarla:mındarla V-IV ; ! ""
+karala:karala V-IV ; ! ""
 
 
 LEXICON Abbreviations
