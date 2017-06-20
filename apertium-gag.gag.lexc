@@ -2814,11 +2814,21 @@ gül:gül N1 ; ! ""
 sekund:sekund N1 ; ! ""
 pestiţid:pestiţid N5 ; ! ""
 period:period N1 ; ! ""
+kahraman:kahraman N1 ; ! ""
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
+Alabama:Alabama NP-TOP ; ! ""
+Zenica:Zenica NP-TOP ; ! ""
+Arkansas:Arkansas NP-TOP ; ! ""
+Dominika:Dominika NP-TOP ; ! ""
+Gaziantep:Gaziantep NP-TOP ; ! ""
+Florida:Florida NP-TOP ; ! ""
+Gvatemala:Gvatemala NP-TOP ; ! ""
+Hawaii:Hawaii NP-TOP ; ! ""
+
 Hokkaidō:Hokkaidō NP-TOP ; ! ""
 Laodikiya:Laodikiya NP-TOP ; ! ""
 Novi% Sad:Novi% Sad NP-TOP ; ! ""
