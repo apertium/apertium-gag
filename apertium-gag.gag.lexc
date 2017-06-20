@@ -1529,6 +1529,7 @@ kosmologiya:kosmologiya N1 ;
 kvalifikaţiya:kvalifikaţiya N1 ;
 rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
+teritoriya:teritoriya N1 ; ! "" ! Err/Orth
 toprak:toprak N1 ; ! ""
 taş:taş N1 ; 
 türk:türk N1 ; ! ""
@@ -1701,8 +1702,9 @@ nokta:nokta N1 ; ! ""
 messager:messager N1 ; ! ""
 
 
-institutu:institutu N1 ; ! ""
-ispolkomu:ispolkomu N2 ; ! ""
+institut:institut N1 ; ! ""
+ispolkom:ispolkom N1 ; ! ""
+rayispolkom:rayispolkom N1 ; ! ""
 kitap:kitap N1 ; ! ""
 iyün:iyün N5 ; ! ""
 maasus:maasus N1 ; ! ""
@@ -2815,6 +2817,8 @@ sekund:sekund N1 ; ! ""
 pestiţid:pestiţid N5 ; ! ""
 period:period N1 ; ! ""
 kahraman:kahraman N1 ; ! ""
+siläh:siläh N1 ; ! ""
+siläh:silah N1 ; ! "" ! Err/Orth
 
 LEXICON ProperNouns 
 
@@ -6136,7 +6140,6 @@ al:al V-TV ;
 sık:sık V-TV ;
 uura:uura V-IV ;
 getir:getir V-TV ;
-başlê:başlê V-IV ;
 annat:annat V-TV ;
 dinnen:dinnen V-IV ;
 
@@ -6256,7 +6259,7 @@ deyn:deyn V-IV ; ! ""
 baala:baala V-TV ; ! ""
 bas:bas V-TV ; ! ""
 bra:bra V-TV ; ! ""
-açıklê:açıklê V-TV ; ! ""
+açıkla:açıkla V-TV ; ! ""
 ara:ara V-TV ; ! ""
 cezala:cezala V-TV ; ! ""
 ekle:ekle V-TV ; ! "" 
@@ -6298,7 +6301,7 @@ say:say V-IV ; ! ""
 temelleş:temelleş V-IV ;
 
 tipar:tipar V-IV ;
-uçêr:uçêr V-IV ;
+uç:uç V-IV ;
 umutlan:umutlan V-IV ;
 uzlaş:uzlaş V-IV ;
 
