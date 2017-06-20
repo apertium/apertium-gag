@@ -293,7 +293,6 @@ LEXICON V-COMMON
 %<aor%>:%>%{I%}r         V-FINITE-REGULAR_NEG ;    ! Err/Orth
 
 %<prog%>:%>%{A%}yor      V-PERS-S2 ; 
-%<prog%>:%>%{A%}yor      V-FINITE-REGULAR_NEG ;
 
 %<fut%>:%>%{й%}%{a%}c    V-PERS-FUT ;
 
@@ -1146,7 +1145,7 @@ cuvap:cuvap N1 ;
 çiftçilik:çiftçili%{k%} N1 ; ! ""
 çingenä:çingenä N1 ; ! ""
 dil:dil N1 ; ! "язык"
-dil:til N1 ;
+dil:til N1 ; ! Err/Orth
 demografiya:demografiya N1 ; ! ""
 doğum:doğum N1 ; ! Err/Orth
 dev:dev N1 ;
@@ -1218,7 +1217,6 @@ renk:ren%{к%} N1 ; ! ""
 dekabr:dekabr N1 ; ! ""
 deputat:deputat N1 ; ! ""
 direktor:direktor N1 ; ! ""
-diil:diil N1 ; ! ""
 din:din N1 ; ! ""
 dünneyä:dünneyä N1 ; 
 diskiriminaţiya:diskiriminaţiya N1 ;
@@ -1265,6 +1263,7 @@ formuzal:formuzal N1 ;
 fukara:fukara N1 ;
 
 gecä:gecä N1 ; ! ""
+gece:gece N1 ; ! "" ! Err/Orth
 gün:gün N1 ; ! ""
 güreş:güreş N1 ; !""
 güreşçi:güreşçi N1 ;
@@ -1607,7 +1606,7 @@ romın:romın N1 ; ! ""
 şair:şair N1 ; ! ""
 sayı:sayı N1 ; ! ""
 sergi:sergi N1 ; ! ""
-stihlar:stihlar  N1 ; ! ""
+stih:stih  N1 ; ! ""
 sarap:sarap N1 ; ! ""
 vekil:vekil N1 ; ! ""
 pita:pita N1 ; ! ""
@@ -1973,7 +1972,7 @@ sayêr:sayêr  N1 ; ! ""
 verim:verim N1 ; ! ""
 bek:bek N1 ; ! ""
 dädu:dädu N1 ; ! ""
-dokladı:dokladı N1 ; ! ""
+doklad:doklad N5 ; ! ""
 geçici:geçici N1 ; ! ""
 işadam:işadam N1 ; ! ""
 kısıraan:kısıraan N1 ; ! ""
@@ -1985,7 +1984,7 @@ yıldız:yıldız N1 ; ! ""
 yugur:yugur N1 ; ! ""
 zakonculuk:zakonculu%{k%} N1 ; ! ""
 zanaatçı:zanaatçı N1 ; ! ""
-zavodu:zavodu N1 ; ! ""
+zavod:zavod N5 ; ! ""
 zmey:zmey N1 ; ! ""
 teritorial:teritorial N1 ;
 gubernator:gubernator N1 ;
@@ -2016,6 +2015,8 @@ türk:türk N1 ; ! ""
 uygur:uygur N1 ; ! ""
 gagauz:gagauz N1 ; ! ""
 ingiliz:ingiliz N1 ; ! ""
+şved:şved N1 ;
+kurd:kurd N1 ;
 bulgar:bulgar N1 ; ! ""
 azerbaycan:azerbaycan N1 ; ! ""
 kişilik:kişili%{k%} N1 ; ! ""
@@ -2111,6 +2112,7 @@ turnir:turnir N1 ; ! ""
 tüü:tüü N1 ; ! ""
 tuz:tuz N1 ;
 ekmek:ekmek N1 ; ! ""
+erik:erik N1 ; ! ""
 üçbuçuk:üçbuçuk N1 ; ! ""
 Uuelys:uelys N1 ; ! ""
 aslı:aslı N1 ;                                                  
@@ -2806,12 +2808,20 @@ dışişleri:dışişler%>%{s%}%{I%}%{n%} N3 ; ! ""
 duh:duh N1 ; ! ""
 şaat:şaat N1 ; ! ""
 sincir:sincir N1 ; ! ""
+düün:düün N1 ; ! ""
+gül:gül N1 ; ! ""
+
+sekund:sekund N1 ; ! ""
+pestiţid:pestiţid N5 ; ! ""
+period:period N1 ; ! ""
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
+Hokkaidō:Hokkaidō NP-TOP ; ! ""
 Laodikiya:Laodikiya NP-TOP ; ! ""
+Novi% Sad:Novi% Sad NP-TOP ; ! ""
 İerapol:İerapol NP-TOP ; ! ""
 Kitay:Kitay NP-TOP ; ! ""
 Edirne:Edirne NP-TOP ; ! ""
@@ -2820,6 +2830,22 @@ Marı:Marı NP-TOP ; ! ""
 Merv:Merv NP-TOP ; ! ""
 Arabiya:Arabiya NP-TOP ; ! ""
 Çerkesiya:Çerkesiya NP-TOP ; ! ""
+
+Ensted:Ensted NP-TOP ; ! ""
+Kaliningrad:Kaliningrad NP-TOP ; ! ""
+Lund:Lund NP-TOP ; ! ""
+Volgograd:Volgograd NP-TOP ; ! ""
+Zealand:Zealand NP-TOP ; ! ""
+Zod:Zod NP-TOP ; ! ""
+Azavad:Azavad NP-TOP ; ! ""
+Island:Island NP-TOP ; ! ""
+Maryland:Maryland NP-TOP ; ! ""
+Nederland:Nederland NP-TOP ; ! ""
+Ordubad:Ordubad NP-TOP ; ! ""
+Sabirabad:Sabirabad NP-TOP ; ! ""
+Sarandë:Sarandë NP-TOP ; ! ""
+Queensland:Queensland NP-TOP ; ! ""
+
 
 Yeşilköy:Yeşilköy NP-TOP ; ! ""
 Yerköy:Yerköy NP-TOP ; ! ""
@@ -2960,8 +2986,29 @@ Novi:Novi NP-ANT-F ; ! ""
 
 
 
+Gertrud:Gertrud NP-ANT-F ; ! ""
+Helend:Helend NP-ANT-F ; ! ""
+Ingrid:Ingrid NP-ANT-F ; ! ""
+Eberhard:Eberhard NP-ANT-M ; ! ""
+Êdvard:Êdvard NP-ANT-M ; ! ""
+Gerd:Gerd NP-ANT-M ; ! ""
+Leodnid:Leodnid NP-ANT-M ; ! ""
+Leonhard:Leonhard NP-ANT-M ; ! ""
+Leopold:Leopold NP-ANT-M ; ! ""
+Nevid:Nevid NP-ANT-M ; ! ""
+Osvald:Osvald NP-ANT-M ; ! ""
+Personid:Personid NP-ANT-M ; ! ""
+Rashid:Rashid NP-ANT-M ; ! ""
+Reinold:Reinold NP-ANT-M ; ! ""
+Siegfried:Siegfried NP-ANT-M ; ! ""
+Ӓhmäd:Ӓhmäd NP-ANT-M ; ! ""
+Edmund:Edmund NP-ANT-M ; ! ""
+Ferdinand:Ferdinand NP-ANT-M ; ! ""
+Kürşad:Kürşad NP-ANT-M ; ! ""
+
 
 Matej:Matej NP-ANT-M ; ! ""
+Erik:Erik NP-ANT-M ; ! ""
 Timofey:Timofey NP-ANT-M ; ! ""
 Onisifor:Onisifor NP-ANT-M ; !  ""
 Aristarh:Aristarh NP-ANT-M ; ! ""
@@ -4234,6 +4281,7 @@ Karakalpakistan:Karakalpakistan NP-TOP ; ! "" !
 Trojany:Trojany NP-TOP ; ! "" ! 
 Reagan:Reagan NP-ANT-M ; ! "" ! 
 Ronald:Ronald NP-COG-MF ; ! "" ! 
+Škerlj:Škerlj NP-COG-MF ; ! ""
 Erdoğan:Erdoğan NP-COG-MF ; ! ""
 Yıldırım:Yıldırım NP-COG-MF ; ! ""
 Kılıç:Kılıç NP-COG-MF ; ! ""
@@ -4393,6 +4441,32 @@ Kolsa:Kolsa NP-COG-MF ; ! ""
 Kissa:Kissa NP-COG-MF ; ! ""
 Zahariya:Zahariya NP-COG-MF ; ! ""
 
+Bud:Bud NP-COG-MF ; ! ""
+Cavad:Cavad NP-COG-MF ; ! ""
+Grad:Grad NP-COG-MF ; ! ""
+Gud:Gud NP-COG-MF ; ! ""
+Kald:Kald NP-COG-MF ; ! ""
+Känd:Känd NP-COG-MF ; ! ""
+Keerd:Keerd NP-COG-MF ; ! ""
+Kevend:Kevend NP-COG-MF ; ! ""
+Külvand:Külvand NP-COG-MF ; ! ""
+Leesmend:Leesmend NP-COG-MF ; ! ""
+Lind:Lind NP-COG-MF ; ! ""
+Manavald:Manavald NP-COG-MF ; ! ""
+Männard:Männard NP-COG-MF ; ! ""
+Medved:Medved NP-COG-MF ; ! ""
+Muld:Muld NP-COG-MF ; ! ""
+Paesüld:Paesüld NP-COG-MF ; ! ""
+Picard:Picard NP-COG-MF ; ! ""
+Polad:Polad NP-COG-MF ; ! ""
+Põld:Põld NP-COG-MF ; ! ""
+Raud:Raud NP-COG-MF ; ! ""
+Rood:Rood NP-COG-MF ; ! ""
+Truupõld:Truupõld NP-COG-MF ; ! ""
+Uuspõld:Uuspõld NP-COG-MF ; ! ""
+Viirand:Viirand NP-COG-MF ; ! ""
+
+
 Streleţ:Streleţ NP-COG-MF ; ! ""
 Filev:Filev NP-COG-MF ; ! ""
 
@@ -4458,6 +4532,16 @@ Afanasiyeviç:Afanasiyev NP-PAT-VICH ; ! ""
 Petkoviç:Petkov NP-PAT-VICH ; ! ""
 Sultanoviç:Sultanov NP-PAT-VICH ; ! ""
 Ormanci:Ormanci NP-COG-MF ; ! ""
+
+Bigadiç:Bigadiç NP-COG-MF ; ! ""
+Bayramiç:Bayramiç NP-COG-MF ; ! ""
+Nikitiç:Nikitiç NP-COG-MF ; ! ""
+Meriç:Meriç NP-COG-MF ; ! ""
+İsaeviç:İsaeviç NP-COG-MF ; ! ""
+Harlampiyeviç:Harlampiyeviç NP-COG-MF ; ! ""
+Arkadieviç:Arkadieviç NP-COG-MF ; ! ""
+
+
 Garbali:Garbali NP-COG-MF ; ! ""
 Kapakli:Kapakli NP-COG-MF ; ! ""
 Karaseni:Karaseni NP-COG-MF ; ! ""
@@ -4765,6 +4849,14 @@ Yakupoğlu:Yakupoğl NP-COG-OGLU ; ! ""
 Yanioglu:Yanioglu NP-COG-MF ; ! ""
 Yorgannar:Yorgannar NP-COG-MF ; ! ""
 Yosifin:Yosifin NP-COG-MF ; ! ""
+
+Türkoolu:Türkool NP-COG-OGLU ; ! ""
+Karamanoolu:Karamanool NP-COG-OGLU ; ! ""
+İmamoolu:İmamool NP-COG-OGLU ; ! ""
+Dulkadiroolu:Dulkadirool NP-COG-OGLU ; ! ""
+Beyoolu:Beyool NP-COG-OGLU ; ! ""
+Köroolu:Körool NP-COG-OGLU ; ! ""
+Demiroolu:Demirool NP-COG-OGLU ; ! ""
 
 Avramoglu:Avramogl NP-COG-OGLU ; ! ""
 Büyükkantarcioğlu:Büyükkantarcioğl NP-COG-OGLU ; ! ""
@@ -5465,10 +5557,13 @@ LEXICON Adjectives
 kirli:kirli A1 ; ! ""
 korkunç:korkunç A1 ; ! ""
 
+
 küçük:küçü%{k%} A2 ; ! ""
 koyu:koyu A1 ; 
-deil:deil A1 ;
-büyük:büyü%{k%} A1 ;
+diil:diil A1 ;
+diil:deil A1 ; ! Err/Orth
+büük:büyü%{k%} A2 ; ! Err/Orth
+büük:büük A2 ; ! ""
 var:var A2 ; ! ""
 genç:genç A2 ; ! ""
 yazılı:yazılı A1 ; ! "written"
@@ -5477,6 +5572,9 @@ miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
 borçlu:borçlu A1 ; ! ""
+sekond% hand:sekond% hand A1 ; ! "" 
+avangard:avangard A1 ; ! ""
+absurd:absurd A1 ; ! ""
 
 allahsız:allahsız A2 ; ! ""
 inansız:inansız A2 ; ! ""
@@ -5555,7 +5653,6 @@ zor:zoor A1 ;
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
 yaklaşık:yaklaşık A2 ; ! "approximate"
-büük:büük A2 ; ! ""
 diri:diri A1 ; 
 geniş:geniş A2 ; ! ""
 ilk:ilk A2 ; ! ""
@@ -5658,7 +5755,6 @@ kisa:kisa A1 ; ! ""
 mutlak:mutlak A1 ; ! ""
 sert:sert A1 ; ! ""
 sţenaya:sţenaya A1 ; ! ""
-stih:stih A1 ; ! ""
 taşlan:taşlan A1 ; ! ""
 
 serin:serin A1 ; ! ""
@@ -5814,6 +5910,7 @@ küülü:küülü A1 ; ! ""
 
 LEXICON Adverbs
 
+dün:dün ADV3 ; ! ""
 bile:bile ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
 yırak:yırak ADV3 ; ! ""
@@ -5891,7 +5988,6 @@ aşaa:aşaa ADV3 ; ! ""
 bekim:bekim ADV3 ; ! ""
 bireri:bireri ADV3 ; ! ""
 dayma:dayma ADV3 ; ! ""
-düün:düün ADV3 ; ! ""
 neredän:neredän ADV3 ; ! ""
 nereyi:nereyi ADV3 ; ! ""
 kimär:kimär ADV3 ; ! ""
@@ -5917,7 +6013,8 @@ irmişär:irmişär ADV3 ;
 LEXICON Verbs
 sırala:sırala V-IV ; !
 al:al V-TV ; ! "take"
-işle:işle V-IV ; ! "work/работать"
+işle:işle V-IV ; ! "работать"
+işle:işlä V-IV ; ! Err/Orth
 izda:izda V-TV ;
 kaç:kaç V-TV ;
 
@@ -6109,7 +6206,7 @@ seslä:sesle V-IV ; ! "" ! Err/Orth
 bildir:bildir V-TV ; ! "" Der/Caus
 seslän:seslän V-IV ; ! ""
 uyu:uyu V-IV ; ! ""
-unut:unut V-IV ; ! ""
+unut:unu%{T%} V-IV ; ! ""
 türklen:türklen V-IV ; ! ""
 kaldır:kaldır V-TV ; ! ""
 ilerle:ilerle V-IV ; ! ""
@@ -6230,6 +6327,11 @@ eri:eri V-IV ; ! "таять"
 koola:koola V-IV ; ! ""
 mındarla:mındarla V-IV ; ! ""
 karala:karala V-IV ; ! ""
+
+aala:aala V-TV ; ! ""
+aalaş:aalaş V-IV ; ! ""
+aalat:aalat V-TV ; ! "" ! Der/Caus
+annaş:annaş V-IV ; ! ""
 
 
 LEXICON Abbreviations
