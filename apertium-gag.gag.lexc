@@ -387,7 +387,7 @@ LEXICON COPULA-PERS-AOR
 %<p1%>%<sg%>:%>%{й%}%{I%}m   COPULA-GENERAL ;
 %<p2%>%<sg%>:%>%{й%}s%{I%}n  COPULA-GENERAL ;
 %<p3%>%<sg%>:                COPULA-GENERAL ;
-%<p1%>%<pl%>:%>%{й%}%{I}z    COPULA-GENERAL ;
+%<p1%>%<pl%>:%>%{й%}%{I%}z    COPULA-GENERAL ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z COPULA-GENERAL ;
 %<p3%>%<pl%>:%>%{L%}%{A%}r   COPULA-GENERAL ;
 
@@ -2053,7 +2053,6 @@ ingiliz:ingiliz N1 ; ! ""
 şved:şved N1 ;
 kurd:kurd N1 ;
 bulgar:bulgar N1 ; ! ""
-azerbaycan:azerbaycan N1 ; ! ""
 kişilik:kişili%{k%} N1 ; ! ""
 kış:kış N1 ; ! ""
 kısmet:kısmet  N1 ; ! ""
@@ -2907,6 +2906,8 @@ agentlik:agentli%{k%} N1 ; ! ""
 akıllılık:akıllılı%{k%} N1 ; ! ""
 
 karikaturacı:karikaturacı N1 ; ! ""
+bilimci:bilimci N1 ; ! ""
+bilimcilik:bilimcili%{k%} N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -3310,12 +3311,13 @@ Argentina:Argentina NP-TOP ; ! ""
 Ankara:Ankara NP-TOP ; ! ""
 Armeniya:Armeniya NP-TOP ; ! ""
 Ermenistan:Ermenistan NP-TOP ; ! ""
-Ermenistan:ermenistan NP-TOP ; ! "" ! Dir/LR
+Ermenistan:ermenistan NP-TOP ; ! "" ! Err/Orth
 Albaniya:Albaniya NP-TOP ; ! ""
 Asuriya:Asuriya NP-TOP ; ! ""
 Avstraliya:Avstraliya NP-TOP ; ! ""
 Avstriya:Avstriya NP-TOP ; ! ""
 Azerbaycan:Azerbaycan NP-TOP ; ! ""
+Azerbaycan:azerbaycan NP-TOP ; ! "" ! Err/Orth
 Aziya:Aziya NP-TOP ; ! ""
 Angliya:Angliya NP-TOP ; ! ""
 Belgiya:Belgiya NP-TOP ; ! ""
