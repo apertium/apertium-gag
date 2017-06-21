@@ -954,6 +954,10 @@ yirmi:yirmi NUM ; ! ""
 otuz:otuz NUM ;
 kırk:kırk NUM ;
 elli:elli NUM ;
+altmış:altmış NUM ; ! ""
+
+seksen:seksen NUM ; 
+doksan:doksan NUM ; ! ""
 
 üz:üz NUM ;
 
@@ -2306,6 +2310,7 @@ aviaţiya:aviaţiya N1 ; ! ""
 avtonomiya:avtonomiya N1 ; ! ""
 aydınnadıcı:aydınnadıcı N1 ; ! ""
 başça:başça N1 ; ! ""
+başça:başçe N1 ; ! "" ! Err/Orth
 broşürası:broşürası N1 ; ! ""
 çarşısı:çarşısı N1 ; ! ""
 çorba:çorba N1 ; ! ""
@@ -2861,6 +2866,11 @@ publiţistika:publiţistika N1 ; ! ""
 ofiţer:ofiţer N1 ; ! ""
 muniţipiu:muniţipiu N1 ; ! ""
 metodika:metodika N1 ; ! ""
+admiral:admiral N1 ; ! ""
+
+aspirantura:aspirantura N1 ; ! ""
+ansızlık:ansızlı%{k%} N1 ; ! ""
+bukva:bukva N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -5646,6 +5656,7 @@ sekond% hand:sekond% hand A1 ; ! ""
 avangard:avangard A1 ; ! ""
 absurd:absurd A1 ; ! ""
 
+aralıksız:aralıksız A2 ; ! ""
 allahsız:allahsız A2 ; ! ""
 inansız:inansız A2 ; ! ""
 kararsız:kararsız A2 ; ! ""
@@ -6097,6 +6108,7 @@ yaşa:yaşa V-IV ;
 de:de V-TV ; 
 ver:ver V-TV ;
 çık:çık V-IV ;
+çık:çik V-IV ; ! Err/Orth
 gir:gir V-IV ;
 gel:gel V-IV ;
 geç:geç V-IV ;
@@ -6426,6 +6438,8 @@ yıka:yıka V-TV ; ! ""
 yıkan:yıkan V-IV ; ! ""
 uyukla:uyukla V-IV ; ! ""
 tutuştur:tutuştur V-TV ; ! "" ! Der/Caus
+azırla:azırla V-TV ; ! ""
+aazalt:aazalt V-TV ; ! "" 
 
 LEXICON Abbreviations
 
