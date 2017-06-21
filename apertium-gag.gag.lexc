@@ -469,7 +469,7 @@ LEXICON PRON-PERS-BÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:en # ;                        ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enim # ;  
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:enimk%{I%}%{n%} SUBST-ATTR ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ;  
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:eni # ;          
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  
