@@ -6653,8 +6653,8 @@ gel:gel V-IV ;
 geç:geç V-IV ;
 başla:başla V-IV ;
 başla:başle V-IV ; ! Err/Orth
-başlat:başlat V-TV ; ! "" ! Der/Caus
-tanıt:tanıt V-TV ; ! "" Der/Caus
+başlat:başla%{T%} V-TV ; ! "" ! Der/Caus
+tanıt:tanı%{T%} V-TV ; ! "" Der/Caus
 resimne:resim%>%{L%}e V-IV ; ! ""
 düz:düz V-IV ; ! ""
 
@@ -6920,18 +6920,16 @@ uzlaş:uzlaş V-IV ;
 
 
 git:gi%{T%} V-IV ;
-çeket:çeke%{T%} V-TV ;
 et:e%{T%} V-TV ;
-kablet:kablet V-TV ;
-çeket:çeket V-IV ;
+çeket:çeke%{T%} V-TV ;
 kaybet:kaybe%{T%} V-TV ; ! ""
 zaptet:zaptet V-TV ; ! ""
-kabled:kabled V-TV ;
+kablet:kable%{T%} V-TV ;
 üüret:üüre%{T%} V-IV ; 
 lafet:lafe%{T%} V-IV ;
 
-doorut:doorut V-TV ; ! ""
-ilerlet:ilerlet V-TV ; ! ""
+doorut:dooru%{T%} V-TV ; ! ""
+ilerlet:ilerle%{T%} V-TV ; ! ""
 
 tamamna:tamamna V-IV ; ! ""
 tamanna:tamanna V-IV ; ! ""
@@ -6995,14 +6993,14 @@ doyur:doyur V-TV ; ! ""
 ever:ever V-TV ; ! ""
 ez:ez V-TV ; ! ""
 göm:göm V-TV ; ! ""
-güt:güt V-TV ; ! ""
+güt:gü%{T%} V-TV ; ! ""
 harca:harca V-TV ; ! ""
 hatırla:hatırla V-TV ; ! ""
 hızlan:hızlan V-IV ; ! ""
 ilaçla:ilaçla V-TV ; ! ""
 ilgilen:ilgilen V-IV ; ! ""
 kakmala:kakmala V-TV ; ! ""
-kat:kat V-TV ; ! ""
+kat:ka%{T%} V-TV ; ! ""
 kız:kız V-IV ; ! ""
 kon:kon V-IV ; ! ""
 kopar:kopar V-TV ; ! ""
@@ -7014,7 +7012,7 @@ parçala:parçala V-TV ; ! ""
 parla:parla V-IV ; ! ""
 paylaş:paylaş V-TV ; ! ""
 sar:sar V-TV ; ! ""
-sat:sat V-TV ; ! ""
+sat:sa%{T%} V-TV ; ! ""
 sergile:sergile V-TV ; ! ""
 sız:sız V-IV ; ! ""
 sokul:sokul V-IV ; ! ""
