@@ -28,7 +28,7 @@ Alphabet
     %{n%}:n %{n%}:0
     %{в%}:y %{в%}:0
 
-    %{e%}:e  %{e%}:ä
+    %{e%}:e  
     %{u%}:u 
 
     %{ö%}:0 ! Front rounded
