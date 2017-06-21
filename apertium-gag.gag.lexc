@@ -2880,6 +2880,8 @@ zayavleniya:zayavleniya N1 ; ! ""
 zayavleniya:zayavleniye N1 ; ! "" ! Err/Orth
 zayavleniya:zayavlenie N1 ; ! "" ! Err/Orth
 
+patriarh:patriarh N1 ; ! ""
+pat:pat N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -3724,10 +3726,8 @@ Ester:Ester NP-ANT-F ; ! ""
  
 Ago:Ago NP-ANT-M ; ! ""
 Bahtiyar:Bahtiyar NP-ANT-M ; ! ""
-Çimpoeş:Çimpoeş NP-ANT-M ; ! ""
 Don:Don NP-ANT-M ; ! ""
 Epp:Epp NP-ANT-M ; ! ""
-Georgievın:Georgievın NP-ANT-M ; ! ""
 Aleksandr:Aleksandr NP-ANT-M ; ! ""
 Arnold:Arnold NP-ANT-M ; ! ""
 Boris:Boris NP-ANT-M ; ! ""
@@ -4515,6 +4515,9 @@ ATB:ATB NP-ORG ;
 
 
 LEXICON Cognomena
+
+Çimpoeş:Çimpoeş NP-COG-MF ; ! ""
+Georgiev:Georgiev NP-COG-OV ; ! ""
 
 Leanka:Leanka NP-COG-MF ; ! ""
 Kolsa:Kolsa NP-COG-MF ; ! ""
@@ -6474,6 +6477,8 @@ uydur:uydur V-TV ; ! "" ! Der/Caus
 uyan:uyan V-IV ; ! ""
 uyandır:uyandır V-TV ; ! "" ! Der/Caus
 
+patla:patla V-IV ; ! ""
+patlat:patla%{T%} V-TV ; ! "" ! Der/Caus
 
 
 LEXICON Abbreviations
