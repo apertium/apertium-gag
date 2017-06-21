@@ -7,6 +7,14 @@ if len(sys.argv) <= 1: #{
 
 lang = sys.argv[1];
 
+testf = [];
+
+if len(sys.argv) == 3: #{
+	testf = [sys.argv[2]];
+else:
+	testf = glob.glob('*.tsv');
+#}
+
 istr1 = libhfst.HfstInputStream('../'+lang+'.automorf.hfst');
 anal = istr1.read();
 #anal.remove_epsilons();
@@ -15,7 +23,6 @@ istr2 = libhfst.HfstInputStream('../'+lang+'.autogen.hfst');
 gene = istr2.read();
 #gene.remove_epsilons();
 
-testf = glob.glob('*.tsv');
 
 print(testf);
 err_g = 0;
@@ -29,6 +36,8 @@ for f in testf: #{
 	tf = open(f).read().strip().split('\n');
 	print('Generation:');
 	for t in tf: #{
+		if t.strip() == '': continue;
+
 		row = t.strip().split('\t');
 		g_res = gene.lookup(row[1]);
 
@@ -53,6 +62,8 @@ for f in testf: #{
 	#}
 	print('Analysis:');
 	for t in tf: #{
+		if t.strip() == '': continue;
+
 		row = t.strip().split('\t');
 
 		if row[0] == '<': #{

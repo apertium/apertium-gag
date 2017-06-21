@@ -998,6 +998,7 @@ LEXICON Nouns
 
 ara:ara N1 ; ! ""
 alt:alt N1 ; ! ""
+art:ar%{T%} N1 ; ! ""
 üst:üst N1 ; ! ""
 orta:orta N1 ; ! ""
 iç:iç N1 ; ! ""
@@ -1566,7 +1567,6 @@ kvalifikaţiya:kvalifikaţiya N1 ;
 rus:rus N1 ; ! ""
 territoriya:territoriya N1 ; ! ""
 teritoriya:teritoriya N1 ; ! "" ! Err/Orth
-toprak:toprak N1 ; ! ""
 taş:taş N1 ; 
 türk:türk N1 ; ! ""
 turk:turk N1 ; ! ""
@@ -1747,6 +1747,7 @@ roak:roak N1 ; ! ""
 rol:rol N1 ; ! ""
 senselä:senselä N1 ; ! ""
 toprak:topra%{k%} N1 ; ! ""
+!toprak:toprak N1 ; ! ""
 maasus:maasus N1 ; ! ""
 okul:okul N1 ; ! ""
 uşak:uşa%{k%} N1 ; ! ""
@@ -2907,6 +2908,7 @@ akıllılık:akıllılı%{k%} N1 ; ! ""
 karikaturacı:karikaturacı N1 ; ! ""
 bilimci:bilimci N1 ; ! ""
 bilimcilik:bilimcili%{k%} N1 ; ! ""
+rubrika:rubrika N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -6126,6 +6128,7 @@ miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
 akıllı:akıllı A1 ; ! ""
+işsiz:işsiz A2 ; ! ""
 
 etnografik:etnografik A1 ; ! ""
 geografik:geografik A1 ; ! ""
@@ -6162,11 +6165,11 @@ kararsız:kararsız A2 ; ! ""
 akılsız:akılsız A2 ; ! ""
 topraksız:topraksız A2 ; ! ""
 raatsız:raatsız A2 ; ! ""
-vizasız:vizasız A1 ; ! ""
-başarısız:başarısız A1 ; ! ""
-operaţiyasız:operaţiyasız A1 ; ! ""
-tarafsız:tarafsız A1 ; ! ""
-problemasız:problemasız A1 ; ! ""
+vizasız:vizasız A2 ; ! ""
+başarısız:başarısız A2 ; ! ""
+operaţiyasız:operaţiyasız A2 ; ! ""
+tarafsız:tarafsız A2 ; ! ""
+problemasız:problemasız A2 ; ! ""
 
 kusursuz:kusursuz A2 ; ! ""
 lekesiz:lekesiz A2 ; ! ""
@@ -6206,14 +6209,14 @@ gündüz:gündüz A1 ; ! ""
 güneşli:güneşli A1 ; ! ""
 tertip:tertip A1 ;
 
-allaasız:allaasız A1 ; ! ""
+allaasız:allaasız A2 ; ! ""
 şanli:şanli A1 ; ! ""
 satan:satan A1 ; ! ""
 savaşı:savaşı A1 ; ! ""
-sebepsiz:sebepsiz A1 ; ! ""
+sebepsiz:sebepsiz A2 ; ! ""
 sıkça:sıkça A1 ; ! ""
 sintaksis:sintaksis A1 ; ! ""
-umutsuz:umutsuz A1 ; ! ""
+umutsuz:umutsuz A2 ; ! ""
 
 
 uslu:uslu  A1 ; ! ""
@@ -6252,8 +6255,8 @@ acı:acı A1 ; ! ""
 
 parasal:parasal A1 ; ! ""
 parlak:parlak A1 ; ! ""
-uçsuz:uçsuz A1 ;
-kenarsız:kenarsız A1 ; ! ""
+uçsuz:uçsuz A2 ;
+kenarsız:kenarsız A2 ; ! ""
 zavalı:zavalı A1 ; ! ""
 
 
@@ -6265,7 +6268,7 @@ peri:peri A1 ; ! ""
 yalnız:yalnız A1 ;  ! ""
 paalı:paalı A1 ; ! ""
 meraklı:meraklı A1 ;  ! "curious, curious"
-maasuz:maasuz A1 ;
+maasuz:maasuz A2 ;
 çok:çok A1 ; ! ""
 çok:cok A1 ; ! Err/Orth
 ani:ani A1 ; ! ""
@@ -6393,16 +6396,16 @@ populär:populär A1 ; ! ""
 arif:arif A1 ; ! ""
 ayıptır:ayıp A1 ; ! ""
 başarı:başarı A1 ; ! ""
-korkusuz:korkusuz A1 ; ! ""
+korkusuz:korkusuz A2 ; ! ""
 kötü:kötü A1 ; ! ""
 lafedän:lafedän A1 ; ! ""
 ufak:ufak A1 ; ! ""
 sarı:sarı A1 ; ! ""
 yarım:yarım A1 ; ! ""
 yayan:yayan A1 ; ! ""
-ansız:ansız A1 ; ! ""
+ansız:ansız A2 ; ! ""
 incäzanaat:incäzanaat A1 ; ! ""
-üüsüz:üüsüz A1 ; ! ""
+üüsüz:üüsüz A2 ; ! ""
 farklı:farklı A1 ; ! ""
 fin:fin A1 ; ! ""
 aktiv:aktiv A1 ; ! ""
@@ -6415,7 +6418,7 @@ yeni:yeni A1 ; ! ""
 zerem:zerem A1 ; ! ""
 aşık:aşık A1 ; ! ""
 ayozlu:ayozlu A1 ; ! ""
-baamsız:baamsız A1 ; ! ""
+baamsız:baamsız A2 ; ! ""
 türkmen:türkmen N1 ; ! ""
 çalışkan:çalışkan A1 ; ! ""
 çirkin:çirkin A1 ; ! ""
@@ -6459,7 +6462,7 @@ dizçä:dizçä A1 ; ! ""
 dokumental:dokumental A1 ; ! ""
 eşil:eşil A1 ; ! ""
 gelin:gelin A1 ; ! ""
-hırsız:hırsız A1 ; ! ""
+hırsız:hırsız A2 ; ! ""
 az:az A2 ;
 az:aaz A2 ;
 ikram:ikram A1 ; ! ""
@@ -6472,11 +6475,11 @@ durgun:durgun A1 ; ! ""
 duygu:duygu A1 ; ! ""
 ecel:ecel A1 ; ! ""
 elvi:elvi A1 ; ! ""
-parasız:parasız A1 ;
-kabaatsız:kabaatsız A1 ;
-uşaksız:uşaksız A1 ;
-yazısız:yazısız A1 ;
-ansız:ansız A1 ;
+parasız:parasız A2 ;
+kabaatsız:kabaatsız A2 ;
+uşaksız:uşaksız A2 ;
+yazısız:yazısız A2 ;
+ansız:ansız A2 ;
 
 bütündünnä:bütündünnä A1 ; ! ""
 kapalı:kapalı A1 ; ! ""
@@ -6500,6 +6503,7 @@ bezbelli:bezbelli ADV3 ; ! ""
 fena:fena ADV3 ; ! ""
 hakkında:hakkında  ADV3 ; ! "" 
 artık:artık ADV3 ; ! "anymore"
+artık:artıq ADV3 ; ! "anymore" ! Err/Orth
 neredä:neredä ADV3 ; ! " "
 devam:devam ADV3 ; ! ""
 hererdä:hererdä ADV3 ; ! ""

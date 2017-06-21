@@ -129,6 +129,21 @@ Rules
           Vy in ( a e e a a e a e a e e )
     matched ;
 
+"Deletion of {i} after surface vowel"
+%{i%}:0 <=> :Cns/:0* :Vowel %>: _ ;
+
+!@ r:r u:u b:b r:r i:i k:k a:a >:0 {i}:0 m:m {I}:ı z:z >:0 {D}:d {A}:a 
+
+"Surfacing of {i} with assimilation"
+%{i%}:a <=> :a %{k%}: %>: _ ; 
+
+!@ t:t o:o p:p r:r a:a {k}:0 >:0 {i}:a m:m {I}:ı z:z >:0 {D}:d {A}:a 
+
+!"Vowel harmony for archiphoneme {i}"
+!%{i%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: | %-: ]+/:0* _ ; 
+!    where Vx in ( a ä e ê o ö u ü ı i і )
+!          Vy in ( a e e a a e a e a e e )
+!    matched ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!                          E P E N T H E S I S
