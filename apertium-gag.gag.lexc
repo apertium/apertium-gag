@@ -378,18 +378,18 @@ LEXICON CA
 
 LEXICON COPULA-GENERAL
 
-%<gnl%>:%>%{D%}%{I%}r # ;
+%<gnl%>:%>%{й%}%{D%}%{I%}r # ;
 # ; 
 
 LEXICON COPULA-PERS-AOR
 
 
-%<p1%>%<sg%>:%>%{й%}%{I%}m COPULA-GENERAL ;
-%<p2%>%<sg%>:%>%{й%}s%{I%}n COPULA-GENERAL ;
-%<p3%>%<sg%>:             COPULA-GENERAL ;
-%<p1%>%<pl%>:%>%{й%}%{I}z  COPULA-GENERAL ;
+%<p1%>%<sg%>:%>%{й%}%{I%}m   COPULA-GENERAL ;
+%<p2%>%<sg%>:%>%{й%}s%{I%}n  COPULA-GENERAL ;
+%<p3%>%<sg%>:                COPULA-GENERAL ;
+%<p1%>%<pl%>:%>%{й%}%{I}z    COPULA-GENERAL ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z COPULA-GENERAL ;
-%<p3%>%<pl%>:%>%{L%}%{A%}r COPULA-GENERAL ;
+%<p3%>%<pl%>:%>%{L%}%{A%}r   COPULA-GENERAL ;
 
 LEXICON COPULA-PERS-PAST
 %<p1%>%<sg%>:%>m # ;
@@ -1206,6 +1206,7 @@ apeläţiya:apeläţiya N1 ; !
 aktyör:aktyör N1 ; ! ""
 arhitekturacı:arhitekturacı N1 ; ! ""
 alfavit:alfavit N1 ; ! ""
+alfavit:alvafit N1 ; ! "" ! Err/Orth
 arab:arab N1 ; ! ""
 anmak:anmak N1 ;
 açık:açık N1 ; ! ""
@@ -2896,6 +2897,12 @@ fanatik:fanatik N1 ; ! ""
 boyun:boy%{y%}n N1 ; ! ""
 
 tabiyet:tabiyet N1 ; ! ""
+anahtar:anahtar N1 ; ! ""
+anahtar:anatar N1 ; ! "" ! Err/Orth
+analız:analız N1 ; ! ""
+agitator:agitator N1 ; ! ""
+agentlik:agentli%{k%} N1 ; ! ""
+akıllılık:akıllılı%{k%} N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -2903,6 +2910,7 @@ LEXICON ProperNouns
 Balkariya:Balkariya NP-TOP ; ! ""
 Dimitrovka:Dimitrovka NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
+Montreal:Montreal NP-TOP ; ! ""
 Ulyanovsk:Ulyanovsk NP-TOP ; ! ""
 Sverdlovsk:Sverdlovsk NP-TOP ; ! ""
 Kemerovsk:Kemerovsk NP-TOP ; ! ""
@@ -6109,6 +6117,8 @@ merak:merak A1 ; ! ""
 miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
+akıllı:akıllı A1 ; ! ""
+
 etnografik:etnografik A1 ; ! ""
 geografik:geografik A1 ; ! ""
 katolik:katolik A1 ; ! ""
@@ -6270,7 +6280,7 @@ negativ:negativ A1 ; ! ""
 
 
 ooluk:ooluk A1 ; ! ""
-original:original A1 ; ! ""
+original:original A2 ; ! ""
 özgür:özgür A1 ; ! ""
 şamatası:şamatası A1 ; ! ""
 eni:eni A1 ; ! ""
@@ -6998,6 +7008,9 @@ uyandır:uyandır V-TV ; ! "" ! Der/Caus
 
 patla:patla V-IV ; ! ""
 patlat:patla%{T%} V-TV ; ! "" ! Der/Caus
+
+aldat:alda%{T%} V-TV ; ! "" ! Der/Caus
+aldadır:aldadır V-TV ; ! "" ! Der/Caus
 
 
 LEXICON Abbreviations

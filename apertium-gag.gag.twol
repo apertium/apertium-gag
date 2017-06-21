@@ -166,8 +166,10 @@ Vx:a <=> _ [ %{h%}:0 | %{k%}:0 ] %>: %{й%}: %{A%}:  ;
 !@ p:p a:a d:d i:i ş:ş a:a {h}:0 >:0 {й}:0 {A}:a
 
 "{D} changed to t when after a stem-final voiceless consonant" 
-%{D%}:t <=> :CnsVcls %>: _ ; 
+%{D%}:t <=> :CnsVcls %>: (:0) _ ; 
 
+!@ y:y o:o k:k >:0 {й}:0 {D}:t {I}:u r:r
+ 
 "{T} change to d before vowels "
 %{T%}:d  <=>  _ (:0) %>: (:0) :Vowel  ; 
  
@@ -199,8 +201,11 @@ Vx:Vy <=> _ %{·%}: %>: %{E%}:Vy ;
 !!                   M O R P H O L O G Y 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-"delete {n} before genetive case "
-%{n%}:0 <=>  _ %>: %{N%}:  ;
+"delete {n} before genitive case and -DIr modality "
+%{n%}:0 <=>  _ %>: %{N%}:   ;
+             _ %>: %{й%}: %{D%}: %{I%}: ; 
+
+!@ a:a n:n a:a >:0 {s}:s {I}:ı {n}:0 >:0 {й}:y {D}:d {I}:ı r:r
 
 "{n} become 0 at the end "
 %{n%}:0 <=>  _ .#. ;
