@@ -123,6 +123,7 @@ Multichar_Symbols
 %{N%}              ! n 0
 %{D%}              ! d t
 %{T%}              ! t d 
+%{л%}              ! l n
 
 %{ö%}              ! Front rounded
 %{o%}              ! Back rounded
@@ -324,7 +325,7 @@ LEXICON V-ABIL
 
 LEXICON V-DER
 %<coop%>:%>%{I%}ş      V-ABIL ;
-%<pass%>:%>%{i%}%{L%}  V-ABIL ;      ! No pass with IV ? 
+%<pass%>:%>%{i%}%{л%}  V-ABIL ;      ! No pass with IV ? 
 %<caus%>:%>%{D%}%{I%}r V-ABIL ;      ! Fix this, -t/-DIr !!!! 
 
                        V-ABIL ; 
@@ -1549,7 +1550,6 @@ tehnologiya:tehnologiya N1 ;
 koyun:koyun N1 ;
 kod:kod N1 ; ! ""
 kanal:kanal N1 ; ! ""
-katılmêêr:katılmêêr N1 ; 
 klimatologiya:klimatologiya N1 ;
 koordinaţiya:koordinaţiya N1 ;
 komentariya:komentariya N1 ;
@@ -6134,7 +6134,7 @@ diiştir:diiştir V-IV ;
 an:an V-TV ;
 var:var V-IV ;
 çekile:çekile V-IV ;
-katıl:katıl V-TV ;
+katıl:katıl V-IV ;
 seç:seç V-TV ;
 kur:kur V-TV ;
 kutla:kutla V-IV ;

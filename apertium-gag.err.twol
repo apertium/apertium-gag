@@ -32,6 +32,7 @@ Alphabet
   %{n%}:n %{n%}:0
   %{N%}:n %{N%}:0
   %{L%}:l %{L%}:n
+  %{л%}:l %{л%}:n
 
   %{ö%}:0 ! Front rounded
   %{o%}:0 ! Back rounded
