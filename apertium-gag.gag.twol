@@ -136,7 +136,9 @@ Rules
 
 
 "{й}  become y when intervocalic"
-%{й%}:y <=> :Vowel ([ :0 - [ %{k%}: | %{h%}: ] ]) %>: _ :Vowel ;
+%{й%}:y <=> :Vowel ([ :0 - [ %{k%}: | %{h%}: ] ]) %>: _ (:Cns) :Vowel ;
+
+
 
 "{s} become 0 when intervocalic"
 %{s%}:0 <=> [ ArchiCns: | Cns: ] %>: _ :Vowel ;

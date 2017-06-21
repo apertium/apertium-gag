@@ -426,14 +426,14 @@ LEXICON CLITIC-COPULA
 LEXICON CASES
 %<nom%>: CLITIC-COPULA ;
 %<gen%>:%>%{N%}%{I%}n # ;
-%<loc%>:%>%{D%}%{A%} # ;
+%<loc%>:%>%{D%}%{A%} CLITIC-COPULA ;
 %<loc%>%<subst%>:%>%{D%}%{A%}k%{I%}%{n%} SUBST ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<abl%>:%>n%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;
 %<dat%>:%>%{й}%{A%} # ;
 %<ins%>:%>%{й}%{L%}%{A%} # ; ! Dir/LR
-%<ins%>:%>%{й}%{L%}%{A%}n # ; 
+%<ins%>:%>%{й}%{L%}%{A%}n CLITIC-COPULA ; 
 
 LEXICON POSSESSIVES
 %<px1sg%>:%>%{i%}m CASES  ;
@@ -1912,7 +1912,6 @@ hastalık:hastalı%{k%} N1 ; ! ""
 hefte:hefte N1 ; ! ""
 içer:içer N1 ; ! ""
 ihtär:ihtär N1 ; ! ""
-konuylan:konuylan N1 ; ! ""
 gagauzluk:gagauzlu%{k%} N1 ; ! ""
 yaki:yaki N1 ; ! ""
 gimna:gimna N1 ;
