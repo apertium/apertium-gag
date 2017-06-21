@@ -675,6 +675,7 @@ LEXICON NP-COG-OV
 LEXICON NP-COG-SKIJ
 
 %<np%>%<cog%>%<m%>:iy FULL-NOMINAL-INFLECTION ; ! FIXME
+%<np%>%<cog%>%<m%>:i FULL-NOMINAL-INFLECTION ; ! FIXME ! Dir/LR
 %<np%>%<cog%>%<f%>:aya FULL-NOMINAL-INFLECTION ; ! FIXME
 
 LEXICON NP-COG-OGLU
@@ -1155,7 +1156,6 @@ türkçä:türkçe N1 ; ! "" ! Err/Orth
 umut:umut N1 ; ! ""
 vakit:vakit N1 ; ! ""
 yurtluk:yurtlu%{k%} N1 ; ! ""
-
 
 
 baş:baş N1 ; ! ""
@@ -1884,6 +1884,7 @@ pazar:pazar N1 ; ! ""
 siiredici:siiredici N1 ; ! ""
 üürenci:üürenci N1 ; ! ""
 üürenci:öğrenci N1 ; ! "" ! Err/Orth
+üürenci:üüreniçi N1 ; ! "" ! Err/Orth
 kedi:kedi N1 ; ! ""
 
 aul:aul N1 ; ! ""
@@ -2011,7 +2012,6 @@ işadam:işadam N1 ; ! ""
 kısıraan:kısıraan N1 ; ! ""
 kaynak:kaynak  N1 ; ! ""
 pravitelstvo:pravitelstvo N1 ; ! ""
-upravleniya:upravleniya N1 ; ! ""
 yılan:yılan N1 ; ! ""
 yıldız:yıldız N1 ; ! ""
 yugur:yugur N1 ; ! ""
@@ -2410,7 +2410,6 @@ raist:raist N1 ; ! ""
 solist:solist N1 ; ! ""
 speţialist:speţialist N1 ; ! ""
 
-upravleniya:upravleniya N1 ; ! ""
 tamojnä:tamojnä N1 ; ! ""
 kandidat:kandidat N1 ; ! ""
 akademik:akademik N1 ; ! ""
@@ -2871,12 +2870,25 @@ admiral:admiral N1 ; ! ""
 aspirantura:aspirantura N1 ; ! ""
 ansızlık:ansızlı%{k%} N1 ; ! ""
 bukva:bukva N1 ; ! ""
+zarplata:zarplata N1 ; ! ""
+obşçejitye:obşçejitye N1 ; ! ""
+zından:zından N1 ; ! ""
+
+upravleniya:upravleniya N1 ; ! ""
+
+zayavleniya:zayavleniya N1 ; ! ""
+zayavleniya:zayavleniye N1 ; ! "" ! Err/Orth
+zayavleniya:zayavlenie N1 ; ! "" ! Err/Orth
+
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Dimitrovka:Dimitrovka NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
+Ulyanovsk:Ulyanovsk NP-TOP ; ! ""
+Sverdlovsk:Sverdlovsk NP-TOP ; ! ""
+Kemerovsk:Kemerovsk NP-TOP ; ! ""
 Alabama:Alabama NP-TOP ; ! ""
 Priştina:Priştina NP-TOP ; ! ""
 Zenica:Zenica NP-TOP ; ! ""
@@ -2966,7 +2978,8 @@ Başkırdistan:Başkortostan NP-TOP ; ! "" ! Err/Orth
 Başkırdistan:Başkurtistan NP-TOP ; ! "" ! Err/Orth
 Belarus:Belarus NP-TOP ;! ""
 Uzbekistan:Uzbekistan NP-TOP ; ! ""
-Özbekistan:Özbekistan NP-TOP ; ! ""
+Uzbekistan:Özbekistan NP-TOP ; ! "" ! Err/Orth
+Uzbekistan:O‘zbekiston NP-TOP ; ! "" ! Err/Orth
 Adana:Adana NP-TOP ;! ""
 Nemtä:Nemtä NP-TOP ;! ""
 Afganistan:Afganistan NP-TOP ; ! ""
@@ -3690,7 +3703,6 @@ Felix:Felix NP-ANT-M ; ! ""
 Firavun:Firavun NP-ANT-M ; ! ""
 Gavril:Gavril NP-ANT-M ; ! ""
 Georgi:Georgi NP-ANT-M ; ! ""
-Golubovski:Golubovski NP-ANT-M ; ! ""
 Hacıbektaş:Hacıbektaş NP-ANT-M ; ! ""
 Eha:Eha NP-ANT-F ; ! ""
 Ekaterina:Ekaterina NP-ANT-F ; ! ""
@@ -4655,7 +4667,12 @@ Mihaylov:Mihaylov NP-COG-OV ; ! ""
 Kaseinov:Kaseinov NP-COG-OV ; ! ""
 Şveţov:Şveţov NP-COG-OV ; ! ""
 Tarnavskiy:Tarnavsk NP-COG-SKIJ ; ! ""
+Zainçikovskiy:Zainçikovsk NP-COG-SKIJ ; ! ""
 Baranovskiy:Baranovsk NP-COG-SKIJ ; ! ""
+Golubovskiy:Golubovsk NP-COG-SKIJ ; ! ""
+Mayakovskiy:Mayakovsk NP-COG-SKIJ ; ! ""
+Livovskiy:Livovsk NP-COG-SKIJ ; ! ""
+Berezovskiy:Berezovsk NP-COG-SKIJ ; ! ""
 
 Ahmutdinov:Ahmutdinov NP-COG-OV ; ! ""
 Arikov:Arikov NP-COG-OV ; ! ""
@@ -5121,7 +5138,7 @@ Vikol:Vikol NP-COG-MF ; ! ""
 Ratassepp:Ratassepp NP-COG-MF ; ! ""
 Ribič:Ribič NP-COG-MF ; ! ""
 Selçuk:Selçuk NP-COG-MF ; ! ""
-Skalykovskiy:Skalykovskiy  NP-COG-MF ; ! ""
+Skalykovskiy:Skalykovsk NP-COG-SKIJ ; ! ""
 Toompere:Toompere NP-COG-MF ; ! ""
 Afanasievna:Afanasievna NP-COG-MF ; ! ""
 Avci:Avci NP-COG-MF ; ! ""
@@ -5729,8 +5746,8 @@ türlü:türlü A2 ; ! ""
 mutlu:mutlu A1 ;
 uzun:uzun A1 ; ! ""
 pak:pak A1 ; 
-zor:zor  A1 ; ! ""
-zor:zoor A1 ;
+zoor:zoor A1 ;
+zoor:zor  A1 ; ! "" ! Err/Orth
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
 yaklaşık:yaklaşık A2 ; ! "approximate"
@@ -5744,11 +5761,11 @@ eski:eski A2 ; ! ""
 hazır:hazır A1 ;
 sade:sade A1 ; ! ""
 saa:saa A1 ; ! ""
-üüsek:üüsek A1 ; ! ""
+üüsek:üüsek A2 ; ! ""
+üüsek:yüksek A2 ; ! "" ! Err/Orth
 yabanı:yabanı A1 ; ! ""
 yalancı:yalancı A1 ; ! ""
 yarar:yarar  A1 ; ! ""
-yüksek:yüksek A1 ; ! ""
 acı:acı A1 ; ! ""
 
 parasal:parasal A1 ; ! ""
@@ -6390,8 +6407,6 @@ zaptet:zaptet V-TV ; ! ""
 kabled:kabled V-TV ;
 üüret:üüre%{T%} V-IV ; 
 lafet:lafe%{T%} V-IV ;
-zeedele:zeedele V-TV ; ! ""
-zeedelet:zeedelet V-TV ; ! ""
 
 doorut:doorut V-TV ; ! ""
 ilerlet:ilerlet V-TV ; ! ""
@@ -6439,7 +6454,27 @@ yıkan:yıkan V-IV ; ! ""
 uyukla:uyukla V-IV ; ! ""
 tutuştur:tutuştur V-TV ; ! "" ! Der/Caus
 azırla:azırla V-TV ; ! ""
+
 aazalt:aazalt V-TV ; ! "" 
+zeedele:zeedele V-TV ; ! ""
+zeedelet:zeedele%{T%} V-TV ; ! "" ! Der/Caus
+zeedelet:zeedelt V-TV ; ! "" ! Err/Orth
+
+zenginet:zengine%{T%} V-TV ; ! ""
+zenginne:zenginne V-IV ; ! ""
+zenginneş:zenginneş V-IV ; ! ""
+zenginleştir:zenginleştir V-TV ; ! "" ! Der/Caus
+zorla:zorla V-IV ; ! ""
+zorlan:zorlan V-IV ; ! ""
+zorlat:zorla%{T%} V-TV ; ! "" ! Der/Caus
+zeydelen:zeydelen V-IV ; ! ""
+
+uy:uy V-IV ; ! ""
+uydur:uydur V-TV ; ! "" ! Der/Caus
+uyan:uyan V-IV ; ! ""
+uyandır:uyandır V-TV ; ! "" ! Der/Caus
+
+
 
 LEXICON Abbreviations
 
@@ -6634,6 +6669,6 @@ LEXICON DIGITLEX
 
 LEXICON Barbarisms ! Use/Circ
 
-<[а|б|в|г|д|е|ж|з|и|й|к|л|м|н|о|п|р|с|т|у|ф|х|ц|ч|ш|щ|ъ|ы|ь|э|ю|я|ё|є|і|ї|ј|ў|ґ|ғ|қ|ҡ|ҧ|ү|ҷ|һ|ӈ|ӓ|ө|ӱ]+> BARB ; ! Use/Circ
+<[а|б|в|г|д|е|ж|з|и|й|к|л|м|н|о|п|р|с|т|у|ф|х|ц|ч|ш|щ|ъ|ы|ь|э|ю|я|ё|є|і|ї|ј|ў|ґ|ғ|қ|ҡ|ҧ|ү|ҷ|һ|ӈ|ӓ|ө|ӱ|I|i|a|ă]+> BARB ; ! Use/Circ
 
 !<[α|β|γ|δ|ε|ζ|η|θ|ι|κ|λ|μ|ν|ξ|ο|π|ρ|σ|ς|τ|υ|φ|χ|ψ|ω]+> BARB ; ! Use/Circ
