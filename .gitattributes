@@ -31,6 +31,7 @@ tests/gerunds.tsv -text
 tests/imperative.tsv -text
 tests/loans.tsv -text
 tests/negative.tsv -text
+tests/pers-pron.tsv -text
 tests/possessives.tsv -text
 tests/spellrelax.tsv -text
 tests/su.tsv -text
