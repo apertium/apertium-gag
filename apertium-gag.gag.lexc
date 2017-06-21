@@ -473,7 +473,6 @@ LEXICON PRON-PERS-BÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ana # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endä # ;  
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  
-%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ; 
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:endän # ;  
 %<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:enimnän CLITIC-COPULA ;  
 
@@ -482,6 +481,7 @@ LEXICON PRON-PERS-BÄN
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:äni # ;                       ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ändä # ;                      ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:ändek%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:enden # ;                     ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:ändän # ;                     ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:änimnän  CLITIC-COPULA ;      ! Err/Orth
 
@@ -495,7 +495,6 @@ LEXICON PRON-PERS-SÄN
 %<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:ana # ;                            
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:endä # ;  
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:endek%{I%}%{n%} SUBST-ATTR ;  
-%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:enden # ; 
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:endän # ;  
 %<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:eninnän CLITIC-COPULA ;  
 
@@ -504,6 +503,7 @@ LEXICON PRON-PERS-SÄN
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:äni # ;                       ! Err/Orth
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ändä # ;                      ! Err/Orth
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:ändek%{I%}%{n%} SUBST-ATTR ;  ! Err/Orth
+%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:enden # ;                     ! Err/Orth
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:ändän # ;                     ! Err/Orth
 %<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:äninnän  CLITIC-COPULA ;      ! Err/Orth
 
@@ -513,25 +513,25 @@ LEXICON PRON-PERS-O
 %<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:n # ;                         ! Dir/LR
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nun # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:nunk%{I%}%{n%} SUBST-ATTR ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nunnan  CLITIC-COPULA ;              
 %<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:na # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:nu # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:nda # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ndak%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ndan # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nnan CLITIC-COPULA ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nnan CLITIC-COPULA ;           ! Err/Orth
+%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:nunnan  CLITIC-COPULA ;        
 
 
 LEXICON PRON-PERS-BIZ
 
 %<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
-%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:ler # ;                        ! Dir/LR
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:im # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:imk%{i%}%{n%} SUBST-ATTR ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:ä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:i # ;                                    
-%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ; ! Dir/LR
-%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ; ! Err/Orth
+%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:lerni # ;                      ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:de # ;                         ! Err/Orth
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:dä # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:däk%{I%}%{n%} SUBST-ATTR ; 
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:dän # ;
