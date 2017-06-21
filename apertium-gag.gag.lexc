@@ -1196,7 +1196,6 @@ yıl:yil N1 ; ! "" ! Err/Orth
 yer:yer N1 ; 
 gazeta:gazeta N1 ; ! "газета"
 gün:gün N1 ; ! ""
-gün:günä N1 ;
 poliţiya:poliţiya N1 ; ! "полиция"
 
 aktrisa:aktrisa N1 ; ! ""
@@ -1694,6 +1693,7 @@ cümle:cümlä N1 ; ! "" ! Err/Orth
 cümle:cümle N1 ;
 ispan:ispan N1 ;
 islam:islam N1 ;
+islam:islâm N1 ; ! Dir/LR
 dünnedä:dünnedä N1 ; ! ""
 esaba:esaba N1 ; ! 
 çalışma:çalışma N1 ; ! ""
@@ -2909,6 +2909,14 @@ karikaturacı:karikaturacı N1 ; ! ""
 bilimci:bilimci N1 ; ! ""
 bilimcilik:bilimcili%{k%} N1 ; ! ""
 rubrika:rubrika N1 ; ! ""
+inkubator:inkubator N1 ; ! ""
+inguş:inguş N1 ; ! ""
+
+kazak:kazak N1 ; ! ""
+kazak:qazaq N1 ; ! "" ! Err/Orth
+kazah:kazah N1 ; ! ""
+
+kendilik:kendili%{k%} N1 ; ! ""
 
 
 LEXICON ProperNouns 
@@ -3024,6 +3032,7 @@ Dobruca:Dobruca NP-TOP ; ! ""
 Gvineya:Gvineya NP-TOP ; ! ""
 Herţegovina:Herţegovina NP-TOP ; ! ""
 İrak:İrak NP-TOP ; ! ""
+İrak:irak NP-TOP ; ! "" ! Err/Orth
 Kanada:Kanada NP-TOP ; ! ""
 Karl:Karl NP-TOP ; ! ""
 Kosova:Kosova NP-TOP ; ! ""
@@ -3106,6 +3115,8 @@ Gertrud:Gertrud NP-ANT-F ; ! ""
 Helend:Helend NP-ANT-F ; ! ""
 Ingrid:Ingrid NP-ANT-F ; ! ""
 Eberhard:Eberhard NP-ANT-M ; ! ""
+Ioan:Ioan NP-ANT-M ; ! ""
+Herbert:Herbert  NP-ANT-M ; ! ""
 Ott:Ott NP-ANT-M ; ! ""
 Ernst:Ernst NP-ANT-M ; ! ""
 Êdvard:Êdvard NP-ANT-M ; ! ""
@@ -3495,6 +3506,7 @@ Ukrayna:Ukrayna NP-TOP ; ! ""
 Vengriya:Vengriya NP-TOP ; ! ""
 Vizantiya:Vizantiya NP-TOP ; ! ""
 İran:İran NP-TOP ; ! ""
+İran:iran NP-TOP ; ! "" ! Err/Orth
 İrlandiya:İrlandiya NP-TOP ; ! ""
 İspaniya:İspaniya NP-TOP ; ! ""
 İslandiya:İslandiya NP-TOP ; ! ""
@@ -5399,10 +5411,11 @@ Villard:Villard NP-COG-MF ; ! ""
 Villa:Villa NP-COG-MF ; ! ""
 Vineks:Vineks  NP-COG-MF ; ! ""
 Vlado:Vlado NP-COG-MF ; ! ""
-VOLKOV:VOLKOV NP-COG-MF ; ! ""
+Volkov:Volkov NP-COG-OV ; ! ""
 Vončina:Vončina NP-COG-MF ; ! ""
 Yakupoğlu:Yakupoğl NP-COG-OGLU ; ! ""
-Yanioglu:Yanioglu NP-COG-MF ; ! ""
+Kilioglu:Kiliogl NP-COG-OGLU ; ! ""
+Yanioglu:Yaniogl NP-COG-OGLU ; ! ""
 Yorgannar:Yorgannar NP-COG-MF ; ! ""
 Yosifin:Yosifin NP-COG-MF ; ! ""
 
@@ -6514,6 +6527,7 @@ taa:taa ADV3 ;
 burada:burada  ADV3 ; ! ""
 şindiya:şindiya ADV3 ; ! ""
 büün:büün ADV4; ! ""
+büün:bugün ADV4; ! "" ! Err/Orth
 ozaman:ozaman ADV4 ; 
 ozamannar:ozamannar ADV3 ; ! ""
 ozamanda:ozamanda ADV3 ; ! ""
@@ -6602,7 +6616,8 @@ LEXICON Verbs
 sırala:sırala V-IV ; !
 al:al V-TV ; ! "take"
 işle:işle V-IV ; ! "работать"
-işle:işlä V-IV ; ! Err/Orth
+işle:işlä V-IV ; ! "" ! Err/Orth
+işlet:işlet V-TV ; ! ""
 izda:izda V-TV ;
 kaç:kaç V-TV ;
 
@@ -7027,6 +7042,10 @@ aldadır:aldadır V-TV ; ! "" ! Der/Caus
 
 düüş:düüş V-IV ; ! ""
 uygula:uygula V-IV ; ! ""
+
+kavra:kavra V-IV ; ! ""
+kaybel:kaybel V-IV ; ! ""
+kayibol:kayibol V-IV ; ! ""
 
 LEXICON Abbreviations
 
