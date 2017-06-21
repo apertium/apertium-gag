@@ -1002,12 +1002,14 @@ alt:alt N1 ; ! ""
 üst:üst N1 ; ! ""
 orta:orta N1 ; ! ""
 iç:iç N1 ; ! ""
-ileri:ileri N1 ; ! ""
+iler:iler N1 ; ! ""
 karşı:karşı N1 ; ! ""
 ön:ön N1 ; ! ""
 yakın:yakın N1 ; ! ""
 
-
+iler:iler N1 ; ! ""
+dışar:dışar N1 ; ! ""
+yaş:yaş N1 ; ! "" 
 
 ayle:ayle N1 ; ! ""
 çiftçi:çiftçi N1 ; ! ""
@@ -2904,11 +2906,16 @@ agitator:agitator N1 ; ! ""
 agentlik:agentli%{k%} N1 ; ! ""
 akıllılık:akıllılı%{k%} N1 ; ! ""
 
+karikaturacı:karikaturacı N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
+Dakota:Dakota NP-TOP ; ! ""
+Budva:Budva NP-TOP ; ! ""
 Dimitrovka:Dimitrovka NP-TOP ; ! ""
+Barbuda:Barbuda NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
 Montreal:Montreal NP-TOP ; ! ""
 Ulyanovsk:Ulyanovsk NP-TOP ; ! ""
@@ -6481,6 +6488,7 @@ küülü:küülü A1 ; ! ""
 LEXICON Adverbs
 
 dün:dün ADV3 ; ! ""
+yalnızça:yalnızça ADV3 ; ! ""
 eskidän:eskidän ADV3 ; ! ""
 geri:geri ADV3 ; ! "обратно"
 erken:erken ADV3 ; ! ""
@@ -7012,6 +7020,8 @@ patlat:patla%{T%} V-TV ; ! "" ! Der/Caus
 aldat:alda%{T%} V-TV ; ! "" ! Der/Caus
 aldadır:aldadır V-TV ; ! "" ! Der/Caus
 
+düüş:düüş V-IV ; ! ""
+uygula:uygula V-IV ; ! ""
 
 LEXICON Abbreviations
 
