@@ -8,6 +8,7 @@ Multichar_Symbols
 %<np%>             ! Proper noun
 %<abbr%>           ! Abbreviation
 %<ij%>             ! Interjections 
+%<num%>            ! Numeral
 %<adv%>            ! Adverb
 %<cnjcoo%>         ! Coordinating conjunction
 %<cnjsub%>
@@ -87,7 +88,7 @@ Multichar_Symbols
 %<gna_when%>
 %<gpr_fut%>
 
-
+! Punctuation
 
 %<sent%>           ! Sentence marker
 %<guio%>
@@ -96,6 +97,10 @@ Multichar_Symbols
 %<rpar%>
 %<lpar%>
 %<cm%>
+
+! Error tags
+
+%<err_orth%>
 
 ! Archiphonemes
 
@@ -118,6 +123,12 @@ Multichar_Symbols
 %{N%}              ! n 0
 %{D%}              ! d t
 %{T%}              ! t d 
+
+%{ö%}              ! Front rounded
+%{o%}              ! Back rounded
+%{и%}              ! Front
+%{ы%}              ! Back
+
 
 %{☭%}              ! Loan word phonology
 %{·%}              ! Block voicing
@@ -157,9 +168,9 @@ Barbarisms ; ! Use/Circ
 
 LEXICON V-PERS-S1
 %<p1%>%<sg%>:%>%{i%}m # ; 
-%<p2%>%<sg%>:%>n # ; 
-%<p3%>%<sg%>:%>%k # ; 
-%<p1%>%<pl%>:%>%{й%}%z # ;
+%<p2%>%<sg%>:%>%{i%}n # ; 
+%<p3%>%<sg%>: # ; 
+%<p1%>%<pl%>:%>%{i%}%z # ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}r # ; 
 
@@ -206,20 +217,6 @@ LEXICON V-IMPER
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n # ;
 %<imp%>%<p2%>%<pl%>:%>%{й%}%{I%}n%{I%}z # ; ! Dir/LR
 %<imp%>%<p3%>%<pl%>:%>s%{I%}n%>%{L%}%{A%}r # ;
-
-
-
-LEXICON V-FINITE-IRREG-NEG
-%<neg%>%<gpr_aor%>:%>m%{A%}z # ;
-
-
-LEXICON V-FINITE-REGULAR_NEG
-! All of the finite tenses that take negative in -mA-
-%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
-%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
-%<cond%>:%>s%{A%} V-PERS-S2 ;
-
-                         V-IMPER ;
 
 LEXICON GER-N-INFL-COMMON
 CASES ;
@@ -268,7 +265,8 @@ LEXICON V-GNA
 %<neg%>%<gna%>:%>m%{A%}d%{A%}%{A%}n # ;
 
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
-%<gna_3%>:%>k%{A%}n%{A%} # ;
+%<gna_while%>:%>k%{A%}n%{A%} # ; ! Err/Orth
+%<gna_while%>:%>k%{A%}n # ;
 %<gna_2%>:%>%{A%}rs%{A%} # ;
 
 
@@ -278,6 +276,18 @@ V-GNA ;
 V-GPR ;
 V-GER ;
 
+LEXICON V-FINITE-IRREG-NEG
+%<neg%>%<gpr_aor%>:%>m%{A%}z # ; ! THIS IS NOT FINITE
+
+LEXICON V-FINITE-REGULAR_NEG
+! All of the finite tenses that take negative in -mA-
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+%<nfh%>:%>m%{I%}ş V-PERS-S1 ;
+%<cond%>:%>s%{A%} V-PERS-S2 ;
+
+                         V-IMPER ;
+
+
 LEXICON V-COMMON 
                          V-FINITE-REGULAR_NEG ;
                          V-NONFINITE ;
@@ -285,6 +295,8 @@ LEXICON V-COMMON
 
 %<pres%>:%>%{E%}r        V-PERS-AOR ;
 %<pres%>:%>%{й%}%{E%}r   V-PERS-AOR ;              ! Err/Orth
+
+%<neg%>%<pres%>:%>m%{A%}%>%{E%}r V-PERS-AOR ; 
 
 %<aor%>:%>%{A%}r         V-PERS-AOR ;
 %<aor%>:%>%{A%}r         V-FINITE-REGULAR_NEG ;
@@ -295,6 +307,7 @@ LEXICON V-COMMON
 %<prog%>:%>%{A%}yor      V-PERS-S2 ; 
 
 %<fut%>:%>%{й%}%{a%}c    V-PERS-FUT ;
+%<neg%>%<fut%>:%>m%{A%}%>%{й%}%{a%}c    V-PERS-FUT ;
 
 %<nfh%>:%>m%{I%}ş        V-FINITE-REGULAR_NEG ;
 
@@ -602,6 +615,9 @@ LEXICON NP-AL
 %<np%>%<al%>: FULL-NOMINAL-INFLECTION  ;
 %<np%>%<al%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
 
+LEXICON NUM-DIST
+
+%<num%>%<dist%>: # ;
 
 LEXICON NUM 
 %<num%>: # ;
@@ -861,6 +877,8 @@ birisi:birisi PRON-QNT ; ! "somebody"
 hangı:hangı PRON-INTERR ;
 hangı:hangi PRON-INTERR ;
 neyi:neyi PRON-INTERR ;
+ne:ne PRON-INTERR ;
+ne:nä PRON-INTERR ; ! Err/Orth
 kimisi:kimisi PRON-INTERR ;
 hepsi:hepsi PRON-QNT  ;
 kimsey:kimsey PRON-INTERR ;
@@ -880,6 +898,7 @@ bişey:bişey PRON-IND ; ! ""
 herkez:herkez PRON-IND ; ! ""
 herkez:herkes PRON-IND ; ! "" ! Err/Orth
 
+kimi:kimi PRON-IND ; ! ""
 
 
 LEXICON Determiners
@@ -916,25 +935,38 @@ LEXICON Numerals
 bir:bir NUM ; 
 iki:iki NUM ; 
 üç:üç NUM ;
-üz:üz NUM ;
-dört:dört NUM ; 
-beş: beş NUM;
-altı: altı NUM ;
+dört:dör%{T%} NUM ; 
+beş:beş NUM;
+altı:altı NUM ;
 yedi:yedi NUM ;
 sekiz:sekiz NUM ;
 dokuz:dokuz NUM ;
 on:on NUM ;
+
+onbir:onbir NUM ; ! ""
 oniki:oniki NUM ; ! ""
+onüç:onüç NUM ; ! ""
+ondört:ondört NUM ; ! ""
+onbeş:onbeş NUM ; ! ""
+onaltı:onaltı NUM ; ! ""
+onyedi:onyedi NUM ; ! ""
+onsekiz:onsekiz NUM ; ! ""
+ondokuz:ondokuz NUM ; ! ""
 
-
+yirmi:yirmi NUM ; ! ""
 otuz:otuz NUM ;
 kırk:kırk NUM ;
+elli:elli NUM ;
+
+üz:üz NUM ;
+
+sekizüz:sekizüz NUM ; ! ""
+
 bin:bin NUM ;
 milion:milion NUM ;
-kırk:kırk NUM ; ! ""
-onbeş:onbeş NUM ; ! ""
 
-
+ikişär:ikişär NUM-DIST ;
+üçär:üçär NUM-DIST ;
 
 
 I:I NUM-ROMAN ; ! ""
@@ -2154,7 +2186,7 @@ babo:babo N1 ; ! ""
 energetika:energetika N1 ; ! ""
 ense:ense N1 ; ! ""
 eşää:eşää N1 ; ! ""
-eskimos:eskimos N1 ;
+eskimo:eskimo N1 ;
 aleut:aleut N1 ; ! ""
 evel:evel N1 ; ! ""
 evlad:evlad N1 ; ! ""
@@ -2820,11 +2852,28 @@ kahraman:kahraman N1 ; ! ""
 siläh:siläh N1 ; ! ""
 siläh:silah N1 ; ! "" ! Err/Orth
 
+koruycu:koruycu N1 ; ! ""
+küülü:küülü N1 ; ! ""
+
+aaraştırıcı:aaraştırıcı N1 ; ! ""
+alıştırıcı:alıştırıcı N1 ; ! ""
+uçilişçe:uçilişçe N1 ; ! ""
+ürük:ürük N1 ; ! ""
+ţentr:ţentr N5 ; ! ""
+soprano:soprano N1 ; ! ""
+soldat:soldat N5 ; ! ""
+publiţistika:publiţistika N1 ; ! ""
+ofiţer:ofiţer N1 ; ! ""
+muniţipiu:muniţipiu N1 ; ! ""
+metodika:metodika N1 ; ! ""
+
 LEXICON ProperNouns 
 
 Balkariya:Balkariya NP-TOP ; ! ""
+Dimitrovka:Dimitrovka NP-TOP ; ! ""
 Martinik:Martinik NP-TOP ; ! ""
 Alabama:Alabama NP-TOP ; ! ""
+Priştina:Priştina NP-TOP ; ! ""
 Zenica:Zenica NP-TOP ; ! ""
 Arkansas:Arkansas NP-TOP ; ! ""
 Dominika:Dominika NP-TOP ; ! ""
@@ -2982,6 +3031,7 @@ Kosta:Kosta NP-TOP ; ! ""
 Länkäran:Länkäran NP-TOP ; ! ""
 
 Maarika:Maarika NP-ANT-F ; ! ""
+Maret:Maret NP-ANT-F ; ! ""
 Priskilla:Priskilla NP-ANT-F ; ! ""
 Akila:Akila NP-ANT-F ; ! ""
 Maarja:Maarja NP-ANT-F ; ! ""
@@ -3004,6 +3054,8 @@ Gertrud:Gertrud NP-ANT-F ; ! ""
 Helend:Helend NP-ANT-F ; ! ""
 Ingrid:Ingrid NP-ANT-F ; ! ""
 Eberhard:Eberhard NP-ANT-M ; ! ""
+Ott:Ott NP-ANT-M ; ! ""
+Ernst:Ernst NP-ANT-M ; ! ""
 Êdvard:Êdvard NP-ANT-M ; ! ""
 Gerd:Gerd NP-ANT-M ; ! ""
 Leodnid:Leodnid NP-ANT-M ; ! ""
@@ -4293,12 +4345,9 @@ Palestina:Palestina NP-TOP ; ! "" !
 Sent% Helena:Sent% Helena NP-TOP ; ! "" ! 
 Karakalpakistan:Karakalpakistan NP-TOP ; ! "" ! 
 Trojany:Trojany NP-TOP ; ! "" ! 
-Reagan:Reagan NP-ANT-M ; ! "" ! 
-Ronald:Ronald NP-COG-MF ; ! "" ! 
-Škerlj:Škerlj NP-COG-MF ; ! ""
-Erdoğan:Erdoğan NP-COG-MF ; ! ""
-Yıldırım:Yıldırım NP-COG-MF ; ! ""
-Kılıç:Kılıç NP-COG-MF ; ! ""
+Reagan:Reagan NP-ANT-F ; ! "" ! 
+Ronald:Ronald NP-ANT-M ; ! "" ! 
+
 Sohum:Sohum NP-TOP ; ! "" ! 
 Tshinvali:Tshinvali NP-TOP ; ! "" ! 
 Belgrad:Belgrad NP-TOP ; ! "" ! 
@@ -4454,6 +4503,17 @@ Leanka:Leanka NP-COG-MF ; ! ""
 Kolsa:Kolsa NP-COG-MF ; ! ""
 Kissa:Kissa NP-COG-MF ; ! ""
 Zahariya:Zahariya NP-COG-MF ; ! ""
+
+Köksal:Köksal NP-COG-MF ; ! ""
+Ronald:Ronald NP-COG-MF ; ! "" ! 
+Reagan:Reagan NP-COG-MF ; ! "" ! 
+Malmsten:Malmsten NP-COG-MF ; ! ""
+Yuvarlak:Yuvarlak NP-COG-MF ; ! ""
+Škerlj:Škerlj NP-COG-MF ; ! ""
+Erdoğan:Erdoğan NP-COG-MF ; ! ""
+Yıldırım:Yıldırım NP-COG-MF ; ! ""
+Kılıç:Kılıç NP-COG-MF ; ! ""
+
 
 Bud:Bud NP-COG-MF ; ! ""
 Cavad:Cavad NP-COG-MF ; ! ""
@@ -5585,6 +5645,7 @@ merak:merak A1 ; ! ""
 miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
+üzlü:üzlü A1 ; ! ""
 borçlu:borçlu A1 ; ! ""
 sekond% hand:sekond% hand A1 ; ! "" 
 avangard:avangard A1 ; ! ""
@@ -5673,7 +5734,7 @@ ilk:ilk A2 ; ! ""
 bütün:bütün A2 ; ! ""
 uygun:uygun A1 ;  ! "appropriate, suitable, appropriate"
 köklü:köklü A1 ; ! ""
-eski:eski A1 ; ! ""
+eski:eski A2 ; ! ""
 hazır:hazır A1 ;
 sade:sade A1 ; ! ""
 saa:saa A1 ; ! ""
@@ -5768,16 +5829,14 @@ pek:pek A1 ; ! ""
 kisa:kisa A1 ; ! ""
 mutlak:mutlak A1 ; ! ""
 sert:sert A1 ; ! ""
-sţenaya:sţenaya A1 ; ! ""
 taşlan:taşlan A1 ; ! ""
 
 serin:serin A1 ; ! ""
 rezina:rezina A1 ; ! ""
 saade:saade A1 ; ! ""
-slujba:slujba A1 ; ! ""
-sțena:sțena A1 ; ! ""
+slujba:slujba N1 ; ! ""
 
-dooru:dooru A1 ; ! ""
+dooru:dooru A2 ; ! ""
 zengin:zengin A1 ; ! ""
 kaarä:kaarä A1 ;
 raametli:raametli A1 ;
@@ -5925,6 +5984,9 @@ küülü:küülü A1 ; ! ""
 LEXICON Adverbs
 
 dün:dün ADV3 ; ! ""
+eskidän:eskidän ADV3 ; ! ""
+geri:geri ADV3 ; ! "обратно"
+erken:erken ADV3 ; ! ""
 bile:bile ADV3 ; ! ""
 şindi:şindi ADV3 ; ! ""
 yırak:yırak ADV3 ; ! ""
@@ -5945,6 +6007,7 @@ büün:büün ADV4; ! ""
 ozaman:ozaman ADV4 ; 
 ozamannar:ozamannar ADV3 ; ! ""
 ozamanda:ozamanda ADV3 ; ! ""
+ozamandan:ozamandan ADV3 ; ! ""
 şindi:şindi ADV4 ; ! ""
 sa:sa ADV3 ; ! ""
 taman:taman ADV3 ; ! "completely"
@@ -5993,6 +6056,7 @@ dolay:dolay ADV3 ; ! ""
 gene:gene ADV3 ; ! ""
 hemen:hemen  ADV3 ; ! ""
 saklı:saklı ADV3 ;
+saklıdan:saklıdan ADV3 ; ! ""
 ayrıca:ayrıca  ADV3 ; ! ""
 heptän:heptän ADV3 ; ! ""
 kaare:kaare ADV3 ; ! ""
@@ -6053,6 +6117,7 @@ yap:yap V-TV ;
 yapıl:yapıl V-IV ;
 kurul:kurul V-IV ;
 açıkla:açıkla V-TV ;
+açıkla:açikla V-IV ; ! "" ! Err/Orth
 yaz:yaz V-TV ;
 yazı:yazı V-TV ;
 aç:aç V-TV ;
@@ -6106,6 +6171,7 @@ duu:duu V-TV ;
 düşün:düşün V-TV ;
 bulun:bulun V-TV ;
 üüren:üüren V-TV ;
+üüren:üren V-TV ; ! Err/Orth
 kurtar:kurtar V-TV ;
 urgula:urgula V-TV ;
 çevir:çevir V-TV ; 
@@ -6140,7 +6206,7 @@ al:al V-TV ;
 sık:sık V-TV ;
 uura:uura V-IV ;
 getir:getir V-TV ;
-annat:annat V-TV ;
+annat:anna%{T%} V-TV ;
 dinnen:dinnen V-IV ;
 
 bul:bul V-TV ;
@@ -6169,7 +6235,7 @@ sev:sev V-TV ; ! ""
 ur:ur V-TV ; ! ""
 kes:kes V-TV ;
 şaş:şaş V-TV ;
-savaş:savaş  V-IV ; ! ""
+savaş:savaş V-IV ; ! ""
 düş:düş V-IV ; ! ""
 fikirle:fikirle V-IV ; ! ""
 genellikle:genellikle V-IV ; ! ""
@@ -6252,7 +6318,6 @@ yık:yık V-TV ;
 den:den V-IV ; ! ""
 sözlän:sözlän V-IV ;
 tamamnan:tamamnan V-IV ; ! ""
-bil:bil V-TV ; ! ""
 avla:avla V-TV ;
 sus:sus V-IV ;
 deyn:deyn V-IV ; ! ""
@@ -6272,13 +6337,13 @@ tuzekmeklän:tuzekmeklän V-IV ; ! ""
 kuu:kuu V-TV ; ! ""
 imzaladı:imzala V-IV ; ! ""
 in:in V-IV ; ! ""
-kapat:kapat V-IV ; ! ""
 kay:kay V-IV ; ! ""
 işit:işit V-TV ; ! ""
 itir:itir V-TV ; ! ""
 kap:kap V-TV ; ! ""
 kaple:kaple V-TV ; ! ""
-kapat:kapat V-IV ; ! ""
+kapa:kapa V-IV ; ! ""
+kapat:kapat V-TV ; ! ""
 işit:işit V-TV ; ! ""
 saa:saa V-TV ; ! "sağmak"
 sil:sil V-TV ; ! ""
@@ -6311,7 +6376,7 @@ git:gi%{T%} V-IV ;
 et:e%{T%} V-TV ;
 kablet:kablet V-TV ;
 çeket:çeket V-IV ;
-kaybet:kaybet V-TV ; ! ""
+kaybet:kaybe%{T%} V-TV ; ! ""
 zaptet:zaptet V-TV ; ! ""
 kabled:kabled V-TV ;
 üüret:üüre%{T%} V-IV ; 
@@ -6345,7 +6410,11 @@ aala:aala V-TV ; ! ""
 aalaş:aalaş V-IV ; ! ""
 aalat:aalat V-TV ; ! "" ! Der/Caus
 annaş:annaş V-IV ; ! ""
-
+güreş:güreş V-IV ; ! ""
+payet:paye%{T%} V-TV ; ! ""
+otlat:otla%{T%} V-TV ; ! ""
+karşılaş:karşılaş V-IV ; ! ""
+karşılaştır:karşılaştır V-TV ; ! "" ! Der/Caus
 
 LEXICON Abbreviations
 
@@ -6531,6 +6600,12 @@ LEXICON Punctuation
 LEXICON DIGITLEX
 
 %<num%>: # ;
+%<num%>%<ord%>:%-%>c%{I%} # ;
+%<num%>%<ord%>:%-%>%{i%}nc%{I%} # ; ! Err/Orth
+%<num%>%<subst%>%<loc%>:%-%>%{D%}%{A%} # ;
+%<num%>%<subst%>%<abl%>:%-%>%{D%}%{A%}n # ;
+%<num%>%<subst%>%<px3sp%>%<loc%>:%-%>%{s%}%{I%}%{n%}%>%{D%}%{A%} # ;
+%<num%>%<subst%>%<px3sp%>%<abl%>:%-%>%{s%}%{I%}%{n%}%>%{D%}%{A%}n # ;
 
 LEXICON Barbarisms ! Use/Circ
 

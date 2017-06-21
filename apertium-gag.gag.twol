@@ -31,9 +31,15 @@ Alphabet
     %{e%}:e  %{e%}:ä
     %{u%}:u 
 
+    %{ö%}:0 ! Front rounded
+    %{o%}:0 ! Back rounded
+    %{и%}:0 ! Front
+    %{ы%}:0 ! Back
+
     %{·%}:0 
     %{☭%}:0 
     %>:0
+    %-
     %+ % 
 
 ;
@@ -74,19 +80,21 @@ Rules
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {E}"
-%{E%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
+%{E%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: | %-: ]+/:0* _ ; 
             Vx: %{·%}: %>: _ ; 
     where Vx in ( a â ä e ê o ö u ü ı i і )
           Vy in ( ê ê e e ê ê e ê e ê e e )
     matched ;
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
+%{I%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: | %-: ]+/:0* _ ; 
     except
           :Vx [ %{k%}: | %{h%}: ] %>: %{s%}: _ %{n%}: ; 
     where Vx in ( a â ä e ê o ö u ü ı i і )
           Vy in ( ı ı i i ı u ü u ü ı i i )
     matched ;
+
+!@ 5:5 -:- >:0 c:c {I}:i
 
 "Vowel harmony for archiphoneme {I} with assimilation"
 %{I%}:Vy <=> :Vx [ %{k%}: | %{h%}: ] %>: %{s%}: _ %{n%}: ; 
@@ -97,7 +105,7 @@ Rules
 !@ t:t o:o p:p r:r a:a {k}:0 >:0 {s}:0 {I}:a {n}:n >:0 {й}:0 {A}:a 
 
 "Vowel harmony for archiphoneme {A}"
-%{A%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
+%{A%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: | %-: ]+/:0* _ ; 
     except 
         %{a%}: c %{e%}: k %>: %{L%}: _ ;
     where Vx in ( a ä e ê o ö u ü ı i і )
@@ -115,7 +123,7 @@ Rules
     matched ;
  
 "Vowel harmony for archiphoneme {a}"
-%{a%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: ]+/:0* _ ; 
+%{a%}:Vy <=> :Vx  [ :Cns | %{k%}: | %{h%}: | %-: ]+/:0* _ ; 
     where Vx in ( a ä e ê o ö u ü ı i і )
           Vy in ( a e e a a e a e a e e )
     matched ;

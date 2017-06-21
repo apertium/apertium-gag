@@ -33,6 +33,12 @@ Alphabet
   %{N%}:n %{N%}:0
   %{L%}:l %{L%}:n
 
+  %{ö%}:0 ! Front rounded
+  %{o%}:0 ! Back rounded
+  %{и%}:0 ! Front
+  %{ы%}:0 ! Back
+
+
   %{·%}:0
   %{☭%}:0
   %{в%}:0
