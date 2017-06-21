@@ -21,6 +21,7 @@ dev/verbs/verbs.lexc -text
 /gag.prob -text svneol=unset#unset
 /modes.xml -text
 tests/accusative.tsv -text
+tests/copula.tsv -text
 tests/dative.tsv -text
 tests/digits.tsv -text
 tests/drop-cns.tsv -text

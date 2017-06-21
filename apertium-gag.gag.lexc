@@ -6129,6 +6129,7 @@ yarış:yarış V-IV ;
 as:as V-TV ;
 ayır:ayır V-TV ;
 besle:besle V-TV ;
+besle:beslä V-TV ; ! Err/Orth
 
 diiştir:diiştir V-IV ;
 an:an V-TV ;
@@ -6144,6 +6145,7 @@ koy:koy V-TV ;
 kal:kal V-IV ;
 oku:oku V-TV ;
 kork:kork V-IV ;
+korkut:korku%{T%} V-TV ; ! Der/Caus
 yaz:yaz V-TV ;
 düş:düş V-TV ;
 istä:istä V-TV ;
@@ -6411,6 +6413,20 @@ payet:paye%{T%} V-TV ; ! ""
 otlat:otla%{T%} V-TV ; ! ""
 karşılaş:karşılaş V-IV ; ! ""
 karşılaştır:karşılaştır V-TV ; ! "" ! Der/Caus
+
+üüsel:üüsel V-IV ; ! ""
+kır:kır V-IV ; ! ""
+kapla:kapla V-IV ; ! ""
+ger:ger V-IV ; ! ""
+seslendir:seslendir V-TV ; ! "" ! Der/Caus
+
+zeetle:zeetle V-IV ; ! "" 
+zeetle:zeetlä V-IV ; ! "" ! Err/Orth
+yokol:yokol V-IV ; ! ""
+yıka:yıka V-TV ; ! ""
+yıkan:yıkan V-IV ; ! ""
+uyukla:uyukla V-IV ; ! ""
+tutuştur:tutuştur V-TV ; ! "" ! Der/Caus
 
 LEXICON Abbreviations
 
