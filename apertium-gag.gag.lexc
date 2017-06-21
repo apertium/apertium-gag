@@ -1135,6 +1135,11 @@ göz:göz N1 ; ! ""
 hayvan:hayvan N1 ; ! ""
 kompozitor:kompozitor N1 ; ! ""
 komunist:komunist N1 ; ! ""
+antikomunist:antikomunist N1 ; ! ""
+apparatura:apparatura N1 ; ! ""
+apteka:apteka N1 ; ! ""
+arabacı:arabacı N1 ; ! ""
+aranjirovka:aranjirovka N1 ; ! ""
 koordinator:koordinator N1 ; ! ""
 liste:liste N1 ; ! ""
 million:million N1 ; ! ""
@@ -1903,7 +1908,6 @@ fıkaara:fıkaara N1 ; ! ""
 filcan:filcan N1 ; ! ""
 futbol:futbol N1 ; ! ""
 aaçlık:aaçlı%{k%} N1 ; ! ""
-aaraştırma:aaraştırma N1 ; ! ""
                                     
 ansambl:ansambl N1 ; ! ""
 belediye:belediye N1 ; ! ""
@@ -2860,8 +2864,11 @@ siläh:silah N1 ; ! "" ! Err/Orth
 koruycu:koruycu N1 ; ! ""
 küülü:küülü N1 ; ! ""
 
+aaraştırma:aaraştırma N1 ; ! ""
 aaraştırıcı:aaraştırıcı N1 ; ! ""
+araştırmacı:araştırmacı N1 ; ! ""
 alıştırıcı:alıştırıcı N1 ; ! ""
+
 uçilişçe:uçilişçe N1 ; ! ""
 ürük:ürük N1 ; ! ""
 ţentr:ţentr N5 ; ! ""
@@ -2917,6 +2924,17 @@ kazak:qazaq N1 ; ! "" ! Err/Orth
 kazah:kazah N1 ; ! ""
 
 kendilik:kendili%{k%} N1 ; ! ""
+
+arestant:arestant N1 ; ! ""
+arheolog:arheolog N1 ; ! ""
+arhitektor:arhitektor N1 ; ! ""
+arhaizma:arhaizma N1 ; ! ""
+artist:artist N1 ; ! ""
+artistika:artistika N1 ; ! ""
+askerci:askerci N1 ; ! ""
+atasöz:atasöz N1 ; ! ""
+atestat:atestat N1 ; ! ""
+
 
 
 LEXICON ProperNouns 
@@ -7046,6 +7064,12 @@ uygula:uygula V-IV ; ! ""
 kavra:kavra V-IV ; ! ""
 kaybel:kaybel V-IV ; ! ""
 kayibol:kayibol V-IV ; ! ""
+
+büü:büü V-IV ; ! ""
+büüt:büü%{T%} V-TV ; ! "" ! Der/Caus
+
+atla:atla V-TV ; ! ""
+atlat:atla%{T%} V-TV ; ! "" ! Der/Caus
 
 LEXICON Abbreviations
 
