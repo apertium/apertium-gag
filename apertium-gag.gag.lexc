@@ -2881,6 +2881,9 @@ zayavleniya:zayavlenie N1 ; ! "" ! Err/Orth
 
 patriarh:patriarh N1 ; ! ""
 pat:pat N1 ; ! ""
+yürük:yürük N1 ; ! ""
+vertolötçik:vertolötçik N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
@@ -5671,6 +5674,12 @@ motivi:motivi A1 ; ! ""
 
 etnografik:etnografik A1 ; ! ""
 geografik:geografik A1 ; ! ""
+katolik:katolik A1 ; ! ""
+politehnik:politehnik A1 ; ! ""
+santehnik:santehnik A1 ; ! ""
+elektronik:elektronik A1 ; ! ""
+praktik:praktik A1 ; ! ""
+
 
 üzlü:üzlü A1 ; ! ""
 borçlu:borçlu A1 ; ! ""
