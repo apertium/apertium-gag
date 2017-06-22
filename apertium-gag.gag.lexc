@@ -369,11 +369,6 @@ LEXICON PLURAL
 %<pl%>:%>%{L%}%{A%}r CASES ;
 %<pl%>:%>%{L%}%{A%}r POSSESSIVES ;
 
-LEXICON NP-ORG
-%<np%>%<org%>%<nom%>: # ;
-%<np%>%<org%>: # ; !!N-INFL-COMMON-NONOM ;
-%<np%>%<org%>%<attr%>: # ;
-
 LEXICON ADV3
 %<adv%>: # ;
 
@@ -623,6 +618,10 @@ LEXICON N5
 LEXICON NP-TOP
 %<np%>%<top%>: FULL-NOMINAL-INFLECTION  ;
 %<np%>%<top%>:%' FULL-NOMINAL-INFLECTION  ; ! Err/Orth
+
+LEXICON NP-ORG
+%<np%>%<org%>: FULL-NOMINAL-INFLECTION ;
+%<np%>%<org%>%<attr%>: # ;
 
 LEXICON NP-TOP-RUS
 %<np%>%<top%>:%{☭%} FULL-NOMINAL-INFLECTION  ;
@@ -1161,6 +1160,7 @@ antikomunist:antikomunist N1 ; ! ""
 apparatura:apparatura N1 ; ! ""
 apteka:apteka N1 ; ! ""
 arabacı:arabacı N1 ; ! ""
+araba:araba N1 ; ! ""
 aranjirovka:aranjirovka N1 ; ! ""
 koordinator:koordinator N1 ; ! ""
 liste:liste N1 ; ! ""
@@ -1354,6 +1354,7 @@ jüri:jüri N1 ; ! ""
 hak:hak N1 ; ! ""
 haber:haber N1 ;
 halk:halk N1 ; ! ""
+alka:alka N1 ; ! ""
 harman:harman N1 ; ! ""
 hederlez:hederlez N1; ! ""
 volontör:volontör N1 ; ! ""
@@ -2049,6 +2050,7 @@ zavod:zavod N5 ; ! ""
 zmey:zmey N1 ; ! ""
 teritorial:teritorial N1 ;
 gubernator:gubernator N1 ;
+viţe%-gubernator:viţe%-gubernator N1 ; ! ""
 hakikat:hakikat N1 ; ! ""
 hallıklı:hallıklı N1 ; ! ""
 harakteri:harakteri N1 ; ! ""
@@ -2989,7 +2991,11 @@ köpek:köpek N1 ; ! ""
 abhaz:abhaz N1 ; ! ""
 bibliya:bibliya N1 ; ! ""
 
+türkücülük:türkücülü%{k%} N1 ; ! ""
+rezultat:rezultat N1 ; ! ""
+
 despotstvo:despotstvo N1 ; ! ""
+yubiley:yubiley N1 ; ! ""
 
 CD:CD%{ъ%} N1 ; ! ""
 TV:TV%{ъ%} N1 ; ! ""
@@ -2999,6 +3005,7 @@ LEXICON ProperNouns
 
 İllinois:İllinois NP-TOP ; ! ""
 İndiana:İndiana NP-TOP ; ! ""
+Karabah:Karabah NP-TOP ; ! ""
 Rio% de% Janeiro:Rio% de% Janeiro  NP-TOP ; ! ""
 Kirsovo:Kirsovo NP-TOP ; ! ""
 
@@ -3878,6 +3885,7 @@ Marmara:Marmara NP-TOP ; ! ""
 İstanbul:İstanbul NP-TOP ; ! ""
 İstanbul:İstambol NP-TOP ; ! "" ! Err/Orth
 Kostantinopol:Kostantinopol NP-TOP ; ! ""
+Konstantinopol:Konstantinopol NP-TOP ; ! ""
 Kurçu:Kurçu NP-TOP ; ! ""
 Tsonga:Tsonga NP-TOP ; ! ""
 Tudora:Tudora NP-TOP ; ! ""
@@ -4892,7 +4900,7 @@ FETÖ:FETÖ NP-ORG ; ! ""
 RMF:RMF NP-ORG ;
 SP:SP NP-ORG ;
 TİKA:TİKA NP-ORG ;
-GHT:GHT  NP-ORG ;
+GHT:GHT NP-ORG ;
 ÜS:ÜS NP-ORG ;
 GRT:GRT NP-ORG ;
 GR:GR NP-ORG ;
@@ -6644,6 +6652,8 @@ motivi:motivi A1 ; ! ""
 akıllı:akıllı A1 ; ! ""
 işsiz:işsiz A2 ; ! ""
 
+antihristän:antihristän A1 ; ! ""
+antikrizis:antikrizis A1 ; ! ""
 etnografik:etnografik A1 ; ! ""
 geografik:geografik A1 ; ! ""
 katolik:katolik A1 ; ! ""
@@ -6745,8 +6755,8 @@ türlü:türlü A2 ; ! ""
 mutlu:mutlu A1 ;
 uzun:uzun A1 ; ! ""
 pak:pak A1 ; 
-zoor:zoor A1 ;
-zoor:zor  A1 ; ! "" ! Err/Orth
+zoor:zoor A2 ;
+zoor:zor  A2 ; ! "" ! Err/Orth
 ayırı:ayırı A1 ; ! ""
 özel:özel A1 ; ! ""
 yaklaşık:yaklaşık A2 ; ! "approximate"
