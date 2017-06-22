@@ -1402,7 +1402,7 @@ küüy:küüy N1 ; ! ""
 kişi:kişi N1 ; ! ""
 komşu:komşu N1 ; ! ""
 köşe:köşe N1 ; 
-konstituşiya:Konstituşiya N1 ; ! ""
+konstituşiya:konstituşiya N1 ; ! ""
 kompoziţiya:kompoziţiya N1 ;
 kоntinent:kоntinent N1 ; ! ""
 kök:kök N1 ; ! ""
@@ -1411,8 +1411,9 @@ komiteti:komiteti N1 ; ! ""
 kuruluş:kuruluş N1 ;
 koloniya:koloniya N1 ; 
 klassifikaţiya:klassifikaţiya N1 ; ! ""
-Konstituţiya:Konstituţiya N1 ;
+konstituţiya:konstituţiya N1 ;
 konferenţiya:konferenţiya N1 ;
+konferenţiya:konferenşiya N1 ; ! Err/Orth
 küü:küü N1 ; ! ""
 kuved:kuved N1 ; !""
 klas:klas N1 ;
@@ -1445,6 +1446,7 @@ mafiya:mafiya N1 ; ! ""
 misiya:misiya N1 ; ! ""
 naţiya:naţiya N1 ; 
 miliţiya:miliţiya N1 ; ! ""
+miliţiya:milişiya N1 ; ! "" ! Err/Orth
 monografiya:monografiya N1 ; ! ""
 memleket:memleket N1 ;
 mifologiya:mifologiya N1 ; ! ""
@@ -3024,6 +3026,41 @@ paalılık:paalılı%{k%} N1 ; ! ""
 otelcilik:otelcili%{k%} N1 ; ! ""
 banknot:banknot N1 ; ! ""
 patriot:patriot N1 ; ! ""
+situaţiya:situaţiya N1 ; ! ""
+situaţiya:situatiya N1 ; ! "" ! Err/Orth
+
+statya:statya N1 ; ! ""
+seminariya:seminariya N1 ; ! ""
+registraţiya:registraţiya N1 ; ! ""
+prestupleniya:prestupleniya N1 ; ! ""
+politologiya:politologiya N1 ; ! ""
+konkurenţiya:konkurenţiya N1 ; ! ""
+konkurenţiya:konkurenşiya  N1 ; ! "" ! Err/Orth
+metod:metod N1 ; ! ""
+
+direkţiya:direkţiya N1 ; ! ""
+ediţiya:ediţiya N1 ; ! ""
+ekspediţiya:ekspediţiya N1 ; ! ""
+ekspoziţiya:ekspoziţiya N1 ; ! ""
+falisifikaţiya:falisifikaţiya N1 ; ! ""
+frakţiya:frakţiya N1 ; ! ""
+konfederaţiya:konfederaţiya N1 ; ! ""
+konfereniţiya:konfereniţiya N1 ; ! ""
+konstataţiya:konstataţiya N1 ; ! ""
+konvenţiya:konvenţiya N1 ; ! ""
+migraţiya:migraţiya N1 ; ! ""
+minaţiya:minaţiya N1 ; ! ""
+mobilizaţiya:mobilizaţiya N1 ; ! ""
+nominaţiya:nominaţiya N1 ; ! ""
+poliţiyacı:poliţiyacı N1 ; ! ""
+produkţiya:produkţiya N1 ; ! ""
+revolüţiyacı:revolüţiyacı N1 ; ! ""
+tradiţiya:tradiţiya N1 ; ! ""
+
+ekspert:ekspert N1 ; ! ""
+eksperiment:eksperiment N1 ; ! ""
+eksponat:eksponat N1 ; ! ""
+
 
 CD:CD%{ъ%} N1 ; ! ""
 TV:TV%{ъ%} N1 ; ! ""
@@ -3673,6 +3710,7 @@ Valkaneş:Valkaneş NP-TOP ; ! ""
 Gagauziya:Gagauziya NP-TOP ; ! ""
 Gagauziya:gagauziya NP-TOP ; ! "" ! Err/Orth
 Gagauziya:Gagauziye NP-TOP ; ! "" ! Err/Orth
+Gagauziya:Gagauzya NP-TOP ; ! "" ! Err/Orth
 Abhaziya:Abhaziya NP-TOP ; ! ""
 Argentina:Argentina NP-TOP ; ! ""
 Ankara:Ankara NP-TOP ; ! ""
@@ -3836,7 +3874,6 @@ Pensilvaniya:Pensilvaniya NP-TOP ; ! ""
 Pasifik:Pasifik NP-TOP ; ! ""
 Persiya:Persiya NP-TOP ; ! ""
 Rusiya:Rusiya NP-TOP ; ! ""
-Rumıniya:Rumıniya NP-TOP ; ! ""
 Sarıkamış:Sarıkamış NP-TOP ; ! ""
 Sibiriya:Sibiriya NP-TOP ; ! ""
 Somaliya:Somaliya NP-TOP ; ! ""
@@ -3867,7 +3904,11 @@ Vizantiya:Vizantiya NP-TOP ; ! ""
 İndiya:İndiya NP-TOP ; ! ""
 Şveţiya:Şveţiya NP-TOP ; ! ""
 Şveyţariya:Şveyţariya NP-TOP ; ! ""
-Romıniya:Romıniya NP-TOP ; ! ""
+Rumıniya:Rumıniya NP-TOP ; ! ""
+Rumıniya:Romeniya NP-TOP ; ! "" ! Err/Orth
+Rumıniya:Romıniya NP-TOP ; ! "" ! Err/Orth
+Rumıniya:Rumaniya NP-TOP ; ! "" ! Err/Orth
+
 Ukraina:Ukraina NP-TOP ; ! ""
 Ungariya:Ungariya NP-TOP ; ! ""
 Norvegiya:Norvegiya NP-TOP ; ! ""
@@ -4080,7 +4121,6 @@ Orhan:Orhan NP-TOP ; ! ""
 Özerk:Özerk NP-TOP ; ! ""
 Pitcairn:Pitcairn NP-TOP ; ! ""
 Rodopi:Rodopi NP-TOP ; ! ""
-Romeniyada:Romeniyada NP-TOP ; ! ""
 Şabran:Şabran NP-TOP ; ! ""
 Salonik:Salonik NP-TOP ; ! ""
 Samoa:Samoa NP-TOP ; ! ""
@@ -6680,6 +6720,7 @@ motivi:motivi A1 ; ! ""
 akıllı:akıllı A1 ; ! ""
 işsiz:işsiz A2 ; ! ""
 tekrarsız:tekrarsız A2 ; ! ""
+sankţiyasız:sankţiyasız A2 ; ! ""
 
 antihristän:antihristän A1 ; ! ""
 antikrizis:antikrizis A1 ; ! ""
@@ -7600,6 +7641,10 @@ giidir:giidir V-TV ; ! "" ! Der/Caus
 otla:otla V-IV ; ! ""
 
 urumla:urumla V-IV ; ! ""
+
+yayıl:yayıl  V-IV ; ! ""
+yayınnan:yayın%>%{L%}an V-IV ; ! ""
+gazifikaţiyala:gazifikaţiyala V-IV ; ! ""
 
 
 LEXICON Abbreviations
