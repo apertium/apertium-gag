@@ -28,14 +28,15 @@ Alphabet
     %{k%}:k
     %{n%}:n %{n%}:0
     %{в%}:y %{в%}:0
+    %{и%}:i %{и%}:0
 
     %{e%}:e  
     %{u%}:u 
 
     %{ö%}:0 ! Front rounded
     %{o%}:0 ! Back rounded
-    %{и%}:0 ! Front
-    %{ы%}:0 ! Back
+    %{ь%}:0 ! Front
+    %{ъ%}:0 ! Back
 
     %{·%}:0 
     %{☭%}:0 
@@ -160,6 +161,10 @@ Rules
 
 !@ ç:ç o:o c:c u:u {k}:0 >:0 {s}:0 {I}:u {n}:0 >:0 {N}:n {I}:u n:n
 
+"Epenthetic i in consonant clusters"
+%{и%}:0 <=> _ .#. ; 
+
+!@ s:s p:p e:e k:k t:t a:a k:k l:l {и}:i >:0 {й}:y i:i
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!                   A S S I M I L A T I O N 
@@ -180,8 +185,10 @@ Vx:a <=> _ [ %{h%}:0 | %{k%}:0 ] %>: %{й%}: %{A%}:  ;
 
 !@ p:p a:a d:d i:i ş:ş a:a {h}:0 >:0 {й}:0 {A}:a
 
+!@ u:u r:r o:o {k}:0 >:0 {й}:0 {A}:o  !!??!!
+
 "{D} changed to t when after a stem-final voiceless consonant" 
-%{D%}:t <=> :CnsVcls %>: (:0) _ ; 
+%{D%}:t <=> :CnsVcls/:0* %>: (:0) _ ; 
 
 !@ y:y o:o k:k >:0 {й}:0 {D}:t {I}:u r:r
  
@@ -264,3 +271,6 @@ Vx:Vy <=> _ %{·%}: %>: %{E%}:Vy ;
 %{л%}:n <=> :l/:0* %{i%}: _ ;
 
 !@ b:b i:i l:l {·}:0 >:0 {i}:i {л}:n >:0 {D}:d {I}:i
+
+
+

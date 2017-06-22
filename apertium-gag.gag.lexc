@@ -104,31 +104,36 @@ Multichar_Symbols
 
 ! Archiphonemes
 
-%{u%}              ! 
-%{k%}              ! k 0
-%{к%}              ! k g
-%{h%}              ! h 0
-%{L%}              ! l n
+%{E%}              ! ê e 
+%{A%}              ! a e ä
 %{I%}              ! i ı ü u
+
+%{y%}              ! i ı ü u 0
 %{i%}              ! i ı ü u 0 
 %{a%}              ! a e
-%{n%}              ! n 0
-%{s%}              ! s 0 
-%{y%}              ! i ı ü u 0
-%{A%}              ! a e ä
-%{й%}              ! y
-%{E%}              ! ê e y
-%{e%}              ! e
-%{в%}              ! 0
+%{e%}              ! e            ! Surface 'e' with back harmony
+
+%{L%}              ! l n          ! Plural
 %{N%}              ! n 0
+%{л%}              ! l n          ! Passive
+
 %{D%}              ! d t
 %{T%}              ! t d 
-%{л%}              ! l n
+%{к%}              ! k g
+
+%{n%}              ! n 0
+%{s%}              ! s 0 
+%{й%}              ! y
+
+%{k%}              ! k 0
+%{h%}              ! h 0
+%{в%}              ! 0
+%{и%}              ! i 0          ! Epenthetic vowel with consonant clusters
 
 %{ö%}              ! Front rounded
 %{o%}              ! Back rounded
-%{и%}              ! Front
-%{ы%}              ! Back
+%{ь%}              ! Front
+%{ъ%}              ! Back
 
 
 %{☭%}              ! Loan word phonology
@@ -205,6 +210,23 @@ LEXICON V-PERS-AOR
 %<ifi%>:%>%{й%}%{D%}%{I%} V-PERS-S2 ;
 %<nfh%>:%>%{й%}m%{I%}ş V-PERS-S1 ;
 
+LEXICON V-PERS-POSS
+%<px1sg%>:%>%{i%}m #  ;
+%<px2sg%>:%>%{i%}n # ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} #  ;
+%<px1pl%>:%>%{i%}m%{I%}z # ;
+%<px2pl%>:%>%{i%}n%{I%}z #  ;
+                         # ;
+
+LEXICON V-PERS-POSS-FUT
+%<px1sg%>:%{A%}%>m # ; 
+%<px2sg%>:%{A%}%>n # ; 
+%<px3sp%>:%{e%}%>k # ; 
+%<px1pl%>:%{a%}%>z # ;
+%<px2pl%>:%{a%}%>n%{I%}z # ; 
+%<px3pl%>:%{e%}k%>%{L%}%{A%}r # ; 
+
+
 !LEXICON V-TENSE-ABIL
 !%<abil%>%<neg%>:%>%{й%}%{A%}m%{A%} V-FINITE-REGULAR_NEGATIVE ;
 !%<abil%>:%>%{й%}%{A%}bil V-FINITE-REGULAR_NEGATIVE ;
@@ -241,15 +263,14 @@ LEXICON V-GPR-SUBST
 %<subst%>: SUBST ;
 %<subst%>%<pl%>:%>%{L}%{A%}r SUBST ;
 
-
 LEXICON V-GPR
 
-%<gpr_rsub%>:%>%{й%}%{A%}n V-GPR-SUBST ;
-!%<gpr_fut%>:%>%{й%}%{A%}c%{a%}%{k%} V-PERS-FUT ; !POSSESSIVES ;
-%<gpr_fut%>:%>%{й%}%{A%}c V-PERS-FUT ; !POSSESSIVES ;
+%<gpr_fut%>:%>%{й%}%{A%}c      V-PERS-POSS-FUT ; 
+%<gpr_past%>:%>%{D%}%{I%}%{k%} V-PERS-POSS ;
+
+%<gpr_rsub%>:%>%{й%}%{A%}n     V-GPR-SUBST ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
-%<gpr_past2%>:%>%{D%}%{I%}%{k%} POSSESSIVES ;
-%<neg%>%<gpr_past2%>:%>m%{A%}%>%{D%}%{I%}k POSSESSIVES ;
+%<neg%>%<gpr_past%>:%>m%{A%}%>%{D%}%{I%}k POSSESSIVES ;
 %<gpr_aor%>:%>%{A%}r #  ;
 
 LEXICON V-GNA
@@ -2763,13 +2784,15 @@ dramaturg:dramaturg N1 ; ! ""
 bibliotekacı:bibliotekacı N1 ; ! ""
 üürenici:üürenici N1 ; ! ""
 çevirici:çevirici N1 ; ! ""
-spektakli:spektakli N1 ; ! ""
 kiyatçık:kiyatçık N1 ; ! ""
 tamojnik:tamojnik N1 ; ! ""
 park:park N1 ; ! ""
 final:final N1 ; ! ""
 annadıl:annadıl N1 ; ! ""
-spektakl:spektakl N5 ; ! ""
+perspektiva:perspektiva N1 ; ! ""
+
+spektakl:spektakl%{и%} N1 ; ! ""
+
 voleybol:voleybol N1 ; ! ""
 devrim:devrim N1 ; ! ""
 albom:albom N1 ; ! ""
@@ -2937,6 +2960,9 @@ askerci:askerci N1 ; ! ""
 atasöz:atasöz N1 ; ! ""
 atestat:atestat N1 ; ! ""
 
+kalendar:kalendar N1 ; ! ""
+tematika:tematika N1 ; ! ""
+urok:uro%{k%} N1 ; ! ""
 
 
 LEXICON ProperNouns 
