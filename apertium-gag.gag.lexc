@@ -245,7 +245,8 @@ LEXICON V-GPR-SUBST
 LEXICON V-GPR
 
 %<gpr_rsub%>:%>%{й%}%{A%}n V-GPR-SUBST ;
-%<gpr_fut%>:%>%{й%}%{A%}c%{a%}%{k%} POSSESSIVES ;
+!%<gpr_fut%>:%>%{й%}%{A%}c%{a%}%{k%} V-PERS-FUT ; !POSSESSIVES ;
+%<gpr_fut%>:%>%{й%}%{A%}c V-PERS-FUT ; !POSSESSIVES ;
 %<gpr_nfh%>:%>m%{I%}ş V-GPR-SUBST ;
 %<gpr_past2%>:%>%{D%}%{I%}%{k%} POSSESSIVES ;
 %<neg%>%<gpr_past2%>:%>m%{A%}%>%{D%}%{I%}k POSSESSIVES ;
