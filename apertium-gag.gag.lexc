@@ -2964,8 +2964,36 @@ kalendar:kalendar N1 ; ! ""
 tematika:tematika N1 ; ! ""
 urok:uro%{k%} N1 ; ! ""
 
+iyecek:iyecek N1 ; ! ""
+italyan:italyan N1 ; ! ""
+istorik:istorik N1 ; ! ""
+istoriyacı:istoriyacı N1 ; ! ""
+incener:incener N1 ; ! ""
+incener:incen%{e%}r  N1 ; ! "" ! Err/Orth
+imperatorluk:imperatorlu%{k%} N1 ; ! ""
+ilüstrasyon:ilüstrasyon N1 ; ! ""
+imperator:imperator N1 ; ! ""
+
+kompyuter:kompyutor N1 ; ! "" ! Err/Orth
+kompyuter:kompyuter N1 ; ! "" 
+
+kombatant:kombatant N1 ; ! ""
+komisariat:komisariat N1 ; ! ""
+konservatoriya:konservatoriya N1 ; ! ""
+kopeyka:kopeyka N1 ; ! ""
+köpek:köpek N1 ; ! ""
+
 
 LEXICON ProperNouns 
+
+İllinois:İllinois NP-TOP ; ! ""
+İndiana:İndiana NP-TOP ; ! ""
+Rio% de% Janeiro:Rio% de% Janeiro  NP-TOP ; ! ""
+Kirsovo:Kirsovo NP-TOP ; ! ""
+
+Kişinöv:Kişinöv NP-TOP ; ! ""
+Kişinöv:Kişnov NP-TOP ; ! "" ! Err/Orth
+
 
 Balkariya:Balkariya NP-TOP ; ! ""
 Tübingen:Tübingen NP-TOP ; ! ""
@@ -3442,7 +3470,6 @@ Kroaţiya:Kroaţiya NP-TOP ; ! ""
 Kütahiya:Kütahiya NP-TOP ; ! ""
 Karbaliya:Karbaliya NP-TOP ; ! ""
 Komrat:Komrat NP-TOP ; ! ""
-Kişinöv:Kişinöv NP-TOP ; ! ""
 Kareliya:Kareliya NP-TOP ; ! ""
 Kırgızstan:Kırgızstan NP-TOP ; ! ""
 Kırgızstan:Kirgizstan NP-TOP ; ! "" ! Dir/LR
@@ -3604,6 +3631,8 @@ Akdeniz:Akdeniz NP-TOP ; ! ""
 Karadeniz:Karadeniz NP-TOP ; ! ""
 Marmara:Marmara NP-TOP ; ! ""
 İstanbul:İstanbul NP-TOP ; ! ""
+İstanbul:İstambol NP-TOP ; ! "" ! Err/Orth
+Kostantinopol:Kostantinopol NP-TOP ; ! ""
 Kurçu:Kurçu NP-TOP ; ! ""
 Tsonga:Tsonga NP-TOP ; ! ""
 Tudora:Tudora NP-TOP ; ! ""
@@ -4919,6 +4948,8 @@ Serinhisar:Serinhisar NP-TOP ; ! ""
 Serinyol:Serinyol NP-TOP ; ! ""
 Side:Side NP-TOP ; ! ""
 Simav:Simav NP-TOP ; ! ""
+Simferopol:Simferopol NP-TOP ; ! ""
+Simferopol:Simperopol NP-TOP ; ! "" ! Err/Orth
 Sındırgı:Sındırgı NP-TOP ; ! ""
 Şiran:Şiran NP-TOP ; ! ""
 Sivrihisar:Sivrihisar NP-TOP ; ! ""
@@ -7097,6 +7128,8 @@ büüt:büü%{T%} V-TV ; ! "" ! Der/Caus
 
 atla:atla V-TV ; ! ""
 atlat:atla%{T%} V-TV ; ! "" ! Der/Caus
+
+inandır:inandır V-TV ; ! "" ! Der/Caus
 
 LEXICON Abbreviations
 
