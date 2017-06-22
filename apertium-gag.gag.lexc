@@ -1282,7 +1282,6 @@ dekabr:dekabr N1 ; ! ""
 deputat:deputat N1 ; ! ""
 direktor:direktor N1 ; ! ""
 din:din N1 ; ! ""
-dünneyä:dünneyä N1 ; 
 diskiriminaţiya:diskiriminaţiya N1 ;
 derin:derin N1 ; ! ""
 deniz:deniz N1 ; ! ""
@@ -1291,8 +1290,12 @@ dezinformaţiya:dezinformaţiya N1 ;
 dramaturgiya:dramaturgiya N1 ;
 dönmää:dönmää N1 ; ! ""
 
-dünnää:dünnää N1 ; ! ""
 dünnä:dünnä N1 ; ! ""
+dünnä:dünne N1 ; ! "" ! Err/Orth
+dünnä:dünnee N1 ; ! "" ! Err/Orth
+dünnä:dünnää N1 ; ! "" ! Err/Orth
+dünnä:dünna N1 ; ! "" ! Err/Orth
+dünnä:dünney N1 ; ! "" ! Err/Orth
 dünnä:dünä N1 ; ! "" ! Err/Orth
 
 dolayında:dolayında N1 ; ! ""
@@ -1314,7 +1317,6 @@ erin:erin N1 ;
 
 fayda:fayda N1 ; ! "benefit"
 festival:festival N1 ; ! ""
-fevral:fevral N1 ; ! ""
 fizikacı:fizikacı N1 ; ! ""
 filologiya:filologiya N1 ; ! ""
 frakiya:frakiya N1 ;
@@ -1438,7 +1440,6 @@ moldovan:moldovan N1 ;
 musaafir:musaafir N1 ;
 muzika:muzika N1 ; ! ""
 muzika:muzıka N1 ; ! "" ! Err/Orth
-mart:mart N1 ; ! ""
 mafiya:mafiya N1 ; ! ""
 misiya:misiya N1 ; ! ""
 naţiya:naţiya N1 ; 
@@ -1646,18 +1647,23 @@ gagauzça:gagauzça N1 ; ! ""
 rusça:rusça N1 ; ! ""
 romınca:romınca N1 ;
 
+yanvar:yanvar N1 ;
+fevral:fevral N1 ; ! ""
+mart:mart N1 ; ! ""
+aprel:aprel N1 ;
+may:may N1 ; ! ""
+
+temmuz:temmuz N1 ;
 avgust:avgust N1 ;
 avgust:august N1 ; ! Err/Orth
-temmuz:temmuz N1 ;
 eylül:eylül N1 ;
-kasım:kasım N1 ;
+noyabr:noyabr%{ь%} N1 ; ! ""
 aralık:aralı%{k%} N1 ;
+
 ocak:ocak N1 ; 
 şubat:şubat N1 ;
-mart:mart N1 ;
 nisan:nisan N1 ;
-aprel:aprel N1 ;
-yanvar:yanvar N1 ;
+kasım:kasım N1 ;
 
 izmet:izmet N1 ;
 kıymet:kıymet N1 ; ! ""
@@ -1790,7 +1796,6 @@ gümüş:gümüş N1 ; ! ""
 ihtiar:ihtiar N1 ; ! ""
 klisä:klisä N1 ; ! ""
 masal:masal N1 ; ! ""
-may:may N1 ; ! ""
 ödül:ödül N1 ; ! ""
 sayfa:sayfa N1 ; ! ""
 sonra:sonra N1 ; ! ""
@@ -1970,7 +1975,6 @@ yazıcı:yazici N1 ; ! "" ! Err/Orth
 yannışlık:yannışlı%{k%} N1 ;
 agenstvos:agenstvos N1 ; ! ""
 departament:departament N1 ; ! ""
-dünney:dünney N1 ; ! ""
 durum:durum N1 ; ! ""
 medali:medali N1 ; ! ""
 mongol:mongol N1 ; ! ""
@@ -2491,7 +2495,7 @@ laam:laam N1 ; ! ""
 lazari:lazari N1 ; ! ""
 lelek:lelek N1 ; ! ""
 leo:leo  N1 ; ! ""
-Kadın:kadın N1 ; ! ""
+kadın:kadın N1 ; ! ""
 
 bak:bak N1 ; ! ""
 bakış:bakış N1 ; ! ""
@@ -2499,11 +2503,12 @@ näända:näända N1 ; ! ""
 naşêy:naşêy N1 ; ! ""
 nogay:nogay N1 ; ! ""
 nomara:nomara N1 ; ! ""
-noyabri:noyabri N1 ; ! ""
-ocağ:ocağ N1 ; ! ""
+
+
 operacı:operacı N1 ; ! ""
 ordeni:ordeni N1 ; ! ""
-orqanizm:orqanizm N1 ; ! ""
+organizm:orqanizm N1 ; ! "" ! Err/Orth
+organizm:organizm N1 ; ! "" 
 ortalık:ortalı%{k%} N1 ; ! ""
 pali:pali N1 ; ! ""
 panayır:panayır N1 ; ! ""
@@ -2518,7 +2523,6 @@ persica:persica  N1 ; ! ""
 rumınca:rumınca N1 ; ! ""
 razgeler:razgeler N1 ; ! ""
 refren:refren N1 ; ! ""
-rektor:rektor N1 ; ! ""
 ruba:ruba N1 ; ! ""
 salar:salar N1 ; ! ""
 şarapçılık:şarapçılı%{k%} N1 ; ! ""
@@ -2998,6 +3002,13 @@ rezultat:rezultat N1 ; ! ""
 despotstvo:despotstvo N1 ; ! ""
 yubiley:yubiley N1 ; ! ""
 buhgalter:buhgalter N1 ; ! ""
+
+prorektor:prorektor N1 ; ! ""
+korektor:korektor N1 ; ! ""
+rektorat:rektorat N1 ; ! ""
+rektor:rektor N1 ; ! ""
+rektor:rektör N1 ; ! "" ! Err/Orth
+
 
 CD:CD%{ъ%} N1 ; ! ""
 TV:TV%{ъ%} N1 ; ! ""
@@ -7008,6 +7019,7 @@ yazısız:yazısız A2 ;
 ansız:ansız A2 ;
 
 bütündünnä:bütündünnä A1 ; ! ""
+bütündünnä:bütündünnää A1 ; ! "" ! Err/Orth
 kapalı:kapalı A1 ; ! ""
 başarılı:başarılı A1 ; ! ""
 karşılıklı:karşılıklı A1 ; ! ""
