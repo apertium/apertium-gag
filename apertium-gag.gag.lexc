@@ -1491,6 +1491,7 @@ profesör:profesör N1 ; ! ""
 politika:politika N1 ; ! ""
 prezident:prezident N1 ; ! ""
 padişah:padişa%{h%} N1 ; ! ""
+padişah:padışaa N1 ; ! "" ! Err/Orth
 para:para N1 ; ! ""
 populyasiya:populyasiya N1 ; ! ""
 poziţiya:poziţiya N1; ! ""
@@ -3016,7 +3017,13 @@ rektor:rektor N1 ; ! ""
 rektor:rektör N1 ; ! "" ! Err/Orth
 
 izmetçi:izmetçi N1 ; ! ""
-
+otkrıtka:otkrıtka N1 ; ! ""
+otpusk:otpusk N1 ; ! ""
+otvetstvennost:otvetstvennost N1 ; ! ""
+paalılık:paalılı%{k%} N1 ; ! ""
+otelcilik:otelcili%{k%} N1 ; ! ""
+banknot:banknot N1 ; ! ""
+patriot:patriot N1 ; ! ""
 
 CD:CD%{ъ%} N1 ; ! ""
 TV:TV%{ъ%} N1 ; ! ""
@@ -7589,6 +7596,11 @@ inandır:inandır V-TV ; ! "" ! Der/Caus
 
 gii:gii V-IV ; ! "" 
 giidir:giidir V-TV ; ! "" ! Der/Caus
+
+otla:otla V-IV ; ! ""
+
+urumla:urumla V-IV ; ! ""
+
 
 LEXICON Abbreviations
 
