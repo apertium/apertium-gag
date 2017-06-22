@@ -2846,6 +2846,7 @@ protoierey:protoierey N1 ; ! ""
 burs:burs N1 ; ! ""
 tur:tur N1 ; ! ""
 gimn:gimn N1 ; ! ""
+giim:giim N1 ; ! ""   ! FIXME: CHECK
 sıracık:sıracık N1 ; ! ""
 ödek:ödek N1 ; ! ""
 ayoz:ayoz N1 ; ! "ангел"
@@ -2996,6 +2997,7 @@ rezultat:rezultat N1 ; ! ""
 
 despotstvo:despotstvo N1 ; ! ""
 yubiley:yubiley N1 ; ! ""
+buhgalter:buhgalter N1 ; ! ""
 
 CD:CD%{ъ%} N1 ; ! ""
 TV:TV%{ъ%} N1 ; ! ""
@@ -7563,6 +7565,9 @@ atla:atla V-TV ; ! ""
 atlat:atla%{T%} V-TV ; ! "" ! Der/Caus
 
 inandır:inandır V-TV ; ! "" ! Der/Caus
+
+gii:gii V-IV ; ! "" 
+giidir:giidir V-TV ; ! "" ! Der/Caus
 
 LEXICON Abbreviations
 
