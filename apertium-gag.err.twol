@@ -19,6 +19,8 @@ Alphabet
   %{T%}:t %{T%}:d
   %{D%}:d %{D%}:t
 
+  %{e%}:e
+
   %{a%}:a %{a%}:e %{a%}:ä %{a%}:ê %{a%}:0
   %{i%}:u %{i%}:i %{i%}:ı %{i%}:ü %{i%}:0
   %{y%}:u %{y%}:i %{y%}:ı %{y%}:ü %{y%}:0
@@ -33,11 +35,12 @@ Alphabet
   %{N%}:n %{N%}:0
   %{L%}:l %{L%}:n
   %{л%}:l %{л%}:n
+  %{и%}:0 %{и%}:i 
 
   %{ö%}:0 ! Front rounded
   %{o%}:0 ! Back rounded
-  %{и%}:0 ! Front
-  %{ы%}:0 ! Back
+  %{ь%}:0 ! Front unrounded 
+  %{ъ%}:0 ! Back unrounded
 
 
   %{·%}:0
