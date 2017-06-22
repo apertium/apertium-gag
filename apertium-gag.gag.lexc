@@ -3061,6 +3061,16 @@ ekspert:ekspert N1 ; ! ""
 eksperiment:eksperiment N1 ; ! ""
 eksponat:eksponat N1 ; ! ""
 
+problem:problem N1 ; ! ""
+prodüsor:prodüsor N1 ; ! ""
+tradiţion:tradiţion N1 ; ! ""
+moda:moda N1 ; ! ""
+konvoy:konvoy N1 ; ! ""
+konvert:konvert N1 ; ! ""
+familiya:familiya N1 ; ! ""
+ekzamen:ekzamen N1 ; ! ""
+ekskavator:ekskavator N1 ; ! ""
+
 
 CD:CD%{ъ%} N1 ; ! ""
 TV:TV%{ъ%} N1 ; ! ""
