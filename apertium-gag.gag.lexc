@@ -755,6 +755,7 @@ LEXICON ABBR-INIT
 %<abbr%>%+A%.:A%. ABBR-INIT ; ! ""
 %<abbr%>%+Ä%.:Ä%. ABBR-INIT ; ! ""
 %<abbr%>%+Â%.:Â%. ABBR-INIT ; ! ""
+%<abbr%>%+Á%.:Á%. ABBR-INIT ; ! ""
 %<abbr%>%+B%.:B%. ABBR-INIT ; ! ""
 %<abbr%>%+V%.:V%. ABBR-INIT ; ! ""
 %<abbr%>%+G%.:G%. ABBR-INIT ; ! ""
@@ -2096,6 +2097,7 @@ ruus:ruus N1 ; ! ""
 sandık:sandık N1 ; ! ""
 saz:saz N1 ; ! ""
 sekretar:sekretar N1 ; ! ""
+sekretar:sekreter N1 ; ! "" ! Err/Orth
 senat:senat N1 ; ! ""
 sırt:sırt N1 ; ! ""
 şişä:şişä N1 ; ! ""
@@ -2653,7 +2655,7 @@ top:top N1 ; ! ""
 tork:tork  N1 ; ! ""
 türkçe:türkçe N1 ; ! ""
 türkolog:türkolog N1 ; ! ""
-türksoy:türksoy N1 ; ! ""
+!türksoy:türksoy N1 ; ! ""
 ülke:ülke N1 ; ! ""
 tekrar:tekrar N1 ; ! ""
 
@@ -3070,6 +3072,10 @@ konvert:konvert N1 ; ! ""
 familiya:familiya N1 ; ! ""
 ekzamen:ekzamen N1 ; ! ""
 ekskavator:ekskavator N1 ; ! ""
+itelmen:itelmen N1 ; ! ""
+kalkıntıcı:kalkıntıcı N1 ; ! ""
+
+katedral:katedral N1 ; ! ""
 
 
 CD:CD%{ъ%} N1 ; ! ""
@@ -3079,6 +3085,8 @@ OMONcu:OMONcu N1 ; ! ""
 LEXICON ProperNouns 
 
 İllinois:İllinois NP-TOP ; ! ""
+Kantakuze:Kantakuze NP-TOP ; ! ""
+Kaljujärv:Kaljujärv NP-TOP ; ! ""
 İndiana:İndiana NP-TOP ; ! ""
 Karabah:Karabah NP-TOP ; ! ""
 Rio% de% Janeiro:Rio% de% Janeiro  NP-TOP ; ! ""
@@ -3230,6 +3238,7 @@ Minnesota:Minnesota NP-TOP ; ! ""
 Mississippi:Mississippi NP-TOP ; ! ""
 Missouri:Missouri NP-TOP ; ! ""
 Moldava:Moldava NP-TOP ; ! ""
+Moldava:moldava NP-TOP ; ! "" ! Err/Orth
 Monaco:Monaco NP-TOP ; ! ""
 Montana:Montana NP-TOP ; ! ""
 Montserrat:Montserrat NP-TOP ; ! ""
@@ -3320,6 +3329,7 @@ Wales:Wales NP-TOP ; ! ""
 Wien:Wien NP-TOP ; ! ""
 
 Veronika:Veronika NP-ANT-F ; ! ""
+Kleopatra:Kleopatra NP-ANT-F ; ! ""
 
 
 Balkariya:Balkariya NP-TOP ; ! ""
@@ -3517,6 +3527,13 @@ Gertrud:Gertrud NP-ANT-F ; ! ""
 Helend:Helend NP-ANT-F ; ! ""
 Ingrid:Ingrid NP-ANT-F ; ! ""
 Eberhard:Eberhard NP-ANT-M ; ! ""
+
+Jozeph:Jozeph NP-ANT-M ; ! ""
+Jožef:Jožef NP-ANT-M ; ! ""
+Josip:Josip NP-ANT-M ; ! ""
+Johann:Johann NP-ANT-M ; ! ""
+
+
 Ioan:Ioan NP-ANT-M ; ! ""
 Herbert:Herbert  NP-ANT-M ; ! ""
 Ott:Ott NP-ANT-M ; ! ""
@@ -3712,6 +3729,7 @@ Türkân:Türkân NP-ANT-F ; ! ""
 Evropa:Evropa NP-TOP ; ! ""
 Efiopiya:Efiopiya NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
+Amerika:amerika NP-TOP ; ! "" ! Err/Orth
 Saudi:Saudi NP-TOP ; ! ""
 Siriya:Siriya NP-TOP ; ! ""
 Üülen:Üülen NP-TOP ; ! ""
@@ -6727,6 +6745,7 @@ merak:merak A1 ; ! ""
 miilli:miilli A1 ; ! ""
 motivi:motivi A1 ; ! ""
 
+juridik:juridik A1 ; ! ""
 akıllı:akıllı A1 ; ! ""
 işsiz:işsiz A2 ; ! ""
 tekrarsız:tekrarsız A2 ; ! ""
@@ -6921,9 +6940,11 @@ gözäl:gözäl A2 ; ! ""
 gelän:gelän A1 ; ! ""
 islää:islää A1 ; ! ""
 ii:ii A2 ; ! "good"
+ii:iyi A2 ; ! !! ! Err/Orth
 yakın:yakın A1 ; ! ""
 yabancı:yabancı A2 ;  ! ""
 milli:milli A1 ; ! ""
+milli:millli A1 ; ! "" ! Err/Orth
 şannı:şannı A1 ;
 temel:temel A1 ; ! ""
 tez:tez A2 ;  ! ""
@@ -7656,11 +7677,16 @@ yayıl:yayıl  V-IV ; ! ""
 yayınnan:yayın%>%{L%}an V-IV ; ! ""
 gazifikaţiyala:gazifikaţiyala V-IV ; ! ""
 
+kailol:kailol V-IV ; ! ""
+
+karıştır:karıştır V-TV ; ! ""
+
 
 LEXICON Abbreviations
 
 A%.:A%. ABBR-INIT ; ! ""
 Â%.:Â%. ABBR-INIT ; ! ""
+Á%.:Á%. ABBR-INIT ; ! ""
 B%.:B%. ABBR-INIT ; ! ""
 V%.:V%. ABBR-INIT ; ! ""
 G%.:G%. ABBR-INIT ; ! ""
