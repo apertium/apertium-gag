@@ -443,8 +443,9 @@ LEXICON CLITIC-COPULA
 LEXICON CASES
 %<nom%>: CLITIC-COPULA ;
 %<gen%>:%>%{N%}%{I%}n # ;
+%<gen%>%<subst%>:%>%{N%}%{I%}nk%{I%}%{n%} SUBST ;
 %<loc%>:%>%{D%}%{A%} CLITIC-COPULA ;
-%<loc%>%<subst%>:%>%{D%}%{A%}k%{I%}%{n%} SUBST ;
+%<loc%>:%>%{D%}%{A%}k%{I%}%{n%} SUBST-ATTR ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<abl%>:%>n%{A%}n # ;
 %<acc%>:%>%{й}%{I%} # ;

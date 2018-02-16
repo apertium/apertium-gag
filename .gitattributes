@@ -15,6 +15,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
+dev/eval.tsv -text
 dev/spellrelax.twol -text
 dev/verbs/Makefile -text
 dev/verbs/verbs.lexc -text
