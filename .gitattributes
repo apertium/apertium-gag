@@ -43,3 +43,8 @@ tests/test.py -text
 texts/aorpre.txt -text
 texts/sentences.txt -text
 texts/verbal.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
