@@ -277,7 +277,7 @@ LEXICON V-GNA
 
 %<gna_perf%>:%>%{й%}%{I%}p # ;
 %<gna_impf%>:%>%{й%}%{A%}r%{A%}k # ;
-%<gna_ferq%>:%>%{A%} # ;
+%<gna_impf%>:%>%{A%} # ;
 
 %<gna_when1%>:%>%{й}%{I%}nc%{A%}%{k%} # ;
 %<gna_when2%>:%>%{D%}%{I%}yn%{A%}n # ;
@@ -290,7 +290,7 @@ LEXICON V-GNA
 %<gna_cond%>:%>s%{A%} V-PERS-S2 ;
 %<gna_while%>:%>k%{A%}n%{A%} # ; ! Err/Orth
 %<gna_while%>:%>k%{A%}n # ;
-%<gna_2%>:%>%{A%}rs%{A%} # ;
+%<aor%>%<gna_cond%>:%>%{A%}rs%{A%} # ;
 
 
 LEXICON V-NONFINITE
