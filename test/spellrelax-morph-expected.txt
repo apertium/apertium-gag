@@ -1,0 +1,6 @@
+[9-VFsr-0fPwZ#0] ^baș/baş<n><nom>/baş<n><attr>/baş<n><nom>+i<cop><aor><p3><sg>$
+[/9-VFsr-0fPwZ]
+[f04YWqrNY8hE#0] ^operațiya/operaţiya<n><nom>/operaţiya<n><attr>/operaţiya<n><nom><err_orth>/operaţiya<n><attr><err_orth>/operaţiya<n><nom>+i<cop><aor><p3><sg>/operaţiya<n><nom>+i<cop><aor><p3><sg><err_orth>$
+[/f04YWqrNY8hE]
+[hMaROxm9b_H9#0] ^Șvețiya/Șveţi<np><top><dat><err_orth>/Şveţiya<np><top><nom>/Șveţiya<np><top><nom>/Şveţiya<np><top><nom><err_orth>/Șveţiya<np><top><nom><err_orth>/Şveţiya<np><top><nom>+i<cop><aor><p3><sg>/Șveţiya<np><top><nom>+i<cop><aor><p3><sg>/Şveţiya<np><top><nom>+i<cop><aor><p3><sg><err_orth>/Șveţiya<np><top><nom>+i<cop><aor><p3><sg><err_orth>$
+[/hMaROxm9b_H9]

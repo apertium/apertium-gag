@@ -1,0 +1,60 @@
+[0I_iRE-zQb03#0] ^deyecäm/de\<v\>\<tv\><fut><p1><sg>/de\<v\>\<tv\><gpr_fut><px1sg><err_orth>/de\<v\>\<tv\><fut><p1><sg><err_orth>$
+[/0I_iRE-zQb03]
+[0Qb2kMbrv6zN#0] ^yaşayacanız/yaşa\<v\>\<iv\><gpr_fut><px2pl>/yaşa\<v\>\<iv\><fut><p2><pl>$
+[/0Qb2kMbrv6zN]
+[3um4XHnsXfAz#0] ^gidecäm/git\<v\>\<iv\><fut><p1><sg>/git\<v\>\<iv\><gpr_fut><px1sg><err_orth>/git\<v\>\<iv\><gpr_fut><px1sg><err_orth>/git\<v\>\<iv\><fut><p1><sg><err_orth>/git\<v\>\<iv\><fut><p1><sg><err_orth>$
+[/3um4XHnsXfAz]
+[5reI_qyOEjkc#0] ^deyeceklär/de\<v\>\<tv\><fut><p3><pl>/de\<v\>\<tv\><fut><p3><pl><err_orth>/de\<v\>\<tv\><gpr_fut>\<px3pl\><err_orth>$
+[/5reI_qyOEjkc]
+[Jd_MZVuncJk5#0] ^olaceklar/ol\<v\>\<iv\><fut><p3><pl>$
+[/Jd_MZVuncJk5]
+[JqPflHKdaIAL#0] ^yaşayacek/yaşa\<v\>\<iv\><gpr_fut><px3sp>/yaşa\<v\>\<iv\><fut><p3><sg>$
+[/JqPflHKdaIAL]
+[KKA2fktO3P26#0] ^gidecez/git\<v\>\<iv\><fut><p1><pl>/git\<v\>\<iv\><gpr_fut><px1pl><err_orth>/git\<v\>\<iv\><gpr_fut><px1pl><err_orth>/git\<v\>\<iv\><gpr_fut><px1pl><err_orth>/git\<v\>\<iv\><fut><p1><pl><err_orth>/git\<v\>\<iv\><fut><p1><pl><err_orth>/git\<v\>\<iv\><fut><p1><pl><err_orth>$
+[/KKA2fktO3P26]
+[LWj41ULZWSac#0] ^yaşayaceklar/yaşa\<v\>\<iv\><fut><p3><pl>$
+[/LWj41ULZWSac]
+[MMwK_UBtg6gM#0] ^olacaz/ol\<v\>\<iv\><gpr_fut><px1pl>/ol\<v\>\<iv\><fut><p1><pl>$
+[/MMwK_UBtg6gM]
+[RMzEAv5M_kl3#0] ^gidecek/git\<v\>\<iv\><fut><p3><sg>/git\<v\>\<iv\><gpr_fut><px3sp><err_orth>/git\<v\>\<iv\><gpr_fut><px3sp><err_orth>/git\<v\>\<iv\><fut><p3><sg><err_orth>/git\<v\>\<iv\><fut><p3><sg><err_orth>$
+[/RMzEAv5M_kl3]
+[TQSC_7f-FR4U#0] ^olacek/ol\<v\>\<iv\><gpr_fut><px3sp>/ol\<v\>\<iv\><fut><p3><sg>$
+[/TQSC_7f-FR4U]
+[XO6UWKqwQCRD#0] ^olacan/ol\<v\>\<iv\><gpr_fut><px2sg>/ol\<v\>\<iv\><fut><p2><sg>$
+[/XO6UWKqwQCRD]
+[Y8buraquFFzb#0] ^gideceniz/git\<v\>\<iv\><fut><p2><pl>/git\<v\>\<iv\><gpr_fut><px2pl><err_orth>/git\<v\>\<iv\><gpr_fut><px2pl><err_orth>/git\<v\>\<iv\><gpr_fut><px2pl><err_orth>/git\<v\>\<iv\><fut><p2><pl><err_orth>/git\<v\>\<iv\><fut><p2><pl><err_orth>/git\<v\>\<iv\><fut><p2><pl><err_orth>$
+[/Y8buraquFFzb]
+[_ykai2d7XlYv#0] ^deyeceniz/de\<v\>\<tv\><fut><p2><pl>/de\<v\>\<tv\><gpr_fut><px2pl><err_orth>/de\<v\>\<tv\><gpr_fut><px2pl><err_orth>/de\<v\>\<tv\><fut><p2><pl><err_orth>/de\<v\>\<tv\><fut><p2><pl><err_orth>$
+[/_ykai2d7XlYv]
+[as48Ioo8zkcQ#0] ^deyecek/de\<v\>\<tv\><fut><p3><sg>/de\<v\>\<tv\><gpr_fut><px3sp><err_orth>/de\<v\>\<tv\><fut><p3><sg><err_orth>$
+[/as48Ioo8zkcQ]
+[dWaNe3K5KEfG#0] ^yaşayacaz/yaşa\<v\>\<iv\><gpr_fut><px1pl>/yaşa\<v\>\<iv\><fut><p1><pl>$
+[/dWaNe3K5KEfG]
+[eBtZmSo7olhs#0] ^olacam/ol\<v\>\<iv\><gpr_fut><px1sg>/ol\<v\>\<iv\><fut><p1><sg>$
+[/eBtZmSo7olhs]
+[fYhG7ERMkLx1#0] ^deyecän/de\<v\>\<tv\><fut><p2><sg>/de\<v\>\<tv\><gpr_fut><px2sg><err_orth>/de\<v\>\<tv\><fut><p2><sg><err_orth>$
+[/fYhG7ERMkLx1]
+[fZPoX2WMeAHS#0] ^görecäm/gör\<v\>\<tv\><fut><p1><sg>/gör\<v\>\<tv\><gpr_fut><px1sg><err_orth>/gör\<v\>\<tv\><fut><p1><sg><err_orth>$
+[/fZPoX2WMeAHS]
+[gw5xIMqI_1jZ#0] ^yaşayacam/yaşa\<v\>\<iv\><gpr_fut><px1sg>/yaşa\<v\>\<iv\><fut><p1><sg>$
+[/gw5xIMqI_1jZ]
+[hAJ-XB3b6Co6#0] ^görecän/gör\<v\>\<tv\><fut><p2><sg>/gör\<v\>\<tv\><gpr_fut><px2sg><err_orth>/gör\<v\>\<tv\><fut><p2><sg><err_orth>$
+[/hAJ-XB3b6Co6]
+[lpg4j1XsbMIZ#0] ^göreceniz/gör\<v\>\<tv\><fut><p2><pl>/gör\<v\>\<tv\><gpr_fut><px2pl><err_orth>/gör\<v\>\<tv\><gpr_fut><px2pl><err_orth>/gör\<v\>\<tv\><fut><p2><pl><err_orth>/gör\<v\>\<tv\><fut><p2><pl><err_orth>$
+[/lpg4j1XsbMIZ]
+[mO9RYOWqZ4zG#0] ^olacanız/ol\<v\>\<iv\><gpr_fut><px2pl>/ol\<v\>\<iv\><fut><p2><pl>$
+[/mO9RYOWqZ4zG]
+[mb3EjeKdoR-h#0] ^deyecez/de\<v\>\<tv\><fut><p1><pl>/de\<v\>\<tv\><gpr_fut><px1pl><err_orth>/de\<v\>\<tv\><gpr_fut><px1pl><err_orth>/de\<v\>\<tv\><fut><p1><pl><err_orth>/de\<v\>\<tv\><fut><p1><pl><err_orth>$
+[/mb3EjeKdoR-h]
+[oRA7VBG9g7oh#0] ^gidecän/git\<v\>\<iv\><fut><p2><sg>/git\<v\>\<iv\><gpr_fut><px2sg><err_orth>/git\<v\>\<iv\><gpr_fut><px2sg><err_orth>/git\<v\>\<iv\><fut><p2><sg><err_orth>/git\<v\>\<iv\><fut><p2><sg><err_orth>$
+[/oRA7VBG9g7oh]
+[rLKdVOw3Lvk0#0] ^gideceklär/git\<v\>\<iv\><fut><p3><pl>/git\<v\>\<iv\><fut><p3><pl><err_orth>/git\<v\>\<iv\><fut><p3><pl><err_orth>/git\<v\>\<iv\><gpr_fut>\<px3pl\><err_orth>/git\<v\>\<iv\><gpr_fut>\<px3pl\><err_orth>$
+[/rLKdVOw3Lvk0]
+[tHcbcZxPEAoX#0] ^yaşayacan/yaşa\<v\>\<iv\><gpr_fut><px2sg>/yaşa\<v\>\<iv\><fut><p2><sg>$
+[/tHcbcZxPEAoX]
+[v0g5l_0s8CVR#0] ^görecez/gör\<v\>\<tv\><fut><p1><pl>/gör\<v\>\<tv\><gpr_fut><px1pl><err_orth>/gör\<v\>\<tv\><gpr_fut><px1pl><err_orth>/gör\<v\>\<tv\><fut><p1><pl><err_orth>/gör\<v\>\<tv\><fut><p1><pl><err_orth>$
+[/v0g5l_0s8CVR]
+[yoyTMpo6gvYK#0] ^görecek/gör\<v\>\<tv\><fut><p3><sg>/gör\<v\>\<tv\><gpr_fut><px3sp><err_orth>/gör\<v\>\<tv\><fut><p3><sg><err_orth>$
+[/yoyTMpo6gvYK]
+[zeDknfAeKoGL#0] ^göreceklär/gör\<v\>\<tv\><fut><p3><pl>/gör\<v\>\<tv\><fut><p3><pl><err_orth>/gör\<v\>\<tv\><gpr_fut>\<px3pl\><err_orth>$
+[/zeDknfAeKoGL]

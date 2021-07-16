@@ -1,0 +1,18 @@
+[0CHzk_2udb7u#0] ^çocuun/çocuk<n><gen>/çocuk<n><px2sg><nom>/çocuk<n><px2sg><nom>+i<cop><aor><p3><sg>$
+[/0CHzk_2udb7u]
+[5PJXv9by-XKo#0] ^babunun/babu<n><gen>/babu<n><px2sg><gen>$
+[/5PJXv9by-XKo]
+[78FZ3RPKXnsA#0] ^dilin/dil<n><gen>/dil<n><px2sg><nom>/dil<n><gen><err_orth>/dil<n><px2sg><nom><err_orth>/dil<n><px2sg><nom>+i<cop><aor><p3><sg>/dil<n><px2sg><nom>+i<cop><aor><p3><sg><err_orth>$
+[/78FZ3RPKXnsA]
+[C571-AwXF-5F#0] ^ayın/ay<n><gen>/ay<n><px2sg><nom>/ay<n><px2sg><nom>+i<cop><aor><p3><sg>$
+[/C571-AwXF-5F]
+[QQJXLmUMO8rh#0] ^kişinin/kişi<n><gen>/kişi<n><px2sg><gen>/kişi<n><gen><err_orth>/kişi<n><gen><err_orth>/kişi<n><px2sg><gen><err_orth>/kişi<n><px2sg><gen><err_orth>$
+[/QQJXLmUMO8rh]
+[UU04q1c4N3kA#0] ^köprünün/köprü<n><gen>/köprü<n><px2sg><gen>$
+[/UU04q1c4N3kA]
+[a1drZ7Iy68qR#0] ^şkolanın/şkola<n><gen>/şkola<n><px2sg><gen>$
+[/a1drZ7Iy68qR]
+[jZjtCIuo-Vyi#0] ^günün/gün<n><gen>/gün<n><px2sg><nom>/gün<n><px2sg><nom>+i<cop><aor><p3><sg>$
+[/jZjtCIuo-Vyi]
+[ojEx1XNeUFtN#0] ^rayonun/rayon<n><gen>/rayon<n><px2sg><nom>/rayon<n><px2sg><nom>+i<cop><aor><p3><sg>$
+[/ojEx1XNeUFtN]

@@ -1,0 +1,6 @@
+^bil<v><tv><neg><pres><p1><sg>$
+^bil<v><tv><neg><pres><p2><sg>$
+^bil<v><tv><neg><pres><p3><sg>$
+^bil<v><tv><neg><pres><p1><pl>$
+^bil<v><tv><neg><pres><p2><pl>$
+^bil<v><tv><neg><pres><p3><pl>$

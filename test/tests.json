@@ -1,0 +1,146 @@
+{
+  "accusative": {
+    "input": "accusative-input.txt",
+    "mode": "gag-morph"
+  },
+  "accusative-gen": {
+    "input": "accusative-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "copula": {
+    "input": "copula-input.txt",
+    "mode": "gag-morph"
+  },
+  "copula-gen": {
+    "input": "copula-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "dative": {
+    "input": "dative-input.txt",
+    "mode": "gag-morph"
+  },
+  "dative-gen": {
+    "input": "dative-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "digits": {
+    "input": "digits-input.txt",
+    "mode": "gag-morph"
+  },
+  "digits-gen": {
+    "input": "digits-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "drop-cns": {
+    "input": "drop-cns-input.txt",
+    "mode": "gag-morph"
+  },
+  "drop-cns-gen": {
+    "input": "drop-cns-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "finite": {
+    "input": "finite-input.txt",
+    "mode": "gag-morph"
+  },
+  "finite-gen": {
+    "input": "finite-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "future": {
+    "input": "future-input.txt",
+    "mode": "gag-morph"
+  },
+  "future-gen": {
+    "input": "future-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "genitive": {
+    "input": "genitive-input.txt",
+    "mode": "gag-morph"
+  },
+  "genitive-gen": {
+    "input": "genitive-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "gerunds": {
+    "input": "gerunds-input.txt",
+    "mode": "gag-morph"
+  },
+  "gerunds-gen": {
+    "input": "gerunds-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "imperative": {
+    "input": "imperative-input.txt",
+    "mode": "gag-morph"
+  },
+  "imperative-gen": {
+    "input": "imperative-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "loans": {
+    "input": "loans-input.txt",
+    "mode": "gag-morph"
+  },
+  "loans-gen": {
+    "input": "loans-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "negative": {
+    "input": "negative-input.txt",
+    "mode": "gag-morph"
+  },
+  "negative-gen": {
+    "input": "negative-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "passive": {
+    "input": "passive-input.txt",
+    "mode": "gag-morph"
+  },
+  "passive-gen": {
+    "input": "passive-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "past": {
+    "input": "past-input.txt",
+    "mode": "gag-morph"
+  },
+  "past-gen": {
+    "input": "past-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "pers-pron": {
+    "input": "pers-pron-input.txt",
+    "mode": "gag-morph"
+  },
+  "pers-pron-gen": {
+    "input": "pers-pron-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "possessives": {
+    "input": "possessives-input.txt",
+    "mode": "gag-morph"
+  },
+  "possessives-gen": {
+    "input": "possessives-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "spellrelax": {
+    "input": "spellrelax-input.txt",
+    "mode": "gag-morph"
+  },
+  "spellrelax-gen": {
+    "input": "spellrelax-gen-input.txt",
+    "mode": "gag-gener"
+  },
+  "su": {
+    "input": "su-input.txt",
+    "mode": "gag-morph"
+  },
+  "su-gen": {
+    "input": "su-gen-input.txt",
+    "mode": "gag-gener"
+  }
+}

@@ -1,0 +1,6 @@
+[I64GWKLIJNIf#0] ^sölemää/söle\<v\>\<tv\>\<ger\><dat>/söle\<v\>\<tv\>\<ger\><px3sp><nom>/söle\<v\>\<tv\>\<ger\><px3sp><nom>+i<cop><aor><p3><sg>$
+[/I64GWKLIJNIf]
+[VQGREMTUqkTm#0] ^yapmaa/yap\<v\>\<tv\>\<ger\><dat>/yap\<v\>\<tv\>\<ger\><px3sp><nom>/yap\<v\>\<tv\>\<ger\><px3sp><nom>+i<cop><aor><p3><sg>$
+[/VQGREMTUqkTm]
+[uu5UZbhIEEb-#0] ^görmää/gör\<v\>\<tv\>\<ger\><dat>/gör\<v\>\<tv\>\<ger\><px3sp><nom>/gör\<v\>\<tv\>\<ger\><px3sp><nom>+i<cop><aor><p3><sg>$
+[/uu5UZbhIEEb-]

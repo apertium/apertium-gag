@@ -1,0 +1,60 @@
+[1A2GwAaMPtw0#0] ^yapêrım/yap\<v\>\<tv\><pres><p1><sg>$
+[/1A2GwAaMPtw0]
+[2lxoUtQdGnHH#0] ^yollêêrsın/yolla\<v\>\<tv\><pres><p2><sg>$
+[/2lxoUtQdGnHH]
+[65C-LIVXyQo0#0] ^yaparsın/yap\<v\>\<tv\><aor><p2><sg>/yap\<v\>\<tv\><aor>\<imp\><p3><sg>$
+[/65C-LIVXyQo0]
+[8fWL4JfWNKMT#0] ^yollêêrız/yolla\<v\>\<tv\><pres><p1><pl>$
+[/8fWL4JfWNKMT]
+[BNqrSAR5rOMX#0] ^görärsin/gör\<v\>\<tv\><aor><p2><sg>/gör\<v\>\<tv\><aor>\<imp\><p3><sg>$
+[/BNqrSAR5rOMX]
+[CMF-UMV_W0F2#0] ^yaparlar/yap\<v\>\<tv\><aor><p3><pl>$
+[/CMF-UMV_W0F2]
+[DrqI0Uq0B0Kh#0] ^görerim/gör\<v\>\<tv\><pres><p1><sg>/gör\<v\>\<tv\><aor><p1><sg><err_orth>/gör\<v\>\<tv\><pres><p1><sg><err_orth>$
+[/DrqI0Uq0B0Kh]
+[IqU1v95j76jK#0] ^yollêêrlar/yolla\<v\>\<tv\><pres><p3><pl>$
+[/IqU1v95j76jK]
+[LX5XumorNURv#0] ^yapêrsınız/yap\<v\>\<tv\><pres><p2><pl>$
+[/LX5XumorNURv]
+[MIZpwrtwiOOg#0] ^görär/gör\<v\>\<tv\><aor><p3><sg>/gör\<v\>\<tv\>\<gpr_aor\>/gör\<v\>\<tv\><aor>\<imp\><p2><sg>$
+[/MIZpwrtwiOOg]
+[PsGS0Mj3b7uD#0] ^görärim/gör\<v\>\<tv\><aor><p1><sg>$
+[/PsGS0Mj3b7uD]
+[Vv5WkLJuPVMp#0] ^yollêêrsınız/yolla\<v\>\<tv\><pres><p2><pl>$
+[/Vv5WkLJuPVMp]
+[XDeS-Ri8k5dV#0] ^görärlär/gör\<v\>\<tv\><aor><p3><pl>$
+[/XDeS-Ri8k5dV]
+[YrPFuZtKGdC-#0] ^yaparım/yap\<v\>\<tv\><aor><p1><sg>$
+[/YrPFuZtKGdC-]
+[ZKSw3miwKpFh#0] ^göräriz/gör\<v\>\<tv\><aor><p1><pl>$
+[/ZKSw3miwKpFh]
+[bJc8nvS4wBMe#0] ^yollêêrım/yolla\<v\>\<tv\><pres><p1><sg>$
+[/bJc8nvS4wBMe]
+[d0JZGYx5omlt#0] ^yapêrlar/yap\<v\>\<tv\><pres><p3><pl>$
+[/d0JZGYx5omlt]
+[etrjX8gH3F9q#0] ^yaparız/yap\<v\>\<tv\><aor><p1><pl>$
+[/etrjX8gH3F9q]
+[fWt8FPTK4_PA#0] ^görersin/gör\<v\>\<tv\><pres><p2><sg>/gör\<v\>\<tv\><aor><p2><sg><err_orth>/gör\<v\>\<tv\><pres><p2><sg><err_orth>/gör\<v\>\<tv\><aor>\<imp\><p3><sg><err_orth>$
+[/fWt8FPTK4_PA]
+[iN-2X40Llu-Q#0] ^görerlär/gör\<v\>\<tv\><pres><p3><pl>/gör\<v\>\<tv\><aor><p3><pl><err_orth>/gör\<v\>\<tv\><pres><p3><pl><err_orth>$
+[/iN-2X40Llu-Q]
+[ixXNvB1uzceQ#0] ^yollêêr/yolla\<v\>\<tv\><pres><p3><sg>$
+[/ixXNvB1uzceQ]
+[knntJiCnExf-#0] ^yaparsınız/yap\<v\>\<tv\><aor><p2><pl>$
+[/knntJiCnExf-]
+[nfQDbSZJ5vYe#0] ^göreriz/gör\<v\>\<tv\><pres><p1><pl>/gör\<v\>\<tv\><aor><p1><pl><err_orth>/gör\<v\>\<tv\><pres><p1><pl><err_orth>$
+[/nfQDbSZJ5vYe]
+[rBrCUJ6jRvYo#0] ^yapêrız/yap\<v\>\<tv\><pres><p1><pl>$
+[/rBrCUJ6jRvYo]
+[s-k9XPgg93Jz#0] ^görersiniz/gör\<v\>\<tv\><pres><p2><pl>/gör\<v\>\<tv\><aor><p2><pl><err_orth>/gör\<v\>\<tv\><pres><p2><pl><err_orth>$
+[/s-k9XPgg93Jz]
+[sOr-I1wLYEAt#0] ^yapêr/yap\<v\>\<tv\><pres><p3><sg>$
+[/sOr-I1wLYEAt]
+[tBPdovfUQI2h#0] ^yapêrsın/yap\<v\>\<tv\><pres><p2><sg>$
+[/tBPdovfUQI2h]
+[xT7iXaIjmdJQ#0] ^yapar/yap\<v\>\<tv\><aor><p3><sg>/yap\<v\>\<tv\>\<gpr_aor\>/yap\<v\>\<tv\><aor>\<imp\><p2><sg>$
+[/xT7iXaIjmdJQ]
+[yNavb2mwcLTa#0] ^görer/gör\<v\>\<tv\><pres><p3><sg>/gör\<v\>\<tv\><aor><p3><sg><err_orth>/gör\<v\>\<tv\><pres><p3><sg><err_orth>/gör\<v\>\<tv\>\<gpr_aor\><err_orth>/gör\<v\>\<tv\><aor>\<imp\><p2><sg><err_orth>$
+[/yNavb2mwcLTa]
+[zM12g9Rs5nb8#0] ^görärsiniz/gör\<v\>\<tv\><aor><p2><pl>$
+[/zM12g9Rs5nb8]

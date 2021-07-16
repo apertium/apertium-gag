@@ -1,0 +1,6 @@
+^yap<v><tv><imp><p1><sg>$
+^yap<v><tv><imp><p2><sg>$
+^yap<v><tv><imp><p3><sg>$
+^yap<v><tv><imp><p1><pl>$
+^yap<v><tv><imp><p2><pl>$
+^yap<v><tv><imp><p3><pl>$

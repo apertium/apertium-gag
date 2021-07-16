@@ -1,0 +1,12 @@
+^su<n><nom>$
+^su<n><acc>$
+^su<n><gen>$
+^su<n><dat>$
+^su<n><loc>$
+^su<n><abl>$
+^su<n><ins>$
+^su<n><pl><nom>$
+^su<n><px3sp><acc>$
+^su<n><px3sp><gen>$
+^su<n><px3sp><dat>$
+^su<n><px3sp><abl>$

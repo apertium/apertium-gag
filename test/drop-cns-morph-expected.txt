@@ -1,0 +1,10 @@
+[4iJD8rAKnD7t#0] ^topraamızda/toprak<n><px1pl><loc>/toprak<n><px1pl><loc>+i<cop><aor><p3><sg>$
+[/4iJD8rAKnD7t]
+[88m3MrAzouC7#0] ^topraanda/toprak<n><px2sg><loc>/toprak<n><px3sp><loc>/toprak<n><px2sg><loc>+i<cop><aor><p3><sg>/toprak<n><px3sp><loc>+i<cop><aor><p3><sg>$
+[/88m3MrAzouC7]
+[RqxEFFNPX7Jj#0] ^hırsızlıı/hırsızlık<n><acc>/hırsızlık<n><px3sp><nom>/hırsızlık<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/RqxEFFNPX7Jj]
+[UJ_MFhuvn0En#0] ^topraana/toprak<n><px2sg><dat>/toprak<n><px3sp><dat>$
+[/UJ_MFhuvn0En]
+[f1S0UQqJVtRJ#0] ^topraandan/toprak<n><px2sg><abl>/toprak<n><px3sp><abl>$
+[/f1S0UQqJVtRJ]

@@ -19,3 +19,6 @@
 /config
 /tests/morphotactics/*.txt.gz
 /tests/morphotactics/*.txt.gz
+/test/*-output.txt
+/*.hfst
+/INSTALL

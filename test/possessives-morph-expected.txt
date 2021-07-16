@@ -1,0 +1,18 @@
+[1fpAD1Ap0FMp#0] ^dilimizdä/dil<n><px1pl><loc>/dil<n><px1pl><loc><err_orth>/dil<n><px1pl><loc>+i<cop><aor><p3><sg>/dil<n><px1pl><loc>+i<cop><aor><p3><sg><err_orth>$
+[/1fpAD1Ap0FMp]
+[4iJD8rAKnD7t#0] ^topraamızda/toprak<n><px1pl><loc>/toprak<n><px1pl><loc>+i<cop><aor><p3><sg>$
+[/4iJD8rAKnD7t]
+[8EQuMism55Dg#0] ^ayının/ay<n><px3sp><gen>/ay<n><px2sg><gen>$
+[/8EQuMism55Dg]
+[A4v6DuN-sqfe#0] ^çocuunun/çocuk<n><px3sp><gen>/çocuk<n><px2sg><gen>$
+[/A4v6DuN-sqfe]
+[I9f_4Jt2sJNa#0] ^çocuuna/çocuk<n><px2sg><dat>/çocuk<n><px3sp><dat>$
+[/I9f_4Jt2sJNa]
+[N2PtHRbtQD6e#0] ^rubrikamızda/rubrika<n><px1pl><loc>/rubrika<n><px1pl><loc><err_orth>/rubrika<n><px1pl><loc>+i<cop><aor><p3><sg>/rubrika<n><px1pl><loc>+i<cop><aor><p3><sg><err_orth>$
+[/N2PtHRbtQD6e]
+[PntxB_50hbF1#0] ^çocuu/çocuk<n><acc>/çocuk<n><px3sp><nom>/çocuk<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/PntxB_50hbF1]
+[fzM2NUvb7cHD#0] ^ayı/ay<n><acc>/ay<n><px3sp><nom>/ay<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/fzM2NUvb7cHD]
+[pxY6ecxmDYoT#0] ^ayına/ay<n><px2sg><dat>/ay<n><px3sp><dat>$
+[/pxY6ecxmDYoT]

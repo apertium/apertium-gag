@@ -1,0 +1,10 @@
+^çocuk<n><px3sp><nom>$
+^çocuk<n><px3sp><gen>$
+^çocuk<n><px3sp><dat>$
+^ay<n><px3sp><nom>$
+^ay<n><px3sp><gen>$
+^ay<n><px3sp><dat>$
+
+^dil<n><px1pl><loc>$
+^toprak<n><px1pl><loc>$
+^rubrika<n><px1pl><loc>$

@@ -1,0 +1,4 @@
+^şkola<n><loc>+i<cop><ifi><p3><sg>$
+^şkola<n><loc>+i<cop><ifi><p3><pl>$
+^ana<n><px3sp><nom>+i<cop><aor><p3><sg><gnl>$
+^yok<adj>+i<cop><aor><p3><sg><gnl>$

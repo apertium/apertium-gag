@@ -1,0 +1,24 @@
+[0pE4HLkXV7Cf#0] ^suyuna/su<n><px2sg><dat>/su<n><px3sp><dat>$
+[/0pE4HLkXV7Cf]
+[6yIwSF0tpy_x#0] ^sudan/su<n><abl>$
+[/6yIwSF0tpy_x]
+[8J4fibOQ5toQ#0] ^suyunun/su<n><px3sp><gen>/su<n><px2sg><gen>$
+[/8J4fibOQ5toQ]
+[CmTOEIU_Jcs9#0] ^su/su<n><nom>/su<n><attr>/su<n><nom>+i<cop><aor><p3><sg>$
+[/CmTOEIU_Jcs9]
+[H3KaWmCjFHYv#0] ^suyunu/su<n><px2sg><acc>/su<n><px3sp><acc>$
+[/H3KaWmCjFHYv]
+[L5P4o7memnrV#0] ^suda/su<n><loc>/su<n><loc>+i<cop><aor><p3><sg>$
+[/L5P4o7memnrV]
+[NtskncrSIJRc#0] ^suya/su<n><dat>$
+[/NtskncrSIJRc]
+[S07OA83YoMdU#0] ^suyun/su<n><gen>/su<n><px2sg><nom>/su<n><px2sg><nom>+i<cop><aor><p3><sg>$
+[/S07OA83YoMdU]
+[aKEQ6CI3NXw7#0] ^suylan/su<n><ins>/su<n><ins>+i<cop><aor><p3><sg>$
+[/aKEQ6CI3NXw7]
+[c4BYnjsWGDRy#0] ^suyu/su<n><acc>/su<n><px3sp><nom>/su<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/c4BYnjsWGDRy]
+[e17GOkKYU45U#0] ^suyundan/su<n><px2sg><abl>/su<n><px3sp><abl>$
+[/e17GOkKYU45U]
+[uaSw-riD4k3W#0] ^sular/su<n><nom>+i<cop><aor><p3><pl>/su<n><pl><nom>/su<n><pl><nom>+i<cop><aor><p3><sg>$
+[/uaSw-riD4k3W]

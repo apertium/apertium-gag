@@ -1,0 +1,8 @@
+[-0lP77SQeOye#0] ^yoktur/yok<adj>+i<cop><aor><p3><sg>\<gnl\>/yok<adj><subst><nom>+i<cop><aor><p3><sg>\<gnl\>/yok\<v\>\<tv\>\<caus\>\<imp\><p2><sg>$
+[/-0lP77SQeOye]
+[EVi50-mG28Rv#0] ^şkoladaydılar/şkola<n><loc>+i<cop><ifi><p3><pl>$
+[/EVi50-mG28Rv]
+[KWSf9p0w7AW7#0] ^şkoladaydı/şkola<n><loc>+i<cop><ifi><p3><sg>$
+[/KWSf9p0w7AW7]
+[VJHOlwzTdSo6#0] ^anasıydır/ana<n><px3sp><nom>+i<cop><aor><p3><sg>\<gnl\>$
+[/VJHOlwzTdSo6]

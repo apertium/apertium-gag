@@ -1,0 +1,5 @@
+^padişah<n><dat>$
+^cenk<n><dat>$
+^çocuk<n><dat>$
+^sokak<n><dat>$
+^padişahlık<n><dat>$

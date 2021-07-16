@@ -1,0 +1,4 @@
+[VMZ3vAM6eJkk#0] ^bilindi/bil\<v\>\<tv\>\<pass\><ifi><p3><sg>/bil\<v\>\<tv\>\<pass\><ifi><p3><sg><err_orth>/bil\<v\>\<tv\>\<pass\>\<gpr_past\><err_orth>/bil\<v\>\<tv\>\<pass\>\<ger_past\><nom><err_orth>/bil\<v\>\<tv\>\<pass\>\<ger_past\><nom>+i<cop><aor><p3><sg><err_orth>$
+[/VMZ3vAM6eJkk]
+[muMtTqZPKcL5#0] ^yapıldı/yap\<v\>\<tv\>\<pass\><ifi><p3><sg>/yapıl\<v\>\<iv\><ifi><p3><sg>$
+[/muMtTqZPKcL5]

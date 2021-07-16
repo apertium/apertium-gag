@@ -1,0 +1,6 @@
+^hırsızlık<n><acc>$
+^hırsızlık<n><px3sp><nom>$
+^toprak<n><px3sp><dat>$
+^toprak<n><px3sp><loc>$
+^toprak<n><px3sp><abl>$
+^toprak<n><px1pl><loc>$

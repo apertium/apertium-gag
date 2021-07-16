@@ -1,0 +1,88 @@
+[0AWmqqurTgKE#0] ^senin/sän<prn><pers><p2><sg><gen>/sän<prn><pers><p2><sg><gen><err_orth>$
+[/0AWmqqurTgKE]
+[6VeYGeYkR3r-#0] ^sizi/siz<prn><pers><p2><pl><acc>/siz<prn><pers><p2><pl><acc><err_orth>/siz<prn><pers><p2><pl><acc><err_orth>$
+[/6VeYGeYkR3r-]
+[6qL0qv87cwLH#0] ^beni/bän<prn><pers><p1><sg><acc>/bän<prn><pers><p1><sg><acc><err_orth>$
+[/6qL0qv87cwLH]
+[77GJe6xGNKZw#0] ^sendä/sän<prn><pers><p2><sg><loc>$
+[/77GJe6xGNKZw]
+[Bm2JicpjDPV7#0] ^onnarı/on<num><subst><pl><acc>/on<num><subst><pl><px3sp><nom>/onnar<prn><pers><p3><pl><acc>/on<num><subst><pl><px3sp><nom>+i<cop><aor><p3><sg>$
+[/Bm2JicpjDPV7]
+[Csk9QUyZLL7R#0] ^sendän/sän<prn><pers><p2><sg><abl>$
+[/Csk9QUyZLL7R]
+[CulBvtcR7gBn#0] ^benim/bän<prn><pers><p1><sg><gen>/bän<prn><pers><p1><sg><gen><err_orth>$
+[/CulBvtcR7gBn]
+[DJlzShLafLEO#0] ^onu/on<num><subst><acc>/on<num><subst><px3sp><nom>/o<prn><pers><p3><sg><acc>/on<num><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/DJlzShLafLEO]
+[DUdeZaeOFXCN#0] ^bendän/bän<prn><pers><p1><sg><abl>$
+[/DUdeZaeOFXCN]
+[H9C2XIieMY_7#0] ^bizimnän/biz<prn><pers><p1><pl><ins>/biz<prn><pers><p1><pl><ins><err_orth>/biz<prn><pers><p1><pl><ins><err_orth>/biz<prn><pers><p1><pl><ins>+i<cop><aor><p3><sg>/biz<prn><pers><p1><pl><ins>+i<cop><aor><p3><sg><err_orth>/biz<prn><pers><p1><pl><ins>+i<cop><aor><p3><sg><err_orth>$
+[/H9C2XIieMY_7]
+[JrEuImdSlMqX#0] ^bizi/biz<prn><pers><p1><pl><acc>/biz<prn><pers><p1><pl><acc><err_orth>/biz<prn><pers><p1><pl><acc><err_orth>$
+[/JrEuImdSlMqX]
+[L8xjdNwf5h3S#0] ^bizim/biz<prn><pers><p1><pl><gen>/biz<prn><pers><p1><pl><gen><err_orth>/biz<prn><pers><p1><pl><gen><err_orth>$
+[/L8xjdNwf5h3S]
+[LSGtGJ3In9J3#0] ^seni/sän<prn><pers><p2><sg><acc>/sän<prn><pers><p2><sg><acc><err_orth>$
+[/LSGtGJ3In9J3]
+[PPzWUweffLzH#0] ^sizinnän/siz<prn><pers><p2><pl><ins>/siz<prn><pers><p2><pl><ins><err_orth>/siz<prn><pers><p2><pl><ins><err_orth>/siz<prn><pers><p2><pl><ins>+i<cop><aor><p3><sg>/siz<prn><pers><p2><pl><ins>+i<cop><aor><p3><sg><err_orth>/siz<prn><pers><p2><pl><ins>+i<cop><aor><p3><sg><err_orth>$
+[/PPzWUweffLzH]
+[RphDFhkZtHMj#0] ^bizdän/biz<prn><pers><p1><pl><abl>/biz<prn><pers><p1><pl><abl><err_orth>$
+[/RphDFhkZtHMj]
+[SJtwD-qQQ8XC#0] ^seninnän/sän<prn><pers><p2><sg><ins>/sän<prn><pers><p2><sg><ins><err_orth>/sän<prn><pers><p2><sg><ins>+i<cop><aor><p3><sg>/sän<prn><pers><p2><sg><ins>+i<cop><aor><p3><sg><err_orth>$
+[/SJtwD-qQQ8XC]
+[TzA2mZKUsxxT#0] ^onnara/on<num><subst><pl><dat>/onnar<prn><pers><p3><pl><dat>$
+[/TzA2mZKUsxxT]
+[WBKeGbSiZCSU#0] ^onda/o<prn><dem><loc>/on<num><subst><loc>/o<prn><pers><p3><sg><loc>/on<num><subst><loc>+i<cop><aor><p3><sg>$
+[/WBKeGbSiZCSU]
+[WWQqe6XUC2bu#0] ^bana/bän<prn><pers><p1><sg><dat>$
+[/WWQqe6XUC2bu]
+[X3dxcehG7NZC#0] ^onnar/on<num><subst><nom>+i<cop><aor><p3><pl>/on<num><subst><pl><nom>/onnar<prn><pers><p3><pl><nom>/on<num><subst><pl><nom>+i<cop><aor><p3><sg>$
+[/X3dxcehG7NZC]
+[XImyRBckYNHI#0] ^bizdä/biz<prn><pers><p1><pl><loc>/biz<prn><pers><p1><pl><loc><err_orth>$
+[/XImyRBckYNHI]
+[Ydn94oQKo2O0#0] ^sän/sän<prn><pers><p2><sg><nom>$
+[/Ydn94oQKo2O0]
+[Yq6FcJjP1kL4#0] ^siz/siz<prn><pers><p2><pl><nom>/siz<prn><pers><p2><pl><nom><err_orth>$
+[/Yq6FcJjP1kL4]
+[ZP0plVS_cUtL#0] ^sen/sän<prn><pers><p2><sg><nom>$
+[/ZP0plVS_cUtL]
+[ZcdMFaaGGHu2#0] ^o/o<prn><dem><nom>/o<prn><pers><p3><sg><nom>$
+[/ZcdMFaaGGHu2]
+[ZwCGnI_3SA40#0] ^ben/bän<prn><pers><p1><sg><nom>$
+[/ZwCGnI_3SA40]
+[e1CUPas_f5L0#0] ^sana/sän<prn><pers><p2><sg><dat>$
+[/e1CUPas_f5L0]
+[e8jKyH93D3rm#0] ^onnarlan/on<num><subst><pl><ins>/onnar<prn><pers><p3><pl><ins>/on<num><subst><pl><ins>+i<cop><aor><p3><sg>/onnar<prn><pers><p3><pl><ins>+i<cop><aor><p3><sg>$
+[/e8jKyH93D3rm]
+[fA5j0Yr1kmqZ#0] ^sizdän/siz<prn><pers><p2><pl><abl>/siz<prn><pers><p2><pl><abl><err_orth>$
+[/fA5j0Yr1kmqZ]
+[fniJF42BkD-0#0] ^onunnan/o<prn><pers><p3><sg><ins>/on<num><subst><px2sg><abl>/on<num><subst><px3sp><abl>/o<prn><pers><p3><sg><ins>+i<cop><aor><p3><sg>$
+[/fniJF42BkD-0]
+[gwmxy5St7eig#0] ^sizdä/siz<prn><pers><p2><pl><loc>/siz<prn><pers><p2><pl><loc><err_orth>$
+[/gwmxy5St7eig]
+[jp1mkI9lqmcu#0] ^onnarda/on<num><subst><pl><loc>/onnar<prn><pers><p3><pl><loc>/on<num><subst><pl><loc>+i<cop><aor><p3><sg>$
+[/jp1mkI9lqmcu]
+[juCxzmA4CKHG#0] ^sizä/siz<prn><pers><p2><pl><dat>/siz<prn><pers><p2><pl><dat><err_orth>$
+[/juCxzmA4CKHG]
+[kAD9R28Cm0bI#0] ^onnardan/on<num><subst><pl><abl>/onnar<prn><pers><p3><pl><abl>$
+[/kAD9R28Cm0bI]
+[lw72E9NlChfB#0] ^benimnän/bän<prn><pers><p1><sg><ins>/bän<prn><pers><p1><sg><ins><err_orth>/bän<prn><pers><p1><sg><ins>+i<cop><aor><p3><sg>/bän<prn><pers><p1><sg><ins>+i<cop><aor><p3><sg><err_orth>$
+[/lw72E9NlChfB]
+[m92FMx51cCiN#0] ^biz/biz<prn><pers><p1><pl><nom>/biz<prn><pers><p1><pl><nom><err_orth>$
+[/m92FMx51cCiN]
+[mMRYmIEyWcMv#0] ^ondan/o<prn><dem><abl>/on<num><subst><abl>/o<prn><pers><p3><sg><abl>$
+[/mMRYmIEyWcMv]
+[pF2s-lYLeOEJ#0] ^bendä/bän<prn><pers><p1><sg><loc>$
+[/pF2s-lYLeOEJ]
+[tommUzv84Jxn#0] ^onun/o<prn><dem><gen>/on<num><subst><gen>/on<num><subst><px2sg><nom>/o<prn><pers><p3><sg><gen>/on<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/tommUzv84Jxn]
+[uH6BGpTE6Zt4#0] ^ona/on<num><subst><dat>/o<prn><dem><dat>/o<prn><pers><p3><sg><dat>$
+[/uH6BGpTE6Zt4]
+[vKXJM7BqC317#0] ^bizä/biz<prn><pers><p1><pl><dat>/biz<prn><pers><p1><pl><dat><err_orth>$
+[/vKXJM7BqC317]
+[vQ1okcIT2ucI#0] ^sizin/siz<prn><pers><p2><pl><gen>/siz<prn><pers><p2><pl><gen><err_orth>/siz<prn><pers><p2><pl><gen><err_orth>$
+[/vQ1okcIT2ucI]
+[wBmYm4kWPzjN#0] ^bän/bän<prn><pers><p1><sg><nom>$
+[/wBmYm4kWPzjN]
+[zEV3snzbAkuu#0] ^onnarın/on<num><subst><pl><gen>/on<num><subst><pl><px2sg><nom>/onnar<prn><pers><p3><pl><gen>/on<num><subst><pl><px2sg><nom>+i<cop><aor><p3><sg>$
+[/zEV3snzbAkuu]

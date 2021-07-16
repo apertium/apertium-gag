@@ -1,0 +1,3 @@
+^baş<n><nom>$
+^operaţiya<n><nom>$
+^Şveţiya<np><top><nom>$

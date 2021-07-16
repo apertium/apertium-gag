@@ -1,0 +1,9 @@
+^ay<n><gen>$
+^şkola<n><gen>$
+^dil<n><gen>$
+^kişi<n><gen>$
+^rayon<n><gen>$
+^babu<n><gen>$
+^gün<n><gen>$
+^köprü<n><gen>$
+^çocuk<n><gen>$
